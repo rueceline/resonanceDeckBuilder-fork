@@ -101,7 +101,8 @@ Import deck codes copied in-game, edit them on the site, and export them back in
 
 ## 🧪 향후 계획 (TODO)
 
-- 당분간 큰 기능 업데이트 없음(취업해야됨)
+- DB 업데이트
+- DB public/assets 구조로 변경
 
 ---
 
