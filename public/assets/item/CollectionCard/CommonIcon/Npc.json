@@ -1,0 +1,82 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5833018095569713451
+  },
+  "m_Name": "NPC",
+  "m_Version": 3,
+  "m_AnimClip": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Locked": 0,
+  "m_Muted": 0,
+  "m_CustomPlayableFullTypename": "",
+  "m_Curves": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Parent": {
+    "m_FileID": 0,
+    "m_PathID": -1857518281790834044
+  },
+  "m_Children": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7523725334722918758
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -762928403304389551
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 202151034275301211
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8703165777948669349
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -8323004457887776213
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 6970735127985607267
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 5266141100927076883
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7639782561134799132
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4787051000708637021
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 9146979513128450583
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -316269765995465820
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -6396464464606111681
+    }
+  ],
+  "m_Clips": [],
+  "m_Markers": {
+    "m_Objects": []
+  }
+}
