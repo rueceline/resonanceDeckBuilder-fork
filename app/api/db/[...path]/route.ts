@@ -1,48 +1,44 @@
-import { type NextRequest, NextResponse } from "next/server"
-import fs from "fs"
+import fs from "fs/promises"
 import path from "path"
+import { NextResponse } from "next/server"
 
-export async function GET(request: NextRequest, { params }: { params: { path: string[] } }) {
-  try {
-    // 요청된 경로 가져오기
-    const filePath = params.path.join("/")
+// fs 사용하므로 Node 런타임 고정
+export const runtime = "nodejs"
 
-    // 실제 파일 경로 구성
-    const fullPath = path.join(process.cwd(), "public", "db", filePath)
-
-    // 파일 존재 여부 확인
-    if (!fs.existsSync(fullPath)) {
-      return new NextResponse(JSON.stringify({ error: "File not found" }), {
-        status: 404,
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-    }
-
-    // 파일 읽기
-    const fileContent = fs.readFileSync(fullPath, "utf8")
-
-    // JSON 파싱 시도
-    try {
-      const jsonData = JSON.parse(fileContent)
-      return NextResponse.json(jsonData)
-    } catch (e) {
-      // JSON이 아닌 경우 텍스트로 반환
-      return new NextResponse(fileContent, {
-        headers: {
-          "Content-Type": "text/plain",
-        },
-      })
-    }
-  } catch (error) {
-    console.error("Error reading file:", error)
-    return new NextResponse(JSON.stringify({ error: "Internal server error" }), {
-      status: 500,
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-  }
+type RouteContext = {
+  params: Promise<{
+    path: string[]
+  }>
 }
 
+export async function GET(
+  request: Request,
+  context: RouteContext
+) {
+  try {
+    // ✅ params는 반드시 await
+    const { path: segments } = await context.params
+
+    if (!segments || segments.length === 0) {
+      return NextResponse.json(
+        { error: "Invalid path" },
+        { status: 400 }
+      )
+    }
+
+    const filePath = segments.join("/")
+    const fullPath = path.join(process.cwd(), "public", "db", filePath)
+
+    const data = await fs.readFile(fullPath)
+
+    return new NextResponse(data)
+  } catch (err: any) {
+    return NextResponse.json(
+      {
+        error: "Not found",
+        detail: err?.message ?? String(err),
+      },
+      { status: 404 }
+    )
+  }
+}

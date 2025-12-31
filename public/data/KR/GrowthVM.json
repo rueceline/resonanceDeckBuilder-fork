@@ -1,0 +1,1478 @@
+{
+  "12000108": {
+    "id": 12000108,
+    "idCN": "02装备/帝国装备/炽焰侵蚀者",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 42000
+  },
+  "12000109": {
+    "id": 12000109,
+    "idCN": "02装备/学会装备/逻各斯之眼",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5920000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000110": {
+    "id": 12000110,
+    "idCN": "02装备/学会装备/古老偏方三八面体",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5720000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000124": {
+    "id": 12000124,
+    "idCN": "02装备/铁盟装备/狩猎左轮",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 28000
+  },
+  "12000125": {
+    "id": 12000125,
+    "idCN": "02装备/铁盟装备/荒野猎刀",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 28000
+  },
+  "12000126": {
+    "id": 12000126,
+    "idCN": "02装备/铁盟装备/急救护甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 28000,
+    "gAtk_SN": 0
+  },
+  "12000127": {
+    "id": 12000127,
+    "idCN": "02装备/铁盟装备/黑石护甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 46000,
+    "gAtk_SN": 0
+  },
+  "12000128": {
+    "id": 12000128,
+    "idCN": "02装备/铁盟装备/升构手术器",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4800000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000129": {
+    "id": 12000129,
+    "idCN": "02装备/铁盟装备/核子辐射",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 55000
+  },
+  "12000130": {
+    "id": 12000130,
+    "idCN": "02装备/铁盟装备/老兵步枪",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 36000
+  },
+  "12000131": {
+    "id": 12000131,
+    "idCN": "02装备/铁盟装备/高热量军粮",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3400000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000132": {
+    "id": 12000132,
+    "idCN": "02装备/铁盟装备/β世界线之盒",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5400000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000133": {
+    "id": 12000133,
+    "idCN": "02装备/铁盟装备/特浓功能饮料",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3000000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000134": {
+    "id": 12000134,
+    "idCN": "02装备/铁盟装备/破片套",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3200000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000135": {
+    "id": 12000135,
+    "idCN": "02装备/铁盟装备/简并黑石",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 46000
+  },
+  "12000136": {
+    "id": 12000136,
+    "idCN": "02装备/铁盟装备/清醒梦纤维",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 55000,
+    "gAtk_SN": 0
+  },
+  "12000137": {
+    "id": 12000137,
+    "idCN": "02装备/ANITA装备/A77航天手枪",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 28000
+  },
+  "12000138": {
+    "id": 12000138,
+    "idCN": "02装备/铁盟装备/世界团结",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 55000
+  },
+  "12000139": {
+    "id": 12000139,
+    "idCN": "02装备/铁盟装备/动力伐木斧",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 36000
+  },
+  "12000140": {
+    "id": 12000140,
+    "idCN": "02装备/铁盟装备/北阵防御纤维",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 36000,
+    "gAtk_SN": 0
+  },
+  "12000141": {
+    "id": 12000141,
+    "idCN": "02装备/铁盟装备/动能回收器",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3800000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000142": {
+    "id": 12000142,
+    "idCN": "02装备/铁盟装备/延展时间线",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 46000
+  },
+  "12000143": {
+    "id": 12000143,
+    "idCN": "02装备/ANITA装备/万用起子",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 28000
+  },
+  "12000144": {
+    "id": 12000144,
+    "idCN": "02装备/ANITA装备/非金属材料镀层",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 28000,
+    "gAtk_SN": 0
+  },
+  "12000145": {
+    "id": 12000145,
+    "idCN": "02装备/ANITA装备/便携除颤器",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3150000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000146": {
+    "id": 12000146,
+    "idCN": "02装备/ANITA装备/唤雷线圈MK1",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 35000
+  },
+  "12000147": {
+    "id": 12000147,
+    "idCN": "02装备/ANITA装备/内脏采集器MK0",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 35000
+  },
+  "12000148": {
+    "id": 12000148,
+    "idCN": "02装备/ANITA装备/共振体纤维",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 35000,
+    "gAtk_SN": 0
+  },
+  "12000149": {
+    "id": 12000149,
+    "idCN": "02装备/ANITA装备/“极坐标”指挥无人机",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3500000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000150": {
+    "id": 12000150,
+    "idCN": "02装备/ANITA装备/逆熵严冬",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 42000
+  },
+  "12000151": {
+    "id": 12000151,
+    "idCN": "02装备/ANITA装备/活火熔岩",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 42000
+  },
+  "12000152": {
+    "id": 12000152,
+    "idCN": "02装备/ANITA装备/模拟星辰",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 42000,
+    "gAtk_SN": 0
+  },
+  "12000153": {
+    "id": 12000153,
+    "idCN": "02装备/ANITA装备/单极磁星",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4900000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000154": {
+    "id": 12000154,
+    "idCN": "02装备/ANITA装备/放逐代码",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 55000
+  },
+  "12000155": {
+    "id": 12000155,
+    "idCN": "02装备/ANITA装备/空间切线",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 54000
+  },
+  "12000156": {
+    "id": 12000156,
+    "idCN": "02装备/ANITA装备/错峰出行",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 56000,
+    "gAtk_SN": 0
+  },
+  "12000157": {
+    "id": 12000157,
+    "idCN": "02装备/ANITA装备/伪神低语",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5600000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000158": {
+    "id": 12000158,
+    "idCN": "02装备/学会装备/质量投射器",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 30000
+  },
+  "12000159": {
+    "id": 12000159,
+    "idCN": "02装备/学会装备/二号玩具",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 30000
+  },
+  "12000160": {
+    "id": 12000160,
+    "idCN": "02装备/学会装备/标准防御纤维",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 30000,
+    "gAtk_SN": 0
+  },
+  "12000161": {
+    "id": 12000161,
+    "idCN": "02装备/学会装备/提神醒脑仪",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3200000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000162": {
+    "id": 12000162,
+    "idCN": "02装备/学会装备/御敌闪光器",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 36000
+  },
+  "12000163": {
+    "id": 12000163,
+    "idCN": "02装备/学会装备/解剖工具C",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 36000
+  },
+  "12000164": {
+    "id": 12000164,
+    "idCN": "02装备/学会装备/御险金属",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 39000,
+    "gAtk_SN": 0
+  },
+  "12000165": {
+    "id": 12000165,
+    "idCN": "02装备/学会装备/无意识学习装置",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4000000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000166": {
+    "id": 12000166,
+    "idCN": "02装备/学会装备/狡诈背叛",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 39000
+  },
+  "12000167": {
+    "id": 12000167,
+    "idCN": "02装备/学会装备/不可见之触",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 52000
+  },
+  "12000168": {
+    "id": 12000168,
+    "idCN": "02装备/学会装备/高维构造体",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 48000,
+    "gAtk_SN": 0
+  },
+  "12000169": {
+    "id": 12000169,
+    "idCN": "02装备/学会装备/万变眼眸",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5200000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000170": {
+    "id": 12000170,
+    "idCN": "02装备/学会装备/原型临界不测兵器",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 54000
+  },
+  "12000171": {
+    "id": 12000171,
+    "idCN": "02装备/学会装备/悔恨之钩",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 52000
+  },
+  "12000172": {
+    "id": 12000172,
+    "idCN": "02装备/学会装备/赦免织物",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 52000,
+    "gAtk_SN": 0
+  },
+  "12000173": {
+    "id": 12000173,
+    "idCN": "02装备/学会装备/超因果之骰",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5600000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000174": {
+    "id": 12000174,
+    "idCN": "02装备/黑月装备/黑月毒镖",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 29000
+  },
+  "12000175": {
+    "id": 12000175,
+    "idCN": "02装备/黑月装备/鱼肠短刀",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 29000
+  },
+  "12000176": {
+    "id": 12000176,
+    "idCN": "02装备/黑月装备/西装凯夫拉",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 29000,
+    "gAtk_SN": 0
+  },
+  "12000177": {
+    "id": 12000177,
+    "idCN": "02装备/黑月装备/黑月烟雾弹",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3300000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000178": {
+    "id": 12000178,
+    "idCN": "02装备/黑月装备/“罪证”折叠狙击步枪",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 37000
+  },
+  "12000179": {
+    "id": 12000179,
+    "idCN": "02装备/黑月装备/“清算”手杖剑",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 37000
+  },
+  "12000180": {
+    "id": 12000180,
+    "idCN": "02装备/黑月装备/热光学迷彩",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 37000,
+    "gAtk_SN": 0
+  },
+  "12000181": {
+    "id": 12000181,
+    "idCN": "02装备/黑月装备/“四翼妖龙”狙击无人机",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3900000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000182": {
+    "id": 12000182,
+    "idCN": "02装备/黑月装备/灵狐名弓",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 45000
+  },
+  "12000183": {
+    "id": 12000183,
+    "idCN": "02装备/黑月装备/雾夜流星",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 45000
+  },
+  "12000184": {
+    "id": 12000184,
+    "idCN": "02装备/黑月装备/天王宝铠",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 48000,
+    "gAtk_SN": 0
+  },
+  "12000185": {
+    "id": 12000185,
+    "idCN": "02装备/黑月装备/春秋合诚印",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5000000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000186": {
+    "id": 12000186,
+    "idCN": "02装备/黑月装备/天龙揽月锁",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 54000
+  },
+  "12000187": {
+    "id": 12000187,
+    "idCN": "02装备/黑月装备/奔雷破影剑",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 54000
+  },
+  "12000188": {
+    "id": 12000188,
+    "idCN": "02装备/黑月装备/回风轻烟甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 54000,
+    "gAtk_SN": 0
+  },
+  "12000189": {
+    "id": 12000189,
+    "idCN": "02装备/黑月装备/月落红云宝玺",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 6000000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000190": {
+    "id": 12000190,
+    "idCN": "02装备/帝国装备/引魔法杖",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 27000
+  },
+  "12000191": {
+    "id": 12000191,
+    "idCN": "02装备/帝国装备/附魔短剑",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 27000
+  },
+  "12000192": {
+    "id": 12000192,
+    "idCN": "02装备/帝国装备/红铜护甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 26000,
+    "gAtk_SN": 0
+  },
+  "12000193": {
+    "id": 12000193,
+    "idCN": "02装备/帝国装备/猫纹章",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3330000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000194": {
+    "id": 12000194,
+    "idCN": "02装备/帝国装备/光明之愿",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 37000
+  },
+  "12000195": {
+    "id": 12000195,
+    "idCN": "02装备/帝国装备/良夜远星",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 37000
+  },
+  "12000196": {
+    "id": 12000196,
+    "idCN": "02装备/帝国装备/异界星光",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 37000,
+    "gAtk_SN": 0
+  },
+  "12000197": {
+    "id": 12000197,
+    "idCN": "02装备/帝国装备/狮子纹章",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3650000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000198": {
+    "id": 12000198,
+    "idCN": "02装备/帝国装备/光芒追击者",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 47000
+  },
+  "12000199": {
+    "id": 12000199,
+    "idCN": "02装备/帝国装备/暗夜寻星",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 42000
+  },
+  "12000200": {
+    "id": 12000200,
+    "idCN": "02装备/帝国装备/花园守护",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 50000,
+    "gAtk_SN": 0
+  },
+  "12000201": {
+    "id": 12000201,
+    "idCN": "02装备/帝国装备/星核余烬",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5000000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000202": {
+    "id": 12000202,
+    "idCN": "02装备/帝国装备/外界星辰",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 56000
+  },
+  "12000203": {
+    "id": 12000203,
+    "idCN": "02装备/帝国装备/内向延展",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 61000
+  },
+  "12000204": {
+    "id": 12000204,
+    "idCN": "02装备/帝国装备/黎明回音",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 56000,
+    "gAtk_SN": 0
+  },
+  "12000205": {
+    "id": 12000205,
+    "idCN": "02装备/帝国装备/月神誓约",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 6240000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000206": {
+    "id": 12000206,
+    "idCN": "02装备/杂牌装备/胡尔顿气球",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5300000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000207": {
+    "id": 12000207,
+    "idCN": "02装备/学会装备/临界质量",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 39000
+  },
+  "12000208": {
+    "id": 12000208,
+    "idCN": "02装备/杂牌装备/阿古纳托",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 50000
+  },
+  "12000209": {
+    "id": 12000209,
+    "idCN": "02装备/帝国装备/七弦弓",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 49000
+  },
+  "12000210": {
+    "id": 12000210,
+    "idCN": "02装备/杂牌装备/北方荆棘",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 46000
+  },
+  "12000211": {
+    "id": 12000211,
+    "idCN": "02装备/帝国装备/野心",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 49000
+  },
+  "12000212": {
+    "id": 12000212,
+    "idCN": "02装备/帝国装备/雷神",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 46000
+  },
+  "12000213": {
+    "id": 12000213,
+    "idCN": "02装备/帝国装备/火山",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 46000
+  },
+  "12000214": {
+    "id": 12000214,
+    "idCN": "02装备/杂牌装备/哈里森装置",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3100000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000215": {
+    "id": 12000215,
+    "idCN": "02装备/杂牌装备/接功铁锅",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 2900000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000216": {
+    "id": 12000216,
+    "idCN": "02装备/杂牌装备/锡纸帽",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3250000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000217": {
+    "id": 12000217,
+    "idCN": "02装备/杂牌装备/掐人中抢救器",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3750000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000218": {
+    "id": 12000218,
+    "idCN": "02装备/杂牌装备/N射线枪",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 31000
+  },
+  "12000219": {
+    "id": 12000219,
+    "idCN": "02装备/杂牌装备/克里安照相机",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4150000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000220": {
+    "id": 12000220,
+    "idCN": "02装备/杂牌装备/探宝枪",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 53000
+  },
+  "12000221": {
+    "id": 12000221,
+    "idCN": "02装备/杂牌装备/紫色星期四",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 36000
+  },
+  "12000222": {
+    "id": 12000222,
+    "idCN": "02装备/杂牌装备/洛克维尔金属",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 27000,
+    "gAtk_SN": 0
+  },
+  "12000223": {
+    "id": 12000223,
+    "idCN": "02装备/杂牌装备/催眠怀表",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4350000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000224": {
+    "id": 12000224,
+    "idCN": "02装备/帝国装备/灵泉",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 3750000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000225": {
+    "id": 12000225,
+    "idCN": "02装备/ANITA装备/莫比乌斯",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4440000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000226": {
+    "id": 12000226,
+    "idCN": "02装备/ANITA装备/二级相变",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 56000
+  },
+  "12000361": {
+    "id": 12000361,
+    "idCN": "02装备/铁盟装备/缩退炸弹3号",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 55000
+  },
+  "12000369": {
+    "id": 12000369,
+    "idCN": "02装备/ANITA装备/蓝色虚幻",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 56000
+  },
+  "12000375": {
+    "id": 12000375,
+    "idCN": "02装备/黑月装备/靡草龙雀",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 56000
+  },
+  "12000381": {
+    "id": 12000381,
+    "idCN": "02装备/学会装备/断剑之火",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 56000
+  },
+  "12000386": {
+    "id": 12000386,
+    "idCN": "02装备/杂牌装备/仙人掌板甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 53000,
+    "gAtk_SN": 0
+  },
+  "12000387": {
+    "id": 12000387,
+    "idCN": "02装备/杂牌装备/鹅制发射器",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 57000
+  },
+  "12000410": {
+    "id": 12000410,
+    "idCN": "02装备/杂牌装备/113号没收物品",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5650000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000411": {
+    "id": 12000411,
+    "idCN": "02装备/杂牌装备/抗拒从严",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 48000
+  },
+  "12000412": {
+    "id": 12000412,
+    "idCN": "02装备/杂牌装备/违禁工艺品",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 45000
+  },
+  "12000419": {
+    "id": 12000419,
+    "idCN": "02装备/学会装备/深海探针",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 44000
+  },
+  "12000420": {
+    "id": 12000420,
+    "idCN": "02装备/学会装备/星弧波纹",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 42000
+  },
+  "12000421": {
+    "id": 12000421,
+    "idCN": "02装备/学会装备/无限非概率护甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 48000,
+    "gAtk_SN": 0
+  },
+  "12000425": {
+    "id": 12000425,
+    "idCN": "02装备/杂牌装备/雷击深眠木甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 47000,
+    "gAtk_SN": 0
+  },
+  "12000426": {
+    "id": 12000426,
+    "idCN": "02装备/杂牌装备/雷击深眠木剑",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 47000
+  },
+  "12000427": {
+    "id": 12000427,
+    "idCN": "02装备/黑月装备/内存清心咒",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 45000,
+    "gAtk_SN": 0
+  },
+  "12000428": {
+    "id": 12000428,
+    "idCN": "02装备/黑月装备/五雷供电符",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 42000
+  },
+  "12000430": {
+    "id": 12000430,
+    "idCN": "02装备/黑月装备/战术风水无人机",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4800000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000431": {
+    "id": 12000431,
+    "idCN": "02装备/黑月装备/八方伏龙阵",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5600000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000432": {
+    "id": 12000432,
+    "idCN": "02装备/杂牌装备/百万超磁体",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5600000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000433": {
+    "id": 12000433,
+    "idCN": "02装备/杂牌装备/雷击深眠木护符",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4700000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000434": {
+    "id": 12000434,
+    "idCN": "02装备/黑月装备/紫霄宝甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 54000,
+    "gAtk_SN": 0
+  },
+  "12000435": {
+    "id": 12000435,
+    "idCN": "02装备/黑月装备/身代勾玉",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 6300000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000436": {
+    "id": 12000436,
+    "idCN": "02装备/杂牌装备/谎话纸条",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4550000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000440": {
+    "id": 12000440,
+    "idCN": "02装备/学会装备/艾尔摩之火",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 48000
+  },
+  "12000441": {
+    "id": 12000441,
+    "idCN": "02装备/帝国装备/梦境偷渡",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 6000000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000442": {
+    "id": 12000442,
+    "idCN": "02装备/帝国装备/双星法杖",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 49100
+  },
+  "12000443": {
+    "id": 12000443,
+    "idCN": "02装备/铁盟装备/治愈防弹衣",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 45000,
+    "gAtk_SN": 0
+  },
+  "12000444": {
+    "id": 12000444,
+    "idCN": "02装备/铁盟装备/阻燃护甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 48000,
+    "gAtk_SN": 0
+  },
+  "12000445": {
+    "id": 12000445,
+    "idCN": "02装备/黑月装备/黑月叛忍护额",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 48000,
+    "gAtk_SN": 0
+  },
+  "12000446": {
+    "id": 12000446,
+    "idCN": "02装备/ANITA装备/绝缘护甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 48000,
+    "gAtk_SN": 0
+  },
+  "12000447": {
+    "id": 12000447,
+    "idCN": "02装备/帝国装备/魔抗护甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 48000,
+    "gAtk_SN": 0
+  },
+  "12000448": {
+    "id": 12000448,
+    "idCN": "02装备/学会装备/外部记忆矩阵",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 48000,
+    "gAtk_SN": 0
+  },
+  "12000449": {
+    "id": 12000449,
+    "idCN": "02装备/学会装备/璀璨星石",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 6400000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000450": {
+    "id": 12000450,
+    "idCN": "02装备/帝国装备/奥尼兰法杖",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 48000
+  },
+  "12000451": {
+    "id": 12000451,
+    "idCN": "02装备/黑月装备/天罡伏魔剑",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 48000
+  },
+  "12000452": {
+    "id": 12000452,
+    "idCN": "02装备/ANITA装备/光谱破碎",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 48000
+  },
+  "12000453": {
+    "id": 12000453,
+    "idCN": "02装备/铁盟装备/液氮喷射器",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 48000
+  },
+  "12000454": {
+    "id": 12000454,
+    "idCN": "02装备/学会装备/尼克塔尔最后解",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 49000
+  },
+  "12000455": {
+    "id": 12000455,
+    "idCN": "02装备/ANITA装备/球状闪电",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 47000
+  },
+  "12000459": {
+    "id": 12000459,
+    "idCN": "02装备/杂牌装备/急冻护甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 48000,
+    "gAtk_SN": 0
+  },
+  "12000460": {
+    "id": 12000460,
+    "idCN": "02装备/学会装备/克拉尼弧光",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4800000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000478": {
+    "id": 12000478,
+    "idCN": "02装备/学会装备/深红谶言",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 42000,
+    "gAtk_SN": 0
+  },
+  "12000479": {
+    "id": 12000479,
+    "idCN": "02装备/黑月装备/机神甲胄",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 45000,
+    "gAtk_SN": 0
+  },
+  "12000480": {
+    "id": 12000480,
+    "idCN": "02装备/杂牌装备/不休陀螺",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 5880000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000496": {
+    "id": 12000496,
+    "idCN": "02装备/帝国装备/被封印的四重灾厄",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4600000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000500": {
+    "id": 12000500,
+    "idCN": "02装备/帝国装备/复活石",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 6660000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000501": {
+    "id": 12000501,
+    "idCN": "02装备/帝国装备/凤凰尾羽",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 60000
+  },
+  "12000502": {
+    "id": 12000502,
+    "idCN": "02装备/帝国装备/使魔护具",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 46000,
+    "gAtk_SN": 0
+  },
+  "12000503": {
+    "id": 12000503,
+    "idCN": "02装备/帝国装备/逆位斗篷",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 60000,
+    "gAtk_SN": 0
+  },
+  "12000504": {
+    "id": 12000504,
+    "idCN": "02装备/学会装备/祖父反应装甲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 56000,
+    "gAtk_SN": 0
+  },
+  "12000512": {
+    "id": 12000512,
+    "idCN": "02装备/学会装备/自抛光餐刀",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 46000
+  },
+  "12000540": {
+    "id": 12000540,
+    "idCN": "02装备/帝国装备/无尽焚灭",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 45000
+  },
+  "12000543": {
+    "id": 12000543,
+    "idCN": "02装备/帝国装备/受缚之风",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 47000,
+    "gAtk_SN": 0
+  },
+  "12000545": {
+    "id": 12000545,
+    "idCN": "02装备/学会装备/圣裁螺旋",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 63000
+  },
+  "12000561": {
+    "id": 12000561,
+    "idCN": "02装备/ANITA装备/快速请假糖",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4200000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  "12000562": {
+    "id": 12000562,
+    "idCN": "02装备/学会装备/返魂光弧",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 44000,
+    "gAtk_SN": 0
+  },
+  "12000563": {
+    "id": 12000563,
+    "idCN": "02装备/学会装备/百万吨启示",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 44000
+  },
+  "12000564": {
+    "id": 12000564,
+    "idCN": "02装备/帝国装备/命运之重",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 4000000,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  }
+}

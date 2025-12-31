@@ -6,7 +6,6 @@ import { TopBar } from "./top-bar"
 import { CharacterWindow } from "./character-window"
 import { SkillWindow } from "./skill-window"
 import { BattleSettings } from "./battle-settings"
-import { CommentsSection } from "./comments-section"
 import { useToast } from "./toast-notification"
 import { useDeckBuilder } from "../hooks/deck-builder/index"
 import { useLanguage } from "../contexts/language-context"
@@ -732,8 +731,6 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
         <span className="hidden sm:inline">·</span>
         <span className="hidden sm:inline">GPLv3</span>
       </div>
-      {/* 댓글 섹션 */}
-      <CommentsSection currentLanguage={currentLanguage} />
 
       {/* 덱 저장 모달 */}
       <SaveDeckModal

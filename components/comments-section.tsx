@@ -4,22 +4,6 @@
 import { useEffect, useState, useRef } from "react"
 import { v4 as uuidv4 } from "uuid"
 import { Trash2, Clock, Edit2, X, Check, ChevronDown } from "lucide-react"
-import {
-  addDoc,
-  collection,
-  serverTimestamp,
-  query,
-  orderBy,
-  doc,
-  deleteDoc,
-  updateDoc,
-  limit,
-  startAfter,
-  getDocs,
-  type QueryDocumentSnapshot,
-  type DocumentData,
-} from "firebase/firestore"
-import { db } from "../lib/firebase-config"
 import { useLanguage } from "../contexts/language-context"
 
 interface Comment {
