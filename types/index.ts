@@ -21,6 +21,7 @@ export interface Character {
   desc?: string
   rarity?: string
   homeSkillList?: Array<{ id: string; resonanceLv: number; param?: number }>
+  roleListResUrl?: string
 }
 
 // Card Types
@@ -30,8 +31,8 @@ export interface Card {
   color?: string
   cardType?: string
   ownerId?: number
-  idCn?: string // Added for checking neutral cards
-  tagList?: string[] // Added for status effects
+  idCn?: string
+  tagList?: string[]
   ExCondList?: Array<{
     condId?: number
     des?: number
@@ -46,6 +47,9 @@ export interface Card {
     des?: number
     typeEnum?: string
   }>
+  iconPath?: string
+  img_url?: string
+  cost_SN?: number
 }
 
 // Skill Types
@@ -60,6 +64,8 @@ export interface Skill {
   }>
   cardID?: number | null
   leaderCardConditionDesc?: string
+  iconPath?: string
+  img_url?: string
 }
 
 // Breakthrough Types
@@ -68,6 +74,8 @@ export interface Breakthrough {
   name: string
   desc: string
   attributeList: any[]
+  path?: string
+  img_url?: string
 }
 
 // Talent Types
@@ -81,6 +89,8 @@ export interface Talent {
     tag: string
     value_SN: number
   }> | null
+  path?: string
+  img_url?: string
 }
 
 // HomeSkill Types
@@ -89,11 +99,6 @@ export interface HomeSkill {
   name: string
   desc: string
   param?: number
-}
-
-// Image Database Type
-export interface ImageDatabase {
-  [key: string]: string
 }
 
 // Language Types
@@ -117,12 +122,11 @@ export interface Preset {
   otherCard: number
 }
 
-// Update the PresetCard interface to make skillIndex optional
 export interface PresetCard {
   id: string
   ownerId?: number
   skillId?: number
-  skillIndex?: number // Now optional
+  skillIndex?: number
   targetType?: number
   useType: number
   useParam: number
@@ -137,10 +141,11 @@ export interface Equipment {
   des: string
   equipTagId: number
   quality: string
-  type?: string // weapon, armor, accessory
+  type?: string
   url?: string
+  tipsPath?: string
   skillList?: Array<{ skillId: number }>
-  Getway?: Array<{ DisplayName: string }> // 획득 방법 배열 추가
+  Getway?: Array<{ DisplayName: string }>
 }
 
 // Equipment Type Mapping
@@ -155,7 +160,6 @@ export interface Database {
   skills: Record<string, Skill>
   breakthroughs: Record<string, Breakthrough>
   talents: Record<string, Talent>
-  images: ImageDatabase
   languages: Languages
   equipments?: Record<string, Equipment>
   equipmentTypes?: EquipmentTypeMapping

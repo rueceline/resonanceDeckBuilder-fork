@@ -135,11 +135,13 @@ export function useCards(data: Database | null) {
 
           // 이미지 URL 찾기
           let img_url = undefined
-          if (data?.images) {
-            if (data.images[`card_${cardId}`]) {
-              img_url = data.images[`card_${cardId}`]
-            } else if (skillId !== -1 && data.images[`skill_${skillId}`]) {
-              img_url = data.images[`skill_${skillId}`]
+          const cardRec = data?.cards?.[String(cardId)]
+          if (cardRec && cardRec.img_url) {
+            img_url = cardRec.img_url
+          } else if (skillId !== -1) {
+            const skillRec = data?.skills?.[String(skillId)]
+            if (skillRec && skillRec.img_url) {
+              img_url = skillRec.img_url
             }
           }
 

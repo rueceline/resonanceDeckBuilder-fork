@@ -85,31 +85,24 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
   // URL을 통해 덱 프리셋을 받아올 때 ownerId를 char_db에서 검색하여 카드에 캐릭터 초상화 표시 로직 개선
 
   // findCharacterImageForCard 함수를 수정하여 더 강력하게 만들기
-  const findCharacterImageForCard = useCallback(
+    const findCharacterImageForCard = useCallback(
     (card: any) => {
       if (!data || !card) {
-        return "images/placeHolder Card.jpg" // 기본 이미지 경로
+        return "images/placeHolder Card.jpg"
       }
 
-      // 카드에 ownerId가 있고 유효한지 확인
       if (card.ownerId && card.ownerId !== -1) {
-        // 1. 이미지 데이터베이스에서 char_{ownerId} 키로 직접 찾기
-        if (data.images && data.images[`char_${card.ownerId}`]) {
-          return data.images[`char_${card.ownerId}`]
-        }
-
-        // 2. 캐릭터 객체에서 img_card 속성 찾기
         const character = data.characters[card.ownerId.toString()]
         if (character && character.img_card) {
           return character.img_card
         }
       }
 
-      // ownerId가 없거나 이미지를 찾을 수 없으면 기본 이미지 반환
       return "images/placeHolder Card.jpg"
     },
     [data],
   )
+
 
   // URL에서 코드 파라미터 처리 - 비동기 함수 사용 문제 해결
   useEffect(() => {
@@ -300,8 +293,8 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
         }
 
         // 카드 ID에 해당하는 이미지 URL 찾기
-        if (data.images && data.images[`card_${id}`]) {
-          extraInfo.img_url = data.images[`card_${id}`]
+        if (card.img_url) {
+          extraInfo.img_url = card.img_url
         }
 
         // 스킬 ID를 통해 추가 정보 찾기
@@ -320,9 +313,10 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
             skillObj = skill
 
             // 스킬 이미지 URL 찾기
-            if (data.images && data.images[`skill_${sId}`]) {
-              extraInfo.img_url = data.images[`skill_${sId}`]
+            if (skill.img_url) {
+              extraInfo.img_url = skill.img_url
             }
+            
             break
           }
         }

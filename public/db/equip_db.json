@@ -3,6 +3,7 @@
     "id": 11800001,
     "name": "equip_name_11800001",
     "des": "equip_des_11800001",
+    "tipsPath": "Item/weapon/Xuehui/Big/18.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -24,6 +25,7 @@
     "id": 11800002,
     "name": "equip_name_11800002",
     "des": "equip_des_11800002",
+    "tipsPath": "Item/weapon/Diguo/Big/10.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -58,6 +60,7 @@
     "id": 11800003,
     "name": "equip_name_11800003",
     "des": "equip_des_11800003",
+    "tipsPath": "Item/weapon/Xuehui/Big/19.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -79,6 +82,7 @@
     "id": 11800006,
     "name": "equip_name_11800006",
     "des": "equip_des_11800006",
+    "tipsPath": "Item/weapon/Anita/Big/19.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -100,6 +104,7 @@
     "id": 11800007,
     "name": "equip_name_11800007",
     "des": "equip_des_11800007",
+    "tipsPath": "Item/weapon/Heiyue/Big/17.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -121,6 +126,7 @@
     "id": 11800008,
     "name": "equip_name_11800008",
     "des": "equip_des_11800008",
+    "tipsPath": "Item/weapon/Tiemeng/Big/20.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -142,6 +148,7 @@
     "id": 11800009,
     "name": "equip_name_11800009",
     "des": "equip_des_11800009",
+    "tipsPath": "Item/weapon/Xuehui/Big/20.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -163,6 +170,7 @@
     "id": 11800011,
     "name": "equip_name_11800011",
     "des": "equip_des_11800011",
+    "tipsPath": "Item/weapon/zapai/Big/25.png",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -184,6 +192,7 @@
     "id": 11800012,
     "name": "equip_name_11800012",
     "des": "equip_des_11800012",
+    "tipsPath": "Item/weapon/Heiyue/Big/21.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -240,6 +249,7 @@
     "id": 11800013,
     "name": "equip_name_11800013",
     "des": "equip_des_11800013",
+    "tipsPath": "Item/weapon/zapai/Big/23.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -261,6 +271,7 @@
     "id": 11800014,
     "name": "equip_name_11800014",
     "des": "equip_des_11800014",
+    "tipsPath": "Item/weapon/zapai/Big/26.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -303,6 +314,7 @@
     "id": 11800015,
     "name": "equip_name_11800015",
     "des": "equip_des_11800015",
+    "tipsPath": "Item/weapon/Heiyue/Big/23.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -366,6 +378,7 @@
     "id": 11800016,
     "name": "equip_name_11800016",
     "des": "equip_des_11800016",
+    "tipsPath": "Item/weapon/Heiyue/Big/22.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -429,6 +442,7 @@
     "id": 11800017,
     "name": "equip_name_11800017",
     "des": "equip_des_11800017",
+    "tipsPath": "Item/weapon/Heiyue/Big/20.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -471,6 +485,7 @@
     "id": 11800018,
     "name": "equip_name_11800018",
     "des": "equip_des_11800018",
+    "tipsPath": "Item/weapon/Heiyue/Big/18.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -492,6 +507,7 @@
     "id": 11800019,
     "name": "equip_name_11800019",
     "des": "equip_des_11800019",
+    "tipsPath": "Item/weapon/Heiyue/Big/19.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -534,6 +550,7 @@
     "id": 11800020,
     "name": "equip_name_11800020",
     "des": "equip_des_11800020",
+    "tipsPath": "Item/weapon/zapai/Big/28.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -569,6 +586,7 @@
     "id": 11800021,
     "name": "equip_name_11800021",
     "des": "equip_des_11800021",
+    "tipsPath": "Item/weapon/Diguo/Big/31.png",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -590,6 +608,7 @@
     "id": 11800022,
     "name": "equip_name_11800022",
     "des": "equip_des_11800022",
+    "tipsPath": "Item/weapon/Tiemeng/Big/21.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -611,6 +630,7 @@
     "id": 11800024,
     "name": "equip_name_11800024",
     "des": "equip_des_11800024",
+    "tipsPath": "Item/weapon/zapai/Big/24.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -653,6 +673,7 @@
     "id": 11800027,
     "name": "equip_name_11800027",
     "des": "equip_des_11800027",
+    "tipsPath": "Item/weapon/Xuehui/Big/28.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -702,6 +723,7 @@
     "id": 11800028,
     "name": "equip_name_11800028",
     "des": "equip_des_11800028",
+    "tipsPath": "Item/weapon/Tiemeng/Big/01.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -765,6 +787,7 @@
     "id": 11800029,
     "name": "equip_name_11800029",
     "des": "equip_des_11800029",
+    "tipsPath": "Item/weapon/Xuehui/Big/21.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -814,6 +837,7 @@
     "id": 11800030,
     "name": "equip_name_11800030",
     "des": "equip_des_11800030",
+    "tipsPath": "Item/weapon/Tiemeng/Big/12.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -877,6 +901,7 @@
     "id": 11800031,
     "name": "equip_name_11800031",
     "des": "equip_des_11800031",
+    "tipsPath": "Item/weapon/Xuehui/Big/23.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -926,6 +951,7 @@
     "id": 11800032,
     "name": "equip_name_11800032",
     "des": "equip_des_11800032",
+    "tipsPath": "Item/weapon/Tiemeng/Big/17.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -947,6 +973,7 @@
     "id": 11800033,
     "name": "equip_name_11800033",
     "des": "equip_des_11800033",
+    "tipsPath": "Item/weapon/Xuehui/Big/22.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -996,6 +1023,7 @@
     "id": 11800034,
     "name": "equip_name_11800034",
     "des": "equip_des_11800034",
+    "tipsPath": "Item/weapon/Tiemeng/Big/19.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -1017,6 +1045,7 @@
     "id": 11800035,
     "name": "equip_name_11800035",
     "des": "equip_des_11800035",
+    "tipsPath": "Item/weapon/Anita/Big/01.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1073,6 +1102,7 @@
     "id": 11800036,
     "name": "equip_name_11800036",
     "des": "equip_des_11800036",
+    "tipsPath": "Item/weapon/Xuehui/Big/01.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1122,6 +1152,7 @@
     "id": 11800037,
     "name": "equip_name_11800037",
     "des": "equip_des_11800037",
+    "tipsPath": "Item/weapon/Diguo/Big/01.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1156,6 +1187,7 @@
     "id": 11800038,
     "name": "equip_name_11800038",
     "des": "equip_des_11800038",
+    "tipsPath": "Item/weapon/Heiyue/Big/01.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1212,6 +1244,7 @@
     "id": 11800039,
     "name": "equip_name_11800039",
     "des": "equip_des_11800039",
+    "tipsPath": "Item/weapon/Anita/Big/02.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1268,6 +1301,7 @@
     "id": 11800040,
     "name": "equip_name_11800040",
     "des": "equip_des_11800040",
+    "tipsPath": "Item/weapon/Xuehui/Big/30.png",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -1289,6 +1323,7 @@
     "id": 11800041,
     "name": "equip_name_11800041",
     "des": "equip_des_11800041",
+    "tipsPath": "Item/weapon/Tiemeng/Big/22.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -1310,6 +1345,7 @@
     "id": 11800042,
     "name": "equip_name_11800042",
     "des": "equip_des_11800042",
+    "tipsPath": "Item/weapon/zapai/Big/27.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -1352,6 +1388,7 @@
     "id": 11800043,
     "name": "equip_name_11800043",
     "des": "equip_des_11800043",
+    "tipsPath": "Item/weapon/Tiemeng/Big/02.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1415,6 +1452,7 @@
     "id": 11800044,
     "name": "equip_name_11800044",
     "des": "equip_des_11800044",
+    "tipsPath": "Item/weapon/Tiemeng/Big/04.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -1478,6 +1516,7 @@
     "id": 11800045,
     "name": "equip_name_11800045",
     "des": "equip_des_11800045",
+    "tipsPath": "Item/weapon/Tiemeng/Big/15.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -1499,6 +1538,7 @@
     "id": 11800046,
     "name": "equip_name_11800046",
     "des": "equip_des_11800046",
+    "tipsPath": "Item/weapon/Tiemeng/Big/05.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -1562,6 +1602,7 @@
     "id": 11800047,
     "name": "equip_name_11800047",
     "des": "equip_des_11800047",
+    "tipsPath": "Item/weapon/Tiemeng/Big/06.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -1625,6 +1666,7 @@
     "id": 11800048,
     "name": "equip_name_11800048",
     "des": "equip_des_11800048",
+    "tipsPath": "Item/weapon/Tiemeng/Big/16.png",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -1646,6 +1688,7 @@
     "id": 11800049,
     "name": "equip_name_11800049",
     "des": "equip_des_11800049",
+    "tipsPath": "Item/weapon/Heiyue/Big/24.png",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -1667,6 +1710,7 @@
     "id": 11800050,
     "name": "equip_name_11800050",
     "des": "equip_des_11800050",
+    "tipsPath": "Item/weapon/Heiyue/Big/27.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -1688,6 +1732,7 @@
     "id": 11800051,
     "name": "equip_name_11800051",
     "des": "equip_des_11800051",
+    "tipsPath": "Item/weapon/zapai/Big/30.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -1723,6 +1768,7 @@
     "id": 11800052,
     "name": "equip_name_11800052",
     "des": "equip_des_11800052",
+    "tipsPath": "Item/weapon/Xuehui/Big/29.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -1772,6 +1818,7 @@
     "id": 11800054,
     "name": "equip_name_11800054",
     "des": "equip_des_11800054",
+    "tipsPath": "Item/weapon/Tiemeng/Big/23.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -1835,6 +1882,7 @@
     "id": 11800055,
     "name": "equip_name_11800055",
     "des": "equip_des_11800055",
+    "tipsPath": "Item/weapon/Tiemeng/Big/25.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -1898,6 +1946,7 @@
     "id": 11800056,
     "name": "equip_name_11800056",
     "des": "equip_des_11800056",
+    "tipsPath": "Item/weapon/Heiyue/Big/25.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -1954,6 +2003,7 @@
     "id": 11800057,
     "name": "equip_name_11800057",
     "des": "equip_des_11800057",
+    "tipsPath": "Item/weapon/Anita/Big/22.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -2003,6 +2053,7 @@
     "id": 11800058,
     "name": "equip_name_11800058",
     "des": "equip_des_11800058",
+    "tipsPath": "Item/weapon/Diguo/Big/25.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -2037,6 +2088,7 @@
     "id": 11800059,
     "name": "equip_name_11800059",
     "des": "equip_des_11800059",
+    "tipsPath": "Item/weapon/Xuehui/Big/26.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -2086,6 +2138,7 @@
     "id": 11800060,
     "name": "equip_name_11800060",
     "des": "equip_des_11800060",
+    "tipsPath": "Item/weapon/Xuehui/Big/24.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -2107,6 +2160,7 @@
     "id": 11800061,
     "name": "equip_name_11800061",
     "des": "equip_des_11800061",
+    "tipsPath": "Item/weapon/Diguo/Big/24.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2141,6 +2195,7 @@
     "id": 11800062,
     "name": "equip_name_11800062",
     "des": "equip_des_11800062",
+    "tipsPath": "Item/weapon/Heiyue/Big/26.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2197,6 +2252,7 @@
     "id": 11800063,
     "name": "equip_name_11800063",
     "des": "equip_des_11800063",
+    "tipsPath": "Item/weapon/Anita/Big/23.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2246,6 +2302,7 @@
     "id": 11800064,
     "name": "equip_name_11800064",
     "des": "equip_des_11800064",
+    "tipsPath": "Item/weapon/Tiemeng/Big/24.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2309,6 +2366,7 @@
     "id": 11800065,
     "name": "equip_name_11800065",
     "des": "equip_des_11800065",
+    "tipsPath": "Item/weapon/Xuehui/Big/25.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2358,6 +2416,7 @@
     "id": 11800066,
     "name": "equip_name_11800066",
     "des": "equip_des_11800066",
+    "tipsPath": "Item/weapon/Anita/Big/21.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2407,6 +2466,7 @@
     "id": 11800067,
     "name": "equip_name_11800067",
     "des": "equip_des_11800067",
+    "tipsPath": "Item/weapon/Xuehui/Big/27.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -2456,6 +2516,7 @@
     "id": 11800068,
     "name": "equip_name_11800068",
     "des": "equip_des_11800068",
+    "tipsPath": "Item/weapon/Heiyue/Big/28.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -2512,6 +2573,7 @@
     "id": 11800078,
     "name": "equip_name_11800078",
     "des": "equip_des_11800078",
+    "tipsPath": "Item/weapon/Diguo/Big/26.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -2546,6 +2608,7 @@
     "id": 11800079,
     "name": "equip_name_11800079",
     "des": "equip_des_11800079",
+    "tipsPath": "Item/weapon/Diguo/Big/27.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -2567,6 +2630,7 @@
     "id": 11800080,
     "name": "equip_name_11800080",
     "des": "equip_des_11800080",
+    "tipsPath": "Item/weapon/Diguo/Big/28.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -2588,6 +2652,7 @@
     "id": 11800081,
     "name": "equip_name_11800081",
     "des": "equip_des_11800081",
+    "tipsPath": "Item/weapon/Diguo/Big/29.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -2622,6 +2687,7 @@
     "id": 11800084,
     "name": "equip_name_11800084",
     "des": "equip_des_11800084",
+    "tipsPath": "Item/weapon/Xuehui/Big/33.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2671,6 +2737,7 @@
     "id": 11800089,
     "name": "equip_name_11800089",
     "des": "equip_des_11800089",
+    "tipsPath": "Item/weapon/Diguo/Big/32.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2705,6 +2772,7 @@
     "id": 11800090,
     "name": "equip_name_11800090",
     "des": "equip_des_11800090",
+    "tipsPath": "Item/weapon/Diguo/Big/33.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -2739,6 +2807,7 @@
     "id": 11800091,
     "name": "equip_name_11800091",
     "des": "equip_des_11800091",
+    "tipsPath": "Item/weapon/Xuehui/Big/31.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -2760,6 +2829,7 @@
     "id": 11800092,
     "name": "equip_name_11800092",
     "des": "equip_des_11800092",
+    "tipsPath": "Item/weapon/Anita/Big/24.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -2809,6 +2879,7 @@
     "id": 11800093,
     "name": "equip_name_11800093",
     "des": "equip_des_11800093",
+    "tipsPath": "Item/weapon/Xuehui/Big/34.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -2858,6 +2929,7 @@
     "id": 11800094,
     "name": "equip_name_11800094",
     "des": "equip_des_11800094",
+    "tipsPath": "Item/weapon/Xuehui/Big/32.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2907,6 +2979,7 @@
     "id": 11800095,
     "name": "equip_name_11800095",
     "des": "equip_des_11800095",
+    "tipsPath": "Item/weapon/Diguo/Big/34.png",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -2941,6 +3014,7 @@
     "id": 11800096,
     "name": "equip_name_11800096",
     "des": "equip_des_11800096",
+    "tipsPath": "Item/weapon/Tiemeng/Big/07.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -3004,6 +3078,7 @@
     "id": 11800098,
     "name": "equip_name_11800098",
     "des": "equip_des_11800098",
+    "tipsPath": "Item/weapon/Tiemeng/Big/08.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -3067,6 +3142,7 @@
     "id": 11800102,
     "name": "equip_name_11800102",
     "des": "equip_des_11800102",
+    "tipsPath": "Item/weapon/Tiemeng/Big/09.png",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -3130,6 +3206,7 @@
     "id": 11800103,
     "name": "equip_name_11800103",
     "des": "equip_des_11800103",
+    "tipsPath": "Item/weapon/Tiemeng/Big/10.png",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -3193,6 +3270,7 @@
     "id": 11800104,
     "name": "equip_name_11800104",
     "des": "equip_des_11800104",
+    "tipsPath": "Item/weapon/Tiemeng/Big/11.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3256,6 +3334,7 @@
     "id": 11800105,
     "name": "equip_name_11800105",
     "des": "equip_des_11800105",
+    "tipsPath": "Item/weapon/Tiemeng/Big/13.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -3319,6 +3398,7 @@
     "id": 11800106,
     "name": "equip_name_11800106",
     "des": "equip_des_11800106",
+    "tipsPath": "Item/weapon/Tiemeng/Big/14.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -3382,6 +3462,7 @@
     "id": 11800107,
     "name": "equip_name_11800107",
     "des": "equip_des_11800107",
+    "tipsPath": "Item/weapon/Tiemeng/Big/03.png",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -3445,6 +3526,7 @@
     "id": 11800237,
     "name": "equip_name_11800237",
     "des": "equip_des_11800237",
+    "tipsPath": "Item/weapon/Anita/Big/03.png",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -3501,6 +3583,7 @@
     "id": 11800238,
     "name": "equip_name_11800238",
     "des": "equip_des_11800238",
+    "tipsPath": "Item/weapon/Anita/Big/04.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -3557,6 +3640,7 @@
     "id": 11800239,
     "name": "equip_name_11800239",
     "des": "equip_des_11800239",
+    "tipsPath": "Item/weapon/Anita/Big/05.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -3613,6 +3697,7 @@
     "id": 11800240,
     "name": "equip_name_11800240",
     "des": "equip_des_11800240",
+    "tipsPath": "Item/weapon/Anita/Big/06.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -3676,6 +3761,7 @@
     "id": 11800241,
     "name": "equip_name_11800241",
     "des": "equip_des_11800241",
+    "tipsPath": "Item/weapon/Anita/Big/07.png",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -3732,6 +3818,7 @@
     "id": 11800242,
     "name": "equip_name_11800242",
     "des": "equip_des_11800242",
+    "tipsPath": "Item/weapon/Anita/Big/08.png",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -3788,6 +3875,7 @@
     "id": 11800243,
     "name": "equip_name_11800243",
     "des": "equip_des_11800243",
+    "tipsPath": "Item/weapon/Anita/Big/09.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3837,6 +3925,7 @@
     "id": 11800244,
     "name": "equip_name_11800244",
     "des": "equip_des_11800244",
+    "tipsPath": "Item/weapon/Anita/Big/10.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3886,6 +3975,7 @@
     "id": 11800245,
     "name": "equip_name_11800245",
     "des": "equip_des_11800245",
+    "tipsPath": "Item/weapon/Anita/Big/11.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -3942,6 +4032,7 @@
     "id": 11800246,
     "name": "equip_name_11800246",
     "des": "equip_des_11800246",
+    "tipsPath": "Item/weapon/Anita/Big/12.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -3991,6 +4082,7 @@
     "id": 11800247,
     "name": "equip_name_11800247",
     "des": "equip_des_11800247",
+    "tipsPath": "Item/weapon/Anita/Big/13.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4012,6 +4104,7 @@
     "id": 11800248,
     "name": "equip_name_11800248",
     "des": "equip_des_11800248",
+    "tipsPath": "Item/weapon/Anita/Big/14.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4033,6 +4126,7 @@
     "id": 11800249,
     "name": "equip_name_11800249",
     "des": "equip_des_11800249",
+    "tipsPath": "Item/weapon/Anita/Big/16.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -4054,6 +4148,7 @@
     "id": 11800250,
     "name": "equip_name_11800250",
     "des": "equip_des_11800250",
+    "tipsPath": "Item/weapon/Xuehui/Big/02.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -4103,6 +4198,7 @@
     "id": 11800251,
     "name": "equip_name_11800251",
     "des": "equip_des_11800251",
+    "tipsPath": "Item/weapon/Xuehui/Big/03.png",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -4152,6 +4248,7 @@
     "id": 11800252,
     "name": "equip_name_11800252",
     "des": "equip_des_11800252",
+    "tipsPath": "Item/weapon/Xuehui/Big/04.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -4201,6 +4298,7 @@
     "id": 11800253,
     "name": "equip_name_11800253",
     "des": "equip_des_11800253",
+    "tipsPath": "Item/weapon/Xuehui/Big/05.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -4250,6 +4348,7 @@
     "id": 11800254,
     "name": "equip_name_11800254",
     "des": "equip_des_11800254",
+    "tipsPath": "Item/weapon/Xuehui/Big/06.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -4299,6 +4398,7 @@
     "id": 11800255,
     "name": "equip_name_11800255",
     "des": "equip_des_11800255",
+    "tipsPath": "Item/weapon/Xuehui/Big/07.png",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -4348,6 +4448,7 @@
     "id": 11800256,
     "name": "equip_name_11800256",
     "des": "equip_des_11800256",
+    "tipsPath": "Item/weapon/Xuehui/Big/08.png",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -4397,6 +4498,7 @@
     "id": 11800257,
     "name": "equip_name_11800257",
     "des": "equip_des_11800257",
+    "tipsPath": "Item/weapon/Xuehui/Big/09.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4446,6 +4548,7 @@
     "id": 11800258,
     "name": "equip_name_11800258",
     "des": "equip_des_11800258",
+    "tipsPath": "Item/weapon/Xuehui/Big/10.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4495,6 +4598,7 @@
     "id": 11800259,
     "name": "equip_name_11800259",
     "des": "equip_des_11800259",
+    "tipsPath": "Item/weapon/Xuehui/Big/11.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -4544,6 +4648,7 @@
     "id": 11800260,
     "name": "equip_name_11800260",
     "des": "equip_des_11800260",
+    "tipsPath": "Item/weapon/Xuehui/Big/12.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -4593,6 +4698,7 @@
     "id": 11800261,
     "name": "equip_name_11800261",
     "des": "equip_des_11800261",
+    "tipsPath": "Item/weapon/Xuehui/Big/13.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4614,6 +4720,7 @@
     "id": 11800262,
     "name": "equip_name_11800262",
     "des": "equip_des_11800262",
+    "tipsPath": "Item/weapon/Xuehui/Big/14.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4635,6 +4742,7 @@
     "id": 11800263,
     "name": "equip_name_11800263",
     "des": "equip_des_11800263",
+    "tipsPath": "Item/weapon/Xuehui/Big/15.png",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -4656,6 +4764,7 @@
     "id": 11800264,
     "name": "equip_name_11800264",
     "des": "equip_des_11800264",
+    "tipsPath": "Item/weapon/Xuehui/Big/16.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -4677,6 +4786,7 @@
     "id": 11800265,
     "name": "equip_name_11800265",
     "des": "equip_des_11800265",
+    "tipsPath": "Item/weapon/Diguo/Big/02.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -4711,6 +4821,7 @@
     "id": 11800266,
     "name": "equip_name_11800266",
     "des": "equip_des_11800266",
+    "tipsPath": "Item/weapon/Diguo/Big/03.png",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -4745,6 +4856,7 @@
     "id": 11800267,
     "name": "equip_name_11800267",
     "des": "equip_des_11800267",
+    "tipsPath": "Item/weapon/Diguo/Big/04.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -4779,6 +4891,7 @@
     "id": 11800268,
     "name": "equip_name_11800268",
     "des": "equip_des_11800268",
+    "tipsPath": "Item/weapon/Diguo/Big/05.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -4813,6 +4926,7 @@
     "id": 11800269,
     "name": "equip_name_11800269",
     "des": "equip_des_11800269",
+    "tipsPath": "Item/weapon/Diguo/Big/06.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -4847,6 +4961,7 @@
     "id": 11800270,
     "name": "equip_name_11800270",
     "des": "equip_des_11800270",
+    "tipsPath": "Item/weapon/Diguo/Big/07.png",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -4881,6 +4996,7 @@
     "id": 11800271,
     "name": "equip_name_11800271",
     "des": "equip_des_11800271",
+    "tipsPath": "Item/weapon/Diguo/Big/08.png",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -4915,6 +5031,7 @@
     "id": 11800272,
     "name": "equip_name_11800272",
     "des": "equip_des_11800272",
+    "tipsPath": "Item/weapon/Diguo/Big/09.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4949,6 +5066,7 @@
     "id": 11800273,
     "name": "equip_name_11800273",
     "des": "equip_des_11800273",
+    "tipsPath": "Item/weapon/Diguo/Big/11.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4983,6 +5101,7 @@
     "id": 11800274,
     "name": "equip_name_11800274",
     "des": "equip_des_11800274",
+    "tipsPath": "Item/weapon/Diguo/Big/12.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5017,6 +5136,7 @@
     "id": 11800275,
     "name": "equip_name_11800275",
     "des": "equip_des_11800275",
+    "tipsPath": "Item/weapon/Diguo/Big/13.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -5051,6 +5171,7 @@
     "id": 11800276,
     "name": "equip_name_11800276",
     "des": "equip_des_11800276",
+    "tipsPath": "Item/weapon/Diguo/Big/14.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -5072,6 +5193,7 @@
     "id": 11800278,
     "name": "equip_name_11800278",
     "des": "equip_des_11800278",
+    "tipsPath": "Item/weapon/Diguo/Big/17.png",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -5093,6 +5215,7 @@
     "id": 11800279,
     "name": "equip_name_11800279",
     "des": "equip_des_11800279",
+    "tipsPath": "Item/weapon/Diguo/Big/18.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -5114,6 +5237,7 @@
     "id": 11800280,
     "name": "equip_name_11800280",
     "des": "equip_des_11800280",
+    "tipsPath": "Item/weapon/Heiyue/Big/02.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -5170,6 +5294,7 @@
     "id": 11800281,
     "name": "equip_name_11800281",
     "des": "equip_des_11800281",
+    "tipsPath": "Item/weapon/Heiyue/Big/03.png",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -5226,6 +5351,7 @@
     "id": 11800282,
     "name": "equip_name_11800282",
     "des": "equip_des_11800282",
+    "tipsPath": "Item/weapon/Heiyue/Big/04.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -5282,6 +5408,7 @@
     "id": 11800283,
     "name": "equip_name_11800283",
     "des": "equip_des_11800283",
+    "tipsPath": "Item/weapon/Heiyue/Big/05.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -5338,6 +5465,7 @@
     "id": 11800284,
     "name": "equip_name_11800284",
     "des": "equip_des_11800284",
+    "tipsPath": "Item/weapon/Heiyue/Big/06.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -5394,6 +5522,7 @@
     "id": 11800285,
     "name": "equip_name_11800285",
     "des": "equip_des_11800285",
+    "tipsPath": "Item/weapon/Heiyue/Big/07.png",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -5450,6 +5579,7 @@
     "id": 11800286,
     "name": "equip_name_11800286",
     "des": "equip_des_11800286",
+    "tipsPath": "Item/weapon/Heiyue/Big/08.png",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -5506,6 +5636,7 @@
     "id": 11800287,
     "name": "equip_name_11800287",
     "des": "equip_des_11800287",
+    "tipsPath": "Item/weapon/Heiyue/Big/09.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5569,6 +5700,7 @@
     "id": 11800288,
     "name": "equip_name_11800288",
     "des": "equip_des_11800288",
+    "tipsPath": "Item/weapon/Heiyue/Big/10.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5625,6 +5757,7 @@
     "id": 11800289,
     "name": "equip_name_11800289",
     "des": "equip_des_11800289",
+    "tipsPath": "Item/weapon/Heiyue/Big/11.png",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5681,6 +5814,7 @@
     "id": 11800290,
     "name": "equip_name_11800290",
     "des": "equip_des_11800290",
+    "tipsPath": "Item/weapon/Heiyue/Big/12.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -5737,6 +5871,7 @@
     "id": 11800291,
     "name": "equip_name_11800291",
     "des": "equip_des_11800291",
+    "tipsPath": "Item/weapon/Heiyue/Big/13.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -5758,6 +5893,7 @@
     "id": 11800292,
     "name": "equip_name_11800292",
     "des": "equip_des_11800292",
+    "tipsPath": "Item/weapon/Heiyue/Big/14.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -5779,6 +5915,7 @@
     "id": 11800293,
     "name": "equip_name_11800293",
     "des": "equip_des_11800293",
+    "tipsPath": "Item/weapon/Heiyue/Big/15.png",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -5800,6 +5937,7 @@
     "id": 11800294,
     "name": "equip_name_11800294",
     "des": "equip_des_11800294",
+    "tipsPath": "Item/weapon/Heiyue/Big/16.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -5821,6 +5959,7 @@
     "id": 11800295,
     "name": "equip_name_11800295",
     "des": "equip_des_11800295",
+    "tipsPath": "Item/weapon/Anita/Big/15.png",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -5842,6 +5981,7 @@
     "id": 11800296,
     "name": "equip_name_11800296",
     "des": "equip_des_11800296",
+    "tipsPath": "Item/weapon/zapai/Big/01.png",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -5863,6 +6003,7 @@
     "id": 11800297,
     "name": "equip_name_11800297",
     "des": "equip_des_11800297",
+    "tipsPath": "Item/weapon/Xuehui/Big/17.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -5912,6 +6053,7 @@
     "id": 11800298,
     "name": "equip_name_11800298",
     "des": "equip_des_11800298",
+    "tipsPath": "Item/weapon/zapai/Big/10.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5947,6 +6089,7 @@
     "id": 11800299,
     "name": "equip_name_11800299",
     "des": "equip_des_11800299",
+    "tipsPath": "Item/weapon/Diguo/Big/21.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5981,6 +6124,7 @@
     "id": 11800300,
     "name": "equip_name_11800300",
     "des": "equip_des_11800300",
+    "tipsPath": "Item/weapon/zapai/Big/11.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -6016,6 +6160,7 @@
     "id": 11800301,
     "name": "equip_name_11800301",
     "des": "equip_des_11800301",
+    "tipsPath": "Item/weapon/Diguo/Big/22.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -6050,6 +6195,7 @@
     "id": 11800302,
     "name": "equip_name_11800302",
     "des": "equip_des_11800302",
+    "tipsPath": "Item/weapon/Diguo/Big/20.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -6084,6 +6230,7 @@
     "id": 11800303,
     "name": "equip_name_11800303",
     "des": "equip_des_11800303",
+    "tipsPath": "Item/weapon/Diguo/Big/19.png",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -6118,6 +6265,7 @@
     "id": 11800304,
     "name": "equip_name_11800304",
     "des": "equip_des_11800304",
+    "tipsPath": "Item/weapon/zapai/Big/09.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -6160,6 +6308,7 @@
     "id": 11800305,
     "name": "equip_name_11800305",
     "des": "equip_des_11800305",
+    "tipsPath": "Item/weapon/zapai/Big/02.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -6202,6 +6351,7 @@
     "id": 11800306,
     "name": "equip_name_11800306",
     "des": "equip_des_11800306",
+    "tipsPath": "Item/weapon/zapai/Big/03.png",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -6244,6 +6394,7 @@
     "id": 11800307,
     "name": "equip_name_11800307",
     "des": "equip_des_11800307",
+    "tipsPath": "Item/weapon/zapai/Big/04.png",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -6286,6 +6437,7 @@
     "id": 11800308,
     "name": "equip_name_11800308",
     "des": "equip_des_11800308",
+    "tipsPath": "Item/weapon/zapai/Big/05.png",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -6328,6 +6480,7 @@
     "id": 11800309,
     "name": "equip_name_11800309",
     "des": "equip_des_11800309",
+    "tipsPath": "Item/weapon/zapai/Big/06.png",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -6370,6 +6523,7 @@
     "id": 11800310,
     "name": "equip_name_11800310",
     "des": "equip_des_11800310",
+    "tipsPath": "Item/weapon/zapai/Big/22.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -6391,6 +6545,7 @@
     "id": 11800311,
     "name": "equip_name_11800311",
     "des": "equip_des_11800311",
+    "tipsPath": "Item/weapon/zapai/Big/07.png",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -6433,6 +6588,7 @@
     "id": 11800312,
     "name": "equip_name_11800312",
     "des": "equip_des_11800312",
+    "tipsPath": "Item/weapon/zapai/Big/08.png",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -6475,6 +6631,7 @@
     "id": 11800313,
     "name": "equip_name_11800313",
     "des": "equip_des_11800313",
+    "tipsPath": "Item/weapon/zapai/Big/17.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -6510,6 +6667,7 @@
     "id": 11800314,
     "name": "equip_name_11800314",
     "des": "equip_des_11800314",
+    "tipsPath": "Item/weapon/Diguo/Big/23.png",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -6544,6 +6702,7 @@
     "id": 11800315,
     "name": "equip_name_11800315",
     "des": "equip_des_11800315",
+    "tipsPath": "Item/weapon/Anita/Big/18.png",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -6593,6 +6752,7 @@
     "id": 11800316,
     "name": "equip_name_11800316",
     "des": "equip_des_11800316",
+    "tipsPath": "Item/weapon/Anita/Big/17.png",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [

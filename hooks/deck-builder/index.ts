@@ -829,8 +829,8 @@ export function useDeckBuilder(data: Database | null) {
         }
 
         // 카드 ID에 해당하는 이미지 URL 찾기
-        if (data.images && data.images[`card_${id}`]) {
-          extraInfo.img_url = data.images[`card_${id}`]
+        if (card && card.img_url) {
+          extraInfo.img_url = card.img_url
         }
 
         // 스킬 ID를 통해 추가 정보 찾기
@@ -849,9 +849,10 @@ export function useDeckBuilder(data: Database | null) {
             skillObj = skill
 
             // 스킬 이미지 URL 찾기
-            if (data.images && data.images[`skill_${sId}`]) {
-              extraInfo.img_url = data.images[`skill_${sId}`]
+            if (skill && skill.img_url) {
+              extraInfo.img_url = skill.img_url
             }
+            
             break
           }
         }

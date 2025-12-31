@@ -16,6 +16,16 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | null>(null)
 
+async function fetchJson(path: string) {
+  try {
+    const res = await fetch(path);
+    if (!res.ok) return null
+    return await res.json()
+  } catch {
+    return null
+  }
+}
+
 export function LanguageProvider({
   children,
   initialLanguage,
@@ -27,51 +37,59 @@ export function LanguageProvider({
 }) {
   const [currentLanguage, setCurrentLanguage] = useState(initialLanguage)
   const [isChangingLanguage, setIsChangingLanguage] = useState(false)
+
+  // DB 번역(/public/db/lang_xx.json)과 UI 번역(/public/lang/lang_xx.json) 분리
+  const [dbDict, setDbDict] = useState<Record<string, string>>({})
+  const [uiDict, setUiDict] = useState<Record<string, string>>({})
+
   const router = useRouter()
 
   // supportedLanguages 배열에 'tw' 추가
   const supportedLanguages = ["ko", "en", "jp", "cn", "tw"]
 
-  // 언어 데이터 동적 로딩
+  // 언어팩 로딩: UI(lang) + DB(db) 분리 로드
   useEffect(() => {
-    async function loadLanguageData() {
-      if (!data) return
+    let cancelled = false
 
-      // 이미 해당 언어 데이터가 있으면 로드하지 않음
-      if (data.languages[currentLanguage]) return
+    async function loadLangPacks() {
+      // 1) DB 번역
+      //    - data.languages에 이미 있으면 그걸 우선 사용
+      //    - 없으면 public/db에서 로드
+      const existingDb = (data && data.languages && data.languages[currentLanguage]) as
+        | Record<string, string>
+        | undefined
 
-      try {
-        // 언어 파일 경로 수정 - 실제 API 경로에 맞게 조정
-        const langResponse = await fetch(`/api/db/lang_${currentLanguage}.json`)
-        if (!langResponse.ok) {
-          throw new Error(`Failed to load language data: ${langResponse.status}`)
+      if (existingDb) {
+        if (!cancelled) {
+          setDbDict(existingDb || {})
         }
-
-        const langData = await langResponse.json()
-
-        // 데이터 구조 확인 후 언어 데이터 추가
-        if (data && data.languages) {
-          data.languages[currentLanguage] = langData
-
-          // 상태 업데이트를 위해 강제 리렌더링 트리거 (선택적)
-          setIsChangingLanguage(true)
-          setTimeout(() => setIsChangingLanguage(false), 10)
+      } else {
+        const db = await fetchJson(`/db/lang_${currentLanguage}.json`)
+        if (!cancelled) {
+          setDbDict((db || {}) as Record<string, string>)
         }
-      } catch (error) {
-        console.error("Failed to load language data:", error)
+      }
+
+      // 2) UI 번역 (파일명: public/lang/lang_xx.json)
+      const ui = await fetchJson(`/lang/ui_${currentLanguage}.json`)
+      if (!cancelled) {
+        setUiDict((ui || {}) as Record<string, string>)
       }
     }
 
-    loadLanguageData()
+    loadLangPacks()
+
+    return () => {
+      cancelled = true
+    }
   }, [currentLanguage, data])
 
-  // 번역 함수
+  // 번역 함수: UI 우선 → DB → 키 원문
   const getTranslatedString = useCallback(
     (key: string) => {
-      if (!data || !data.languages[currentLanguage]) return key
-      return data.languages[currentLanguage][key] || key
+      return uiDict[key] || dbDict[key] || key
     },
-    [data, currentLanguage],
+    [uiDict, dbDict],
   )
 
   // 언어 변경 함수

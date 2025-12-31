@@ -191,12 +191,19 @@ export function CharacterDetailsModal({
   }
 
   // 이미지 URL 가져오기 함수
+    // 이미지 URL 가져오기 함수
   const getImageUrl = (type: "talent" | "break", id: number) => {
-    if (!data || !data.images) return null
+    if (!data) return null
 
-    const imageKey = `${type}_${id}`
-    return data.images[imageKey] || null
+    if (type === "talent") {
+      const t = data.talents[String(id)]
+      return (t && t.img_url) ? t.img_url : null
+    }
+
+    const b = data.breakthroughs[String(id)]
+    return (b && b.img_url) ? b.img_url : null
   }
+
 
   const modalProps = {
     isOpen: isOpen,

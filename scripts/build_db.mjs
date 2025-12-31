@@ -29,7 +29,7 @@ const CN_DIR = path.join(ROOT, "public", "data", "CN");
 const KR_DIR = path.join(ROOT, "public", "data", "KR");
 const CONFIG_LANG_PATH = path.join(KR_DIR, "ConfigLanguage.json");
 
-const OUT_DIR = path.join(ROOT, "public", "db_new");
+const OUT_DIR = path.join(ROOT, "public", "db");
 
 // 기존 lang 파일(UI 텍스트 등) 유지 + 신규 토큰만 추가
 const MERGE_EXISTING_LANG = true;
@@ -170,8 +170,6 @@ function tr(cfg, factoryName, fieldName, textCN) {
   return src; // 누락은 미번역이므로 그대로
 }
 
-
-
 // -------------------- Load Factories --------------------
 function loadFactoryList(factoryFileName) {
   const abs = path.join(CN_DIR, factoryFileName);
@@ -235,7 +233,7 @@ function makeLangCollector(cfgMap) {
 
 // -------------------- DB Builders --------------------
 function buildCharDb(ctx) {
-  const { unitList, tok, includedUnitIds } = ctx;
+  const { unitList, unitViewById, tok, includedUnitIds } = ctx;
   const out = {};
 
   for (const u of unitList) {
@@ -245,9 +243,19 @@ function buildCharDb(ctx) {
     // 포함 기준: BookFactory(角色图鉴) 목록
     if (!includedUnitIds.has(id)) continue;
 
+    const viewId = safeNumber(u?.viewId);
+    let roleListResUrl = "";
+    if (viewId !== null) {
+      const viewRec = unitViewById.get(viewId) || null;
+      roleListResUrl = String(viewRec?.roleListResUrl ?? "").trim();
+    }
+
     out[String(id)] = {
       id,
       name: tok("char_name", id, [], "UnitFactory", "name", u?.name),
+
+      // 이미지 경로(단일): UnitViewFactory.roleListResUrl
+      roleListResUrl,
 
       quality: u?.quality ?? "",
       sideId: safeNumber(u?.sideId) ?? null,
@@ -308,10 +316,16 @@ function buildEquipDb(ctx) {
       return o;
     });
 
+    const tipsPath = String(e?.tipsPath ?? "").trim();
+
     out[String(id)] = {
       id,
       name: tok("equip_name", id, [], "EquipmentFactory", "name", e?.name),
       des: tok("equip_des", id, [], "EquipmentFactory", "des", e?.des ?? e?.description),
+
+      // 이미지 경로(단일): EquipmentFactory.tipsPath
+      tipsPath,
+
       equipTagId: safeNumber(e?.equipTagId) ?? null,
       quality: e?.quality ?? "",
       skillList: Array.isArray(e?.skillList) ? e.skillList : [],
@@ -330,12 +344,18 @@ function buildSkillDb(ctx) {
     const id = safeNumber(s?.id);
     if (!id) continue;
 
+    const iconPath = String(s?.iconPath ?? "").trim();
+
     // 스킬은 BookFactory로 포함 세트를 만들기 어려움(참조 기반으로 필요한 것만 뽑아도 됨)
     // 현재는 "전체 포함"으로 둔다. (필요하면 후속 단계에서 '참조된 스킬만'로 축소 가능)
     out[String(id)] = {
       id,
       name: tok("skill_name", id, [], "SkillFactory", "name", s?.name),
       mod: s?.mod ?? "",
+
+      // 이미지 경로(단일): SkillFactory.iconPath
+      iconPath,
+
       description: tok("skill_description", id, [], "SkillFactory", "description", s?.description),
       detailDescription: tok(
         "skill_detailDescription",
@@ -410,6 +430,111 @@ function buildTagDb(ctx) {
   return out;
 }
 
+function buildImgDb(ctx) {
+  const {
+    unitList,
+    unitViewById,
+    equipmentList,
+    skillList,
+    cardList,
+    talentList,
+    breakthroughList,
+    includedUnitIds,
+    includedEquipIds,
+  } = ctx;
+
+  const out = {};
+
+  // char_* : UnitViewFactory.roleListResUrl
+  for (const u of Array.isArray(unitList) ? unitList : []) {
+    const id = safeNumber(u?.id);
+    if (!id) continue;
+
+    if (includedUnitIds && includedUnitIds.size && !includedUnitIds.has(id)) continue;
+
+    const viewId = safeNumber(u?.viewId);
+    if (viewId === null) continue;
+
+    const viewRec = unitViewById.get(viewId) || null;
+    const p = String(viewRec?.roleListResUrl ?? "").trim();
+    if (p) out[`char_${id}`] = p;
+  }
+
+  // equip_* : EquipmentFactory.tipsPath
+  for (const e of Array.isArray(equipmentList) ? equipmentList : []) {
+    const id = safeNumber(e?.id);
+    if (!id) continue;
+
+    if (includedEquipIds && includedEquipIds.size && !includedEquipIds.has(id)) continue;
+
+    const p = String(e?.tipsPath ?? "").trim();
+    if (p) out[`equip_${id}`] = p;
+  }
+
+  // skill_* : SkillFactory.iconPath
+  for (const s of Array.isArray(skillList) ? skillList : []) {
+    const id = safeNumber(s?.id);
+    if (!id) continue;
+
+    const p = String(s?.iconPath ?? "").trim();
+    if (p) out[`skill_${id}`] = p;
+  }
+
+  // card_* : CardFactory.iconPath
+  for (const c of Array.isArray(cardList) ? cardList : []) {
+    const id = safeNumber(c?.id);
+    if (!id) continue;
+
+    const p = String(c?.iconPath ?? "").trim();
+    if (p) out[`card_${id}`] = p;
+  }
+
+  // talent_* : TalentFactory.path
+  for (const t of Array.isArray(talentList) ? talentList : []) {
+    const id = safeNumber(t?.id);
+    if (!id) continue;
+
+    const p = String(t?.path ?? "").trim();
+    if (p) out[`talent_${id}`] = p;
+  }
+
+  // break_* : BreakthroughFactory.path
+  for (const b of Array.isArray(breakthroughList) ? breakthroughList : []) {
+    const id = safeNumber(b?.id);
+    if (!id) continue;
+
+    const p = String(b?.path ?? "").trim();
+    if (p) out[`break_${id}`] = p;
+  }
+
+  return out;
+}
+
+function buildTagColorMapping(ctx) {
+  const { tagList } = ctx;
+  const out = {};
+
+  for (const t of Array.isArray(tagList) ? tagList : []) {
+    const id = safeNumber(t?.id);
+    if (!id) continue;
+
+    const rich = String(t?.tagNameRichText ?? "").trim();
+    const m = rich.match(/<color\s*=\s*(#[0-9a-fA-F]{6})\s*>/);
+    if (!m) continue;
+
+    const hex = String(m[1]).toUpperCase();
+    if (!out[hex]) out[hex] = [];
+    out[hex].push(id);
+  }
+
+  // stable output
+  for (const k of Object.keys(out)) {
+    out[k].sort((a, b) => a - b);
+  }
+
+  return out;
+}
+
 function buildTalentDb(ctx) {
   const { talentList, tok } = ctx;
   const out = {};
@@ -418,10 +543,16 @@ function buildTalentDb(ctx) {
     const id = safeNumber(r?.id);
     if (!id) continue;
 
+    const p = String(r?.path ?? "").trim();
+
     out[String(id)] = {
       id,
       name: tok("talent_name", id, [], "TalentFactory", "name", r?.name),
       desc: tok("talent_desc", id, [], "TalentFactory", "desc", r?.desc),
+
+      // 이미지 경로(단일): TalentFactory.path
+      path: p,
+
       awakeLv: r?.awakeLv ?? null,
       skillParamOffsetList: Array.isArray(r?.skillParamOffsetList) ? r.skillParamOffsetList : [],
     };
@@ -440,11 +571,16 @@ function buildBreakDb(ctx) {
 
     const name = String(r?.name ?? "").trim();
     const desc = String(r?.desc ?? "").trim();
+    const p = String(r?.path ?? "").trim();
 
     out[String(id)] = {
       id,
       name: name ? tok("break_name", id, [], "BreakthroughFactory", "name", name) : "",
       desc: desc ? tok("break_desc", id, [], "BreakthroughFactory", "desc", desc) : "",
+
+      // 이미지 경로(단일): BreakthroughFactory.path
+      path: p,
+
       attributeList: Array.isArray(r?.attributeList) ? r.attributeList : [],
     };
   }
@@ -632,6 +768,55 @@ function writeBookReports(includedSets, equipmentList, unitList) {
   writeJson(path.join(OUT_DIR, "report_bookfactory_equip.json"), reportEquip);
   writeJson(path.join(OUT_DIR, "report_bookfactory_unit.json"), reportUnit);
 }
+// -------------------- 이미지 경로 정규화 --------------------
+
+function normalizeImgPath(p) {
+  let s = String(p ?? "").trim();
+  if (!s) return "";
+
+  // 필수 조건: 역슬래시 -> 슬래시
+  s = s.replace(/\\/g, "/");
+
+  // 중복 슬래시 정리
+  s = s.replace(/\/{2,}/g, "/");
+
+  // 상대경로 기준으로 앞/뒤 슬래시 제거
+  s = s.replace(/^\/+/, "").replace(/\/+$/, "");
+
+  return s;
+}
+
+function resolveImagePathByExt(assetRootDirAbs, noExtPath) {
+  const png = path.join(assetRootDirAbs, `${noExtPath}.png`);
+  if (fs.existsSync(png)) {
+    return `${noExtPath}.png`;
+  }
+
+  const webp = path.join(assetRootDirAbs, `${noExtPath}.webp`);
+  if (fs.existsSync(webp)) {
+    return `${noExtPath}.webp`;
+  }
+
+  // 둘 다 없으면 no-ext 그대로 유지
+  return noExtPath;
+}
+
+function applyImagePathResolveToDbField(dbObj, fieldName, assetRootDirAbs) {
+  for (const rec of Object.values(dbObj)) {
+    if (!rec || typeof rec !== "object") continue;
+
+    const raw = rec[fieldName];
+    if (typeof raw !== "string" || !raw.trim()) {
+      rec[fieldName] = "";
+      continue;
+    }
+
+    const norm = normalizeImgPath(raw);
+    rec[fieldName] = resolveImagePathByExt(assetRootDirAbs, norm);
+  }
+}
+
+
 
 // -------------------- MAIN --------------------
 function main() {
@@ -641,6 +826,9 @@ function main() {
   const includedSets = buildIncludedIdSetsFromBook(bookFactory);
 
   const unitList = loadFactoryList("UnitFactory.json");
+  const unitViewList = loadFactoryList("UnitViewFactory.json");
+  const unitViewById = buildIdMap(unitViewList);
+
   const equipmentList = loadFactoryList("EquipmentFactory.json");
   const skillList = loadFactoryList("SkillFactory.json");
   const cardList = loadFactoryList("CardFactory.json");
@@ -652,11 +840,25 @@ function main() {
   const { dict, tok } = makeLangCollector(cfgMap);
 
   // 1) DB 생성
-  const charDb = buildCharDb({ unitList, tok, includedUnitIds: includedSets.unitIds });
+  const charDb = buildCharDb({ unitList, unitViewById, tok, includedUnitIds: includedSets.unitIds });
   const equipDb = buildEquipDb({ equipmentList, tok, includedEquipIds: includedSets.equipIds });
   const skillDb = buildSkillDb({ skillList, tok });
   const cardDb = buildCardDb({ cardList, tok });
   const tagDb = buildTagDb({ tagList, tok });
+
+  const imgDb = buildImgDb({
+    unitList,
+    unitViewById,
+    equipmentList,
+    skillList,
+    cardList,
+    talentList,
+    breakthroughList,
+    includedUnitIds: includedSets.unitIds,
+    includedEquipIds: includedSets.equipIds,
+  });
+
+  const tagColorMapping = buildTagColorMapping({ tagList });
   const talentDb = buildTalentDb({ talentList, tok });
   const breakDb = buildBreakDb({ breakthroughList, tok });
   const homeSkillDb = buildHomeSkillDb({ homeSkillList, tok });
@@ -701,12 +903,26 @@ function main() {
   const langJp = fillFallback(baseJp);
   const langTw = fillFallback(baseTw);
 
+  const assetRootDirAbs = path.join(ROOT, "public", "assets");
+
+  // 단일 이미지 경로 필드만 처리
+  applyImagePathResolveToDbField(charDb, "roleListResUrl", assetRootDirAbs);
+  applyImagePathResolveToDbField(equipDb, "tipsPath", assetRootDirAbs);
+  applyImagePathResolveToDbField(skillDb, "iconPath", assetRootDirAbs);
+  applyImagePathResolveToDbField(talentDb, "path", assetRootDirAbs);
+  applyImagePathResolveToDbField(breakDb, "path", assetRootDirAbs);
+
   // 4) write outputs
   writeJson(path.join(OUT_DIR, "char_db.json"), charDb);
   writeJson(path.join(OUT_DIR, "equip_db.json"), equipDb);
   writeJson(path.join(OUT_DIR, "skill_db.json"), skillDb);
   writeJson(path.join(OUT_DIR, "card_db.json"), cardDb);
   writeJson(path.join(OUT_DIR, "tag_db.json"), tagDb);
+
+  // img_db.json은 “원본을 그대로 쓰는” 단계라면 여기 write는 계속 주석 유지
+  //writeJson(path.join(OUT_DIR, "img_db.json"), imgDb);
+
+  writeJson(path.join(OUT_DIR, "tag_color_mapping.json"), tagColorMapping);
   writeJson(path.join(OUT_DIR, "talent_db.json"), talentDb);
   writeJson(path.join(OUT_DIR, "break_db.json"), breakDb);
   writeJson(path.join(OUT_DIR, "home_skill_db.json"), homeSkillDb);

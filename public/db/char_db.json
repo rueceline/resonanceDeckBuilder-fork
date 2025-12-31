@@ -2,6 +2,7 @@
   "10000004": {
     "id": 10000004,
     "name": "char_name_10000004",
+    "roleListResUrl": "RolePlus/Katas/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -103,6 +104,7 @@
   "10000025": {
     "id": 10000025,
     "name": "char_name_10000025",
+    "roleListResUrl": "RolePlus/Julian/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -192,6 +194,7 @@
   "10000027": {
     "id": 10000027,
     "name": "char_name_10000027",
+    "roleListResUrl": "RolePlus/Haruka/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -281,6 +284,7 @@
   "10000031": {
     "id": 10000031,
     "name": "char_name_10000031",
+    "roleListResUrl": "RolePlus/Joshua/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -382,6 +386,7 @@
   "10000032": {
     "id": 10000032,
     "name": "char_name_10000032",
+    "roleListResUrl": "RolePlus/Betty/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -479,6 +484,7 @@
   "10000034": {
     "id": 10000034,
     "name": "char_name_10000034",
+    "roleListResUrl": "RolePlus/Hayabusa/type2/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -580,6 +586,7 @@
   "10000035": {
     "id": 10000035,
     "name": "char_name_10000035",
+    "roleListResUrl": "RolePlus/Dustin/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -677,6 +684,7 @@
   "10000047": {
     "id": 10000047,
     "name": "char_name_10000047",
+    "roleListResUrl": "RolePlus/Valentine/Half.png",
     "quality": "fourStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -774,6 +782,7 @@
   "10000051": {
     "id": 10000051,
     "name": "char_name_10000051",
+    "roleListResUrl": "RolePlus/Arina/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -871,6 +880,7 @@
   "10000052": {
     "id": 10000052,
     "name": "char_name_10000052",
+    "roleListResUrl": "RolePlus/Nabi/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -972,6 +982,7 @@
   "10000053": {
     "id": 10000053,
     "name": "char_name_10000053",
+    "roleListResUrl": "RolePlus/Yer/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -1069,6 +1080,7 @@
   "10000054": {
     "id": 10000054,
     "name": "char_name_10000054",
+    "roleListResUrl": "RolePlus/Margiela/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -1166,6 +1178,7 @@
   "10000055": {
     "id": 10000055,
     "name": "char_name_10000055",
+    "roleListResUrl": "RolePlus/Livia/Half.png",
     "quality": "fourStar",
     "sideId": 12600025,
     "passiveSkillList": [
@@ -1267,6 +1280,7 @@
   "10000059": {
     "id": 10000059,
     "name": "char_name_10000059",
+    "roleListResUrl": "RolePlus/Conor/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -1368,6 +1382,7 @@
   "10000060": {
     "id": 10000060,
     "name": "char_name_10000060",
+    "roleListResUrl": "RolePlus/Tara/Half.png",
     "quality": "threeStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -1457,6 +1472,7 @@
   "10000062": {
     "id": 10000062,
     "name": "char_name_10000062",
+    "roleListResUrl": "RolePlus/Solum/Half.png",
     "quality": "threeStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -1546,6 +1562,7 @@
   "10000063": {
     "id": 10000063,
     "name": "char_name_10000063",
+    "roleListResUrl": "RolePlus/Mahr/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -1647,6 +1664,7 @@
   "10000064": {
     "id": 10000064,
     "name": "char_name_10000064",
+    "roleListResUrl": "RolePlus/Cecil/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -1744,6 +1762,7 @@
   "10000065": {
     "id": 10000065,
     "name": "char_name_10000065",
+    "roleListResUrl": "RolePlus/Priming/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -1833,6 +1852,7 @@
   "10000068": {
     "id": 10000068,
     "name": "char_name_10000068",
+    "roleListResUrl": "RolePlus/Cynthia/Half.png",
     "quality": "fourStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -1930,6 +1950,7 @@
   "10000069": {
     "id": 10000069,
     "name": "char_name_10000069",
+    "roleListResUrl": "RolePlus/Charlotte/half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -2027,6 +2048,7 @@
   "10000071": {
     "id": 10000071,
     "name": "char_name_10000071",
+    "roleListResUrl": "RolePlus/Aoba/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -2128,6 +2150,7 @@
   "10000072": {
     "id": 10000072,
     "name": "char_name_10000072",
+    "roleListResUrl": "RolePlus/Nayuta/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -2229,6 +2252,7 @@
   "10000094": {
     "id": 10000094,
     "name": "char_name_10000094",
+    "roleListResUrl": "RolePlus/Sommer/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -2330,6 +2354,7 @@
   "10000095": {
     "id": 10000095,
     "name": "char_name_10000095",
+    "roleListResUrl": "RolePlus/Dorothy/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -2431,6 +2456,7 @@
   "10000101": {
     "id": 10000101,
     "name": "char_name_10000101",
+    "roleListResUrl": "RolePlus/Kaleya/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -2528,6 +2554,7 @@
   "10000110": {
     "id": 10000110,
     "name": "char_name_10000110",
+    "roleListResUrl": "RolePlus/Lin/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -2625,6 +2652,7 @@
   "10000111": {
     "id": 10000111,
     "name": "char_name_10000111",
+    "roleListResUrl": "RolePlus/Galore/Half.png",
     "quality": "threeStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -2714,6 +2742,7 @@
   "10000112": {
     "id": 10000112,
     "name": "char_name_10000112",
+    "roleListResUrl": "RolePlus/Ganya/Half.png",
     "quality": "fourStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -2811,6 +2840,7 @@
   "10000124": {
     "id": 10000124,
     "name": "char_name_10000124",
+    "roleListResUrl": "RolePlus/Akira/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -2908,6 +2938,7 @@
   "10000134": {
     "id": 10000134,
     "name": "char_name_10000134",
+    "roleListResUrl": "RolePlus/Eliot/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -2997,6 +3028,7 @@
   "10000139": {
     "id": 10000139,
     "name": "char_name_10000139",
+    "roleListResUrl": "RolePlus/Caroline/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -3094,6 +3126,7 @@
   "10000145": {
     "id": 10000145,
     "name": "char_name_10000145",
+    "roleListResUrl": "RolePlus/Lissandra/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -3191,6 +3224,7 @@
   "10000153": {
     "id": 10000153,
     "name": "char_name_10000153",
+    "roleListResUrl": "RolePlus/Yoiduki/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -3288,6 +3322,7 @@
   "10000154": {
     "id": 10000154,
     "name": "char_name_10000154",
+    "roleListResUrl": "RolePlus/Ilona/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -3389,6 +3424,7 @@
   "10000156": {
     "id": 10000156,
     "name": "char_name_10000156",
+    "roleListResUrl": "RolePlus/Shizuru/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -3478,6 +3514,7 @@
   "10000157": {
     "id": 10000157,
     "name": "char_name_10000157",
+    "roleListResUrl": "RolePlus/Arcana/Half.png",
     "quality": "threeStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -3567,6 +3604,7 @@
   "10000159": {
     "id": 10000159,
     "name": "char_name_10000159",
+    "roleListResUrl": "RolePlus/Excalibur_Box/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -3656,6 +3694,7 @@
   "10000160": {
     "id": 10000160,
     "name": "char_name_10000160",
+    "roleListResUrl": "RolePlus/Flan/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -3745,6 +3784,7 @@
   "10000170": {
     "id": 10000170,
     "name": "char_name_10000170",
+    "roleListResUrl": "RolePlus/Karen/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -3834,6 +3874,7 @@
   "10000254": {
     "id": 10000254,
     "name": "char_name_10000254",
+    "roleListResUrl": "RolePlus/Shire/Half.png",
     "quality": "FiveStar",
     "sideId": 12601172,
     "passiveSkillList": [
@@ -3935,6 +3976,7 @@
   "10000270": {
     "id": 10000270,
     "name": "char_name_10000270",
+    "roleListResUrl": "RolePlus/Heinrich/Half.png",
     "quality": "fourStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -4032,6 +4074,7 @@
   "10000276": {
     "id": 10000276,
     "name": "char_name_10000276",
+    "roleListResUrl": "RolePlus/Tennie/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4129,6 +4172,7 @@
   "10000297": {
     "id": 10000297,
     "name": "char_name_10000297",
+    "roleListResUrl": "RolePlus/Reeva/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -4236,6 +4280,7 @@
   "10000298": {
     "id": 10000298,
     "name": "char_name_10000298",
+    "roleListResUrl": "RolePlus/Stella/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [
@@ -4337,6 +4382,7 @@
   "10000299": {
     "id": 10000299,
     "name": "char_name_10000299",
+    "roleListResUrl": "RolePlus/Rachel/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -4426,6 +4472,7 @@
   "10000300": {
     "id": 10000300,
     "name": "char_name_10000300",
+    "roleListResUrl": "RolePlus/Fenia/Half.png",
     "quality": "fourStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -4523,6 +4570,7 @@
   "10000335": {
     "id": 10000335,
     "name": "char_name_10000335",
+    "roleListResUrl": "RolePlus/Yejue/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4620,6 +4668,7 @@
   "10000352": {
     "id": 10000352,
     "name": "char_name_10000352",
+    "roleListResUrl": "RolePlus/Suen/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -4721,6 +4770,7 @@
   "10000372": {
     "id": 10000372,
     "name": "char_name_10000372",
+    "roleListResUrl": "RolePlus/Anfiya/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4818,6 +4868,7 @@
   "10000387": {
     "id": 10000387,
     "name": "char_name_10000387",
+    "roleListResUrl": "RolePlus/Achiwa/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4915,6 +4966,7 @@
   "10000388": {
     "id": 10000388,
     "name": "char_name_10000388",
+    "roleListResUrl": "RolePlus/Wensheng/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -5012,6 +5064,7 @@
   "10000389": {
     "id": 10000389,
     "name": "char_name_10000389",
+    "roleListResUrl": "RolePlus/RinaF/Half.png",
     "quality": "fourStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -5109,6 +5162,7 @@
   "10000408": {
     "id": 10000408,
     "name": "char_name_10000408",
+    "roleListResUrl": "RolePlus/Box/Half.png",
     "quality": "twoStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -5198,6 +5252,7 @@
   "10000409": {
     "id": 10000409,
     "name": "char_name_10000409",
+    "roleListResUrl": "RolePlus/Jerboa/Half.png",
     "quality": "threeStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -5287,6 +5342,7 @@
   "10000414": {
     "id": 10000414,
     "name": "char_name_10000414",
+    "roleListResUrl": "RolePlus/Yamaarashi/Half.png",
     "quality": "threeStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -5376,6 +5432,7 @@
   "10000468": {
     "id": 10000468,
     "name": "char_name_10000468",
+    "roleListResUrl": "RolePlus/Shizuru_Summer/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -5477,6 +5534,7 @@
   "10000499": {
     "id": 10000499,
     "name": "char_name_10000499",
+    "roleListResUrl": "RolePlus/Jalhay/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -5578,6 +5636,7 @@
   "10000503": {
     "id": 10000503,
     "name": "char_name_10000503",
+    "roleListResUrl": "RolePlus/Ithos/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -5675,6 +5734,7 @@
   "10000546": {
     "id": 10000546,
     "name": "char_name_10000546",
+    "roleListResUrl": "RolePlus/Ikuma/Half.png",
     "quality": "FiveStar",
     "sideId": 12601524,
     "passiveSkillList": [],
@@ -5772,6 +5832,7 @@
   "10000572": {
     "id": 10000572,
     "name": "char_name_10000572",
+    "roleListResUrl": "RolePlus/MargielaStargazer/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -5876,6 +5937,7 @@
   "10000573": {
     "id": 10000573,
     "name": "char_name_10000573",
+    "roleListResUrl": "RolePlus/Komugi/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -5977,6 +6039,7 @@
   "10000607": {
     "id": 10000607,
     "name": "char_name_10000607",
+    "roleListResUrl": "RolePlus/Paladi/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -6078,6 +6141,7 @@
   "10000615": {
     "id": 10000615,
     "name": "char_name_10000615",
+    "roleListResUrl": "RolePlus/Pelota/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -6175,6 +6239,7 @@
   "10000623": {
     "id": 10000623,
     "name": "char_name_10000623",
+    "roleListResUrl": "RolePlus/MsGold/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -6264,6 +6329,7 @@
   "10000624": {
     "id": 10000624,
     "name": "char_name_10000624",
+    "roleListResUrl": "RolePlus/Mumei/Half.png",
     "quality": "FiveStar",
     "sideId": 12601524,
     "passiveSkillList": [],
@@ -6361,6 +6427,7 @@
   "10000632": {
     "id": 10000632,
     "name": "char_name_10000632",
+    "roleListResUrl": "RolePlus/Raziel_Human/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -6458,6 +6525,7 @@
   "10000739": {
     "id": 10000739,
     "name": "char_name_10000739",
+    "roleListResUrl": "RolePlus/Verlaine/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -6562,6 +6630,7 @@
   "10000748": {
     "id": 10000748,
     "name": "char_name_10000748",
+    "roleListResUrl": "RolePlus/Raziel_Angel/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -6663,6 +6732,7 @@
   "10000749": {
     "id": 10000749,
     "name": "char_name_10000749",
+    "roleListResUrl": "RolePlus/Ushana/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -6764,6 +6834,7 @@
   "10000796": {
     "id": 10000796,
     "name": "char_name_10000796",
+    "roleListResUrl": "RolePlus/Masaki/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -6874,6 +6945,7 @@
   "10000843": {
     "id": 10000843,
     "name": "char_name_10000843",
+    "roleListResUrl": "RolePlus/Chloe/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -6975,6 +7047,7 @@
   "10000855": {
     "id": 10000855,
     "name": "char_name_10000855",
+    "roleListResUrl": "RolePlus/Ren/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -7072,6 +7145,7 @@
   "10000890": {
     "id": 10000890,
     "name": "char_name_10000890",
+    "roleListResUrl": "RolePlus/Ikara/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -7173,6 +7247,7 @@
   "10000920": {
     "id": 10000920,
     "name": "char_name_10000920",
+    "roleListResUrl": "RolePlus/Eliade/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -7270,6 +7345,7 @@
   "10000941": {
     "id": 10000941,
     "name": "char_name_10000941",
+    "roleListResUrl": "RolePlus/Anethum/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -7367,6 +7443,7 @@
   "10000942": {
     "id": 10000942,
     "name": "char_name_10000942",
+    "roleListResUrl": "RolePlus/Slokai/Half.png",
     "quality": "FiveStar",
     "sideId": 12601877,
     "passiveSkillList": [],
@@ -7464,6 +7541,7 @@
   "10000969": {
     "id": 10000969,
     "name": "char_name_10000969",
+    "roleListResUrl": "RolePlus/Lycagia/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -7561,6 +7639,7 @@
   "10000979": {
     "id": 10000979,
     "name": "char_name_10000979",
+    "roleListResUrl": "RolePlus/Olivien/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -7658,6 +7737,7 @@
   "10001003": {
     "id": 10001003,
     "name": "char_name_10001003",
+    "roleListResUrl": "RolePlus/Helena/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -7759,6 +7839,7 @@
   "10001019": {
     "id": 10001019,
     "name": "char_name_10001019",
+    "roleListResUrl": "RolePlus/DRamis/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [
@@ -7863,6 +7944,7 @@
   "10001052": {
     "id": 10001052,
     "name": "char_name_10001052",
+    "roleListResUrl": "RolePlus/Chelsea/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -7960,6 +8042,7 @@
   "10001089": {
     "id": 10001089,
     "name": "char_name_10001089",
+    "roleListResUrl": "RolePlus/Carr/Half.png",
     "quality": "FiveStar",
     "sideId": 12601920,
     "passiveSkillList": [],
@@ -8057,6 +8140,7 @@
   "10001092": {
     "id": 10001092,
     "name": "char_name_10001092",
+    "roleListResUrl": "RolePlus/Chenshuxian/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -8154,6 +8238,7 @@
   "10001157": {
     "id": 10001157,
     "name": "char_name_10001157",
+    "roleListResUrl": "RolePlus/Hecate/Half.png",
     "quality": "FiveStar",
     "sideId": 12601920,
     "passiveSkillList": [
@@ -8255,6 +8340,7 @@
   "10001203": {
     "id": 10001203,
     "name": "char_name_10001203",
+    "roleListResUrl": "RolePlus/Vostok/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [
