@@ -1,10 +1,10 @@
 {
   "12800001": {
     "id": 12800001,
-    "name": "",
-    "desc": "",
-    "awakeLv": 0,
-    "skillParamOffsetList": null
+    "name": "talent_name_12800001",
+    "desc": "talent_desc_12800001",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
   },
   "12800002": {
     "id": 12800002,
@@ -19,6 +19,69 @@
       }
     ]
   },
+  "12800003": {
+    "id": 12800003,
+    "name": "talent_name_12800003",
+    "desc": "talent_desc_12800003",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800004": {
+    "id": 12800004,
+    "name": "talent_name_12800004",
+    "desc": "talent_desc_12800004",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800005": {
+    "id": 12800005,
+    "name": "talent_name_12800005",
+    "desc": "talent_desc_12800005",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800006": {
+    "id": 12800006,
+    "name": "talent_name_12800006",
+    "desc": "talent_desc_12800006",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800007": {
+    "id": 12800007,
+    "name": "talent_name_12800007",
+    "desc": "talent_desc_12800007",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800008": {
+    "id": 12800008,
+    "name": "talent_name_12800008",
+    "desc": "talent_desc_12800008",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800009": {
+    "id": 12800009,
+    "name": "talent_name_12800009",
+    "desc": "talent_desc_12800009",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800010": {
+    "id": 12800010,
+    "name": "talent_name_12800010",
+    "desc": "talent_desc_12800010",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800011": {
+    "id": 12800011,
+    "name": "talent_name_12800011",
+    "desc": "talent_desc_12800011",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
   "12800012": {
     "id": 12800012,
     "name": "talent_name_12800012",
@@ -31,6 +94,13 @@
     "name": "talent_name_12800013",
     "desc": "talent_desc_12800013",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800014": {
+    "id": 12800014,
+    "name": "talent_name_12800014",
+    "desc": "talent_desc_12800014",
+    "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800015": {
@@ -60,10 +130,24 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800018": {
+    "id": 12800018,
+    "name": "talent_name_12800018",
+    "desc": "talent_desc_12800018",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
   "12800019": {
     "id": 12800019,
     "name": "talent_name_12800019",
     "desc": "talent_desc_12800019",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800020": {
+    "id": 12800020,
+    "name": "talent_name_12800020",
+    "desc": "talent_desc_12800020",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -72,6 +156,13 @@
     "name": "talent_name_12800021",
     "desc": "talent_desc_12800021",
     "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800022": {
+    "id": 12800022,
+    "name": "talent_name_12800022",
+    "desc": "talent_desc_12800022",
+    "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800023": {
@@ -88,6 +179,20 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800025": {
+    "id": 12800025,
+    "name": "talent_name_12800025",
+    "desc": "talent_desc_12800025",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800026": {
+    "id": 12800026,
+    "name": "talent_name_12800026",
+    "desc": "talent_desc_12800026",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
   "12800027": {
     "id": 12800027,
     "name": "talent_name_12800027",
@@ -102,6 +207,13 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
+  "12800029": {
+    "id": 12800029,
+    "name": "talent_name_12800029",
+    "desc": "talent_desc_12800029",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
   "12800030": {
     "id": 12800030,
     "name": "talent_name_12800030",
@@ -109,11 +221,25 @@
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
+  "12800031": {
+    "id": 12800031,
+    "name": "talent_name_12800031",
+    "desc": "talent_desc_12800031",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
   "12800032": {
     "id": 12800032,
     "name": "talent_name_12800032",
     "desc": "talent_desc_12800032",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800033": {
+    "id": 12800033,
+    "name": "talent_name_12800033",
+    "desc": "talent_desc_12800033",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800034": {
@@ -150,6 +276,13 @@
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
+  "12800038": {
+    "id": 12800038,
+    "name": "talent_name_12800038",
+    "desc": "talent_desc_12800038",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
   "12800039": {
     "id": 12800039,
     "name": "talent_name_12800039",
@@ -171,6 +304,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800042": {
+    "id": 12800042,
+    "name": "talent_name_12800042",
+    "desc": "talent_desc_12800042",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
   "12800043": {
     "id": 12800043,
     "name": "talent_name_12800043",
@@ -185,10 +325,72 @@
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
+  "12800045": {
+    "id": 12800045,
+    "name": "talent_name_12800045",
+    "desc": "talent_desc_12800045",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
   "12800046": {
     "id": 12800046,
     "name": "talent_name_12800046",
     "desc": "talent_desc_12800046",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800047": {
+    "id": 12800047,
+    "name": "talent_name_12800047",
+    "desc": "talent_desc_12800047",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800048": {
+    "id": 12800048,
+    "name": "talent_name_12800048",
+    "desc": "talent_desc_12800048",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800049": {
+    "id": 12800049,
+    "name": "talent_name_12800049",
+    "desc": "talent_desc_12800049",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800050": {
+    "id": 12800050,
+    "name": "talent_name_12800050",
+    "desc": "talent_desc_12800050",
+    "awakeLv": 2,
+    "skillParamOffsetList": [
+      {
+        "skillId": -1,
+        "tag": "baseEpinephrineHealing",
+        "value_SN": 1500
+      }
+    ]
+  },
+  "12800051": {
+    "id": 12800051,
+    "name": "talent_name_12800051",
+    "desc": "talent_desc_12800051",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800052": {
+    "id": 12800052,
+    "name": "talent_name_12800052",
+    "desc": "talent_desc_12800052",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800053": {
+    "id": 12800053,
+    "name": "talent_name_12800053",
+    "desc": "talent_desc_12800053",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -197,6 +399,20 @@
     "name": "talent_name_12800054",
     "desc": "talent_desc_12800054",
     "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800055": {
+    "id": 12800055,
+    "name": "talent_name_12800055",
+    "desc": "talent_desc_12800055",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800056": {
+    "id": 12800056,
+    "name": "talent_name_12800056",
+    "desc": "talent_desc_12800056",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800057": {
@@ -227,11 +443,109 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
+  "12800061": {
+    "id": 12800061,
+    "name": "talent_name_12800061",
+    "desc": "talent_desc_12800061",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800062": {
+    "id": 12800062,
+    "name": "talent_name_12800062",
+    "desc": "talent_desc_12800062",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
   "12800063": {
     "id": 12800063,
     "name": "talent_name_12800063",
     "desc": "talent_desc_12800063",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800064": {
+    "id": 12800064,
+    "name": "talent_name_12800064",
+    "desc": "talent_desc_12800064",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800065": {
+    "id": 12800065,
+    "name": "talent_name_12800065",
+    "desc": "talent_desc_12800065",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800066": {
+    "id": 12800066,
+    "name": "talent_name_12800066",
+    "desc": "talent_desc_12800066",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800067": {
+    "id": 12800067,
+    "name": "talent_name_12800067",
+    "desc": "talent_desc_12800067",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800068": {
+    "id": 12800068,
+    "name": "talent_name_12800068",
+    "desc": "talent_desc_12800068",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800069": {
+    "id": 12800069,
+    "name": "talent_name_12800069",
+    "desc": "talent_desc_12800069",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800070": {
+    "id": 12800070,
+    "name": "talent_name_12800070",
+    "desc": "talent_desc_12800070",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800071": {
+    "id": 12800071,
+    "name": "talent_name_12800071",
+    "desc": "talent_desc_12800071",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800072": {
+    "id": 12800072,
+    "name": "talent_name_12800072",
+    "desc": "talent_desc_12800072",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800073": {
+    "id": 12800073,
+    "name": "talent_name_12800073",
+    "desc": "talent_desc_12800073",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800074": {
+    "id": 12800074,
+    "name": "talent_name_12800074",
+    "desc": "talent_desc_12800074",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800075": {
+    "id": 12800075,
+    "name": "talent_name_12800075",
+    "desc": "talent_desc_12800075",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800076": {
@@ -246,6 +560,13 @@
     "name": "talent_name_12800077",
     "desc": "talent_desc_12800077",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800078": {
+    "id": 12800078,
+    "name": "talent_name_12800078",
+    "desc": "talent_desc_12800078",
+    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800079": {
@@ -276,6 +597,41 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
+  "12800083": {
+    "id": 12800083,
+    "name": "talent_name_12800083",
+    "desc": "talent_desc_12800083",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800084": {
+    "id": 12800084,
+    "name": "talent_name_12800084",
+    "desc": "talent_desc_12800084",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800085": {
+    "id": 12800085,
+    "name": "talent_name_12800085",
+    "desc": "talent_desc_12800085",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800086": {
+    "id": 12800086,
+    "name": "talent_name_12800086",
+    "desc": "talent_desc_12800086",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800087": {
+    "id": 12800087,
+    "name": "talent_name_12800087",
+    "desc": "talent_desc_12800087",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
   "12800088": {
     "id": 12800088,
     "name": "talent_name_12800088",
@@ -288,6 +644,13 @@
     "name": "talent_name_12800089",
     "desc": "talent_desc_12800089",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800090": {
+    "id": 12800090,
+    "name": "talent_name_12800090",
+    "desc": "talent_desc_12800090",
+    "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800091": {
@@ -318,6 +681,19 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
+  "12800095": {
+    "id": 12800095,
+    "name": "talent_name_12800095",
+    "desc": "talent_desc_12800095",
+    "awakeLv": 3,
+    "skillParamOffsetList": [
+      {
+        "skillId": 12302008,
+        "tag": "C",
+        "value_SN": 10000
+      }
+    ]
+  },
   "12800096": {
     "id": 12800096,
     "name": "talent_name_12800096",
@@ -332,6 +708,34 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800098": {
+    "id": 12800098,
+    "name": "talent_name_12800098",
+    "desc": "talent_desc_12800098",
+    "awakeLv": 5,
+    "skillParamOffsetList": [
+      {
+        "skillId": 12302005,
+        "tag": "A",
+        "value_SN": 20000
+      },
+      {
+        "skillId": 12302005,
+        "tag": "T",
+        "value_SN": 1200000
+      },
+      {
+        "skillId": 12302038,
+        "tag": "B",
+        "value_SN": 20000
+      },
+      {
+        "skillId": 12302038,
+        "tag": "T",
+        "value_SN": 1200000
+      }
+    ]
+  },
   "12800099": {
     "id": 12800099,
     "name": "talent_name_12800099",
@@ -344,6 +748,13 @@
     "name": "talent_name_12800100",
     "desc": "talent_desc_12800100",
     "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800101": {
+    "id": 12800101,
+    "name": "talent_name_12800101",
+    "desc": "talent_desc_12800101",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800102": {
@@ -372,6 +783,13 @@
     "name": "talent_name_12800105",
     "desc": "talent_desc_12800105",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800106": {
+    "id": 12800106,
+    "name": "talent_name_12800106",
+    "desc": "talent_desc_12800106",
+    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800107": {
@@ -406,6 +824,13 @@
     "name": "talent_name_12800110",
     "desc": "talent_desc_12800110",
     "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800111": {
+    "id": 12800111,
+    "name": "talent_name_12800111",
+    "desc": "talent_desc_12800111",
+    "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800112": {
@@ -457,74 +882,11 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
-  "12800003": {
-    "id": 12800003,
-    "name": "talent_name_12800003",
-    "desc": "talent_desc_12800003",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800005": {
-    "id": 12800005,
-    "name": "talent_name_12800005",
-    "desc": "talent_desc_12800005",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800007": {
-    "id": 12800007,
-    "name": "talent_name_12800007",
-    "desc": "talent_desc_12800007",
+  "12800119": {
+    "id": 12800119,
+    "name": "talent_name_12800119",
+    "desc": "talent_desc_12800119",
     "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800051": {
-    "id": 12800051,
-    "name": "talent_name_12800051",
-    "desc": "talent_desc_12800051",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800052": {
-    "id": 12800052,
-    "name": "talent_name_12800052",
-    "desc": "talent_desc_12800052",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800055": {
-    "id": 12800055,
-    "name": "talent_name_12800055",
-    "desc": "talent_desc_12800055",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800062": {
-    "id": 12800062,
-    "name": "talent_name_12800062",
-    "desc": "talent_desc_12800062",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800085": {
-    "id": 12800085,
-    "name": "talent_name_12800085",
-    "desc": "talent_desc_12800085",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800086": {
-    "id": 12800086,
-    "name": "talent_name_12800086",
-    "desc": "talent_desc_12800086",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800087": {
-    "id": 12800087,
-    "name": "talent_name_12800087",
-    "desc": "talent_desc_12800087",
-    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800120": {
@@ -534,6 +896,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800121": {
+    "id": 12800121,
+    "name": "talent_name_12800121",
+    "desc": "talent_desc_12800121",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
   "12800122": {
     "id": 12800122,
     "name": "talent_name_12800122",
@@ -541,24 +910,18 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
-  "12800050": {
-    "id": 12800050,
-    "name": "talent_name_12800050",
-    "desc": "talent_desc_12800050",
-    "awakeLv": 2,
-    "skillParamOffsetList": [
-      {
-        "skillId": -1,
-        "tag": "baseEpinephrineHealing",
-        "value_SN": 1500
-      }
-    ]
-  },
   "12800123": {
     "id": 12800123,
     "name": "talent_name_12800123",
     "desc": "talent_desc_12800123",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800124": {
+    "id": 12800124,
+    "name": "talent_name_12800124",
+    "desc": "talent_desc_12800124",
+    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800125": {
@@ -582,6 +945,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800128": {
+    "id": 12800128,
+    "name": "talent_name_12800128",
+    "desc": "talent_desc_12800128",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
   "12800129": {
     "id": 12800129,
     "name": "talent_name_12800129",
@@ -600,6 +970,13 @@
     "id": 12800131,
     "name": "talent_name_12800131",
     "desc": "talent_desc_12800131",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800132": {
+    "id": 12800132,
+    "name": "talent_name_12800132",
+    "desc": "talent_desc_12800132",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -624,6 +1001,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800136": {
+    "id": 12800136,
+    "name": "talent_name_12800136",
+    "desc": "talent_desc_12800136",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
   "12800137": {
     "id": 12800137,
     "name": "talent_name_12800137",
@@ -643,13 +1027,14 @@
     "name": "talent_name_12800139",
     "desc": "talent_desc_12800139",
     "awakeLv": 3,
-    "skillParamOffsetList": [
-      {
-        "skillId": 12300070,
-        "tag": "B",
-        "value_SN": 10000
-      }
-    ]
+    "skillParamOffsetList": []
+  },
+  "12800140": {
+    "id": 12800140,
+    "name": "talent_name_12800140",
+    "desc": "talent_desc_12800140",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
   },
   "12800141": {
     "id": 12800141,
@@ -678,6 +1063,13 @@
       }
     ]
   },
+  "12800144": {
+    "id": 12800144,
+    "name": "talent_name_12800144",
+    "desc": "talent_desc_12800144",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
   "12800145": {
     "id": 12800145,
     "name": "talent_name_12800145",
@@ -696,6 +1088,13 @@
     "id": 12800147,
     "name": "talent_name_12800147",
     "desc": "talent_desc_12800147",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800148": {
+    "id": 12800148,
+    "name": "talent_name_12800148",
+    "desc": "talent_desc_12800148",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -720,6 +1119,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800152": {
+    "id": 12800152,
+    "name": "talent_name_12800152",
+    "desc": "talent_desc_12800152",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
   "12800153": {
     "id": 12800153,
     "name": "talent_name_12800153",
@@ -741,6 +1147,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800156": {
+    "id": 12800156,
+    "name": "talent_name_12800156",
+    "desc": "talent_desc_12800156",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
   "12800157": {
     "id": 12800157,
     "name": "talent_name_12800157",
@@ -750,22 +1163,29 @@
   },
   "12800158": {
     "id": 12800158,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800158",
+    "desc": "talent_desc_12800158",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800159": {
     "id": 12800159,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800159",
+    "desc": "talent_desc_12800159",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800160": {
+    "id": 12800160,
+    "name": "talent_name_12800160",
+    "desc": "talent_desc_12800160",
+    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800161": {
     "id": 12800161,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800161",
+    "desc": "talent_desc_12800161",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -783,6 +1203,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800164": {
+    "id": 12800164,
+    "name": "talent_name_12800164",
+    "desc": "talent_desc_12800164",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
   "12800165": {
     "id": 12800165,
     "name": "talent_name_12800165",
@@ -797,6 +1224,20 @@
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
+  "12800167": {
+    "id": 12800167,
+    "name": "talent_name_12800167",
+    "desc": "talent_desc_12800167",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800168": {
+    "id": 12800168,
+    "name": "talent_name_12800168",
+    "desc": "talent_desc_12800168",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
   "12800169": {
     "id": 12800169,
     "name": "talent_name_12800169",
@@ -806,22 +1247,29 @@
   },
   "12800170": {
     "id": 12800170,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800170",
+    "desc": "talent_desc_12800170",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800171": {
     "id": 12800171,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800171",
+    "desc": "talent_desc_12800171",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800172": {
+    "id": 12800172,
+    "name": "talent_name_12800172",
+    "desc": "talent_desc_12800172",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800173": {
     "id": 12800173,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800173",
+    "desc": "talent_desc_12800173",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -837,6 +1285,13 @@
     "name": "talent_name_12800175",
     "desc": "talent_desc_12800175",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800176": {
+    "id": 12800176,
+    "name": "talent_name_12800176",
+    "desc": "talent_desc_12800176",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800177": {
@@ -888,6 +1343,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800184": {
+    "id": 12800184,
+    "name": "talent_name_12800184",
+    "desc": "talent_desc_12800184",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
   "12800185": {
     "id": 12800185,
     "name": "talent_name_12800185",
@@ -906,6 +1368,13 @@
     "id": 12800187,
     "name": "talent_name_12800187",
     "desc": "talent_desc_12800187",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800188": {
+    "id": 12800188,
+    "name": "talent_name_12800188",
+    "desc": "talent_desc_12800188",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -930,11 +1399,32 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800192": {
+    "id": 12800192,
+    "name": "talent_name_12800192",
+    "desc": "talent_desc_12800192",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
   "12800193": {
     "id": 12800193,
     "name": "talent_name_12800193",
     "desc": "talent_desc_12800193",
     "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800194": {
+    "id": 12800194,
+    "name": "talent_name_12800194",
+    "desc": "talent_desc_12800194",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800195": {
+    "id": 12800195,
+    "name": "talent_name_12800195",
+    "desc": "talent_desc_12800195",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800196": {
@@ -972,24 +1462,233 @@
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
-  "12800194": {
-    "id": 12800194,
-    "name": "talent_name_12800194",
-    "desc": "talent_desc_12800194",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800195": {
-    "id": 12800195,
-    "name": "talent_name_12800195",
-    "desc": "talent_desc_12800195",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
   "12800201": {
     "id": 12800201,
     "name": "talent_name_12800201",
     "desc": "talent_desc_12800201",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800202": {
+    "id": 12800202,
+    "name": "talent_name_12800202",
+    "desc": "talent_desc_12800202",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800203": {
+    "id": 12800203,
+    "name": "talent_name_12800203",
+    "desc": "talent_desc_12800203",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800204": {
+    "id": 12800204,
+    "name": "talent_name_12800204",
+    "desc": "talent_desc_12800204",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800205": {
+    "id": 12800205,
+    "name": "talent_name_12800205",
+    "desc": "talent_desc_12800205",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800206": {
+    "id": 12800206,
+    "name": "talent_name_12800206",
+    "desc": "talent_desc_12800206",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800207": {
+    "id": 12800207,
+    "name": "talent_name_12800207",
+    "desc": "talent_desc_12800207",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800208": {
+    "id": 12800208,
+    "name": "talent_name_12800208",
+    "desc": "talent_desc_12800208",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800209": {
+    "id": 12800209,
+    "name": "talent_name_12800209",
+    "desc": "talent_desc_12800209",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800210": {
+    "id": 12800210,
+    "name": "talent_name_12800210",
+    "desc": "talent_desc_12800210",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800211": {
+    "id": 12800211,
+    "name": "talent_name_12800211",
+    "desc": "talent_desc_12800211",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800212": {
+    "id": 12800212,
+    "name": "talent_name_12800212",
+    "desc": "talent_desc_12800212",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800213": {
+    "id": 12800213,
+    "name": "talent_name_12800213",
+    "desc": "talent_desc_12800213",
+    "awakeLv": 2,
+    "skillParamOffsetList": [
+      {
+        "skillId": -1,
+        "tag": "baseEpinephrineHealing",
+        "value_SN": 1500
+      }
+    ]
+  },
+  "12800214": {
+    "id": 12800214,
+    "name": "talent_name_12800214",
+    "desc": "talent_desc_12800214",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800216": {
+    "id": 12800216,
+    "name": "talent_name_12800216",
+    "desc": "talent_desc_12800216",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800217": {
+    "id": 12800217,
+    "name": "talent_name_12800217",
+    "desc": "talent_desc_12800217",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800218": {
+    "id": 12800218,
+    "name": "talent_name_12800218",
+    "desc": "talent_desc_12800218",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800219": {
+    "id": 12800219,
+    "name": "talent_name_12800219",
+    "desc": "talent_desc_12800219",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800220": {
+    "id": 12800220,
+    "name": "talent_name_12800220",
+    "desc": "talent_desc_12800220",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800221": {
+    "id": 12800221,
+    "name": "talent_name_12800221",
+    "desc": "talent_desc_12800221",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800222": {
+    "id": 12800222,
+    "name": "talent_name_12800222",
+    "desc": "talent_desc_12800222",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800223": {
+    "id": 12800223,
+    "name": "talent_name_12800223",
+    "desc": "talent_desc_12800223",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800224": {
+    "id": 12800224,
+    "name": "talent_name_12800224",
+    "desc": "talent_desc_12800224",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800225": {
+    "id": 12800225,
+    "name": "talent_name_12800225",
+    "desc": "talent_desc_12800225",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800226": {
+    "id": 12800226,
+    "name": "talent_name_12800226",
+    "desc": "talent_desc_12800226",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800227": {
+    "id": 12800227,
+    "name": "talent_name_12800227",
+    "desc": "talent_desc_12800227",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800228": {
+    "id": 12800228,
+    "name": "talent_name_12800228",
+    "desc": "talent_desc_12800228",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800229": {
+    "id": 12800229,
+    "name": "talent_name_12800229",
+    "desc": "talent_desc_12800229",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800230": {
+    "id": 12800230,
+    "name": "talent_name_12800230",
+    "desc": "talent_desc_12800230",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800231": {
+    "id": 12800231,
+    "name": "talent_name_12800231",
+    "desc": "talent_desc_12800231",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800232": {
+    "id": 12800232,
+    "name": "talent_name_12800232",
+    "desc": "talent_desc_12800232",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800233": {
+    "id": 12800233,
+    "name": "talent_name_12800233",
+    "desc": "talent_desc_12800233",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1014,11 +1713,144 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
-  "12800233": {
-    "id": 12800233,
-    "name": "talent_name_12800233",
-    "desc": "talent_desc_12800233",
+  "12800238": {
+    "id": 12800238,
+    "name": "talent_name_12800238",
+    "desc": "talent_desc_12800238",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800239": {
+    "id": 12800239,
+    "name": "talent_name_12800239",
+    "desc": "talent_desc_12800239",
     "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800240": {
+    "id": 12800240,
+    "name": "talent_name_12800240",
+    "desc": "talent_desc_12800240",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800241": {
+    "id": 12800241,
+    "name": "talent_name_12800241",
+    "desc": "talent_desc_12800241",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800242": {
+    "id": 12800242,
+    "name": "talent_name_12800242",
+    "desc": "talent_desc_12800242",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800243": {
+    "id": 12800243,
+    "name": "talent_name_12800243",
+    "desc": "talent_desc_12800243",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800244": {
+    "id": 12800244,
+    "name": "talent_name_12800244",
+    "desc": "talent_desc_12800244",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800245": {
+    "id": 12800245,
+    "name": "talent_name_12800245",
+    "desc": "talent_desc_12800245",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800246": {
+    "id": 12800246,
+    "name": "talent_name_12800246",
+    "desc": "talent_desc_12800246",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800247": {
+    "id": 12800247,
+    "name": "talent_name_12800247",
+    "desc": "talent_desc_12800247",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800248": {
+    "id": 12800248,
+    "name": "talent_name_12800248",
+    "desc": "talent_desc_12800248",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800249": {
+    "id": 12800249,
+    "name": "talent_name_12800249",
+    "desc": "talent_desc_12800249",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800250": {
+    "id": 12800250,
+    "name": "talent_name_12800250",
+    "desc": "talent_desc_12800250",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800251": {
+    "id": 12800251,
+    "name": "talent_name_12800251",
+    "desc": "talent_desc_12800251",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800252": {
+    "id": 12800252,
+    "name": "talent_name_12800252",
+    "desc": "talent_desc_12800252",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800253": {
+    "id": 12800253,
+    "name": "talent_name_12800253",
+    "desc": "talent_desc_12800253",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800254": {
+    "id": 12800254,
+    "name": "talent_name_12800254",
+    "desc": "talent_desc_12800254",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800255": {
+    "id": 12800255,
+    "name": "talent_name_12800255",
+    "desc": "talent_desc_12800255",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800256": {
+    "id": 12800256,
+    "name": "talent_name_12800256",
+    "desc": "talent_desc_12800256",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800257": {
+    "id": 12800257,
+    "name": "talent_name_12800257",
+    "desc": "talent_desc_12800257",
+    "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800258": {
@@ -1030,36 +1862,84 @@
   },
   "12800259": {
     "id": 12800259,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800259",
+    "desc": "talent_desc_12800259",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800260": {
     "id": 12800260,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800260",
+    "desc": "talent_desc_12800260",
     "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800261": {
+    "id": 12800261,
+    "name": "talent_name_12800261",
+    "desc": "talent_desc_12800261",
+    "awakeLv": 6,
+    "skillParamOffsetList": [
+      {
+        "skillId": 12301750,
+        "tag": "A",
+        "value_SN": 10000
+      }
+    ]
+  },
+  "12800262": {
+    "id": 12800262,
+    "name": "talent_name_12800262",
+    "desc": "talent_desc_12800262",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800263": {
+    "id": 12800263,
+    "name": "talent_name_12800263",
+    "desc": "talent_desc_12800263",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800264": {
+    "id": 12800264,
+    "name": "talent_name_12800264",
+    "desc": "talent_desc_12800264",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800265": {
+    "id": 12800265,
+    "name": "talent_name_12800265",
+    "desc": "talent_desc_12800265",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800266": {
+    "id": 12800266,
+    "name": "talent_name_12800266",
+    "desc": "talent_desc_12800266",
+    "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800267": {
     "id": 12800267,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800267",
+    "desc": "talent_desc_12800267",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800268": {
     "id": 12800268,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800268",
+    "desc": "talent_desc_12800268",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800269": {
     "id": 12800269,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800269",
+    "desc": "talent_desc_12800269",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1097,256 +1977,283 @@
       }
     ]
   },
+  "12800274": {
+    "id": 12800274,
+    "name": "talent_name_12800274",
+    "desc": "talent_desc_12800274",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800275": {
+    "id": 12800275,
+    "name": "talent_name_12800275",
+    "desc": "talent_desc_12800275",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800276": {
+    "id": 12800276,
+    "name": "talent_name_12800276",
+    "desc": "talent_desc_12800276",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800277": {
+    "id": 12800277,
+    "name": "talent_name_12800277",
+    "desc": "talent_desc_12800277",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800278": {
+    "id": 12800278,
+    "name": "talent_name_12800278",
+    "desc": "talent_desc_12800278",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800279": {
+    "id": 12800279,
+    "name": "talent_name_12800279",
+    "desc": "talent_desc_12800279",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800281": {
+    "id": 12800281,
+    "name": "talent_name_12800281",
+    "desc": "talent_desc_12800281",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800282": {
+    "id": 12800282,
+    "name": "talent_name_12800282",
+    "desc": "talent_desc_12800282",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800283": {
+    "id": 12800283,
+    "name": "talent_name_12800283",
+    "desc": "talent_desc_12800283",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800284": {
+    "id": 12800284,
+    "name": "talent_name_12800284",
+    "desc": "talent_desc_12800284",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800285": {
+    "id": 12800285,
+    "name": "talent_name_12800285",
+    "desc": "talent_desc_12800285",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800286": {
+    "id": 12800286,
+    "name": "talent_name_12800286",
+    "desc": "talent_desc_12800286",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800287": {
+    "id": 12800287,
+    "name": "talent_name_12800287",
+    "desc": "talent_desc_12800287",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800288": {
+    "id": 12800288,
+    "name": "talent_name_12800288",
+    "desc": "talent_desc_12800288",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800289": {
+    "id": 12800289,
+    "name": "talent_name_12800289",
+    "desc": "talent_desc_12800289",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800290": {
+    "id": 12800290,
+    "name": "talent_name_12800290",
+    "desc": "talent_desc_12800290",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800291": {
+    "id": 12800291,
+    "name": "talent_name_12800291",
+    "desc": "talent_desc_12800291",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
   "12800292": {
     "id": 12800292,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800292",
+    "desc": "talent_desc_12800292",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800293": {
     "id": 12800293,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800293",
+    "desc": "talent_desc_12800293",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800294": {
     "id": 12800294,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800294",
+    "desc": "talent_desc_12800294",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800295": {
     "id": 12800295,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800295",
+    "desc": "talent_desc_12800295",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800296": {
     "id": 12800296,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800296",
+    "desc": "talent_desc_12800296",
     "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800008": {
-    "id": 12800008,
-    "name": "talent_name_12800008",
-    "desc": "talent_desc_12800008",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800009": {
-    "id": 12800009,
-    "name": "talent_name_12800009",
-    "desc": "talent_desc_12800009",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800010": {
-    "id": 12800010,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800011": {
-    "id": 12800011,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800020": {
-    "id": 12800020,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800025": {
-    "id": 12800025,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800029": {
-    "id": 12800029,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800031": {
-    "id": 12800031,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800038": {
-    "id": 12800038,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800047": {
-    "id": 12800047,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800048": {
-    "id": 12800048,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800049": {
-    "id": 12800049,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800064": {
-    "id": 12800064,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800065": {
-    "id": 12800065,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800066": {
-    "id": 12800066,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800067": {
-    "id": 12800067,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800069": {
-    "id": 12800069,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800070": {
-    "id": 12800070,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800071": {
-    "id": 12800071,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800072": {
-    "id": 12800072,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800073": {
-    "id": 12800073,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800074": {
-    "id": 12800074,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800075": {
-    "id": 12800075,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800068": {
-    "id": 12800068,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800297": {
     "id": 12800297,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800297",
+    "desc": "talent_desc_12800297",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800298": {
     "id": 12800298,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800298",
+    "desc": "talent_desc_12800298",
     "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800303": {
-    "id": 12800303,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800299": {
     "id": 12800299,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800299",
+    "desc": "talent_desc_12800299",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800300": {
     "id": 12800300,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800300",
+    "desc": "talent_desc_12800300",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800301": {
-    "id": 12800301,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800302": {
     "id": 12800302,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800302",
+    "desc": "talent_desc_12800302",
     "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800303": {
+    "id": 12800303,
+    "name": "talent_name_12800303",
+    "desc": "talent_desc_12800303",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800304": {
+    "id": 12800304,
+    "name": "talent_name_12800304",
+    "desc": "talent_desc_12800304",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800305": {
+    "id": 12800305,
+    "name": "talent_name_12800305",
+    "desc": "talent_desc_12800305",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800306": {
+    "id": 12800306,
+    "name": "talent_name_12800306",
+    "desc": "talent_desc_12800306",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800307": {
+    "id": 12800307,
+    "name": "talent_name_12800307",
+    "desc": "talent_desc_12800307",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800308": {
+    "id": 12800308,
+    "name": "talent_name_12800308",
+    "desc": "talent_desc_12800308",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800309": {
+    "id": 12800309,
+    "name": "talent_name_12800309",
+    "desc": "talent_desc_12800309",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800310": {
+    "id": 12800310,
+    "name": "talent_name_12800310",
+    "desc": "talent_desc_12800310",
+    "awakeLv": 3,
+    "skillParamOffsetList": [
+      {
+        "skillId": -1,
+        "tag": "exYinXingT",
+        "value_SN": 1200000
+      }
+    ]
+  },
+  "12800311": {
+    "id": 12800311,
+    "name": "talent_name_12800311",
+    "desc": "talent_desc_12800311",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800312": {
+    "id": 12800312,
+    "name": "talent_name_12800312",
+    "desc": "talent_desc_12800312",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800313": {
+    "id": 12800313,
+    "name": "talent_name_12800313",
+    "desc": "talent_desc_12800313",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800314": {
+    "id": 12800314,
+    "name": "talent_name_12800314",
+    "desc": "talent_desc_12800314",
+    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800315": {
@@ -1379,8 +2286,8 @@
   },
   "12800319": {
     "id": 12800319,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800319",
+    "desc": "talent_desc_12800319",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1400,8 +2307,8 @@
   },
   "12800322": {
     "id": 12800322,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800322",
+    "desc": "talent_desc_12800322",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1447,6 +2354,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800329": {
+    "id": 12800329,
+    "name": "talent_name_12800329",
+    "desc": "talent_desc_12800329",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
   "12800330": {
     "id": 12800330,
     "name": "talent_name_12800330",
@@ -1456,99 +2370,30 @@
   },
   "12800331": {
     "id": 12800331,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800331",
+    "desc": "talent_desc_12800331",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800332": {
     "id": 12800332,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800332",
+    "desc": "talent_desc_12800332",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800333": {
-    "id": 12800333,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800334": {
     "id": 12800334,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800334",
+    "desc": "talent_desc_12800334",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800335": {
     "id": 12800335,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800335",
+    "desc": "talent_desc_12800335",
     "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800304": {
-    "id": 12800304,
-    "name": "talent_name_12800304",
-    "desc": "talent_desc_12800304",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800305": {
-    "id": 12800305,
-    "name": "talent_name_12800305",
-    "desc": "talent_desc_12800305",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800308": {
-    "id": 12800308,
-    "name": "talent_name_12800308",
-    "desc": "talent_desc_12800308",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800309": {
-    "id": 12800309,
-    "name": "talent_name_12800309",
-    "desc": "talent_desc_12800309",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800310": {
-    "id": 12800310,
-    "name": "talent_name_12800310",
-    "desc": "talent_desc_12800310",
-    "awakeLv": 3,
-    "skillParamOffsetList": [
-      {
-        "skillId": -1,
-        "tag": "exYinXingT",
-        "value_SN": 1200000
-      }
-    ]
-  },
-  "12800312": {
-    "id": 12800312,
-    "name": "talent_name_12800312",
-    "desc": "talent_desc_12800312",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800313": {
-    "id": 12800313,
-    "name": "talent_name_12800313",
-    "desc": "talent_desc_12800313",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800314": {
-    "id": 12800314,
-    "name": "talent_name_12800314",
-    "desc": "talent_desc_12800314",
-    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800336": {
@@ -1556,6 +2401,13 @@
     "name": "talent_name_12800336",
     "desc": "talent_desc_12800336",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800337": {
+    "id": 12800337,
+    "name": "talent_name_12800337",
+    "desc": "talent_desc_12800337",
+    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800338": {
@@ -1574,8 +2426,8 @@
   },
   "12800340": {
     "id": 12800340,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800340",
+    "desc": "talent_desc_12800340",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1590,6 +2442,13 @@
     "id": 12800342,
     "name": "talent_name_12800342",
     "desc": "talent_desc_12800342",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800343": {
+    "id": 12800343,
+    "name": "talent_name_12800343",
+    "desc": "talent_desc_12800343",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1621,6 +2480,13 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
+  "12800348": {
+    "id": 12800348,
+    "name": "talent_name_12800348",
+    "desc": "talent_desc_12800348",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
   "12800349": {
     "id": 12800349,
     "name": "talent_name_12800349",
@@ -1647,6 +2513,13 @@
     "name": "talent_name_12800352",
     "desc": "talent_desc_12800352",
     "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800353": {
+    "id": 12800353,
+    "name": "talent_name_12800353",
+    "desc": "talent_desc_12800353",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800354": {
@@ -1692,29 +2565,8 @@
   },
   "12800360": {
     "id": 12800360,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800363": {
-    "id": 12800363,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800367": {
-    "id": 12800367,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800368": {
-    "id": 12800368,
-    "name": "talent_name_12800368",
-    "desc": "talent_desc_12800368",
+    "name": "talent_name_12800360",
+    "desc": "talent_desc_12800360",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1725,11 +2577,18 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
-  "12800371": {
-    "id": 12800371,
-    "name": "talent_name_12800371",
-    "desc": "talent_desc_12800371",
-    "awakeLv": 5,
+  "12800362": {
+    "id": 12800362,
+    "name": "talent_name_12800362",
+    "desc": "talent_desc_12800362",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800363": {
+    "id": 12800363,
+    "name": "talent_name_12800363",
+    "desc": "talent_desc_12800363",
+    "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800364": {
@@ -1739,20 +2598,6 @@
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
-  "12800375": {
-    "id": 12800375,
-    "name": "talent_name_12800375",
-    "desc": "talent_desc_12800375",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800369": {
-    "id": 12800369,
-    "name": "talent_name_12800369",
-    "desc": "talent_desc_12800369",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
   "12800365": {
     "id": 12800365,
     "name": "talent_name_12800365",
@@ -1760,17 +2605,31 @@
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
-  "12800384": {
-    "id": 12800384,
-    "name": "talent_name_12800384",
-    "desc": "talent_desc_12800384",
-    "awakeLv": 3,
+  "12800366": {
+    "id": 12800366,
+    "name": "talent_name_12800366",
+    "desc": "talent_desc_12800366",
+    "awakeLv": 4,
     "skillParamOffsetList": []
   },
-  "12800378": {
-    "id": 12800378,
-    "name": "talent_name_12800378",
-    "desc": "talent_desc_12800378",
+  "12800367": {
+    "id": 12800367,
+    "name": "talent_name_12800367",
+    "desc": "talent_desc_12800367",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800368": {
+    "id": 12800368,
+    "name": "talent_name_12800368",
+    "desc": "talent_desc_12800368",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800369": {
+    "id": 12800369,
+    "name": "talent_name_12800369",
+    "desc": "talent_desc_12800369",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1781,11 +2640,18 @@
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
-  "12800380": {
-    "id": 12800380,
-    "name": "talent_name_12800380",
-    "desc": "talent_desc_12800380",
-    "awakeLv": 3,
+  "12800371": {
+    "id": 12800371,
+    "name": "talent_name_12800371",
+    "desc": "talent_desc_12800371",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800372": {
+    "id": 12800372,
+    "name": "talent_name_12800372",
+    "desc": "talent_desc_12800372",
+    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800373": {
@@ -1802,11 +2668,81 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
-  "12800392": {
-    "id": 12800392,
-    "name": "talent_name_12800392",
-    "desc": "talent_desc_12800392",
+  "12800375": {
+    "id": 12800375,
+    "name": "talent_name_12800375",
+    "desc": "talent_desc_12800375",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800376": {
+    "id": 12800376,
+    "name": "talent_name_12800376",
+    "desc": "talent_desc_12800376",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800377": {
+    "id": 12800377,
+    "name": "talent_name_12800377",
+    "desc": "talent_desc_12800377",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800378": {
+    "id": 12800378,
+    "name": "talent_name_12800378",
+    "desc": "talent_desc_12800378",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800379": {
+    "id": 12800379,
+    "name": "talent_name_12800379",
+    "desc": "talent_desc_12800379",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800380": {
+    "id": 12800380,
+    "name": "talent_name_12800380",
+    "desc": "talent_desc_12800380",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800381": {
+    "id": 12800381,
+    "name": "talent_name_12800381",
+    "desc": "talent_desc_12800381",
     "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800382": {
+    "id": 12800382,
+    "name": "talent_name_12800382",
+    "desc": "talent_desc_12800382",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800383": {
+    "id": 12800383,
+    "name": "talent_name_12800383",
+    "desc": "talent_desc_12800383",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800384": {
+    "id": 12800384,
+    "name": "talent_name_12800384",
+    "desc": "talent_desc_12800384",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800385": {
+    "id": 12800385,
+    "name": "talent_name_12800385",
+    "desc": "talent_desc_12800385",
+    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800386": {
@@ -1822,17 +2758,115 @@
       }
     ]
   },
-  "12800381": {
-    "id": 12800381,
-    "name": "talent_name_12800381",
-    "desc": "talent_desc_12800381",
+  "12800387": {
+    "id": 12800387,
+    "name": "talent_name_12800387",
+    "desc": "talent_desc_12800387",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800388": {
+    "id": 12800388,
+    "name": "talent_name_12800388",
+    "desc": "talent_desc_12800388",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800389": {
+    "id": 12800389,
+    "name": "talent_name_12800389",
+    "desc": "talent_desc_12800389",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800390": {
+    "id": 12800390,
+    "name": "talent_name_12800390",
+    "desc": "talent_desc_12800390",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800391": {
+    "id": 12800391,
+    "name": "talent_name_12800391",
+    "desc": "talent_desc_12800391",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800392": {
+    "id": 12800392,
+    "name": "talent_name_12800392",
+    "desc": "talent_desc_12800392",
     "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800393": {
+    "id": 12800393,
+    "name": "talent_name_12800393",
+    "desc": "talent_desc_12800393",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800394": {
+    "id": 12800394,
+    "name": "talent_name_12800394",
+    "desc": "talent_desc_12800394",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800396": {
+    "id": 12800396,
+    "name": "talent_name_12800396",
+    "desc": "talent_desc_12800396",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800397": {
+    "id": 12800397,
+    "name": "talent_name_12800397",
+    "desc": "talent_desc_12800397",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800398": {
+    "id": 12800398,
+    "name": "talent_name_12800398",
+    "desc": "talent_desc_12800398",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800399": {
+    "id": 12800399,
+    "name": "talent_name_12800399",
+    "desc": "talent_desc_12800399",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800400": {
+    "id": 12800400,
+    "name": "talent_name_12800400",
+    "desc": "talent_desc_12800400",
+    "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800401": {
     "id": 12800401,
     "name": "talent_name_12800401",
     "desc": "talent_desc_12800401",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800402": {
+    "id": 12800402,
+    "name": "talent_name_12800402",
+    "desc": "talent_desc_12800402",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800403": {
+    "id": 12800403,
+    "name": "talent_name_12800403",
+    "desc": "talent_desc_12800403",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1843,67 +2877,39 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
-  "12800396": {
-    "id": 12800396,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800388": {
-    "id": 12800388,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800411": {
-    "id": 12800411,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
   "12800405": {
     "id": 12800405,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800405",
+    "desc": "talent_desc_12800405",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
-  "12800398": {
-    "id": 12800398,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
+  "12800406": {
+    "id": 12800406,
+    "name": "talent_name_12800406",
+    "desc": "talent_desc_12800406",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
-  "12800389": {
-    "id": 12800389,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800412": {
-    "id": 12800412,
-    "name": "",
-    "desc": "",
+  "12800407": {
+    "id": 12800407,
+    "name": "talent_name_12800407",
+    "desc": "talent_desc_12800407",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
-  "12800403": {
-    "id": 12800403,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
+  "12800408": {
+    "id": 12800408,
+    "name": "talent_name_12800408",
+    "desc": "talent_desc_12800408",
+    "awakeLv": 4,
     "skillParamOffsetList": []
   },
-  "12800415": {
-    "id": 12800415,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
+  "12800409": {
+    "id": 12800409,
+    "name": "talent_name_12800409",
+    "desc": "talent_desc_12800409",
+    "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800410": {
@@ -1913,11 +2919,39 @@
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
-  "12800400": {
-    "id": 12800400,
-    "name": "talent_name_12800400",
-    "desc": "talent_desc_12800400",
+  "12800411": {
+    "id": 12800411,
+    "name": "talent_name_12800411",
+    "desc": "talent_desc_12800411",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800412": {
+    "id": 12800412,
+    "name": "talent_name_12800412",
+    "desc": "talent_desc_12800412",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800413": {
+    "id": 12800413,
+    "name": "talent_name_12800413",
+    "desc": "talent_desc_12800413",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800414": {
+    "id": 12800414,
+    "name": "talent_name_12800414",
+    "desc": "talent_desc_12800414",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800415": {
+    "id": 12800415,
+    "name": "talent_name_12800415",
+    "desc": "talent_desc_12800415",
+    "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800416": {
@@ -1948,6 +2982,27 @@
       }
     ]
   },
+  "12800417": {
+    "id": 12800417,
+    "name": "talent_name_12800417",
+    "desc": "talent_desc_12800417",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800418": {
+    "id": 12800418,
+    "name": "talent_name_12800418",
+    "desc": "talent_desc_12800418",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800419": {
+    "id": 12800419,
+    "name": "talent_name_12800419",
+    "desc": "talent_desc_12800419",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
   "12800420": {
     "id": 12800420,
     "name": "talent_name_12800420",
@@ -1976,6 +3031,20 @@
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
+  "12800424": {
+    "id": 12800424,
+    "name": "talent_name_12800424",
+    "desc": "talent_desc_12800424",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800425": {
+    "id": 12800425,
+    "name": "talent_name_12800425",
+    "desc": "talent_desc_12800425",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
   "12800426": {
     "id": 12800426,
     "name": "talent_name_12800426",
@@ -1985,8 +3054,8 @@
   },
   "12800427": {
     "id": 12800427,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800427",
+    "desc": "talent_desc_12800427",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1995,6 +3064,13 @@
     "name": "talent_name_12800428",
     "desc": "talent_desc_12800428",
     "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800429": {
+    "id": 12800429,
+    "name": "talent_name_12800429",
+    "desc": "talent_desc_12800429",
+    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800430": {
@@ -2011,6 +3087,13 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
+  "12800432": {
+    "id": 12800432,
+    "name": "talent_name_12800432",
+    "desc": "talent_desc_12800432",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
   "12800433": {
     "id": 12800433,
     "name": "talent_name_12800433",
@@ -2018,395 +3101,304 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
-  "12800390": {
-    "id": 12800390,
-    "name": "talent_name_12800390",
-    "desc": "talent_desc_12800390",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800393": {
-    "id": 12800393,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800394": {
-    "id": 12800394,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800395": {
-    "id": 12800395,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800397": {
-    "id": 12800397,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800406": {
-    "id": 12800406,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800407": {
-    "id": 12800407,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800409": {
-    "id": 12800409,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800425": {
-    "id": 12800425,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
   "12800434": {
     "id": 12800434,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800434",
+    "desc": "talent_desc_12800434",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800435": {
     "id": 12800435,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800435",
+    "desc": "talent_desc_12800435",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800436": {
     "id": 12800436,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800436",
+    "desc": "talent_desc_12800436",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800437": {
     "id": 12800437,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800437",
+    "desc": "talent_desc_12800437",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800438": {
     "id": 12800438,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800438",
+    "desc": "talent_desc_12800438",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800439": {
     "id": 12800439,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800439",
+    "desc": "talent_desc_12800439",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800440": {
     "id": 12800440,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800440",
+    "desc": "talent_desc_12800440",
     "awakeLv": 0,
     "skillParamOffsetList": []
   },
   "12800441": {
     "id": 12800441,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800441",
+    "desc": "talent_desc_12800441",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800442": {
     "id": 12800442,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800442",
+    "desc": "talent_desc_12800442",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800443": {
     "id": 12800443,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800443",
+    "desc": "talent_desc_12800443",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800444": {
     "id": 12800444,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800444",
+    "desc": "talent_desc_12800444",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800445": {
-    "id": 12800445,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800446": {
     "id": 12800446,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800446",
+    "desc": "talent_desc_12800446",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800447": {
     "id": 12800447,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800447",
+    "desc": "talent_desc_12800447",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800448": {
     "id": 12800448,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800448",
+    "desc": "talent_desc_12800448",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800449": {
     "id": 12800449,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800449",
+    "desc": "talent_desc_12800449",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800450": {
-    "id": 12800450,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800451": {
     "id": 12800451,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800451",
+    "desc": "talent_desc_12800451",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800452": {
     "id": 12800452,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800452",
+    "desc": "talent_desc_12800452",
     "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800453": {
-    "id": 12800453,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800454": {
     "id": 12800454,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800454",
+    "desc": "talent_desc_12800454",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800455": {
     "id": 12800455,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800455",
+    "desc": "talent_desc_12800455",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800456": {
     "id": 12800456,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800456",
+    "desc": "talent_desc_12800456",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800457": {
     "id": 12800457,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800457",
+    "desc": "talent_desc_12800457",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800458": {
     "id": 12800458,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800458",
+    "desc": "talent_desc_12800458",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800459": {
     "id": 12800459,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800459",
+    "desc": "talent_desc_12800459",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800460": {
-    "id": 12800460,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800461": {
     "id": 12800461,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800461",
+    "desc": "talent_desc_12800461",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800462": {
     "id": 12800462,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800462",
+    "desc": "talent_desc_12800462",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800463": {
     "id": 12800463,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800463",
+    "desc": "talent_desc_12800463",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800464": {
     "id": 12800464,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800464",
+    "desc": "talent_desc_12800464",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800465": {
-    "id": 12800465,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800466": {
     "id": 12800466,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800466",
+    "desc": "talent_desc_12800466",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800467": {
     "id": 12800467,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800467",
+    "desc": "talent_desc_12800467",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800468": {
     "id": 12800468,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800468",
+    "desc": "talent_desc_12800468",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800469": {
     "id": 12800469,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800469",
+    "desc": "talent_desc_12800469",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800470": {
     "id": 12800470,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800470",
+    "desc": "talent_desc_12800470",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800471": {
     "id": 12800471,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800471",
+    "desc": "talent_desc_12800471",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800476": {
-    "id": 12800476,
-    "name": "",
-    "desc": "",
-    "awakeLv": 0,
-    "skillParamOffsetList": []
-  },
-  "12800475": {
-    "id": 12800475,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800474": {
-    "id": 12800474,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800473": {
-    "id": 12800473,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800472": {
     "id": 12800472,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800472",
+    "desc": "talent_desc_12800472",
     "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800473": {
+    "id": 12800473,
+    "name": "talent_name_12800473",
+    "desc": "talent_desc_12800473",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800474": {
+    "id": 12800474,
+    "name": "talent_name_12800474",
+    "desc": "talent_desc_12800474",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800475": {
+    "id": 12800475,
+    "name": "talent_name_12800475",
+    "desc": "talent_desc_12800475",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800476": {
+    "id": 12800476,
+    "name": "talent_name_12800476",
+    "desc": "talent_desc_12800476",
+    "awakeLv": 0,
     "skillParamOffsetList": []
   },
   "12800477": {
     "id": 12800477,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800477",
+    "desc": "talent_desc_12800477",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800478": {
     "id": 12800478,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800478",
+    "desc": "talent_desc_12800478",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800479": {
+    "id": 12800479,
+    "name": "talent_name_12800479",
+    "desc": "talent_desc_12800479",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800480": {
     "id": 12800480,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800480",
+    "desc": "talent_desc_12800480",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800481": {
     "id": 12800481,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800481",
+    "desc": "talent_desc_12800481",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2424,694 +3416,150 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
-  "12800479": {
-    "id": 12800479,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800202": {
-    "id": 12800202,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800203": {
-    "id": 12800203,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800204": {
-    "id": 12800204,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800205": {
-    "id": 12800205,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800206": {
-    "id": 12800206,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800207": {
-    "id": 12800207,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800208": {
-    "id": 12800208,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800209": {
-    "id": 12800209,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800210": {
-    "id": 12800210,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800211": {
-    "id": 12800211,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800212": {
-    "id": 12800212,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800213": {
-    "id": 12800213,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": [
-      {
-        "skillId": -1,
-        "tag": "baseEpinephrineHealing",
-        "value_SN": 1500
-      }
-    ]
-  },
-  "12800214": {
-    "id": 12800214,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800215": {
-    "id": 12800215,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800216": {
-    "id": 12800216,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800217": {
-    "id": 12800217,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800218": {
-    "id": 12800218,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800220": {
-    "id": 12800220,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800222": {
-    "id": 12800222,
-    "name": "talent_name_12800222",
-    "desc": "talent_desc_12800222",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800223": {
-    "id": 12800223,
-    "name": "talent_name_12800223",
-    "desc": "talent_desc_12800223",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800224": {
-    "id": 12800224,
-    "name": "talent_name_12800224",
-    "desc": "talent_desc_12800224",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800225": {
-    "id": 12800225,
-    "name": "talent_name_12800225",
-    "desc": "talent_desc_12800225",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800219": {
-    "id": 12800219,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800226": {
-    "id": 12800226,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800227": {
-    "id": 12800227,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800228": {
-    "id": 12800228,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800229": {
-    "id": 12800229,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800230": {
-    "id": 12800230,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800231": {
-    "id": 12800231,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800240": {
-    "id": 12800240,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800239": {
-    "id": 12800239,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800238": {
-    "id": 12800238,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800232": {
-    "id": 12800232,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800241": {
-    "id": 12800241,
-    "name": "talent_name_12800241",
-    "desc": "talent_desc_12800241",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800242": {
-    "id": 12800242,
-    "name": "talent_name_12800242",
-    "desc": "talent_desc_12800242",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800243": {
-    "id": 12800243,
-    "name": "talent_name_12800243",
-    "desc": "talent_desc_12800243",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800245": {
-    "id": 12800245,
-    "name": "talent_name_12800245",
-    "desc": "talent_desc_12800245",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800246": {
-    "id": 12800246,
-    "name": "talent_name_12800246",
-    "desc": "talent_desc_12800246",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800247": {
-    "id": 12800247,
-    "name": "talent_name_12800247",
-    "desc": "talent_desc_12800247",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800249": {
-    "id": 12800249,
-    "name": "talent_name_12800249",
-    "desc": "talent_desc_12800249",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800250": {
-    "id": 12800250,
-    "name": "talent_name_12800250",
-    "desc": "talent_desc_12800250",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800251": {
-    "id": 12800251,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800252": {
-    "id": 12800252,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800253": {
-    "id": 12800253,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800254": {
-    "id": 12800254,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800255": {
-    "id": 12800255,
-    "name": "talent_name_12800255",
-    "desc": "talent_desc_12800255",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800257": {
-    "id": 12800257,
-    "name": "talent_name_12800257",
-    "desc": "talent_desc_12800257",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800261": {
-    "id": 12800261,
-    "name": "talent_name_12800261",
-    "desc": "talent_desc_12800261",
-    "awakeLv": 6,
-    "skillParamOffsetList": [
-      {
-        "skillId": 12301750,
-        "tag": "A",
-        "value_SN": 10000
-      }
-    ]
-  },
-  "12800262": {
-    "id": 12800262,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800263": {
-    "id": 12800263,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800264": {
-    "id": 12800264,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800265": {
-    "id": 12800265,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800266": {
-    "id": 12800266,
-    "name": "talent_name_12800266",
-    "desc": "talent_desc_12800266",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800278": {
-    "id": 12800278,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800279": {
-    "id": 12800279,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800280": {
-    "id": 12800280,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800281": {
-    "id": 12800281,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800282": {
-    "id": 12800282,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800274": {
-    "id": 12800274,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800275": {
-    "id": 12800275,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800276": {
-    "id": 12800276,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800277": {
-    "id": 12800277,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800287": {
-    "id": 12800287,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800288": {
-    "id": 12800288,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800289": {
-    "id": 12800289,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800290": {
-    "id": 12800290,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800286": {
-    "id": 12800286,
-    "name": "talent_name_12800286",
-    "desc": "talent_desc_12800286",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800285": {
-    "id": 12800285,
-    "name": "talent_name_12800285",
-    "desc": "talent_desc_12800285",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800284": {
-    "id": 12800284,
-    "name": "talent_name_12800284",
-    "desc": "talent_desc_12800284",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800167": {
-    "id": 12800167,
-    "name": "talent_name_12800167",
-    "desc": "talent_desc_12800167",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800291": {
-    "id": 12800291,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800307": {
-    "id": 12800307,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
   "12800484": {
     "id": 12800484,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800484",
+    "desc": "talent_desc_12800484",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800485": {
     "id": 12800485,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800485",
+    "desc": "talent_desc_12800485",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800486": {
     "id": 12800486,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800486",
+    "desc": "talent_desc_12800486",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800487": {
     "id": 12800487,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800487",
+    "desc": "talent_desc_12800487",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800488": {
-    "id": 12800488,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800489": {
     "id": 12800489,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800489",
+    "desc": "talent_desc_12800489",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800490": {
     "id": 12800490,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800490",
+    "desc": "talent_desc_12800490",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800491": {
     "id": 12800491,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800491",
+    "desc": "talent_desc_12800491",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800492": {
     "id": 12800492,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800492",
+    "desc": "talent_desc_12800492",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800493": {
     "id": 12800493,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800493",
+    "desc": "talent_desc_12800493",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800494": {
     "id": 12800494,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800494",
+    "desc": "talent_desc_12800494",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800495": {
     "id": 12800495,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800495",
+    "desc": "talent_desc_12800495",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800496": {
     "id": 12800496,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800496",
+    "desc": "talent_desc_12800496",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800497": {
     "id": 12800497,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800497",
+    "desc": "talent_desc_12800497",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800498": {
     "id": 12800498,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800498",
+    "desc": "talent_desc_12800498",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800499": {
     "id": 12800499,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800499",
+    "desc": "talent_desc_12800499",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800500": {
     "id": 12800500,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800500",
+    "desc": "talent_desc_12800500",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800501": {
-    "id": 12800501,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800502": {
     "id": 12800502,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800502",
+    "desc": "talent_desc_12800502",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800503": {
     "id": 12800503,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800503",
+    "desc": "talent_desc_12800503",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800504": {
     "id": 12800504,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800504",
+    "desc": "talent_desc_12800504",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800505": {
-    "id": 12800505,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800506": {
     "id": 12800506,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800506",
+    "desc": "talent_desc_12800506",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800507": {
     "id": 12800507,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800507",
+    "desc": "talent_desc_12800507",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -3127,20 +3575,6 @@
     "name": "talent_name_12800509",
     "desc": "talent_desc_12800509",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800511": {
-    "id": 12800511,
-    "name": "talent_name_12800511",
-    "desc": "talent_desc_12800511",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800512": {
-    "id": 12800512,
-    "name": "talent_name_12800512",
-    "desc": "talent_desc_12800512",
-    "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800510": {
@@ -3171,549 +3605,18 @@
       }
     ]
   },
-  "12800004": {
-    "id": 12800004,
-    "name": "talent_name_12800004",
-    "desc": "talent_desc_12800004",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800006": {
-    "id": 12800006,
-    "name": "talent_name_12800006",
-    "desc": "talent_desc_12800006",
+  "12800511": {
+    "id": 12800511,
+    "name": "talent_name_12800511",
+    "desc": "talent_desc_12800511",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
-  "12800014": {
-    "id": 12800014,
-    "name": "talent_name_12800014",
-    "desc": "talent_desc_12800014",
+  "12800512": {
+    "id": 12800512,
+    "name": "talent_name_12800512",
+    "desc": "talent_desc_12800512",
     "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800018": {
-    "id": 12800018,
-    "name": "talent_name_12800018",
-    "desc": "talent_desc_12800018",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800022": {
-    "id": 12800022,
-    "name": "talent_name_12800022",
-    "desc": "talent_desc_12800022",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800026": {
-    "id": 12800026,
-    "name": "talent_name_12800026",
-    "desc": "talent_desc_12800026",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800033": {
-    "id": 12800033,
-    "name": "talent_name_12800033",
-    "desc": "talent_desc_12800033",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800042": {
-    "id": 12800042,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800045": {
-    "id": 12800045,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800053": {
-    "id": 12800053,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800056": {
-    "id": 12800056,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800061": {
-    "id": 12800061,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800078": {
-    "id": 12800078,
-    "name": "talent_name_12800078",
-    "desc": "talent_desc_12800078",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800083": {
-    "id": 12800083,
-    "name": "talent_name_12800083",
-    "desc": "talent_desc_12800083",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800084": {
-    "id": 12800084,
-    "name": "talent_name_12800084",
-    "desc": "talent_desc_12800084",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800090": {
-    "id": 12800090,
-    "name": "talent_name_12800090",
-    "desc": "talent_desc_12800090",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800095": {
-    "id": 12800095,
-    "name": "talent_name_12800095",
-    "desc": "talent_desc_12800095",
-    "awakeLv": 3,
-    "skillParamOffsetList": [
-      {
-        "skillId": 12302008,
-        "tag": "C",
-        "value_SN": 10000
-      }
-    ]
-  },
-  "12800098": {
-    "id": 12800098,
-    "name": "talent_name_12800098",
-    "desc": "talent_desc_12800098",
-    "awakeLv": 5,
-    "skillParamOffsetList": [
-      {
-        "skillId": 12302005,
-        "tag": "A",
-        "value_SN": 20000
-      },
-      {
-        "skillId": 12302005,
-        "tag": "T",
-        "value_SN": 1200000
-      },
-      {
-        "skillId": 12302038,
-        "tag": "B",
-        "value_SN": 20000
-      },
-      {
-        "skillId": 12302038,
-        "tag": "T",
-        "value_SN": 1200000
-      }
-    ]
-  },
-  "12800101": {
-    "id": 12800101,
-    "name": "talent_name_12800101",
-    "desc": "talent_desc_12800101",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800106": {
-    "id": 12800106,
-    "name": "talent_name_12800106",
-    "desc": "talent_desc_12800106",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800111": {
-    "id": 12800111,
-    "name": "talent_name_12800111",
-    "desc": "talent_desc_12800111",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800119": {
-    "id": 12800119,
-    "name": "talent_name_12800119",
-    "desc": "talent_desc_12800119",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800121": {
-    "id": 12800121,
-    "name": "talent_name_12800121",
-    "desc": "talent_desc_12800121",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800124": {
-    "id": 12800124,
-    "name": "talent_name_12800124",
-    "desc": "talent_desc_12800124",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800132": {
-    "id": 12800132,
-    "name": "talent_name_12800132",
-    "desc": "talent_desc_12800132",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800136": {
-    "id": 12800136,
-    "name": "talent_name_12800136",
-    "desc": "talent_desc_12800136",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800140": {
-    "id": 12800140,
-    "name": "talent_name_12800140",
-    "desc": "talent_desc_12800140",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800144": {
-    "id": 12800144,
-    "name": "talent_name_12800144",
-    "desc": "talent_desc_12800144",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800148": {
-    "id": 12800148,
-    "name": "talent_name_12800148",
-    "desc": "talent_desc_12800148",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800152": {
-    "id": 12800152,
-    "name": "talent_name_12800152",
-    "desc": "talent_desc_12800152",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800156": {
-    "id": 12800156,
-    "name": "talent_name_12800156",
-    "desc": "talent_desc_12800156",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800176": {
-    "id": 12800176,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800172": {
-    "id": 12800172,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800168": {
-    "id": 12800168,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800164": {
-    "id": 12800164,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800160": {
-    "id": 12800160,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800184": {
-    "id": 12800184,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800188": {
-    "id": 12800188,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800192": {
-    "id": 12800192,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800221": {
-    "id": 12800221,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800236": {
-    "id": 12800236,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800128": {
-    "id": 12800128,
-    "name": "talent_name_12800128",
-    "desc": "talent_desc_12800128",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800244": {
-    "id": 12800244,
-    "name": "talent_name_12800244",
-    "desc": "talent_desc_12800244",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800248": {
-    "id": 12800248,
-    "name": "talent_name_12800248",
-    "desc": "talent_desc_12800248",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800256": {
-    "id": 12800256,
-    "name": "talent_name_12800256",
-    "desc": "talent_desc_12800256",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800283": {
-    "id": 12800283,
-    "name": "talent_name_12800283",
-    "desc": "talent_desc_12800283",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800306": {
-    "id": 12800306,
-    "name": "talent_name_12800306",
-    "desc": "talent_desc_12800306",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800311": {
-    "id": 12800311,
-    "name": "talent_name_12800311",
-    "desc": "talent_desc_12800311",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800329": {
-    "id": 12800329,
-    "name": "talent_name_12800329",
-    "desc": "talent_desc_12800329",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800337": {
-    "id": 12800337,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800343": {
-    "id": 12800343,
-    "name": "",
-    "desc": "",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800348": {
-    "id": 12800348,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800353": {
-    "id": 12800353,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800358": {
-    "id": 12800358,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800362": {
-    "id": 12800362,
-    "name": "talent_name_12800362",
-    "desc": "talent_desc_12800362",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800366": {
-    "id": 12800366,
-    "name": "talent_name_12800366",
-    "desc": "talent_desc_12800366",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800372": {
-    "id": 12800372,
-    "name": "talent_name_12800372",
-    "desc": "talent_desc_12800372",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800376": {
-    "id": 12800376,
-    "name": "talent_name_12800376",
-    "desc": "talent_desc_12800376",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800377": {
-    "id": 12800377,
-    "name": "talent_name_12800377",
-    "desc": "talent_desc_12800377",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800379": {
-    "id": 12800379,
-    "name": "talent_name_12800379",
-    "desc": "talent_desc_12800379",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800382": {
-    "id": 12800382,
-    "name": "talent_name_12800382",
-    "desc": "talent_desc_12800382",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800383": {
-    "id": 12800383,
-    "name": "talent_name_12800383",
-    "desc": "talent_desc_12800383",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800385": {
-    "id": 12800385,
-    "name": "talent_name_12800385",
-    "desc": "talent_desc_12800385",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800387": {
-    "id": 12800387,
-    "name": "talent_name_12800387",
-    "desc": "talent_desc_12800387",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800391": {
-    "id": 12800391,
-    "name": "talent_name_12800391",
-    "desc": "talent_desc_12800391",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800402": {
-    "id": 12800402,
-    "name": "talent_name_12800402",
-    "desc": "talent_desc_12800402",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800408": {
-    "id": 12800408,
-    "name": "talent_name_12800408",
-    "desc": "talent_desc_12800408",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800413": {
-    "id": 12800413,
-    "name": "talent_name_12800413",
-    "desc": "talent_desc_12800413",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800417": {
-    "id": 12800417,
-    "name": "talent_name_12800417",
-    "desc": "talent_desc_12800417",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800418": {
-    "id": 12800418,
-    "name": "talent_name_12800418",
-    "desc": "talent_desc_12800418",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800419": {
-    "id": 12800419,
-    "name": "talent_name_12800419",
-    "desc": "talent_desc_12800419",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800424": {
-    "id": 12800424,
-    "name": "talent_name_12800424",
-    "desc": "talent_desc_12800424",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800429": {
-    "id": 12800429,
-    "name": "talent_name_12800429",
-    "desc": "talent_desc_12800429",
-    "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800432": {
-    "id": 12800432,
-    "name": "talent_name_12800432",
-    "desc": "talent_desc_12800432",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800513": {
@@ -4122,6 +4025,13 @@
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
+  "12800571": {
+    "id": 12800571,
+    "name": "talent_name_12800571",
+    "desc": "talent_desc_12800571",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
   "12800572": {
     "id": 12800572,
     "name": "talent_name_12800572",
@@ -4143,6 +4053,13 @@
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
+  "12800575": {
+    "id": 12800575,
+    "name": "talent_name_12800575",
+    "desc": "talent_desc_12800575",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
   "12800576": {
     "id": 12800576,
     "name": "talent_name_12800576",
@@ -4155,13 +4072,6 @@
     "name": "talent_name_12800577",
     "desc": "talent_desc_12800577",
     "awakeLv": 4,
-    "skillParamOffsetList": []
-  },
-  "12800571": {
-    "id": 12800571,
-    "name": "talent_name_12800571",
-    "desc": "talent_desc_12800571",
-    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800578": {
@@ -4227,20 +4137,6 @@
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
-  "12800399": {
-    "id": 12800399,
-    "name": "talent_name_12800399",
-    "desc": "talent_desc_12800399",
-    "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800414": {
-    "id": 12800414,
-    "name": "talent_name_12800414",
-    "desc": "talent_desc_12800414",
-    "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
   "12800587": {
     "id": 12800587,
     "name": "talent_name_12800587",
@@ -4299,16 +4195,9 @@
   },
   "12800595": {
     "id": 12800595,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800595",
+    "desc": "talent_desc_12800595",
     "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800575": {
-    "id": 12800575,
-    "name": "talent_name_12800575",
-    "desc": "talent_desc_12800575",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800596": {
@@ -4374,73 +4263,59 @@
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
-  "12800609": {
-    "id": 12800609,
-    "name": "",
-    "desc": "",
-    "awakeLv": 6,
-    "skillParamOffsetList": []
-  },
-  "12800608": {
-    "id": 12800608,
-    "name": "",
-    "desc": "",
-    "awakeLv": 5,
-    "skillParamOffsetList": []
-  },
-  "12800607": {
-    "id": 12800607,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
+  "12800605": {
+    "id": 12800605,
+    "name": "talent_name_12800605",
+    "desc": "talent_desc_12800605",
+    "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800606": {
     "id": 12800606,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800606",
+    "desc": "talent_desc_12800606",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
-  "12800605": {
-    "id": 12800605,
-    "name": "",
-    "desc": "",
-    "awakeLv": 2,
+  "12800608": {
+    "id": 12800608,
+    "name": "talent_name_12800608",
+    "desc": "talent_desc_12800608",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800609": {
+    "id": 12800609,
+    "name": "talent_name_12800609",
+    "desc": "talent_desc_12800609",
+    "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800610": {
     "id": 12800610,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800610",
+    "desc": "talent_desc_12800610",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
   "12800611": {
     "id": 12800611,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800611",
+    "desc": "talent_desc_12800611",
     "awakeLv": 3,
-    "skillParamOffsetList": []
-  },
-  "12800612": {
-    "id": 12800612,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800613": {
     "id": 12800613,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800613",
+    "desc": "talent_desc_12800613",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
   "12800614": {
     "id": 12800614,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800614",
+    "desc": "talent_desc_12800614",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4551,37 +4426,37 @@
   },
   "12800630": {
     "id": 12800630,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800630",
+    "desc": "talent_desc_12800630",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800631": {
     "id": 12800631,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800631",
+    "desc": "talent_desc_12800631",
     "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800632": {
+    "id": 12800632,
+    "name": "talent_name_12800632",
+    "desc": "talent_desc_12800632",
+    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800633": {
     "id": 12800633,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800633",
+    "desc": "talent_desc_12800633",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800634": {
     "id": 12800634,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800634",
+    "desc": "talent_desc_12800634",
     "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800632": {
-    "id": 12800632,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800635": {
@@ -4621,36 +4496,29 @@
   },
   "12800640": {
     "id": 12800640,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800640",
+    "desc": "talent_desc_12800640",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
   "12800641": {
     "id": 12800641,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800641",
+    "desc": "talent_desc_12800641",
     "awakeLv": 2,
-    "skillParamOffsetList": []
-  },
-  "12800642": {
-    "id": 12800642,
-    "name": "",
-    "desc": "",
-    "awakeLv": 4,
     "skillParamOffsetList": []
   },
   "12800643": {
     "id": 12800643,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800643",
+    "desc": "talent_desc_12800643",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
   "12800644": {
     "id": 12800644,
-    "name": "",
-    "desc": "",
+    "name": "talent_name_12800644",
+    "desc": "talent_desc_12800644",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4757,6 +4625,157 @@
     "name": "talent_name_12800659",
     "desc": "talent_desc_12800659",
     "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800660": {
+    "id": 12800660,
+    "name": "talent_name_12800660",
+    "desc": "talent_desc_12800660",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800661": {
+    "id": 12800661,
+    "name": "talent_name_12800661",
+    "desc": "talent_desc_12800661",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800662": {
+    "id": 12800662,
+    "name": "talent_name_12800662",
+    "desc": "talent_desc_12800662",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800663": {
+    "id": 12800663,
+    "name": "talent_name_12800663",
+    "desc": "talent_desc_12800663",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800664": {
+    "id": 12800664,
+    "name": "talent_name_12800664",
+    "desc": "talent_desc_12800664",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800665": {
+    "id": 12800665,
+    "name": "talent_name_12800665",
+    "desc": "talent_desc_12800665",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800666": {
+    "id": 12800666,
+    "name": "talent_name_12800666",
+    "desc": "talent_desc_12800666",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800667": {
+    "id": 12800667,
+    "name": "talent_name_12800667",
+    "desc": "talent_desc_12800667",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800668": {
+    "id": 12800668,
+    "name": "talent_name_12800668",
+    "desc": "talent_desc_12800668",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800669": {
+    "id": 12800669,
+    "name": "talent_name_12800669",
+    "desc": "talent_desc_12800669",
+    "awakeLv": 6,
+    "skillParamOffsetList": [
+      {
+        "skillId": 12303993,
+        "tag": "T",
+        "value_SN": 1200000
+      },
+      {
+        "skillId": 12303993,
+        "tag": "A",
+        "value_SN": 20000
+      }
+    ]
+  },
+  "12800670": {
+    "id": 12800670,
+    "name": "talent_name_12800670",
+    "desc": "talent_desc_12800670",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800671": {
+    "id": 12800671,
+    "name": "talent_name_12800671",
+    "desc": "talent_desc_12800671",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800672": {
+    "id": 12800672,
+    "name": "talent_name_12800672",
+    "desc": "talent_desc_12800672",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800673": {
+    "id": 12800673,
+    "name": "talent_name_12800673",
+    "desc": "talent_desc_12800673",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800674": {
+    "id": 12800674,
+    "name": "talent_name_12800674",
+    "desc": "talent_desc_12800674",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800675": {
+    "id": 12800675,
+    "name": "talent_name_12800675",
+    "desc": "talent_desc_12800675",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800676": {
+    "id": 12800676,
+    "name": "talent_name_12800676",
+    "desc": "talent_desc_12800676",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800677": {
+    "id": 12800677,
+    "name": "talent_name_12800677",
+    "desc": "talent_desc_12800677",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800678": {
+    "id": 12800678,
+    "name": "talent_name_12800678",
+    "desc": "talent_desc_12800678",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  "12800679": {
+    "id": 12800679,
+    "name": "talent_name_12800679",
+    "desc": "talent_desc_12800679",
+    "awakeLv": 5,
     "skillParamOffsetList": []
   }
 }

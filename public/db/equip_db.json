@@ -1,4 +1,703 @@
 {
+  "11800001": {
+    "id": 11800001,
+    "name": "equip_name_11800001",
+    "des": "equip_des_11800001",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12301048
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800001_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800002": {
+    "id": 11800002,
+    "name": "equip_name_11800002",
+    "des": "equip_des_11800002",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12300002
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800002_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "equip_Getway_11800002_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800002_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800003": {
+    "id": 11800003,
+    "name": "equip_name_11800003",
+    "des": "equip_des_11800003",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12300191
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800003_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800006": {
+    "id": 11800006,
+    "name": "equip_name_11800006",
+    "des": "equip_des_11800006",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12300894
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800006_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800007": {
+    "id": 11800007,
+    "name": "equip_name_11800007",
+    "des": "equip_des_11800007",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12300061
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800007_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800008": {
+    "id": 11800008,
+    "name": "equip_name_11800008",
+    "des": "equip_des_11800008",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12300983
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800008_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800009": {
+    "id": 11800009,
+    "name": "equip_name_11800009",
+    "des": "equip_des_11800009",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12301143
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800009_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800011": {
+    "id": 11800011,
+    "name": "equip_name_11800011",
+    "des": "equip_des_11800011",
+    "equipTagId": 12600161,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12301717
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800011_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800012": {
+    "id": 11800012,
+    "name": "equip_name_11800012",
+    "des": "equip_des_11800012",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302033
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800012_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800012_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800012_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800012_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800012_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800012_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800013": {
+    "id": 11800013,
+    "name": "equip_name_11800013",
+    "des": "equip_des_11800013",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12301718
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800013_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800014": {
+    "id": 11800014,
+    "name": "equip_name_11800014",
+    "des": "equip_des_11800014",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12300291
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800014_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800014_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800014_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800014_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800015": {
+    "id": 11800015,
+    "name": "equip_name_11800015",
+    "des": "equip_des_11800015",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302012
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800015_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800015_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800015_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800015_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800015_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800015_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800015_6_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800016": {
+    "id": 11800016,
+    "name": "equip_name_11800016",
+    "des": "equip_des_11800016",
+    "equipTagId": 12600162,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302041
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800016_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800016_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800016_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800016_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800016_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800016_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800016_6_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800017": {
+    "id": 11800017,
+    "name": "equip_name_11800017",
+    "des": "equip_des_11800017",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302034
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800017_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800017_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800017_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800017_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800018": {
+    "id": 11800018,
+    "name": "equip_name_11800018",
+    "des": "equip_des_11800018",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12302042
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800018_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800019": {
+    "id": 11800019,
+    "name": "equip_name_11800019",
+    "des": "equip_des_11800019",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302035
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800019_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800019_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800019_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800019_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800020": {
+    "id": 11800020,
+    "name": "equip_name_11800020",
+    "des": "equip_des_11800020",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302111
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800020_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800020_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800020_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800021": {
+    "id": 11800021,
+    "name": "equip_name_11800021",
+    "des": "equip_des_11800021",
+    "equipTagId": 12600161,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12303466
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800021_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800022": {
+    "id": 11800022,
+    "name": "equip_name_11800022",
+    "des": "equip_des_11800022",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12300001
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800022_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800024": {
+    "id": 11800024,
+    "name": "equip_name_11800024",
+    "des": "equip_des_11800024",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12300317
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800024_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800024_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800024_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800024_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800027": {
+    "id": 11800027,
+    "name": "equip_name_11800027",
+    "des": "equip_des_11800027",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302206
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800027_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800027_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800027_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800027_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800027_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
   "11800028": {
     "id": 11800028,
     "name": "equip_name_11800028",
@@ -55,6 +754,55 @@
       },
       {
         "DisplayName": "equip_Getway_11800028_6_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800029": {
+    "id": 11800029,
+    "name": "equip_name_11800029",
+    "des": "equip_des_11800029",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12301979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800029_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800029_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800029_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800029_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800029_4_DisplayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -125,6 +873,55 @@
       }
     ]
   },
+  "11800031": {
+    "id": 11800031,
+    "name": "equip_name_11800031",
+    "des": "equip_des_11800031",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12301980
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800031_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800031_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800031_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800031_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800031_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
   "11800032": {
     "id": 11800032,
     "name": "equip_name_11800032",
@@ -146,6 +943,55 @@
       }
     ]
   },
+  "11800033": {
+    "id": 11800033,
+    "name": "equip_name_11800033",
+    "des": "equip_des_11800033",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12301991
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800033_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800033_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800033_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800033_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800033_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
   "11800034": {
     "id": 11800034,
     "name": "equip_name_11800034",
@@ -160,6 +1006,341 @@
     "Getway": [
       {
         "DisplayName": "equip_Getway_11800034_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800035": {
+    "id": 11800035,
+    "name": "equip_name_11800035",
+    "des": "equip_des_11800035",
+    "equipTagId": 12600155,
+    "quality": "Blue",
+    "skillList": [
+      {
+        "skillId": 12300958
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800035_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800035_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800035_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800035_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800035_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800035_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800036": {
+    "id": 11800036,
+    "name": "equip_name_11800036",
+    "des": "equip_des_11800036",
+    "equipTagId": 12600155,
+    "quality": "Blue",
+    "skillList": [
+      {
+        "skillId": 12301017
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800036_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800036_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800036_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800036_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800036_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800037": {
+    "id": 11800037,
+    "name": "equip_name_11800037",
+    "des": "equip_des_11800037",
+    "equipTagId": 12600155,
+    "quality": "Blue",
+    "skillList": [
+      {
+        "skillId": 12301052
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800037_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "equip_Getway_11800037_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800037_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800038": {
+    "id": 11800038,
+    "name": "equip_name_11800038",
+    "des": "equip_des_11800038",
+    "equipTagId": 12600155,
+    "quality": "Blue",
+    "skillList": [
+      {
+        "skillId": 12301033
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800038_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800038_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800038_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800038_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800038_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800038_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800039": {
+    "id": 11800039,
+    "name": "equip_name_11800039",
+    "des": "equip_des_11800039",
+    "equipTagId": 12600155,
+    "quality": "Blue",
+    "skillList": [
+      {
+        "skillId": 12300951
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800039_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800039_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800039_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800039_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800039_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800039_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800040": {
+    "id": 11800040,
+    "name": "equip_name_11800040",
+    "des": "equip_des_11800040",
+    "equipTagId": 12600161,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12302011
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800040_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800041": {
+    "id": 11800041,
+    "name": "equip_name_11800041",
+    "des": "equip_des_11800041",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12302043
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800041_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800042": {
+    "id": 11800042,
+    "name": "equip_name_11800042",
+    "des": "equip_des_11800042",
+    "equipTagId": 12600162,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302049
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800042_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800042_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800042_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800042_3_DisplayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -454,6 +1635,1301 @@
     "Getway": [
       {
         "DisplayName": "equip_Getway_11800048_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800049": {
+    "id": 11800049,
+    "name": "equip_name_11800049",
+    "des": "equip_des_11800049",
+    "equipTagId": 12600161,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12302057
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800049_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800050": {
+    "id": 11800050,
+    "name": "equip_name_11800050",
+    "des": "equip_des_11800050",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12302058
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800050_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800051": {
+    "id": 11800051,
+    "name": "equip_name_11800051",
+    "des": "equip_des_11800051",
+    "equipTagId": 12600162,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302064
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800051_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800051_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800051_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800052": {
+    "id": 11800052,
+    "name": "equip_name_11800052",
+    "des": "equip_des_11800052",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302086
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800052_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800052_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800052_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800052_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800052_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800054": {
+    "id": 11800054,
+    "name": "equip_name_11800054",
+    "des": "equip_des_11800054",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302090
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800054_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800054_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800054_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800054_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800054_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800054_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800054_6_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800055": {
+    "id": 11800055,
+    "name": "equip_name_11800055",
+    "des": "equip_des_11800055",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302091
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800055_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800055_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800055_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800055_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800055_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800055_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800055_6_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800056": {
+    "id": 11800056,
+    "name": "equip_name_11800056",
+    "des": "equip_des_11800056",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302092
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800056_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800056_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800056_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800056_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800056_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800056_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800057": {
+    "id": 11800057,
+    "name": "equip_name_11800057",
+    "des": "equip_des_11800057",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302093
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800057_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800057_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800057_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800057_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800057_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800058": {
+    "id": 11800058,
+    "name": "equip_name_11800058",
+    "des": "equip_des_11800058",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302094
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800058_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "equip_Getway_11800058_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800058_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800059": {
+    "id": 11800059,
+    "name": "equip_name_11800059",
+    "des": "equip_des_11800059",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302095
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800059_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800059_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800059_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800059_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800059_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800060": {
+    "id": 11800060,
+    "name": "equip_name_11800060",
+    "des": "equip_des_11800060",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12302096
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800060_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800061": {
+    "id": 11800061,
+    "name": "equip_name_11800061",
+    "des": "equip_des_11800061",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302097
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800061_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "equip_Getway_11800061_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800061_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800062": {
+    "id": 11800062,
+    "name": "equip_name_11800062",
+    "des": "equip_des_11800062",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302098
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800062_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800062_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800062_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800062_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800062_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800062_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800063": {
+    "id": 11800063,
+    "name": "equip_name_11800063",
+    "des": "equip_des_11800063",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302099
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800063_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800063_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800063_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800063_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800063_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800064": {
+    "id": 11800064,
+    "name": "equip_name_11800064",
+    "des": "equip_des_11800064",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302100
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800064_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800064_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800064_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800064_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800064_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800064_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800064_6_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800065": {
+    "id": 11800065,
+    "name": "equip_name_11800065",
+    "des": "equip_des_11800065",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302101
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800065_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800065_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800065_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800065_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800065_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800066": {
+    "id": 11800066,
+    "name": "equip_name_11800066",
+    "des": "equip_des_11800066",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302102
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800066_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800066_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800066_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800066_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800066_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800067": {
+    "id": 11800067,
+    "name": "equip_name_11800067",
+    "des": "equip_des_11800067",
+    "equipTagId": 12600162,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302113
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800067_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800067_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800067_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800067_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800067_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800068": {
+    "id": 11800068,
+    "name": "equip_name_11800068",
+    "des": "equip_des_11800068",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12302217
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800068_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800068_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800068_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800068_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800068_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800068_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800078": {
+    "id": 11800078,
+    "name": "equip_name_11800078",
+    "des": "equip_des_11800078",
+    "equipTagId": 12600162,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303408
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800078_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "equip_Getway_11800078_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800078_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800079": {
+    "id": 11800079,
+    "name": "equip_name_11800079",
+    "des": "equip_des_11800079",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12303461
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800079_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800080": {
+    "id": 11800080,
+    "name": "equip_name_11800080",
+    "des": "equip_des_11800080",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12303462
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800080_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800081": {
+    "id": 11800081,
+    "name": "equip_name_11800081",
+    "des": "equip_des_11800081",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303463
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800081_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "equip_Getway_11800081_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800081_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800084": {
+    "id": 11800084,
+    "name": "equip_name_11800084",
+    "des": "equip_des_11800084",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303543
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800084_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800084_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800084_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800084_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800084_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800089": {
+    "id": 11800089,
+    "name": "equip_name_11800089",
+    "des": "equip_des_11800089",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303793
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800089_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "equip_Getway_11800089_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800089_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800090": {
+    "id": 11800090,
+    "name": "equip_name_11800090",
+    "des": "equip_des_11800090",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303843
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800090_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "equip_Getway_11800090_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800090_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800091": {
+    "id": 11800091,
+    "name": "equip_name_11800091",
+    "des": "equip_des_11800091",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12303856
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800091_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800092": {
+    "id": 11800092,
+    "name": "equip_name_11800092",
+    "des": "equip_des_11800092",
+    "equipTagId": 12600162,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12300725
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800092_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800092_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800092_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800092_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800092_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800093": {
+    "id": 11800093,
+    "name": "equip_name_11800093",
+    "des": "equip_des_11800093",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12304325
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800093_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800093_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800093_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800093_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800093_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800094": {
+    "id": 11800094,
+    "name": "equip_name_11800094",
+    "des": "equip_des_11800094",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12304324
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800094_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800094_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800094_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800094_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800094_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800095": {
+    "id": 11800095,
+    "name": "equip_name_11800095",
+    "des": "equip_des_11800095",
+    "equipTagId": 12600162,
+    "quality": "Purple",
+    "skillList": [
+      {
+        "skillId": 12304326
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800095_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "equip_Getway_11800095_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800095_2_DisplayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -958,257 +3434,6 @@
       },
       {
         "DisplayName": "equip_Getway_11800107_6_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800035": {
-    "id": 11800035,
-    "name": "equip_name_11800035",
-    "des": "equip_des_11800035",
-    "equipTagId": 12600155,
-    "quality": "Blue",
-    "skillList": [
-      {
-        "skillId": 12300958
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800035_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800035_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800035_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800035_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800035_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800035_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800036": {
-    "id": 11800036,
-    "name": "equip_name_11800036",
-    "des": "equip_des_11800036",
-    "equipTagId": 12600155,
-    "quality": "Blue",
-    "skillList": [
-      {
-        "skillId": 12301017
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800036_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800036_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800036_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800036_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800036_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800037": {
-    "id": 11800037,
-    "name": "equip_name_11800037",
-    "des": "equip_des_11800037",
-    "equipTagId": 12600155,
-    "quality": "Blue",
-    "skillList": [
-      {
-        "skillId": 12301052
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800037_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": ""
-      },
-      {
-        "DisplayName": "equip_Getway_11800037_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800037_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800038": {
-    "id": 11800038,
-    "name": "equip_name_11800038",
-    "des": "equip_des_11800038",
-    "equipTagId": 12600155,
-    "quality": "Blue",
-    "skillList": [
-      {
-        "skillId": 12301033
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800038_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800038_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800038_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800038_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800038_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800038_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800039": {
-    "id": 11800039,
-    "name": "equip_name_11800039",
-    "des": "equip_des_11800039",
-    "equipTagId": 12600155,
-    "quality": "Blue",
-    "skillList": [
-      {
-        "skillId": 12300951
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800039_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800039_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800039_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800039_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800039_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800039_5_DisplayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2843,6 +5068,48 @@
       }
     ]
   },
+  "11800278": {
+    "id": 11800278,
+    "name": "equip_name_11800278",
+    "des": "equip_des_11800278",
+    "equipTagId": 12600161,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12301066
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800278_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800279": {
+    "id": 11800279,
+    "name": "equip_name_11800279",
+    "des": "equip_des_11800279",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12301067
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800279_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
   "11800280": {
     "id": 11800280,
     "name": "equip_name_11800280",
@@ -4336,2022 +6603,6 @@
     "Getway": [
       {
         "DisplayName": "equip_Getway_11800316_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800002": {
-    "id": 11800002,
-    "name": "equip_name_11800002",
-    "des": "equip_des_11800002",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12300002
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800002_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": ""
-      },
-      {
-        "DisplayName": "equip_Getway_11800002_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800002_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800001": {
-    "id": 11800001,
-    "name": "equip_name_11800001",
-    "des": "equip_des_11800001",
-    "equipTagId": 12600162,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12301048
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800001_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800003": {
-    "id": 11800003,
-    "name": "equip_name_11800003",
-    "des": "equip_des_11800003",
-    "equipTagId": 12600162,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12300191
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800003_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800006": {
-    "id": 11800006,
-    "name": "equip_name_11800006",
-    "des": "equip_des_11800006",
-    "equipTagId": 12600155,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12300894
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800006_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800007": {
-    "id": 11800007,
-    "name": "equip_name_11800007",
-    "des": "equip_des_11800007",
-    "equipTagId": 12600155,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12300061
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800007_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800008": {
-    "id": 11800008,
-    "name": "equip_name_11800008",
-    "des": "equip_des_11800008",
-    "equipTagId": 12600155,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12300983
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800008_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800009": {
-    "id": 11800009,
-    "name": "equip_name_11800009",
-    "des": "equip_des_11800009",
-    "equipTagId": 12600155,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12301143
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800009_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800011": {
-    "id": 11800011,
-    "name": "equip_name_11800011",
-    "des": "equip_des_11800011",
-    "equipTagId": 12600161,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12301717
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800011_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800013": {
-    "id": 11800013,
-    "name": "equip_name_11800013",
-    "des": "equip_des_11800013",
-    "equipTagId": 12600155,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12301718
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800013_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800012": {
-    "id": 11800012,
-    "name": "equip_name_11800012",
-    "des": "equip_des_11800012",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302033
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800012_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800012_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800012_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800012_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800012_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800012_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800015": {
-    "id": 11800015,
-    "name": "equip_name_11800015",
-    "des": "equip_des_11800015",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302012
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800015_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800015_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800015_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800015_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800015_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800015_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800015_6_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800016": {
-    "id": 11800016,
-    "name": "equip_name_11800016",
-    "des": "equip_des_11800016",
-    "equipTagId": 12600162,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302041
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800016_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800016_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800016_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800016_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800016_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800016_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800016_6_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800017": {
-    "id": 11800017,
-    "name": "equip_name_11800017",
-    "des": "equip_des_11800017",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302034
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800017_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800017_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800017_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800017_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800018": {
-    "id": 11800018,
-    "name": "equip_name_11800018",
-    "des": "equip_des_11800018",
-    "equipTagId": 12600162,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12302042
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800018_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800019": {
-    "id": 11800019,
-    "name": "equip_name_11800019",
-    "des": "equip_des_11800019",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302035
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800019_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800019_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800019_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800019_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800021": {
-    "id": 11800021,
-    "name": "equip_name_11800021",
-    "des": "equip_des_11800021",
-    "equipTagId": 12600161,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12303466
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800021_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800022": {
-    "id": 11800022,
-    "name": "equip_name_11800022",
-    "des": "equip_des_11800022",
-    "equipTagId": 12600162,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12300001
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800022_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800014": {
-    "id": 11800014,
-    "name": "equip_name_11800014",
-    "des": "",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12300291
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800014_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800014_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800014_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800014_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800024": {
-    "id": 11800024,
-    "name": "equip_name_11800024",
-    "des": "",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12300317
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800024_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800024_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800024_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800024_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800029": {
-    "id": 11800029,
-    "name": "equip_name_11800029",
-    "des": "equip_des_11800029",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12301979
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800029_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800029_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800029_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800029_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800029_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800031": {
-    "id": 11800031,
-    "name": "equip_name_11800031",
-    "des": "equip_des_11800031",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12301980
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800031_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800031_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800031_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800031_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800031_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800033": {
-    "id": 11800033,
-    "name": "equip_name_11800033",
-    "des": "equip_des_11800033",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12301991
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800033_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800033_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800033_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800033_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800033_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800040": {
-    "id": 11800040,
-    "name": "equip_name_11800040",
-    "des": "equip_des_11800040",
-    "equipTagId": 12600161,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12302011
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800040_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800041": {
-    "id": 11800041,
-    "name": "equip_name_11800041",
-    "des": "equip_des_11800041",
-    "equipTagId": 12600162,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12302043
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800041_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800042": {
-    "id": 11800042,
-    "name": "equip_name_11800042",
-    "des": "equip_des_11800042",
-    "equipTagId": 12600162,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302049
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800042_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800042_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800042_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800042_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800049": {
-    "id": 11800049,
-    "name": "equip_name_11800049",
-    "des": "equip_des_11800049",
-    "equipTagId": 12600161,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12302057
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800049_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800050": {
-    "id": 11800050,
-    "name": "equip_name_11800050",
-    "des": "equip_des_11800050",
-    "equipTagId": 12600162,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12302058
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800050_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800051": {
-    "id": 11800051,
-    "name": "equip_name_11800051",
-    "des": "equip_des_11800051",
-    "equipTagId": 12600162,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302064
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800051_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800051_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800051_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800052": {
-    "id": 11800052,
-    "name": "equip_name_11800052",
-    "des": "equip_des_11800052",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302086
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800052_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800052_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800052_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800052_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800052_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800054": {
-    "id": 11800054,
-    "name": "equip_name_11800054",
-    "des": "equip_des_11800054",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302090
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800054_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800054_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800054_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800054_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800054_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800054_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800054_6_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800055": {
-    "id": 11800055,
-    "name": "equip_name_11800055",
-    "des": "equip_des_11800055",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302091
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800055_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800055_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800055_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800055_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800055_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800055_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800055_6_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800056": {
-    "id": 11800056,
-    "name": "equip_name_11800056",
-    "des": "equip_des_11800056",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302092
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800056_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800056_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800056_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800056_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800056_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800056_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800057": {
-    "id": 11800057,
-    "name": "equip_name_11800057",
-    "des": "equip_des_11800057",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302093
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800057_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800057_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800057_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800057_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800057_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800058": {
-    "id": 11800058,
-    "name": "equip_name_11800058",
-    "des": "equip_des_11800058",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302094
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800058_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": ""
-      },
-      {
-        "DisplayName": "equip_Getway_11800058_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800058_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800059": {
-    "id": 11800059,
-    "name": "equip_name_11800059",
-    "des": "equip_des_11800059",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302095
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800059_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800059_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800059_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800059_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800059_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800060": {
-    "id": 11800060,
-    "name": "equip_name_11800060",
-    "des": "equip_des_11800060",
-    "equipTagId": 12600162,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12302096
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800060_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800061": {
-    "id": 11800061,
-    "name": "equip_name_11800061",
-    "des": "equip_des_11800061",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302097
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800061_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": ""
-      },
-      {
-        "DisplayName": "equip_Getway_11800061_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800061_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800062": {
-    "id": 11800062,
-    "name": "equip_name_11800062",
-    "des": "equip_des_11800062",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302098
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800062_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800062_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800062_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800062_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800062_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800062_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800063": {
-    "id": 11800063,
-    "name": "equip_name_11800063",
-    "des": "equip_des_11800063",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302099
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800063_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800063_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800063_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800063_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800063_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800064": {
-    "id": 11800064,
-    "name": "equip_name_11800064",
-    "des": "equip_des_11800064",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302100
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800064_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800064_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800064_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800064_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800064_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800064_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800064_6_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800065": {
-    "id": 11800065,
-    "name": "equip_name_11800065",
-    "des": "equip_des_11800065",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302101
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800065_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800065_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800065_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800065_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800065_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800066": {
-    "id": 11800066,
-    "name": "equip_name_11800066",
-    "des": "equip_des_11800066",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302102
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800066_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800066_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800066_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800066_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800066_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800020": {
-    "id": 11800020,
-    "name": "equip_name_11800020",
-    "des": "equip_des_11800020",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302111
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800020_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800020_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800020_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800067": {
-    "id": 11800067,
-    "name": "equip_name_11800067",
-    "des": "equip_des_11800067",
-    "equipTagId": 12600162,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302113
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800067_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800067_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800067_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800067_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800067_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800027": {
-    "id": 11800027,
-    "name": "equip_name_11800027",
-    "des": "equip_des_11800027",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302206
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800027_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800027_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800027_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800027_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800027_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800068": {
-    "id": 11800068,
-    "name": "equip_name_11800068",
-    "des": "equip_des_11800068",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12302217
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800068_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800068_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800068_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800068_3_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800068_4_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800068_5_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800078": {
-    "id": 11800078,
-    "name": "equip_name_11800078",
-    "des": "equip_des_11800078",
-    "equipTagId": 12600162,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12303408
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800078_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": ""
-      },
-      {
-        "DisplayName": "equip_Getway_11800078_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800078_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800079": {
-    "id": 11800079,
-    "name": "equip_name_11800079",
-    "des": "equip_des_11800079",
-    "equipTagId": 12600155,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12303461
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800079_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800080": {
-    "id": 11800080,
-    "name": "equip_name_11800080",
-    "des": "equip_des_11800080",
-    "equipTagId": 12600162,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12303462
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800080_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800081": {
-    "id": 11800081,
-    "name": "equip_name_11800081",
-    "des": "equip_des_11800081",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12303463
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800081_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": ""
-      },
-      {
-        "DisplayName": "equip_Getway_11800081_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800081_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800084": {
-    "id": 11800084,
-    "name": "equip_name_11800084",
-    "des": "equip_des_11800084",
-    "equipTagId": 12600155,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12301143
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800084_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800089": {
-    "id": 11800089,
-    "name": "equip_name_11800089",
-    "des": "equip_des_11800089",
-    "equipTagId": 12600155,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12303793
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800089_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": ""
-      },
-      {
-        "DisplayName": "equip_Getway_11800089_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800089_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800090": {
-    "id": 11800090,
-    "name": "equip_name_11800090",
-    "des": "equip_des_11800090",
-    "equipTagId": 12600161,
-    "quality": "Golden",
-    "skillList": [
-      {
-        "skillId": 12303843
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800090_0_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": ""
-      },
-      {
-        "DisplayName": "equip_Getway_11800090_1_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      },
-      {
-        "DisplayName": "equip_Getway_11800090_2_DisplayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
-  "11800091": {
-    "id": 11800091,
-    "name": "equip_name_11800091",
-    "des": "equip_des_11800091",
-    "equipTagId": 12600155,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12303856
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip_Getway_11800091_0_DisplayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",

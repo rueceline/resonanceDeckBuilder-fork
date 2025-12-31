@@ -27,13 +27,6 @@
     "param": 0.002,
     "homeSkillType": "HaggleRange"
   },
-  "83900005": {
-    "id": 83900005,
-    "name": "home_skill_name_83900005",
-    "desc": "home_skill_desc_83900005",
-    "param": 0.2,
-    "homeSkillType": "AddSpecQty"
-  },
   "83900006": {
     "id": 83900006,
     "name": "home_skill_name_83900006",
@@ -48,12 +41,12 @@
     "param": -0.005,
     "homeSkillType": "TaxCuts"
   },
-  "83900008": {
-    "id": 83900008,
-    "name": "home_skill_name_83900008",
-    "desc": "home_skill_desc_83900008",
-    "param": 0.003,
-    "homeSkillType": "HaggleRange"
+  "83900005": {
+    "id": 83900005,
+    "name": "home_skill_name_83900005",
+    "desc": "home_skill_desc_83900005",
+    "param": 0.2,
+    "homeSkillType": "AddSpecQty"
   },
   "83900009": {
     "id": 83900009,
@@ -69,6 +62,13 @@
     "param": 0.01,
     "homeSkillType": "HaggleSuccessRate"
   },
+  "83900008": {
+    "id": 83900008,
+    "name": "home_skill_name_83900008",
+    "desc": "home_skill_desc_83900008",
+    "param": 0.003,
+    "homeSkillType": "HaggleRange"
+  },
   "83900011": {
     "id": 83900011,
     "name": "home_skill_name_83900011",
@@ -82,13 +82,6 @@
     "desc": "home_skill_desc_83900012",
     "param": 1,
     "homeSkillType": "AddRiseNum"
-  },
-  "83900013": {
-    "id": 83900013,
-    "name": "home_skill_name_83900013",
-    "desc": "home_skill_desc_83900013",
-    "param": 0.2,
-    "homeSkillType": "AddQty"
   },
   "83900014": {
     "id": 83900014,
@@ -118,19 +111,19 @@
     "param": 0.05,
     "homeSkillType": "AddQty"
   },
-  "83900018": {
-    "id": 83900018,
-    "name": "home_skill_name_83900018",
-    "desc": "home_skill_desc_83900018",
-    "param": 1,
-    "homeSkillType": "ReduceBargainFailEnergy"
-  },
   "83900019": {
     "id": 83900019,
     "name": "home_skill_name_83900019",
     "desc": "home_skill_desc_83900019",
     "param": 5,
     "homeSkillType": "AddSpeed"
+  },
+  "83900018": {
+    "id": 83900018,
+    "name": "home_skill_name_83900018",
+    "desc": "home_skill_desc_83900018",
+    "param": 1,
+    "homeSkillType": "ReduceBargainFailEnergy"
   },
   "83900020": {
     "id": 83900020,
@@ -174,6 +167,20 @@
     "param": 0.2,
     "homeSkillType": "AddSpecQty"
   },
+  "83900029": {
+    "id": 83900029,
+    "name": "home_skill_name_83900029",
+    "desc": "home_skill_desc_83900029",
+    "param": 0.2,
+    "homeSkillType": "AddQty"
+  },
+  "83900030": {
+    "id": 83900030,
+    "name": "home_skill_name_83900030",
+    "desc": "home_skill_desc_83900030",
+    "param": 0.2,
+    "homeSkillType": "AddQty"
+  },
   "83900026": {
     "id": 83900026,
     "name": "home_skill_name_83900026",
@@ -195,17 +202,17 @@
     "param": 0.2,
     "homeSkillType": "AddQty"
   },
-  "83900029": {
-    "id": 83900029,
-    "name": "home_skill_name_83900029",
-    "desc": "home_skill_desc_83900029",
+  "83900040": {
+    "id": 83900040,
+    "name": "home_skill_name_83900040",
+    "desc": "home_skill_desc_83900040",
     "param": 0.2,
     "homeSkillType": "AddQty"
   },
-  "83900030": {
-    "id": 83900030,
-    "name": "home_skill_name_83900030",
-    "desc": "home_skill_desc_83900030",
+  "83900041": {
+    "id": 83900041,
+    "name": "home_skill_name_83900041",
+    "desc": "home_skill_desc_83900041",
     "param": 0.2,
     "homeSkillType": "AddQty"
   },
@@ -213,27 +220,6 @@
     "id": 83900031,
     "name": "home_skill_name_83900031",
     "desc": "home_skill_desc_83900031",
-    "param": 0.2,
-    "homeSkillType": "AddQty"
-  },
-  "83900032": {
-    "id": 83900032,
-    "name": "home_skill_name_83900032",
-    "desc": "home_skill_desc_83900032",
-    "param": 0.2,
-    "homeSkillType": "AddQty"
-  },
-  "83900033": {
-    "id": 83900033,
-    "name": "home_skill_name_83900033",
-    "desc": "home_skill_desc_83900033",
-    "param": 0.2,
-    "homeSkillType": "AddQty"
-  },
-  "83900034": {
-    "id": 83900034,
-    "name": "home_skill_name_83900034",
-    "desc": "home_skill_desc_83900034",
     "param": 0.2,
     "homeSkillType": "AddQty"
   },
@@ -272,17 +258,10 @@
     "param": 0.2,
     "homeSkillType": "AddQty"
   },
-  "83900040": {
-    "id": 83900040,
-    "name": "home_skill_name_83900040",
-    "desc": "home_skill_desc_83900040",
-    "param": 0.2,
-    "homeSkillType": "AddQty"
-  },
-  "83900041": {
-    "id": 83900041,
-    "name": "home_skill_name_83900041",
-    "desc": "home_skill_desc_83900041",
+  "83900052": {
+    "id": 83900052,
+    "name": "home_skill_name_83900052",
+    "desc": "home_skill_desc_83900052",
     "param": 0.2,
     "homeSkillType": "AddQty"
   },
@@ -300,25 +279,25 @@
     "param": 0.2,
     "homeSkillType": "AddQty"
   },
-  "83900044": {
-    "id": 83900044,
-    "name": "home_skill_name_83900044",
-    "desc": "home_skill_desc_83900044",
-    "param": 0.1,
+  "83900032": {
+    "id": 83900032,
+    "name": "home_skill_name_83900032",
+    "desc": "home_skill_desc_83900032",
+    "param": 0.2,
     "homeSkillType": "AddQty"
   },
-  "83900045": {
-    "id": 83900045,
-    "name": "home_skill_name_83900045",
-    "desc": "home_skill_desc_83900045",
-    "param": 0.1,
+  "83900033": {
+    "id": 83900033,
+    "name": "home_skill_name_83900033",
+    "desc": "home_skill_desc_83900033",
+    "param": 0.2,
     "homeSkillType": "AddQty"
   },
-  "83900046": {
-    "id": 83900046,
-    "name": "home_skill_name_83900046",
-    "desc": "home_skill_desc_83900046",
-    "param": 0.1,
+  "83900034": {
+    "id": 83900034,
+    "name": "home_skill_name_83900034",
+    "desc": "home_skill_desc_83900034",
+    "param": 0.2,
     "homeSkillType": "AddQty"
   },
   "83900047": {
@@ -349,18 +328,25 @@
     "param": 0.1,
     "homeSkillType": "AddQty"
   },
+  "83900046": {
+    "id": 83900046,
+    "name": "home_skill_name_83900046",
+    "desc": "home_skill_desc_83900046",
+    "param": 0.1,
+    "homeSkillType": "AddQty"
+  },
+  "83900059": {
+    "id": 83900059,
+    "name": "home_skill_name_83900059",
+    "desc": "home_skill_desc_83900059",
+    "param": 0.1,
+    "homeSkillType": "AddQty"
+  },
   "83900051": {
     "id": 83900051,
     "name": "home_skill_name_83900051",
     "desc": "home_skill_desc_83900051",
     "param": 0.1,
-    "homeSkillType": "AddQty"
-  },
-  "83900052": {
-    "id": 83900052,
-    "name": "home_skill_name_83900052",
-    "desc": "home_skill_desc_83900052",
-    "param": 0.2,
     "homeSkillType": "AddQty"
   },
   "83900053": {
@@ -391,6 +377,20 @@
     "param": 0.3,
     "homeSkillType": "AddQty"
   },
+  "83900044": {
+    "id": 83900044,
+    "name": "home_skill_name_83900044",
+    "desc": "home_skill_desc_83900044",
+    "param": 0.1,
+    "homeSkillType": "AddQty"
+  },
+  "83900045": {
+    "id": 83900045,
+    "name": "home_skill_name_83900045",
+    "desc": "home_skill_desc_83900045",
+    "param": 0.1,
+    "homeSkillType": "AddQty"
+  },
   "83900057": {
     "id": 83900057,
     "name": "home_skill_name_83900057",
@@ -402,13 +402,6 @@
     "id": 83900058,
     "name": "home_skill_name_83900058",
     "desc": "home_skill_desc_83900058",
-    "param": 0.1,
-    "homeSkillType": "AddQty"
-  },
-  "83900059": {
-    "id": 83900059,
-    "name": "home_skill_name_83900059",
-    "desc": "home_skill_desc_83900059",
     "param": 0.1,
     "homeSkillType": "AddQty"
   },
@@ -433,19 +426,19 @@
     "param": -0.005,
     "homeSkillType": "TaxCuts"
   },
-  "83900063": {
-    "id": 83900063,
-    "name": "home_skill_name_83900063",
-    "desc": "home_skill_desc_83900063",
-    "param": 0.1,
-    "homeSkillType": "RiseWoodOutput"
-  },
   "83900064": {
     "id": 83900064,
     "name": "home_skill_name_83900064",
     "desc": "home_skill_desc_83900064",
     "param": 0.1,
     "homeSkillType": "RiseGrassOutput"
+  },
+  "83900063": {
+    "id": 83900063,
+    "name": "home_skill_name_83900063",
+    "desc": "home_skill_desc_83900063",
+    "param": 0.1,
+    "homeSkillType": "RiseWoodOutput"
   },
   "83900065": {
     "id": 83900065,
@@ -593,13 +586,6 @@
     "desc": "home_skill_desc_83900085",
     "param": 8,
     "homeSkillType": "RiseEnergyLimited"
-  },
-  "83900086": {
-    "id": 83900086,
-    "name": "home_skill_name_83900086",
-    "desc": "home_skill_desc_83900086",
-    "param": 0.2,
-    "homeSkillType": "AddQty"
   },
   "83900087": {
     "id": 83900087,
@@ -1126,11 +1112,25 @@
     "param": 5,
     "homeSkillType": "AddColoudness"
   },
+  "83900013": {
+    "id": 83900013,
+    "name": "home_skill_name_83900013",
+    "desc": "home_skill_desc_83900013",
+    "param": 0.2,
+    "homeSkillType": "AddQty"
+  },
   "83900162": {
     "id": 83900162,
     "name": "home_skill_name_83900162",
     "desc": "home_skill_desc_83900162",
     "param": 0.1,
+    "homeSkillType": "AddQty"
+  },
+  "83900086": {
+    "id": 83900086,
+    "name": "home_skill_name_83900086",
+    "desc": "home_skill_desc_83900086",
+    "param": 0.2,
     "homeSkillType": "AddQty"
   },
   "83900163": {
@@ -1749,13 +1749,6 @@
     "param": 0.1,
     "homeSkillType": "AddSpecQty"
   },
-  "83900251": {
-    "id": 83900251,
-    "name": "home_skill_name_83900251",
-    "desc": "home_skill_desc_83900251",
-    "param": 0.2,
-    "homeSkillType": "AddTypeQty"
-  },
   "83900252": {
     "id": 83900252,
     "name": "home_skill_name_83900252",
@@ -1777,12 +1770,12 @@
     "param": 5,
     "homeSkillType": "RiseSpaceLimited"
   },
-  "83900255": {
-    "id": 83900255,
-    "name": "home_skill_name_83900255",
-    "desc": "home_skill_desc_83900255",
+  "83900251": {
+    "id": 83900251,
+    "name": "home_skill_name_83900251",
+    "desc": "home_skill_desc_83900251",
     "param": 0.2,
-    "homeSkillType": "AddSpecQty"
+    "homeSkillType": "AddTypeQty"
   },
   "83900256": {
     "id": 83900256,
@@ -1797,6 +1790,13 @@
     "desc": "home_skill_desc_83900257",
     "param": 0.1,
     "homeSkillType": "AddTypeQty"
+  },
+  "83900255": {
+    "id": 83900255,
+    "name": "home_skill_name_83900255",
+    "desc": "home_skill_desc_83900255",
+    "param": 0.2,
+    "homeSkillType": "AddSpecQty"
   },
   "83900258": {
     "id": 83900258,
@@ -1832,54 +1832,5 @@
     "desc": "home_skill_desc_83900262",
     "param": 0.1,
     "homeSkillType": "AddQty"
-  },
-  "83900263": {
-    "id": 83900263,
-    "name": "home_skill_name_83900263",
-    "desc": "home_skill_desc_83900263",
-    "param": 0.2,
-    "homeSkillType": "AddTypeQty"
-  },
-  "83900264": {
-    "id": 83900264,
-    "name": "home_skill_name_83900264",
-    "desc": "home_skill_desc_83900264",
-    "param": 0.01,
-    "homeSkillType": "AddAllCityRecycleReward"
-  },
-  "83900265": {
-    "id": 83900265,
-    "name": "home_skill_name_83900265",
-    "desc": "home_skill_desc_83900265",
-    "param": 0.01,
-    "homeSkillType": "AddAllCityRecycleReward"
-  },
-  "83900266": {
-    "id": 83900266,
-    "name": "home_skill_name_83900266",
-    "desc": "home_skill_desc_83900266",
-    "param": 0.2,
-    "homeSkillType": "AddSpecQty"
-  },
-  "83900267": {
-    "id": 83900267,
-    "name": "home_skill_name_83900267",
-    "desc": "home_skill_desc_83900267",
-    "param": 0.1,
-    "homeSkillType": "AddSpecQty"
-  },
-  "83900268": {
-    "id": 83900268,
-    "name": "home_skill_name_83900268",
-    "desc": "home_skill_desc_83900268",
-    "param": 0.2,
-    "homeSkillType": "AddSpecQty"
-  },
-  "83900269": {
-    "id": 83900269,
-    "name": "home_skill_name_83900269",
-    "desc": "home_skill_desc_83900269",
-    "param": -0.005,
-    "homeSkillType": "TaxCuts"
   }
 }

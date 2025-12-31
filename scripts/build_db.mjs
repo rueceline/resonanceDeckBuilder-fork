@@ -29,7 +29,7 @@ const CN_DIR = path.join(ROOT, "public", "data", "CN");
 const KR_DIR = path.join(ROOT, "public", "data", "KR");
 const CONFIG_LANG_PATH = path.join(KR_DIR, "ConfigLanguage.json");
 
-const OUT_DIR = path.join(ROOT, "public", "data", "db_new");
+const OUT_DIR = path.join(ROOT, "public", "db_new");
 
 // 기존 lang 파일(UI 텍스트 등) 유지 + 신규 토큰만 추가
 const MERGE_EXISTING_LANG = true;
