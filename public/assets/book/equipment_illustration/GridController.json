@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -46483018531952440
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -9137164537748065892
+  },
+  "m_Name": "",
+  "CachedTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Cell": {
+    "m_FileID": 0,
+    "m_PathID": -4822813229611764479
+  },
+  "StartCorner": 1,
+  "Spacing": {
+    "x": 0.0,
+    "y": 1.0
+  },
+  "CellSize": {
+    "x": 1514.0,
+    "y": 184.0
+  },
+  "Padding": {
+    "m_Left": 0,
+    "m_Right": 10,
+    "m_Top": 15,
+    "m_Bottom": 0
+  },
+  "ScrollDirect": 2,
+  "IsRevert": 0,
+  "Cells": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8558863067219923429
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2620481712936034200
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 596354724066576598
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 8343375014683815502
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5337253946237678037
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 7735759593381004246
+    }
+  ],
+  "DataCount": 0,
+  "IsSort": 0,
+  "isDreg": 1
+}

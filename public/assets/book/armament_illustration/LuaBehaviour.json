@@ -1,0 +1,38 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6483029131083112940
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -6911879638201345747
+  },
+  "m_Name": "",
+  "CachedTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "IsDisableUIOrder": 0,
+  "IsGuide": 0,
+  "CurrOrder": 0,
+  "applySafeArea": 1,
+  "isCloseOtherPanel": 1,
+  "isGoBack": 1,
+  "isTip": 0,
+  "isInQueue": 0,
+  "url": "",
+  "initScaleTrans": [],
+  "isGuidePanel": 0,
+  "isSpecial": 0,
+  "isChild": 0,
+  "children": [],
+  "isAtBottom": 0,
+  "IsPlayAnimator": 0,
+  "IsSelectPlayAnimator": 0,
+  "_animator_select": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "IsHaveLua": 1
+}

@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6940420145617425849
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1629241757785458093
+  },
+  "m_Name": "",
+  "CachedTransform": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "clickSoundType": 10,
+  "soundId": -1,
+  "isOriginPack": 0,
+  "soundOriginPackUrl": "",
+  "IsCanLongPress": 0,
+  "LongPressDuration": 0.9,
+  "ClickIntervalFrame": 3,
+  "IsMove": 0
+}
