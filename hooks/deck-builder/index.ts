@@ -216,7 +216,7 @@ export function useDeckBuilder(data: Database | null) {
     (removedCharacterId: number) => {
       setSelectedCards((prev) => {
         // 각 카드의 소스 목록에서 제거된 캐릭터 소스만 제거
-        console.log(removedCharacterId)
+        
         const updatedCards = prev.map((card) => {
           const updatedSources = card.sources.filter(
             (source) =>

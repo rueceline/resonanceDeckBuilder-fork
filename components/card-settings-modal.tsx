@@ -224,7 +224,7 @@ export function CardSettingsModal({
                 let text = getTranslatedString(textKey)
                 let specialChar = ""
                 const match = text.match(/(≥|≤|<|>)$/)
-                console.log(specialChar)
+                
                 if (match) {
                   specialChar = match[0]
                   text = text.slice(0, -1) // 마지막 문자 제거

@@ -331,7 +331,7 @@ export function CharacterSlot({
                 <img
                   src={weaponEquipment.url || "/placeholder.svg"}
                   alt={getTranslatedString(weaponEquipment.name)}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain p-1"
                   onError={(e) => {
                     e.currentTarget.style.display = "none"
                     e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
@@ -378,7 +378,7 @@ export function CharacterSlot({
                 <img
                   src={armorEquipment.url || "/placeholder.svg"}
                   alt={getTranslatedString(armorEquipment.name)}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain p-1"
                   onError={(e) => {
                     e.currentTarget.style.display = "none"
                     e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
@@ -425,7 +425,7 @@ export function CharacterSlot({
                 <img
                   src={accessoryEquipment.url || "/placeholder.svg"}
                   alt={getTranslatedString(accessoryEquipment.name)}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain p-1"
                   onError={(e) => {
                     e.currentTarget.style.display = "none"
                     e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")

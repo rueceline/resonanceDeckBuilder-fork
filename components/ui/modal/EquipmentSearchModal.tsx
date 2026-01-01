@@ -143,7 +143,7 @@ export function EquipmentSearchModal({
                       <img
                         src={equipment.url || "/placeholder.svg"}
                         alt={getTranslatedString(equipment.name)}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain p-1"
                         onError={(e) => {
                           // 이미지 로드 실패 시 기본 텍스트 표시
                           e.currentTarget.style.display = "none"

@@ -155,8 +155,7 @@ export function CharacterSearchModal({
                       onClick={(e) => {
                         e.stopPropagation()
                         e.preventDefault()
-                        setShowCharacterDetails(character.id)
-                        console.log("Character info button clicked", character.id)
+                        setShowCharacterDetails(character.id)                        
                       }}
                     >
                       <Info className="w-7 h-7 text-white" />

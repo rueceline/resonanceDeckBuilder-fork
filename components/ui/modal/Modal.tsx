@@ -114,7 +114,7 @@ export function Modal({
       onClick={(e) => {
         // 현재 모달의 backdrop을 클릭한 경우에만 닫기
         if (closeOnOutsideClick && e.target === e.currentTarget) {
-          console.log("Modal backdrop clicked, closing modal")
+          
           onClose(e)
         }
       }}

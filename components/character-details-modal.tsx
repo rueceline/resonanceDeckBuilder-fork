@@ -484,15 +484,15 @@ export function CharacterDetailsModal({
     }
 
     // 스킬 이미지 URL 찾기
-    let skillImageUrl = null
-    if (data && data.images) {
-      // 스킬 ID로 이미지 찾기
-      if (data.images[`skill_${skillId}`]) {
-        skillImageUrl = data.images[`skill_${skillId}`]
-      }
-      // 카드 ID로 이미지 찾기
-      else if (skill.cardID && data.images[`card_${skill.cardID}`]) {
-        skillImageUrl = data.images[`card_${skill.cardID}`]
+    let skillImageUrl: string | null = null;
+
+    const rawIconPath = String(skill?.iconPath ?? "").trim();
+    if (rawIconPath) {
+      // iconPath가 "RolePlus/..../xxx.png" 같은 상대경로면 /assets/ 를 붙여서 브라우저 URL로 만든다
+      if (rawIconPath.startsWith("http://") || rawIconPath.startsWith("https://") || rawIconPath.startsWith("/")) {
+        skillImageUrl = rawIconPath;
+      } else {
+        skillImageUrl = `/assets/${rawIconPath.replace(/^\/+/, "")}`;
       }
     }
 

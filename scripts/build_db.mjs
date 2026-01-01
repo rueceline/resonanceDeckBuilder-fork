@@ -117,15 +117,18 @@ function loadConfigLanguage(cfgAbsPath) {
   // Add normalized-key variants (CRLF -> LF) for safer 1:1 matching.
   for (const factoryName of Object.keys(cfg)) {
     const facObj = cfg[factoryName];
-    if (!facObj || typeof facObj !== "object" || Array.isArray(facObj)) continue;
+    if (!facObj || typeof facObj !== "object" || Array.isArray(facObj))
+      continue;
 
     for (const fieldName of Object.keys(facObj)) {
       const mapping = facObj[fieldName];
-      if (!mapping || typeof mapping !== "object" || Array.isArray(mapping)) continue;
+      if (!mapping || typeof mapping !== "object" || Array.isArray(mapping))
+        continue;
 
       const add = {};
       for (const [zh, ko] of Object.entries(mapping)) {
-        if (typeof zh !== "string" || typeof ko !== "string" || ko === "") continue;
+        if (typeof zh !== "string" || typeof ko !== "string" || ko === "")
+          continue;
 
         const nzh = normText(zh);
         const nko = normText(ko);
@@ -198,13 +201,20 @@ function buildIncludedIdSetsFromBook(bookFactory) {
     if (id !== null) unitIds.add(id);
   }
 
-  const equipmentList = Array.isArray(equipBook?.equipmentList) ? equipBook.equipmentList : [];
+  const equipmentList = Array.isArray(equipBook?.equipmentList)
+    ? equipBook.equipmentList
+    : [];
   for (const e of equipmentList) {
     const id = safeNumber(e?.id);
     if (id !== null) equipIds.add(id);
   }
 
-  return { unitIds, equipIds, unitBookId: unitBook?.id ?? null, equipBookId: equipBook?.id ?? null };
+  return {
+    unitIds,
+    equipIds,
+    unitBookId: unitBook?.id ?? null,
+    equipBookId: equipBook?.id ?? null,
+  };
 }
 
 // -------------------- Tokenizer + Lang Collector --------------------
@@ -260,7 +270,9 @@ function buildCharDb(ctx) {
       quality: u?.quality ?? "",
       sideId: safeNumber(u?.sideId) ?? null,
 
-      passiveSkillList: Array.isArray(u?.passiveSkillList) ? u.passiveSkillList : [],
+      passiveSkillList: Array.isArray(u?.passiveSkillList)
+        ? u.passiveSkillList
+        : [],
       skillList: Array.isArray(u?.skillList) ? u.skillList : [],
 
       tk_SN: u?.tk_SN ?? null,
@@ -271,17 +283,35 @@ function buildCharDb(ctx) {
       luck_SN: u?.luck_SN ?? null,
 
       talentList: Array.isArray(u?.talentList) ? u.talentList : [],
-      breakthroughList: Array.isArray(u?.breakthroughList) ? u.breakthroughList : [],
+      breakthroughList: Array.isArray(u?.breakthroughList)
+        ? u.breakthroughList
+        : [],
 
       line: u?.line ?? null,
       subLine: u?.subLine ?? null,
 
-      identity: tok("char_identity", id, [], "UnitFactory", "identity", u?.identity),
-      ability: tok("char_ability", id, [], "UnitFactory", "ability", u?.ability),
+      identity: tok(
+        "char_identity",
+        id,
+        [],
+        "UnitFactory",
+        "identity",
+        u?.identity
+      ),
+      ability: tok(
+        "char_ability",
+        id,
+        [],
+        "UnitFactory",
+        "ability",
+        u?.ability
+      ),
 
       controllerId: u?.controllerId ?? null,
 
-      equipmentSlotList: Array.isArray(u?.equipmentSlotList) ? u.equipmentSlotList : [],
+      equipmentSlotList: Array.isArray(u?.equipmentSlotList)
+        ? u.equipmentSlotList
+        : [],
       homeSkillList: Array.isArray(u?.homeSkillList) ? u.homeSkillList : [],
     };
   }
@@ -321,7 +351,14 @@ function buildEquipDb(ctx) {
     out[String(id)] = {
       id,
       name: tok("equip_name", id, [], "EquipmentFactory", "name", e?.name),
-      des: tok("equip_des", id, [], "EquipmentFactory", "des", e?.des ?? e?.description),
+      des: tok(
+        "equip_des",
+        id,
+        [],
+        "EquipmentFactory",
+        "des",
+        e?.des ?? e?.description
+      ),
 
       // 이미지 경로(단일): EquipmentFactory.tipsPath
       tipsPath,
@@ -356,7 +393,14 @@ function buildSkillDb(ctx) {
       // 이미지 경로(단일): SkillFactory.iconPath
       iconPath,
 
-      description: tok("skill_description", id, [], "SkillFactory", "description", s?.description),
+      description: tok(
+        "skill_description",
+        id,
+        [],
+        "SkillFactory",
+        "description",
+        s?.description
+      ),
       detailDescription: tok(
         "skill_detailDescription",
         id,
@@ -423,7 +467,9 @@ function buildTagDb(ctx) {
       idCN: t?.idCN ?? "",
       tagName: tok("tag_tagName", id, [], "TagFactory", "tagName", t?.tagName),
       mod: t?.mod ?? "",
-      detail: detail ? tok("tag_detail", id, [], "TagFactory", "detail", detail) : "",
+      detail: detail
+        ? tok("tag_detail", id, [], "TagFactory", "detail", detail)
+        : "",
     };
   }
 
@@ -450,7 +496,8 @@ function buildImgDb(ctx) {
     const id = safeNumber(u?.id);
     if (!id) continue;
 
-    if (includedUnitIds && includedUnitIds.size && !includedUnitIds.has(id)) continue;
+    if (includedUnitIds && includedUnitIds.size && !includedUnitIds.has(id))
+      continue;
 
     const viewId = safeNumber(u?.viewId);
     if (viewId === null) continue;
@@ -465,7 +512,8 @@ function buildImgDb(ctx) {
     const id = safeNumber(e?.id);
     if (!id) continue;
 
-    if (includedEquipIds && includedEquipIds.size && !includedEquipIds.has(id)) continue;
+    if (includedEquipIds && includedEquipIds.size && !includedEquipIds.has(id))
+      continue;
 
     const p = String(e?.tipsPath ?? "").trim();
     if (p) out[`equip_${id}`] = p;
@@ -554,7 +602,9 @@ function buildTalentDb(ctx) {
       path: p,
 
       awakeLv: r?.awakeLv ?? null,
-      skillParamOffsetList: Array.isArray(r?.skillParamOffsetList) ? r.skillParamOffsetList : [],
+      skillParamOffsetList: Array.isArray(r?.skillParamOffsetList)
+        ? r.skillParamOffsetList
+        : [],
     };
   }
 
@@ -575,8 +625,12 @@ function buildBreakDb(ctx) {
 
     out[String(id)] = {
       id,
-      name: name ? tok("break_name", id, [], "BreakthroughFactory", "name", name) : "",
-      desc: desc ? tok("break_desc", id, [], "BreakthroughFactory", "desc", desc) : "",
+      name: name
+        ? tok("break_name", id, [], "BreakthroughFactory", "name", name)
+        : "",
+      desc: desc
+        ? tok("break_desc", id, [], "BreakthroughFactory", "desc", desc)
+        : "",
 
       // 이미지 경로(단일): BreakthroughFactory.path
       path: p,
@@ -609,49 +663,71 @@ function buildHomeSkillDb(ctx) {
 }
 
 // -------------------- Map Builders --------------------
-function pickExSkillIds(skillRec) {
-  const out = [];
-  const raw = Array.isArray(skillRec?.ExSkillList) ? skillRec.ExSkillList : [];
-
-  for (const it of raw) {
-    if (typeof it === "number") {
-      const n = safeNumber(it);
-      if (n) out.push(n);
-      continue;
-    }
-
-    const n = safeNumber(it?.ExSkillName) ?? safeNumber(it?.id) ?? null;
-    if (n) out.push(n);
-  }
-
-  return Array.from(new Set(out));
-}
-
-function buildCharSkillMap(charDb, skillById) {
+function buildCharSkillMap(charDb, skillById, cardById) {
   const out = {};
 
-  for (const [cid, c] of Object.entries(charDb)) {
-    const skills = [];
-    const list = Array.isArray(c?.skillList) ? c.skillList : [];
+  for (const cid of Object.keys(charDb)) {
+    const crec = charDb[cid];
+    if (!crec) continue;
 
-    for (const it of list) {
-      const sid = safeNumber(it?.skillId);
-      if (sid) skills.push(sid);
-    }
+    // 1️⃣ 기본 스킬
+    const skills = Array.isArray(crec.skillList)
+      ? crec.skillList.map((s) => safeNumber(s?.skillId)).filter(Boolean)
+      : [];
 
     const uniqSkills = Array.from(new Set(skills));
-    const related = new Set();
+
+    // 2️⃣ ExSkill 분류
+    const relatedSet = new Set();
+    const notFromSet = new Set();
 
     for (const sid of uniqSkills) {
-      const srec = skillById.get(sid) || null;
+      const srec = skillById.get(sid);
       if (!srec) continue;
-      for (const ex of pickExSkillIds(srec)) related.add(ex);
+
+      const exList = Array.isArray(srec.ExSkillList) ? srec.ExSkillList : [];
+      for (const ex of exList) {
+        const exId =
+          typeof ex === "number"
+            ? safeNumber(ex)
+            : safeNumber(ex?.ExSkillName) ?? safeNumber(ex?.id);
+
+        if (!exId) continue;
+
+        // 🔴 黑卡可销毁(tagId=12601890) 차단
+        const exSkillRec = skillById.get(exId);
+        if (exSkillRec) {
+          const cardId = safeNumber(exSkillRec.cardID);
+          if (cardId) {
+            const cardRec = cardById.get(cardId);
+            const tagList = Array.isArray(cardRec?.tagList)
+              ? cardRec.tagList
+              : [];
+
+            const hasBlackDestroyable = tagList.some(
+              (t) => safeNumber(t?.tagId) === 12601890
+            );
+
+            if (hasBlackDestroyable) {
+              continue; // 🔥 related / notFrom 어디에도 넣지 않음
+            }
+          }
+        }
+
+        // 기존 분기 유지
+        if (ex?.isNeturality === true) {
+          notFromSet.add(exId);
+        } else {
+          relatedSet.add(exId);
+        }
+      }
     }
 
+    // 3️⃣ 결과
     out[String(cid)] = {
       skills: uniqSkills,
-      relatedSkills: Array.from(related),
-      notFromCharacters: [],
+      relatedSkills: Array.from(relatedSet),
+      notFromCharacters: Array.from(notFromSet),
     };
   }
 
@@ -674,7 +750,15 @@ function buildItemSkillMap(equipDb, skillById) {
       const srec = skillById.get(sid) || null;
       if (!srec) continue;
 
-      for (const ex of pickExSkillIds(srec)) related.add(ex);
+      const exList = Array.isArray(srec?.ExSkillList) ? srec.ExSkillList : [];
+      for (const ex of exList) {
+        const exId =
+          typeof ex === "number"
+            ? safeNumber(ex)
+            : safeNumber(ex?.ExSkillName) ?? safeNumber(ex?.id);
+
+        if (exId) related.add(exId);
+      }
     }
 
     if (related.size > 0) {
@@ -733,7 +817,9 @@ function writeBookReports(includedSets, equipmentList, unitList) {
         idCN: String(r?.idCN ?? ""),
         name: String(r?.name ?? ""),
         getwayCount: g.length,
-        getwayDisplayNames: g.map((x) => String(x?.DisplayName ?? "")).filter(Boolean),
+        getwayDisplayNames: g
+          .map((x) => String(x?.DisplayName ?? ""))
+          .filter(Boolean),
       });
     }
   }
@@ -745,8 +831,12 @@ function writeBookReports(includedSets, equipmentList, unitList) {
     factoryEquipInBookCount: equipInBook.length,
     factoryEquipNotInBookCount: equipNotInBook.length,
     factoryEquipNotInBookWithGetwayCount: equipNotInBookWithGetway.length,
-    factoryEquipNotInBookWithGetway: equipNotInBookWithGetway.sort((a, b) => a.id - b.id),
-    sampleFactoryEquipNotInBook: equipNotInBook.sort((a, b) => a - b).slice(0, 50),
+    factoryEquipNotInBookWithGetway: equipNotInBookWithGetway.sort(
+      (a, b) => a.id - b.id
+    ),
+    sampleFactoryEquipNotInBook: equipNotInBook
+      .sort((a, b) => a - b)
+      .slice(0, 50),
   };
 
   const unitNotInBook = [];
@@ -762,7 +852,9 @@ function writeBookReports(includedSets, equipmentList, unitList) {
     factoryUnitCount: unitFactoryIds.size,
     factoryUnitInBookCount: unitInBook.length,
     factoryUnitNotInBookCount: unitNotInBook.length,
-    sampleFactoryUnitNotInBook: unitNotInBook.sort((a, b) => a - b).slice(0, 50),
+    sampleFactoryUnitNotInBook: unitNotInBook
+      .sort((a, b) => a - b)
+      .slice(0, 50),
   };
 
   writeJson(path.join(OUT_DIR, "report_bookfactory_equip.json"), reportEquip);
@@ -816,8 +908,6 @@ function applyImagePathResolveToDbField(dbObj, fieldName, assetRootDirAbs) {
   }
 }
 
-
-
 // -------------------- MAIN --------------------
 function main() {
   const cfgMap = loadConfigLanguage(CONFIG_LANG_PATH);
@@ -840,23 +930,20 @@ function main() {
   const { dict, tok } = makeLangCollector(cfgMap);
 
   // 1) DB 생성
-  const charDb = buildCharDb({ unitList, unitViewById, tok, includedUnitIds: includedSets.unitIds });
-  const equipDb = buildEquipDb({ equipmentList, tok, includedEquipIds: includedSets.equipIds });
+  const charDb = buildCharDb({
+    unitList,
+    unitViewById,
+    tok,
+    includedUnitIds: includedSets.unitIds,
+  });
+  const equipDb = buildEquipDb({
+    equipmentList,
+    tok,
+    includedEquipIds: includedSets.equipIds,
+  });
   const skillDb = buildSkillDb({ skillList, tok });
   const cardDb = buildCardDb({ cardList, tok });
   const tagDb = buildTagDb({ tagList, tok });
-
-  const imgDb = buildImgDb({
-    unitList,
-    unitViewById,
-    equipmentList,
-    skillList,
-    cardList,
-    talentList,
-    breakthroughList,
-    includedUnitIds: includedSets.unitIds,
-    includedEquipIds: includedSets.equipIds,
-  });
 
   const tagColorMapping = buildTagColorMapping({ tagList });
   const talentDb = buildTalentDb({ talentList, tok });
@@ -865,7 +952,10 @@ function main() {
 
   // 2) Map 생성(ExSkillList 1-depth)
   const skillById = buildIdMap(skillList);
-  const charSkillMap = buildCharSkillMap(charDb, skillById);
+  const cardById = buildIdMap(cardList);
+  const tagById = buildIdMap(tagList);
+
+  const charSkillMap = buildCharSkillMap(charDb, skillById, cardById);
   const itemSkillMap = buildItemSkillMap(equipDb, skillById);
 
   // 3) lang 생성
@@ -941,11 +1031,29 @@ function main() {
     writeBookReports(includedSets, equipmentList, unitList);
   }
 
-  console.log("[ok] BookFactory unitIds =", includedSets.unitIds.size, "-> char_db =", Object.keys(charDb).length);
-  console.log("[ok] BookFactory equipIds =", includedSets.equipIds.size, "-> equip_db =", Object.keys(equipDb).length);
-  console.log("[ok] skill_db =", Object.keys(skillDb).length, "card_db =", Object.keys(cardDb).length);
+  console.log(
+    "[ok] BookFactory unitIds =",
+    includedSets.unitIds.size,
+    "-> char_db =",
+    Object.keys(charDb).length
+  );
+  console.log(
+    "[ok] BookFactory equipIds =",
+    includedSets.equipIds.size,
+    "-> equip_db =",
+    Object.keys(equipDb).length
+  );
+  console.log(
+    "[ok] skill_db =",
+    Object.keys(skillDb).length,
+    "card_db =",
+    Object.keys(cardDb).length
+  );
   console.log("[ok] tokens added =", dict.size);
-  if (WRITE_REPORTS) console.log("[ok] reports written: report_bookfactory_equip.json, report_bookfactory_unit.json");
+  if (WRITE_REPORTS)
+    console.log(
+      "[ok] reports written: report_bookfactory_equip.json, report_bookfactory_unit.json"
+    );
 }
 
 main();

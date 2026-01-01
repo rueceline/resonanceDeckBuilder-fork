@@ -36,7 +36,8 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
   const contentRef = useRef<HTMLDivElement>(null) // 캡처할 컨텐츠 참조 추가
 
   // useDataLoader 훅을 사용하여 실제 데이터 로드
-  const { data, loading, error } = useDataLoader()
+  const { data, loading, error } = useDataLoader();
+  
 
   // 로컬 로딩 상태 추가
   const [isLocalLoading, setIsLocalLoading] = useState(true)
@@ -88,7 +89,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
     const findCharacterImageForCard = useCallback(
     (card: any) => {
       if (!data || !card) {
-        return "images/placeHolder Card.jpg"
+        return "/images/placeHolder_Card.jpg"
       }
 
       if (card.ownerId && card.ownerId !== -1) {
@@ -98,11 +99,10 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
         }
       }
 
-      return "images/placeHolder Card.jpg"
+      return "/images/placeHolder_Card.jpg"
     },
     [data],
   )
-
 
   // URL에서 코드 파라미터 처리 - 비동기 함수 사용 문제 해결
   useEffect(() => {
@@ -281,7 +281,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
     return Array.from(cardSet)
       .map((id) => {
         const card = data.cards[id]
-        if (!card) return null
+        if (!card) return null        
 
         // 기본 extraInfo 객체 생성 - 일단 카드 이름으로 초기화
         const extraInfo: CardExtraInfo = {
@@ -319,7 +319,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
             
             break
           }
-        }
+        }       
 
         // 스킬 설명 처리 - 번역 및 #r 값 교체
         if (skillObj) {
@@ -348,7 +348,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
               }
             }
           }
-        }
+        }        
 
         // 중요: selectedCards에서 해당 카드를 찾아 ownerId 정보 가져오기
         const selectedCard = selectedCards.find((sc) => sc.id === id)
@@ -719,7 +719,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       <div className="mt-0 mb-0 text-center text-sm text-muted-foreground flex items-center justify-center gap-2">
         <span>Resonance Deck Builder © 2025 Heeyong Chang</span>
         <span className="hidden sm:inline">·</span>
-        <a href="https://github.com/danij91/resonanceDeckBuilder" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/rueceline/resonanceDeckBuilder-fork" target="_blank" rel="noopener noreferrer">
           <img className="w-6 h-6" src="images/github-mark-white2.svg" />
         </a>
         <span className="hidden sm:inline">·</span>

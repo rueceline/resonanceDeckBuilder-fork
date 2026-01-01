@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/1d967fb9-da06-4b69-a360-d180f51a330a)<!-- 원한다면 스크린샷 이미지 추가 -->
 
-📌 웹사이트 | Website: https://rsns-deck-builder.vercel.app/
+📌 웹사이트 | Website: https://resonance-deck-builder-fork.vercel.app
 
 ---
 
@@ -108,5 +108,5 @@ Import deck codes copied in-game, edit them on the site, and export them back in
 
 ## 📝 라이선스
 
-This project is licensed under the [GNU General Public License v3.0](./LICENSE).  
+This project is licensed under the [GNU General Public License v3.0](./LICENSE.md).  
 See the LICENSE file for more information.

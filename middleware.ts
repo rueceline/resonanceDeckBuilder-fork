@@ -77,6 +77,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // 내부 경로(_next, api 등) + public 정적 경로(lang, db, assets 등) 제외
-    "/((?!api|_next/static|_next/image|favicon.ico|assets|lang|db|robots.txt|sitemap.xml).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico|assets|lang|db|images|robots.txt|sitemap.xml).*)",
   ],
 };
