@@ -3,7 +3,7 @@
     "id": 12800001,
     "name": "talent_name_12800001",
     "desc": "talent_desc_12800001",
-    "path": "RolePlus/00Gift/Vostok/RongYuXiTong.png",
+    "path": "RolePlus/00gift/vostok/RongYuXiTong.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -11,7 +11,7 @@
     "id": 12800002,
     "name": "talent_name_12800002",
     "desc": "talent_desc_12800002",
-    "path": "RolePlus/00Gift/Katas/TangFen.png",
+    "path": "RolePlus/00gift/katas/TangFen.png",
     "awakeLv": 2,
     "skillParamOffsetList": [
       {
@@ -25,7 +25,7 @@
     "id": 12800003,
     "name": "talent_name_12800003",
     "desc": "talent_desc_12800003",
-    "path": "RolePlus/00Gift/Yoiduki/YunYong.png",
+    "path": "RolePlus/00gift/yoiduki/YunYong.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -33,7 +33,7 @@
     "id": 12800004,
     "name": "talent_name_12800004",
     "desc": "talent_desc_12800004",
-    "path": "RolePlus/00Gift/Ithos/ZhiJueYinDao.png",
+    "path": "RolePlus/00gift/ithos/ZhiJueYinDao.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -41,7 +41,7 @@
     "id": 12800005,
     "name": "talent_name_12800005",
     "desc": "talent_desc_12800005",
-    "path": "RolePlus/00Gift/Yoiduki/BiYue.png",
+    "path": "RolePlus/00gift/yoiduki/BiYue.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -49,7 +49,7 @@
     "id": 12800006,
     "name": "talent_name_12800006",
     "desc": "talent_desc_12800006",
-    "path": "RolePlus/00Gift/Ithos/ShengJi.png",
+    "path": "RolePlus/00gift/ithos/ShengJi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -57,7 +57,7 @@
     "id": 12800007,
     "name": "talent_name_12800007",
     "desc": "talent_desc_12800007",
-    "path": "RolePlus/00Gift/Yoiduki/FaSheng.png",
+    "path": "RolePlus/00gift/yoiduki/FaSheng.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -65,7 +65,7 @@
     "id": 12800008,
     "name": "talent_name_12800008",
     "desc": "talent_desc_12800008",
-    "path": "RolePlus/00Gift/Cecil/YouYuanQianDiao.png",
+    "path": "RolePlus/00gift/cecil/YouYuanQianDiao.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -73,7 +73,7 @@
     "id": 12800009,
     "name": "talent_name_12800009",
     "desc": "talent_desc_12800009",
-    "path": "RolePlus/00Gift/Yoiduki/HuoXiao.png",
+    "path": "RolePlus/00gift/yoiduki/HuoXiao.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -97,7 +97,7 @@
     "id": 12800012,
     "name": "talent_name_12800012",
     "desc": "talent_desc_12800012",
-    "path": "RolePlus/00Gift/Conor/JianShou.png",
+    "path": "RolePlus/00gift/conor/JianShou.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -105,7 +105,7 @@
     "id": 12800013,
     "name": "talent_name_12800013",
     "desc": "talent_desc_12800013",
-    "path": "RolePlus/00Gift/Conor/DiLi.png",
+    "path": "RolePlus/00gift/conor/DiLi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -113,7 +113,7 @@
     "id": 12800014,
     "name": "talent_name_12800014",
     "desc": "talent_desc_12800014",
-    "path": "RolePlus/00Gift/Ithos/BaXiangZhiLiao.png",
+    "path": "RolePlus/00gift/ithos/BaXiangZhiLiao.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -121,7 +121,7 @@
     "id": 12800015,
     "name": "talent_name_12800015",
     "desc": "talent_desc_12800015",
-    "path": "RolePlus/00Gift/Conor/NengLiangHuiShou.png",
+    "path": "RolePlus/00gift/conor/NengLiangHuiShou.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -129,7 +129,7 @@
     "id": 12800016,
     "name": "talent_name_12800016",
     "desc": "talent_desc_12800016",
-    "path": "RolePlus/00Gift/Shizuru/ShenShangXianSu.png",
+    "path": "RolePlus/00gift/shizuru/ShenShangXianSu.png",
     "awakeLv": 2,
     "skillParamOffsetList": [
       {
@@ -143,7 +143,7 @@
     "id": 12800017,
     "name": "talent_name_12800017",
     "desc": "talent_desc_12800017",
-    "path": "RolePlus/00Gift/Julian/XinLai.png",
+    "path": "RolePlus/00gift/julian/XinLai.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -151,7 +151,7 @@
     "id": 12800018,
     "name": "talent_name_12800018",
     "desc": "talent_desc_12800018",
-    "path": "RolePlus/00Gift/Paladi/TanRan.png",
+    "path": "RolePlus/00gift/paladi/TanRan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -159,7 +159,7 @@
     "id": 12800019,
     "name": "talent_name_12800019",
     "desc": "talent_desc_12800019",
-    "path": "RolePlus/00Gift/Flan/TuanJie.png",
+    "path": "RolePlus/00gift/flan/TuanJie.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -167,7 +167,7 @@
     "id": 12800020,
     "name": "talent_name_12800020",
     "desc": "talent_desc_12800020",
-    "path": "RolePlus/00Gift/Vostok/MaiChongBianGui.png",
+    "path": "RolePlus/00gift/vostok/MaiChongBianGui.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -175,7 +175,7 @@
     "id": 12800021,
     "name": "talent_name_12800021",
     "desc": "talent_desc_12800021",
-    "path": "RolePlus/00Gift/Livia/GongMingHuang.png",
+    "path": "RolePlus/00gift/livia/GongMingHuang.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -183,7 +183,7 @@
     "id": 12800022,
     "name": "talent_name_12800022",
     "desc": "talent_desc_12800022",
-    "path": "RolePlus/00Gift/Paladi/HuoChang.png",
+    "path": "RolePlus/00gift/paladi/HuoChang.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -191,7 +191,7 @@
     "id": 12800023,
     "name": "talent_name_12800023",
     "desc": "talent_desc_12800023",
-    "path": "RolePlus/00Gift/Livia/ShuLian.png",
+    "path": "RolePlus/00gift/livia/ShuLian.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -199,7 +199,7 @@
     "id": 12800024,
     "name": "talent_name_12800024",
     "desc": "talent_desc_12800024",
-    "path": "RolePlus/00Gift/Margiela/KeWang.png",
+    "path": "RolePlus/00gift/margiela/KeWang.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -215,7 +215,7 @@
     "id": 12800026,
     "name": "talent_name_12800026",
     "desc": "talent_desc_12800026",
-    "path": "RolePlus/00Gift/Paladi/JinJiJieBei.png",
+    "path": "RolePlus/00gift/paladi/JinJiJieBei.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -223,7 +223,7 @@
     "id": 12800027,
     "name": "talent_name_12800027",
     "desc": "talent_desc_12800027",
-    "path": "RolePlus/00Gift/Margiela/XinSheng.png",
+    "path": "RolePlus/00gift/margiela/XinSheng.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -231,7 +231,7 @@
     "id": 12800028,
     "name": "talent_name_12800028",
     "desc": "talent_desc_12800028",
-    "path": "RolePlus/00Gift/Margiela/MiQuan.png",
+    "path": "RolePlus/00gift/margiela/MiQuan.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -247,7 +247,7 @@
     "id": 12800030,
     "name": "talent_name_12800030",
     "desc": "talent_desc_12800030",
-    "path": "RolePlus/00Gift/Tara/HongSeZhiShang.png",
+    "path": "RolePlus/00gift/tara/HongSeZhiShang.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -263,7 +263,7 @@
     "id": 12800032,
     "name": "talent_name_12800032",
     "desc": "talent_desc_12800032",
-    "path": "RolePlus/00Gift/Tara/PoFuChenZhou.png",
+    "path": "RolePlus/00gift/tara/PoFuChenZhou.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -271,7 +271,7 @@
     "id": 12800033,
     "name": "talent_name_12800033",
     "desc": "talent_desc_12800033",
-    "path": "RolePlus/00Gift/Paladi/QuanMianFengSuo.png",
+    "path": "RolePlus/00gift/paladi/QuanMianFengSuo.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -279,7 +279,7 @@
     "id": 12800034,
     "name": "talent_name_12800034",
     "desc": "talent_desc_12800034",
-    "path": "RolePlus/00Gift/Tara/HuoYu.png",
+    "path": "RolePlus/00gift/tara/HuoYu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -287,7 +287,7 @@
     "id": 12800035,
     "name": "talent_name_12800035",
     "desc": "talent_desc_12800035",
-    "path": "RolePlus/00Gift/Solum/ZhiZhuo.png",
+    "path": "RolePlus/00gift/solum/ZhiZhuo.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -295,7 +295,7 @@
     "id": 12800036,
     "name": "talent_name_12800036",
     "desc": "talent_desc_12800036",
-    "path": "RolePlus/00Gift/Mahr/QueFan.png",
+    "path": "RolePlus/00gift/mahr/QueFan.png",
     "awakeLv": 3,
     "skillParamOffsetList": [
       {
@@ -309,7 +309,7 @@
     "id": 12800037,
     "name": "talent_name_12800037",
     "desc": "talent_desc_12800037",
-    "path": "RolePlus/00Gift/Lin/WuYing.png",
+    "path": "RolePlus/00gift/lin/WuYing.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -317,7 +317,7 @@
     "id": 12800038,
     "name": "talent_name_12800038",
     "desc": "talent_desc_12800038",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -325,7 +325,7 @@
     "id": 12800039,
     "name": "talent_name_12800039",
     "desc": "talent_desc_12800039",
-    "path": "RolePlus/00Gift/Katas/BuQu.png",
+    "path": "RolePlus/00gift/katas/BuQu.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -333,7 +333,7 @@
     "id": 12800040,
     "name": "talent_name_12800040",
     "desc": "talent_desc_12800040",
-    "path": "RolePlus/00Gift/Katas/LeiBiSiZhiShengRiLiWu.png",
+    "path": "RolePlus/00gift/katas/LeiBiSiZhiShengRiLiWu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -341,7 +341,7 @@
     "id": 12800041,
     "name": "talent_name_12800041",
     "desc": "talent_desc_12800041",
-    "path": "RolePlus/00Gift/Livia/KuiZeng.png",
+    "path": "RolePlus/00gift/livia/KuiZeng.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -349,7 +349,7 @@
     "id": 12800042,
     "name": "talent_name_12800042",
     "desc": "talent_desc_12800042",
-    "path": "RolePlus/00Gift/Jalhay/KanBuJianDePengYou.png",
+    "path": "RolePlus/00gift/jalhay/KanBuJianDePengYou.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -357,7 +357,7 @@
     "id": 12800043,
     "name": "talent_name_12800043",
     "desc": "talent_desc_12800043",
-    "path": "RolePlus/00Gift/Yamaarashi/SiJiDaiDong.png",
+    "path": "RolePlus/00gift/yamaarashi/SiJiDaiDong.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -365,7 +365,7 @@
     "id": 12800044,
     "name": "talent_name_12800044",
     "desc": "talent_desc_12800044",
-    "path": "RolePlus/00Gift/Solum/XuZhangShengShi.png",
+    "path": "RolePlus/00gift/solum/XuZhangShengShi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -373,7 +373,7 @@
     "id": 12800045,
     "name": "talent_name_12800045",
     "desc": "talent_desc_12800045",
-    "path": "RolePlus/00Gift/Livia/KuiZeng.png",
+    "path": "RolePlus/00gift/livia/KuiZeng.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -381,7 +381,7 @@
     "id": 12800046,
     "name": "talent_name_12800046",
     "desc": "talent_desc_12800046",
-    "path": "RolePlus/00Gift/Solum/JianRen.png",
+    "path": "RolePlus/00gift/solum/JianRen.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -413,7 +413,7 @@
     "id": 12800050,
     "name": "talent_name_12800050",
     "desc": "talent_desc_12800050",
-    "path": "RolePlus/00Gift/Shizuru/ShenShangXianSu.png",
+    "path": "RolePlus/00gift/shizuru/ShenShangXianSu.png",
     "awakeLv": 2,
     "skillParamOffsetList": [
       {
@@ -427,7 +427,7 @@
     "id": 12800051,
     "name": "talent_name_12800051",
     "desc": "talent_desc_12800051",
-    "path": "RolePlus/00Gift/Dorothy/JianMianLi.png",
+    "path": "RolePlus/00gift/dorothy/JianMianLi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -435,7 +435,7 @@
     "id": 12800052,
     "name": "talent_name_12800052",
     "desc": "talent_desc_12800052",
-    "path": "RolePlus/00Gift/Dorothy/JingXi.png",
+    "path": "RolePlus/00gift/dorothy/JingXi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -443,7 +443,7 @@
     "id": 12800053,
     "name": "talent_name_12800053",
     "desc": "talent_desc_12800053",
-    "path": "RolePlus/00Gift/Jalhay/JingShenYaZhi.png",
+    "path": "RolePlus/00gift/jalhay/JingShenYaZhi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -451,7 +451,7 @@
     "id": 12800054,
     "name": "talent_name_12800054",
     "desc": "talent_desc_12800054",
-    "path": "RolePlus/00Gift/Lissandra/LiXue.png",
+    "path": "RolePlus/00gift/lissandra/LiXue.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -459,7 +459,7 @@
     "id": 12800055,
     "name": "talent_name_12800055",
     "desc": "talent_desc_12800055",
-    "path": "RolePlus/00Gift/Dorothy/BaoBaoBaoBao.png",
+    "path": "RolePlus/00gift/dorothy/BaoBaoBaoBao.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -467,7 +467,7 @@
     "id": 12800056,
     "name": "talent_name_12800056",
     "desc": "talent_desc_12800056",
-    "path": "RolePlus/00Gift/Jalhay/WuXiaTi.png",
+    "path": "RolePlus/00gift/jalhay/WuXiaTi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -475,7 +475,7 @@
     "id": 12800057,
     "name": "talent_name_12800057",
     "desc": "talent_desc_12800057",
-    "path": "RolePlus/00Gift/Lissandra/LengXue.png",
+    "path": "RolePlus/00gift/lissandra/LengXue.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -483,7 +483,7 @@
     "id": 12800058,
     "name": "talent_name_12800058",
     "desc": "talent_desc_12800058",
-    "path": "RolePlus/00Gift/Fenia/LingXi.png",
+    "path": "RolePlus/00gift/fenia/LingXi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -491,7 +491,7 @@
     "id": 12800059,
     "name": "talent_name_12800059",
     "desc": "talent_desc_12800059",
-    "path": "RolePlus/00Gift/Charlotte/HuoXing.png",
+    "path": "RolePlus/00gift/charlotte/HuoXing.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -499,7 +499,7 @@
     "id": 12800060,
     "name": "talent_name_12800060",
     "desc": "talent_desc_12800060",
-    "path": "RolePlus/00Gift/Charlotte/WanQiang.png",
+    "path": "RolePlus/00gift/charlotte/WanQiang.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -507,7 +507,7 @@
     "id": 12800061,
     "name": "talent_name_12800061",
     "desc": "talent_desc_12800061",
-    "path": "RolePlus/00Gift/Vostok/RanLiaoGuanLi.png",
+    "path": "RolePlus/00gift/vostok/RanLiaoGuanLi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -515,7 +515,7 @@
     "id": 12800062,
     "name": "talent_name_12800062",
     "desc": "talent_desc_12800062",
-    "path": "RolePlus/00Gift/Galore/ZhangYanFa.png",
+    "path": "RolePlus/00gift/galore/ZhangYanFa.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -523,7 +523,7 @@
     "id": 12800063,
     "name": "talent_name_12800063",
     "desc": "talent_desc_12800063",
-    "path": "RolePlus/00Gift/Lissandra/QiPo.png",
+    "path": "RolePlus/00gift/lissandra/QiPo.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -627,7 +627,7 @@
     "id": 12800076,
     "name": "talent_name_12800076",
     "desc": "talent_desc_12800076",
-    "path": "RolePlus/00Gift/Cecil/DiQiYeRongXue.png",
+    "path": "RolePlus/00gift/cecil/DiQiYeRongXue.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -635,7 +635,7 @@
     "id": 12800077,
     "name": "talent_name_12800077",
     "desc": "talent_desc_12800077",
-    "path": "RolePlus/00Gift/Cecil/HuPoMiGan.png",
+    "path": "RolePlus/00gift/cecil/HuPoMiGan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -643,7 +643,7 @@
     "id": 12800078,
     "name": "talent_name_12800078",
     "desc": "talent_desc_12800078",
-    "path": "RolePlus/00Gift/Ikuma/Chan.png",
+    "path": "RolePlus/00gift/ikuma/Chan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -651,7 +651,7 @@
     "id": 12800079,
     "name": "talent_name_12800079",
     "desc": "talent_desc_12800079",
-    "path": "RolePlus/00Gift/Cecil/YueHouJiFen.png",
+    "path": "RolePlus/00gift/cecil/YueHouJiFen.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -659,7 +659,7 @@
     "id": 12800080,
     "name": "talent_name_12800080",
     "desc": "talent_desc_12800080",
-    "path": "RolePlus/00Gift/Cynthia/BeiYongJianJia.png",
+    "path": "RolePlus/00gift/cynthia/BeiYongJianJia.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -667,7 +667,7 @@
     "id": 12800081,
     "name": "talent_name_12800081",
     "desc": "talent_desc_12800081",
-    "path": "RolePlus/00Gift/Cynthia/JieLi.png",
+    "path": "RolePlus/00gift/cynthia/JieLi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -675,7 +675,7 @@
     "id": 12800082,
     "name": "talent_name_12800082",
     "desc": "talent_desc_12800082",
-    "path": "RolePlus/00Gift/Cynthia/GaoNengDianChi.png",
+    "path": "RolePlus/00gift/cynthia/GaoNengDianChi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -683,7 +683,7 @@
     "id": 12800083,
     "name": "talent_name_12800083",
     "desc": "talent_desc_12800083",
-    "path": "RolePlus/00Gift/Eliot/HuiXinLianShe.png",
+    "path": "RolePlus/00gift/eliot/HuiXinLianShe.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -691,7 +691,7 @@
     "id": 12800084,
     "name": "talent_name_12800084",
     "desc": "talent_desc_12800084",
-    "path": "RolePlus/00Gift/Ikuma/HeiSeYaoJi.png",
+    "path": "RolePlus/00gift/ikuma/HeiSeYaoJi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -699,7 +699,7 @@
     "id": 12800085,
     "name": "talent_name_12800085",
     "desc": "talent_desc_12800085",
-    "path": "RolePlus/00Gift/Galore/XieMu.png",
+    "path": "RolePlus/00gift/galore/XieMu.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -707,7 +707,7 @@
     "id": 12800086,
     "name": "talent_name_12800086",
     "desc": "talent_desc_12800086",
-    "path": "RolePlus/00Gift/Galore/XianShou.png",
+    "path": "RolePlus/00gift/galore/XianShou.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -715,7 +715,7 @@
     "id": 12800087,
     "name": "talent_name_12800087",
     "desc": "talent_desc_12800087",
-    "path": "RolePlus/00Gift/Nayuta/DuXinShu.png",
+    "path": "RolePlus/00gift/nayuta/DuXinShu.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -723,7 +723,7 @@
     "id": 12800088,
     "name": "talent_name_12800088",
     "desc": "talent_desc_12800088",
-    "path": "RolePlus/00Gift/Priming/ChaiDanZhuanJia.png",
+    "path": "RolePlus/00gift/priming/ChaiDanZhuanJia.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -731,7 +731,7 @@
     "id": 12800089,
     "name": "talent_name_12800089",
     "desc": "talent_desc_12800089",
-    "path": "RolePlus/00Gift/Priming/BaoWuKong.png",
+    "path": "RolePlus/00gift/priming/BaoWuKong.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -739,7 +739,7 @@
     "id": 12800090,
     "name": "talent_name_12800090",
     "desc": "talent_desc_12800090",
-    "path": "RolePlus/00Gift/Ikuma/KaBaNeiRuiZhiLi.png",
+    "path": "RolePlus/00gift/ikuma/KaBaNeiRuiZhiLi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -747,7 +747,7 @@
     "id": 12800091,
     "name": "talent_name_12800091",
     "desc": "talent_desc_12800091",
-    "path": "RolePlus/00Gift/Priming/CongRong.png",
+    "path": "RolePlus/00gift/priming/CongRong.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -755,7 +755,7 @@
     "id": 12800092,
     "name": "talent_name_12800092",
     "desc": "talent_desc_12800092",
-    "path": "RolePlus/00Gift/Aoba/FengQi.png",
+    "path": "RolePlus/00gift/aoba/FengQi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -763,7 +763,7 @@
     "id": 12800093,
     "name": "talent_name_12800093",
     "desc": "talent_desc_12800093",
-    "path": "RolePlus/00Gift/Aoba/QingYun.png",
+    "path": "RolePlus/00gift/aoba/QingYun.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -771,7 +771,7 @@
     "id": 12800094,
     "name": "talent_name_12800094",
     "desc": "talent_desc_12800094",
-    "path": "RolePlus/00Gift/Aoba/HuiZhuan.png",
+    "path": "RolePlus/00gift/aoba/HuiZhuan.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -779,7 +779,7 @@
     "id": 12800095,
     "name": "talent_name_12800095",
     "desc": "talent_desc_12800095",
-    "path": "RolePlus/00Gift/Pelota/QiangCiDingWei.png",
+    "path": "RolePlus/00gift/pelota/QiangCiDingWei.png",
     "awakeLv": 3,
     "skillParamOffsetList": [
       {
@@ -793,7 +793,7 @@
     "id": 12800096,
     "name": "talent_name_12800096",
     "desc": "talent_desc_12800096",
-    "path": "RolePlus/00Gift/Eliot/ZhuiJi.png",
+    "path": "RolePlus/00gift/eliot/ZhuiJi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -801,7 +801,7 @@
     "id": 12800097,
     "name": "talent_name_12800097",
     "desc": "talent_desc_12800097",
-    "path": "RolePlus/00Gift/Eliot/HuiXinLianShe.png",
+    "path": "RolePlus/00gift/eliot/HuiXinLianShe.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -809,7 +809,7 @@
     "id": 12800098,
     "name": "talent_name_12800098",
     "desc": "talent_desc_12800098",
-    "path": "RolePlus/00Gift/Pelota/GanYingShouZe.png",
+    "path": "RolePlus/00gift/pelota/GanYingShouZe.png",
     "awakeLv": 5,
     "skillParamOffsetList": [
       {
@@ -838,7 +838,7 @@
     "id": 12800099,
     "name": "talent_name_12800099",
     "desc": "talent_desc_12800099",
-    "path": "RolePlus/00Gift/Eliot/JueZe.png",
+    "path": "RolePlus/00gift/eliot/JueZe.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -846,7 +846,7 @@
     "id": 12800100,
     "name": "talent_name_12800100",
     "desc": "talent_desc_12800100",
-    "path": "RolePlus/00Gift/Ilona/DanDaoXue.png",
+    "path": "RolePlus/00gift/ilona/DanDaoXue.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -854,7 +854,7 @@
     "id": 12800101,
     "name": "talent_name_12800101",
     "desc": "talent_desc_12800101",
-    "path": "RolePlus/00Gift/Pelota/ShuangJiDianJi.png",
+    "path": "RolePlus/00gift/pelota/ShuangJiDianJi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -862,7 +862,7 @@
     "id": 12800102,
     "name": "talent_name_12800102",
     "desc": "talent_desc_12800102",
-    "path": "RolePlus/00Gift/Ilona/ChenMoDeSiShen.png",
+    "path": "RolePlus/00gift/ilona/ChenMoDeSiShen.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -870,7 +870,7 @@
     "id": 12800103,
     "name": "talent_name_12800103",
     "desc": "talent_desc_12800103",
-    "path": "RolePlus/00Gift/Ilona/LianXuSuoDing.png",
+    "path": "RolePlus/00gift/ilona/LianXuSuoDing.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -878,7 +878,7 @@
     "id": 12800104,
     "name": "talent_name_12800104",
     "desc": "talent_desc_12800104",
-    "path": "RolePlus/00Gift/Arcana/BuJi.png",
+    "path": "RolePlus/00gift/arcana/BuJi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -886,7 +886,7 @@
     "id": 12800105,
     "name": "talent_name_12800105",
     "desc": "talent_desc_12800105",
-    "path": "RolePlus/00Gift/Arcana/DieQi.png",
+    "path": "RolePlus/00gift/arcana/DieQi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -894,7 +894,7 @@
     "id": 12800106,
     "name": "talent_name_12800106",
     "desc": "talent_desc_12800106",
-    "path": "RolePlus/00Gift/Pelota/CiLiDun.png",
+    "path": "RolePlus/00gift/pelota/CiLiDun.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -902,7 +902,7 @@
     "id": 12800107,
     "name": "talent_name_12800107",
     "desc": "talent_desc_12800107",
-    "path": "RolePlus/00Gift/Arcana/XiLi.png",
+    "path": "RolePlus/00gift/arcana/XiLi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -910,7 +910,7 @@
     "id": 12800108,
     "name": "talent_name_12800108",
     "desc": "talent_desc_12800108",
-    "path": "RolePlus/00Gift/Shizuru/ShenShangXianSu.png",
+    "path": "RolePlus/00gift/shizuru/ShenShangXianSu.png",
     "awakeLv": 2,
     "skillParamOffsetList": [
       {
@@ -924,7 +924,7 @@
     "id": 12800109,
     "name": "talent_name_12800109",
     "desc": "talent_desc_12800109",
-    "path": "RolePlus/00Gift/Shizuru/BeiYongDan.png",
+    "path": "RolePlus/00gift/shizuru/BeiYongDan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -932,7 +932,7 @@
     "id": 12800110,
     "name": "talent_name_12800110",
     "desc": "talent_desc_12800110",
-    "path": "RolePlus/00Gift/Shizuru/GaoBaoZhuangYao.png",
+    "path": "RolePlus/00gift/shizuru/GaoBaoZhuangYao.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -940,7 +940,7 @@
     "id": 12800111,
     "name": "talent_name_12800111",
     "desc": "talent_desc_12800111",
-    "path": "RolePlus/00Gift/Mumei/FengWu.png",
+    "path": "RolePlus/00gift/mumei/FengWu.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -980,7 +980,7 @@
     "id": 12800116,
     "name": "talent_name_12800116",
     "desc": "talent_desc_12800116",
-    "path": "RolePlus/00Gift/Flan/LianXuZuoZhan.png",
+    "path": "RolePlus/00gift/flan/LianXuZuoZhan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -988,7 +988,7 @@
     "id": 12800117,
     "name": "talent_name_12800117",
     "desc": "talent_desc_12800117",
-    "path": "RolePlus/00Gift/Flan/ZhongJi.png",
+    "path": "RolePlus/00gift/flan/ZhongJi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -996,7 +996,7 @@
     "id": 12800118,
     "name": "talent_name_12800118",
     "desc": "talent_desc_12800118",
-    "path": "RolePlus/00Gift/Flan/TuanJie.png",
+    "path": "RolePlus/00gift/flan/TuanJie.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1004,7 +1004,7 @@
     "id": 12800119,
     "name": "talent_name_12800119",
     "desc": "talent_desc_12800119",
-    "path": "RolePlus/00Gift/Mumei/KaBaNeiRuiZhiLi.png",
+    "path": "RolePlus/00gift/mumei/KaBaNeiRuiZhiLi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1012,7 +1012,7 @@
     "id": 12800120,
     "name": "talent_name_12800120",
     "desc": "talent_desc_12800120",
-    "path": "RolePlus/00Gift/Nayuta/QiZhaMoShu.png",
+    "path": "RolePlus/00gift/nayuta/QiZhaMoShu.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1020,7 +1020,7 @@
     "id": 12800121,
     "name": "talent_name_12800121",
     "desc": "talent_desc_12800121",
-    "path": "RolePlus/00Gift/Mumei/PianXian.png",
+    "path": "RolePlus/00gift/mumei/PianXian.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1028,7 +1028,7 @@
     "id": 12800122,
     "name": "talent_name_12800122",
     "desc": "talent_desc_12800122",
-    "path": "RolePlus/00Gift/Fenia/LingXi.png",
+    "path": "RolePlus/00gift/fenia/LingXi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1036,7 +1036,7 @@
     "id": 12800123,
     "name": "talent_name_12800123",
     "desc": "talent_desc_12800123",
-    "path": "RolePlus/00Gift/Eliot/HuiXinLianShe.png",
+    "path": "RolePlus/00gift/eliot/HuiXinLianShe.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1044,7 +1044,7 @@
     "id": 12800124,
     "name": "talent_name_12800124",
     "desc": "talent_desc_12800124",
-    "path": "RolePlus/00Gift/Mumei/Chan.png",
+    "path": "RolePlus/00gift/mumei/Chan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1052,7 +1052,7 @@
     "id": 12800125,
     "name": "talent_name_12800125",
     "desc": "talent_desc_12800125",
-    "path": "RolePlus/00Gift/Karen/TeXiaoZhuangYao.png",
+    "path": "RolePlus/00gift/karen/TeXiaoZhuangYao.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1060,7 +1060,7 @@
     "id": 12800126,
     "name": "talent_name_12800126",
     "desc": "talent_desc_12800126",
-    "path": "RolePlus/00Gift/Sommer/JingJiShiYue.png",
+    "path": "RolePlus/00gift/sommer/JingJiShiYue.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1068,7 +1068,7 @@
     "id": 12800127,
     "name": "talent_name_12800127",
     "desc": "talent_desc_12800127",
-    "path": "RolePlus/00Gift/Conor/DiLi.png",
+    "path": "RolePlus/00gift/conor/DiLi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1076,7 +1076,7 @@
     "id": 12800128,
     "name": "talent_name_12800128",
     "desc": "talent_desc_12800128",
-    "path": "RolePlus/00Gift/Ushana/NuXiang.png",
+    "path": "RolePlus/00gift/ushana/NuXiang.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1084,7 +1084,7 @@
     "id": 12800129,
     "name": "talent_name_12800129",
     "desc": "talent_desc_12800129",
-    "path": "RolePlus/00Gift/Fenia/LingXi.png",
+    "path": "RolePlus/00gift/fenia/LingXi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1092,7 +1092,7 @@
     "id": 12800130,
     "name": "talent_name_12800130",
     "desc": "talent_desc_12800130",
-    "path": "RolePlus/00Gift/Valentine/YuJin.png",
+    "path": "RolePlus/00gift/valentine/YuJin.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1100,7 +1100,7 @@
     "id": 12800131,
     "name": "talent_name_12800131",
     "desc": "talent_desc_12800131",
-    "path": "RolePlus/00Gift/Valentine/PiHuo.png",
+    "path": "RolePlus/00gift/valentine/PiHuo.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1108,7 +1108,7 @@
     "id": 12800132,
     "name": "talent_name_12800132",
     "desc": "talent_desc_12800132",
-    "path": "RolePlus/00Gift/MsGold/GongZuoXuLie.png",
+    "path": "RolePlus/00gift/msgold/GongZuoXuLie.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1116,7 +1116,7 @@
     "id": 12800133,
     "name": "talent_name_12800133",
     "desc": "talent_desc_12800133",
-    "path": "RolePlus/00Gift/Rachel/QianBan.png",
+    "path": "RolePlus/00gift/rachel/QianBan.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1124,7 +1124,7 @@
     "id": 12800134,
     "name": "talent_name_12800134",
     "desc": "talent_desc_12800134",
-    "path": "RolePlus/00Gift/Reeva/BuQingZiLai.png",
+    "path": "RolePlus/00gift/reeva/BuQingZiLai.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1132,7 +1132,7 @@
     "id": 12800135,
     "name": "talent_name_12800135",
     "desc": "talent_desc_12800135",
-    "path": "RolePlus/00Gift/Reeva/SuoHa.png",
+    "path": "RolePlus/00gift/reeva/SuoHa.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1140,7 +1140,7 @@
     "id": 12800136,
     "name": "talent_name_12800136",
     "desc": "talent_desc_12800136",
-    "path": "RolePlus/00Gift/MsGold/ChongQiXuLie.png",
+    "path": "RolePlus/00gift/msgold/ChongQiXuLie.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1148,7 +1148,7 @@
     "id": 12800137,
     "name": "talent_name_12800137",
     "desc": "talent_desc_12800137",
-    "path": "RolePlus/00Gift/Reeva/QiYiEnDian.png",
+    "path": "RolePlus/00gift/reeva/QiYiEnDian.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1156,7 +1156,7 @@
     "id": 12800138,
     "name": "talent_name_12800138",
     "desc": "talent_desc_12800138",
-    "path": "RolePlus/00Gift/Stella/NuanChang.png",
+    "path": "RolePlus/00gift/stella/NuanChang.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1164,7 +1164,7 @@
     "id": 12800139,
     "name": "talent_name_12800139",
     "desc": "talent_desc_12800139",
-    "path": "RolePlus/00Gift/Stella/AngYang.png",
+    "path": "RolePlus/00gift/stella/AngYang.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1172,7 +1172,7 @@
     "id": 12800140,
     "name": "talent_name_12800140",
     "desc": "talent_desc_12800140",
-    "path": "RolePlus/00Gift/MsGold/JueJinShiDai.png",
+    "path": "RolePlus/00gift/msgold/JueJinShiDai.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1180,7 +1180,7 @@
     "id": 12800141,
     "name": "talent_name_12800141",
     "desc": "talent_desc_12800141",
-    "path": "RolePlus/00Gift/Stella/HuoLi.png",
+    "path": "RolePlus/00gift/stella/HuoLi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1188,7 +1188,7 @@
     "id": 12800142,
     "name": "talent_name_12800142",
     "desc": "talent_desc_12800142",
-    "path": "RolePlus/00Gift/Shizuru/ShenShangXianSu.png",
+    "path": "RolePlus/00gift/shizuru/ShenShangXianSu.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1196,7 +1196,7 @@
     "id": 12800143,
     "name": "talent_name_12800143",
     "desc": "talent_desc_12800143",
-    "path": "RolePlus/00Gift/Rachel/YaoLiXue.png",
+    "path": "RolePlus/00gift/rachel/YaoLiXue.png",
     "awakeLv": 3,
     "skillParamOffsetList": [
       {
@@ -1210,7 +1210,7 @@
     "id": 12800144,
     "name": "talent_name_12800144",
     "desc": "talent_desc_12800144",
-    "path": "RolePlus/00Gift/Raziel_Human/YaoXing.png",
+    "path": "RolePlus/00gift/raziel_human/YaoXing.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1218,7 +1218,7 @@
     "id": 12800145,
     "name": "talent_name_12800145",
     "desc": "talent_desc_12800145",
-    "path": "RolePlus/00Gift/Rachel/QianBan.png",
+    "path": "RolePlus/00gift/rachel/QianBan.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1226,7 +1226,7 @@
     "id": 12800146,
     "name": "talent_name_12800146",
     "desc": "talent_desc_12800146",
-    "path": "RolePlus/00Gift/Achiwa/Wu.png",
+    "path": "RolePlus/00gift/achiwa/Wu.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1234,7 +1234,7 @@
     "id": 12800147,
     "name": "talent_name_12800147",
     "desc": "talent_desc_12800147",
-    "path": "RolePlus/00Gift/Achiwa/YuHuo.png",
+    "path": "RolePlus/00gift/achiwa/YuHuo.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1242,7 +1242,7 @@
     "id": 12800148,
     "name": "talent_name_12800148",
     "desc": "talent_desc_12800148",
-    "path": "RolePlus/00Gift/Raziel_Human/FuYuanJiQu.png",
+    "path": "RolePlus/00gift/raziel_human/FuYuanJiQu.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1250,7 +1250,7 @@
     "id": 12800149,
     "name": "talent_name_12800149",
     "desc": "talent_desc_12800149",
-    "path": "RolePlus/00Gift/Achiwa/BuDongRuShan.png",
+    "path": "RolePlus/00gift/achiwa/BuDongRuShan.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1258,7 +1258,7 @@
     "id": 12800150,
     "name": "talent_name_12800150",
     "desc": "talent_desc_12800150",
-    "path": "RolePlus/00Gift/Wensheng/DingGe.png",
+    "path": "RolePlus/00gift/wensheng/DingGe.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1266,7 +1266,7 @@
     "id": 12800151,
     "name": "talent_name_12800151",
     "desc": "talent_desc_12800151",
-    "path": "RolePlus/00Gift/Wensheng/LengJing.png",
+    "path": "RolePlus/00gift/wensheng/LengJing.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1274,7 +1274,7 @@
     "id": 12800152,
     "name": "talent_name_12800152",
     "desc": "talent_desc_12800152",
-    "path": "RolePlus/00Gift/Raziel_Human/BianXing.png",
+    "path": "RolePlus/00gift/raziel_human/BianXing.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1282,7 +1282,7 @@
     "id": 12800153,
     "name": "talent_name_12800153",
     "desc": "talent_desc_12800153",
-    "path": "RolePlus/00Gift/Wensheng/BuPoBuLi.png",
+    "path": "RolePlus/00gift/wensheng/BuPoBuLi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1290,7 +1290,7 @@
     "id": 12800154,
     "name": "talent_name_12800154",
     "desc": "talent_desc_12800154",
-    "path": "RolePlus/00Gift/RinaF/XianJi.png",
+    "path": "RolePlus/00gift/rinaf/XianJi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1298,7 +1298,7 @@
     "id": 12800155,
     "name": "talent_name_12800155",
     "desc": "talent_desc_12800155",
-    "path": "RolePlus/00Gift/RinaF/FanZhi.png",
+    "path": "RolePlus/00gift/rinaf/FanZhi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1306,7 +1306,7 @@
     "id": 12800156,
     "name": "talent_name_12800156",
     "desc": "talent_desc_12800156",
-    "path": "RolePlus/00Gift/Raziel_Human/MaiChongXing.png",
+    "path": "RolePlus/00gift/raziel_human/MaiChongXing.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1314,7 +1314,7 @@
     "id": 12800157,
     "name": "talent_name_12800157",
     "desc": "talent_desc_12800157",
-    "path": "RolePlus/00Gift/RinaF/NaiLi.png",
+    "path": "RolePlus/00gift/rinaf/NaiLi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1338,7 +1338,7 @@
     "id": 12800160,
     "name": "talent_name_12800160",
     "desc": "talent_desc_12800160",
-    "path": "RolePlus/00Gift/Nayuta/DuXinShu.png",
+    "path": "RolePlus/00gift/nayuta/DuXinShu.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1354,7 +1354,7 @@
     "id": 12800162,
     "name": "talent_name_12800162",
     "desc": "talent_desc_12800162",
-    "path": "RolePlus/00Gift/Jerboa/XianZhiXian.png",
+    "path": "RolePlus/00gift/jerboa/XianZhiXian.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1362,7 +1362,7 @@
     "id": 12800163,
     "name": "talent_name_12800163",
     "desc": "talent_desc_12800163",
-    "path": "RolePlus/00Gift/Jerboa/HouZhiXian.png",
+    "path": "RolePlus/00gift/jerboa/HouZhiXian.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1370,7 +1370,7 @@
     "id": 12800164,
     "name": "talent_name_12800164",
     "desc": "talent_desc_12800164",
-    "path": "RolePlus/00Gift/Nayuta/QiZhaMoShu.png",
+    "path": "RolePlus/00gift/nayuta/QiZhaMoShu.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1378,7 +1378,7 @@
     "id": 12800165,
     "name": "talent_name_12800165",
     "desc": "talent_desc_12800165",
-    "path": "RolePlus/00Gift/Jerboa/JianJieTuCi.png",
+    "path": "RolePlus/00gift/jerboa/JianJieTuCi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1386,7 +1386,7 @@
     "id": 12800166,
     "name": "talent_name_12800166",
     "desc": "talent_desc_12800166",
-    "path": "RolePlus/00Gift/Suen/EnDian.png",
+    "path": "RolePlus/00gift/suen/EnDian.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1394,7 +1394,7 @@
     "id": 12800167,
     "name": "talent_name_12800167",
     "desc": "talent_desc_12800167",
-    "path": "RolePlus/00Gift/Shizuru_Summer/ZhuLian.png",
+    "path": "RolePlus/00gift/shizuru_summer/ZhuLian.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1402,7 +1402,7 @@
     "id": 12800168,
     "name": "talent_name_12800168",
     "desc": "talent_desc_12800168",
-    "path": "RolePlus/00Gift/Fenia/LingXi.png",
+    "path": "RolePlus/00gift/fenia/LingXi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1410,7 +1410,7 @@
     "id": 12800169,
     "name": "talent_name_12800169",
     "desc": "talent_desc_12800169",
-    "path": "RolePlus/00Gift/Suen/LiuLi.png",
+    "path": "RolePlus/00gift/suen/LiuLi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1418,7 +1418,7 @@
     "id": 12800170,
     "name": "talent_name_12800170",
     "desc": "talent_desc_12800170",
-    "path": "RolePlus/00Gift/Millie/GunShi.png",
+    "path": "RolePlus/00gift/millie/GunShi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1426,7 +1426,7 @@
     "id": 12800171,
     "name": "talent_name_12800171",
     "desc": "talent_desc_12800171",
-    "path": "RolePlus/00Gift/Millie/LaiZiShenYuan.png",
+    "path": "RolePlus/00gift/millie/LaiZiShenYuan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1434,7 +1434,7 @@
     "id": 12800172,
     "name": "talent_name_12800172",
     "desc": "talent_desc_12800172",
-    "path": "RolePlus/00Gift/Nayuta/LeiBiSiZhiBuKeSiYi.png",
+    "path": "RolePlus/00gift/nayuta/LeiBiSiZhiBuKeSiYi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1442,7 +1442,7 @@
     "id": 12800173,
     "name": "talent_name_12800173",
     "desc": "talent_desc_12800173",
-    "path": "RolePlus/00Gift/Millie/ShengCunBenNeng.png",
+    "path": "RolePlus/00gift/millie/ShengCunBenNeng.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1450,7 +1450,7 @@
     "id": 12800174,
     "name": "talent_name_12800174",
     "desc": "talent_desc_12800174",
-    "path": "RolePlus/00Gift/Yamaarashi/JiFeng.png",
+    "path": "RolePlus/00gift/yamaarashi/JiFeng.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1458,7 +1458,7 @@
     "id": 12800175,
     "name": "talent_name_12800175",
     "desc": "talent_desc_12800175",
-    "path": "RolePlus/00Gift/Yamaarashi/SiJiDaiDong.png",
+    "path": "RolePlus/00gift/yamaarashi/SiJiDaiDong.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1474,7 +1474,7 @@
     "id": 12800177,
     "name": "talent_name_12800177",
     "desc": "talent_desc_12800177",
-    "path": "RolePlus/00Gift/Yamaarashi/LinLie.png",
+    "path": "RolePlus/00gift/yamaarashi/LinLie.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1482,7 +1482,7 @@
     "id": 12800178,
     "name": "talent_name_12800178",
     "desc": "talent_desc_12800178",
-    "path": "RolePlus/00Gift/Box/TuoChu.png",
+    "path": "RolePlus/00gift/box/TuoChu.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1490,7 +1490,7 @@
     "id": 12800179,
     "name": "talent_name_12800179",
     "desc": "talent_desc_12800179",
-    "path": "RolePlus/00Gift/Box/KuoRong.png",
+    "path": "RolePlus/00gift/box/KuoRong.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1498,7 +1498,7 @@
     "id": 12800180,
     "name": "talent_name_12800180",
     "desc": "talent_desc_12800180",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -1506,7 +1506,7 @@
     "id": 12800181,
     "name": "talent_name_12800181",
     "desc": "talent_desc_12800181",
-    "path": "RolePlus/00Gift/Box/ZhengFuZheBoKeShi.png",
+    "path": "RolePlus/00gift/box/ZhengFuZheBoKeShi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1514,7 +1514,7 @@
     "id": 12800182,
     "name": "talent_name_12800182",
     "desc": "talent_desc_12800182",
-    "path": "RolePlus/00Gift/Aegis_Box/QianRuShiKongTiao.png",
+    "path": "RolePlus/00gift/aegis_box/QianRuShiKongTiao.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1522,7 +1522,7 @@
     "id": 12800183,
     "name": "talent_name_12800183",
     "desc": "talent_desc_12800183",
-    "path": "RolePlus/00Gift/Aegis_Box/TieBi.png",
+    "path": "RolePlus/00gift/aegis_box/TieBi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1530,7 +1530,7 @@
     "id": 12800184,
     "name": "talent_name_12800184",
     "desc": "talent_desc_12800184",
-    "path": "RolePlus/00Gift/Sommer/JingJiShiYue.png",
+    "path": "RolePlus/00gift/sommer/JingJiShiYue.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1538,7 +1538,7 @@
     "id": 12800185,
     "name": "talent_name_12800185",
     "desc": "talent_desc_12800185",
-    "path": "RolePlus/00Gift/Aegis_Box/BangYingNianTu.png",
+    "path": "RolePlus/00gift/aegis_box/BangYingNianTu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1546,7 +1546,7 @@
     "id": 12800186,
     "name": "talent_name_12800186",
     "desc": "talent_desc_12800186",
-    "path": "RolePlus/00Gift/Fenia/LingXi.png",
+    "path": "RolePlus/00gift/fenia/LingXi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1554,7 +1554,7 @@
     "id": 12800187,
     "name": "talent_name_12800187",
     "desc": "talent_desc_12800187",
-    "path": "RolePlus/00Gift/Fenia/FuYou.png",
+    "path": "RolePlus/00gift/fenia/FuYou.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1562,7 +1562,7 @@
     "id": 12800188,
     "name": "talent_name_12800188",
     "desc": "talent_desc_12800188",
-    "path": "RolePlus/00Gift/Conor/DiLi.png",
+    "path": "RolePlus/00gift/conor/DiLi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1570,7 +1570,7 @@
     "id": 12800189,
     "name": "talent_name_12800189",
     "desc": "talent_desc_12800189",
-    "path": "RolePlus/00Gift/Fenia/MiaoJi.png",
+    "path": "RolePlus/00gift/fenia/MiaoJi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1578,7 +1578,7 @@
     "id": 12800190,
     "name": "talent_name_12800190",
     "desc": "talent_desc_12800190",
-    "path": "RolePlus/00Gift/Verlaine/XingMai.png",
+    "path": "RolePlus/00gift/verlaine/XingMai.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1586,7 +1586,7 @@
     "id": 12800191,
     "name": "talent_name_12800191",
     "desc": "talent_desc_12800191",
-    "path": "RolePlus/00Gift/Verlaine/MengYou.png",
+    "path": "RolePlus/00gift/verlaine/MengYou.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1594,7 +1594,7 @@
     "id": 12800192,
     "name": "talent_name_12800192",
     "desc": "talent_desc_12800192",
-    "path": "RolePlus/00Gift/Fenia/LingXi.png",
+    "path": "RolePlus/00gift/fenia/LingXi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1602,7 +1602,7 @@
     "id": 12800193,
     "name": "talent_name_12800193",
     "desc": "talent_desc_12800193",
-    "path": "RolePlus/00Gift/Verlaine/MengLvRen.png",
+    "path": "RolePlus/00gift/verlaine/MengLvRen.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1610,7 +1610,7 @@
     "id": 12800194,
     "name": "talent_name_12800194",
     "desc": "talent_desc_12800194",
-    "path": "RolePlus/00Gift/Stella/ShuiXianHua.png",
+    "path": "RolePlus/00gift/stella/ShuiXianHua.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1618,7 +1618,7 @@
     "id": 12800195,
     "name": "talent_name_12800195",
     "desc": "talent_desc_12800195",
-    "path": "RolePlus/00Gift/Valentine/ChiSheng.png",
+    "path": "RolePlus/00gift/valentine/ChiSheng.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1626,7 +1626,7 @@
     "id": 12800196,
     "name": "talent_name_12800196",
     "desc": "talent_desc_12800196",
-    "path": "RolePlus/00Gift/Livia/GongMingZi.png",
+    "path": "RolePlus/00gift/livia/GongMingZi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1634,7 +1634,7 @@
     "id": 12800197,
     "name": "talent_name_12800197",
     "desc": "talent_desc_12800197",
-    "path": "RolePlus/00Gift/Katas/YuRe.png",
+    "path": "RolePlus/00gift/katas/YuRe.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1642,7 +1642,7 @@
     "id": 12800198,
     "name": "talent_name_12800198",
     "desc": "talent_desc_12800198",
-    "path": "RolePlus/00Gift/Conor/BeiShuiYiZhan.png",
+    "path": "RolePlus/00gift/conor/BeiShuiYiZhan.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1650,7 +1650,7 @@
     "id": 12800199,
     "name": "talent_name_12800199",
     "desc": "talent_desc_12800199",
-    "path": "RolePlus/00Gift/Cynthia/GaoGanGongMing.png",
+    "path": "RolePlus/00gift/cynthia/GaoGanGongMing.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1658,7 +1658,7 @@
     "id": 12800200,
     "name": "talent_name_12800200",
     "desc": "talent_desc_12800200",
-    "path": "RolePlus/00Gift/Fenia/LeiBiSiZhiChaoGaiZao.png",
+    "path": "RolePlus/00gift/fenia/LeiBiSiZhiChaoGaiZao.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1666,7 +1666,7 @@
     "id": 12800201,
     "name": "talent_name_12800201",
     "desc": "talent_desc_12800201",
-    "path": "RolePlus/00Gift/Suen/YiNian.png",
+    "path": "RolePlus/00gift/suen/YiNian.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1762,7 +1762,7 @@
     "id": 12800213,
     "name": "talent_name_12800213",
     "desc": "talent_desc_12800213",
-    "path": "RolePlus/00Gift/Shizuru/ShenShangXianSu.png",
+    "path": "RolePlus/00gift/shizuru/ShenShangXianSu.png",
     "awakeLv": 2,
     "skillParamOffsetList": [
       {
@@ -1776,7 +1776,7 @@
     "id": 12800214,
     "name": "talent_name_12800214",
     "desc": "talent_desc_12800214",
-    "path": "RolePlus/00Gift/Julian/XinLai.png",
+    "path": "RolePlus/00gift/julian/XinLai.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1784,7 +1784,7 @@
     "id": 12800216,
     "name": "talent_name_12800216",
     "desc": "talent_desc_12800216",
-    "path": "RolePlus/00Gift/Flan/TuanJie.png",
+    "path": "RolePlus/00gift/flan/TuanJie.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1824,7 +1824,7 @@
     "id": 12800221,
     "name": "talent_name_12800221",
     "desc": "talent_desc_12800221",
-    "path": "RolePlus/00Gift/Sommer/YuXue.png",
+    "path": "RolePlus/00gift/sommer/YuXue.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1832,7 +1832,7 @@
     "id": 12800222,
     "name": "talent_name_12800222",
     "desc": "talent_desc_12800222",
-    "path": "RolePlus/00Gift/Shire/DaoDanGongShi.png",
+    "path": "RolePlus/00gift/shire/DaoDanGongShi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1840,7 +1840,7 @@
     "id": 12800223,
     "name": "talent_name_12800223",
     "desc": "talent_desc_12800223",
-    "path": "RolePlus/00Gift/Shire/NeNeNeNe.png",
+    "path": "RolePlus/00gift/shire/NeNeNeNe.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1848,7 +1848,7 @@
     "id": 12800224,
     "name": "talent_name_12800224",
     "desc": "talent_desc_12800224",
-    "path": "RolePlus/00Gift/Shire/HeiZhuDi.png",
+    "path": "RolePlus/00gift/shire/HeiZhuDi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1856,7 +1856,7 @@
     "id": 12800225,
     "name": "talent_name_12800225",
     "desc": "talent_desc_12800225",
-    "path": "RolePlus/00Gift/Shire/YuanShou.png",
+    "path": "RolePlus/00gift/shire/YuanShou.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1920,7 +1920,7 @@
     "id": 12800233,
     "name": "talent_name_12800233",
     "desc": "talent_desc_12800233",
-    "path": "RolePlus/00Gift/Aoba/HuiXue.png",
+    "path": "RolePlus/00gift/aoba/HuiXue.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1928,7 +1928,7 @@
     "id": 12800234,
     "name": "talent_name_12800234",
     "desc": "talent_desc_12800234",
-    "path": "RolePlus/00Gift/Yejue/CiGan.png",
+    "path": "RolePlus/00gift/yejue/CiGan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1936,7 +1936,7 @@
     "id": 12800235,
     "name": "talent_name_12800235",
     "desc": "talent_desc_12800235",
-    "path": "RolePlus/00Gift/Yejue/Jie.png",
+    "path": "RolePlus/00gift/yejue/Jie.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -1944,7 +1944,7 @@
     "id": 12800237,
     "name": "talent_name_12800237",
     "desc": "talent_desc_12800237",
-    "path": "RolePlus/00Gift/Yejue/Beng.png",
+    "path": "RolePlus/00gift/yejue/Beng.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -1976,7 +1976,7 @@
     "id": 12800241,
     "name": "talent_name_12800241",
     "desc": "talent_desc_12800241",
-    "path": "RolePlus/00Gift/Heinrich/BaoPoZhuanJia.png",
+    "path": "RolePlus/00gift/heinrich/BaoPoZhuanJia.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -1984,7 +1984,7 @@
     "id": 12800242,
     "name": "talent_name_12800242",
     "desc": "talent_desc_12800242",
-    "path": "RolePlus/00Gift/Heinrich/ZhanShuTuiJin.png",
+    "path": "RolePlus/00gift/heinrich/ZhanShuTuiJin.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -1992,7 +1992,7 @@
     "id": 12800243,
     "name": "talent_name_12800243",
     "desc": "talent_desc_12800243",
-    "path": "RolePlus/00Gift/Heinrich/WenJian.png",
+    "path": "RolePlus/00gift/heinrich/WenJian.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2000,7 +2000,7 @@
     "id": 12800244,
     "name": "talent_name_12800244",
     "desc": "talent_desc_12800244",
-    "path": "RolePlus/00Gift/Ushana/DanZhi.png",
+    "path": "RolePlus/00gift/ushana/DanZhi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2008,7 +2008,7 @@
     "id": 12800245,
     "name": "talent_name_12800245",
     "desc": "talent_desc_12800245",
-    "path": "RolePlus/00Gift/Heinrich/ShengCunFaZe.png",
+    "path": "RolePlus/00gift/heinrich/ShengCunFaZe.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2016,7 +2016,7 @@
     "id": 12800246,
     "name": "talent_name_12800246",
     "desc": "talent_desc_12800246",
-    "path": "RolePlus/00Gift/Tennie/NingXing.png",
+    "path": "RolePlus/00gift/tennie/NingXing.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2024,7 +2024,7 @@
     "id": 12800247,
     "name": "talent_name_12800247",
     "desc": "talent_desc_12800247",
-    "path": "RolePlus/00Gift/Tennie/CiKong.png",
+    "path": "RolePlus/00gift/tennie/CiKong.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2032,7 +2032,7 @@
     "id": 12800248,
     "name": "talent_name_12800248",
     "desc": "talent_desc_12800248",
-    "path": "RolePlus/00Gift/Ushana/Shun.png",
+    "path": "RolePlus/00gift/ushana/Shun.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2040,7 +2040,7 @@
     "id": 12800249,
     "name": "talent_name_12800249",
     "desc": "talent_desc_12800249",
-    "path": "RolePlus/00Gift/Tennie/XingMu.png",
+    "path": "RolePlus/00gift/tennie/XingMu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2048,7 +2048,7 @@
     "id": 12800250,
     "name": "talent_name_12800250",
     "desc": "talent_desc_12800250",
-    "path": "RolePlus/00Gift/Tennie/ShuangXing.png",
+    "path": "RolePlus/00gift/tennie/ShuangXing.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2088,7 +2088,7 @@
     "id": 12800255,
     "name": "talent_name_12800255",
     "desc": "talent_desc_12800255",
-    "path": "RolePlus/00Gift/Anfiya/HuanGe.png",
+    "path": "RolePlus/00gift/anfiya/HuanGe.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2096,7 +2096,7 @@
     "id": 12800256,
     "name": "talent_name_12800256",
     "desc": "talent_desc_12800256",
-    "path": "RolePlus/00Gift/Ushana/ShaNa.png",
+    "path": "RolePlus/00gift/ushana/ShaNa.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2104,7 +2104,7 @@
     "id": 12800257,
     "name": "talent_name_12800257",
     "desc": "talent_desc_12800257",
-    "path": "RolePlus/00Gift/Anfiya/ChaoYong.png",
+    "path": "RolePlus/00gift/anfiya/ChaoYong.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2112,7 +2112,7 @@
     "id": 12800258,
     "name": "talent_name_12800258",
     "desc": "talent_desc_12800258",
-    "path": "RolePlus/00Gift/Yejue/Xuan.png",
+    "path": "RolePlus/00gift/yejue/Xuan.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2136,7 +2136,7 @@
     "id": 12800261,
     "name": "talent_name_12800261",
     "desc": "talent_desc_12800261",
-    "path": "RolePlus/00Gift/Anfiya/TanLan.png",
+    "path": "RolePlus/00gift/anfiya/TanLan.png",
     "awakeLv": 6,
     "skillParamOffsetList": [
       {
@@ -2182,7 +2182,7 @@
     "id": 12800266,
     "name": "talent_name_12800266",
     "desc": "talent_desc_12800266",
-    "path": "RolePlus/00Gift/Fenia/LingXi.png",
+    "path": "RolePlus/00gift/fenia/LingXi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2214,7 +2214,7 @@
     "id": 12800270,
     "name": "talent_name_12800270",
     "desc": "talent_desc_12800270",
-    "path": "RolePlus/00Gift/Margiela/XueMeng.png",
+    "path": "RolePlus/00gift/margiela/XueMeng.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2222,7 +2222,7 @@
     "id": 12800271,
     "name": "talent_name_12800271",
     "desc": "talent_desc_12800271",
-    "path": "RolePlus/00Gift/Charlotte/ZhanYue.png",
+    "path": "RolePlus/00gift/charlotte/ZhanYue.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2230,7 +2230,7 @@
     "id": 12800272,
     "name": "talent_name_12800272",
     "desc": "talent_desc_12800272",
-    "path": "RolePlus/00Gift/Mahr/CanXin.png",
+    "path": "RolePlus/00gift/mahr/CanXin.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2238,7 +2238,7 @@
     "id": 12800273,
     "name": "talent_name_12800273",
     "desc": "talent_desc_12800273",
-    "path": "RolePlus/00Gift/Ilona/ZhanShuDaJi.png",
+    "path": "RolePlus/00gift/ilona/ZhanShuDaJi.png",
     "awakeLv": 6,
     "skillParamOffsetList": [
       {
@@ -2284,7 +2284,7 @@
     "id": 12800278,
     "name": "talent_name_12800278",
     "desc": "talent_desc_12800278",
-    "path": "RolePlus/00Gift/Heinrich/ZhanShuTuiJin.png",
+    "path": "RolePlus/00gift/heinrich/ZhanShuTuiJin.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2292,7 +2292,7 @@
     "id": 12800279,
     "name": "talent_name_12800279",
     "desc": "talent_desc_12800279",
-    "path": "RolePlus/00Gift/Heinrich/WenJian.png",
+    "path": "RolePlus/00gift/heinrich/WenJian.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2300,7 +2300,7 @@
     "id": 12800281,
     "name": "talent_name_12800281",
     "desc": "talent_desc_12800281",
-    "path": "RolePlus/00Gift/Heinrich/ShengCunFaZe.png",
+    "path": "RolePlus/00gift/heinrich/ShengCunFaZe.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2308,7 +2308,7 @@
     "id": 12800282,
     "name": "talent_name_12800282",
     "desc": "talent_desc_12800282",
-    "path": "RolePlus/00Gift/Heinrich/BaoPoZhuanJia.png",
+    "path": "RolePlus/00gift/heinrich/BaoPoZhuanJia.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2316,7 +2316,7 @@
     "id": 12800283,
     "name": "talent_name_12800283",
     "desc": "talent_desc_12800283",
-    "path": "RolePlus/00Gift/Raziel_Angel/XunDao.png",
+    "path": "RolePlus/00gift/raziel_angel/XunDao.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2324,7 +2324,7 @@
     "id": 12800284,
     "name": "talent_name_12800284",
     "desc": "talent_desc_12800284",
-    "path": "RolePlus/00Gift/Shizuru_Summer/YuLiu.png",
+    "path": "RolePlus/00gift/shizuru_summer/YuLiu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2332,7 +2332,7 @@
     "id": 12800285,
     "name": "talent_name_12800285",
     "desc": "talent_desc_12800285",
-    "path": "RolePlus/00Gift/Shizuru_Summer/XiaRiHuiYi.png",
+    "path": "RolePlus/00gift/shizuru_summer/XiaRiHuiYi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2340,7 +2340,7 @@
     "id": 12800286,
     "name": "talent_name_12800286",
     "desc": "talent_desc_12800286",
-    "path": "RolePlus/00Gift/Shizuru_Summer/QingLiang.png",
+    "path": "RolePlus/00gift/shizuru_summer/QingLiang.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2476,7 +2476,7 @@
     "id": 12800304,
     "name": "talent_name_12800304",
     "desc": "talent_desc_12800304",
-    "path": "RolePlus/00Gift/Joshua/YongDong.png",
+    "path": "RolePlus/00gift/joshua/YongDong.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2484,7 +2484,7 @@
     "id": 12800305,
     "name": "talent_name_12800305",
     "desc": "talent_desc_12800305",
-    "path": "RolePlus/00Gift/Joshua/KeQiu.png",
+    "path": "RolePlus/00gift/joshua/KeQiu.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2492,7 +2492,7 @@
     "id": 12800306,
     "name": "talent_name_12800306",
     "desc": "talent_desc_12800306",
-    "path": "RolePlus/00Gift/Raziel_Angel/ShenLv.png",
+    "path": "RolePlus/00gift/raziel_angel/ShenLv.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2508,7 +2508,7 @@
     "id": 12800308,
     "name": "talent_name_12800308",
     "desc": "talent_desc_12800308",
-    "path": "RolePlus/00Gift/Joshua/ChiLie.png",
+    "path": "RolePlus/00gift/joshua/ChiLie.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2516,7 +2516,7 @@
     "id": 12800309,
     "name": "talent_name_12800309",
     "desc": "talent_desc_12800309",
-    "path": "RolePlus/00Gift/Lin/WuYing.png",
+    "path": "RolePlus/00gift/lin/WuYing.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2524,7 +2524,7 @@
     "id": 12800310,
     "name": "talent_name_12800310",
     "desc": "talent_desc_12800310",
-    "path": "RolePlus/00Gift/Hayabusa/WuXing.png",
+    "path": "RolePlus/00gift/hayabusa/WuXing.png",
     "awakeLv": 3,
     "skillParamOffsetList": [
       {
@@ -2538,7 +2538,7 @@
     "id": 12800311,
     "name": "talent_name_12800311",
     "desc": "talent_desc_12800311",
-    "path": "RolePlus/00Gift/Raziel_Angel/JingYan.png",
+    "path": "RolePlus/00gift/raziel_angel/JingYan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2546,7 +2546,7 @@
     "id": 12800312,
     "name": "talent_name_12800312",
     "desc": "talent_desc_12800312",
-    "path": "RolePlus/00Gift/Yamaarashi/SiJiDaiDong.png",
+    "path": "RolePlus/00gift/yamaarashi/SiJiDaiDong.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2554,7 +2554,7 @@
     "id": 12800313,
     "name": "talent_name_12800313",
     "desc": "talent_desc_12800313",
-    "path": "RolePlus/00Gift/Hayabusa/XinYan.png",
+    "path": "RolePlus/00gift/hayabusa/XinYan.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2562,7 +2562,7 @@
     "id": 12800314,
     "name": "talent_name_12800314",
     "desc": "talent_desc_12800314",
-    "path": "RolePlus/00Gift/Fenia/LingXi.png",
+    "path": "RolePlus/00gift/fenia/LingXi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2570,7 +2570,7 @@
     "id": 12800315,
     "name": "talent_name_12800315",
     "desc": "talent_desc_12800315",
-    "path": "RolePlus/00Gift/Achiwa/QinLueRuHuo.png",
+    "path": "RolePlus/00gift/achiwa/QinLueRuHuo.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2578,7 +2578,7 @@
     "id": 12800316,
     "name": "talent_name_12800316",
     "desc": "talent_desc_12800316",
-    "path": "RolePlus/00Gift/Fenia/LeiBiSiZhiChaoGaiZao.png",
+    "path": "RolePlus/00gift/fenia/LeiBiSiZhiChaoGaiZao.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2594,7 +2594,7 @@
     "id": 12800318,
     "name": "talent_name_12800318",
     "desc": "talent_desc_12800318",
-    "path": "RolePlus/00Gift/Sommer/YuXue.png",
+    "path": "RolePlus/00gift/sommer/YuXue.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2610,7 +2610,7 @@
     "id": 12800320,
     "name": "talent_name_12800320",
     "desc": "talent_desc_12800320",
-    "path": "RolePlus/00Gift/Dorothy/ZaiJianYongBao.png",
+    "path": "RolePlus/00gift/dorothy/ZaiJianYongBao.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2618,7 +2618,7 @@
     "id": 12800321,
     "name": "talent_name_12800321",
     "desc": "talent_desc_12800321",
-    "path": "RolePlus/00Gift/Lissandra/JueZe.png",
+    "path": "RolePlus/00gift/lissandra/JueZe.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2626,7 +2626,7 @@
     "id": 12800322,
     "name": "talent_name_12800322",
     "desc": "talent_desc_12800322",
-    "path": "RolePlus/00Gift/Millie/HuZhongWu.png",
+    "path": "RolePlus/00gift/millie/HuZhongWu.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2634,7 +2634,7 @@
     "id": 12800323,
     "name": "talent_name_12800323",
     "desc": "talent_desc_12800323",
-    "path": "RolePlus/00Gift/Nayuta/LeiBiSiZhiBuKeSiYi.png",
+    "path": "RolePlus/00gift/nayuta/LeiBiSiZhiBuKeSiYi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2642,7 +2642,7 @@
     "id": 12800324,
     "name": "talent_name_12800324",
     "desc": "talent_desc_12800324",
-    "path": "RolePlus/00Gift/Reeva/EGuoZhiDi.png",
+    "path": "RolePlus/00gift/reeva/EGuoZhiDi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2650,7 +2650,7 @@
     "id": 12800325,
     "name": "talent_name_12800325",
     "desc": "talent_desc_12800325",
-    "path": "RolePlus/00Gift/Verlaine/QiMeng.png",
+    "path": "RolePlus/00gift/verlaine/QiMeng.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2658,7 +2658,7 @@
     "id": 12800326,
     "name": "talent_name_12800326",
     "desc": "talent_desc_12800326",
-    "path": "RolePlus/00Gift/Wensheng/TouXuan.png",
+    "path": "RolePlus/00gift/wensheng/TouXuan.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2666,7 +2666,7 @@
     "id": 12800327,
     "name": "talent_name_12800327",
     "desc": "talent_desc_12800327",
-    "path": "RolePlus/00Gift/Haruka/WeiXian.png",
+    "path": "RolePlus/00gift/haruka/WeiXian.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2674,7 +2674,7 @@
     "id": 12800328,
     "name": "talent_name_12800328",
     "desc": "talent_desc_12800328",
-    "path": "RolePlus/00Gift/Haruka/JingZhongRen.png",
+    "path": "RolePlus/00gift/haruka/JingZhongRen.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2682,7 +2682,7 @@
     "id": 12800329,
     "name": "talent_name_12800329",
     "desc": "talent_desc_12800329",
-    "path": "RolePlus/00Gift/Raziel_Angel/FuYin.png",
+    "path": "RolePlus/00gift/raziel_angel/FuYin.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2690,7 +2690,7 @@
     "id": 12800330,
     "name": "talent_name_12800330",
     "desc": "talent_desc_12800330",
-    "path": "RolePlus/00Gift/Haruka/ZhiYuShiJie.png",
+    "path": "RolePlus/00gift/haruka/ZhiYuShiJie.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2730,7 +2730,7 @@
     "id": 12800336,
     "name": "talent_name_12800336",
     "desc": "talent_desc_12800336",
-    "path": "RolePlus/00Gift/Nabi/MiLuanPenWu.png",
+    "path": "RolePlus/00gift/nabi/MiLuanPenWu.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2738,7 +2738,7 @@
     "id": 12800337,
     "name": "talent_name_12800337",
     "desc": "talent_desc_12800337",
-    "path": "RolePlus/00Gift/Rebis/ZhiZheBuYan.png",
+    "path": "RolePlus/00gift/rebis/ZhiZheBuYan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2746,7 +2746,7 @@
     "id": 12800338,
     "name": "talent_name_12800338",
     "desc": "talent_desc_12800338",
-    "path": "RolePlus/00Gift/Nabi/HuoXingPenWu.png",
+    "path": "RolePlus/00gift/nabi/HuoXingPenWu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2754,7 +2754,7 @@
     "id": 12800339,
     "name": "talent_name_12800339",
     "desc": "talent_desc_12800339",
-    "path": "RolePlus/00Gift/Nabi/LuanWu.png",
+    "path": "RolePlus/00gift/nabi/LuanWu.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2770,7 +2770,7 @@
     "id": 12800341,
     "name": "talent_name_12800341",
     "desc": "talent_desc_12800341",
-    "path": "RolePlus/00Gift/Yer/XunLei.png",
+    "path": "RolePlus/00gift/yer/XunLei.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2778,7 +2778,7 @@
     "id": 12800342,
     "name": "talent_name_12800342",
     "desc": "talent_desc_12800342",
-    "path": "RolePlus/00Gift/Box/KuoRong.png",
+    "path": "RolePlus/00gift/box/KuoRong.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2786,7 +2786,7 @@
     "id": 12800343,
     "name": "talent_name_12800343",
     "desc": "talent_desc_12800343",
-    "path": "RolePlus/00Gift/Alnitak/FuYuan.png",
+    "path": "RolePlus/00gift/alnitak/FuYuan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2794,7 +2794,7 @@
     "id": 12800344,
     "name": "talent_name_12800344",
     "desc": "talent_desc_12800344",
-    "path": "RolePlus/00Gift/Yer/JiJiu.png",
+    "path": "RolePlus/00gift/yer/JiJiu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2802,7 +2802,7 @@
     "id": 12800345,
     "name": "talent_name_12800345",
     "desc": "talent_desc_12800345",
-    "path": "RolePlus/00Gift/Yer/JiQun.png",
+    "path": "RolePlus/00gift/yer/JiQun.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2810,7 +2810,7 @@
     "id": 12800346,
     "name": "talent_name_12800346",
     "desc": "talent_desc_12800346",
-    "path": "RolePlus/00Gift/Arina/YingTaoZhaDan.png",
+    "path": "RolePlus/00gift/arina/YingTaoZhaDan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2818,7 +2818,7 @@
     "id": 12800347,
     "name": "talent_name_12800347",
     "desc": "talent_desc_12800347",
-    "path": "RolePlus/00Gift/Arina/HongZhi.png",
+    "path": "RolePlus/00gift/arina/HongZhi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2826,7 +2826,7 @@
     "id": 12800348,
     "name": "talent_name_12800348",
     "desc": "talent_desc_12800348",
-    "path": "RolePlus/00Gift/Rebis/LiuYi.png",
+    "path": "RolePlus/00gift/rebis/LiuYi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2834,7 +2834,7 @@
     "id": 12800349,
     "name": "talent_name_12800349",
     "desc": "talent_desc_12800349",
-    "path": "RolePlus/00Gift/Arina/RanQingLangMu.png",
+    "path": "RolePlus/00gift/arina/RanQingLangMu.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2842,7 +2842,7 @@
     "id": 12800350,
     "name": "talent_name_12800350",
     "desc": "talent_desc_12800350",
-    "path": "RolePlus/00Gift/Rachel/QianBan.png",
+    "path": "RolePlus/00gift/rachel/QianBan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2850,7 +2850,7 @@
     "id": 12800351,
     "name": "talent_name_12800351",
     "desc": "talent_desc_12800351",
-    "path": "RolePlus/00Gift/Kaleya/WaTiaoWaPu.png",
+    "path": "RolePlus/00gift/kaleya/WaTiaoWaPu.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2858,7 +2858,7 @@
     "id": 12800352,
     "name": "talent_name_12800352",
     "desc": "talent_desc_12800352",
-    "path": "RolePlus/00Gift/Kaleya/ZengFu.png",
+    "path": "RolePlus/00gift/kaleya/ZengFu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2866,7 +2866,7 @@
     "id": 12800353,
     "name": "talent_name_12800353",
     "desc": "talent_desc_12800353",
-    "path": "RolePlus/00Gift/Rebis/WuWei.png",
+    "path": "RolePlus/00gift/rebis/WuWei.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -2874,7 +2874,7 @@
     "id": 12800354,
     "name": "talent_name_12800354",
     "desc": "talent_desc_12800354",
-    "path": "RolePlus/00Gift/Kaleya/JianChaDian.png",
+    "path": "RolePlus/00gift/kaleya/JianChaDian.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2882,7 +2882,7 @@
     "id": 12800355,
     "name": "talent_name_12800355",
     "desc": "talent_desc_12800355",
-    "path": "RolePlus/00Gift/Arcana/BuJi.png",
+    "path": "RolePlus/00gift/arcana/BuJi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2890,7 +2890,7 @@
     "id": 12800356,
     "name": "talent_name_12800356",
     "desc": "talent_desc_12800356",
-    "path": "RolePlus/00Gift/Lin/WuYing.png",
+    "path": "RolePlus/00gift/lin/WuYing.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2898,7 +2898,7 @@
     "id": 12800357,
     "name": "talent_name_12800357",
     "desc": "talent_desc_12800357",
-    "path": "RolePlus/00Gift/Lin/SuiYing.png",
+    "path": "RolePlus/00gift/lin/SuiYing.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2906,7 +2906,7 @@
     "id": 12800359,
     "name": "talent_name_12800359",
     "desc": "talent_desc_12800359",
-    "path": "RolePlus/00Gift/Lin/ZhaoLei.png",
+    "path": "RolePlus/00gift/lin/ZhaoLei.png",
     "awakeLv": 5,
     "skillParamOffsetList": [
       {
@@ -2920,7 +2920,7 @@
     "id": 12800360,
     "name": "talent_name_12800360",
     "desc": "talent_desc_12800360",
-    "path": "RolePlus/00Gift/Rocket_Punch_Box/DianCiMoChong.png",
+    "path": "RolePlus/00gift/rocket_punch_box/DianCiMoChong.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2928,7 +2928,7 @@
     "id": 12800361,
     "name": "talent_name_12800361",
     "desc": "talent_desc_12800361",
-    "path": "RolePlus/00Gift/Excalibur_Box/ShengJi.png",
+    "path": "RolePlus/00gift/excalibur_box/ShengJi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2936,7 +2936,7 @@
     "id": 12800362,
     "name": "talent_name_12800362",
     "desc": "talent_desc_12800362",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -2944,7 +2944,7 @@
     "id": 12800363,
     "name": "talent_name_12800363",
     "desc": "talent_desc_12800363",
-    "path": "RolePlus/00Gift/Conor/DiLi.png",
+    "path": "RolePlus/00gift/conor/DiLi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -2952,7 +2952,7 @@
     "id": 12800364,
     "name": "talent_name_12800364",
     "desc": "talent_desc_12800364",
-    "path": "RolePlus/00Gift/Dustin/ZhenLei.png",
+    "path": "RolePlus/00gift/dustin/ZhenLei.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2960,7 +2960,7 @@
     "id": 12800365,
     "name": "talent_name_12800365",
     "desc": "talent_desc_12800365",
-    "path": "RolePlus/00Gift/Ganya/PaoZhi.png",
+    "path": "RolePlus/00gift/ganya/PaoZhi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2968,7 +2968,7 @@
     "id": 12800366,
     "name": "talent_name_12800366",
     "desc": "talent_desc_12800366",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -2976,7 +2976,7 @@
     "id": 12800367,
     "name": "talent_name_12800367",
     "desc": "talent_desc_12800367",
-    "path": "RolePlus/00Gift/Katas/BuQu.png",
+    "path": "RolePlus/00gift/katas/BuQu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -2984,7 +2984,7 @@
     "id": 12800368,
     "name": "talent_name_12800368",
     "desc": "talent_desc_12800368",
-    "path": "RolePlus/00Gift/Excalibur_Box/ZhaoJiaZhiYi.png",
+    "path": "RolePlus/00gift/excalibur_box/ZhaoJiaZhiYi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -2992,7 +2992,7 @@
     "id": 12800369,
     "name": "talent_name_12800369",
     "desc": "talent_desc_12800369",
-    "path": "RolePlus/00Gift/Dustin/QingJing.png",
+    "path": "RolePlus/00gift/dustin/QingJing.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -3000,7 +3000,7 @@
     "id": 12800370,
     "name": "talent_name_12800370",
     "desc": "talent_desc_12800370",
-    "path": "RolePlus/00Gift/Akira/FengHua.png",
+    "path": "RolePlus/00gift/akira/FengHua.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -3008,7 +3008,7 @@
     "id": 12800371,
     "name": "talent_name_12800371",
     "desc": "talent_desc_12800371",
-    "path": "RolePlus/00Gift/Excalibur_Box/MoDaoZhiYi.png",
+    "path": "RolePlus/00gift/excalibur_box/MoDaoZhiYi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -3016,7 +3016,7 @@
     "id": 12800372,
     "name": "talent_name_12800372",
     "desc": "talent_desc_12800372",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3024,7 +3024,7 @@
     "id": 12800373,
     "name": "talent_name_12800373",
     "desc": "talent_desc_12800373",
-    "path": "RolePlus/00Gift/Akira/JiePi.png",
+    "path": "RolePlus/00gift/akira/JiePi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -3032,7 +3032,7 @@
     "id": 12800374,
     "name": "talent_name_12800374",
     "desc": "talent_desc_12800374",
-    "path": "RolePlus/00Gift/Caroline/GaoYa.png",
+    "path": "RolePlus/00gift/caroline/GaoYa.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3040,7 +3040,7 @@
     "id": 12800375,
     "name": "talent_name_12800375",
     "desc": "talent_desc_12800375",
-    "path": "RolePlus/00Gift/Dustin/QingMing.png",
+    "path": "RolePlus/00gift/dustin/QingMing.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3048,7 +3048,7 @@
     "id": 12800376,
     "name": "talent_name_12800376",
     "desc": "talent_desc_12800376",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3056,7 +3056,7 @@
     "id": 12800377,
     "name": "talent_name_12800377",
     "desc": "talent_desc_12800377",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3064,7 +3064,7 @@
     "id": 12800378,
     "name": "talent_name_12800378",
     "desc": "talent_desc_12800378",
-    "path": "RolePlus/00Gift/Ganya/JiXieShi.png",
+    "path": "RolePlus/00gift/ganya/JiXieShi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -3072,7 +3072,7 @@
     "id": 12800379,
     "name": "talent_name_12800379",
     "desc": "talent_desc_12800379",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3080,7 +3080,7 @@
     "id": 12800380,
     "name": "talent_name_12800380",
     "desc": "talent_desc_12800380",
-    "path": "RolePlus/00Gift/Akira/XueDai.png",
+    "path": "RolePlus/00gift/akira/XueDai.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3088,7 +3088,7 @@
     "id": 12800381,
     "name": "talent_name_12800381",
     "desc": "talent_desc_12800381",
-    "path": "RolePlus/00Gift/Yamaarashi/JiFeng.png",
+    "path": "RolePlus/00gift/yamaarashi/JiFeng.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -3096,7 +3096,7 @@
     "id": 12800382,
     "name": "talent_name_12800382",
     "desc": "talent_desc_12800382",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3104,7 +3104,7 @@
     "id": 12800383,
     "name": "talent_name_12800383",
     "desc": "talent_desc_12800383",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3112,7 +3112,7 @@
     "id": 12800384,
     "name": "talent_name_12800384",
     "desc": "talent_desc_12800384",
-    "path": "RolePlus/00Gift/Ganya/ZhenDing.png",
+    "path": "RolePlus/00gift/ganya/ZhenDing.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3120,7 +3120,7 @@
     "id": 12800385,
     "name": "talent_name_12800385",
     "desc": "talent_desc_12800385",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3128,7 +3128,7 @@
     "id": 12800386,
     "name": "talent_name_12800386",
     "desc": "talent_desc_12800386",
-    "path": "RolePlus/00Gift/Caroline/GanDian.png",
+    "path": "RolePlus/00gift/caroline/GanDian.png",
     "awakeLv": 5,
     "skillParamOffsetList": [
       {
@@ -3142,7 +3142,7 @@
     "id": 12800387,
     "name": "talent_name_12800387",
     "desc": "talent_desc_12800387",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3150,7 +3150,7 @@
     "id": 12800388,
     "name": "talent_name_12800388",
     "desc": "talent_desc_12800388",
-    "path": "RolePlus/00Gift/Margiela/MiQuan.png",
+    "path": "RolePlus/00gift/margiela/MiQuan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3158,7 +3158,7 @@
     "id": 12800389,
     "name": "talent_name_12800389",
     "desc": "talent_desc_12800389",
-    "path": "RolePlus/00Gift/Alnilam/30.png",
+    "path": "RolePlus/00gift/alnilam/30.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -3166,7 +3166,7 @@
     "id": 12800390,
     "name": "talent_name_12800390",
     "desc": "talent_desc_12800390",
-    "path": "RolePlus/00Gift/Lin/YingZhan.png",
+    "path": "RolePlus/00gift/lin/YingZhan.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -3174,7 +3174,7 @@
     "id": 12800391,
     "name": "talent_name_12800391",
     "desc": "talent_desc_12800391",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3182,7 +3182,7 @@
     "id": 12800392,
     "name": "talent_name_12800392",
     "desc": "talent_desc_12800392",
-    "path": "RolePlus/00Gift/Yejue/CiGan.png",
+    "path": "RolePlus/00gift/yejue/CiGan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -3206,7 +3206,7 @@
     "id": 12800396,
     "name": "talent_name_12800396",
     "desc": "talent_desc_12800396",
-    "path": "RolePlus/00Gift/Popteia/SuYuan.png",
+    "path": "RolePlus/00gift/popteia/SuYuan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -3222,7 +3222,7 @@
     "id": 12800398,
     "name": "talent_name_12800398",
     "desc": "talent_desc_12800398",
-    "path": "RolePlus/00Gift/Alnilam/15.png",
+    "path": "RolePlus/00gift/alnilam/15.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3230,7 +3230,7 @@
     "id": 12800399,
     "name": "talent_name_12800399",
     "desc": "talent_desc_12800399",
-    "path": "RolePlus/00Gift/MargielaStargazer/YuZhe.png",
+    "path": "RolePlus/00gift/margielastargazer/YuZhe.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -3238,7 +3238,7 @@
     "id": 12800400,
     "name": "talent_name_12800400",
     "desc": "talent_desc_12800400",
-    "path": "RolePlus/00Gift/Alnitak/FuYuan.png",
+    "path": "RolePlus/00gift/alnitak/FuYuan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3246,7 +3246,7 @@
     "id": 12800401,
     "name": "talent_name_12800401",
     "desc": "talent_desc_12800401",
-    "path": "RolePlus/00Gift/Box/KuoRong.png",
+    "path": "RolePlus/00gift/box/KuoRong.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3254,7 +3254,7 @@
     "id": 12800402,
     "name": "talent_name_12800402",
     "desc": "talent_desc_12800402",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3262,7 +3262,7 @@
     "id": 12800403,
     "name": "talent_name_12800403",
     "desc": "talent_desc_12800403",
-    "path": "RolePlus/00Gift/Mintaka/NingJian.png",
+    "path": "RolePlus/00gift/mintaka/NingJian.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3270,7 +3270,7 @@
     "id": 12800404,
     "name": "talent_name_12800404",
     "desc": "talent_desc_12800404",
-    "path": "RolePlus/00Gift/Yer/XunLei.png",
+    "path": "RolePlus/00gift/yer/XunLei.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -3278,7 +3278,7 @@
     "id": 12800405,
     "name": "talent_name_12800405",
     "desc": "talent_desc_12800405",
-    "path": "RolePlus/00Gift/Alnilam/5.png",
+    "path": "RolePlus/00gift/alnilam/5.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -3302,7 +3302,7 @@
     "id": 12800408,
     "name": "talent_name_12800408",
     "desc": "talent_desc_12800408",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3318,7 +3318,7 @@
     "id": 12800410,
     "name": "talent_name_12800410",
     "desc": "talent_desc_12800410",
-    "path": "RolePlus/00Gift/Rebis/ZhiZheBuYan.png",
+    "path": "RolePlus/00gift/rebis/ZhiZheBuYan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -3326,7 +3326,7 @@
     "id": 12800411,
     "name": "talent_name_12800411",
     "desc": "talent_desc_12800411",
-    "path": "RolePlus/00Gift/Anfiya/ChaoYong.png",
+    "path": "RolePlus/00gift/anfiya/ChaoYong.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -3334,7 +3334,7 @@
     "id": 12800412,
     "name": "talent_name_12800412",
     "desc": "talent_desc_12800412",
-    "path": "RolePlus/00Gift/Mintaka/HuaYuan.png",
+    "path": "RolePlus/00gift/mintaka/HuaYuan.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -3342,7 +3342,7 @@
     "id": 12800413,
     "name": "talent_name_12800413",
     "desc": "talent_desc_12800413",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3350,7 +3350,7 @@
     "id": 12800414,
     "name": "talent_name_12800414",
     "desc": "talent_desc_12800414",
-    "path": "RolePlus/00Gift/MargielaStargazer/LiLiang.png",
+    "path": "RolePlus/00gift/margielastargazer/LiLiang.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3358,7 +3358,7 @@
     "id": 12800415,
     "name": "talent_name_12800415",
     "desc": "talent_desc_12800415",
-    "path": "RolePlus/00Gift/Mintaka/GuoZai.png",
+    "path": "RolePlus/00gift/mintaka/GuoZai.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -3366,7 +3366,7 @@
     "id": 12800416,
     "name": "talent_name_12800416",
     "desc": "talent_desc_12800416",
-    "path": "RolePlus/00Gift/Rebis/LiuYi.png",
+    "path": "RolePlus/00gift/rebis/LiuYi.png",
     "awakeLv": 5,
     "skillParamOffsetList": [
       {
@@ -3395,7 +3395,7 @@
     "id": 12800417,
     "name": "talent_name_12800417",
     "desc": "talent_desc_12800417",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3403,7 +3403,7 @@
     "id": 12800418,
     "name": "talent_name_12800418",
     "desc": "talent_desc_12800418",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3411,7 +3411,7 @@
     "id": 12800419,
     "name": "talent_name_12800419",
     "desc": "talent_desc_12800419",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3419,7 +3419,7 @@
     "id": 12800420,
     "name": "talent_name_12800420",
     "desc": "talent_desc_12800420",
-    "path": "RolePlus/00Gift/Dustin/FenXin.png",
+    "path": "RolePlus/00gift/dustin/FenXin.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -3427,7 +3427,7 @@
     "id": 12800421,
     "name": "talent_name_12800421",
     "desc": "talent_desc_12800421",
-    "path": "RolePlus/00Gift/Ganya/BaoHeGongJi.png",
+    "path": "RolePlus/00gift/ganya/BaoHeGongJi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -3435,7 +3435,7 @@
     "id": 12800422,
     "name": "talent_name_12800422",
     "desc": "talent_desc_12800422",
-    "path": "RolePlus/00Gift/Akira/XueYu.png",
+    "path": "RolePlus/00gift/akira/XueYu.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -3443,7 +3443,7 @@
     "id": 12800423,
     "name": "talent_name_12800423",
     "desc": "talent_desc_12800423",
-    "path": "RolePlus/00Gift/Caroline/DianNengHuiShou.png",
+    "path": "RolePlus/00gift/caroline/DianNengHuiShou.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -3451,7 +3451,7 @@
     "id": 12800424,
     "name": "talent_name_12800424",
     "desc": "talent_desc_12800424",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3467,7 +3467,7 @@
     "id": 12800426,
     "name": "talent_name_12800426",
     "desc": "talent_desc_12800426",
-    "path": "RolePlus/00Gift/Nicola/XuDian.png",
+    "path": "RolePlus/00gift/nicola/XuDian.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -3475,7 +3475,7 @@
     "id": 12800427,
     "name": "talent_name_12800427",
     "desc": "talent_desc_12800427",
-    "path": "RolePlus/00Gift/Golden/KongYiMoLong",
+    "path": "C:\\Users\\rind1\\Downloads\\work\\DeckBuilder\\public\\assets.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -3483,7 +3483,7 @@
     "id": 12800428,
     "name": "talent_name_12800428",
     "desc": "talent_desc_12800428",
-    "path": "RolePlus/00Gift/Rebis/WuWei.png",
+    "path": "RolePlus/00gift/rebis/WuWei.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -3491,7 +3491,7 @@
     "id": 12800429,
     "name": "talent_name_12800429",
     "desc": "talent_desc_12800429",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3499,7 +3499,7 @@
     "id": 12800430,
     "name": "talent_name_12800430",
     "desc": "talent_desc_12800430",
-    "path": "RolePlus/00Gift/Alnitak/ShengHuo.png",
+    "path": "RolePlus/00gift/alnitak/ShengHuo.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -3507,7 +3507,7 @@
     "id": 12800431,
     "name": "talent_name_12800431",
     "desc": "talent_desc_12800431",
-    "path": "RolePlus/00Gift/Alnitak/FuYuan.png",
+    "path": "RolePlus/00gift/alnitak/FuYuan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3515,7 +3515,7 @@
     "id": 12800432,
     "name": "talent_name_12800432",
     "desc": "talent_desc_12800432",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -3523,7 +3523,7 @@
     "id": 12800433,
     "name": "talent_name_12800433",
     "desc": "talent_desc_12800433",
-    "path": "RolePlus/00Gift/Alnitak/HuoGeng.png",
+    "path": "RolePlus/00gift/alnitak/HuoGeng.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -3875,7 +3875,7 @@
     "id": 12800482,
     "name": "talent_name_12800482",
     "desc": "talent_desc_12800482",
-    "path": "RolePlus/00Gift/Solum/JianRen.png",
+    "path": "RolePlus/00gift/solum/JianRen.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -3883,7 +3883,7 @@
     "id": 12800483,
     "name": "talent_name_12800483",
     "desc": "talent_desc_12800483",
-    "path": "RolePlus/00Gift/Joshua/SuoQu.png",
+    "path": "RolePlus/00gift/joshua/SuoQu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4003,7 +4003,7 @@
     "id": 12800499,
     "name": "talent_name_12800499",
     "desc": "talent_desc_12800499",
-    "path": "RolePlus/00Gift/Alnitak/ShengHuo.png",
+    "path": "RolePlus/00gift/alnitak/ShengHuo.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4011,7 +4011,7 @@
     "id": 12800500,
     "name": "talent_name_12800500",
     "desc": "talent_desc_12800500",
-    "path": "RolePlus/00Gift/Alnitak/FuYuan.png",
+    "path": "RolePlus/00gift/alnitak/FuYuan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4019,7 +4019,7 @@
     "id": 12800502,
     "name": "talent_name_12800502",
     "desc": "talent_desc_12800502",
-    "path": "RolePlus/00Gift/Alnitak/HuoGeng.png",
+    "path": "RolePlus/00gift/alnitak/HuoGeng.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4027,7 +4027,7 @@
     "id": 12800503,
     "name": "talent_name_12800503",
     "desc": "talent_desc_12800503",
-    "path": "RolePlus/00Gift/Dustin/ZhenLei.png",
+    "path": "RolePlus/00gift/dustin/ZhenLei.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4035,7 +4035,7 @@
     "id": 12800504,
     "name": "talent_name_12800504",
     "desc": "talent_desc_12800504",
-    "path": "RolePlus/00Gift/Dustin/QingMing.png",
+    "path": "RolePlus/00gift/dustin/QingMing.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4043,7 +4043,7 @@
     "id": 12800506,
     "name": "talent_name_12800506",
     "desc": "talent_desc_12800506",
-    "path": "RolePlus/00Gift/Dustin/QingJing.png",
+    "path": "RolePlus/00gift/dustin/QingJing.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4051,7 +4051,7 @@
     "id": 12800507,
     "name": "talent_name_12800507",
     "desc": "talent_desc_12800507",
-    "path": "RolePlus/00Gift/Dustin/FenXin.png",
+    "path": "RolePlus/00gift/dustin/FenXin.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4059,7 +4059,7 @@
     "id": 12800508,
     "name": "talent_name_12800508",
     "desc": "talent_desc_12800508",
-    "path": "RolePlus/00Gift/Jalhay/KanBuJianDePengYou.png",
+    "path": "RolePlus/00gift/jalhay/KanBuJianDePengYou.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4067,7 +4067,7 @@
     "id": 12800509,
     "name": "talent_name_12800509",
     "desc": "talent_desc_12800509",
-    "path": "RolePlus/00Gift/Livia/KuiZeng.png",
+    "path": "RolePlus/00gift/livia/KuiZeng.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4075,7 +4075,7 @@
     "id": 12800510,
     "name": "talent_name_12800510",
     "desc": "talent_desc_12800510",
-    "path": "RolePlus/00Gift/Ithos/HuanShiZhiJi.png",
+    "path": "RolePlus/00gift/ithos/HuanShiZhiJi.png",
     "awakeLv": 2,
     "skillParamOffsetList": [
       {
@@ -4104,7 +4104,7 @@
     "id": 12800511,
     "name": "talent_name_12800511",
     "desc": "talent_desc_12800511",
-    "path": "RolePlus/00Gift/Jalhay/WuXiaTi.png",
+    "path": "RolePlus/00gift/jalhay/WuXiaTi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4112,7 +4112,7 @@
     "id": 12800512,
     "name": "talent_name_12800512",
     "desc": "talent_desc_12800512",
-    "path": "RolePlus/00Gift/Jalhay/JingShenYaZhi.png",
+    "path": "RolePlus/00gift/jalhay/JingShenYaZhi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4120,7 +4120,7 @@
     "id": 12800513,
     "name": "talent_name_12800513",
     "desc": "talent_desc_12800513",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4128,7 +4128,7 @@
     "id": 12800514,
     "name": "talent_name_12800514",
     "desc": "talent_desc_12800514",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4136,7 +4136,7 @@
     "id": 12800515,
     "name": "talent_name_12800515",
     "desc": "talent_desc_12800515",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4144,7 +4144,7 @@
     "id": 12800516,
     "name": "talent_name_12800516",
     "desc": "talent_desc_12800516",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4152,7 +4152,7 @@
     "id": 12800517,
     "name": "talent_name_12800517",
     "desc": "talent_desc_12800517",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4160,7 +4160,7 @@
     "id": 12800518,
     "name": "talent_name_12800518",
     "desc": "talent_desc_12800518",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4168,7 +4168,7 @@
     "id": 12800519,
     "name": "talent_name_12800519",
     "desc": "talent_desc_12800519",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4176,7 +4176,7 @@
     "id": 12800520,
     "name": "talent_name_12800520",
     "desc": "talent_desc_12800520",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4184,7 +4184,7 @@
     "id": 12800521,
     "name": "talent_name_12800521",
     "desc": "talent_desc_12800521",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4192,7 +4192,7 @@
     "id": 12800522,
     "name": "talent_name_12800522",
     "desc": "talent_desc_12800522",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4200,7 +4200,7 @@
     "id": 12800523,
     "name": "talent_name_12800523",
     "desc": "talent_desc_12800523",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4208,7 +4208,7 @@
     "id": 12800524,
     "name": "talent_name_12800524",
     "desc": "talent_desc_12800524",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4216,7 +4216,7 @@
     "id": 12800525,
     "name": "talent_name_12800525",
     "desc": "talent_desc_12800525",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4224,7 +4224,7 @@
     "id": 12800526,
     "name": "talent_name_12800526",
     "desc": "talent_desc_12800526",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4232,7 +4232,7 @@
     "id": 12800527,
     "name": "talent_name_12800527",
     "desc": "talent_desc_12800527",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4240,7 +4240,7 @@
     "id": 12800528,
     "name": "talent_name_12800528",
     "desc": "talent_desc_12800528",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4248,7 +4248,7 @@
     "id": 12800529,
     "name": "talent_name_12800529",
     "desc": "talent_desc_12800529",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4256,7 +4256,7 @@
     "id": 12800530,
     "name": "talent_name_12800530",
     "desc": "talent_desc_12800530",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4264,7 +4264,7 @@
     "id": 12800531,
     "name": "talent_name_12800531",
     "desc": "talent_desc_12800531",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4272,7 +4272,7 @@
     "id": 12800532,
     "name": "talent_name_12800532",
     "desc": "talent_desc_12800532",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4280,7 +4280,7 @@
     "id": 12800533,
     "name": "talent_name_12800533",
     "desc": "talent_desc_12800533",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4288,7 +4288,7 @@
     "id": 12800534,
     "name": "talent_name_12800534",
     "desc": "talent_desc_12800534",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4296,7 +4296,7 @@
     "id": 12800535,
     "name": "talent_name_12800535",
     "desc": "talent_desc_12800535",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4304,7 +4304,7 @@
     "id": 12800536,
     "name": "talent_name_12800536",
     "desc": "talent_desc_12800536",
-    "path": "RolePlus/00Gift/Square/shengji",
+    "path": "C:\\Users\\rind1\\Downloads\\work\\DeckBuilder\\public\\assets.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4312,7 +4312,7 @@
     "id": 12800537,
     "name": "talent_name_12800537",
     "desc": "talent_desc_12800537",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4320,7 +4320,7 @@
     "id": 12800538,
     "name": "talent_name_12800538",
     "desc": "talent_desc_12800538",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4328,7 +4328,7 @@
     "id": 12800539,
     "name": "talent_name_12800539",
     "desc": "talent_desc_12800539",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4336,7 +4336,7 @@
     "id": 12800540,
     "name": "talent_name_12800540",
     "desc": "talent_desc_12800540",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4344,7 +4344,7 @@
     "id": 12800541,
     "name": "talent_name_12800541",
     "desc": "talent_desc_12800541",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4352,7 +4352,7 @@
     "id": 12800542,
     "name": "talent_name_12800542",
     "desc": "talent_desc_12800542",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4360,7 +4360,7 @@
     "id": 12800543,
     "name": "talent_name_12800543",
     "desc": "talent_desc_12800543",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4368,7 +4368,7 @@
     "id": 12800544,
     "name": "talent_name_12800544",
     "desc": "talent_desc_12800544",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4376,7 +4376,7 @@
     "id": 12800545,
     "name": "talent_name_12800545",
     "desc": "talent_desc_12800545",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4384,7 +4384,7 @@
     "id": 12800546,
     "name": "talent_name_12800546",
     "desc": "talent_desc_12800546",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4392,7 +4392,7 @@
     "id": 12800547,
     "name": "talent_name_12800547",
     "desc": "talent_desc_12800547",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4400,7 +4400,7 @@
     "id": 12800548,
     "name": "talent_name_12800548",
     "desc": "talent_desc_12800548",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4408,7 +4408,7 @@
     "id": 12800549,
     "name": "talent_name_12800549",
     "desc": "talent_desc_12800549",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4416,7 +4416,7 @@
     "id": 12800550,
     "name": "talent_name_12800550",
     "desc": "talent_desc_12800550",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4424,7 +4424,7 @@
     "id": 12800551,
     "name": "talent_name_12800551",
     "desc": "talent_desc_12800551",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4432,7 +4432,7 @@
     "id": 12800552,
     "name": "talent_name_12800552",
     "desc": "talent_desc_12800552",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4440,7 +4440,7 @@
     "id": 12800553,
     "name": "talent_name_12800553",
     "desc": "talent_desc_12800553",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4448,7 +4448,7 @@
     "id": 12800554,
     "name": "talent_name_12800554",
     "desc": "talent_desc_12800554",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4456,7 +4456,7 @@
     "id": 12800555,
     "name": "talent_name_12800555",
     "desc": "talent_desc_12800555",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4464,7 +4464,7 @@
     "id": 12800556,
     "name": "talent_name_12800556",
     "desc": "talent_desc_12800556",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4472,7 +4472,7 @@
     "id": 12800557,
     "name": "talent_name_12800557",
     "desc": "talent_desc_12800557",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4480,7 +4480,7 @@
     "id": 12800558,
     "name": "talent_name_12800558",
     "desc": "talent_desc_12800558",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4488,7 +4488,7 @@
     "id": 12800559,
     "name": "talent_name_12800559",
     "desc": "talent_desc_12800559",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4496,7 +4496,7 @@
     "id": 12800560,
     "name": "talent_name_12800560",
     "desc": "talent_desc_12800560",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4504,7 +4504,7 @@
     "id": 12800561,
     "name": "talent_name_12800561",
     "desc": "talent_desc_12800561",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4512,7 +4512,7 @@
     "id": 12800562,
     "name": "talent_name_12800562",
     "desc": "talent_desc_12800562",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4520,7 +4520,7 @@
     "id": 12800563,
     "name": "talent_name_12800563",
     "desc": "talent_desc_12800563",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4528,7 +4528,7 @@
     "id": 12800564,
     "name": "talent_name_12800564",
     "desc": "talent_desc_12800564",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4536,7 +4536,7 @@
     "id": 12800565,
     "name": "talent_name_12800565",
     "desc": "talent_desc_12800565",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4544,7 +4544,7 @@
     "id": 12800566,
     "name": "talent_name_12800566",
     "desc": "talent_desc_12800566",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4552,7 +4552,7 @@
     "id": 12800567,
     "name": "talent_name_12800567",
     "desc": "talent_desc_12800567",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4560,7 +4560,7 @@
     "id": 12800568,
     "name": "talent_name_12800568",
     "desc": "talent_desc_12800568",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4568,7 +4568,7 @@
     "id": 12800569,
     "name": "talent_name_12800569",
     "desc": "talent_desc_12800569",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4576,7 +4576,7 @@
     "id": 12800570,
     "name": "talent_name_12800570",
     "desc": "talent_desc_12800570",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4584,7 +4584,7 @@
     "id": 12800571,
     "name": "talent_name_12800571",
     "desc": "talent_desc_12800571",
-    "path": "RolePlus/00Gift/Olivien/ShiXuQiLi.png",
+    "path": "RolePlus/00gift/olivien/ShiXuQiLi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4592,7 +4592,7 @@
     "id": 12800572,
     "name": "talent_name_12800572",
     "desc": "talent_desc_12800572",
-    "path": "RolePlus/00Gift/Lycagia/ZhanShuYanHu.png",
+    "path": "RolePlus/00gift/lycagia/ZhanShuYanHu.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4600,7 +4600,7 @@
     "id": 12800573,
     "name": "talent_name_12800573",
     "desc": "talent_desc_12800573",
-    "path": "RolePlus/00Gift/Lycagia/JiaoZhiKuoSan.png",
+    "path": "RolePlus/00gift/lycagia/JiaoZhiKuoSan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4608,7 +4608,7 @@
     "id": 12800574,
     "name": "talent_name_12800574",
     "desc": "talent_desc_12800574",
-    "path": "RolePlus/00Gift/Lycagia/ZhanShuQianYing.png",
+    "path": "RolePlus/00gift/lycagia/ZhanShuQianYing.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4616,7 +4616,7 @@
     "id": 12800575,
     "name": "talent_name_12800575",
     "desc": "talent_desc_12800575",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4624,7 +4624,7 @@
     "id": 12800576,
     "name": "talent_name_12800576",
     "desc": "talent_desc_12800576",
-    "path": "RolePlus/00Gift/Lycagia/SanJiaoZhenXing.png",
+    "path": "RolePlus/00gift/lycagia/SanJiaoZhenXing.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4632,7 +4632,7 @@
     "id": 12800577,
     "name": "talent_name_12800577",
     "desc": "talent_desc_12800577",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4640,7 +4640,7 @@
     "id": 12800578,
     "name": "talent_name_12800578",
     "desc": "talent_desc_12800578",
-    "path": "RolePlus/00Gift/Olivien/MoChongChaYue.png",
+    "path": "RolePlus/00gift/olivien/MoChongChaYue.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4648,7 +4648,7 @@
     "id": 12800579,
     "name": "talent_name_12800579",
     "desc": "talent_desc_12800579",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4656,7 +4656,7 @@
     "id": 12800580,
     "name": "talent_name_12800580",
     "desc": "talent_desc_12800580",
-    "path": "RolePlus/00Gift/Olivien/JingChenLiuYin.png",
+    "path": "RolePlus/00gift/olivien/JingChenLiuYin.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4664,7 +4664,7 @@
     "id": 12800581,
     "name": "talent_name_12800581",
     "desc": "talent_desc_12800581",
-    "path": "RolePlus/00Gift/Olivien/TangShuangLongWen.png",
+    "path": "RolePlus/00gift/olivien/TangShuangLongWen.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4672,7 +4672,7 @@
     "id": 12800582,
     "name": "talent_name_12800582",
     "desc": "talent_desc_12800582",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4680,7 +4680,7 @@
     "id": 12800583,
     "name": "talent_name_12800583",
     "desc": "talent_desc_12800583",
-    "path": "RolePlus/00Gift/Ren/YuXianJieFang.png",
+    "path": "RolePlus/00gift/ren/YuXianJieFang.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4688,7 +4688,7 @@
     "id": 12800584,
     "name": "talent_name_12800584",
     "desc": "talent_desc_12800584",
-    "path": "RolePlus/00Gift/Ren/HeiYuNingShiZhe.png",
+    "path": "RolePlus/00gift/ren/HeiYuNingShiZhe.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4696,7 +4696,7 @@
     "id": 12800585,
     "name": "talent_name_12800585",
     "desc": "talent_desc_12800585",
-    "path": "RolePlus/00Gift/Ren/YingShiXieLv.png",
+    "path": "RolePlus/00gift/ren/YingShiXieLv.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4704,7 +4704,7 @@
     "id": 12800586,
     "name": "talent_name_12800586",
     "desc": "talent_desc_12800586",
-    "path": "RolePlus/00Gift/Ren/HuiYeZhenTong.png",
+    "path": "RolePlus/00gift/ren/HuiYeZhenTong.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4712,7 +4712,7 @@
     "id": 12800587,
     "name": "talent_name_12800587",
     "desc": "talent_desc_12800587",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4720,7 +4720,7 @@
     "id": 12800588,
     "name": "talent_name_12800588",
     "desc": "talent_desc_12800588",
-    "path": "RolePlus/00Gift/MargielaStargazer/XingBi.png",
+    "path": "RolePlus/00gift/margielastargazer/XingBi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4728,7 +4728,7 @@
     "id": 12800589,
     "name": "talent_name_12800589",
     "desc": "talent_desc_12800589",
-    "path": "RolePlus/00Gift/MargielaStargazer/ShiJie.png",
+    "path": "RolePlus/00gift/margielastargazer/ShiJie.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4736,7 +4736,7 @@
     "id": 12800590,
     "name": "talent_name_12800590",
     "desc": "talent_desc_12800590",
-    "path": "RolePlus/00Gift/Komugi/NingGuQiYouXin.png",
+    "path": "RolePlus/00gift/komugi/NingGuQiYouXin.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4744,7 +4744,7 @@
     "id": 12800591,
     "name": "talent_name_12800591",
     "desc": "talent_desc_12800591",
-    "path": "RolePlus/00Gift/Komugi/QiZhiBaoGuo.png",
+    "path": "RolePlus/00gift/komugi/QiZhiBaoGuo.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4752,7 +4752,7 @@
     "id": 12800592,
     "name": "talent_name_12800592",
     "desc": "talent_desc_12800592",
-    "path": "RolePlus/00Gift/Komugi/LaiDunXin.png",
+    "path": "RolePlus/00gift/komugi/LaiDunXin.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4760,7 +4760,7 @@
     "id": 12800593,
     "name": "talent_name_12800593",
     "desc": "talent_desc_12800593",
-    "path": "RolePlus/00Gift/Komugi/QiWuKuoSan.png",
+    "path": "RolePlus/00gift/komugi/QiWuKuoSan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4768,7 +4768,7 @@
     "id": 12800594,
     "name": "talent_name_12800594",
     "desc": "talent_desc_12800594",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4784,7 +4784,7 @@
     "id": 12800596,
     "name": "talent_name_12800596",
     "desc": "talent_desc_12800596",
-    "path": "RolePlus/00Gift/Masaki/YuZhe.png",
+    "path": "RolePlus/00gift/masaki/YuZhe.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4792,7 +4792,7 @@
     "id": 12800597,
     "name": "talent_name_12800597",
     "desc": "talent_desc_12800597",
-    "path": "RolePlus/00Gift/Masaki/DaoDiaoRen.png",
+    "path": "RolePlus/00gift/masaki/DaoDiaoRen.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4800,7 +4800,7 @@
     "id": 12800598,
     "name": "talent_name_12800598",
     "desc": "talent_desc_12800598",
-    "path": "RolePlus/00Gift/Masaki/QuanZhang.png",
+    "path": "RolePlus/00gift/masaki/QuanZhang.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4808,7 +4808,7 @@
     "id": 12800599,
     "name": "talent_name_12800599",
     "desc": "talent_desc_12800599",
-    "path": "RolePlus/00Gift/Masaki/SiShen.png",
+    "path": "RolePlus/00gift/masaki/SiShen.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4816,7 +4816,7 @@
     "id": 12800600,
     "name": "talent_name_12800600",
     "desc": "talent_desc_12800600",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4824,7 +4824,7 @@
     "id": 12800601,
     "name": "talent_name_12800601",
     "desc": "talent_desc_12800601",
-    "path": "RolePlus/00Gift/Chloe/TingJiHuGuang.png",
+    "path": "RolePlus/00gift/chloe/TingJiHuGuang.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4832,7 +4832,7 @@
     "id": 12800602,
     "name": "talent_name_12800602",
     "desc": "talent_desc_12800602",
-    "path": "RolePlus/00Gift/Chloe/FuNengJiFa.png",
+    "path": "RolePlus/00gift/chloe/FuNengJiFa.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4840,7 +4840,7 @@
     "id": 12800603,
     "name": "talent_name_12800603",
     "desc": "talent_desc_12800603",
-    "path": "RolePlus/00Gift/Chloe/DianShiChuanDao.png",
+    "path": "RolePlus/00gift/chloe/DianShiChuanDao.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4848,7 +4848,7 @@
     "id": 12800604,
     "name": "talent_name_12800604",
     "desc": "talent_desc_12800604",
-    "path": "RolePlus/00Gift/Chloe/DengLiZiBengYong.png",
+    "path": "RolePlus/00gift/chloe/DengLiZiBengYong.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4920,7 +4920,7 @@
     "id": 12800615,
     "name": "talent_name_12800615",
     "desc": "talent_desc_12800615",
-    "path": "RolePlus/00Gift/Ikara/ZhiLiZhiLin.png",
+    "path": "RolePlus/00gift/ikara/ZhiLiZhiLin.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4928,7 +4928,7 @@
     "id": 12800616,
     "name": "talent_name_12800616",
     "desc": "talent_desc_12800616",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4936,7 +4936,7 @@
     "id": 12800617,
     "name": "talent_name_12800617",
     "desc": "talent_desc_12800617",
-    "path": "RolePlus/00Gift/Ikara/BuXiZhiLin.png",
+    "path": "RolePlus/00gift/ikara/BuXiZhiLin.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4944,7 +4944,7 @@
     "id": 12800618,
     "name": "talent_name_12800618",
     "desc": "talent_desc_12800618",
-    "path": "RolePlus/00Gift/Ikara/YongJieZhiLin.png",
+    "path": "RolePlus/00gift/ikara/YongJieZhiLin.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4952,7 +4952,7 @@
     "id": 12800619,
     "name": "talent_name_12800619",
     "desc": "talent_desc_12800619",
-    "path": "RolePlus/00Gift/Ikara/ShiSuZhiLin.png",
+    "path": "RolePlus/00gift/ikara/ShiSuZhiLin.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -4960,7 +4960,7 @@
     "id": 12800620,
     "name": "talent_name_12800620",
     "desc": "talent_desc_12800620",
-    "path": "RolePlus/00Gift/Eliade/CangQiDaiShi.png",
+    "path": "RolePlus/00gift/eliade/CangQiDaiShi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -4968,7 +4968,7 @@
     "id": 12800621,
     "name": "talent_name_12800621",
     "desc": "talent_desc_12800621",
-    "path": "RolePlus/00Gift/Eliade/YouBiaoJiLi.png",
+    "path": "RolePlus/00gift/eliade/YouBiaoJiLi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -4976,7 +4976,7 @@
     "id": 12800622,
     "name": "talent_name_12800622",
     "desc": "talent_desc_12800622",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -4984,7 +4984,7 @@
     "id": 12800623,
     "name": "talent_name_12800623",
     "desc": "talent_desc_12800623",
-    "path": "RolePlus/00Gift/Eliade/HaiChaoRuMeng.png",
+    "path": "RolePlus/00gift/eliade/HaiChaoRuMeng.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -4992,7 +4992,7 @@
     "id": 12800624,
     "name": "talent_name_12800624",
     "desc": "talent_desc_12800624",
-    "path": "RolePlus/00Gift/Eliade/SuiYuJiBing.png",
+    "path": "RolePlus/00gift/eliade/SuiYuJiBing.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5000,7 +5000,7 @@
     "id": 12800625,
     "name": "talent_name_12800625",
     "desc": "talent_desc_12800625",
-    "path": "RolePlus/00Gift/Slokai/QuanZhongLeiXiShou.png",
+    "path": "RolePlus/00gift/slokai/QuanZhongLeiXiShou.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -5008,7 +5008,7 @@
     "id": 12800626,
     "name": "talent_name_12800626",
     "desc": "talent_desc_12800626",
-    "path": "RolePlus/00Gift/Slokai/TunShi.png",
+    "path": "RolePlus/00gift/slokai/TunShi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -5016,7 +5016,7 @@
     "id": 12800627,
     "name": "talent_name_12800627",
     "desc": "talent_desc_12800627",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -5024,7 +5024,7 @@
     "id": 12800628,
     "name": "talent_name_12800628",
     "desc": "talent_desc_12800628",
-    "path": "RolePlus/00Gift/Slokai/JiShenNuHao.png",
+    "path": "RolePlus/00gift/slokai/JiShenNuHao.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -5032,7 +5032,7 @@
     "id": 12800629,
     "name": "talent_name_12800629",
     "desc": "talent_desc_12800629",
-    "path": "RolePlus/00Gift/Slokai/QinShi.png",
+    "path": "RolePlus/00gift/slokai/QinShi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5080,7 +5080,7 @@
     "id": 12800635,
     "name": "talent_name_12800635",
     "desc": "talent_desc_12800635",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -5088,7 +5088,7 @@
     "id": 12800636,
     "name": "talent_name_12800636",
     "desc": "talent_desc_12800636",
-    "path": "RolePlus/00Gift/Helena/YiCai02.png",
+    "path": "RolePlus/00gift/helena/YiCai02.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -5096,7 +5096,7 @@
     "id": 12800637,
     "name": "talent_name_12800637",
     "desc": "talent_desc_12800637",
-    "path": "RolePlus/00Gift/Helena/HuanZhu.png",
+    "path": "RolePlus/00gift/helena/HuanZhu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -5104,7 +5104,7 @@
     "id": 12800638,
     "name": "talent_name_12800638",
     "desc": "talent_desc_12800638",
-    "path": "RolePlus/00Gift/Helena/YiCai.png",
+    "path": "RolePlus/00gift/helena/YiCai.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5112,7 +5112,7 @@
     "id": 12800639,
     "name": "talent_name_12800639",
     "desc": "talent_desc_12800639",
-    "path": "RolePlus/00Gift/Helena/LinLang.png",
+    "path": "RolePlus/00gift/helena/LinLang.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -5120,7 +5120,7 @@
     "id": 12800640,
     "name": "talent_name_12800640",
     "desc": "talent_desc_12800640",
-    "path": "RolePlus/00Gift/Ushana/ShaNa.png",
+    "path": "RolePlus/00gift/ushana/ShaNa.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -5128,7 +5128,7 @@
     "id": 12800641,
     "name": "talent_name_12800641",
     "desc": "talent_desc_12800641",
-    "path": "RolePlus/00Gift/Ushana/NuXiang.png",
+    "path": "RolePlus/00gift/ushana/NuXiang.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5136,7 +5136,7 @@
     "id": 12800643,
     "name": "talent_name_12800643",
     "desc": "talent_desc_12800643",
-    "path": "RolePlus/00Gift/Ushana/DanZhi.png",
+    "path": "RolePlus/00gift/ushana/DanZhi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -5144,7 +5144,7 @@
     "id": 12800644,
     "name": "talent_name_12800644",
     "desc": "talent_desc_12800644",
-    "path": "RolePlus/00Gift/Ushana/Shun.png",
+    "path": "RolePlus/00gift/ushana/Shun.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -5152,7 +5152,7 @@
     "id": 12800645,
     "name": "talent_name_12800645",
     "desc": "talent_desc_12800645",
-    "path": "RolePlus/00Gift/Chelsea/ShenShu.png",
+    "path": "RolePlus/00gift/chelsea/ShenShu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -5160,7 +5160,7 @@
     "id": 12800646,
     "name": "talent_name_12800646",
     "desc": "talent_desc_12800646",
-    "path": "RolePlus/00Gift/Chelsea/YunZi.png",
+    "path": "RolePlus/00gift/chelsea/YunZi.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5168,7 +5168,7 @@
     "id": 12800647,
     "name": "talent_name_12800647",
     "desc": "talent_desc_12800647",
-    "path": "RolePlus/00Gift/Chelsea/ZaoGuang.png",
+    "path": "RolePlus/00gift/chelsea/ZaoGuang.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -5176,7 +5176,7 @@
     "id": 12800648,
     "name": "talent_name_12800648",
     "desc": "talent_desc_12800648",
-    "path": "RolePlus/00Gift/Chelsea/DongYou.png",
+    "path": "RolePlus/00gift/chelsea/DongYou.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -5184,7 +5184,7 @@
     "id": 12800649,
     "name": "talent_name_12800649",
     "desc": "talent_desc_12800649",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -5192,7 +5192,7 @@
     "id": 12800650,
     "name": "talent_name_12800650",
     "desc": "talent_desc_12800650",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -5200,7 +5200,7 @@
     "id": 12800651,
     "name": "talent_name_12800651",
     "desc": "talent_desc_12800651",
-    "path": "RolePlus/00Gift/DRamis/QiTongYinJi.png",
+    "path": "RolePlus/00gift/dramis/QiTongYinJi.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -5208,7 +5208,7 @@
     "id": 12800652,
     "name": "talent_name_12800652",
     "desc": "talent_desc_12800652",
-    "path": "RolePlus/00Gift/DRamis/TongDiao.png",
+    "path": "RolePlus/00gift/dramis/TongDiao.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5216,7 +5216,7 @@
     "id": 12800653,
     "name": "talent_name_12800653",
     "desc": "talent_desc_12800653",
-    "path": "RolePlus/00Gift/DRamis/GongWu.png",
+    "path": "RolePlus/00gift/dramis/GongWu.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -5224,7 +5224,7 @@
     "id": 12800654,
     "name": "talent_name_12800654",
     "desc": "talent_desc_12800654",
-    "path": "RolePlus/00Gift/Millie/ShengCunBenNeng.png",
+    "path": "RolePlus/00gift/millie/ShengCunBenNeng.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -5232,7 +5232,7 @@
     "id": 12800655,
     "name": "talent_name_12800655",
     "desc": "talent_desc_12800655",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -5240,7 +5240,7 @@
     "id": 12800656,
     "name": "talent_name_12800656",
     "desc": "talent_desc_12800656",
-    "path": "RolePlus/00Gift/Anethum/TianCaiPaiDui.png",
+    "path": "RolePlus/00gift/anethum/TianCaiPaiDui.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -5248,7 +5248,7 @@
     "id": 12800657,
     "name": "talent_name_12800657",
     "desc": "talent_desc_12800657",
-    "path": "RolePlus/00Gift/Anethum/HuiShouZhiLing.png",
+    "path": "RolePlus/00gift/anethum/HuiShouZhiLing.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5256,7 +5256,7 @@
     "id": 12800658,
     "name": "talent_name_12800658",
     "desc": "talent_desc_12800658",
-    "path": "RolePlus/00Gift/Anethum/YingJiZhiLing.png",
+    "path": "RolePlus/00gift/anethum/YingJiZhiLing.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -5264,7 +5264,7 @@
     "id": 12800659,
     "name": "talent_name_12800659",
     "desc": "talent_desc_12800659",
-    "path": "RolePlus/00Gift/Anethum/YongXianXiaoYing.png",
+    "path": "RolePlus/00gift/anethum/YongXianXiaoYing.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -5272,7 +5272,7 @@
     "id": 12800660,
     "name": "talent_name_12800660",
     "desc": "talent_desc_12800660",
-    "path": "RolePlus/00Gift/Hecate/MengZhiHu.png",
+    "path": "RolePlus/00gift/hecate/MengZhiHu.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5280,7 +5280,7 @@
     "id": 12800661,
     "name": "talent_name_12800661",
     "desc": "talent_desc_12800661",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -5288,7 +5288,7 @@
     "id": 12800662,
     "name": "talent_name_12800662",
     "desc": "talent_desc_12800662",
-    "path": "RolePlus/00Gift/Hecate/XinYangZhiZhi.png",
+    "path": "RolePlus/00gift/hecate/XinYangZhiZhi.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -5296,7 +5296,7 @@
     "id": 12800663,
     "name": "talent_name_12800663",
     "desc": "talent_desc_12800663",
-    "path": "RolePlus/00Gift/Hecate/DongZhiHu.png",
+    "path": "RolePlus/00gift/hecate/DongZhiHu.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -5304,7 +5304,7 @@
     "id": 12800664,
     "name": "talent_name_12800664",
     "desc": "talent_desc_12800664",
-    "path": "RolePlus/00Gift/Hecate/BeiZhiHu.png",
+    "path": "RolePlus/00gift/hecate/BeiZhiHu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -5312,7 +5312,7 @@
     "id": 12800665,
     "name": "talent_name_12800665",
     "desc": "talent_desc_12800665",
-    "path": "RolePlus/00Gift/Carr/XinZhiKe.png",
+    "path": "RolePlus/00gift/carr/XinZhiKe.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5320,7 +5320,7 @@
     "id": 12800666,
     "name": "talent_name_12800666",
     "desc": "talent_desc_12800666",
-    "path": "RolePlus/00Gift/Carr/YuZhi.png",
+    "path": "RolePlus/00gift/carr/YuZhi.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -5328,7 +5328,7 @@
     "id": 12800667,
     "name": "talent_name_12800667",
     "desc": "talent_desc_12800667",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -5336,7 +5336,7 @@
     "id": 12800668,
     "name": "talent_name_12800668",
     "desc": "talent_desc_12800668",
-    "path": "RolePlus/00Gift/Carr/XingYu.png",
+    "path": "RolePlus/00gift/carr/XingYu.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -5344,7 +5344,7 @@
     "id": 12800669,
     "name": "talent_name_12800669",
     "desc": "talent_desc_12800669",
-    "path": "RolePlus/00Gift/Carr/YuHua.png",
+    "path": "RolePlus/00gift/carr/YuHua.png",
     "awakeLv": 6,
     "skillParamOffsetList": [
       {
@@ -5363,7 +5363,7 @@
     "id": 12800670,
     "name": "talent_name_12800670",
     "desc": "talent_desc_12800670",
-    "path": "RolePlus/00Gift/Box/ShengJi.png",
+    "path": "RolePlus/00gift/box/ShengJi.png",
     "awakeLv": 4,
     "skillParamOffsetList": []
   },
@@ -5371,7 +5371,7 @@
     "id": 12800671,
     "name": "talent_name_12800671",
     "desc": "talent_desc_12800671",
-    "path": "RolePlus/00Gift/Chenshuxian/HuiGanBaiWei.png",
+    "path": "RolePlus/00gift/chenshuxian/HuiGanBaiWei.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
@@ -5379,7 +5379,7 @@
     "id": 12800672,
     "name": "talent_name_12800672",
     "desc": "talent_desc_12800672",
-    "path": "RolePlus/00Gift/Chenshuxian/QingFengLengCui.png",
+    "path": "RolePlus/00gift/chenshuxian/QingFengLengCui.png",
     "awakeLv": 2,
     "skillParamOffsetList": []
   },
@@ -5387,7 +5387,7 @@
     "id": 12800673,
     "name": "talent_name_12800673",
     "desc": "talent_desc_12800673",
-    "path": "RolePlus/00Gift/Chenshuxian/QingHuoYangYuan.png",
+    "path": "RolePlus/00gift/chenshuxian/QingHuoYangYuan.png",
     "awakeLv": 3,
     "skillParamOffsetList": []
   },
@@ -5395,7 +5395,7 @@
     "id": 12800674,
     "name": "talent_name_12800674",
     "desc": "talent_desc_12800674",
-    "path": "RolePlus/00Gift/Chenshuxian/ZhiQingDaoHe.png",
+    "path": "RolePlus/00gift/chenshuxian/ZhiQingDaoHe.png",
     "awakeLv": 5,
     "skillParamOffsetList": []
   },
@@ -5419,7 +5419,7 @@
     "id": 12800677,
     "name": "talent_name_12800677",
     "desc": "talent_desc_12800677",
-    "path": "RolePlus/00Gift/Vostok/NengLiangBaoHong.png",
+    "path": "RolePlus/00gift/vostok/NengLiangBaoHong.png",
     "awakeLv": 6,
     "skillParamOffsetList": []
   },

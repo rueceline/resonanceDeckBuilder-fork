@@ -43,6 +43,42 @@ const BOOK_EQUIP_IDCN = "角色装备图鉴";
 // 검증 리포트 출력 여부
 const WRITE_REPORTS = false;
 
+const assetRootDirAbs = path.join(ROOT, "public", "assets");
+const pngNoExtMap = buildPngNoExtMap(assetRootDirAbs);
+
+function buildPngNoExtMap(rootDirAbs) {
+  const map = new Map();
+
+  function walk(dirAbs) {
+    const entries = fs.readdirSync(dirAbs, { withFileTypes: true });
+
+    for (const e of entries) {
+      const abs = path.join(dirAbs, e.name);
+
+      if (e.isDirectory()) {
+        walk(abs);
+        continue;
+      }
+
+      if (!e.isFile()) continue;
+      if (!/\.png$/i.test(e.name)) continue;
+
+      // root 기준 상대경로 (확장자 제거)
+      const rel = path.relative(rootDirAbs, abs).replace(/\\/g, "/");
+      const relNoExt = rel.replace(/\.png$/i, "");
+      const key = relNoExt.toLowerCase();
+
+      // 최초 발견한 실제 케이스만 저장
+      if (!map.has(key)) {
+        map.set(key, relNoExt);
+      }
+    }
+  }
+
+  walk(rootDirAbs);
+  return map;
+}
+
 // -------------------- FILE UTILS (lib.js 포함분) --------------------
 function ensureDirForFile(absPath) {
   const dir = path.dirname(absPath);
@@ -476,88 +512,6 @@ function buildTagDb(ctx) {
   return out;
 }
 
-function buildImgDb(ctx) {
-  const {
-    unitList,
-    unitViewById,
-    equipmentList,
-    skillList,
-    cardList,
-    talentList,
-    breakthroughList,
-    includedUnitIds,
-    includedEquipIds,
-  } = ctx;
-
-  const out = {};
-
-  // char_* : UnitViewFactory.roleListResUrl
-  for (const u of Array.isArray(unitList) ? unitList : []) {
-    const id = safeNumber(u?.id);
-    if (!id) continue;
-
-    if (includedUnitIds && includedUnitIds.size && !includedUnitIds.has(id))
-      continue;
-
-    const viewId = safeNumber(u?.viewId);
-    if (viewId === null) continue;
-
-    const viewRec = unitViewById.get(viewId) || null;
-    const p = String(viewRec?.roleListResUrl ?? "").trim();
-    if (p) out[`char_${id}`] = p;
-  }
-
-  // equip_* : EquipmentFactory.tipsPath
-  for (const e of Array.isArray(equipmentList) ? equipmentList : []) {
-    const id = safeNumber(e?.id);
-    if (!id) continue;
-
-    if (includedEquipIds && includedEquipIds.size && !includedEquipIds.has(id))
-      continue;
-
-    const p = String(e?.tipsPath ?? "").trim();
-    if (p) out[`equip_${id}`] = p;
-  }
-
-  // skill_* : SkillFactory.iconPath
-  for (const s of Array.isArray(skillList) ? skillList : []) {
-    const id = safeNumber(s?.id);
-    if (!id) continue;
-
-    const p = String(s?.iconPath ?? "").trim();
-    if (p) out[`skill_${id}`] = p;
-  }
-
-  // card_* : CardFactory.iconPath
-  for (const c of Array.isArray(cardList) ? cardList : []) {
-    const id = safeNumber(c?.id);
-    if (!id) continue;
-
-    const p = String(c?.iconPath ?? "").trim();
-    if (p) out[`card_${id}`] = p;
-  }
-
-  // talent_* : TalentFactory.path
-  for (const t of Array.isArray(talentList) ? talentList : []) {
-    const id = safeNumber(t?.id);
-    if (!id) continue;
-
-    const p = String(t?.path ?? "").trim();
-    if (p) out[`talent_${id}`] = p;
-  }
-
-  // break_* : BreakthroughFactory.path
-  for (const b of Array.isArray(breakthroughList) ? breakthroughList : []) {
-    const id = safeNumber(b?.id);
-    if (!id) continue;
-
-    const p = String(b?.path ?? "").trim();
-    if (p) out[`break_${id}`] = p;
-  }
-
-  return out;
-}
-
 function buildTagColorMapping(ctx) {
   const { tagList } = ctx;
   const out = {};
@@ -893,18 +847,42 @@ function resolveImagePathByExt(assetRootDirAbs, noExtPath) {
   return noExtPath;
 }
 
-function applyImagePathResolveToDbField(dbObj, fieldName, assetRootDirAbs) {
-  for (const rec of Object.values(dbObj)) {
-    if (!rec || typeof rec !== "object") continue;
+function applyImagePathResolveToDbField(db, fieldName, assetRootDirAbs) {
+  for (const id of Object.keys(db)) {
+    const rec = db[id];
+    let p = String(rec?.[fieldName] ?? "").trim();
+    if (!p) continue;
 
-    const raw = rec[fieldName];
-    if (typeof raw !== "string" || !raw.trim()) {
-      rec[fieldName] = "";
-      continue;
+    // 1) normalize (슬래시 정리만)
+    p = normalizeImgPath(p);
+
+    // 2) 확장자 제거
+    const noExt = p.replace(/\.(png|webp)$/i, "");
+
+    // 3) 🔴 실제 파일 기준 대소문자 교정
+    const key = noExt.toLowerCase();
+    if (pngNoExtMap.has(key)) {
+      // 실제 파일 경로(no-ext)로 교체
+      p = pngNoExtMap.get(key);
+    } else {
+      // 못 찾으면 기존 로직 유지 (존재 확인용)
+      const resolved = resolveImagePathByExt(noExt, assetRootDirAbs);
+      if (!resolved) continue;
+      p = resolved.replace(/\.(png|webp)$/i, "");
     }
 
-    const norm = normalizeImgPath(raw);
-    rec[fieldName] = resolveImagePathByExt(assetRootDirAbs, norm);
+    // 4) 확장자 다시 붙이기 (png 우선)
+    const absPng = path.join(assetRootDirAbs, `${p}.png`);
+    const absWebp = path.join(assetRootDirAbs, `${p}.webp`);
+
+    if (fs.existsSync(absPng)) {
+      rec[fieldName] = `${p}.png`;
+    } else if (fs.existsSync(absWebp)) {
+      rec[fieldName] = `${p}.webp`;
+    } else {
+      // 이론상 여기 안 옴 (pngNoExtMap 기준)
+      rec[fieldName] = `${p}.png`;
+    }
   }
 }
 
@@ -991,9 +969,7 @@ function main() {
 
   const langEn = fillFallback(baseEn);
   const langJp = fillFallback(baseJp);
-  const langTw = fillFallback(baseTw);
-
-  const assetRootDirAbs = path.join(ROOT, "public", "assets");
+  const langTw = fillFallback(baseTw);  
 
   // 단일 이미지 경로 필드만 처리
   applyImagePathResolveToDbField(charDb, "roleListResUrl", assetRootDirAbs);
@@ -1007,10 +983,7 @@ function main() {
   writeJson(path.join(OUT_DIR, "equip_db.json"), equipDb);
   writeJson(path.join(OUT_DIR, "skill_db.json"), skillDb);
   writeJson(path.join(OUT_DIR, "card_db.json"), cardDb);
-  writeJson(path.join(OUT_DIR, "tag_db.json"), tagDb);
-
-  // img_db.json은 “원본을 그대로 쓰는” 단계라면 여기 write는 계속 주석 유지
-  //writeJson(path.join(OUT_DIR, "img_db.json"), imgDb);
+  writeJson(path.join(OUT_DIR, "tag_db.json"), tagDb);  
 
   writeJson(path.join(OUT_DIR, "tag_color_mapping.json"), tagColorMapping);
   writeJson(path.join(OUT_DIR, "talent_db.json"), talentDb);
