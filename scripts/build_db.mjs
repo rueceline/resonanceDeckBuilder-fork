@@ -913,12 +913,10 @@ function applyImagePathResolveToDbField(db, fieldName, assetRootDirAbs) {
     }
 
     // 4) 확장자 다시 붙이기 (png 우선)
-    const absPng = path.join(assetRootDirAbs, `${p}.png`);
+    // const absPng = path.join(assetRootDirAbs, `${p}.png`);
     const absWebp = path.join(assetRootDirAbs, `${p}.webp`);
-
-    if (fs.existsSync(absPng)) {
-      rec[fieldName] = `${p}.png`;
-    } else if (fs.existsSync(absWebp)) {
+  
+    if (fs.existsSync(absWebp)) {
       rec[fieldName] = `${p}.webp`;
     } else {
       // 이론상 여기 안 옴 (pngNoExtMap 기준)
