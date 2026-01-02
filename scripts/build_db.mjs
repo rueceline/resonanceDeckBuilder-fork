@@ -71,11 +71,11 @@ function buildPngNoExtMap(rootDirAbs) {
       }
 
       if (!e.isFile()) continue;
-      if (!/\.png$/i.test(e.name)) continue;
+      if (!/\.webp$/i.test(e.name)) continue;
 
       // root 기준 상대경로 (확장자 제거)
       const rel = path.relative(rootDirAbs, abs).replace(/\\/g, "/");
-      const relNoExt = rel.replace(/\.png$/i, "");
+      const relNoExt = rel.replace(/\.webp$/i, "");
       const key = relNoExt.toLowerCase();
 
       // 최초 발견한 실제 케이스만 저장
