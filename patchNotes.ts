@@ -14,7 +14,8 @@ const patchNotes: PatchNoteEntry[] = [
       "생활 스킬 계산 수정",
       "덱 불러오기 버그 수정",
       "버리기 카드 기본 포함 처리",
-      "KR, JP 번역 적용"
+      "KR, JP 번역 적용",
+      "png -> webp"
     ],
   },
 ];

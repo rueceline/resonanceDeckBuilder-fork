@@ -1,0 +1,509 @@
+[
+  {
+    "id": 86600001,
+    "idCN": "数据中心",
+    "mod": "默认",
+    "isInformalData": false,
+    "name": "数据中心",
+    "openLv": 28,
+    "FirstParagraphid": 20700349,
+    "clickParagraphid": 20700087,
+    "levelBossList": [
+      {
+        "bossName": "MGS.01",
+        "buffId": 80302195,
+        "count": 1,
+        "id": 80302560,
+        "spineScale": 1,
+        "spineX": -311,
+        "spineY": -391,
+        "star": 0
+      },
+      {
+        "bossName": "MAS.01",
+        "buffId": 80302211,
+        "count": 1,
+        "id": 80302573,
+        "spineScale": 1,
+        "spineX": -65,
+        "spineY": -358,
+        "star": 0
+      },
+      {
+        "bossName": "BBS.01",
+        "buffId": 80302212,
+        "count": 1,
+        "id": 80302625,
+        "spineScale": 1.2,
+        "spineX": -44,
+        "spineY": -504,
+        "star": 0
+      },
+      {
+        "bossName": "DSS.02",
+        "buffId": 80302646,
+        "count": 1,
+        "id": 80302626,
+        "spineScale": 1.3,
+        "spineX": -39,
+        "spineY": -249,
+        "star": 0
+      },
+      {
+        "bossName": "TCSS.01",
+        "buffId": 80302648,
+        "count": 1,
+        "id": 80302627,
+        "spineScale": 1,
+        "spineX": -46,
+        "spineY": -444,
+        "star": 0
+      },
+      {
+        "bossName": "PUS.02",
+        "buffId": 80302650,
+        "count": 1,
+        "id": 80302630,
+        "spineScale": 1.6,
+        "spineX": 6,
+        "spineY": -331,
+        "star": 0
+      },
+      {
+        "bossName": "BCSS.01",
+        "buffId": 80302653,
+        "count": 1,
+        "id": 80302652,
+        "spineScale": 1,
+        "spineX": -24,
+        "spineY": -364,
+        "star": 0
+      },
+      {
+        "bossName": "NMS.01",
+        "buffId": 80302680,
+        "count": 1,
+        "id": 80302679,
+        "spineScale": 1.6,
+        "spineX": 0,
+        "spineY": -349,
+        "star": 0
+      },
+      {
+        "bossName": "NAS.01",
+        "buffId": 80302750,
+        "count": 1,
+        "id": 80302751,
+        "spineScale": 1.2,
+        "spineX": -308,
+        "spineY": -209,
+        "star": 0
+      },
+      {
+        "bossName": "WCSS.01",
+        "buffId": 80303516,
+        "count": 1,
+        "id": 80303517,
+        "spineScale": 1,
+        "spineX": -234,
+        "spineY": -232,
+        "star": 0
+      },
+      {
+        "bossName": "NCS.01",
+        "buffId": 80303553,
+        "count": 1,
+        "id": 80303554,
+        "spineScale": 1.4,
+        "spineX": -50,
+        "spineY": -571,
+        "star": 0
+      },
+      {
+        "bossName": "NAS.02",
+        "buffId": 80303557,
+        "count": 1,
+        "id": 80303556,
+        "spineScale": 1,
+        "spineX": -56,
+        "spineY": -361,
+        "star": 0
+      },
+      {
+        "bossName": "Charlotte",
+        "buffId": 80303581,
+        "count": 1,
+        "id": 80303582,
+        "spineScale": 1.9,
+        "spineX": -35,
+        "spineY": -366,
+        "star": 0
+      },
+      {
+        "bossName": "Nicola",
+        "buffId": 80303718,
+        "count": 1,
+        "id": 80303717,
+        "spineScale": 1.6,
+        "spineX": -44,
+        "spineY": -316,
+        "star": 0
+      },
+      {
+        "bossName": "MCSS.01",
+        "buffId": 80303888,
+        "count": 1,
+        "id": 80303575,
+        "spineScale": 0.8,
+        "spineX": -161,
+        "spineY": -272,
+        "star": 0
+      },
+      {
+        "bossName": "MGS.02",
+        "buffId": 80304068,
+        "count": 1,
+        "id": 80304067,
+        "spineScale": 1.2,
+        "spineX": -14,
+        "spineY": -347,
+        "star": 0
+      },
+      {
+        "bossName": "DSS.03",
+        "buffId": 80304095,
+        "count": 1,
+        "id": 80304094,
+        "spineScale": 1.5,
+        "spineX": -29,
+        "spineY": -342,
+        "star": 0
+      },
+      {
+        "bossName": "WCSS.02",
+        "buffId": 80304390,
+        "count": 1,
+        "id": 80304388,
+        "spineScale": 0.8,
+        "spineX": -188,
+        "spineY": -284,
+        "star": 0
+      },
+      {
+        "bossName": "LOS.01",
+        "buffId": 80304654,
+        "count": 1,
+        "id": 80304653,
+        "spineScale": 1,
+        "spineX": -32,
+        "spineY": -401,
+        "star": 0
+      },
+      {
+        "bossName": "MCSS.02",
+        "buffId": 80304750,
+        "count": 1,
+        "id": 80304749,
+        "spineScale": 0.8,
+        "spineX": -161,
+        "spineY": -272,
+        "star": 0
+      },
+      {
+        "bossName": "UNS.01",
+        "buffId": 80304775,
+        "count": 1,
+        "id": 80304776,
+        "spineScale": 1.4,
+        "spineX": -8,
+        "spineY": -357,
+        "star": 0
+      },
+      {
+        "bossName": "UNS.01",
+        "buffId": 80304978,
+        "count": 1,
+        "id": 80304979,
+        "spineScale": 1,
+        "spineX": -78,
+        "spineY": -416,
+        "star": 0
+      },
+      {
+        "bossName": "Joshua",
+        "buffId": 80305400,
+        "count": 1,
+        "id": 80305401,
+        "spineScale": 1.6,
+        "spineX": -3,
+        "spineY": -365,
+        "star": 0
+      },
+      {
+        "bossName": "DSS.04",
+        "buffId": 80305473,
+        "count": 1,
+        "id": 80305472,
+        "spineScale": 1,
+        "spineX": -147,
+        "spineY": -440,
+        "star": 0
+      },
+      {
+        "bossName": "DSS.05",
+        "buffId": 80305485,
+        "count": 1,
+        "id": 80305486,
+        "spineScale": 1.4,
+        "spineX": -95,
+        "spineY": -587,
+        "star": 0
+      },
+      {
+        "bossName": "MPS.01",
+        "buffId": 80305736,
+        "count": 1,
+        "id": 80305743,
+        "spineScale": 0.8,
+        "spineX": -27,
+        "spineY": -189,
+        "star": 0
+      },
+      {
+        "bossName": "NCS.02",
+        "buffId": 80305779,
+        "count": 1,
+        "id": 80305780,
+        "spineScale": 1.3,
+        "spineX": -45,
+        "spineY": -502,
+        "star": 0
+      },
+      {
+        "bossName": "SLS.01",
+        "buffId": 80306123,
+        "count": 1,
+        "id": 80306126,
+        "spineScale": 1.2,
+        "spineX": -96,
+        "spineY": -536,
+        "star": 0
+      },
+      {
+        "bossName": "Jalhay",
+        "buffId": 80306299,
+        "count": 1,
+        "id": 80306298,
+        "spineScale": 1.6,
+        "spineX": 2,
+        "spineY": -333,
+        "star": 0
+      },
+      {
+        "bossName": "SCS.02",
+        "buffId": 80306500,
+        "count": 1,
+        "id": 80306361,
+        "spineScale": 1.6,
+        "spineX": -20,
+        "spineY": -314,
+        "star": 0
+      },
+      {
+        "bossName": "MCSS.03",
+        "buffId": 80306629,
+        "count": 1,
+        "id": 80306642,
+        "spineScale": 0.8,
+        "spineX": -185,
+        "spineY": -274,
+        "star": 0
+      },
+      {
+        "bossName": "SCS.01",
+        "buffId": 80306796,
+        "count": 1,
+        "id": 80306797,
+        "spineScale": 0.7,
+        "spineX": 25,
+        "spineY": -357,
+        "star": 0
+      },
+      {
+        "bossName": "Lin",
+        "buffId": 80306913,
+        "count": 1,
+        "id": 80306914,
+        "spineScale": 1.6,
+        "spineX": 4,
+        "spineY": -329,
+        "star": 0
+      },
+      {
+        "bossName": "PCSS.01",
+        "buffId": 80306956,
+        "count": 1,
+        "id": 80306957,
+        "spineScale": 0.5,
+        "spineX": -8,
+        "spineY": -192,
+        "star": 0
+      },
+      {
+        "bossName": "Shizuru the Summer Chaser",
+        "buffId": 80307068,
+        "count": 1,
+        "id": 80307077,
+        "spineScale": 1.6,
+        "spineX": 15,
+        "spineY": -339,
+        "star": 0
+      },
+      {
+        "bossName": "FUS.01",
+        "buffId": 80307696,
+        "count": 1,
+        "id": 80307697,
+        "spineScale": 0.75,
+        "spineX": -84,
+        "spineY": -397,
+        "star": 0
+      },
+      {
+        "bossName": "Ushana",
+        "buffId": 80307739,
+        "count": 1,
+        "id": 80307738,
+        "spineScale": 1.69,
+        "spineX": 3,
+        "spineY": -316,
+        "star": 0
+      }
+    ],
+    "scoresMax": 11100,
+    "abyssPeriodList": [
+      {
+        "id": 87700001
+      },
+      {
+        "id": 87700003
+      },
+      {
+        "id": 87700002
+      },
+      {
+        "id": 87700004
+      },
+      {
+        "id": 87700009
+      },
+      {
+        "id": 87700014
+      },
+      {
+        "id": 87700015
+      },
+      {
+        "id": 87700020
+      },
+      {
+        "id": 87700021
+      },
+      {
+        "id": 87700023
+      },
+      {
+        "id": 87700016
+      },
+      {
+        "id": 87700018
+      },
+      {
+        "id": 87700042
+      },
+      {
+        "id": 87700043
+      },
+      {
+        "id": 87700047
+      },
+      {
+        "id": 87700060
+      },
+      {
+        "id": 87700063
+      },
+      {
+        "id": 87700064
+      },
+      {
+        "id": 87700065
+      },
+      {
+        "id": 87700068
+      },
+      {
+        "id": 87700069
+      },
+      {
+        "id": 87700076
+      },
+      {
+        "id": 87700080
+      },
+      {
+        "id": 87700083
+      },
+      {
+        "id": 87700084
+      },
+      {
+        "id": 87700100
+      },
+      {
+        "id": 87700101
+      },
+      {
+        "id": 87700130
+      },
+      {
+        "id": 87700131
+      },
+      {
+        "id": 87700134
+      },
+      {
+        "id": 87700138
+      },
+      {
+        "id": 87700142
+      },
+      {
+        "id": 87700145
+      },
+      {
+        "id": 87700147
+      },
+      {
+        "id": 87700158
+      },
+      {
+        "id": 87700161
+      }
+    ],
+    "countDay": 0,
+    "levelList": [
+      {
+        "id": 20100103,
+        "weight": 0
+      }
+    ],
+    "lvList": [],
+    "enemySkillList1": [],
+    "enemySkillList2": [],
+    "enemySkillList3": [],
+    "playerSkillList1": [],
+    "playerSkillList2": [],
+    "playerSkillList3": []
+  }
+]
