@@ -4,6 +4,22 @@
 import { useEffect, useState, useRef } from "react"
 import { v4 as uuidv4 } from "uuid"
 import { Trash2, Clock, Edit2, X, Check, ChevronDown } from "lucide-react"
+import {
+  addDoc,
+  collection,
+  serverTimestamp,
+  query,
+  orderBy,
+  doc,
+  deleteDoc,
+  updateDoc,
+  limit,
+  startAfter,
+  getDocs,
+  type QueryDocumentSnapshot,
+  type DocumentData,
+} from "firebase/firestore"
+import { db } from "../lib/firebase-config"
 import { useLanguage } from "../contexts/language-context"
 
 interface Comment {
@@ -139,6 +155,14 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
   }
 
   const addComment = async () => {
+     console.log("[Comments] click", {
+       editingCommentId,
+       canComment,
+       newComment: JSON.stringify(newComment),
+       newCommentLen: newComment.length,
+       editContentLen: editContent.length,
+     });
+
     if (editingCommentId) {
       if (!editContent.trim()) return
       try {
@@ -164,11 +188,37 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
 
     if (!newComment.trim() || !canComment) return
     try {
-      await addDoc(collection(db, "comments"), {
+      console.log("[Comments] before addDoc", userId);
+
+      // const docRef = await addDoc(collection(db, "comments"), {
+      //   content: newComment.trim(),
+      //   userId,
+      //   createdAt: serverTimestamp(),
+      // })
+
+      const writePromise = addDoc(collection(db, "comments"), {
         content: newComment.trim(),
         userId,
         createdAt: serverTimestamp(),
-      })
+      }).catch((e) => {
+        console.error("[Comments] addDoc REAL ERROR", {
+          name: e?.name,
+          code: e?.code,
+          message: e?.message,
+          stack: e?.stack,
+        });
+        throw e;
+      });
+
+      const docRef = await Promise.race([
+        writePromise,
+        new Promise<never>((_, reject) =>
+          setTimeout(() => reject(new Error("addDoc timeout (8s)")), 8000)
+        ),
+      ]);
+
+      console.log("[Comments] after addDoc", { id: docRef.id });
+
       const now = Date.now()
       localStorage.setItem("lastCommentTime", now.toString())
       setLastCommentTime(now)
@@ -210,7 +260,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
   }
 
   return (
-    <section className="w-full py-4 mt-12 border-t border-[rgba(255,255,255,0.1)]">
+    <section className="w-full py-4 mt-0 border-t border-[rgba(255,255,255,0.1)]">
       <div className="container mx-auto px-4">
         <h2 className="text-xl font-semibold mb-4 neon-text">
           {getTranslatedString("comments.title") || "Comments"}

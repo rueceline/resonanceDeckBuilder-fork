@@ -101,8 +101,8 @@ Import deck codes copied in-game, edit them on the site, and export them back in
 
 ## 🧪 향후 계획 (TODO)
 
-- DB 업데이트
-- DB public/assets 구조로 변경
+- 아이템, 도시 DB 추가
+- 버그 수정
 
 ---
 

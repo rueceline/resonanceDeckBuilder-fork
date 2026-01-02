@@ -177,7 +177,7 @@ export function CharacterWindow({
         getCardInfo={getCardInfo}
         getSkill={getSkill}
         data={data}
-        maxWidth="max-w-3xl"
+        maxWidth="max-w-5xl"
         footer={
           <div className="flex justify-end">
             <button

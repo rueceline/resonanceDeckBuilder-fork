@@ -724,5 +724,15 @@
   "url_copied": "공유 가능한 URL이 클립보드에 복사되었습니다!",
   "url_copy_failed": "공유 가능한 URL 생성 실패",
   "usage_settings": "조작 선택",
-  "use_immediately": "즉시 시전"
+  "use_immediately": "즉시 시전",
+  "skill.derived": "파생",
+  "skill.not_from_characters": "공용",
+  "character.birthday": "생일",
+  "character.gender": "성별",
+  "character.height": "키",
+  "character.birthplace": "출생지",
+  "character.identity": "현재 신분",
+  "character.ability": "승격 능력",
+  "character.Resume": "경력",
+  "character.Skills": "스킬"
 }

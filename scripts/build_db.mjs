@@ -25,14 +25,24 @@ import path from "path";
 // -------------------- CONFIG --------------------
 const ROOT = process.cwd();
 
-const CN_DIR = path.join(ROOT, "public", "data", "CN");
-const KR_DIR = path.join(ROOT, "public", "data", "KR");
-const CONFIG_LANG_PATH = path.join(KR_DIR, "ConfigLanguage.json");
+const CN_DIR = path.join(ROOT, "public", "db", "CN");
+
+// {langDir}\ConfigLanguage.json 을 로드해서 lang_{code}.json 생성
+// dir: ConfigLanguage.json 위치 폴더명
+// code: 출력 파일명에 들어갈 소문자 코드
+const LANG_TARGETS = [
+  { dir: "KR", code: "ko" },
+  { dir: "JP", code: "jp" },
+  { dir: "EN", code: "en" },
+  { dir: "TW", code: "tw" },
+];
+
+function getConfigLanguagePathByDir(dirName) {
+  // {langDir}\ConfigLanguage.json
+  return path.join(ROOT, "public", "db", dirName, "ConfigLanguage.json");
+}
 
 const OUT_DIR = path.join(ROOT, "public", "db");
-
-// 기존 lang 파일(UI 텍스트 등) 유지 + 신규 토큰만 추가
-const MERGE_EXISTING_LANG = true;
 
 // BookFactory 기반 포함 규칙(가설):
 // - Unit: BookFactory.idCN === "角色图鉴" 의 unitList
@@ -254,8 +264,8 @@ function buildIncludedIdSetsFromBook(bookFactory) {
 }
 
 // -------------------- Tokenizer + Lang Collector --------------------
-function makeLangCollector(cfgMap) {
-  // token -> { cn, ko, factoryName, fieldName }
+function makeLangCollector() {
+  // token -> { cn, factoryName, fieldName }
   const dict = new Map();
 
   function put(token, factoryName, fieldName, cnText) {
@@ -263,8 +273,7 @@ function makeLangCollector(cfgMap) {
     if (!cn) return;
 
     if (!dict.has(token)) {
-      const ko = tr(cfgMap, factoryName, fieldName, cn);
-      dict.set(token, { cn, ko, factoryName, fieldName });
+      dict.set(token, { cn, factoryName, fieldName });
     }
   }
 
@@ -343,6 +352,49 @@ function buildCharDb(ctx) {
         u?.ability
       ),
 
+      gender: tok("char_gender", id, [], "UnitFactory", "gender", u?.gender),
+      birthday: tok(
+        "char_birthday",
+        id,
+        [],
+        "UnitFactory",
+        "birthday",
+        u?.birthday
+      ),
+      height: u?.height ?? null,
+
+      birthplace: tok(
+        "char_birthplace",
+        id,
+        [],
+        "UnitFactory",
+        "birthplace",
+        u?.birthplace
+      ),
+
+      getCharacter: tok(
+        "char_getCharacter",
+        id,
+        [],
+        "UnitFactory",
+        "getCharacter",
+        u?.getCharacter
+      ),
+
+      ResumeList: Array.isArray(u?.ResumeList)
+        ? u.ResumeList.map((r, idx) => ({
+            ...r,
+            des: tok(
+              "char_resume_des",
+              id,
+              [String(idx), "des"],
+              "UnitFactory",
+              "des", // 여기만 "ResumeList.des" -> "des"
+              r?.des
+            ),
+          }))
+        : [],
+
       controllerId: u?.controllerId ?? null,
 
       equipmentSlotList: Array.isArray(u?.equipmentSlotList)
@@ -410,25 +462,24 @@ function buildEquipDb(ctx) {
 }
 
 function buildSkillDb(ctx) {
-  const { skillList, tok } = ctx;
+  const { skillList, tok, usedSkillIds } = ctx;
   const out = {};
 
   for (const s of Array.isArray(skillList) ? skillList : []) {
     const id = safeNumber(s?.id);
     if (!id) continue;
 
+    // ⭐ char/equip 어디에서도 참조되지 않은 스킬은 제외
+    if (!usedSkillIds.has(id)) continue;
+
     const iconPath = String(s?.iconPath ?? "").trim();
 
-    // 스킬은 BookFactory로 포함 세트를 만들기 어려움(참조 기반으로 필요한 것만 뽑아도 됨)
-    // 현재는 "전체 포함"으로 둔다. (필요하면 후속 단계에서 '참조된 스킬만'로 축소 가능)
     out[String(id)] = {
       id,
       name: tok("skill_name", id, [], "SkillFactory", "name", s?.name),
       mod: s?.mod ?? "",
-
-      // 이미지 경로(단일): SkillFactory.iconPath
       iconPath,
-
+      isPercent: typeof s?.isPercent === "boolean" ? s.isPercent : undefined,
       description: tok(
         "skill_description",
         id,
@@ -478,10 +529,10 @@ function buildCardDb(ctx) {
       color: c?.color ?? "",
       cost_SN: c?.cost_SN ?? null,
       cardType: c?.cardType ?? "",
-
       ExCondList: Array.isArray(c?.ExCondList) ? c.ExCondList : [],
       ExActList: Array.isArray(c?.ExActList) ? c.ExActList : [],
       tagList: Array.isArray(c?.tagList) ? c.tagList : [],
+      iconPath: c?.iconPath ?? "",
     };
   }
 
@@ -551,14 +602,10 @@ function buildTalentDb(ctx) {
       id,
       name: tok("talent_name", id, [], "TalentFactory", "name", r?.name),
       desc: tok("talent_desc", id, [], "TalentFactory", "desc", r?.desc),
-
-      // 이미지 경로(단일): TalentFactory.path
+      // 이미지 경로
       path: p,
-
       awakeLv: r?.awakeLv ?? null,
-      skillParamOffsetList: Array.isArray(r?.skillParamOffsetList)
-        ? r.skillParamOffsetList
-        : [],
+      skillIntensify: safeNumber(r?.skillIntensify) || null,
     };
   }
 
@@ -723,97 +770,103 @@ function buildItemSkillMap(equipDb, skillById) {
   return out;
 }
 
-// -------------------- Lang Merge --------------------
-function mergeLang(existing, addMap) {
-  const out = existing && typeof existing === "object" ? { ...existing } : {};
-  for (const [k, v] of addMap.entries()) {
-    if (!Object.prototype.hasOwnProperty.call(out, k)) {
-      out[k] = v;
-    }
-  }
-  return out;
-}
+function collectUsedSkillIds(charDb, equipDb, talentDb, skillById) {
+  const set = new Set();
 
-// -------------------- Reports: BookFactory 포함/제외 검증 --------------------
-function writeBookReports(includedSets, equipmentList, unitList) {
-  const equipFactoryIds = new Set();
-  for (const r of equipmentList) {
-    const id = safeNumber(r?.id);
-    if (id !== null) equipFactoryIds.add(id);
-  }
+  // 1) 캐릭터 기본 스킬 + 파생(ExSkillList)
+  for (const c of Object.values(charDb)) {
+    const sl = Array.isArray(c?.skillList) ? c.skillList : [];
 
-  const unitFactoryIds = new Set();
-  for (const r of unitList) {
-    const id = safeNumber(r?.id);
-    if (id !== null) unitFactoryIds.add(id);
-  }
+    for (const it of sl) {
+      const sid = safeNumber(it?.skillId);
+      if (!sid) continue;
 
-  const equipNotInBook = [];
-  const equipInBook = [];
+      set.add(sid);
 
-  for (const id of equipFactoryIds) {
-    if (includedSets.equipIds.has(id)) equipInBook.push(id);
-    else equipNotInBook.push(id);
-  }
+      const srec = skillById.get(sid);
+      if (!srec) continue;
 
-  // not-in-book 중 Getway가 존재하는 장비 목록(예: 11800010 같은 케이스 검증)
-  const equipNotInBookWithGetway = [];
-  for (const r of equipmentList) {
-    const id = safeNumber(r?.id);
-    if (id === null) continue;
-    if (includedSets.equipIds.has(id)) continue;
-
-    const g = r?.Getway;
-    const hasGetway = Array.isArray(g) && g.length > 0;
-    if (hasGetway) {
-      equipNotInBookWithGetway.push({
-        id,
-        idCN: String(r?.idCN ?? ""),
-        name: String(r?.name ?? ""),
-        getwayCount: g.length,
-        getwayDisplayNames: g
-          .map((x) => String(x?.DisplayName ?? ""))
-          .filter(Boolean),
-      });
+      const exList = Array.isArray(srec?.ExSkillList) ? srec.ExSkillList : [];
+      for (const ex of exList) {
+        const exId = safeNumber(ex?.ExSkillName);
+        if (exId) set.add(exId);
+      }
     }
   }
 
-  const reportEquip = {
-    bookEquipIdCN: BOOK_EQUIP_IDCN,
-    bookEquipCount: includedSets.equipIds.size,
-    factoryEquipCount: equipFactoryIds.size,
-    factoryEquipInBookCount: equipInBook.length,
-    factoryEquipNotInBookCount: equipNotInBook.length,
-    factoryEquipNotInBookWithGetwayCount: equipNotInBookWithGetway.length,
-    factoryEquipNotInBookWithGetway: equipNotInBookWithGetway.sort(
-      (a, b) => a.id - b.id
-    ),
-    sampleFactoryEquipNotInBook: equipNotInBook
-      .sort((a, b) => a - b)
-      .slice(0, 50),
-  };
-
-  const unitNotInBook = [];
-  const unitInBook = [];
-  for (const id of unitFactoryIds) {
-    if (includedSets.unitIds.has(id)) unitInBook.push(id);
-    else unitNotInBook.push(id);
+  // 2) 장비 스킬
+  for (const e of Object.values(equipDb)) {
+    const sl = Array.isArray(e?.skillList) ? e.skillList : [];
+    for (const it of sl) {
+      const sid = safeNumber(it?.skillId);
+      if (sid) set.add(sid);
+    }
   }
 
-  const reportUnit = {
-    bookUnitIdCN: BOOK_UNIT_IDCN,
-    bookUnitCount: includedSets.unitIds.size,
-    factoryUnitCount: unitFactoryIds.size,
-    factoryUnitInBookCount: unitInBook.length,
-    factoryUnitNotInBookCount: unitNotInBook.length,
-    sampleFactoryUnitNotInBook: unitNotInBook
-      .sort((a, b) => a - b)
-      .slice(0, 50),
-  };
+  // 3) talent_db에 직접 정의된 파생 스킬
+  for (const t of Object.values(talentDb)) {
+    const sl = Array.isArray(t?.skillList) ? t.skillList : [];
+    for (const it of sl) {
+      const sid = safeNumber(it?.skillId);
+      if (sid) set.add(sid);
+    }
+  }
 
-  writeJson(path.join(OUT_DIR, "report_bookfactory_equip.json"), reportEquip);
-  writeJson(path.join(OUT_DIR, "report_bookfactory_unit.json"), reportUnit);
+  // 4) ⭐ Talent → Skill(강화) 규칙 (build_vm와 동일)
+  for (const t of Object.values(talentDb)) {
+    const sid = safeNumber(t?.skillIntensify);
+    if (sid) set.add(sid);
+  }
+
+  return set;
 }
+
+function buildSkillIdsByCardId(skillList) {
+  const map = new Map();
+
+  for (const s of Array.isArray(skillList) ? skillList : []) {
+    const sid = safeNumber(s?.id);
+    if (!sid) continue;
+
+    const cardId = safeNumber(s?.cardID);
+    if (!cardId) continue;
+
+    let arr = map.get(cardId);
+    if (!arr) {
+      arr = [];
+      map.set(cardId, arr);
+    }
+
+    arr.push(sid);
+  }
+
+  return map;
+}
+
+function expandUsedSkillIdsByLinkedCards(usedSkillIds, cardList, skillList) {
+  const skillIdsByCardId = buildSkillIdsByCardId(skillList);
+
+  for (const c of Array.isArray(cardList) ? cardList : []) {
+    const links = Array.isArray(c?.linkCardId) ? c.linkCardId : [];
+
+    for (const it of links) {
+      // linkCardId[].Id 를 cardId로 취급 (너가 말한 규칙 그대로)
+      const linkedCardId = safeNumber(it?.Id);
+      if (!linkedCardId) continue;
+
+      const sids = skillIdsByCardId.get(linkedCardId) || [];
+      for (const sid of sids) {
+        usedSkillIds.add(sid);
+      }
+    }
+  }
+}
+
+function writeLangJson(outPath, mapObj) {
+  ensureDirForFile(outPath);
+  fs.writeFileSync(outPath, JSON.stringify(mapObj, null, 2), "utf8");
+}
+
 // -------------------- 이미지 경로 정규화 --------------------
 
 function normalizeImgPath(p) {
@@ -830,21 +883,6 @@ function normalizeImgPath(p) {
   s = s.replace(/^\/+/, "").replace(/\/+$/, "");
 
   return s;
-}
-
-function resolveImagePathByExt(assetRootDirAbs, noExtPath) {
-  const png = path.join(assetRootDirAbs, `${noExtPath}.png`);
-  if (fs.existsSync(png)) {
-    return `${noExtPath}.png`;
-  }
-
-  const webp = path.join(assetRootDirAbs, `${noExtPath}.webp`);
-  if (fs.existsSync(webp)) {
-    return `${noExtPath}.webp`;
-  }
-
-  // 둘 다 없으면 no-ext 그대로 유지
-  return noExtPath;
 }
 
 function applyImagePathResolveToDbField(db, fieldName, assetRootDirAbs) {
@@ -866,9 +904,12 @@ function applyImagePathResolveToDbField(db, fieldName, assetRootDirAbs) {
       p = pngNoExtMap.get(key);
     } else {
       // 못 찾으면 기존 로직 유지 (존재 확인용)
-      const resolved = resolveImagePathByExt(noExt, assetRootDirAbs);
-      if (!resolved) continue;
-      p = resolved.replace(/\.(png|webp)$/i, "");
+
+      console.log(noExt);
+
+      // const resolved = resolveImagePathByExt(noExt, assetRootDirAbs);
+      // if (!resolved) continue;
+      // p = resolved.replace(/\.(png|webp)$/i, "");
     }
 
     // 4) 확장자 다시 붙이기 (png 우선)
@@ -888,15 +929,13 @@ function applyImagePathResolveToDbField(db, fieldName, assetRootDirAbs) {
 
 // -------------------- MAIN --------------------
 function main() {
-  const cfgMap = loadConfigLanguage(CONFIG_LANG_PATH);
+  const { dict, tok } = makeLangCollector();
 
   const bookFactory = loadFactoryList("BookFactory.json");
   const includedSets = buildIncludedIdSetsFromBook(bookFactory);
-
   const unitList = loadFactoryList("UnitFactory.json");
   const unitViewList = loadFactoryList("UnitViewFactory.json");
   const unitViewById = buildIdMap(unitViewList);
-
   const equipmentList = loadFactoryList("EquipmentFactory.json");
   const skillList = loadFactoryList("SkillFactory.json");
   const cardList = loadFactoryList("CardFactory.json");
@@ -904,8 +943,6 @@ function main() {
   const talentList = loadFactoryList("TalentFactory.json");
   const breakthroughList = loadFactoryList("BreakthroughFactory.json");
   const homeSkillList = loadFactoryList("HomeSkillFactory.json");
-
-  const { dict, tok } = makeLangCollector(cfgMap);
 
   // 1) DB 생성
   const charDb = buildCharDb({
@@ -919,57 +956,73 @@ function main() {
     tok,
     includedEquipIds: includedSets.equipIds,
   });
-  const skillDb = buildSkillDb({ skillList, tok });
+
   const cardDb = buildCardDb({ cardList, tok });
   const tagDb = buildTagDb({ tagList, tok });
-
   const tagColorMapping = buildTagColorMapping({ tagList });
   const talentDb = buildTalentDb({ talentList, tok });
+
+  const skillById = buildIdMap(skillList);
+  const usedSkillIds = collectUsedSkillIds(
+    charDb,
+    equipDb,
+    talentDb,
+    skillById
+  );
+
+  expandUsedSkillIdsByLinkedCards(usedSkillIds, cardList, skillList);
+
+  const skillDb = buildSkillDb({
+    skillList,
+    tok,
+    usedSkillIds,
+  });
+
   const breakDb = buildBreakDb({ breakthroughList, tok });
   const homeSkillDb = buildHomeSkillDb({ homeSkillList, tok });
 
   // 2) Map 생성(ExSkillList 1-depth)
-  const skillById = buildIdMap(skillList);
+  //const skillById = buildIdMap(skillList);
   const cardById = buildIdMap(cardList);
-  const tagById = buildIdMap(tagList);
 
   const charSkillMap = buildCharSkillMap(charDb, skillById, cardById);
   const itemSkillMap = buildItemSkillMap(equipDb, skillById);
 
-  // 3) lang 생성
-  const addCn = new Map();
-  const addKo = new Map();
+  // 3) lang 생성 (항상 덮어쓰기)
+  const cnObj = {};
   for (const [token, meta] of dict.entries()) {
-    addCn.set(token, meta.cn);
-    addKo.set(token, meta.ko);
+    cnObj[token] = meta.cn;
   }
 
   const langCnPath = path.join(OUT_DIR, "lang_cn.json");
-  const langKoPath = path.join(OUT_DIR, "lang_ko.json");
-  const langEnPath = path.join(OUT_DIR, "lang_en.json");
-  const langJpPath = path.join(OUT_DIR, "lang_jp.json");
-  const langTwPath = path.join(OUT_DIR, "lang_tw.json");
+  writeLangJson(langCnPath, cnObj);
 
-  const baseCn = MERGE_EXISTING_LANG ? readJsonIfExists(langCnPath) : null;
-  const baseKo = MERGE_EXISTING_LANG ? readJsonIfExists(langKoPath) : null;
-  const baseEn = MERGE_EXISTING_LANG ? readJsonIfExists(langEnPath) : null;
-  const baseJp = MERGE_EXISTING_LANG ? readJsonIfExists(langJpPath) : null;
-  const baseTw = MERGE_EXISTING_LANG ? readJsonIfExists(langTwPath) : null;
+  for (const t of LANG_TARGETS) {
+    const cfgPath = getConfigLanguagePathByDir(t.dir);
+    const cfgMap = fs.existsSync(cfgPath) ? loadConfigLanguage(cfgPath) : null;
 
-  const langCn = mergeLang(baseCn, addCn);
-  const langKo = mergeLang(baseKo, addKo);
+    const outObj = {};
+    let hit = 0;
+    let miss = 0;
 
-  function fillFallback(base) {
-    const out = base && typeof base === "object" ? { ...base } : {};
-    for (const [k, v] of addCn.entries()) {
-      if (!Object.prototype.hasOwnProperty.call(out, k)) out[k] = v;
+    for (const [token, meta] of dict.entries()) {
+      const cn = meta.cn;
+      const v = cfgMap ? tr(cfgMap, meta.factoryName, meta.fieldName, cn) : cn;
+
+      if (v !== cn) {
+        hit += 1;
+      } else {
+        miss += 1;
+      }
+
+      outObj[token] = v && typeof v === "string" ? v : cn;
     }
-    return out;
-  }
 
-  const langEn = fillFallback(baseEn);
-  const langJp = fillFallback(baseJp);
-  const langTw = fillFallback(baseTw);  
+    console.log(`[DBG tr] ${t.code} hit= ${hit} miss= ${miss} total= ${hit + miss}`);
+
+    const outPath = path.join(OUT_DIR, `lang_${t.code}.json`);
+    writeLangJson(outPath, outObj);
+  }
 
   // 단일 이미지 경로 필드만 처리
   applyImagePathResolveToDbField(charDb, "roleListResUrl", assetRootDirAbs);
@@ -977,13 +1030,14 @@ function main() {
   applyImagePathResolveToDbField(skillDb, "iconPath", assetRootDirAbs);
   applyImagePathResolveToDbField(talentDb, "path", assetRootDirAbs);
   applyImagePathResolveToDbField(breakDb, "path", assetRootDirAbs);
+  applyImagePathResolveToDbField(cardDb, "iconPath", assetRootDirAbs);
 
   // 4) write outputs
   writeJson(path.join(OUT_DIR, "char_db.json"), charDb);
   writeJson(path.join(OUT_DIR, "equip_db.json"), equipDb);
   writeJson(path.join(OUT_DIR, "skill_db.json"), skillDb);
   writeJson(path.join(OUT_DIR, "card_db.json"), cardDb);
-  writeJson(path.join(OUT_DIR, "tag_db.json"), tagDb);  
+  writeJson(path.join(OUT_DIR, "tag_db.json"), tagDb);
 
   writeJson(path.join(OUT_DIR, "tag_color_mapping.json"), tagColorMapping);
   writeJson(path.join(OUT_DIR, "talent_db.json"), talentDb);
@@ -992,17 +1046,6 @@ function main() {
 
   writeJson(path.join(OUT_DIR, "char_skill_map.json"), charSkillMap);
   writeJson(path.join(OUT_DIR, "item_skill_map.json"), itemSkillMap);
-
-  writeJson(langCnPath, langCn);
-  writeJson(langKoPath, langKo);
-  writeJson(langEnPath, langEn);
-  writeJson(langJpPath, langJp);
-  writeJson(langTwPath, langTw);
-
-  // 5) 검증 리포트
-  if (WRITE_REPORTS) {
-    writeBookReports(includedSets, equipmentList, unitList);
-  }
 
   console.log(
     "[ok] BookFactory unitIds =",

@@ -717,5 +717,17 @@
   "url_copied": "共有URLがクリップボードにコピーされました！",
   "url_copy_failed": "共有URLの生成に失敗しました",
   "usage_settings": "オプション",
-  "use_immediately": "直接出す"
+  "use_immediately": "直接出す",
+
+  "skill.derived": "派生",
+  "skill.not_from_characters": "共通",
+  "character.birthday": "誕生日",
+  "character.gender": "性別",
+  "character.height": "身長",
+  "character.birthplace": "出身地",
+  "character.identity": "現在の身分",
+  "character.ability": "昇格能力",
+  "character.Resume": "経歴",
+  "character.Skills": "スキル"
+
 }

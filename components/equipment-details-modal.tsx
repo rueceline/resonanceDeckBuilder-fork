@@ -63,7 +63,7 @@ export function EquipmentDetailsModal({
           </button>
         </div>
       }
-      maxWidth="max-w-md"
+      maxWidth="max-w-3xl"
       closeOnOutsideClick={true} // 외부 클릭으로 닫히지 않도록 설정
     >
       <div className="p-4">

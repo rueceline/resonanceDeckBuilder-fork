@@ -97,7 +97,7 @@ export function BattleSettings({ settings, onUpdateSettings, getTranslatedString
             </div>
 
             {/* Discard Conditions */}
-            <div>
+            {/* <div>
               <label htmlFor="discardType" className="block text-sm mb-2">
                 {getTranslatedString("battle.discard.conditions") || "Discard Conditions"}
               </label>
@@ -111,7 +111,7 @@ export function BattleSettings({ settings, onUpdateSettings, getTranslatedString
                 <option value={1}>{getTranslatedString("battle.discard.active") || "Active"}</option>
                 <option value={2}>{getTranslatedString("battle.discard.empty") || "Empty"}</option>
               </select>
-            </div>
+            </div> */}
           </div>
 
           <div className="space-y-6">

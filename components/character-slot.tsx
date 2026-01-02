@@ -481,7 +481,7 @@ export function CharacterSlot({
           onSelectEquipment={handleEquipItem}
           getTranslatedString={getTranslatedString}
           type={showEquipmentSelector}
-          maxWidth="max-w-3xl"
+          maxWidth="max-w-5xl"
           footer={
             <div className="flex justify-end">
               <button

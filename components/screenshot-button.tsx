@@ -5,7 +5,6 @@ import type React from "react"
 import { useState } from "react"
 import { Camera } from "lucide-react"
 import * as htmlToImage from "html-to-image"
-import { analytics, logEventWrapper } from "../lib/firebase-config"
 
 interface ScreenshotButtonProps {
   targetRef: React.RefObject<HTMLElement>
@@ -19,9 +18,6 @@ export function ScreenshotButton({ targetRef, getTranslatedString }: ScreenshotB
     if (!targetRef.current) return
 
     try {
-      if (analytics && typeof window !== "undefined") {
-        logEventWrapper( "take_screen_shot", {})
-      }
       setIsCapturing(true)
 
       // 캡처 모드 클래스 추가 - 테두리 효과 제거를 위한 클래스

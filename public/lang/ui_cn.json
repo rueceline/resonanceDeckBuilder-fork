@@ -719,5 +719,15 @@
   "url_copied": "可分享链接已复制到剪贴板！",
   "url_copy_failed": "生成可分享链接失败",
   "usage_settings": "选择操作",
-  "use_immediately": "直接释放"
+  "use_immediately": "直接释放",
+    "skill.derived": "衍生",
+  "skill.not_from_characters": "通用",
+  "character.birthday": "生日",
+  "character.gender": "性别",
+  "character.height": "身高",
+  "character.birthplace": "出生地",
+  "character.identity": "当前身份",
+  "character.ability": "晋升能力",
+  "character.Resume": "经历",
+  "character.Skills": "技能"
 }

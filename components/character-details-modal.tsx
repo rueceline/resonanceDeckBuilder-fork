@@ -1,21 +1,21 @@
-"use client"
-import type { Character, Card } from "../types"
-import type React from "react"
-import { useState, useEffect } from "react"
-import { TabModal } from "./ui/modal/TabModal"
-import { formatColorText } from "../utils/format-text"
+"use client";
+import type { Character, Card } from "../types";
+import type React from "react";
+import { useState, useEffect } from "react";
+import { TabModal } from "./ui/modal/TabModal";
+import { formatColorText } from "../utils/format-text";
 
 interface CharacterDetailsModalProps {
-  isOpen: boolean
-  onClose: (e?: React.MouseEvent) => void
-  character: Character
-  getTranslatedString: (key: string) => string
-  getCardInfo: (cardId: string) => { card: Card } | null
-  getSkill?: (skillId: number) => any
-  data?: any
-  initialTab?: "info" | "talents" | "breakthroughs"
-  selectedAwakeningStage?: number | null
-  onAwakeningSelect?: (stage: number | null) => void
+  isOpen: boolean;
+  onClose: (e?: React.MouseEvent) => void;
+  character: Character;
+  getTranslatedString: (key: string) => string;
+  getCardInfo: (cardId: string) => { card: Card } | null;
+  getSkill?: (skillId: number) => any;
+  data?: any;
+  initialTab?: "info" | "skills" | "talents" | "breakthroughs";
+  selectedAwakeningStage?: number | null;
+  onAwakeningSelect?: (stage: number | null) => void;
 }
 
 export function CharacterDetailsModal({
@@ -31,150 +31,178 @@ export function CharacterDetailsModal({
   onAwakeningSelect,
 }: CharacterDetailsModalProps) {
   // 홈 스킬 데이터를 저장할 상태 추가
-  const [homeSkills, setHomeSkills] = useState<any[]>([])
+  const [homeSkills, setHomeSkills] = useState<any[]>([]);
 
   // 컴포넌트 마운트 시 홈 스킬 데이터 로드
   useEffect(() => {
-    // 캐릭터에 homeSkillList가 있는 경우에만 처리
-    if (character && character.homeSkillList && data) {
-      const loadHomeSkills = async () => {
-        try {
-          // home_skill_db.json 데이터 로드 (이미 data에 있다면 그것을 사용)
-          let homeSkillDb = data.homeSkills
-
-          // data에 homeSkills가 없다면 API로 가져오기 시도
-          if (!homeSkillDb) {
-            try {
-              const response = await fetch("/api/db/home_skill_db.json")
-              homeSkillDb = await response.json()
-            } catch (error) {
-              console.error("Failed to load home skill data:", error)
-              return
-            }
-          }
-
-          // homeSkillType별로 param 값을 누적하기 위한 맵
-          const accumulatedParams: Record<string, number> = {}
-
-          // 캐릭터의 homeSkillList에서 정보 추출
-          const skills = character.homeSkillList
-            .map((homeSkill: any) => {
-              const skillData = homeSkillDb[homeSkill.id]
-              if (!skillData) return null
-
-              // param 값이 있으면 저장
-              const paramValue = homeSkill.param || skillData?.param || 0
-
-              // homeSkillType이 있으면 누적 값 계산
-              const homeSkillType = skillData.homeSkillType || homeSkill.homeSkillType || homeSkill.id
-
-              // 이전에 같은 타입이 있었다면 누적
-              if (accumulatedParams[homeSkillType] !== undefined) {
-                accumulatedParams[homeSkillType] += paramValue
-              } else {
-                accumulatedParams[homeSkillType] = paramValue
-              }
-
-              return {
-                ...homeSkill,
-                ...skillData,
-                paramValue,
-                homeSkillType,
-                accumulatedValue: accumulatedParams[homeSkillType],
-              }
-            })
-            .filter(Boolean)
-
-          setHomeSkills(skills)
-        } catch (error) {
-          console.error("Error processing home skills:", error)
-        }
-      }
-
-      loadHomeSkills()
+    if (!character || !data) return;
+    if (!character.homeSkillList || character.homeSkillList.length === 0) {
+      setHomeSkills([]);
+      return;
     }
-  }, [character, data])
+
+    const HOME_PARAM_SCALE = 1_000_000;
+
+    const homeSkillById = new Map<number, any>();
+    for (const h of Object.values(data.homeSkills || {})) {
+      if (h && h.id != null) {
+        homeSkillById.set(Number(h.id), h);
+      }
+    }
+
+    const rawList = character.homeSkillList;
+
+    // 1) index 기준 base param 적재
+    const accParamByIndex = new Map<number, number>();
+
+    rawList.forEach((hs: any, idx: number) => {
+      const hid = Number(hs?.id);
+      const hrec = homeSkillById.get(hid);
+      if (!hrec) return;
+
+      const baseParam = Number(hrec.param);
+      if (!Number.isFinite(baseParam)) return;
+
+      accParamByIndex.set(idx, Math.trunc(baseParam * HOME_PARAM_SCALE));
+    });
+
+    // 2) nextIndex 체인 누적 (character_detail.js 규칙)
+    rawList.forEach((hs: any, idx: number) => {
+      const nextIdx1 = Number(hs?.nextIndex);
+      if (!Number.isFinite(nextIdx1) || nextIdx1 <= 0) return;
+
+      const nextIdx0 = nextIdx1 - 1;
+
+      if (!accParamByIndex.has(idx)) return;
+      if (!accParamByIndex.has(nextIdx0)) return;
+
+      accParamByIndex.set(
+        nextIdx0,
+        accParamByIndex.get(nextIdx0)! + accParamByIndex.get(idx)!
+      );
+    });
+
+    // 3) desc + %s 치환 완료된 homeSkill 생성
+    // 3) desc + %s 치환 완료된 homeSkill 생성
+    // 3) desc + nextIndex 누적값 적용
+    const computedHomeSkills = rawList
+      .map((hs: any, idx: number) => {
+        const hid = Number(hs?.id);
+        const hrec = homeSkillById.get(hid);
+        if (!hrec) return null;
+
+        const descTpl = String(
+          getTranslatedString(hrec.desc) || hrec.desc || ""
+        );
+
+        const accScaled = accParamByIndex.get(idx);
+        let paramText = "";
+
+        if (typeof accScaled === "number") {
+          const accParam = accScaled / HOME_PARAM_SCALE;
+
+          // ⭐ isPCT 미존재 → 소수 여부로 % 판별
+          if (!Number.isInteger(accParam)) {
+            const pct = accParam * 100;
+            const pctTrunc = Math.trunc(pct * 10) / 10;
+            paramText = pctTrunc.toFixed(1);
+          } else {
+            const vTrunc = Math.trunc(accParam * 1000) / 1000;
+            paramText = String(vTrunc);
+          }
+        }
+
+        // %s 에 실제 누적 계산값 적용
+        let desc = descTpl.replace(/%s/g, paramText);
+
+        // %% 는 % 출력용 escape
+        desc = desc.replace(/%%/g, "%");
+
+        return {
+          id: hid,
+          resonanceLv: Number(hs?.resonanceLv),
+          name: getTranslatedString(hrec.name) || hrec.name,
+          desc,
+        };
+      })
+      .filter(Boolean);
+
+    setHomeSkills(computedHomeSkills);
+  }, [character, data]);
 
   // Function to get rarity badge color
   const getRarityColor = (rarity: string) => {
     switch (rarity) {
       case "UR":
-        return "bg-gradient-to-r from-orange-500 to-amber-500"
+        return "bg-gradient-to-r from-orange-500 to-amber-500";
       case "SSR":
-        return "bg-gradient-to-r from-yellow-500 to-amber-500"
+        return "bg-gradient-to-r from-yellow-500 to-amber-500";
       case "SR":
-        return "bg-gradient-to-r from-purple-500 to-indigo-500"
+        return "bg-gradient-to-r from-purple-500 to-indigo-500";
       case "R":
-        return "bg-gradient-to-r from-blue-500 to-cyan-500"
+        return "bg-gradient-to-r from-blue-500 to-cyan-500";
       default:
-        return "bg-gray-500"
+        return "bg-gray-500";
     }
-  }
+  };
 
   // Process skill description to replace #r with actual values
   const processSkillDescription = (skill: any, description: string) => {
-    if (!skill || !description) return description
+    if (!skill || !description) return description;
 
-    // 번역된 설명 가져오기
-    const translatedDesc = getTranslatedString(description)
+    // 번역된 설명 가져오기, \\n -> \n 개행
+    const translatedDesc = getTranslatedString(description).replace(
+      /\\n/g,
+      "\n"
+    );
 
     // Check if desParamList exists and has items
     if (skill.desParamList && skill.desParamList.length > 0) {
       // 모든 #r 태그를 찾아서 배열로 저장
-      const rTags = translatedDesc.match(/#r/g) || []
+      const rTags = translatedDesc.match(/#r/g) || [];
 
       // #r 태그가 없으면 원본 반환
-      if (rTags.length === 0) return translatedDesc
+      if (rTags.length === 0) return translatedDesc;
 
-      let processedDesc = translatedDesc
-      let rTagIndex = 0
+      let processedDesc = translatedDesc;
+      let rTagIndex = 0;
 
       // desParamList의 각 항목을 순회하면서 #r 태그를 순서대로 대체
-      for (let i = 0; i < skill.desParamList.length && rTagIndex < rTags.length; i++) {
-        const param = skill.desParamList[i]
-        const paramValue = param.param
+      for (
+        let i = 0;
+        i < skill.desParamList.length && rTagIndex < rTags.length;
+        i++
+      ) {
+        const param = skill.desParamList[i];
+        const paramValue = param.param;
 
         // Check if skillParamList exists
         if (skill.skillParamList && skill.skillParamList[0]) {
           // Find the skillRate key based on param value
-          const rateKey = `skillRate${paramValue}_SN`
+          const rateKey = `skillRate${paramValue}_SN`;
           if (skill.skillParamList[0][rateKey] !== undefined) {
             // Calculate the rate value (divide by 10000)
-            let rateValue = Math.floor(skill.skillParamList[0][rateKey] / 10000)
-            
+            let rateValue = Math.floor(
+              skill.skillParamList[0][rateKey] / 10000
+            );
+
             // Add % if isPercent is true
             if (param.isPercent) {
-              rateValue = `${skill.skillParamList[0][rateKey]/100}%`
+              rateValue = `${skill.skillParamList[0][rateKey] / 100}%`;
             }
 
             // Replace only the first occurrence of #r
-            processedDesc = processedDesc.replace(/#r/, rateValue.toString())
-            rTagIndex++
+            processedDesc = processedDesc.replace(/#r/, rateValue.toString());
+            rTagIndex++;
           }
         }
       }
 
-      return processedDesc
+      return processedDesc;
     }
 
-    return translatedDesc
-  }
-
-  // Process homeSkill description to replace %s with param value
-  const processHomeSkillDesc = (desc: string, paramValue: number) => {
-    if (!desc) return desc
-
-    // %s% 패턴을 찾아 100을 곱한 값으로 교체 (예: 0.2 -> 20%)
-    let processedDesc = desc.replace(/%s%/g, () => {
-      const percentValue = Math.round(paramValue * 100)
-      return `${percentValue}`
-    })
-
-    // 일반 %s 패턴을 찾아 값으로 교체
-    processedDesc = processedDesc.replace(/%s/g, paramValue.toString())
-
-    return processedDesc
-  }
+    return translatedDesc;
+  };
 
   // Format text with color tags and other HTML tags
 
@@ -183,27 +211,25 @@ export function CharacterDetailsModal({
     if (onAwakeningSelect) {
       // 이미 선택된 항목을 다시 클릭하면 선택 취소
       if (selectedAwakeningStage === stage) {
-        onAwakeningSelect(null)
+        onAwakeningSelect(null);
       } else {
-        onAwakeningSelect(stage)
+        onAwakeningSelect(stage);
       }
     }
-  }
+  };
 
   // 이미지 URL 가져오기 함수
-    // 이미지 URL 가져오기 함수
   const getImageUrl = (type: "talent" | "break", id: number) => {
-    if (!data) return null
+    if (!data) return null;
 
     if (type === "talent") {
-      const t = data.talents[String(id)]
-      return (t && t.img_url) ? t.img_url : null
+      const t = data.talents[String(id)];
+      return t && t.img_url ? t.img_url : null;
     }
 
-    const b = data.breakthroughs[String(id)]
-    return (b && b.img_url) ? b.img_url : null
-  }
-
+    const b = data.breakthroughs[String(id)];
+    return b && b.img_url ? b.img_url : null;
+  };
 
   const modalProps = {
     isOpen: isOpen,
@@ -211,7 +237,7 @@ export function CharacterDetailsModal({
     tabs: [
       {
         id: "info",
-        label: getTranslatedString("character.info") || "Character & Skills",
+        label: getTranslatedString("character.info") || "Profile",
         content: (
           <div className="flex flex-col md:flex-row gap-4 p-4">
             {/* Character Image and Description */}
@@ -228,40 +254,98 @@ export function CharacterDetailsModal({
               <div className="mt-2 text-center">
                 <div className="text-lg font-bold flex items-center justify-center">
                   <span
-                    className={`text-xs font-bold px-2 py-0.5 rounded-full text-white mr-2 ${getRarityColor(character.rarity)}`}
+                    className={`text-xs font-bold px-2 py-0.5 rounded-full text-white mr-2 ${getRarityColor(
+                      character.rarity
+                    )}`}
                   >
                     {character.rarity}
                   </span>
-                  <span className="neon-text">{getTranslatedString(character.name)}</span>
+                  <span className="neon-text">
+                    {getTranslatedString(character.name)}
+                  </span>
                 </div>
               </div>
 
               {/* Character Description moved below portrait - 포맷팅 적용 */}
               <div className="mt-4 character-detail-section">
-                <h3 className="character-detail-section-title">
-                  {getTranslatedString("character.description") || "Description"}
-                </h3>
-                <p className="text-gray-300">{formatColorText(getTranslatedString(character.desc))}</p>
+                <p className="text-gray-300">
+                  {formatColorText(getTranslatedString(character.getCharacter))}
+                </p>
               </div>
             </div>
 
-            {/* Character Skills */}
+            {/* <div className="flex flex-col md:flex-row gap-4 p-4"> */}
+
             <div className="w-full md:w-2/3">
-              <div className="character-detail-section">
-                <h3 className="character-detail-section-title">
-                  {getTranslatedString("character.skills") || "Skills"}
-                </h3>
-                <div className="space-y-3">
-                  {/* Skill 1 */}
-                  {renderSkill(0, "skill.normal_1", "Skill 1")}
+              <div className="character-detail-section space-y-2">
+                <div>
+                  <strong>{getTranslatedString("character.birthday")} : </strong>{" "}
+                  {getTranslatedString(character.birthday)}
+                </div>
 
-                  {/* Skill 2 */}
-                  {renderSkill(1, "skill.normal_2", "Skill 2")}
+                <div>
+                  <strong>{getTranslatedString("character.gender")} : </strong>
+                  {getTranslatedString(character.gender)}
+                </div>
 
-                  {/* Ultimate Skill */}
-                  {renderSkill(2, "skill.ultimate", "Ultimate")}
+                <div>
+                  <strong>{getTranslatedString("character.height")} : </strong>
+                  {character.height}
+                </div>
+
+                <div>
+                  <strong>
+                    {getTranslatedString("character.birthplace")}:
+                  </strong>
+                  {getTranslatedString(character.birthplace)}
+                </div>
+                
+                <div>
+                  <strong>{getTranslatedString("character.identity")} : </strong>
+                  {getTranslatedString(character.identity)}
+                </div>
+
+                <div>
+                  <strong>{getTranslatedString("character.ability")} : </strong>
+                  {getTranslatedString(character.ability)}
+                </div>                
+
+                <div className="mt-4">
+                  <strong>{getTranslatedString("character.Resume")}</strong>
+                  {Array.isArray(character.ResumeList) &&
+                    character.ResumeList.length > 0 && (
+                      <div className="mt-2 space-y-1">
+                        {character.ResumeList.map((r: any, idx: number) => (
+                          <div
+                            key={`resume-${idx}`}
+                            className="text-sm text-gray-300"
+                          >
+                            {formatColorText(getTranslatedString(r.des))}
+                          </div>
+                        ))}
+                      </div>
+                    )}
                 </div>
               </div>
+            </div>
+          </div>
+        ),
+      },
+      {
+        id: "skills",
+        label: getTranslatedString("character.Skills") || "Character & Skills",
+        content: (
+          <div className="space-y-3 p-4">
+            {/* Character Skills */}
+            <div className="space-y-3">
+              {/* Skill 1 */}
+              {renderSkill(0, "skill.normal_1", "Skill 1")}
+
+              {/* Skill 2 */}
+              {renderSkill(1, "skill.normal_2", "Skill 2")}
+
+              {/* Ultimate Skill */}
+              {renderSkill(2, "skill.ultimate", "Ultimate")}
             </div>
           </div>
         ),
@@ -274,13 +358,30 @@ export function CharacterDetailsModal({
             {character.talentList && character.talentList.length > 0 ? (
               character.talentList.map((talent, index) => {
                 // 공명 이미지 URL 가져오기
-                const talentImageUrl = getImageUrl("talent", talent.talentId)
+                const talentImageUrl = getImageUrl("talent", talent.talentId);
 
                 // 해당 공명 단계에 맞는 홈 스킬 찾기
-                const relatedHomeSkills = homeSkills.filter((skill) => skill.resonanceLv === index + 1)
+                const relatedHomeSkills = homeSkills.filter(
+                  (skill) => skill.resonanceLv === index + 1
+                );
+
+                // ⭐ talent_db 레코드 (skillList 포함)
+                const talentRec =
+                  (data?.talents &&
+                    (data.talents[String(talent.talentId)] ||
+                      data.talents[talent.talentId])) ||
+                  null;
+
+                const talentBaseSkillId =
+                  talentRec && talentRec.skillIntensify
+                    ? Number(talentRec.skillIntensify)
+                    : 0;
 
                 return (
-                  <div key={`talent-${index}`} className="p-3 bg-black bg-opacity-50 rounded-lg">
+                  <div
+                    key={`talent-${index}`}
+                    className="p-3 bg-black bg-opacity-50 rounded-lg"
+                  >
                     <div className="flex">
                       {/* 공명 이미지 또는 번호 표시 */}
                       <div className="w-12 h-12 flex-shrink-0 mr-3 rounded-md overflow-hidden flex items-center justify-center">
@@ -291,15 +392,17 @@ export function CharacterDetailsModal({
                             className="w-full h-full object-cover"
                           />
                         ) : (
-                          <span className="text-white font-bold">{index + 1}</span>
+                          <span className="text-white font-bold">
+                            {index + 1}
+                          </span>
                         )}
                       </div>
 
                       <div className="flex-grow">
                         <div className="flex items-center">
                           <div className="font-medium neon-text">
-                            {data?.talents && data.talents[talent.talentId]
-                              ? getTranslatedString(data.talents[talent.talentId].name)
+                            {talentRec
+                              ? getTranslatedString(talentRec.name)
                               : `Talent ${talent.talentId}`}
                           </div>
                           {/* 공명 단계 표시 */}
@@ -307,11 +410,12 @@ export function CharacterDetailsModal({
                             {"Lv."} {index + 1}
                           </div>
                         </div>
+
                         <div className="text-sm text-gray-400 mt-1">
                           {formatColorText(
-                            data?.talents && data.talents[talent.talentId]
-                              ? getTranslatedString(data.talents[talent.talentId].desc)
-                              : "No description available",
+                            talentRec
+                              ? getTranslatedString(talentRec.desc)
+                              : "No description available"
                           )}
                         </div>
 
@@ -319,24 +423,34 @@ export function CharacterDetailsModal({
                         {relatedHomeSkills.length > 0 && (
                           <div className="mt-2 border-t border-gray-700 pt-2">
                             {relatedHomeSkills.map((skill, skillIndex) => (
-                              <div key={`home-skill-${skillIndex}`} className="text-xs text-gray-300 ml-2 mb-1">
+                              <div
+                                key={`home-skill-${skillIndex}`}
+                                className="text-xs text-gray-300 ml-2 mb-1"
+                              >
                                 <span className="font-medium text-white">
-                                  {getTranslatedString(skill.name) || skill.name}:
+                                  {getTranslatedString(skill.name) ||
+                                    skill.name}
+                                  :
                                 </span>{" "}
-                                {formatColorText(
-                                  processHomeSkillDesc(
-                                    getTranslatedString(skill.desc) || skill.desc,
-                                    skill.accumulatedValue || skill.paramValue,
-                                  ),
-                                )}
+                                {formatColorText(skill.desc)}
                               </div>
                             ))}
+                          </div>
+                        )}
+
+                        {/* ⭐ 특성 스킬(= talent_db.skillList) + 파생 스킬 표시 */}
+                        {talentBaseSkillId > 0 && (
+                          <div className="mt-3 border-t border-gray-700 pt-3">
+                            {renderTalentSkill({
+                              skillId: talentBaseSkillId,
+                              rowKey: `talent-derived-skill-${talent.talentId}`,
+                            })}
                           </div>
                         )}
                       </div>
                     </div>
                   </div>
-                )
+                );
               })
             ) : (
               <div className="text-gray-400 text-center p-4">
@@ -346,83 +460,102 @@ export function CharacterDetailsModal({
           </div>
         ),
       },
+
       {
         id: "breakthroughs",
-        label: getTranslatedString("character.breakthroughs") || "Breakthroughs",
+        label:
+          getTranslatedString("character.breakthroughs") || "Breakthroughs",
         content: (
           <div className="space-y-3 p-4">
-            {character.breakthroughList && character.breakthroughList.length > 0 ? (
+            {character.breakthroughList &&
+            character.breakthroughList.length > 0 ? (
               // 각성 항목 선택 가능하도록 수정
-              character.breakthroughList
-                .slice(1)
-                .map((breakthrough, index) => {
-                  // 각성 이미지 URL 가져오기
-                  const breakImageUrl = getImageUrl("break", breakthrough.breakthroughId)
+              character.breakthroughList.slice(1).map((breakthrough, index) => {
+                // 각성 이미지 URL 가져오기
+                const breakImageUrl = getImageUrl(
+                  "break",
+                  breakthrough.breakthroughId
+                );
 
-                  return (
-                    <div
-                      key={`breakthrough-${index}`}
-                      className={`p-3 bg-black bg-opacity-50 rounded-lg cursor-pointer transition-all duration-200 ${
-                        selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
-                          ? "border-2 border-blue-500 shadow-lg shadow-blue-500/50"
-                          : "hover:bg-black hover:bg-opacity-70"
-                      }`}
-                      onClick={() => handleAwakeningSelect(index + 1)}
-                    >
-                      <div className="flex">
-                        {/* 각성 이미지 또는 번호 표시 */}
-                        <div
-                          className={`w-12 h-12 rounded-full flex-shrink-0 flex items-center justify-center mr-3 overflow-hidden ${
-                            selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
-                              ? "bg-purple-600"
-                              : ""
-                          }`}
-                        >
-                          {breakImageUrl ? (
-                            <img
-                              src={breakImageUrl || "/placeholder.svg"}
-                              alt={`Breakthrough ${index + 1}`}
-                              className="w-full h-full object-cover"
-                            />
-                          ) : (
-                            <span className="text-white font-bold">{index + 1}</span>
-                          )}
+                return (
+                  <div
+                    key={`breakthrough-${index}`}
+                    className={`p-3 bg-black bg-opacity-50 rounded-lg cursor-pointer transition-all duration-200 ${
+                      selectedAwakeningStage !== null &&
+                      index + 1 <= selectedAwakeningStage
+                        ? "border-2 border-blue-500 shadow-lg shadow-blue-500/50"
+                        : "hover:bg-black hover:bg-opacity-70"
+                    }`}
+                    onClick={() => handleAwakeningSelect(index + 1)}
+                  >
+                    <div className="flex">
+                      {/* 각성 이미지 또는 번호 표시 */}
+                      <div
+                        className={`w-12 h-12 rounded-full flex-shrink-0 flex items-center justify-center mr-3 overflow-hidden ${
+                          selectedAwakeningStage !== null &&
+                          index + 1 <= selectedAwakeningStage
+                            ? "bg-purple-600"
+                            : ""
+                        }`}
+                      >
+                        {breakImageUrl ? (
+                          <img
+                            src={breakImageUrl || "/placeholder.svg"}
+                            alt={`Breakthrough ${index + 1}`}
+                            className="w-full h-full object-cover"
+                          />
+                        ) : (
+                          <span className="text-white font-bold">
+                            {index + 1}
+                          </span>
+                        )}
+                      </div>
+
+                      <div className="flex-grow">
+                        <div className="flex items-center">
+                          <div className="font-medium neon-text">
+                            {data?.breakthroughs &&
+                            data.breakthroughs[breakthrough.breakthroughId]
+                              ? getTranslatedString(
+                                  data.breakthroughs[
+                                    breakthrough.breakthroughId
+                                  ].name
+                                )
+                              : `Breakthrough ${breakthrough.breakthroughId}`}
+                          </div>
+                          {/* 각성 단계 표시 */}
+                          <div className="ml-2 text-xs px-2 py-0.5 bg-gray-600 rounded-full text-white">
+                            {"Lv."} {index + 1}
+                          </div>
                         </div>
-
-                        <div className="flex-grow">
-                          <div className="flex items-center">
-                            <div className="font-medium neon-text">
-                              {data?.breakthroughs && data.breakthroughs[breakthrough.breakthroughId]
-                                ? getTranslatedString(data.breakthroughs[breakthrough.breakthroughId].name)
-                                : `Breakthrough ${breakthrough.breakthroughId}`}
-                            </div>
-                            {/* 각성 단계 표시 */}
-                            <div className="ml-2 text-xs px-2 py-0.5 bg-gray-600 rounded-full text-white">
-                              {"Lv."} {index + 1}
-                            </div>
-                          </div>
-                          <div className="text-sm text-gray-400 mt-1">
-                            {formatColorText(
-                              data?.breakthroughs && data.breakthroughs[breakthrough.breakthroughId]
-                                ? getTranslatedString(data.breakthroughs[breakthrough.breakthroughId].desc)
-                                : "No description available",
-                            )}
-                          </div>
+                        <div className="text-sm text-gray-400 mt-1">
+                          {formatColorText(
+                            data?.breakthroughs &&
+                              data.breakthroughs[breakthrough.breakthroughId]
+                              ? getTranslatedString(
+                                  data.breakthroughs[
+                                    breakthrough.breakthroughId
+                                  ].desc
+                                )
+                              : "No description available"
+                          )}
                         </div>
                       </div>
                     </div>
-                  )
-                })
+                  </div>
+                );
+              })
             ) : (
               <div className="text-gray-400 text-center p-4">
-                {getTranslatedString("no_breakthroughs") || "No breakthroughs available"}
+                {getTranslatedString("no_breakthroughs") ||
+                  "No breakthroughs available"}
               </div>
             )}
           </div>
         ),
       },
     ],
-  }
+  };
 
   return (
     <TabModal
@@ -430,125 +563,318 @@ export function CharacterDetailsModal({
       initialTabId={initialTab}
       footer={
         <div className="flex justify-end">
-          <button onClick={() => onClose()} className="neon-button px-4 py-2 rounded-lg text-sm">
+          <button
+            onClick={() => onClose()}
+            className="neon-button px-4 py-2 rounded-lg text-sm"
+          >
             Close
           </button>
         </div>
       }
-      maxWidth="max-w-2xl"
+      maxWidth="max-w-5xl"
       closeOnOutsideClick={true} // 외부 클릭으로 닫히지 않도록 설정
     />
-  )
+  );
 
   // Helper function to render a skill
   function renderSkill(index: number, labelKey: string, defaultLabel: string) {
+    function toInt(v: any) {
+      const n = typeof v === "number" ? v : Number(v);
+      return Number.isFinite(n) ? n : 0;
+    }
+
     if (!character.skillList || character.skillList.length <= index) {
       return (
         <div className="p-3 rounded-lg opacity-50">
           <div className="flex items-center">
-            <div>
-              <div className="flex items-center">
-                <span className="text-xs bg-blue-500 text-white px-1.5 py-0.5 rounded-full mr-2">
-                  {getTranslatedString(labelKey) || defaultLabel}
-                </span>
-                <span className="font-medium">{getTranslatedString("skill.not_available") || "Not Available"}</span>
-              </div>
-            </div>
+            <span className="text-xs bg-blue-500 text-white px-1.5 py-0.5 rounded-full mr-2">
+              {getTranslatedString(labelKey) || defaultLabel}
+            </span>
+            <span className="font-medium">
+              {getTranslatedString("skill.not_available") || "Not Available"}
+            </span>
           </div>
         </div>
-      )
+      );
     }
 
-    const skillItem = character.skillList[index]
-    const skillId = skillItem.skillId
-    const skillQuantity = skillItem.num || 0
+    const skillItem = character.skillList[index];
+    const skillId = toInt(skillItem?.skillId);
+    const skillQuantity = toInt(skillItem?.num);
 
-    // 스킬 정보 직접 가져오기
-    const skill = getSkill ? getSkill(skillId) : null
-
+    const skill = getSkill ? getSkill(skillId) : null;
     if (!skill) {
       return (
         <div className="p-3 rounded-lg opacity-50">
-          <div className="flex items-center">
-            <div>
-              <div className="flex items-center">
-                <span className="text-xs bg-blue-500 text-white px-1.5 py-0.5 rounded-full mr-2">
-                  {getTranslatedString(labelKey) || defaultLabel}
-                </span>
-                <span className="font-medium">{getTranslatedString("skill.not_found") || `Skill ID: ${skillId}`}</span>
-              </div>
-            </div>
-          </div>
+          <span className="font-medium">
+            {getTranslatedString("skill.not_found") || `Skill ID: ${skillId}`}
+          </span>
         </div>
-      )
+      );
     }
 
-    // 스킬 이미지 URL 찾기
+    // 기본 스킬 이미지 URL
     let skillImageUrl: string | null = null;
-
-    const rawIconPath = String(skill?.iconPath ?? "").trim();
+    const rawIconPath = String(skill.iconPath ?? "").trim();
     if (rawIconPath) {
-      // iconPath가 "RolePlus/..../xxx.png" 같은 상대경로면 /assets/ 를 붙여서 브라우저 URL로 만든다
-      if (rawIconPath.startsWith("http://") || rawIconPath.startsWith("https://") || rawIconPath.startsWith("/")) {
+      if (
+        rawIconPath.startsWith("http://") ||
+        rawIconPath.startsWith("https://") ||
+        rawIconPath.startsWith("/")
+      ) {
         skillImageUrl = rawIconPath;
       } else {
         skillImageUrl = `/assets/${rawIconPath.replace(/^\/+/, "")}`;
       }
     }
 
-    // Get skill cost from card data if available
-    let skillCost = 0
+    // 기본 스킬 cost
+    let skillCost = 0;
     if (skill.cardID) {
-      const cardData = data?.cards[skill.cardID]
+      const cardData = data?.cards[skill.cardID];
       if (cardData && cardData.cost_SN !== undefined) {
-        skillCost = Math.floor(cardData.cost_SN / 10000)
+        skillCost = Math.floor(cardData.cost_SN / 10000);
       }
     }
 
-    // Process skill description with #r replacement
-    const processedDescription = processSkillDescription(skill, getTranslatedString(skill.description))
+    const processedDescription = processSkillDescription(
+      skill,
+      getTranslatedString(skill.description)
+    );
+
+    // 파생 스킬(1-depth) 수집: ExSkillList = [{ ExSkillName, isNeturality }]
+    const exList = Array.isArray(skill.ExSkillList) ? skill.ExSkillList : [];
+    const derivedSkills = exList
+      .map((ex: any) => ({
+        skillId: toInt(ex?.ExSkillName),
+        isNeturality: ex?.isNeturality === true,
+      }))
+      .filter((x) => x.skillId > 0);
 
     return (
-      <div className="p-3 rounded-lg">
+      <div className="space-y-2">
+        {/* 기본 스킬 */}
+        <div className="p-3 rounded-lg">
+          <div className="flex">
+            <div className="w-12 h-12 bg-black rounded-md overflow-hidden mr-3 flex-shrink-0">
+              {skillImageUrl ? (
+                <img
+                  src={skillImageUrl}
+                  alt=""
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-gray-400 text-xs">
+                  No Image
+                </div>
+              )}
+            </div>
+
+            <div className="flex-grow">
+              <div className="flex items-center">
+                <span className="text-xs bg-blue-500 text-white px-1.5 py-0.5 rounded-full mr-2">
+                  {getTranslatedString(labelKey) || defaultLabel}
+                </span>
+                <span className="font-medium neon-text">
+                  {getTranslatedString(skill.name)}
+                </span>
+                <span className="ml-2 text-sm text-gray-300">
+                  COST : {skillCost} / {getTranslatedString("amount")} :{" "}
+                  {skillQuantity}
+                </span>
+              </div>
+
+              {processedDescription && (
+                <div className="text-sm text-gray-400 mt-1">
+                  {formatColorText(processedDescription)}
+                </div>
+              )}
+
+              {index === 2 && skill.leaderCardConditionDesc && (
+                <div className="text-sm mt-2" style={{ color: "#ca0a3aff" }}>
+                  <strong>
+                    {getTranslatedString("leader_skill_condition")}:{" "}
+                  </strong>
+                  {formatColorText(
+                    getTranslatedString(skill.leaderCardConditionDesc)
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* 파생 스킬 */}
+        {derivedSkills.length > 0 && (
+          <div className="space-y-2 ml-8">
+            {derivedSkills.map(({ skillId: exId, isNeturality }) => {
+              const exSkill = getSkill ? getSkill(exId) : null;
+              if (!exSkill) return null;
+
+              // 파생 스킬 이미지 URL
+              let exImageUrl: string | null = null;
+              const exIcon = String(exSkill.iconPath ?? "").trim();
+              if (exIcon) {
+                if (
+                  exIcon.startsWith("http://") ||
+                  exIcon.startsWith("https://") ||
+                  exIcon.startsWith("/")
+                ) {
+                  exImageUrl = exIcon;
+                } else {
+                  exImageUrl = `/assets/${exIcon.replace(/^\/+/, "")}`;
+                }
+              }
+
+              // 파생 스킬 cost
+              let exCost = 0;
+              if (exSkill.cardID) {
+                const cd = data?.cards[exSkill.cardID];
+                if (cd && cd.cost_SN !== undefined) {
+                  exCost = Math.floor(cd.cost_SN / 10000);
+                }
+              }
+
+              const exDesc = processSkillDescription(
+                exSkill,
+                getTranslatedString(exSkill.description)
+              );              
+
+              return (
+                <div
+                  key={`ex-skill-${skillId}-${exId}`}
+                  className="border-l border-gray-700 pl-4"
+                >
+                  <div className="p-3 rounded-lg">
+                    <div className="flex">
+                      <div className="w-12 h-12 bg-black rounded-md overflow-hidden mr-3 flex-shrink-0">
+                        {exImageUrl ? (
+                          <img
+                            src={exImageUrl}
+                            alt=""
+                            className="w-full h-full object-cover"
+                          />
+                        ) : (
+                          <div className="w-full h-full flex items-center justify-center text-gray-400 text-xs">
+                            No Image
+                          </div>
+                        )}
+                      </div>
+
+                      <div className="flex-grow">
+                        <div className="flex items-center">                          
+                          <span className="font-medium neon-text">
+                            {getTranslatedString(exSkill.name)}
+                          </span>
+                          <span className="ml-2 text-sm text-gray-300">
+                            COST : {exCost}
+                          </span>
+                        </div>
+
+                        {exDesc && (
+                          <div className="text-sm text-gray-400 mt-1">
+                            {formatColorText(exDesc)}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  function renderTalentSkill(params: { skillId: any; rowKey: string }) {
+    function toInt(v: any) {
+      const n = typeof v === "number" ? v : Number(v);
+      return Number.isFinite(n) ? n : 0;
+    }
+
+    const skillId = toInt(params.skillId);
+    const skill = getSkill ? getSkill(skillId) : null;
+
+    if (!skill) {
+      return (
+        <div key={params.rowKey} className="p-3 rounded-lg opacity-50">
+          <span className="font-medium">
+            {getTranslatedString("skill.not_found") || `Skill ID: ${skillId}`}
+          </span>
+        </div>
+      );
+    }
+
+    // 이미지
+    let imageUrl: string | null = null;
+    const icon = String(skill.iconPath ?? "").trim();
+    if (icon) {
+      if (
+        icon.startsWith("http://") ||
+        icon.startsWith("https://") ||
+        icon.startsWith("/")
+      ) {
+        imageUrl = icon;
+      } else {
+        imageUrl = `/assets/${icon.replace(/^\/+/, "")}`;
+      }
+    }
+
+    // cost
+    let cost = 0;
+    if (skill.cardID) {
+      const cd = data?.cards?.[skill.cardID];
+      if (cd && cd.cost_SN !== undefined) {
+        cost = Math.floor(cd.cost_SN / 10000);
+      }
+    }
+
+    let desc = processSkillDescription(
+      skill,
+      getTranslatedString(skill.description)
+    );
+
+    if (desc && desc.includes("%s")) {
+      desc = desc.replace(/%s/g, skill.isPercent === true ? "n%" : "n");
+    }
+
+    return (
+      <div
+        key={params.rowKey}
+        className="p-3 rounded-lg border-l border-red-700 ml-6"
+      >
         <div className="flex">
-          {/* Skill Image */}
           <div className="w-12 h-12 bg-black rounded-md overflow-hidden mr-3 flex-shrink-0">
-            {skillImageUrl ? (
-              <img src={skillImageUrl || "/placeholder.svg"} alt="" className="w-full h-full object-cover" />
+            {imageUrl ? (
+              <img
+                src={imageUrl}
+                alt=""
+                className="w-full h-full object-cover"
+              />
             ) : (
-              <div className="w-full h-full flex items-center justify-center text-gray-400">
-                <span className="text-xs">No Image</span>
+              <div className="w-full h-full flex items-center justify-center text-gray-400 text-xs">
+                No Image
               </div>
             )}
           </div>
 
           <div className="flex-grow">
             <div className="flex items-center">
-              <span className="text-xs bg-blue-500 text-white px-1.5 py-0.5 rounded-full mr-2">
-                {getTranslatedString(labelKey) || defaultLabel}
-              </span>
-              <span className="font-medium neon-text">{getTranslatedString(skill.name)}</span>
-
-              {/* Add cost and quantity information */}
-              <span className="ml-2 text-sm text-gray-300">
-                COST : {skillCost} / {getTranslatedString("amount")} : {skillQuantity}
+              <span className="font-medium neon-text">
+                {getTranslatedString(skill.name)}
               </span>
             </div>
 
-            {processedDescription && (
-              <div className="text-sm text-gray-400 mt-1">{formatColorText(processedDescription)}</div>
-            )}
-
-            {/* 필살기(인덱스 2)일 경우 리더 스킬 조건 표시 */}
-            {index === 2 && skill.leaderCardConditionDesc && (
-              <div className="text-sm mt-2" style={{ color: "#800020" }}>
-                <strong>{getTranslatedString("leader_skill_condition")}: </strong>
-                {formatColorText(getTranslatedString(skill.leaderCardConditionDesc))}
+            {desc && (
+              <div className="text-sm text-gray-400 mt-1">
+                {formatColorText(desc)}
               </div>
             )}
           </div>
         </div>
       </div>
-    )
+    );
   }
 }

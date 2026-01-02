@@ -126,33 +126,36 @@ export function useDataLoader() {
 
           // Equipments: url 파생 (DB tipsPath 기반)
           Object.keys(equipments).forEach((equipId) => {
-  const equipment = equipments[equipId]
-  equipment.url = toAssetPath(equipment.tipsPath)
+            const equipment = equipments[equipId];
+            equipment.url = toAssetPath(equipment.tipsPath);
 
-  // 추가: 원본 DB에 type이 없으므로 equipTagId로 파생 (use-data-loader_old.ts 로직 이식)
-  if (!equipment.type) {
-    const tagId = Number(equipment.equipTagId ?? 0)
+            // 추가: 원본 DB에 type이 없으므로 equipTagId로 파생 (use-data-loader_old.ts 로직 이식)
+            if (!equipment.type) {
+              const tagId = Number(equipment.equipTagId ?? 0);
 
-    if (tagId >= 12600155 && tagId <= 12600160) {
-      equipment.type = "weapon"
-    } else if (tagId === 12600161) {
-      equipment.type = "armor"
-    } else if (tagId === 12600162) {
-      equipment.type = "accessory"
-    } else {
-      equipment.type = "weapon"
-    }
-  }
+              if (tagId >= 12600155 && tagId <= 12600160) {
+                equipment.type = "weapon";
+              } else if (tagId === 12600161) {
+                equipment.type = "armor";
+              } else if (tagId === 12600162) {
+                equipment.type = "accessory";
+              } else {
+                equipment.type = "weapon";
+              }
+            }
 
-  if (equipment.skillList && Array.isArray(equipment.skillList)) {
-  } else if (equipment.skillList) {
-    const skillListObj = equipment.skillList as unknown as Record<string, any>
-    const skillListArray = Object.keys(skillListObj).map((key) => ({
-      skillId: Number(skillListObj[key].skillId || key),
-    }))
-    equipment.skillList = skillListArray
-  }
-})
+            if (equipment.skillList && Array.isArray(equipment.skillList)) {
+            } else if (equipment.skillList) {
+              const skillListObj = equipment.skillList as unknown as Record<
+                string,
+                any
+              >;
+              const skillListArray = Object.keys(skillListObj).map((key) => ({
+                skillId: Number(skillListObj[key].skillId || key),
+              }));
+              equipment.skillList = skillListArray;
+            }
+          });
 
           // Skills: img_url 파생 (DB iconPath 기반)
           Object.keys(skills).forEach((skillId) => {

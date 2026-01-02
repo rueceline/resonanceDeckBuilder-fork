@@ -26,6 +26,8 @@ const getTranslatedString = (key: string) => key // 임시 구현
 const processSkillDescription = (skill: any, desc: string) => desc // 임시 구현
 const findCharacterImageForCard = (card: any) => undefined // 임시 구현
 
+const DISCARD_CARD_ID = 10600474;
+
 export function useDeckBuilder(data: Database | null) {
   // 다크 모드
   const [isDarkMode, setIsDarkMode] = useState(true)
@@ -81,7 +83,7 @@ export function useDeckBuilder(data: Database | null) {
   const clearAll = useCallback(() => {
     setSelectedCharacters([-1, -1, -1, -1, -1])
     setLeaderCharacter(-1)
-    setSelectedCards([])
+    setSelectedCards(normalizeDiscardCard([]))
     updateBattleSettings({
       isLeaderCardOn: true,
       isSpCardOn: true,
@@ -98,7 +100,59 @@ export function useDeckBuilder(data: Database | null) {
     updateBattleSettings,
     setEquipment,
     clearAllAwakening,
-  ])
+  ])  
+  
+  // 버리기 카드 처리
+function normalizeDiscardCard(cards: any[]) {
+  let found = false;
+  let changed = false;
+
+  const out: any[] = [];
+
+  for (const c of cards) {
+    const id = Number((c as any)?.id);
+
+    if (id === DISCARD_CARD_ID) {
+      if (found) {
+        changed = true; // 중복 제거
+        continue;
+      }
+
+      found = true;
+
+      const hasSources = Array.isArray((c as any).sources) && (c as any).sources.length > 0;
+      const sources = hasSources ? (c as any).sources : [{ type: "system", id: "discard" }];
+
+      if (!hasSources) changed = true;
+
+      // sources 보정이 필요 없으면 원본 객체를 유지(불필요한 state update 방지)
+      if (sources === (c as any).sources) {
+        out.push(c);
+      } else {
+        out.push({ ...c, sources });
+      }
+
+      continue;
+    }
+
+    out.push(c);
+  }
+
+  if (!found) {
+    changed = true;
+    out.unshift({
+      id: DISCARD_CARD_ID,
+      sources: [{ type: "system", id: "discard" }],
+    });
+  }
+
+  // 이미 정상 상태면 원본 배열 그대로 반환(무한 루프/불필요 렌더 방지)
+  return changed ? out : cards;
+}
+
+  useEffect(() => {
+    setSelectedCards((prev) => normalizeDiscardCard(prev));
+  }, [setSelectedCards]);
 
   // 캐릭터의 스킬 목록을 기반으로 카드를 생성하는 함수
   const generateCardsFromSkills = useCallback(
@@ -577,7 +631,10 @@ export function useDeckBuilder(data: Database | null) {
             // 공통 유틸리티 함수 사용
             const { idSet: availableCardIds, cardSources } = getAvailableCardIds(data, preset.roleList, equipment)
             // 사용할 수 없는 카드 식별
-            const unavailableCards = newCards.filter((card) =>!availableCardIds.has(card.id))
+            const unavailableCards = newCards.filter((card) => {
+              if (Number(card.id) === DISCARD_CARD_ID) return false;
+              return !availableCardIds.has(card.id);
+            });
 
             // 사용할 수 없는 카드들에 대해 이름 매칭을 통한 대체 카드 찾기
             unavailableCards.forEach((unavailableCard) => {
@@ -659,7 +716,7 @@ export function useDeckBuilder(data: Database | null) {
             })
           }
 
-          return newCards
+          return normalizeDiscardCard(newCards)
         })
 
         // 전투 설정 업데이트

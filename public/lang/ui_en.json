@@ -717,5 +717,19 @@
   "url_copied": "Shareable URL copied to clipboard!",
   "url_copy_failed": "Failed to generate shareable URL",
   "usage_settings": "Select Action",
-  "use_immediately": "Release Now"
+  "use_immediately": "Release Now",
+  
+  "skill.derived": "Derived",
+  "skill.not_from_characters": "Universal",
+  "character.birthday": "Birthday",
+  "character.gender": "Gender",
+  "character.height": "Height",
+  "character.birthplace": "Birthplace",
+  "character.identity": "Current Identity",
+  "character.ability": "Promotion Ability",
+  "character.Resume": "Background",
+  "character.Skills": "Skills"
+
+
+  
 }

@@ -28,3 +28,7 @@ next-env.d.ts
 
 # local zip files
 *.zip
+
+# png
+/public/assets_png/
+/public/assets/**/*.png
