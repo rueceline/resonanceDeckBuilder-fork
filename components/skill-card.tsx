@@ -98,11 +98,11 @@ export function SkillCard({
       <div className="absolute inset-0 w-full h-full">
         {
           <img
-            src={characterImage || "images/placeHolder Card.jpg"}
+            src={characterImage || "/images/placeHolder_Card.jpg"}
             alt=""
             className="w-full h-full object-cover pointer-events-none"
             onError={(e) => {
-              e.currentTarget.src = "images/placeHolder Card.jpg"
+              e.currentTarget.src = "/images/placeHolder_Card.jpg"
             }}
           />
         }

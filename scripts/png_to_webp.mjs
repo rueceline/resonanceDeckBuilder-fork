@@ -5,8 +5,8 @@ import sharp from "sharp";
 /*
  * ===== 설정 =====
  */
-const INPUT_ROOT = path.resolve("public/assets");
-const OUTPUT_ROOT = path.resolve("public/assets_webp");
+const INPUT_ROOT = path.resolve("public/assets_png");
+const OUTPUT_ROOT = path.resolve("public/assets");
 
 // webp 옵션
 const WEBP_OPTIONS = {
