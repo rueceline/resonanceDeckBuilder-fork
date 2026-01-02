@@ -2,7 +2,7 @@
   "10000004": {
     "id": 10000004,
     "name": "char_name_10000004",
-    "roleListResUrl": "RolePlus/Katas/Half.png",
+    "roleListResUrl": "roleplus/katas/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -71,6 +71,16 @@
     "subLine": 930,
     "identity": "char_identity_10000004",
     "ability": "char_ability_10000004",
+    "gender": "char_gender_10000004",
+    "birthday": "char_birthday_10000004",
+    "height": "157cm",
+    "birthplace": "char_birthplace_10000004",
+    "getCharacter": "char_getCharacter_10000004",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000004_0_des"
+      }
+    ],
     "controllerId": 10300004,
     "equipmentSlotList": [
       {
@@ -104,7 +114,7 @@
   "10000025": {
     "id": 10000025,
     "name": "char_name_10000025",
-    "roleListResUrl": "RolePlus/Julian/Half.png",
+    "roleListResUrl": "roleplus/julian/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -166,6 +176,16 @@
     "subLine": 140,
     "identity": "char_identity_10000025",
     "ability": "char_ability_10000025",
+    "gender": "char_gender_10000025",
+    "birthday": "char_birthday_10000025",
+    "height": "163cm",
+    "birthplace": "char_birthplace_10000025",
+    "getCharacter": "char_getCharacter_10000025",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000025_0_des"
+      }
+    ],
     "controllerId": 10300025,
     "equipmentSlotList": [
       {
@@ -194,7 +214,7 @@
   "10000027": {
     "id": 10000027,
     "name": "char_name_10000027",
-    "roleListResUrl": "RolePlus/Haruka/Half.png",
+    "roleListResUrl": "roleplus/haruka/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -256,6 +276,16 @@
     "subLine": 1,
     "identity": "char_identity_10000027",
     "ability": "char_ability_10000027",
+    "gender": "char_gender_10000027",
+    "birthday": "char_birthday_10000027",
+    "height": "158cm",
+    "birthplace": "char_birthplace_10000027",
+    "getCharacter": "char_getCharacter_10000027",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000027_0_des"
+      }
+    ],
     "controllerId": 10300052,
     "equipmentSlotList": [
       {
@@ -284,7 +314,7 @@
   "10000031": {
     "id": 10000031,
     "name": "char_name_10000031",
-    "roleListResUrl": "RolePlus/Joshua/Half.png",
+    "roleListResUrl": "roleplus/joshua/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -353,6 +383,16 @@
     "subLine": 900,
     "identity": "char_identity_10000031",
     "ability": "char_ability_10000031",
+    "gender": "char_gender_10000031",
+    "birthday": "char_birthday_10000031",
+    "height": "166cm",
+    "birthplace": "char_birthplace_10000031",
+    "getCharacter": "char_getCharacter_10000031",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000031_0_des"
+      }
+    ],
     "controllerId": 10300075,
     "equipmentSlotList": [
       {
@@ -386,7 +426,7 @@
   "10000032": {
     "id": 10000032,
     "name": "char_name_10000032",
-    "roleListResUrl": "RolePlus/Betty/Half.png",
+    "roleListResUrl": "roleplus/betty/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -451,6 +491,16 @@
     "subLine": 890,
     "identity": "char_identity_10000032",
     "ability": "char_ability_10000032",
+    "gender": "char_gender_10000032",
+    "birthday": "char_birthday_10000032",
+    "height": "192cm",
+    "birthplace": "char_birthplace_10000032",
+    "getCharacter": "char_getCharacter_10000032",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000032_0_des"
+      }
+    ],
     "controllerId": 10300176,
     "equipmentSlotList": [
       {
@@ -484,7 +534,7 @@
   "10000034": {
     "id": 10000034,
     "name": "char_name_10000034",
-    "roleListResUrl": "RolePlus/Hayabusa/type2/Half.png",
+    "roleListResUrl": "roleplus/hayabusa/type2/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -553,6 +603,16 @@
     "subLine": 415,
     "identity": "char_identity_10000034",
     "ability": "char_ability_10000034",
+    "gender": "char_gender_10000034",
+    "birthday": "char_birthday_10000034",
+    "height": "170cm",
+    "birthplace": "char_birthplace_10000034",
+    "getCharacter": "char_getCharacter_10000034",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000034_0_des"
+      }
+    ],
     "controllerId": 10300102,
     "equipmentSlotList": [
       {
@@ -586,7 +646,7 @@
   "10000035": {
     "id": 10000035,
     "name": "char_name_10000035",
-    "roleListResUrl": "RolePlus/Dustin/Half.png",
+    "roleListResUrl": "roleplus/dustin/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -651,6 +711,16 @@
     "subLine": 910,
     "identity": "char_identity_10000035",
     "ability": "char_ability_10000035",
+    "gender": "char_gender_10000035",
+    "birthday": "char_birthday_10000035",
+    "height": "198cm",
+    "birthplace": "char_birthplace_10000035",
+    "getCharacter": "char_getCharacter_10000035",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000035_0_des"
+      }
+    ],
     "controllerId": 10300142,
     "equipmentSlotList": [
       {
@@ -684,7 +754,7 @@
   "10000047": {
     "id": 10000047,
     "name": "char_name_10000047",
-    "roleListResUrl": "RolePlus/Valentine/Half.png",
+    "roleListResUrl": "roleplus/valentine/Half.png",
     "quality": "fourStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -749,6 +819,16 @@
     "subLine": 910,
     "identity": "char_identity_10000047",
     "ability": "char_ability_10000047",
+    "gender": "char_gender_10000047",
+    "birthday": "char_birthday_10000047",
+    "height": "159cm",
+    "birthplace": "char_birthplace_10000047",
+    "getCharacter": "char_getCharacter_10000047",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000047_0_des"
+      }
+    ],
     "controllerId": 10300197,
     "equipmentSlotList": [
       {
@@ -782,7 +862,7 @@
   "10000051": {
     "id": 10000051,
     "name": "char_name_10000051",
-    "roleListResUrl": "RolePlus/Arina/Half.png",
+    "roleListResUrl": "roleplus/arina/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -847,6 +927,16 @@
     "subLine": 400,
     "identity": "char_identity_10000051",
     "ability": "char_ability_10000051",
+    "gender": "char_gender_10000051",
+    "birthday": "char_birthday_10000051",
+    "height": "164cm",
+    "birthplace": "char_birthplace_10000051",
+    "getCharacter": "char_getCharacter_10000051",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000051_0_des"
+      }
+    ],
     "controllerId": 10300130,
     "equipmentSlotList": [
       {
@@ -880,7 +970,7 @@
   "10000052": {
     "id": 10000052,
     "name": "char_name_10000052",
-    "roleListResUrl": "RolePlus/Nabi/Half.png",
+    "roleListResUrl": "roleplus/nabi/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -949,6 +1039,16 @@
     "subLine": 415,
     "identity": "char_identity_10000052",
     "ability": "char_ability_10000052",
+    "gender": "char_gender_10000052",
+    "birthday": "char_birthday_10000052",
+    "height": "167cm",
+    "birthplace": "char_birthplace_10000052",
+    "getCharacter": "char_getCharacter_10000052",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000052_0_des"
+      }
+    ],
     "controllerId": 10300121,
     "equipmentSlotList": [
       {
@@ -982,7 +1082,7 @@
   "10000053": {
     "id": 10000053,
     "name": "char_name_10000053",
-    "roleListResUrl": "RolePlus/Yer/Half.png",
+    "roleListResUrl": "roleplus/yer/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -1047,6 +1147,16 @@
     "subLine": 820,
     "identity": "char_identity_10000053",
     "ability": "char_ability_10000053",
+    "gender": "char_gender_10000053",
+    "birthday": "char_birthday_10000053",
+    "height": "162cm",
+    "birthplace": "char_birthplace_10000053",
+    "getCharacter": "char_getCharacter_10000053",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000053_0_des"
+      }
+    ],
     "controllerId": 10300128,
     "equipmentSlotList": [
       {
@@ -1080,7 +1190,7 @@
   "10000054": {
     "id": 10000054,
     "name": "char_name_10000054",
-    "roleListResUrl": "RolePlus/Margiela/Half.png",
+    "roleListResUrl": "roleplus/margiela/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -1145,6 +1255,16 @@
     "subLine": 290,
     "identity": "char_identity_10000054",
     "ability": "char_ability_10000054",
+    "gender": "char_gender_10000054",
+    "birthday": "char_birthday_10000054",
+    "height": "156cm",
+    "birthplace": "char_birthplace_10000054",
+    "getCharacter": "char_getCharacter_10000054",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000054_0_des"
+      }
+    ],
     "controllerId": 10300050,
     "equipmentSlotList": [
       {
@@ -1178,7 +1298,7 @@
   "10000055": {
     "id": 10000055,
     "name": "char_name_10000055",
-    "roleListResUrl": "RolePlus/Livia/Half.png",
+    "roleListResUrl": "roleplus/livia/Half.png",
     "quality": "fourStar",
     "sideId": 12600025,
     "passiveSkillList": [
@@ -1247,6 +1367,16 @@
     "subLine": 1,
     "identity": "char_identity_10000055",
     "ability": "char_ability_10000055",
+    "gender": "char_gender_10000055",
+    "birthday": "char_birthday_10000055",
+    "height": "155cm",
+    "birthplace": "char_birthplace_10000055",
+    "getCharacter": "char_getCharacter_10000055",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000055_0_des"
+      }
+    ],
     "controllerId": 10300051,
     "equipmentSlotList": [
       {
@@ -1280,7 +1410,7 @@
   "10000059": {
     "id": 10000059,
     "name": "char_name_10000059",
-    "roleListResUrl": "RolePlus/Conor/Half.png",
+    "roleListResUrl": "roleplus/conor/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -1349,6 +1479,16 @@
     "subLine": 240,
     "identity": "char_identity_10000059",
     "ability": "char_ability_10000059",
+    "gender": "char_gender_10000059",
+    "birthday": "char_birthday_10000059",
+    "height": "172cm",
+    "birthplace": "char_birthplace_10000059",
+    "getCharacter": "char_getCharacter_10000059",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000059_0_des"
+      }
+    ],
     "controllerId": 10300055,
     "equipmentSlotList": [
       {
@@ -1382,7 +1522,7 @@
   "10000060": {
     "id": 10000060,
     "name": "char_name_10000060",
-    "roleListResUrl": "RolePlus/Tara/Half.png",
+    "roleListResUrl": "roleplus/tara/Half.png",
     "quality": "threeStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -1444,6 +1584,16 @@
     "subLine": 240,
     "identity": "char_identity_10000060",
     "ability": "char_ability_10000060",
+    "gender": "char_gender_10000060",
+    "birthday": "char_birthday_10000060",
+    "height": "147cm",
+    "birthplace": "char_birthplace_10000060",
+    "getCharacter": "char_getCharacter_10000060",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000060_0_des"
+      }
+    ],
     "controllerId": 10300056,
     "equipmentSlotList": [
       {
@@ -1472,7 +1622,7 @@
   "10000062": {
     "id": 10000062,
     "name": "char_name_10000062",
-    "roleListResUrl": "RolePlus/Solum/Half.png",
+    "roleListResUrl": "roleplus/solum/Half.png",
     "quality": "threeStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -1534,6 +1684,16 @@
     "subLine": 450,
     "identity": "char_identity_10000062",
     "ability": "char_ability_10000062",
+    "gender": "char_gender_10000062",
+    "birthday": "char_birthday_10000062",
+    "height": "149cm",
+    "birthplace": "char_birthplace_10000062",
+    "getCharacter": "char_getCharacter_10000062",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000062_0_des"
+      }
+    ],
     "controllerId": 10300058,
     "equipmentSlotList": [
       {
@@ -1562,7 +1722,7 @@
   "10000063": {
     "id": 10000063,
     "name": "char_name_10000063",
-    "roleListResUrl": "RolePlus/Mahr/Half.png",
+    "roleListResUrl": "roleplus/mahr/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -1631,6 +1791,16 @@
     "subLine": 440,
     "identity": "char_identity_10000063",
     "ability": "char_ability_10000063",
+    "gender": "char_gender_10000063",
+    "birthday": "char_birthday_10000063",
+    "height": "159cm",
+    "birthplace": "char_birthplace_10000063",
+    "getCharacter": "char_getCharacter_10000063",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000063_0_des"
+      }
+    ],
     "controllerId": 10300059,
     "equipmentSlotList": [
       {
@@ -1664,7 +1834,7 @@
   "10000064": {
     "id": 10000064,
     "name": "char_name_10000064",
-    "roleListResUrl": "RolePlus/Cecil/Half.png",
+    "roleListResUrl": "roleplus/cecil/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -1729,6 +1899,16 @@
     "subLine": 415,
     "identity": "char_identity_10000064",
     "ability": "char_ability_10000064",
+    "gender": "char_gender_10000064",
+    "birthday": "char_birthday_10000064",
+    "height": "167cm",
+    "birthplace": "char_birthplace_10000064",
+    "getCharacter": "char_getCharacter_10000064",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000064_0_des"
+      }
+    ],
     "controllerId": 10300060,
     "equipmentSlotList": [
       {
@@ -1762,7 +1942,7 @@
   "10000065": {
     "id": 10000065,
     "name": "char_name_10000065",
-    "roleListResUrl": "RolePlus/Priming/Half.png",
+    "roleListResUrl": "roleplus/priming/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -1824,6 +2004,16 @@
     "subLine": 120,
     "identity": "char_identity_10000065",
     "ability": "char_ability_10000065",
+    "gender": "char_gender_10000065",
+    "birthday": "char_birthday_10000065",
+    "height": "158cm",
+    "birthplace": "char_birthplace_10000065",
+    "getCharacter": "char_getCharacter_10000065",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000065_0_des"
+      }
+    ],
     "controllerId": 10300061,
     "equipmentSlotList": [
       {
@@ -1852,7 +2042,7 @@
   "10000068": {
     "id": 10000068,
     "name": "char_name_10000068",
-    "roleListResUrl": "RolePlus/Cynthia/Half.png",
+    "roleListResUrl": "roleplus/cynthia/Half.png",
     "quality": "fourStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -1917,6 +2107,16 @@
     "subLine": 10,
     "identity": "char_identity_10000068",
     "ability": "char_ability_10000068",
+    "gender": "char_gender_10000068",
+    "birthday": "char_birthday_10000068",
+    "height": "158cm",
+    "birthplace": "char_birthplace_10000068",
+    "getCharacter": "char_getCharacter_10000068",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000068_0_des"
+      }
+    ],
     "controllerId": 10300064,
     "equipmentSlotList": [
       {
@@ -1950,7 +2150,7 @@
   "10000069": {
     "id": 10000069,
     "name": "char_name_10000069",
-    "roleListResUrl": "RolePlus/Charlotte/half.png",
+    "roleListResUrl": "roleplus/charlotte/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -2015,6 +2215,16 @@
     "subLine": 220,
     "identity": "char_identity_10000069",
     "ability": "char_ability_10000069",
+    "gender": "char_gender_10000069",
+    "birthday": "char_birthday_10000069",
+    "height": "165cm",
+    "birthplace": "char_birthplace_10000069",
+    "getCharacter": "char_getCharacter_10000069",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000069_0_des"
+      }
+    ],
     "controllerId": 10300065,
     "equipmentSlotList": [
       {
@@ -2048,7 +2258,7 @@
   "10000071": {
     "id": 10000071,
     "name": "char_name_10000071",
-    "roleListResUrl": "RolePlus/Aoba/Half.png",
+    "roleListResUrl": "roleplus/aoba/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -2117,6 +2327,16 @@
     "subLine": 440,
     "identity": "char_identity_10000071",
     "ability": "char_ability_10000071",
+    "gender": "char_gender_10000071",
+    "birthday": "char_birthday_10000071",
+    "height": "167cm",
+    "birthplace": "char_birthplace_10000071",
+    "getCharacter": "char_getCharacter_10000071",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000071_0_des"
+      }
+    ],
     "controllerId": 10300067,
     "equipmentSlotList": [
       {
@@ -2150,7 +2370,7 @@
   "10000072": {
     "id": 10000072,
     "name": "char_name_10000072",
-    "roleListResUrl": "RolePlus/Nayuta/Half.png",
+    "roleListResUrl": "roleplus/nayuta/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -2219,6 +2439,16 @@
     "subLine": 911,
     "identity": "char_identity_10000072",
     "ability": "char_ability_10000072",
+    "gender": "char_gender_10000072",
+    "birthday": "char_birthday_10000072",
+    "height": "172cm",
+    "birthplace": "char_birthplace_10000072",
+    "getCharacter": "char_getCharacter_10000072",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000072_0_des"
+      }
+    ],
     "controllerId": 10300161,
     "equipmentSlotList": [
       {
@@ -2252,7 +2482,7 @@
   "10000094": {
     "id": 10000094,
     "name": "char_name_10000094",
-    "roleListResUrl": "RolePlus/Sommer/Half.png",
+    "roleListResUrl": "roleplus/sommer/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -2321,6 +2551,16 @@
     "subLine": 911,
     "identity": "char_identity_10000094",
     "ability": "char_ability_10000094",
+    "gender": "char_gender_10000094",
+    "birthday": "char_birthday_10000094",
+    "height": "163cm",
+    "birthplace": "char_birthplace_10000094",
+    "getCharacter": "char_getCharacter_10000094",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000094_0_des"
+      }
+    ],
     "controllerId": 10300162,
     "equipmentSlotList": [
       {
@@ -2354,7 +2594,7 @@
   "10000095": {
     "id": 10000095,
     "name": "char_name_10000095",
-    "roleListResUrl": "RolePlus/Dorothy/Half.png",
+    "roleListResUrl": "roleplus/dorothy/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -2423,6 +2663,16 @@
     "subLine": 130,
     "identity": "char_identity_10000095",
     "ability": "char_ability_10000095",
+    "gender": "char_gender_10000095",
+    "birthday": "char_birthday_10000095",
+    "height": "168cm",
+    "birthplace": "char_birthplace_10000095",
+    "getCharacter": "char_getCharacter_10000095",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000095_0_des"
+      }
+    ],
     "controllerId": 10300163,
     "equipmentSlotList": [
       {
@@ -2456,7 +2706,7 @@
   "10000101": {
     "id": 10000101,
     "name": "char_name_10000101",
-    "roleListResUrl": "RolePlus/Kaleya/Half.png",
+    "roleListResUrl": "roleplus/kaleya/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -2521,6 +2771,16 @@
     "subLine": 810,
     "identity": "char_identity_10000101",
     "ability": "char_ability_10000101",
+    "gender": "char_gender_10000101",
+    "birthday": "char_birthday_10000101",
+    "height": "162cm",
+    "birthplace": "char_birthplace_10000101",
+    "getCharacter": "char_getCharacter_10000101",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000101_0_des"
+      }
+    ],
     "controllerId": 10300131,
     "equipmentSlotList": [
       {
@@ -2554,7 +2814,7 @@
   "10000110": {
     "id": 10000110,
     "name": "char_name_10000110",
-    "roleListResUrl": "RolePlus/Lin/Half.png",
+    "roleListResUrl": "roleplus/lin/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -2619,6 +2879,16 @@
     "subLine": 421,
     "identity": "char_identity_10000110",
     "ability": "char_ability_10000110",
+    "gender": "char_gender_10000110",
+    "birthday": "char_birthday_10000110",
+    "height": "151cm",
+    "birthplace": "char_birthplace_10000110",
+    "getCharacter": "char_getCharacter_10000110",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000110_0_des"
+      }
+    ],
     "controllerId": 10300136,
     "equipmentSlotList": [
       {
@@ -2652,7 +2922,7 @@
   "10000111": {
     "id": 10000111,
     "name": "char_name_10000111",
-    "roleListResUrl": "RolePlus/Galore/Half.png",
+    "roleListResUrl": "roleplus/galore/Half.png",
     "quality": "threeStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -2714,6 +2984,16 @@
     "subLine": 220,
     "identity": "char_identity_10000111",
     "ability": "char_ability_10000111",
+    "gender": "char_gender_10000111",
+    "birthday": "char_birthday_10000111",
+    "height": "177cm",
+    "birthplace": "char_birthplace_10000111",
+    "getCharacter": "char_getCharacter_10000111",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000111_0_des"
+      }
+    ],
     "controllerId": 10300093,
     "equipmentSlotList": [
       {
@@ -2742,7 +3022,7 @@
   "10000112": {
     "id": 10000112,
     "name": "char_name_10000112",
-    "roleListResUrl": "RolePlus/Ganya/Half.png",
+    "roleListResUrl": "roleplus/ganya/Half.png",
     "quality": "fourStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -2807,6 +3087,16 @@
     "subLine": 110,
     "identity": "char_identity_10000112",
     "ability": "char_ability_10000112",
+    "gender": "char_gender_10000112",
+    "birthday": "char_birthday_10000112",
+    "height": "160cm",
+    "birthplace": "char_birthplace_10000112",
+    "getCharacter": "char_getCharacter_10000112",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000112_0_des"
+      }
+    ],
     "controllerId": 10300138,
     "equipmentSlotList": [
       {
@@ -2840,7 +3130,7 @@
   "10000124": {
     "id": 10000124,
     "name": "char_name_10000124",
-    "roleListResUrl": "RolePlus/Akira/Half.png",
+    "roleListResUrl": "roleplus/akira/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -2905,6 +3195,16 @@
     "subLine": 810,
     "identity": "char_identity_10000124",
     "ability": "char_ability_10000124",
+    "gender": "char_gender_10000124",
+    "birthday": "char_birthday_10000124",
+    "height": "179.5cm",
+    "birthplace": "char_birthplace_10000124",
+    "getCharacter": "char_getCharacter_10000124",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000124_0_des"
+      }
+    ],
     "controllerId": 10300177,
     "equipmentSlotList": [
       {
@@ -2938,7 +3238,7 @@
   "10000134": {
     "id": 10000134,
     "name": "char_name_10000134",
-    "roleListResUrl": "RolePlus/Eliot/Half.png",
+    "roleListResUrl": "roleplus/eliot/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -3000,6 +3300,16 @@
     "subLine": 5,
     "identity": "char_identity_10000134",
     "ability": "char_ability_10000134",
+    "gender": "char_gender_10000134",
+    "birthday": "char_birthday_10000134",
+    "height": "162cm",
+    "birthplace": "char_birthplace_10000134",
+    "getCharacter": "char_getCharacter_10000134",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000134_0_des"
+      }
+    ],
     "controllerId": 10300111,
     "equipmentSlotList": [
       {
@@ -3028,7 +3338,7 @@
   "10000139": {
     "id": 10000139,
     "name": "char_name_10000139",
-    "roleListResUrl": "RolePlus/Caroline/Half.png",
+    "roleListResUrl": "roleplus/caroline/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -3093,6 +3403,16 @@
     "subLine": 800,
     "identity": "char_identity_10000139",
     "ability": "char_ability_10000139",
+    "gender": "char_gender_10000139",
+    "birthday": "char_birthday_10000139",
+    "height": "167cm",
+    "birthplace": "char_birthplace_10000139",
+    "getCharacter": "char_getCharacter_10000139",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000139_0_des"
+      }
+    ],
     "controllerId": 10300179,
     "equipmentSlotList": [
       {
@@ -3126,7 +3446,7 @@
   "10000145": {
     "id": 10000145,
     "name": "char_name_10000145",
-    "roleListResUrl": "RolePlus/Lissandra/Half.png",
+    "roleListResUrl": "roleplus/lissandra/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -3191,6 +3511,16 @@
     "subLine": 905,
     "identity": "char_identity_10000145",
     "ability": "char_ability_10000145",
+    "gender": "char_gender_10000145",
+    "birthday": "char_birthday_10000145",
+    "height": "172cm",
+    "birthplace": "char_birthplace_10000145",
+    "getCharacter": "char_getCharacter_10000145",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000145_0_des"
+      }
+    ],
     "controllerId": 10300108,
     "equipmentSlotList": [
       {
@@ -3224,7 +3554,7 @@
   "10000153": {
     "id": 10000153,
     "name": "char_name_10000153",
-    "roleListResUrl": "RolePlus/Yoiduki/Half.png",
+    "roleListResUrl": "roleplus/yoiduki/Half.png",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -3289,6 +3619,16 @@
     "subLine": 440,
     "identity": "char_identity_10000153",
     "ability": "char_ability_10000153",
+    "gender": "char_gender_10000153",
+    "birthday": "char_birthday_10000153",
+    "height": "164cm",
+    "birthplace": "char_birthplace_10000153",
+    "getCharacter": "char_getCharacter_10000153",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000153_0_des"
+      }
+    ],
     "controllerId": 10300003,
     "equipmentSlotList": [
       {
@@ -3322,7 +3662,7 @@
   "10000154": {
     "id": 10000154,
     "name": "char_name_10000154",
-    "roleListResUrl": "RolePlus/Ilona/Half.png",
+    "roleListResUrl": "roleplus/ilona/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -3391,6 +3731,16 @@
     "subLine": 110,
     "identity": "char_identity_10000154",
     "ability": "char_ability_10000154",
+    "gender": "char_gender_10000154",
+    "birthday": "char_birthday_10000154",
+    "height": "158cm",
+    "birthplace": "char_birthplace_10000154",
+    "getCharacter": "char_getCharacter_10000154",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000154_0_des"
+      }
+    ],
     "controllerId": 10300112,
     "equipmentSlotList": [
       {
@@ -3424,7 +3774,7 @@
   "10000156": {
     "id": 10000156,
     "name": "char_name_10000156",
-    "roleListResUrl": "RolePlus/Shizuru/Half.png",
+    "roleListResUrl": "roleplus/shizuru/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -3486,6 +3836,16 @@
     "subLine": 141,
     "identity": "char_identity_10000156",
     "ability": "char_ability_10000156",
+    "gender": "char_gender_10000156",
+    "birthday": "char_birthday_10000156",
+    "height": "161cm",
+    "birthplace": "char_birthplace_10000156",
+    "getCharacter": "char_getCharacter_10000156",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000156_0_des"
+      }
+    ],
     "controllerId": 10300114,
     "equipmentSlotList": [
       {
@@ -3514,7 +3874,7 @@
   "10000157": {
     "id": 10000157,
     "name": "char_name_10000157",
-    "roleListResUrl": "RolePlus/Arcana/Half.png",
+    "roleListResUrl": "roleplus/arcana/Half.png",
     "quality": "threeStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -3576,6 +3936,16 @@
     "subLine": 5,
     "identity": "char_identity_10000157",
     "ability": "char_ability_10000157",
+    "gender": "char_gender_10000157",
+    "birthday": "char_birthday_10000157",
+    "height": "139cm",
+    "birthplace": "char_birthplace_10000157",
+    "getCharacter": "char_getCharacter_10000157",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000157_0_des"
+      }
+    ],
     "controllerId": 10300113,
     "equipmentSlotList": [
       {
@@ -3604,7 +3974,7 @@
   "10000159": {
     "id": 10000159,
     "name": "char_name_10000159",
-    "roleListResUrl": "RolePlus/Excalibur_Box/Half.png",
+    "roleListResUrl": "roleplus/excalibur_box/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -3666,6 +4036,16 @@
     "subLine": 10,
     "identity": "char_identity_10000159",
     "ability": "char_ability_10000159",
+    "gender": "char_gender_10000159",
+    "birthday": "char_birthday_10000159",
+    "height": "47cm",
+    "birthplace": "char_birthplace_10000159",
+    "getCharacter": "char_getCharacter_10000159",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000159_0_des"
+      }
+    ],
     "controllerId": 10300185,
     "equipmentSlotList": [
       {
@@ -3694,7 +4074,7 @@
   "10000160": {
     "id": 10000160,
     "name": "char_name_10000160",
-    "roleListResUrl": "RolePlus/Flan/Half.png",
+    "roleListResUrl": "roleplus/flan/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -3756,6 +4136,16 @@
     "subLine": 5,
     "identity": "char_identity_10000160",
     "ability": "char_ability_10000160",
+    "gender": "char_gender_10000160",
+    "birthday": "char_birthday_10000160",
+    "height": "166cm",
+    "birthplace": "char_birthplace_10000160",
+    "getCharacter": "char_getCharacter_10000160",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000160_0_des"
+      }
+    ],
     "controllerId": 10300116,
     "equipmentSlotList": [
       {
@@ -3784,7 +4174,7 @@
   "10000170": {
     "id": 10000170,
     "name": "char_name_10000170",
-    "roleListResUrl": "RolePlus/Karen/Half.png",
+    "roleListResUrl": "roleplus/karen/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -3846,6 +4236,16 @@
     "subLine": 142,
     "identity": "char_identity_10000170",
     "ability": "char_ability_10000170",
+    "gender": "char_gender_10000170",
+    "birthday": "char_birthday_10000170",
+    "height": "162cm",
+    "birthplace": "char_birthplace_10000170",
+    "getCharacter": "char_getCharacter_10000170",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000170_0_des"
+      }
+    ],
     "controllerId": 10300195,
     "equipmentSlotList": [
       {
@@ -3874,7 +4274,7 @@
   "10000254": {
     "id": 10000254,
     "name": "char_name_10000254",
-    "roleListResUrl": "RolePlus/Shire/Half.png",
+    "roleListResUrl": "roleplus/shire/Half.png",
     "quality": "FiveStar",
     "sideId": 12601172,
     "passiveSkillList": [
@@ -3943,6 +4343,16 @@
     "subLine": 300,
     "identity": "char_identity_10000254",
     "ability": "char_ability_10000254",
+    "gender": "char_gender_10000254",
+    "birthday": "char_birthday_10000254",
+    "height": "155cm",
+    "birthplace": "char_birthplace_10000254",
+    "getCharacter": "char_getCharacter_10000254",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000254_0_des"
+      }
+    ],
     "controllerId": 10300312,
     "equipmentSlotList": [
       {
@@ -3976,7 +4386,7 @@
   "10000270": {
     "id": 10000270,
     "name": "char_name_10000270",
-    "roleListResUrl": "RolePlus/Heinrich/Half.png",
+    "roleListResUrl": "roleplus/heinrich/Half.png",
     "quality": "fourStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -4041,6 +4451,16 @@
     "subLine": 130,
     "identity": "char_identity_10000270",
     "ability": "char_ability_10000270",
+    "gender": "char_gender_10000270",
+    "birthday": "char_birthday_10000270",
+    "height": "185cm",
+    "birthplace": "char_birthplace_10000270",
+    "getCharacter": "char_getCharacter_10000270",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000270_0_des"
+      }
+    ],
     "controllerId": 10300342,
     "equipmentSlotList": [
       {
@@ -4074,7 +4494,7 @@
   "10000276": {
     "id": 10000276,
     "name": "char_name_10000276",
-    "roleListResUrl": "RolePlus/Tennie/Half.png",
+    "roleListResUrl": "roleplus/tennie/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4139,6 +4559,16 @@
     "subLine": 200,
     "identity": "char_identity_10000276",
     "ability": "char_ability_10000276",
+    "gender": "char_gender_10000276",
+    "birthday": "char_birthday_10000276",
+    "height": "165cm",
+    "birthplace": "char_birthplace_10000276",
+    "getCharacter": "char_getCharacter_10000276",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000276_0_des"
+      }
+    ],
     "controllerId": 10300365,
     "equipmentSlotList": [
       {
@@ -4172,7 +4602,7 @@
   "10000297": {
     "id": 10000297,
     "name": "char_name_10000297",
-    "roleListResUrl": "RolePlus/Reeva/Half.png",
+    "roleListResUrl": "roleplus/reeva/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -4247,6 +4677,16 @@
     "subLine": 210,
     "identity": "char_identity_10000297",
     "ability": "char_ability_10000297",
+    "gender": "char_gender_10000297",
+    "birthday": "char_birthday_10000297",
+    "height": "160cm",
+    "birthplace": "char_birthplace_10000297",
+    "getCharacter": "char_getCharacter_10000297",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000297_0_des"
+      }
+    ],
     "controllerId": 10300198,
     "equipmentSlotList": [
       {
@@ -4280,7 +4720,7 @@
   "10000298": {
     "id": 10000298,
     "name": "char_name_10000298",
-    "roleListResUrl": "RolePlus/Stella/Half.png",
+    "roleListResUrl": "roleplus/stella/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [
@@ -4349,6 +4789,16 @@
     "subLine": 800,
     "identity": "char_identity_10000298",
     "ability": "char_ability_10000298",
+    "gender": "char_gender_10000298",
+    "birthday": "char_birthday_10000298",
+    "height": "168cm",
+    "birthplace": "char_birthplace_10000298",
+    "getCharacter": "char_getCharacter_10000298",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000298_0_des"
+      }
+    ],
     "controllerId": 10300199,
     "equipmentSlotList": [
       {
@@ -4382,7 +4832,7 @@
   "10000299": {
     "id": 10000299,
     "name": "char_name_10000299",
-    "roleListResUrl": "RolePlus/Rachel/Half.png",
+    "roleListResUrl": "roleplus/rachel/Half.png",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -4444,6 +4894,16 @@
     "subLine": 141,
     "identity": "char_identity_10000299",
     "ability": "char_ability_10000299",
+    "gender": "char_gender_10000299",
+    "birthday": "char_birthday_10000299",
+    "height": "156cm",
+    "birthplace": "char_birthplace_10000299",
+    "getCharacter": "char_getCharacter_10000299",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000299_0_des"
+      }
+    ],
     "controllerId": 10300200,
     "equipmentSlotList": [
       {
@@ -4472,7 +4932,7 @@
   "10000300": {
     "id": 10000300,
     "name": "char_name_10000300",
-    "roleListResUrl": "RolePlus/Fenia/Half.png",
+    "roleListResUrl": "roleplus/fenia/Half.png",
     "quality": "fourStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -4537,6 +4997,16 @@
     "subLine": 980,
     "identity": "char_identity_10000300",
     "ability": "char_ability_10000300",
+    "gender": "char_gender_10000300",
+    "birthday": "char_birthday_10000300",
+    "height": "154cm",
+    "birthplace": "char_birthplace_10000300",
+    "getCharacter": "char_getCharacter_10000300",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000300_0_des"
+      }
+    ],
     "controllerId": 10300278,
     "equipmentSlotList": [
       {
@@ -4570,7 +5040,7 @@
   "10000335": {
     "id": 10000335,
     "name": "char_name_10000335",
-    "roleListResUrl": "RolePlus/Yejue/Half.png",
+    "roleListResUrl": "roleplus/yejue/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4635,6 +5105,16 @@
     "subLine": 810,
     "identity": "char_identity_10000335",
     "ability": "char_ability_10000335",
+    "gender": "char_gender_10000335",
+    "birthday": "char_birthday_10000335",
+    "height": "161cm",
+    "birthplace": "char_birthplace_10000335",
+    "getCharacter": "char_getCharacter_10000335",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000335_0_des"
+      }
+    ],
     "controllerId": 10300101,
     "equipmentSlotList": [
       {
@@ -4668,7 +5148,7 @@
   "10000352": {
     "id": 10000352,
     "name": "char_name_10000352",
-    "roleListResUrl": "RolePlus/Suen/Half.png",
+    "roleListResUrl": "roleplus/suen/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -4737,6 +5217,16 @@
     "subLine": 920,
     "identity": "char_identity_10000352",
     "ability": "char_ability_10000352",
+    "gender": "char_gender_10000352",
+    "birthday": "char_birthday_10000352",
+    "height": "152cm",
+    "birthplace": "char_birthplace_10000352",
+    "getCharacter": "char_getCharacter_10000352",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000352_0_des"
+      }
+    ],
     "controllerId": 10300269,
     "equipmentSlotList": [
       {
@@ -4770,7 +5260,7 @@
   "10000372": {
     "id": 10000372,
     "name": "char_name_10000372",
-    "roleListResUrl": "RolePlus/Anfiya/Half.png",
+    "roleListResUrl": "roleplus/anfiya/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4835,6 +5325,16 @@
     "subLine": 330,
     "identity": "char_identity_10000372",
     "ability": "char_ability_10000372",
+    "gender": "char_gender_10000372",
+    "birthday": "char_birthday_10000372",
+    "height": "158cm",
+    "birthplace": "char_birthplace_10000372",
+    "getCharacter": "char_getCharacter_10000372",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000372_0_des"
+      }
+    ],
     "controllerId": 10300425,
     "equipmentSlotList": [
       {
@@ -4868,7 +5368,7 @@
   "10000387": {
     "id": 10000387,
     "name": "char_name_10000387",
-    "roleListResUrl": "RolePlus/Achiwa/Half.png",
+    "roleListResUrl": "roleplus/achiwa/Half.png",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4933,6 +5433,16 @@
     "subLine": 820,
     "identity": "char_identity_10000387",
     "ability": "char_ability_10000387",
+    "gender": "char_gender_10000387",
+    "birthday": "char_birthday_10000387",
+    "height": "160cm",
+    "birthplace": "char_birthplace_10000387",
+    "getCharacter": "char_getCharacter_10000387",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000387_0_des"
+      }
+    ],
     "controllerId": 10300252,
     "equipmentSlotList": [
       {
@@ -4966,7 +5476,7 @@
   "10000388": {
     "id": 10000388,
     "name": "char_name_10000388",
-    "roleListResUrl": "RolePlus/Wensheng/Half.png",
+    "roleListResUrl": "roleplus/wensheng/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -5031,6 +5541,16 @@
     "subLine": 420,
     "identity": "char_identity_10000388",
     "ability": "char_ability_10000388",
+    "gender": "char_gender_10000388",
+    "birthday": "char_birthday_10000388",
+    "height": "181cm",
+    "birthplace": "char_birthplace_10000388",
+    "getCharacter": "char_getCharacter_10000388",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000388_0_des"
+      }
+    ],
     "controllerId": 10300201,
     "equipmentSlotList": [
       {
@@ -5064,7 +5584,7 @@
   "10000389": {
     "id": 10000389,
     "name": "char_name_10000389",
-    "roleListResUrl": "RolePlus/RinaF/Half.png",
+    "roleListResUrl": "roleplus/rinaf/Half.png",
     "quality": "fourStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -5129,6 +5649,16 @@
     "subLine": 980,
     "identity": "char_identity_10000389",
     "ability": "char_ability_10000389",
+    "gender": "char_gender_10000389",
+    "birthday": "char_birthday_10000389",
+    "height": "167cm",
+    "birthplace": "char_birthplace_10000389",
+    "getCharacter": "char_getCharacter_10000389",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000389_0_des"
+      }
+    ],
     "controllerId": 10300261,
     "equipmentSlotList": [
       {
@@ -5162,7 +5692,7 @@
   "10000408": {
     "id": 10000408,
     "name": "char_name_10000408",
-    "roleListResUrl": "RolePlus/Box/Half.png",
+    "roleListResUrl": "roleplus/box/Half.png",
     "quality": "twoStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -5224,6 +5754,16 @@
     "subLine": 0,
     "identity": "char_identity_10000408",
     "ability": "char_ability_10000408",
+    "gender": "char_gender_10000408",
+    "birthday": "char_birthday_10000408",
+    "height": "47cm",
+    "birthplace": "char_birthplace_10000408",
+    "getCharacter": "char_getCharacter_10000408",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000408_0_des"
+      }
+    ],
     "controllerId": 10300231,
     "equipmentSlotList": [
       {
@@ -5252,7 +5792,7 @@
   "10000409": {
     "id": 10000409,
     "name": "char_name_10000409",
-    "roleListResUrl": "RolePlus/Jerboa/Half.png",
+    "roleListResUrl": "roleplus/jerboa/Half.png",
     "quality": "threeStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -5314,6 +5854,16 @@
     "subLine": 430,
     "identity": "char_identity_10000409",
     "ability": "char_ability_10000409",
+    "gender": "char_gender_10000409",
+    "birthday": "char_birthday_10000409",
+    "height": "153cm",
+    "birthplace": "char_birthplace_10000409",
+    "getCharacter": "char_getCharacter_10000409",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000409_0_des"
+      }
+    ],
     "controllerId": 10300268,
     "equipmentSlotList": [
       {
@@ -5342,7 +5892,7 @@
   "10000414": {
     "id": 10000414,
     "name": "char_name_10000414",
-    "roleListResUrl": "RolePlus/Yamaarashi/Half.png",
+    "roleListResUrl": "roleplus/yamaarashi/Half.png",
     "quality": "threeStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -5404,6 +5954,16 @@
     "subLine": 430,
     "identity": "char_identity_10000414",
     "ability": "char_ability_10000414",
+    "gender": "char_gender_10000414",
+    "birthday": "char_birthday_10000414",
+    "height": "145cm",
+    "birthplace": "char_birthplace_10000414",
+    "getCharacter": "char_getCharacter_10000414",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000414_0_des"
+      }
+    ],
     "controllerId": 10300272,
     "equipmentSlotList": [
       {
@@ -5432,7 +5992,7 @@
   "10000468": {
     "id": 10000468,
     "name": "char_name_10000468",
-    "roleListResUrl": "RolePlus/Shizuru_Summer/Half.png",
+    "roleListResUrl": "roleplus/shizuru_summer/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -5501,6 +6061,16 @@
     "subLine": 143,
     "identity": "char_identity_10000468",
     "ability": "char_ability_10000468",
+    "gender": "char_gender_10000468",
+    "birthday": "char_birthday_10000468",
+    "height": "161cm",
+    "birthplace": "char_birthplace_10000468",
+    "getCharacter": "char_getCharacter_10000468",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000468_0_des"
+      }
+    ],
     "controllerId": 10300440,
     "equipmentSlotList": [
       {
@@ -5534,7 +6104,7 @@
   "10000499": {
     "id": 10000499,
     "name": "char_name_10000499",
-    "roleListResUrl": "RolePlus/Jalhay/Half.png",
+    "roleListResUrl": "roleplus/jalhay/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -5603,6 +6173,16 @@
     "subLine": 200,
     "identity": "char_identity_10000499",
     "ability": "char_ability_10000499",
+    "gender": "char_gender_10000499",
+    "birthday": "char_birthday_10000499",
+    "height": "162cm",
+    "birthplace": "char_birthplace_10000499",
+    "getCharacter": "char_getCharacter_10000499",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000499_0_des"
+      }
+    ],
     "controllerId": 10300452,
     "equipmentSlotList": [
       {
@@ -5636,7 +6216,7 @@
   "10000503": {
     "id": 10000503,
     "name": "char_name_10000503",
-    "roleListResUrl": "RolePlus/Ithos/Half.png",
+    "roleListResUrl": "roleplus/ithos/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -5701,6 +6281,16 @@
     "subLine": 158,
     "identity": "char_identity_10000503",
     "ability": "char_ability_10000503",
+    "gender": "char_gender_10000503",
+    "birthday": "char_birthday_10000503",
+    "height": "189cm",
+    "birthplace": "char_birthplace_10000503",
+    "getCharacter": "char_getCharacter_10000503",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000503_0_des"
+      }
+    ],
     "controllerId": 10300454,
     "equipmentSlotList": [
       {
@@ -5734,7 +6324,7 @@
   "10000546": {
     "id": 10000546,
     "name": "char_name_10000546",
-    "roleListResUrl": "RolePlus/Ikuma/Half.png",
+    "roleListResUrl": "roleplus/ikuma/Half.png",
     "quality": "FiveStar",
     "sideId": 12601524,
     "passiveSkillList": [],
@@ -5799,6 +6389,16 @@
     "subLine": 139,
     "identity": "char_identity_10000546",
     "ability": "char_ability_10000546",
+    "gender": "char_gender_10000546",
+    "birthday": "char_birthday_10000546",
+    "height": "不明",
+    "birthplace": "char_birthplace_10000546",
+    "getCharacter": "char_getCharacter_10000546",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000546_0_des"
+      }
+    ],
     "controllerId": 10300466,
     "equipmentSlotList": [
       {
@@ -5832,7 +6432,7 @@
   "10000572": {
     "id": 10000572,
     "name": "char_name_10000572",
-    "roleListResUrl": "RolePlus/MargielaStargazer/Half.png",
+    "roleListResUrl": "roleplus/margielastargazer/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -5904,6 +6504,16 @@
     "subLine": 290,
     "identity": "char_identity_10000572",
     "ability": "char_ability_10000572",
+    "gender": "char_gender_10000572",
+    "birthday": "char_birthday_10000572",
+    "height": "156cm",
+    "birthplace": "char_birthplace_10000572",
+    "getCharacter": "char_getCharacter_10000572",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000572_0_des"
+      }
+    ],
     "controllerId": 10300569,
     "equipmentSlotList": [
       {
@@ -5937,7 +6547,7 @@
   "10000573": {
     "id": 10000573,
     "name": "char_name_10000573",
-    "roleListResUrl": "RolePlus/Komugi/Half.png",
+    "roleListResUrl": "roleplus/komugi/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -6006,6 +6616,16 @@
     "subLine": 100,
     "identity": "char_identity_10000573",
     "ability": "char_ability_10000573",
+    "gender": "char_gender_10000573",
+    "birthday": "char_birthday_10000573",
+    "height": "149cm",
+    "birthplace": "char_birthplace_10000573",
+    "getCharacter": "char_getCharacter_10000573",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000573_0_des"
+      }
+    ],
     "controllerId": 10300574,
     "equipmentSlotList": [
       {
@@ -6039,7 +6659,7 @@
   "10000607": {
     "id": 10000607,
     "name": "char_name_10000607",
-    "roleListResUrl": "RolePlus/Paladi/Half.png",
+    "roleListResUrl": "roleplus/paladi/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -6108,6 +6728,16 @@
     "subLine": 88,
     "identity": "char_identity_10000607",
     "ability": "char_ability_10000607",
+    "gender": "char_gender_10000607",
+    "birthday": "char_birthday_10000607",
+    "height": "155cm",
+    "birthplace": "char_birthplace_10000607",
+    "getCharacter": "char_getCharacter_10000607",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000607_0_des"
+      }
+    ],
     "controllerId": 10300468,
     "equipmentSlotList": [
       {
@@ -6141,7 +6771,7 @@
   "10000615": {
     "id": 10000615,
     "name": "char_name_10000615",
-    "roleListResUrl": "RolePlus/Pelota/Half.png",
+    "roleListResUrl": "roleplus/pelota/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -6206,6 +6836,16 @@
     "subLine": 450,
     "identity": "char_identity_10000615",
     "ability": "char_ability_10000615",
+    "gender": "char_gender_10000615",
+    "birthday": "char_birthday_10000615",
+    "height": "150cm",
+    "birthplace": "char_birthplace_10000615",
+    "getCharacter": "char_getCharacter_10000615",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000615_0_des"
+      }
+    ],
     "controllerId": 10300493,
     "equipmentSlotList": [
       {
@@ -6239,7 +6879,7 @@
   "10000623": {
     "id": 10000623,
     "name": "char_name_10000623",
-    "roleListResUrl": "RolePlus/MsGold/Half.png",
+    "roleListResUrl": "roleplus/msgold/Half.png",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -6301,6 +6941,16 @@
     "subLine": 4,
     "identity": "char_identity_10000623",
     "ability": "char_ability_10000623",
+    "gender": "char_gender_10000623",
+    "birthday": "char_birthday_10000623",
+    "height": "140cm（包括头部组件）",
+    "birthplace": "char_birthplace_10000623",
+    "getCharacter": "char_getCharacter_10000623",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000623_0_des"
+      }
+    ],
     "controllerId": 10300502,
     "equipmentSlotList": [
       {
@@ -6329,7 +6979,7 @@
   "10000624": {
     "id": 10000624,
     "name": "char_name_10000624",
-    "roleListResUrl": "RolePlus/Mumei/Half.png",
+    "roleListResUrl": "roleplus/mumei/Half.png",
     "quality": "FiveStar",
     "sideId": 12601524,
     "passiveSkillList": [],
@@ -6394,6 +7044,16 @@
     "subLine": 140,
     "identity": "char_identity_10000624",
     "ability": "char_ability_10000624",
+    "gender": "char_gender_10000624",
+    "birthday": "char_birthday_10000624",
+    "height": "不明",
+    "birthplace": "char_birthplace_10000624",
+    "getCharacter": "char_getCharacter_10000624",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000624_0_des"
+      }
+    ],
     "controllerId": 10300501,
     "equipmentSlotList": [
       {
@@ -6427,7 +7087,7 @@
   "10000632": {
     "id": 10000632,
     "name": "char_name_10000632",
-    "roleListResUrl": "RolePlus/Raziel_Human/Half.png",
+    "roleListResUrl": "roleplus/raziel_human/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -6492,6 +7152,16 @@
     "subLine": 160,
     "identity": "char_identity_10000632",
     "ability": "char_ability_10000632",
+    "gender": "char_gender_10000632",
+    "birthday": "char_birthday_10000632",
+    "height": "165cm",
+    "birthplace": "char_birthplace_10000632",
+    "getCharacter": "char_getCharacter_10000632",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000632_0_des"
+      }
+    ],
     "controllerId": 10300507,
     "equipmentSlotList": [
       {
@@ -6525,7 +7195,7 @@
   "10000739": {
     "id": 10000739,
     "name": "char_name_10000739",
-    "roleListResUrl": "RolePlus/Verlaine/Half.png",
+    "roleListResUrl": "roleplus/verlaine/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -6597,6 +7267,16 @@
     "subLine": 210,
     "identity": "char_identity_10000739",
     "ability": "char_ability_10000739",
+    "gender": "char_gender_10000739",
+    "birthday": "char_birthday_10000739",
+    "height": "156cm",
+    "birthplace": "char_birthplace_10000739",
+    "getCharacter": "char_getCharacter_10000739",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000739_0_des"
+      }
+    ],
     "controllerId": 10300331,
     "equipmentSlotList": [
       {
@@ -6630,7 +7310,7 @@
   "10000748": {
     "id": 10000748,
     "name": "char_name_10000748",
-    "roleListResUrl": "RolePlus/Raziel_Angel/Half.png",
+    "roleListResUrl": "roleplus/raziel_angel/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -6699,6 +7379,16 @@
     "subLine": 160,
     "identity": "char_identity_10000748",
     "ability": "char_ability_10000748",
+    "gender": "char_gender_10000748",
+    "birthday": "char_birthday_10000748",
+    "height": "165cm",
+    "birthplace": "char_birthplace_10000748",
+    "getCharacter": "char_getCharacter_10000748",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000748_0_des"
+      }
+    ],
     "controllerId": 10300539,
     "equipmentSlotList": [
       {
@@ -6732,7 +7422,7 @@
   "10000749": {
     "id": 10000749,
     "name": "char_name_10000749",
-    "roleListResUrl": "RolePlus/Ushana/Half.png",
+    "roleListResUrl": "roleplus/ushana/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -6801,6 +7491,16 @@
     "subLine": 390,
     "identity": "char_identity_10000749",
     "ability": "char_ability_10000749",
+    "gender": "char_gender_10000749",
+    "birthday": "char_birthday_10000749",
+    "height": "159cm",
+    "birthplace": "char_birthplace_10000749",
+    "getCharacter": "char_getCharacter_10000749",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000749_0_des"
+      }
+    ],
     "controllerId": 10300537,
     "equipmentSlotList": [
       {
@@ -6834,7 +7534,7 @@
   "10000796": {
     "id": 10000796,
     "name": "char_name_10000796",
-    "roleListResUrl": "RolePlus/Masaki/Half.png",
+    "roleListResUrl": "roleplus/masaki/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -6912,6 +7612,16 @@
     "subLine": 291,
     "identity": "char_identity_10000796",
     "ability": "char_ability_10000796",
+    "gender": "char_gender_10000796",
+    "birthday": "char_birthday_10000796",
+    "height": "150cm",
+    "birthplace": "char_birthplace_10000796",
+    "getCharacter": "char_getCharacter_10000796",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000796_0_des"
+      }
+    ],
     "controllerId": 10300589,
     "equipmentSlotList": [
       {
@@ -6945,7 +7655,7 @@
   "10000843": {
     "id": 10000843,
     "name": "char_name_10000843",
-    "roleListResUrl": "RolePlus/Chloe/Half.png",
+    "roleListResUrl": "roleplus/chloe/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -7014,6 +7724,16 @@
     "subLine": 400,
     "identity": "char_identity_10000843",
     "ability": "char_ability_10000843",
+    "gender": "char_gender_10000843",
+    "birthday": "char_birthday_10000843",
+    "height": "164cm",
+    "birthplace": "char_birthplace_10000843",
+    "getCharacter": "char_getCharacter_10000843",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000843_0_des"
+      }
+    ],
     "controllerId": 10300610,
     "equipmentSlotList": [
       {
@@ -7047,7 +7767,7 @@
   "10000855": {
     "id": 10000855,
     "name": "char_name_10000855",
-    "roleListResUrl": "RolePlus/Ren/Half.png",
+    "roleListResUrl": "roleplus/ren/Half.png",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -7112,6 +7832,16 @@
     "subLine": 890,
     "identity": "char_identity_10000855",
     "ability": "char_ability_10000855",
+    "gender": "char_gender_10000855",
+    "birthday": "char_birthday_10000855",
+    "height": "163cm",
+    "birthplace": "char_birthplace_10000855",
+    "getCharacter": "char_getCharacter_10000855",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000855_0_des"
+      }
+    ],
     "controllerId": 10300566,
     "equipmentSlotList": [
       {
@@ -7145,7 +7875,7 @@
   "10000890": {
     "id": 10000890,
     "name": "char_name_10000890",
-    "roleListResUrl": "RolePlus/Ikara/Half.png",
+    "roleListResUrl": "roleplus/ikara/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -7214,6 +7944,16 @@
     "subLine": 400,
     "identity": "char_identity_10000890",
     "ability": "char_ability_10000890",
+    "gender": "char_gender_10000890",
+    "birthday": "char_birthday_10000890",
+    "height": "155cm",
+    "birthplace": "char_birthplace_10000890",
+    "getCharacter": "char_getCharacter_10000890",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000890_0_des"
+      }
+    ],
     "controllerId": 10300622,
     "equipmentSlotList": [
       {
@@ -7247,7 +7987,7 @@
   "10000920": {
     "id": 10000920,
     "name": "char_name_10000920",
-    "roleListResUrl": "RolePlus/Eliade/Half.png",
+    "roleListResUrl": "roleplus/eliade/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -7312,6 +8052,16 @@
     "subLine": 880,
     "identity": "char_identity_10000920",
     "ability": "char_ability_10000920",
+    "gender": "char_gender_10000920",
+    "birthday": "char_birthday_10000920",
+    "height": "183cm",
+    "birthplace": "char_birthplace_10000920",
+    "getCharacter": "char_getCharacter_10000920",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000920_0_des"
+      }
+    ],
     "controllerId": 10300629,
     "equipmentSlotList": [
       {
@@ -7345,7 +8095,7 @@
   "10000941": {
     "id": 10000941,
     "name": "char_name_10000941",
-    "roleListResUrl": "RolePlus/Anethum/Half.png",
+    "roleListResUrl": "roleplus/anethum/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -7410,6 +8160,16 @@
     "subLine": 820,
     "identity": "char_identity_10000941",
     "ability": "char_ability_10000941",
+    "gender": "char_gender_10000941",
+    "birthday": "char_birthday_10000941",
+    "height": "149cm",
+    "birthplace": "char_birthplace_10000941",
+    "getCharacter": "char_getCharacter_10000941",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000941_0_des"
+      }
+    ],
     "controllerId": 10300643,
     "equipmentSlotList": [
       {
@@ -7443,7 +8203,7 @@
   "10000942": {
     "id": 10000942,
     "name": "char_name_10000942",
-    "roleListResUrl": "RolePlus/Slokai/Half.png",
+    "roleListResUrl": "roleplus/slokai/Half.png",
     "quality": "FiveStar",
     "sideId": 12601877,
     "passiveSkillList": [],
@@ -7508,6 +8268,16 @@
     "subLine": 138,
     "identity": "char_identity_10000942",
     "ability": "char_ability_10000942",
+    "gender": "char_gender_10000942",
+    "birthday": "char_birthday_10000942",
+    "height": "157cm",
+    "birthplace": "char_birthplace_10000942",
+    "getCharacter": "char_getCharacter_10000942",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000942_0_des"
+      }
+    ],
     "controllerId": 10300631,
     "equipmentSlotList": [
       {
@@ -7541,7 +8311,7 @@
   "10000969": {
     "id": 10000969,
     "name": "char_name_10000969",
-    "roleListResUrl": "RolePlus/Lycagia/Half.png",
+    "roleListResUrl": "roleplus/lycagia/Half.png",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -7606,6 +8376,16 @@
     "subLine": 143,
     "identity": "char_identity_10000969",
     "ability": "char_ability_10000969",
+    "gender": "char_gender_10000969",
+    "birthday": "char_birthday_10000969",
+    "height": "185cm",
+    "birthplace": "char_birthplace_10000969",
+    "getCharacter": "char_getCharacter_10000969",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000969_0_des"
+      }
+    ],
     "controllerId": 10300551,
     "equipmentSlotList": [
       {
@@ -7639,7 +8419,7 @@
   "10000979": {
     "id": 10000979,
     "name": "char_name_10000979",
-    "roleListResUrl": "RolePlus/Olivien/Half.png",
+    "roleListResUrl": "roleplus/olivien/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -7704,6 +8484,16 @@
     "subLine": 160,
     "identity": "char_identity_10000979",
     "ability": "char_ability_10000979",
+    "gender": "char_gender_10000979",
+    "birthday": "char_birthday_10000979",
+    "height": "170cm",
+    "birthplace": "char_birthplace_10000979",
+    "getCharacter": "char_getCharacter_10000979",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10000979_0_des"
+      }
+    ],
     "controllerId": 10300557,
     "equipmentSlotList": [
       {
@@ -7737,7 +8527,7 @@
   "10001003": {
     "id": 10001003,
     "name": "char_name_10001003",
-    "roleListResUrl": "RolePlus/Helena/Half.png",
+    "roleListResUrl": "roleplus/helena/Half.png",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -7806,6 +8596,16 @@
     "subLine": 242,
     "identity": "char_identity_10001003",
     "ability": "char_ability_10001003",
+    "gender": "char_gender_10001003",
+    "birthday": "char_birthday_10001003",
+    "height": "166cm",
+    "birthplace": "char_birthplace_10001003",
+    "getCharacter": "char_getCharacter_10001003",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001003_0_des"
+      }
+    ],
     "controllerId": 10300633,
     "equipmentSlotList": [
       {
@@ -7839,7 +8639,7 @@
   "10001019": {
     "id": 10001019,
     "name": "char_name_10001019",
-    "roleListResUrl": "RolePlus/DRamis/Half.png",
+    "roleListResUrl": "roleplus/dramis/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [
@@ -7911,6 +8711,16 @@
     "subLine": 830,
     "identity": "char_identity_10001019",
     "ability": "char_ability_10001019",
+    "gender": "char_gender_10001019",
+    "birthday": "char_birthday_10001019",
+    "height": "162cm",
+    "birthplace": "char_birthplace_10001019",
+    "getCharacter": "char_getCharacter_10001019",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001019_0_des"
+      }
+    ],
     "controllerId": 10300639,
     "equipmentSlotList": [
       {
@@ -7944,7 +8754,7 @@
   "10001052": {
     "id": 10001052,
     "name": "char_name_10001052",
-    "roleListResUrl": "RolePlus/Chelsea/Half.png",
+    "roleListResUrl": "roleplus/chelsea/Half.png",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -8009,6 +8819,16 @@
     "subLine": 159,
     "identity": "char_identity_10001052",
     "ability": "char_ability_10001052",
+    "gender": "char_gender_10001052",
+    "birthday": "char_birthday_10001052",
+    "height": "170cm",
+    "birthplace": "char_birthplace_10001052",
+    "getCharacter": "char_getCharacter_10001052",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001052_0_des"
+      }
+    ],
     "controllerId": 10300637,
     "equipmentSlotList": [
       {
@@ -8042,7 +8862,7 @@
   "10001089": {
     "id": 10001089,
     "name": "char_name_10001089",
-    "roleListResUrl": "RolePlus/Carr/Half.png",
+    "roleListResUrl": "roleplus/carr/Half.png",
     "quality": "FiveStar",
     "sideId": 12601920,
     "passiveSkillList": [],
@@ -8107,6 +8927,16 @@
     "subLine": 80,
     "identity": "char_identity_10001089",
     "ability": "char_ability_10001089",
+    "gender": "char_gender_10001089",
+    "birthday": "char_birthday_10001089",
+    "height": "147cm",
+    "birthplace": "char_birthplace_10001089",
+    "getCharacter": "char_getCharacter_10001089",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001089_0_des"
+      }
+    ],
     "controllerId": 10300650,
     "equipmentSlotList": [
       {
@@ -8140,7 +8970,7 @@
   "10001092": {
     "id": 10001092,
     "name": "char_name_10001092",
-    "roleListResUrl": "RolePlus/Chenshuxian/Half.png",
+    "roleListResUrl": "roleplus/chenshuxian/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -8205,6 +9035,16 @@
     "subLine": 450,
     "identity": "char_identity_10001092",
     "ability": "char_ability_10001092",
+    "gender": "char_gender_10001092",
+    "birthday": "char_birthday_10001092",
+    "height": "163cm",
+    "birthplace": "char_birthplace_10001092",
+    "getCharacter": "char_getCharacter_10001092",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001092_0_des"
+      }
+    ],
     "controllerId": 10300656,
     "equipmentSlotList": [
       {
@@ -8238,7 +9078,7 @@
   "10001157": {
     "id": 10001157,
     "name": "char_name_10001157",
-    "roleListResUrl": "RolePlus/Hecate/Half.png",
+    "roleListResUrl": "roleplus/hecate/Half.png",
     "quality": "FiveStar",
     "sideId": 12601920,
     "passiveSkillList": [
@@ -8307,6 +9147,16 @@
     "subLine": 140,
     "identity": "char_identity_10001157",
     "ability": "char_ability_10001157",
+    "gender": "char_gender_10001157",
+    "birthday": "char_birthday_10001157",
+    "height": "173cm",
+    "birthplace": "char_birthplace_10001157",
+    "getCharacter": "char_getCharacter_10001157",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001157_0_des"
+      }
+    ],
     "controllerId": 10300645,
     "equipmentSlotList": [
       {
@@ -8340,7 +9190,7 @@
   "10001203": {
     "id": 10001203,
     "name": "char_name_10001203",
-    "roleListResUrl": "RolePlus/Vostok/Half.png",
+    "roleListResUrl": "roleplus/vostok/Half.png",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [
@@ -8409,6 +9259,16 @@
     "subLine": 840,
     "identity": "char_identity_10001203",
     "ability": "char_ability_10001203",
+    "gender": "char_gender_10001203",
+    "birthday": "char_birthday_10001203",
+    "height": "162cm",
+    "birthplace": "char_birthplace_10001203",
+    "getCharacter": "char_getCharacter_10001203",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001203_0_des"
+      }
+    ],
     "controllerId": 10300664,
     "equipmentSlotList": [
       {
@@ -8434,6 +9294,118 @@
       },
       {
         "id": 83900267,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
+  },
+  "10001222": {
+    "id": 10001222,
+    "name": "char_name_10001222",
+    "roleListResUrl": "roleplus/tistar/Half.png",
+    "quality": "FiveStar",
+    "sideId": 12600026,
+    "passiveSkillList": [
+      {
+        "skillId": 12304414
+      }
+    ],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12304373
+      },
+      {
+        "num": 1,
+        "skillId": 12304374
+      },
+      {
+        "num": 1,
+        "skillId": 12304375
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 77000000,
+    "def_SN": 770000,
+    "atk_SN": 880000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12800215
+      },
+      {
+        "talentId": 12800236
+      },
+      {
+        "talentId": 12800280
+      },
+      {
+        "talentId": 12800301
+      },
+      {
+        "talentId": 12800333
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100031
+      },
+      {
+        "breakthroughId": 12100958
+      },
+      {
+        "breakthroughId": 12100036
+      },
+      {
+        "breakthroughId": 12100037
+      },
+      {
+        "breakthroughId": 12100041
+      },
+      {
+        "breakthroughId": 12100042
+      }
+    ],
+    "line": 3,
+    "subLine": 500,
+    "identity": "char_identity_10001222",
+    "ability": "char_ability_10001222",
+    "gender": "char_gender_10001222",
+    "birthday": "char_birthday_10001222",
+    "height": "166cm",
+    "birthplace": "char_birthplace_10001222",
+    "getCharacter": "char_getCharacter_10001222",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001222_0_des"
+      }
+    ],
+    "controllerId": 10300669,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900003,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900002,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900009,
         "nextIndex": 4294967295,
         "resonanceLv": 5
       }
