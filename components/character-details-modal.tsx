@@ -30,6 +30,65 @@ export function CharacterDetailsModal({
   selectedAwakeningStage = null,
   onAwakeningSelect,
 }: CharacterDetailsModalProps) {
+   // character-details-modal.tsx 내부, character/data 접근 가능한 위치에 추가
+// 예: 컴포넌트 함수 본문 최상단
+
+function debugAwakeningMap() {
+  const list = Array.isArray(character?.breakthroughList) ? character.breakthroughList : [];
+
+  const rows = list.map((b: any, idx: number) => {
+    const id =
+      typeof b === "number" ? b :
+      typeof b === "object" && b ? (b.breakthroughId ?? b.id ?? 0) :
+      0;
+
+    const keyStr = String(id);
+
+    const rec = (data as any)?.breakthroughs?.[keyStr] ?? (data as any)?.breakthroughs?.[id] ?? null;
+
+    // name/desc는 ConfigLanguage에서 매칭되는 "키 문자열"일 가능성이 높음
+    // (예: "breakthrough_name_123..." 같은 키)
+    const nameKey = rec?.name ?? "";
+    const descKey = rec?.desc ?? "";
+    const img = rec?.img_url ?? "";
+
+    // 번역 적용(프로젝트에 이미 있는 함수 사용)
+    // getTranslatedString이 없으면 nameKey/descKey 그대로 출력됨
+    const nameKO =
+      typeof (globalThis as any).getTranslatedString === "function"
+        ? (globalThis as any).getTranslatedString(nameKey)
+        : (typeof (getTranslatedString as any) === "function" ? (getTranslatedString as any)(nameKey) : nameKey);
+
+    const descKO =
+      typeof (globalThis as any).getTranslatedString === "function"
+        ? (globalThis as any).getTranslatedString(descKey)
+        : (typeof (getTranslatedString as any) === "function" ? (getTranslatedString as any)(descKey) : descKey);
+
+    return {
+      idx,
+      raw: b,
+      breakthroughId: id,
+      dbFound: !!rec,
+      dbKeys: rec ? Object.keys(rec) : [],
+      nameKey,
+      nameKO,
+      descKey,
+      descKO,
+      img_url: img,
+    };
+  });  
+
+  // 추가: “못찾는 케이스”만 따로 모아서 출력
+  const missing = rows.filter((r) => !r.dbFound || !r.breakthroughId);
+  if (missing.length) {
+    console.warn("[debug] breakthrough missing/invalid", missing);
+  }
+}
+
+// 호출
+debugAwakeningMap();
+
+
   // 홈 스킬 데이터를 저장할 상태 추가
   const [homeSkills, setHomeSkills] = useState<any[]>([]);
 

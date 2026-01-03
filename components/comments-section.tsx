@@ -155,14 +155,6 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
   }
 
   const addComment = async () => {
-     console.log("[Comments] click", {
-       editingCommentId,
-       canComment,
-       newComment: JSON.stringify(newComment),
-       newCommentLen: newComment.length,
-       editContentLen: editContent.length,
-     });
-
     if (editingCommentId) {
       if (!editContent.trim()) return
       try {

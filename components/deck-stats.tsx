@@ -3,6 +3,7 @@
 import { useMemo } from "react"
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, Legend } from "recharts"
 import type { Card, CardExtraInfo } from "../types"
+import { formatColorText } from "../utils/format-text";
 
 interface DeckStatsProps {
   selectedCards: {
@@ -288,7 +289,7 @@ export function DeckStats({
                   <div className="font-bold mb-1" style={{ color: effect.color }}>
                     {effect.name}
                   </div>
-                  <div>{effect.description}</div>
+                  <div>{formatColorText(effect.description)}</div>
                 </div>
               </div>
             ))}

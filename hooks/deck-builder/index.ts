@@ -26,7 +26,10 @@ const getTranslatedString = (key: string) => key // 임시 구현
 const processSkillDescription = (skill: any, desc: string) => desc // 임시 구현
 const findCharacterImageForCard = (card: any) => undefined // 임시 구현
 
-const DISCARD_CARD_ID = 10600474;
+const DISCARD_CARD_ID = "10600474"; // string
+
+const DISCARD_DEFAULT_USE_TYPE = 1;
+const DISCARD_DEFAULT_USE_PARAM = -1;
 
 export function useDeckBuilder(data: Database | null) {
   // 다크 모드
@@ -110,9 +113,9 @@ function normalizeDiscardCard(cards: any[]) {
   const out: any[] = [];
 
   for (const c of cards) {
-    const id = Number((c as any)?.id);
+    const idStr = String((c as any)?.id ?? "");
 
-    if (id === DISCARD_CARD_ID) {
+    if (idStr === DISCARD_CARD_ID) {
       if (found) {
         changed = true; // 중복 제거
         continue;
@@ -120,33 +123,52 @@ function normalizeDiscardCard(cards: any[]) {
 
       found = true;
 
-      const hasSources = Array.isArray((c as any).sources) && (c as any).sources.length > 0;
-      const sources = hasSources ? (c as any).sources : [{ type: "system", id: "discard" }];
+      let next = c;
 
-      if (!hasSources) changed = true;
-
-      // sources 보정이 필요 없으면 원본 객체를 유지(불필요한 state update 방지)
-      if (sources === (c as any).sources) {
-        out.push(c);
-      } else {
-        out.push({ ...c, sources });
+      // id는 string으로만 유지 (number → string 보정)
+      if (typeof (c as any).id !== "string") {
+        next = { ...next, id: DISCARD_CARD_ID };
+        changed = true;
       }
 
+      // sources는 UI 내부용, 없으면만 추가
+      const hasSources =
+        Array.isArray((next as any).sources) && (next as any).sources.length > 0;
+
+      if (!hasSources) {
+        next = { ...next, sources: [{ type: "system", id: "discard" }] };
+        changed = true;
+      }
+
+      // 값이 없을 때만 기본값 채움 (기존 값은 절대 덮어쓰기 금지)
+      if (typeof (next as any).useType !== "number") {
+        next = { ...next, useType: DISCARD_DEFAULT_USE_TYPE };
+        changed = true;
+      }
+
+      if (typeof (next as any).useParam !== "number") {
+        next = { ...next, useParam: DISCARD_DEFAULT_USE_PARAM };
+        changed = true;
+      }
+
+      out.push(next);
       continue;
     }
 
     out.push(c);
   }
 
+  // discard 기본 포함 (없을 때만)
   if (!found) {
     changed = true;
-    out.unshift({
-      id: DISCARD_CARD_ID,
+    out.push({
+      id: DISCARD_CARD_ID, // string
+      useType: DISCARD_DEFAULT_USE_TYPE,
+      useParam: DISCARD_DEFAULT_USE_PARAM,
       sources: [{ type: "system", id: "discard" }],
     });
   }
 
-  // 이미 정상 상태면 원본 배열 그대로 반환(무한 루프/불필요 렌더 방지)
   return changed ? out : cards;
 }
 

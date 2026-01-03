@@ -75,7 +75,7 @@ export function CharacterSearchModal({
         closeOnOutsideClick={true}
       >
         <div className="p-4">
-          <div className="grid grid-cols-5 gap-2">
+          <div className="grid grid-cols-4 gap-2 lg:grid-cols-5" >
             {/* 없음 옵션 추가 */}
             <div onClick={() => onSelectCharacter(-1)} className="cursor-pointer">
               <div className="relative w-full aspect-[3/4] rounded-lg border-2 border-gray-700 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg bg-black bg-opacity-70">

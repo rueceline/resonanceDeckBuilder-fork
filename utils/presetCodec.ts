@@ -8,6 +8,8 @@ export function decodePreset(base64: string): any {
     const compressed = Uint8Array.from(atob(cleaned), (c) => c.charCodeAt(0))
     const jsonStr = new TextDecoder().decode(pako.inflateRaw(compressed))
     const result = JSON.parse(jsonStr)
+
+    console.log("[DECODE RESULT RAW]", JSON.stringify(result, null, 2));
     return result
   } catch (e) {
     return null

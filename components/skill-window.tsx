@@ -7,6 +7,7 @@ import { SkillCard } from "./skill-card";
 import { CardSettingsModal } from "./card-settings-modal";
 import { TabbedInterface } from "./tabbed-interface";
 import { DeckStats } from "./deck-stats";
+import { formatColorText } from "../utils/format-text";
 
 // dnd-kit import - MouseSensor와 TouchSensor 추가
 import {
@@ -178,7 +179,7 @@ function StatusEffectTags({
                 <div className="font-bold mb-1" style={{ color: effect.color }}>
                   {effect.name}
                 </div>
-                <div>{effect.description}</div>
+                <div>{formatColorText(effect.description)}</div>
               </div>
             </div>
           ))}

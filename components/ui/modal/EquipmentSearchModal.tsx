@@ -116,7 +116,7 @@ export function EquipmentSearchModal({
         closeOnOutsideClick={true}
       >
         <div className="p-4">
-          <div className="grid grid-cols-5 gap-2">
+          <div className="grid grid-cols-4 gap-2 lg:grid-cols-5">
             {/* None option */}
             <div onClick={() => onSelectEquipment(null)} className="flex flex-col items-center">
               <div className="w-full aspect-square bg-gray-700 rounded-lg mb-1 flex items-center justify-center cursor-pointer hover:bg-gray-600 neon-border">

@@ -32,3 +32,6 @@ next-env.d.ts
 # png
 /public/assets_png/
 /public/assets/**/*.png
+
+# test
+/public/vm

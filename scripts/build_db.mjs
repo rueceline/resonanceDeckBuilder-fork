@@ -110,15 +110,6 @@ function writeJson(absPath, obj) {
   fs.writeFileSync(absPath, JSON.stringify(obj, null, 2), "utf-8");
 }
 
-function readJsonIfExists(absPath) {
-  try {
-    if (!fs.existsSync(absPath)) return null;
-    return readJson(absPath);
-  } catch {
-    return null;
-  }
-}
-
 function normalizeRootJson(root) {
   // data가 {data:[...]} 형태인 경우 대비
   if (Array.isArray(root)) return root;
