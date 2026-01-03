@@ -180,8 +180,6 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
 
     if (!newComment.trim() || !canComment) return
     try {
-      console.log("[Comments] before addDoc", userId);
-
       // const docRef = await addDoc(collection(db, "comments"), {
       //   content: newComment.trim(),
       //   userId,
@@ -207,9 +205,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
         new Promise<never>((_, reject) =>
           setTimeout(() => reject(new Error("addDoc timeout (8s)")), 8000)
         ),
-      ]);
-
-      console.log("[Comments] after addDoc", { id: docRef.id });
+      ]);      
 
       const now = Date.now()
       localStorage.setItem("lastCommentTime", now.toString())

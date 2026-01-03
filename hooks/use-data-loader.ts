@@ -105,7 +105,8 @@ export function useDataLoader() {
           Object.keys(characters).forEach((charId) => {
             const char = characters[charId]
             char.img_card = toAssetPath(char.roleListResUrl)
-          })
+            char.face = toAssetPath(char.face)
+          })          
 
           // 기존 backward compatibility 블럭(원본 유지)
           Object.keys(characters).forEach((charId) => {

@@ -10,6 +10,7 @@ const patchNotes: PatchNoteEntry[] = [
     title: "버리기 기능 오류 수정",
     items: [
       "덱 코드 생성 로직 변경",
+      "편성 목록 추가"
     ],
   },
   {

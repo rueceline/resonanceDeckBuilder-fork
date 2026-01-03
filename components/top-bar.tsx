@@ -350,7 +350,6 @@ export function TopBar({
         onClose={() => setShowDeckListModal(false)}
         data={data}
         getTranslatedString={getTranslatedString}
-        fetchUrl="/api/db/deck_list.json"
         onApplyPreset={onApplyPresetFromCode}
         onCopiedPresetCode={() => {
           showToast(

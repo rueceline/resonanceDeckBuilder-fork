@@ -291,9 +291,16 @@ function buildCharDb(ctx) {
 
     const viewId = safeNumber(u?.viewId);
     let roleListResUrl = "";
+    let face = "";
+
     if (viewId !== null) {
       const viewRec = unitViewById.get(viewId) || null;
       roleListResUrl = String(viewRec?.roleListResUrl ?? "").trim();
+
+      if (roleListResUrl) {
+        const norm = normalizeImgPath(roleListResUrl); // \ -> / 포함 정규화
+        face = norm.replace(/[^/]+$/, "Face.webp"); // 마지막 파일명만 치환
+      }
     }
 
     out[String(id)] = {
@@ -302,7 +309,7 @@ function buildCharDb(ctx) {
 
       // 이미지 경로(단일): UnitViewFactory.roleListResUrl
       roleListResUrl,
-
+      face,
       quality: u?.quality ?? "",
       sideId: safeNumber(u?.sideId) ?? null,
 
@@ -906,7 +913,7 @@ function applyImagePathResolveToDbField(db, fieldName, assetRootDirAbs) {
     // 4) 확장자 다시 붙이기 (png 우선)
     // const absPng = path.join(assetRootDirAbs, `${p}.png`);
     const absWebp = path.join(assetRootDirAbs, `${p}.webp`);
-  
+
     if (fs.existsSync(absWebp)) {
       rec[fieldName] = `${p}.webp`;
     } else {
@@ -1007,7 +1014,9 @@ function main() {
       outObj[token] = v && typeof v === "string" ? v : cn;
     }
 
-    console.log(`[DBG tr] ${t.code} hit= ${hit} miss= ${miss} total= ${hit + miss}`);
+    console.log(
+      `[DBG tr] ${t.code} hit= ${hit} miss= ${miss} total= ${hit + miss}`
+    );
 
     const outPath = path.join(OUT_DIR, `lang_${t.code}.json`);
     writeLangJson(outPath, outObj);
