@@ -1,23 +1,41 @@
-"use client"
+"use client";
 
-import type React from "react"
+import type React from "react";
 
-import { useState, useEffect, useRef } from "react"
-import { Globe, Download, Upload, RefreshCw, Share2, HelpCircle, Save, FolderOpen, UsersRound } from "lucide-react"
-import { StylizedTitle } from "./stylized-title"
-import { HelpModal } from "./ui/modal/HelpModal"
-import { useLanguage } from "../contexts/language-context"
-import { ScreenshotButton } from "./screenshot-button" // 추가
+import { useState, useEffect, useRef } from "react";
+import {
+  Globe,
+  Download,
+  Upload,
+  RefreshCw,
+  Share2,
+  HelpCircle,
+  Save,
+  FolderOpen,
+  UsersRound,
+  LayoutGrid,
+} from "lucide-react";
+import { StylizedTitle } from "./stylized-title";
+import { HelpModal } from "./ui/modal/HelpModal";
+import { useLanguage } from "../contexts/language-context";
+import { ScreenshotButton } from "./screenshot-button"; // 추가
+
+import type { Database } from "../types/index";
+import { DeckListModal } from "./ui/modal/DeckListModal";
 
 interface TopBarProps {
-  onClear: () => void
-  onImport: () => Promise<void>
-  onExport: () => void
-  onShare: () => void
-  onSave: () => void // 추가: 저장 버튼 핸들러
-  onLoad: () => void // 추가: 불러오기 버튼 핸들러
-  onSortCharacters?: () => void
-  contentRef: React.RefObject<HTMLElement> // 추가: 캡처할 컨텐츠 참조
+  onClear: () => void;
+  onImport: () => Promise<void>;
+  onExport: () => void;
+  onShare: () => void;
+  onSave: () => void; // 추가: 저장 버튼 핸들러
+  onLoad: () => void; // 추가: 불러오기 버튼 핸들러
+  onSortCharacters?: () => void;
+  contentRef: React.RefObject<HTMLElement>; // 추가: 캡처할 컨텐츠 참조
+
+  data: Database;
+  onApplyPresetFromCode?: (presetCode: string) => void;
+  showToast: (message: string, type?: "success" | "error" | "info") => void;
 }
 
 export function TopBar({
@@ -29,59 +47,80 @@ export function TopBar({
   onLoad,
   onSortCharacters,
   contentRef,
+  data,
+  onApplyPresetFromCode,
+  showToast,
 }: TopBarProps) {
-  const { currentLanguage, supportedLanguages, getTranslatedString, changeLanguage, isChangingLanguage } = useLanguage()
+  const {
+    currentLanguage,
+    supportedLanguages,
+    getTranslatedString,
+    changeLanguage,
+    isChangingLanguage,
+  } = useLanguage();
 
-  const [showLanguageMenu, setShowLanguageMenu] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
-  const [showHelpPopup, setShowHelpPopup] = useState(false)
-  const languageMenuRef = useRef<HTMLDivElement>(null)
-  const helpPopupRef = useRef<HTMLDivElement>(null)
+  const [showLanguageMenu, setShowLanguageMenu] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [showHelpPopup, setShowHelpPopup] = useState(false);
+  const languageMenuRef = useRef<HTMLDivElement>(null);
+  const helpPopupRef = useRef<HTMLDivElement>(null);
+
+  const [showDeckListModal, setShowDeckListModal] = useState(false);
+
   // 언어 버튼 참조 추가
-  const languageButtonRef = useRef<HTMLButtonElement>(null)
+  const languageButtonRef = useRef<HTMLButtonElement>(null);
 
   // Add scroll effect
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 10)
-    }
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // 언어 변경 핸들러
   const handleLanguageChange = (lang: string) => {
     // 현재 언어와 같은 언어 선택 시 드롭다운만 닫기
     if (currentLanguage === lang) {
-      setShowLanguageMenu(false)
-      return
+      setShowLanguageMenu(false);
+      return;
     }
 
     // 언어 변경
-    changeLanguage(lang)
+    changeLanguage(lang);
 
     // 메뉴 닫기
-    setShowLanguageMenu(false)
-  }
+    setShowLanguageMenu(false);
+  };
 
   // 언어 메뉴 토글 핸들러 수정 - 드롭다운이 언어 버튼의 왼쪽 선에 맞춰서 나오도록 변경
   const toggleLanguageMenu = () => {
     if (!showLanguageMenu && languageButtonRef.current) {
       // 버튼 위치 계산
-      const rect = languageButtonRef.current.getBoundingClientRect()
+      const rect = languageButtonRef.current.getBoundingClientRect();
 
       // 드롭다운 메뉴 위치 설정 - 버튼 왼쪽에 맞춤
-      document.documentElement.style.setProperty("--language-dropdown-top", `${rect.bottom}px`)
-      document.documentElement.style.setProperty("--language-dropdown-left", `${rect.left}px`)
-      document.documentElement.style.setProperty("--language-dropdown-right", "auto")
+      document.documentElement.style.setProperty(
+        "--language-dropdown-top",
+        `${rect.bottom}px`
+      );
+      document.documentElement.style.setProperty(
+        "--language-dropdown-left",
+        `${rect.left}px`
+      );
+      document.documentElement.style.setProperty(
+        "--language-dropdown-right",
+        "auto"
+      );
     }
-    setShowLanguageMenu(!showLanguageMenu)
-  }
+    setShowLanguageMenu(!showLanguageMenu);
+  };
 
   // 도움말 버튼 클릭 핸들러
   const toggleHelpPopup = () => {
-    setShowHelpPopup(!showHelpPopup)
-  }
+    setShowHelpPopup(!showHelpPopup);
+  };
 
   // 모달 외부 클릭 시 닫기
   useEffect(() => {
@@ -91,7 +130,7 @@ export function TopBar({
         !languageMenuRef.current.contains(event.target as Node) &&
         !event.target.closest(".language-button")
       ) {
-        setShowLanguageMenu(false)
+        setShowLanguageMenu(false);
       }
       if (
         showHelpPopup &&
@@ -99,27 +138,29 @@ export function TopBar({
         !helpPopupRef.current.contains(event.target as Node) &&
         !event.target.closest(".help-button")
       ) {
-        setShowHelpPopup(false)
+        setShowHelpPopup(false);
       }
-    }
+    };
 
-    document.addEventListener("mousedown", handleClickOutside)
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside)
-    }
-  }, [showLanguageMenu, showHelpPopup])
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [showLanguageMenu, showHelpPopup]);
 
   // 상단 바 컴포넌트의 버튼 크기 조정 - 작은 화면에서 더 작게 표시
-  const buttonBaseClass = `neon-button flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-lg transition-colors duration-200 shadow-md relative overflow-hidden`
+  const buttonBaseClass = `neon-button flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-lg transition-colors duration-200 shadow-md relative overflow-hidden`;
 
   // 버튼 아이콘 스타일 클래스 - 작은 화면에서 더 작게 표시
-  const iconClass = `w-4 h-4 sm:w-5 sm:h-5 text-[hsl(var(--neon-white))] relative z-10`
+  const iconClass = `w-4 h-4 sm:w-5 sm:h-5 text-[hsl(var(--neon-white))] relative z-10`;
 
   return (
     <>
       <div
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? "bg-black/80 backdrop-blur-md shadow-lg py-2" : "bg-black py-4"
+          scrolled
+            ? "bg-black/80 backdrop-blur-md shadow-lg py-2"
+            : "bg-black py-4"
         }`}
         style={{ width: "100%" }}
       >
@@ -128,7 +169,10 @@ export function TopBar({
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             {/* Logo/Title - 스크롤 시 숨김 */}
             <div className={`flex items-center ${scrolled ? "hidden" : ""}`}>
-              <a href={`/${currentLanguage}`} className="cursor-pointer hover:opacity-80 transition-opacity">
+              <a
+                href={`/${currentLanguage}`}
+                className="cursor-pointer hover:opacity-80 transition-opacity"
+              >
                 <StylizedTitle
                   mainText={getTranslatedString("app.title.main") || "레조넌스"}
                   subText={getTranslatedString("app.title.sub") || "SOLSTICE"}
@@ -144,7 +188,9 @@ export function TopBar({
                 <button
                   ref={languageButtonRef}
                   onClick={toggleLanguageMenu}
-                  className={`${buttonBaseClass} language-button ${isChangingLanguage ? "opacity-50" : ""}`}
+                  className={`${buttonBaseClass} language-button ${
+                    isChangingLanguage ? "opacity-50" : ""
+                  }`}
                   aria-label={getTranslatedString("language") || "Language"}
                   title={getTranslatedString("language") || "Language"}
                   disabled={isChangingLanguage}
@@ -180,7 +226,10 @@ export function TopBar({
               </div>
 
               {/* Screenshot Button - 캡처 버튼으로 변경 */}
-              <ScreenshotButton targetRef={contentRef} getTranslatedString={getTranslatedString} />
+              <ScreenshotButton
+                targetRef={contentRef}
+                getTranslatedString={getTranslatedString}
+              />
 
               {/* Share Button */}
               <button
@@ -212,13 +261,27 @@ export function TopBar({
                 <FolderOpen className={iconClass} />
               </button>
 
+              {/* Deck List Button - 추가 */}
+              <button
+                onClick={() => setShowDeckListModal(true)}
+                className={`${buttonBaseClass} decklist-button`}
+                aria-label={getTranslatedString("deck_list") || "Deck List"}
+                title={getTranslatedString("deck_list") || "Deck List"}
+              >
+                <LayoutGrid className={iconClass} />
+              </button>
+
               {/* Sort Characters Button - 추가 */}
               {onSortCharacters && (
                 <button
                   onClick={onSortCharacters}
                   className={`${buttonBaseClass} sort-button`}
-                  aria-label={getTranslatedString("sort_characters") || "Sort Characters"}
-                  title={getTranslatedString("sort_characters") || "Sort Characters"}
+                  aria-label={
+                    getTranslatedString("sort_characters") || "Sort Characters"
+                  }
+                  title={
+                    getTranslatedString("sort_characters") || "Sort Characters"
+                  }
                 >
                   <UsersRound className={iconClass} />
                 </button>
@@ -238,7 +301,9 @@ export function TopBar({
               <button
                 onClick={onImport}
                 className={`${buttonBaseClass} import-button`}
-                aria-label={getTranslatedString("import_from_clipboard") || "Import"}
+                aria-label={
+                  getTranslatedString("import_from_clipboard") || "Import"
+                }
                 title={getTranslatedString("import_from_clipboard") || "Import"}
               >
                 <Download className={iconClass} />
@@ -248,7 +313,9 @@ export function TopBar({
               <button
                 onClick={onExport}
                 className={`${buttonBaseClass} export-button`}
-                aria-label={getTranslatedString("export_to_clipboard") || "Export"}
+                aria-label={
+                  getTranslatedString("export_to_clipboard") || "Export"
+                }
                 title={getTranslatedString("export_to_clipboard") || "Export"}
               >
                 <Upload className={iconClass} />
@@ -277,6 +344,22 @@ export function TopBar({
           maxWidth="max-w-2xl"
         />
       )}
+
+      <DeckListModal
+        isOpen={showDeckListModal}
+        onClose={() => setShowDeckListModal(false)}
+        data={data}
+        getTranslatedString={getTranslatedString}
+        fetchUrl="/api/db/deck_list.json"
+        onApplyPreset={onApplyPresetFromCode}
+        onCopiedPresetCode={() => {
+          showToast(
+            getTranslatedString("preset_code_copied") ||
+              "코드가 복사되었습니다.",
+            "success"
+          );
+        }}
+      />
     </>
-  )
+  );
 }

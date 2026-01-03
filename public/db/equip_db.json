@@ -3078,7 +3078,7 @@
     "id": 11800097,
     "name": "equip_name_11800097",
     "des": "equip_des_11800097",
-    "tipsPath": "Item/weapon/Tiemeng/Big/26_500.png",
+    "tipsPath": "item/weapon/tiemeng/big/26_500.webp",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [

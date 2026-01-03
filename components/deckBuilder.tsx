@@ -6,7 +6,6 @@ import { TopBar } from "./top-bar";
 import { CharacterWindow } from "./character-window";
 import { SkillWindow } from "./skill-window";
 import { BattleSettings } from "./battle-settings";
-import { CommentsSection } from "./comments-section"
 import { useToast } from "./toast-notification";
 import { useDeckBuilder } from "../hooks/deck-builder/index";
 import { useLanguage } from "../contexts/language-context";
@@ -421,6 +420,22 @@ export default function DeckBuilder({ urlDeckCode, data }: DeckBuilderProps) {
     currentLanguage,
   ]);
 
+  // 코드 적용
+  const applyPresetFromCode = useCallback(
+    async (presetCode: string) => {
+      try {
+        await navigator.clipboard.writeText(presetCode);
+
+        // 기존 클립보드 import 로직 그대로 사용
+        await handleImport();
+      } catch (error) {
+        console.error("Apply preset error:", error);
+        showToast(getTranslatedString("import_failed"), "error");
+      }
+    },
+    [handleImport, showToast, getTranslatedString]
+  );
+
   // 클립보드로 내보내기
   const handleExport = useCallback(() => {
     try {
@@ -700,6 +715,9 @@ export default function DeckBuilder({ urlDeckCode, data }: DeckBuilderProps) {
         onLoad={handleOpenLoadModal}
         onSortCharacters={handleSortCharacters} // 정렬 함수 전달
         contentRef={contentRef}
+        data={data}
+        onApplyPresetFromCode={applyPresetFromCode}
+        showToast={showToast}
       />
 
       {/* 컨테이너의 패딩을 조정하여 모바일에서 더 많은 공간을 확보합니다. */}

@@ -72,11 +72,44 @@ export function usePresets(
         if (card.skillId != null && card.skillId !== -1) {
           cardObj.skillId = String(card.skillId);
         } else {
+          // 1) 카드 DB에 skillId가 있으면 우선 사용
           const cardData = data?.cards?.[id];
-          if (!cardData || !cardData.skillId) {
-            throw new Error("missing skillId for card " + id);
+          const fromCardDb = cardData?.skillId;
+
+          if (fromCardDb != null && fromCardDb !== -1) {
+            cardObj.skillId = String(fromCardDb);
+          } else {
+            // 2) 구버전 fallback: skills를 스캔해서 cardID가 일치하는 skillId를 찾는다
+            let foundSkillId = -1;
+
+            const skills = data?.skills;
+            if (skills) {
+              for (const skillIdStr in skills) {
+                const s: any = (skills as any)[skillIdStr];
+                const cardIdLike = s?.cardID ?? s?.cardId ?? s?.card_id;
+
+                if (cardIdLike != null && String(cardIdLike) === id) {
+                  foundSkillId = Number.parseInt(skillIdStr, 10);
+                  break;
+                }
+              }
+            }
+
+            if (foundSkillId > 0) {
+              cardObj.skillId = String(foundSkillId);
+
+              // (구버전 규칙) 특수 스킬이면 ownerId 보정
+              const isSpecialSkill =
+                Array.isArray((data as any)?.specialSkillIds) &&
+                (data as any).specialSkillIds.includes(foundSkillId);
+
+              if (isSpecialSkill) {
+                cardObj.ownerId = 10000001;
+              }
+            } else {
+              throw new Error("missing skillId for card " + id);
+            }
           }
-          cardObj.skillId = String(cardData.skillId);
         }
 
         if (typeof card.skillIndex === "number") {

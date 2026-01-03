@@ -6,6 +6,13 @@ export type PatchNoteEntry = {
 
 const patchNotes: PatchNoteEntry[] = [
   {
+    date: "2026-01-03",
+    title: "버리기 기능 오류 수정",
+    items: [
+      "덱 코드 생성 로직 변경",
+    ],
+  },
+  {
     date: "2026-01-02",
     title: "기능 추가, Bug Fix",
     items: [
