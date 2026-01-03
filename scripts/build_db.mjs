@@ -1024,6 +1024,7 @@ function main() {
 
   // 단일 이미지 경로 필드만 처리
   applyImagePathResolveToDbField(charDb, "roleListResUrl", assetRootDirAbs);
+  applyImagePathResolveToDbField(charDb, "face", assetRootDirAbs);
   applyImagePathResolveToDbField(equipDb, "tipsPath", assetRootDirAbs);
   applyImagePathResolveToDbField(skillDb, "iconPath", assetRootDirAbs);
   applyImagePathResolveToDbField(talentDb, "path", assetRootDirAbs);
