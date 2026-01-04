@@ -176,7 +176,12 @@ export interface Database {
     {
       relatedSkills: number[]
     }
-  >
+  >,
+    commodityDb?: Record<string, any>;
+  equipToCommodityIds?: Record<string, any>;
+  itemToCommodityIds?: Record<string, any>;
+  itemIdIndex?: Record<string, any>;
+  homeWeaponDb?: Record<string, any> | any[];
 }
 
 export interface CardExtraInfo {

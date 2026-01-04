@@ -2,6 +2,7 @@
   "11800001": {
     "id": 11800001,
     "name": "equip_name_11800001",
+    "type": "accessory",
     "des": "equip_des_11800001",
     "tipsPath": "item/weapon/xuehui/big/18.webp",
     "equipTagId": 12600162,
@@ -24,6 +25,7 @@
   "11800002": {
     "id": 11800002,
     "name": "equip_name_11800002",
+    "type": "weapon",
     "des": "equip_des_11800002",
     "tipsPath": "item/weapon/diguo/big/10.webp",
     "equipTagId": 12600155,
@@ -59,6 +61,7 @@
   "11800003": {
     "id": 11800003,
     "name": "equip_name_11800003",
+    "type": "accessory",
     "des": "equip_des_11800003",
     "tipsPath": "item/weapon/xuehui/big/19.webp",
     "equipTagId": 12600162,
@@ -81,6 +84,7 @@
   "11800006": {
     "id": 11800006,
     "name": "equip_name_11800006",
+    "type": "weapon",
     "des": "equip_des_11800006",
     "tipsPath": "item/weapon/anita/big/19.webp",
     "equipTagId": 12600155,
@@ -103,6 +107,7 @@
   "11800007": {
     "id": 11800007,
     "name": "equip_name_11800007",
+    "type": "weapon",
     "des": "equip_des_11800007",
     "tipsPath": "item/weapon/heiyue/big/17.webp",
     "equipTagId": 12600155,
@@ -125,6 +130,7 @@
   "11800008": {
     "id": 11800008,
     "name": "equip_name_11800008",
+    "type": "weapon",
     "des": "equip_des_11800008",
     "tipsPath": "item/weapon/tiemeng/big/20.webp",
     "equipTagId": 12600155,
@@ -147,6 +153,7 @@
   "11800009": {
     "id": 11800009,
     "name": "equip_name_11800009",
+    "type": "weapon",
     "des": "equip_des_11800009",
     "tipsPath": "item/weapon/xuehui/big/20.webp",
     "equipTagId": 12600155,
@@ -169,6 +176,7 @@
   "11800011": {
     "id": 11800011,
     "name": "equip_name_11800011",
+    "type": "armor",
     "des": "equip_des_11800011",
     "tipsPath": "item/weapon/zapai/big/25.webp",
     "equipTagId": 12600161,
@@ -191,6 +199,7 @@
   "11800012": {
     "id": 11800012,
     "name": "equip_name_11800012",
+    "type": "armor",
     "des": "equip_des_11800012",
     "tipsPath": "item/weapon/heiyue/big/21.webp",
     "equipTagId": 12600161,
@@ -248,6 +257,7 @@
   "11800013": {
     "id": 11800013,
     "name": "equip_name_11800013",
+    "type": "weapon",
     "des": "equip_des_11800013",
     "tipsPath": "item/weapon/zapai/big/23.webp",
     "equipTagId": 12600155,
@@ -270,6 +280,7 @@
   "11800014": {
     "id": 11800014,
     "name": "equip_name_11800014",
+    "type": "weapon",
     "des": "equip_des_11800014",
     "tipsPath": "item/weapon/zapai/big/26.webp",
     "equipTagId": 12600155,
@@ -313,6 +324,7 @@
   "11800015": {
     "id": 11800015,
     "name": "equip_name_11800015",
+    "type": "weapon",
     "des": "equip_des_11800015",
     "tipsPath": "item/weapon/heiyue/big/23.webp",
     "equipTagId": 12600155,
@@ -377,6 +389,7 @@
   "11800016": {
     "id": 11800016,
     "name": "equip_name_11800016",
+    "type": "accessory",
     "des": "equip_des_11800016",
     "tipsPath": "item/weapon/heiyue/big/22.webp",
     "equipTagId": 12600162,
@@ -441,6 +454,7 @@
   "11800017": {
     "id": 11800017,
     "name": "equip_name_11800017",
+    "type": "weapon",
     "des": "equip_des_11800017",
     "tipsPath": "item/weapon/heiyue/big/20.webp",
     "equipTagId": 12600155,
@@ -484,6 +498,7 @@
   "11800018": {
     "id": 11800018,
     "name": "equip_name_11800018",
+    "type": "accessory",
     "des": "equip_des_11800018",
     "tipsPath": "item/weapon/heiyue/big/18.webp",
     "equipTagId": 12600162,
@@ -506,6 +521,7 @@
   "11800019": {
     "id": 11800019,
     "name": "equip_name_11800019",
+    "type": "armor",
     "des": "equip_des_11800019",
     "tipsPath": "item/weapon/heiyue/big/19.webp",
     "equipTagId": 12600161,
@@ -549,6 +565,7 @@
   "11800020": {
     "id": 11800020,
     "name": "equip_name_11800020",
+    "type": "armor",
     "des": "equip_des_11800020",
     "tipsPath": "item/weapon/zapai/big/28.webp",
     "equipTagId": 12600161,
@@ -585,6 +602,7 @@
   "11800021": {
     "id": 11800021,
     "name": "equip_name_11800021",
+    "type": "armor",
     "des": "equip_des_11800021",
     "tipsPath": "item/weapon/diguo/big/31.webp",
     "equipTagId": 12600161,
@@ -607,6 +625,7 @@
   "11800022": {
     "id": 11800022,
     "name": "equip_name_11800022",
+    "type": "accessory",
     "des": "equip_des_11800022",
     "tipsPath": "item/weapon/tiemeng/big/21.webp",
     "equipTagId": 12600162,
@@ -629,6 +648,7 @@
   "11800024": {
     "id": 11800024,
     "name": "equip_name_11800024",
+    "type": "weapon",
     "des": "equip_des_11800024",
     "tipsPath": "item/weapon/zapai/big/24.webp",
     "equipTagId": 12600155,
@@ -672,6 +692,7 @@
   "11800027": {
     "id": 11800027,
     "name": "equip_name_11800027",
+    "type": "armor",
     "des": "equip_des_11800027",
     "tipsPath": "item/weapon/xuehui/big/28.webp",
     "equipTagId": 12600161,
@@ -722,6 +743,7 @@
   "11800028": {
     "id": 11800028,
     "name": "equip_name_11800028",
+    "type": "weapon",
     "des": "equip_des_11800028",
     "tipsPath": "item/weapon/tiemeng/big/01.webp",
     "equipTagId": 12600155,
@@ -786,6 +808,7 @@
   "11800029": {
     "id": 11800029,
     "name": "equip_name_11800029",
+    "type": "weapon",
     "des": "equip_des_11800029",
     "tipsPath": "item/weapon/xuehui/big/21.webp",
     "equipTagId": 12600155,
@@ -836,6 +859,7 @@
   "11800030": {
     "id": 11800030,
     "name": "equip_name_11800030",
+    "type": "weapon",
     "des": "equip_des_11800030",
     "tipsPath": "item/weapon/tiemeng/big/12.webp",
     "equipTagId": 12600155,
@@ -900,6 +924,7 @@
   "11800031": {
     "id": 11800031,
     "name": "equip_name_11800031",
+    "type": "weapon",
     "des": "equip_des_11800031",
     "tipsPath": "item/weapon/xuehui/big/23.webp",
     "equipTagId": 12600155,
@@ -950,6 +975,7 @@
   "11800032": {
     "id": 11800032,
     "name": "equip_name_11800032",
+    "type": "weapon",
     "des": "equip_des_11800032",
     "tipsPath": "item/weapon/tiemeng/big/17.webp",
     "equipTagId": 12600155,
@@ -972,6 +998,7 @@
   "11800033": {
     "id": 11800033,
     "name": "equip_name_11800033",
+    "type": "armor",
     "des": "equip_des_11800033",
     "tipsPath": "item/weapon/xuehui/big/22.webp",
     "equipTagId": 12600161,
@@ -1022,6 +1049,7 @@
   "11800034": {
     "id": 11800034,
     "name": "equip_name_11800034",
+    "type": "accessory",
     "des": "equip_des_11800034",
     "tipsPath": "item/weapon/tiemeng/big/19.webp",
     "equipTagId": 12600162,
@@ -1044,6 +1072,7 @@
   "11800035": {
     "id": 11800035,
     "name": "equip_name_11800035",
+    "type": "weapon",
     "des": "equip_des_11800035",
     "tipsPath": "item/weapon/anita/big/01.webp",
     "equipTagId": 12600155,
@@ -1101,6 +1130,7 @@
   "11800036": {
     "id": 11800036,
     "name": "equip_name_11800036",
+    "type": "weapon",
     "des": "equip_des_11800036",
     "tipsPath": "item/weapon/xuehui/big/01.webp",
     "equipTagId": 12600155,
@@ -1151,6 +1181,7 @@
   "11800037": {
     "id": 11800037,
     "name": "equip_name_11800037",
+    "type": "weapon",
     "des": "equip_des_11800037",
     "tipsPath": "item/weapon/diguo/big/01.webp",
     "equipTagId": 12600155,
@@ -1186,6 +1217,7 @@
   "11800038": {
     "id": 11800038,
     "name": "equip_name_11800038",
+    "type": "weapon",
     "des": "equip_des_11800038",
     "tipsPath": "item/weapon/heiyue/big/01.webp",
     "equipTagId": 12600155,
@@ -1243,6 +1275,7 @@
   "11800039": {
     "id": 11800039,
     "name": "equip_name_11800039",
+    "type": "weapon",
     "des": "equip_des_11800039",
     "tipsPath": "item/weapon/anita/big/02.webp",
     "equipTagId": 12600155,
@@ -1300,6 +1333,7 @@
   "11800040": {
     "id": 11800040,
     "name": "equip_name_11800040",
+    "type": "armor",
     "des": "equip_des_11800040",
     "tipsPath": "item/weapon/xuehui/big/30.webp",
     "equipTagId": 12600161,
@@ -1322,6 +1356,7 @@
   "11800041": {
     "id": 11800041,
     "name": "equip_name_11800041",
+    "type": "accessory",
     "des": "equip_des_11800041",
     "tipsPath": "item/weapon/tiemeng/big/22.webp",
     "equipTagId": 12600162,
@@ -1344,6 +1379,7 @@
   "11800042": {
     "id": 11800042,
     "name": "equip_name_11800042",
+    "type": "accessory",
     "des": "equip_des_11800042",
     "tipsPath": "item/weapon/zapai/big/27.webp",
     "equipTagId": 12600162,
@@ -1387,6 +1423,7 @@
   "11800043": {
     "id": 11800043,
     "name": "equip_name_11800043",
+    "type": "weapon",
     "des": "equip_des_11800043",
     "tipsPath": "item/weapon/tiemeng/big/02.webp",
     "equipTagId": 12600155,
@@ -1451,6 +1488,7 @@
   "11800044": {
     "id": 11800044,
     "name": "equip_name_11800044",
+    "type": "accessory",
     "des": "equip_des_11800044",
     "tipsPath": "item/weapon/tiemeng/big/04.webp",
     "equipTagId": 12600162,
@@ -1515,6 +1553,7 @@
   "11800045": {
     "id": 11800045,
     "name": "equip_name_11800045",
+    "type": "weapon",
     "des": "equip_des_11800045",
     "tipsPath": "item/weapon/tiemeng/big/15.webp",
     "equipTagId": 12600155,
@@ -1537,6 +1576,7 @@
   "11800046": {
     "id": 11800046,
     "name": "equip_name_11800046",
+    "type": "accessory",
     "des": "equip_des_11800046",
     "tipsPath": "item/weapon/tiemeng/big/05.webp",
     "equipTagId": 12600162,
@@ -1601,6 +1641,7 @@
   "11800047": {
     "id": 11800047,
     "name": "equip_name_11800047",
+    "type": "accessory",
     "des": "equip_des_11800047",
     "tipsPath": "item/weapon/tiemeng/big/06.webp",
     "equipTagId": 12600162,
@@ -1665,6 +1706,7 @@
   "11800048": {
     "id": 11800048,
     "name": "equip_name_11800048",
+    "type": "armor",
     "des": "equip_des_11800048",
     "tipsPath": "item/weapon/tiemeng/big/16.webp",
     "equipTagId": 12600161,
@@ -1687,6 +1729,7 @@
   "11800049": {
     "id": 11800049,
     "name": "equip_name_11800049",
+    "type": "armor",
     "des": "equip_des_11800049",
     "tipsPath": "item/weapon/heiyue/big/24.webp",
     "equipTagId": 12600161,
@@ -1709,6 +1752,7 @@
   "11800050": {
     "id": 11800050,
     "name": "equip_name_11800050",
+    "type": "accessory",
     "des": "equip_des_11800050",
     "tipsPath": "item/weapon/heiyue/big/27.webp",
     "equipTagId": 12600162,
@@ -1731,6 +1775,7 @@
   "11800051": {
     "id": 11800051,
     "name": "equip_name_11800051",
+    "type": "accessory",
     "des": "equip_des_11800051",
     "tipsPath": "item/weapon/zapai/big/30.webp",
     "equipTagId": 12600162,
@@ -1767,6 +1812,7 @@
   "11800052": {
     "id": 11800052,
     "name": "equip_name_11800052",
+    "type": "weapon",
     "des": "equip_des_11800052",
     "tipsPath": "item/weapon/xuehui/big/29.webp",
     "equipTagId": 12600155,
@@ -1817,6 +1863,7 @@
   "11800054": {
     "id": 11800054,
     "name": "equip_name_11800054",
+    "type": "armor",
     "des": "equip_des_11800054",
     "tipsPath": "item/weapon/tiemeng/big/23.webp",
     "equipTagId": 12600161,
@@ -1881,6 +1928,7 @@
   "11800055": {
     "id": 11800055,
     "name": "equip_name_11800055",
+    "type": "armor",
     "des": "equip_des_11800055",
     "tipsPath": "item/weapon/tiemeng/big/25.webp",
     "equipTagId": 12600161,
@@ -1945,6 +1993,7 @@
   "11800056": {
     "id": 11800056,
     "name": "equip_name_11800056",
+    "type": "armor",
     "des": "equip_des_11800056",
     "tipsPath": "item/weapon/heiyue/big/25.webp",
     "equipTagId": 12600161,
@@ -2002,6 +2051,7 @@
   "11800057": {
     "id": 11800057,
     "name": "equip_name_11800057",
+    "type": "armor",
     "des": "equip_des_11800057",
     "tipsPath": "item/weapon/anita/big/22.webp",
     "equipTagId": 12600161,
@@ -2052,6 +2102,7 @@
   "11800058": {
     "id": 11800058,
     "name": "equip_name_11800058",
+    "type": "armor",
     "des": "equip_des_11800058",
     "tipsPath": "item/weapon/diguo/big/25.webp",
     "equipTagId": 12600161,
@@ -2087,6 +2138,7 @@
   "11800059": {
     "id": 11800059,
     "name": "equip_name_11800059",
+    "type": "armor",
     "des": "equip_des_11800059",
     "tipsPath": "item/weapon/xuehui/big/26.webp",
     "equipTagId": 12600161,
@@ -2137,6 +2189,7 @@
   "11800060": {
     "id": 11800060,
     "name": "equip_name_11800060",
+    "type": "accessory",
     "des": "equip_des_11800060",
     "tipsPath": "item/weapon/xuehui/big/24.webp",
     "equipTagId": 12600162,
@@ -2159,6 +2212,7 @@
   "11800061": {
     "id": 11800061,
     "name": "equip_name_11800061",
+    "type": "weapon",
     "des": "equip_des_11800061",
     "tipsPath": "item/weapon/diguo/big/24.webp",
     "equipTagId": 12600155,
@@ -2194,6 +2248,7 @@
   "11800062": {
     "id": 11800062,
     "name": "equip_name_11800062",
+    "type": "weapon",
     "des": "equip_des_11800062",
     "tipsPath": "item/weapon/heiyue/big/26.webp",
     "equipTagId": 12600155,
@@ -2251,6 +2306,7 @@
   "11800063": {
     "id": 11800063,
     "name": "equip_name_11800063",
+    "type": "weapon",
     "des": "equip_des_11800063",
     "tipsPath": "item/weapon/anita/big/23.webp",
     "equipTagId": 12600155,
@@ -2301,6 +2357,7 @@
   "11800064": {
     "id": 11800064,
     "name": "equip_name_11800064",
+    "type": "weapon",
     "des": "equip_des_11800064",
     "tipsPath": "item/weapon/tiemeng/big/24.webp",
     "equipTagId": 12600155,
@@ -2365,6 +2422,7 @@
   "11800065": {
     "id": 11800065,
     "name": "equip_name_11800065",
+    "type": "weapon",
     "des": "equip_des_11800065",
     "tipsPath": "item/weapon/xuehui/big/25.webp",
     "equipTagId": 12600155,
@@ -2415,6 +2473,7 @@
   "11800066": {
     "id": 11800066,
     "name": "equip_name_11800066",
+    "type": "weapon",
     "des": "equip_des_11800066",
     "tipsPath": "item/weapon/anita/big/21.webp",
     "equipTagId": 12600155,
@@ -2465,6 +2524,7 @@
   "11800067": {
     "id": 11800067,
     "name": "equip_name_11800067",
+    "type": "accessory",
     "des": "equip_des_11800067",
     "tipsPath": "item/weapon/xuehui/big/27.webp",
     "equipTagId": 12600162,
@@ -2515,6 +2575,7 @@
   "11800068": {
     "id": 11800068,
     "name": "equip_name_11800068",
+    "type": "armor",
     "des": "equip_des_11800068",
     "tipsPath": "item/weapon/heiyue/big/28.webp",
     "equipTagId": 12600161,
@@ -2572,6 +2633,7 @@
   "11800078": {
     "id": 11800078,
     "name": "equip_name_11800078",
+    "type": "accessory",
     "des": "equip_des_11800078",
     "tipsPath": "item/weapon/diguo/big/26.webp",
     "equipTagId": 12600162,
@@ -2607,6 +2669,7 @@
   "11800079": {
     "id": 11800079,
     "name": "equip_name_11800079",
+    "type": "weapon",
     "des": "equip_des_11800079",
     "tipsPath": "item/weapon/diguo/big/27.webp",
     "equipTagId": 12600155,
@@ -2629,6 +2692,7 @@
   "11800080": {
     "id": 11800080,
     "name": "equip_name_11800080",
+    "type": "accessory",
     "des": "equip_des_11800080",
     "tipsPath": "item/weapon/diguo/big/28.webp",
     "equipTagId": 12600162,
@@ -2651,6 +2715,7 @@
   "11800081": {
     "id": 11800081,
     "name": "equip_name_11800081",
+    "type": "armor",
     "des": "equip_des_11800081",
     "tipsPath": "item/weapon/diguo/big/29.webp",
     "equipTagId": 12600161,
@@ -2686,6 +2751,7 @@
   "11800084": {
     "id": 11800084,
     "name": "equip_name_11800084",
+    "type": "weapon",
     "des": "equip_des_11800084",
     "tipsPath": "item/weapon/xuehui/big/33.webp",
     "equipTagId": 12600155,
@@ -2736,6 +2802,7 @@
   "11800089": {
     "id": 11800089,
     "name": "equip_name_11800089",
+    "type": "weapon",
     "des": "equip_des_11800089",
     "tipsPath": "item/weapon/diguo/big/32.webp",
     "equipTagId": 12600155,
@@ -2771,6 +2838,7 @@
   "11800090": {
     "id": 11800090,
     "name": "equip_name_11800090",
+    "type": "armor",
     "des": "equip_des_11800090",
     "tipsPath": "item/weapon/diguo/big/33.webp",
     "equipTagId": 12600161,
@@ -2806,6 +2874,7 @@
   "11800091": {
     "id": 11800091,
     "name": "equip_name_11800091",
+    "type": "weapon",
     "des": "equip_des_11800091",
     "tipsPath": "item/weapon/xuehui/big/31.webp",
     "equipTagId": 12600155,
@@ -2828,6 +2897,7 @@
   "11800092": {
     "id": 11800092,
     "name": "equip_name_11800092",
+    "type": "accessory",
     "des": "equip_des_11800092",
     "tipsPath": "item/weapon/anita/big/24.webp",
     "equipTagId": 12600162,
@@ -2878,6 +2948,7 @@
   "11800093": {
     "id": 11800093,
     "name": "equip_name_11800093",
+    "type": "armor",
     "des": "equip_des_11800093",
     "tipsPath": "item/weapon/xuehui/big/34.webp",
     "equipTagId": 12600161,
@@ -2928,6 +2999,7 @@
   "11800094": {
     "id": 11800094,
     "name": "equip_name_11800094",
+    "type": "weapon",
     "des": "equip_des_11800094",
     "tipsPath": "item/weapon/xuehui/big/32.webp",
     "equipTagId": 12600155,
@@ -2978,6 +3050,7 @@
   "11800095": {
     "id": 11800095,
     "name": "equip_name_11800095",
+    "type": "accessory",
     "des": "equip_des_11800095",
     "tipsPath": "item/weapon/diguo/big/34.webp",
     "equipTagId": 12600162,
@@ -3013,6 +3086,7 @@
   "11800096": {
     "id": 11800096,
     "name": "equip_name_11800096",
+    "type": "weapon",
     "des": "equip_des_11800096",
     "tipsPath": "item/weapon/tiemeng/big/07.webp",
     "equipTagId": 12600155,
@@ -3077,6 +3151,7 @@
   "11800097": {
     "id": 11800097,
     "name": "equip_name_11800097",
+    "type": "armor",
     "des": "equip_des_11800097",
     "tipsPath": "item/weapon/tiemeng/big/26_500.webp",
     "equipTagId": 12600161,
@@ -3099,6 +3174,7 @@
   "11800098": {
     "id": 11800098,
     "name": "equip_name_11800098",
+    "type": "weapon",
     "des": "equip_des_11800098",
     "tipsPath": "item/weapon/tiemeng/big/08.webp",
     "equipTagId": 12600155,
@@ -3163,6 +3239,7 @@
   "11800102": {
     "id": 11800102,
     "name": "equip_name_11800102",
+    "type": "armor",
     "des": "equip_des_11800102",
     "tipsPath": "item/weapon/tiemeng/big/09.webp",
     "equipTagId": 12600161,
@@ -3227,6 +3304,7 @@
   "11800103": {
     "id": 11800103,
     "name": "equip_name_11800103",
+    "type": "accessory",
     "des": "equip_des_11800103",
     "tipsPath": "item/weapon/tiemeng/big/10.webp",
     "equipTagId": 12600162,
@@ -3291,6 +3369,7 @@
   "11800104": {
     "id": 11800104,
     "name": "equip_name_11800104",
+    "type": "weapon",
     "des": "equip_des_11800104",
     "tipsPath": "item/weapon/tiemeng/big/11.webp",
     "equipTagId": 12600155,
@@ -3355,6 +3434,7 @@
   "11800105": {
     "id": 11800105,
     "name": "equip_name_11800105",
+    "type": "armor",
     "des": "equip_des_11800105",
     "tipsPath": "item/weapon/tiemeng/big/13.webp",
     "equipTagId": 12600161,
@@ -3419,6 +3499,7 @@
   "11800106": {
     "id": 11800106,
     "name": "equip_name_11800106",
+    "type": "accessory",
     "des": "equip_des_11800106",
     "tipsPath": "item/weapon/tiemeng/big/14.webp",
     "equipTagId": 12600162,
@@ -3483,6 +3564,7 @@
   "11800107": {
     "id": 11800107,
     "name": "equip_name_11800107",
+    "type": "armor",
     "des": "equip_des_11800107",
     "tipsPath": "item/weapon/tiemeng/big/03.webp",
     "equipTagId": 12600161,
@@ -3547,6 +3629,7 @@
   "11800237": {
     "id": 11800237,
     "name": "equip_name_11800237",
+    "type": "armor",
     "des": "equip_des_11800237",
     "tipsPath": "item/weapon/anita/big/03.webp",
     "equipTagId": 12600161,
@@ -3604,6 +3687,7 @@
   "11800238": {
     "id": 11800238,
     "name": "equip_name_11800238",
+    "type": "accessory",
     "des": "equip_des_11800238",
     "tipsPath": "item/weapon/anita/big/04.webp",
     "equipTagId": 12600162,
@@ -3661,6 +3745,7 @@
   "11800239": {
     "id": 11800239,
     "name": "equip_name_11800239",
+    "type": "weapon",
     "des": "equip_des_11800239",
     "tipsPath": "item/weapon/anita/big/05.webp",
     "equipTagId": 12600155,
@@ -3718,6 +3803,7 @@
   "11800240": {
     "id": 11800240,
     "name": "equip_name_11800240",
+    "type": "weapon",
     "des": "equip_des_11800240",
     "tipsPath": "item/weapon/anita/big/06.webp",
     "equipTagId": 12600155,
@@ -3782,6 +3868,7 @@
   "11800241": {
     "id": 11800241,
     "name": "equip_name_11800241",
+    "type": "armor",
     "des": "equip_des_11800241",
     "tipsPath": "item/weapon/anita/big/07.webp",
     "equipTagId": 12600161,
@@ -3839,6 +3926,7 @@
   "11800242": {
     "id": 11800242,
     "name": "equip_name_11800242",
+    "type": "accessory",
     "des": "equip_des_11800242",
     "tipsPath": "item/weapon/anita/big/08.webp",
     "equipTagId": 12600162,
@@ -3896,6 +3984,7 @@
   "11800243": {
     "id": 11800243,
     "name": "equip_name_11800243",
+    "type": "weapon",
     "des": "equip_des_11800243",
     "tipsPath": "item/weapon/anita/big/09.webp",
     "equipTagId": 12600155,
@@ -3946,6 +4035,7 @@
   "11800244": {
     "id": 11800244,
     "name": "equip_name_11800244",
+    "type": "weapon",
     "des": "equip_des_11800244",
     "tipsPath": "item/weapon/anita/big/10.webp",
     "equipTagId": 12600155,
@@ -3996,6 +4086,7 @@
   "11800245": {
     "id": 11800245,
     "name": "equip_name_11800245",
+    "type": "armor",
     "des": "equip_des_11800245",
     "tipsPath": "item/weapon/anita/big/11.webp",
     "equipTagId": 12600161,
@@ -4053,6 +4144,7 @@
   "11800246": {
     "id": 11800246,
     "name": "equip_name_11800246",
+    "type": "accessory",
     "des": "equip_des_11800246",
     "tipsPath": "item/weapon/anita/big/12.webp",
     "equipTagId": 12600162,
@@ -4103,6 +4195,7 @@
   "11800247": {
     "id": 11800247,
     "name": "equip_name_11800247",
+    "type": "weapon",
     "des": "equip_des_11800247",
     "tipsPath": "item/weapon/anita/big/13.webp",
     "equipTagId": 12600155,
@@ -4125,6 +4218,7 @@
   "11800248": {
     "id": 11800248,
     "name": "equip_name_11800248",
+    "type": "weapon",
     "des": "equip_des_11800248",
     "tipsPath": "item/weapon/anita/big/14.webp",
     "equipTagId": 12600155,
@@ -4147,6 +4241,7 @@
   "11800249": {
     "id": 11800249,
     "name": "equip_name_11800249",
+    "type": "accessory",
     "des": "equip_des_11800249",
     "tipsPath": "item/weapon/anita/big/16.webp",
     "equipTagId": 12600162,
@@ -4169,6 +4264,7 @@
   "11800250": {
     "id": 11800250,
     "name": "equip_name_11800250",
+    "type": "weapon",
     "des": "equip_des_11800250",
     "tipsPath": "item/weapon/xuehui/big/02.webp",
     "equipTagId": 12600155,
@@ -4219,6 +4315,7 @@
   "11800251": {
     "id": 11800251,
     "name": "equip_name_11800251",
+    "type": "armor",
     "des": "equip_des_11800251",
     "tipsPath": "item/weapon/xuehui/big/03.webp",
     "equipTagId": 12600161,
@@ -4269,6 +4366,7 @@
   "11800252": {
     "id": 11800252,
     "name": "equip_name_11800252",
+    "type": "accessory",
     "des": "equip_des_11800252",
     "tipsPath": "item/weapon/xuehui/big/04.webp",
     "equipTagId": 12600162,
@@ -4319,6 +4417,7 @@
   "11800253": {
     "id": 11800253,
     "name": "equip_name_11800253",
+    "type": "weapon",
     "des": "equip_des_11800253",
     "tipsPath": "item/weapon/xuehui/big/05.webp",
     "equipTagId": 12600155,
@@ -4369,6 +4468,7 @@
   "11800254": {
     "id": 11800254,
     "name": "equip_name_11800254",
+    "type": "weapon",
     "des": "equip_des_11800254",
     "tipsPath": "item/weapon/xuehui/big/06.webp",
     "equipTagId": 12600155,
@@ -4419,6 +4519,7 @@
   "11800255": {
     "id": 11800255,
     "name": "equip_name_11800255",
+    "type": "armor",
     "des": "equip_des_11800255",
     "tipsPath": "item/weapon/xuehui/big/07.webp",
     "equipTagId": 12600161,
@@ -4469,6 +4570,7 @@
   "11800256": {
     "id": 11800256,
     "name": "equip_name_11800256",
+    "type": "accessory",
     "des": "equip_des_11800256",
     "tipsPath": "item/weapon/xuehui/big/08.webp",
     "equipTagId": 12600162,
@@ -4519,6 +4621,7 @@
   "11800257": {
     "id": 11800257,
     "name": "equip_name_11800257",
+    "type": "weapon",
     "des": "equip_des_11800257",
     "tipsPath": "item/weapon/xuehui/big/09.webp",
     "equipTagId": 12600155,
@@ -4569,6 +4672,7 @@
   "11800258": {
     "id": 11800258,
     "name": "equip_name_11800258",
+    "type": "weapon",
     "des": "equip_des_11800258",
     "tipsPath": "item/weapon/xuehui/big/10.webp",
     "equipTagId": 12600155,
@@ -4619,6 +4723,7 @@
   "11800259": {
     "id": 11800259,
     "name": "equip_name_11800259",
+    "type": "armor",
     "des": "equip_des_11800259",
     "tipsPath": "item/weapon/xuehui/big/11.webp",
     "equipTagId": 12600161,
@@ -4669,6 +4774,7 @@
   "11800260": {
     "id": 11800260,
     "name": "equip_name_11800260",
+    "type": "accessory",
     "des": "equip_des_11800260",
     "tipsPath": "item/weapon/xuehui/big/12.webp",
     "equipTagId": 12600162,
@@ -4719,6 +4825,7 @@
   "11800261": {
     "id": 11800261,
     "name": "equip_name_11800261",
+    "type": "weapon",
     "des": "equip_des_11800261",
     "tipsPath": "item/weapon/xuehui/big/13.webp",
     "equipTagId": 12600155,
@@ -4741,6 +4848,7 @@
   "11800262": {
     "id": 11800262,
     "name": "equip_name_11800262",
+    "type": "weapon",
     "des": "equip_des_11800262",
     "tipsPath": "item/weapon/xuehui/big/14.webp",
     "equipTagId": 12600155,
@@ -4763,6 +4871,7 @@
   "11800263": {
     "id": 11800263,
     "name": "equip_name_11800263",
+    "type": "armor",
     "des": "equip_des_11800263",
     "tipsPath": "item/weapon/xuehui/big/15.webp",
     "equipTagId": 12600161,
@@ -4785,6 +4894,7 @@
   "11800264": {
     "id": 11800264,
     "name": "equip_name_11800264",
+    "type": "accessory",
     "des": "equip_des_11800264",
     "tipsPath": "item/weapon/xuehui/big/16.webp",
     "equipTagId": 12600162,
@@ -4807,6 +4917,7 @@
   "11800265": {
     "id": 11800265,
     "name": "equip_name_11800265",
+    "type": "weapon",
     "des": "equip_des_11800265",
     "tipsPath": "item/weapon/diguo/big/02.webp",
     "equipTagId": 12600155,
@@ -4842,6 +4953,7 @@
   "11800266": {
     "id": 11800266,
     "name": "equip_name_11800266",
+    "type": "armor",
     "des": "equip_des_11800266",
     "tipsPath": "item/weapon/diguo/big/03.webp",
     "equipTagId": 12600161,
@@ -4877,6 +4989,7 @@
   "11800267": {
     "id": 11800267,
     "name": "equip_name_11800267",
+    "type": "accessory",
     "des": "equip_des_11800267",
     "tipsPath": "item/weapon/diguo/big/04.webp",
     "equipTagId": 12600162,
@@ -4912,6 +5025,7 @@
   "11800268": {
     "id": 11800268,
     "name": "equip_name_11800268",
+    "type": "weapon",
     "des": "equip_des_11800268",
     "tipsPath": "item/weapon/diguo/big/05.webp",
     "equipTagId": 12600155,
@@ -4947,6 +5061,7 @@
   "11800269": {
     "id": 11800269,
     "name": "equip_name_11800269",
+    "type": "weapon",
     "des": "equip_des_11800269",
     "tipsPath": "item/weapon/diguo/big/06.webp",
     "equipTagId": 12600155,
@@ -4982,6 +5097,7 @@
   "11800270": {
     "id": 11800270,
     "name": "equip_name_11800270",
+    "type": "armor",
     "des": "equip_des_11800270",
     "tipsPath": "item/weapon/diguo/big/07.webp",
     "equipTagId": 12600161,
@@ -5017,6 +5133,7 @@
   "11800271": {
     "id": 11800271,
     "name": "equip_name_11800271",
+    "type": "accessory",
     "des": "equip_des_11800271",
     "tipsPath": "item/weapon/diguo/big/08.webp",
     "equipTagId": 12600162,
@@ -5052,6 +5169,7 @@
   "11800272": {
     "id": 11800272,
     "name": "equip_name_11800272",
+    "type": "weapon",
     "des": "equip_des_11800272",
     "tipsPath": "item/weapon/diguo/big/09.webp",
     "equipTagId": 12600155,
@@ -5087,6 +5205,7 @@
   "11800273": {
     "id": 11800273,
     "name": "equip_name_11800273",
+    "type": "weapon",
     "des": "equip_des_11800273",
     "tipsPath": "item/weapon/diguo/big/11.webp",
     "equipTagId": 12600155,
@@ -5122,6 +5241,7 @@
   "11800274": {
     "id": 11800274,
     "name": "equip_name_11800274",
+    "type": "armor",
     "des": "equip_des_11800274",
     "tipsPath": "item/weapon/diguo/big/12.webp",
     "equipTagId": 12600161,
@@ -5157,6 +5277,7 @@
   "11800275": {
     "id": 11800275,
     "name": "equip_name_11800275",
+    "type": "accessory",
     "des": "equip_des_11800275",
     "tipsPath": "item/weapon/diguo/big/13.webp",
     "equipTagId": 12600162,
@@ -5192,6 +5313,7 @@
   "11800276": {
     "id": 11800276,
     "name": "equip_name_11800276",
+    "type": "weapon",
     "des": "equip_des_11800276",
     "tipsPath": "item/weapon/diguo/big/14.webp",
     "equipTagId": 12600155,
@@ -5214,6 +5336,7 @@
   "11800278": {
     "id": 11800278,
     "name": "equip_name_11800278",
+    "type": "armor",
     "des": "equip_des_11800278",
     "tipsPath": "item/weapon/diguo/big/17.webp",
     "equipTagId": 12600161,
@@ -5236,6 +5359,7 @@
   "11800279": {
     "id": 11800279,
     "name": "equip_name_11800279",
+    "type": "accessory",
     "des": "equip_des_11800279",
     "tipsPath": "item/weapon/diguo/big/18.webp",
     "equipTagId": 12600162,
@@ -5258,6 +5382,7 @@
   "11800280": {
     "id": 11800280,
     "name": "equip_name_11800280",
+    "type": "weapon",
     "des": "equip_des_11800280",
     "tipsPath": "item/weapon/heiyue/big/02.webp",
     "equipTagId": 12600155,
@@ -5315,6 +5440,7 @@
   "11800281": {
     "id": 11800281,
     "name": "equip_name_11800281",
+    "type": "armor",
     "des": "equip_des_11800281",
     "tipsPath": "item/weapon/heiyue/big/03.webp",
     "equipTagId": 12600161,
@@ -5372,6 +5498,7 @@
   "11800282": {
     "id": 11800282,
     "name": "equip_name_11800282",
+    "type": "accessory",
     "des": "equip_des_11800282",
     "tipsPath": "item/weapon/heiyue/big/04.webp",
     "equipTagId": 12600162,
@@ -5429,6 +5556,7 @@
   "11800283": {
     "id": 11800283,
     "name": "equip_name_11800283",
+    "type": "weapon",
     "des": "equip_des_11800283",
     "tipsPath": "item/weapon/heiyue/big/05.webp",
     "equipTagId": 12600155,
@@ -5486,6 +5614,7 @@
   "11800284": {
     "id": 11800284,
     "name": "equip_name_11800284",
+    "type": "weapon",
     "des": "equip_des_11800284",
     "tipsPath": "item/weapon/heiyue/big/06.webp",
     "equipTagId": 12600155,
@@ -5543,6 +5672,7 @@
   "11800285": {
     "id": 11800285,
     "name": "equip_name_11800285",
+    "type": "armor",
     "des": "equip_des_11800285",
     "tipsPath": "item/weapon/heiyue/big/07.webp",
     "equipTagId": 12600161,
@@ -5600,6 +5730,7 @@
   "11800286": {
     "id": 11800286,
     "name": "equip_name_11800286",
+    "type": "accessory",
     "des": "equip_des_11800286",
     "tipsPath": "item/weapon/heiyue/big/08.webp",
     "equipTagId": 12600162,
@@ -5657,6 +5788,7 @@
   "11800287": {
     "id": 11800287,
     "name": "equip_name_11800287",
+    "type": "weapon",
     "des": "equip_des_11800287",
     "tipsPath": "item/weapon/heiyue/big/09.webp",
     "equipTagId": 12600155,
@@ -5721,6 +5853,7 @@
   "11800288": {
     "id": 11800288,
     "name": "equip_name_11800288",
+    "type": "weapon",
     "des": "equip_des_11800288",
     "tipsPath": "item/weapon/heiyue/big/10.webp",
     "equipTagId": 12600155,
@@ -5778,6 +5911,7 @@
   "11800289": {
     "id": 11800289,
     "name": "equip_name_11800289",
+    "type": "armor",
     "des": "equip_des_11800289",
     "tipsPath": "item/weapon/heiyue/big/11.webp",
     "equipTagId": 12600161,
@@ -5835,6 +5969,7 @@
   "11800290": {
     "id": 11800290,
     "name": "equip_name_11800290",
+    "type": "accessory",
     "des": "equip_des_11800290",
     "tipsPath": "item/weapon/heiyue/big/12.webp",
     "equipTagId": 12600162,
@@ -5892,6 +6027,7 @@
   "11800291": {
     "id": 11800291,
     "name": "equip_name_11800291",
+    "type": "weapon",
     "des": "equip_des_11800291",
     "tipsPath": "item/weapon/heiyue/big/13.webp",
     "equipTagId": 12600155,
@@ -5914,6 +6050,7 @@
   "11800292": {
     "id": 11800292,
     "name": "equip_name_11800292",
+    "type": "weapon",
     "des": "equip_des_11800292",
     "tipsPath": "item/weapon/heiyue/big/14.webp",
     "equipTagId": 12600155,
@@ -5936,6 +6073,7 @@
   "11800293": {
     "id": 11800293,
     "name": "equip_name_11800293",
+    "type": "armor",
     "des": "equip_des_11800293",
     "tipsPath": "item/weapon/heiyue/big/15.webp",
     "equipTagId": 12600161,
@@ -5958,6 +6096,7 @@
   "11800294": {
     "id": 11800294,
     "name": "equip_name_11800294",
+    "type": "accessory",
     "des": "equip_des_11800294",
     "tipsPath": "item/weapon/heiyue/big/16.webp",
     "equipTagId": 12600162,
@@ -5980,6 +6119,7 @@
   "11800295": {
     "id": 11800295,
     "name": "equip_name_11800295",
+    "type": "armor",
     "des": "equip_des_11800295",
     "tipsPath": "item/weapon/anita/big/15.webp",
     "equipTagId": 12600161,
@@ -6002,6 +6142,7 @@
   "11800296": {
     "id": 11800296,
     "name": "equip_name_11800296",
+    "type": "accessory",
     "des": "equip_des_11800296",
     "tipsPath": "item/weapon/zapai/big/01.webp",
     "equipTagId": 12600162,
@@ -6024,6 +6165,7 @@
   "11800297": {
     "id": 11800297,
     "name": "equip_name_11800297",
+    "type": "weapon",
     "des": "equip_des_11800297",
     "tipsPath": "item/weapon/xuehui/big/17.webp",
     "equipTagId": 12600155,
@@ -6074,6 +6216,7 @@
   "11800298": {
     "id": 11800298,
     "name": "equip_name_11800298",
+    "type": "weapon",
     "des": "equip_des_11800298",
     "tipsPath": "item/weapon/zapai/big/10.webp",
     "equipTagId": 12600155,
@@ -6110,6 +6253,7 @@
   "11800299": {
     "id": 11800299,
     "name": "equip_name_11800299",
+    "type": "weapon",
     "des": "equip_des_11800299",
     "tipsPath": "item/weapon/diguo/big/21.webp",
     "equipTagId": 12600155,
@@ -6145,6 +6289,7 @@
   "11800300": {
     "id": 11800300,
     "name": "equip_name_11800300",
+    "type": "weapon",
     "des": "equip_des_11800300",
     "tipsPath": "item/weapon/zapai/big/11.webp",
     "equipTagId": 12600155,
@@ -6181,6 +6326,7 @@
   "11800301": {
     "id": 11800301,
     "name": "equip_name_11800301",
+    "type": "weapon",
     "des": "equip_des_11800301",
     "tipsPath": "item/weapon/diguo/big/22.webp",
     "equipTagId": 12600155,
@@ -6216,6 +6362,7 @@
   "11800302": {
     "id": 11800302,
     "name": "equip_name_11800302",
+    "type": "weapon",
     "des": "equip_des_11800302",
     "tipsPath": "item/weapon/diguo/big/20.webp",
     "equipTagId": 12600155,
@@ -6251,6 +6398,7 @@
   "11800303": {
     "id": 11800303,
     "name": "equip_name_11800303",
+    "type": "weapon",
     "des": "equip_des_11800303",
     "tipsPath": "item/weapon/diguo/big/19.webp",
     "equipTagId": 12600155,
@@ -6286,6 +6434,7 @@
   "11800304": {
     "id": 11800304,
     "name": "equip_name_11800304",
+    "type": "accessory",
     "des": "equip_des_11800304",
     "tipsPath": "item/weapon/zapai/big/09.webp",
     "equipTagId": 12600162,
@@ -6329,6 +6478,7 @@
   "11800305": {
     "id": 11800305,
     "name": "equip_name_11800305",
+    "type": "accessory",
     "des": "equip_des_11800305",
     "tipsPath": "item/weapon/zapai/big/02.webp",
     "equipTagId": 12600162,
@@ -6372,6 +6522,7 @@
   "11800306": {
     "id": 11800306,
     "name": "equip_name_11800306",
+    "type": "accessory",
     "des": "equip_des_11800306",
     "tipsPath": "item/weapon/zapai/big/03.webp",
     "equipTagId": 12600162,
@@ -6415,6 +6566,7 @@
   "11800307": {
     "id": 11800307,
     "name": "equip_name_11800307",
+    "type": "accessory",
     "des": "equip_des_11800307",
     "tipsPath": "item/weapon/zapai/big/04.webp",
     "equipTagId": 12600162,
@@ -6458,6 +6610,7 @@
   "11800308": {
     "id": 11800308,
     "name": "equip_name_11800308",
+    "type": "weapon",
     "des": "equip_des_11800308",
     "tipsPath": "item/weapon/zapai/big/05.webp",
     "equipTagId": 12600155,
@@ -6501,6 +6654,7 @@
   "11800309": {
     "id": 11800309,
     "name": "equip_name_11800309",
+    "type": "accessory",
     "des": "equip_des_11800309",
     "tipsPath": "item/weapon/zapai/big/06.webp",
     "equipTagId": 12600162,
@@ -6544,6 +6698,7 @@
   "11800310": {
     "id": 11800310,
     "name": "equip_name_11800310",
+    "type": "weapon",
     "des": "equip_des_11800310",
     "tipsPath": "item/weapon/zapai/big/22.webp",
     "equipTagId": 12600155,
@@ -6566,6 +6721,7 @@
   "11800311": {
     "id": 11800311,
     "name": "equip_name_11800311",
+    "type": "weapon",
     "des": "equip_des_11800311",
     "tipsPath": "item/weapon/zapai/big/07.webp",
     "equipTagId": 12600155,
@@ -6609,6 +6765,7 @@
   "11800312": {
     "id": 11800312,
     "name": "equip_name_11800312",
+    "type": "armor",
     "des": "equip_des_11800312",
     "tipsPath": "item/weapon/zapai/big/08.webp",
     "equipTagId": 12600161,
@@ -6652,6 +6809,7 @@
   "11800313": {
     "id": 11800313,
     "name": "equip_name_11800313",
+    "type": "accessory",
     "des": "equip_des_11800313",
     "tipsPath": "item/weapon/zapai/big/17.webp",
     "equipTagId": 12600162,
@@ -6688,6 +6846,7 @@
   "11800314": {
     "id": 11800314,
     "name": "equip_name_11800314",
+    "type": "accessory",
     "des": "equip_des_11800314",
     "tipsPath": "item/weapon/diguo/big/23.webp",
     "equipTagId": 12600162,
@@ -6723,6 +6882,7 @@
   "11800315": {
     "id": 11800315,
     "name": "equip_name_11800315",
+    "type": "accessory",
     "des": "equip_des_11800315",
     "tipsPath": "item/weapon/anita/big/18.webp",
     "equipTagId": 12600162,
@@ -6773,6 +6933,7 @@
   "11800316": {
     "id": 11800316,
     "name": "equip_name_11800316",
+    "type": "weapon",
     "des": "equip_des_11800316",
     "tipsPath": "item/weapon/anita/big/17.webp",
     "equipTagId": 12600155,

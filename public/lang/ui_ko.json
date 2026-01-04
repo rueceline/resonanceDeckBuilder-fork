@@ -437,5 +437,31 @@
   "character.identity": "현재 신분",
   "character.ability": "승격 능력",
   "character.Resume": "경력",
-  "character.Skills": "스킬"
+  "character.Skills": "스킬",
+  "deck_list_modal.title": "편성 목록",
+  "deck_list_modal.fetch_failed": "덱 목록을 불러오지 못했습니다.",
+  "deck_list_modal.empty": "저장된 덱이 없습니다.",
+  "deck_list_modal.character_filter": "캐릭터 필터",
+
+  "deck_list_modal.add": "추가",
+  "deck_list_modal.exclude_btn": "제외",
+
+  "deck_list_modal.include_label": "포함",
+  "deck_list_modal.exclude_label": "제외",
+
+  "deck_list_modal.visible_decks": "표시 덱",
+  "deck_list_modal.party_name": "파티 이름",
+  "deck_list_modal.characters": "캐릭터",
+  "deck_list_modal.actions": "동작",
+
+  "deck_list_modal.open": "열기",
+  "deck_list_modal.copy": "복사",
+  "deck_list_modal.link": "링크",
+
+  "deck_list_modal.select_include_characters": "포함 캐릭터 선택",
+  "deck_list_modal.select_exclude_characters": "제외 캐릭터 선택",
+  "deck_list_modal.selected": "선택",
+  "deck_list_modal.clear_all": "전체 해제",
+  "help.deck_list": "덱 목록을 열고 프리셋을 적용합니다.",
+  "exchange_materials": "교환 재료"
 }

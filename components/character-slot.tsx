@@ -3,9 +3,9 @@
 import { Plus, Info, Crown, Sword, Shield, Gem, Star } from "lucide-react"
 import { useState, useRef, useEffect } from "react"
 import type { Character, Card, Equipment } from "../types"
-import { EquipmentSearchModal } from "./ui/modal/EquipmentSearchModal"
-import { CharacterDetailsModal } from "./character-details-modal"
-import { EquipmentDetailsModal } from "./equipment-details-modal"
+import { EquipmentSearchModal } from "./modal/EquipmentSearchModal"
+import { CharacterDetailsModal } from "./modal/character-details-modal"
+import { EquipmentDetailsModal } from "./modal/equipment-details-modal"
 
 interface CharacterSlotProps {
   index: number
@@ -98,22 +98,6 @@ export function CharacterSlot({
   const handleAwakeningSelect = (stage: number | null) => {
     if (onAwakeningSelect && !isEmpty) {
       onAwakeningSelect(characterId, stage)
-    }
-  }
-
-  // Function to get rarity badge color
-  const getRarityColor = (rarity: string) => {
-    switch (rarity) {
-      case "UR":
-        return "bg-gradient-to-r from-orange-500 to-amber-500"
-      case "SSR":
-        return "bg-gradient-to-r from-yellow-500 to-amber-500"
-      case "SR":
-        return "bg-gradient-to-r from-purple-500 to-indigo-500"
-      case "R":
-        return "bg-gradient-to-r from-blue-500 to-cyan-500"
-      default:
-        return "bg-gray-500"
     }
   }
 
@@ -258,10 +242,13 @@ export function CharacterSlot({
                     ) : (
                       <button
                         onClick={(e) => {
-                          e.stopPropagation()
-                          onSetLeader()
+                          e.stopPropagation();
+                          onSetLeader();
                         }}
-                        aria-label={getTranslatedString("set_as_leader") || "Set as leader"}
+                        aria-label={
+                          getTranslatedString("set_as_leader") ||
+                          "Set as leader"
+                        }
                         className="rounded-lg lg:rounded-xl character-action-btn hover:bg-black hover:bg-opacity-80 transition-all duration-300"
                         style={{
                           width: `${buttonSize}px`,
@@ -279,10 +266,13 @@ export function CharacterSlot({
                 {!isEmpty && (
                   <button
                     onClick={(e) => {
-                      e.stopPropagation()
-                      setShowCharacterDetails(true)
+                      e.stopPropagation();
+                      setShowCharacterDetails(true);
                     }}
-                    aria-label={getTranslatedString("character.details") || "Character details"}
+                    aria-label={
+                      getTranslatedString("character.details") ||
+                      "Character details"
+                    }
                     className="rounded-lg lg:rounded-xl character-action-btn"
                     style={{
                       width: `${buttonSize}px`,
@@ -322,7 +312,10 @@ export function CharacterSlot({
       {/* Equipment Slots - 모바일에서도 적절한 크기로 표시되도록 수정 */}
       <div className="mt-1 sm:mt-2 grid grid-cols-3 gap-0.5 sm:gap-1">
         {/* Weapon Slot - Sword 아이콘 사용 */}
-        <div className={getEquipmentSlotClass(weaponEquipment)} onClick={() => handleEquipmentClick("weapon")}>
+        <div
+          className={getEquipmentSlotClass(weaponEquipment)}
+          onClick={() => handleEquipmentClick("weapon")}
+        >
           {!weaponEquipment ? (
             <Sword className="w-5 h-5 sm:w-6 sm:h-6 text-[hsl(var(--neon-white))]" />
           ) : (
@@ -333,12 +326,19 @@ export function CharacterSlot({
                   alt={getTranslatedString(weaponEquipment.name)}
                   className="w-full h-full object-contain p-1"
                   onError={(e) => {
-                    e.currentTarget.style.display = "none"
-                    e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
-                    const textElement = document.createElement("span")
-                    textElement.className = "text-[0.6rem] sm:text-xs text-center"
-                    textElement.textContent = getTranslatedString(weaponEquipment.name).substring(0, 2)
-                    e.currentTarget.parentElement?.appendChild(textElement)
+                    e.currentTarget.style.display = "none";
+                    e.currentTarget.parentElement?.classList.add(
+                      "flex",
+                      "items-center",
+                      "justify-center"
+                    );
+                    const textElement = document.createElement("span");
+                    textElement.className =
+                      "text-[0.6rem] sm:text-xs text-center";
+                    textElement.textContent = getTranslatedString(
+                      weaponEquipment.name
+                    ).substring(0, 2);
+                    e.currentTarget.parentElement?.appendChild(textElement);
                   }}
                 />
               ) : (
@@ -358,8 +358,8 @@ export function CharacterSlot({
               <button
                 className="equipment-info-btn hidden lg:flex"
                 onClick={(e) => {
-                  e.stopPropagation()
-                  setShowEquipmentDetails(equipment.weapon)
+                  e.stopPropagation();
+                  setShowEquipmentDetails(equipment.weapon);
                 }}
               >
                 <Info className="w-4 h-4" />
@@ -369,7 +369,10 @@ export function CharacterSlot({
         </div>
 
         {/* Armor Slot - Shield 아이콘 사용 */}
-        <div className={getEquipmentSlotClass(armorEquipment)} onClick={() => handleEquipmentClick("armor")}>
+        <div
+          className={getEquipmentSlotClass(armorEquipment)}
+          onClick={() => handleEquipmentClick("armor")}
+        >
           {!armorEquipment ? (
             <Shield className="w-5 h-5 sm:w-6 sm:h-6 text-[hsl(var(--neon-white))]" />
           ) : (
@@ -380,12 +383,19 @@ export function CharacterSlot({
                   alt={getTranslatedString(armorEquipment.name)}
                   className="w-full h-full object-contain p-1"
                   onError={(e) => {
-                    e.currentTarget.style.display = "none"
-                    e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
-                    const textElement = document.createElement("span")
-                    textElement.className = "text-[0.6rem] sm:text-xs text-center"
-                    textElement.textContent = getTranslatedString(armorEquipment.name).substring(0, 2)
-                    e.currentTarget.parentElement?.appendChild(textElement)
+                    e.currentTarget.style.display = "none";
+                    e.currentTarget.parentElement?.classList.add(
+                      "flex",
+                      "items-center",
+                      "justify-center"
+                    );
+                    const textElement = document.createElement("span");
+                    textElement.className =
+                      "text-[0.6rem] sm:text-xs text-center";
+                    textElement.textContent = getTranslatedString(
+                      armorEquipment.name
+                    ).substring(0, 2);
+                    e.currentTarget.parentElement?.appendChild(textElement);
                   }}
                 />
               ) : (
@@ -405,8 +415,8 @@ export function CharacterSlot({
               <button
                 className="equipment-info-btn hidden lg:flex"
                 onClick={(e) => {
-                  e.stopPropagation()
-                  setShowEquipmentDetails(equipment.armor)
+                  e.stopPropagation();
+                  setShowEquipmentDetails(equipment.armor);
                 }}
               >
                 <Info className="w-4 h-4" />
@@ -416,7 +426,10 @@ export function CharacterSlot({
         </div>
 
         {/* Accessory Slot - Gem 아이콘 사용 */}
-        <div className={getEquipmentSlotClass(accessoryEquipment)} onClick={() => handleEquipmentClick("accessory")}>
+        <div
+          className={getEquipmentSlotClass(accessoryEquipment)}
+          onClick={() => handleEquipmentClick("accessory")}
+        >
           {!accessoryEquipment ? (
             <Gem className="w-5 h-5 sm:w-6 sm:h-6 text-[hsl(var(--neon-white))]" />
           ) : (
@@ -427,18 +440,28 @@ export function CharacterSlot({
                   alt={getTranslatedString(accessoryEquipment.name)}
                   className="w-full h-full object-contain p-1"
                   onError={(e) => {
-                    e.currentTarget.style.display = "none"
-                    e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
-                    const textElement = document.createElement("span")
-                    textElement.className = "text-[0.6rem] sm:text-xs text-center"
-                    textElement.textContent = getTranslatedString(accessoryEquipment.name).substring(0, 2)
-                    e.currentTarget.parentElement?.appendChild(textElement)
+                    e.currentTarget.style.display = "none";
+                    e.currentTarget.parentElement?.classList.add(
+                      "flex",
+                      "items-center",
+                      "justify-center"
+                    );
+                    const textElement = document.createElement("span");
+                    textElement.className =
+                      "text-[0.6rem] sm:text-xs text-center";
+                    textElement.textContent = getTranslatedString(
+                      accessoryEquipment.name
+                    ).substring(0, 2);
+                    e.currentTarget.parentElement?.appendChild(textElement);
                   }}
                 />
               ) : (
                 <div className="flex items-center justify-center h-full w-full">
                   <span className="text-[0.6rem] sm:text-xs text-center">
-                    {getTranslatedString(accessoryEquipment.name).substring(0, 2)}
+                    {getTranslatedString(accessoryEquipment.name).substring(
+                      0,
+                      2
+                    )}
                   </span>
                 </div>
               )}
@@ -452,8 +475,8 @@ export function CharacterSlot({
               <button
                 className="equipment-info-btn hidden lg:flex"
                 onClick={(e) => {
-                  e.stopPropagation()
-                  setShowEquipmentDetails(equipment.accessory)
+                  e.stopPropagation();
+                  setShowEquipmentDetails(equipment.accessory);
                 }}
               >
                 <Info className="w-4 h-4" />
@@ -470,12 +493,17 @@ export function CharacterSlot({
           title={
             <h3 className="text-lg font-bold neon-text">
               {getTranslatedString(`select_${showEquipmentSelector}`) ||
-                `Select ${showEquipmentSelector.charAt(0).toUpperCase() + showEquipmentSelector.slice(1)}`}
+                `Select ${
+                  showEquipmentSelector.charAt(0).toUpperCase() +
+                  showEquipmentSelector.slice(1)
+                }`}
             </h3>
           }
           equipments={
             data.equipments
-              ? Object.values(data.equipments).filter((equip: Equipment) => equip.type === showEquipmentSelector)
+              ? (Object.values(data.equipments) as Equipment[]).filter(
+                  (equip) => equip.type === showEquipmentSelector
+                )
               : []
           }
           onSelectEquipment={handleEquipItem}
@@ -493,6 +521,7 @@ export function CharacterSlot({
             </div>
           }
           getSkill={getSkill}
+          commodityDb={data?.commodityDb}
         />
       )}
 
@@ -519,8 +548,10 @@ export function CharacterSlot({
           equipment={getEquipment(showEquipmentDetails)!}
           getTranslatedString={getTranslatedString}
           getSkill={getSkill}
+          commodityDb={data?.commodityDb}
+          sourceMaterialDb={data?.sourceMaterialDb}
         />
       )}
     </div>
-  )
+  );
 }

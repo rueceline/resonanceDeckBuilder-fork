@@ -43,6 +43,16 @@ const FACTORY_PATHS = {
   HomeSkillFactory: path.join(CN_DIR, "HomeSkillFactory.json"),
   CardFactory: path.join(CN_DIR, "CardFactory.json"),
 
+
+  CommodityFactory: path.join(CN_DIR, "CommodityFactory.json"),
+  StoreFactory: path.join(CN_DIR, "StoreFactory.json"),
+  ValuableFactory: path.join(CN_DIR, "ValuableFactory.json"),
+  ItemFactory: path.join(CN_DIR, "ItemFactory.json"),
+  SourceMaterialFactory: path.join(CN_DIR, "SourceMaterialFactory.json"),
+  HomeGoodsFactory: path.join(CN_DIR, "HomeGoodsFactory.json"),
+  ExpItemFactory: path.join(CN_DIR, "ExpItemFactory.json"),
+  FridgeItemFactory: path.join(CN_DIR, "FridgeItemFactory.json"),
+  HomeWeaponFactory: path.join(CN_DIR, "HomeWeaponFactory.json"),
   ListFactory: path.join(CN_DIR, "ListFactory.json"),
   BreakthroughFactory: path.join(CN_DIR, "BreakthroughFactory.json"),
   GrowthFactory: path.join(CN_DIR, "GrowthFactory.json"),
@@ -52,6 +62,9 @@ const OUT_DIR = path.join(ROOT, "public", "vm", "KR");
 const OUT_PATHS = {
   UnitVM: path.join(OUT_DIR, "unit_vm.json"),
   EquipVM: path.join(OUT_DIR, "equip_vm.json"),
+  StoreVM: path.join(OUT_DIR, "store_vm.json"),
+  HomeWeaponVM: path.join(OUT_DIR, "home_weapon_vm.json"),
+  ItemIndexVM: path.join(OUT_DIR, "item_id_index_vm.json"),
 };
 
 function readJsonIfExists(absPath) {
@@ -296,6 +309,18 @@ function main() {
   const homeSkillList = readJsonIfExists(FACTORY_PATHS.HomeSkillFactory) || [];
   const cardList = readJsonIfExists(FACTORY_PATHS.CardFactory) || [];
 
+  const commodityList = readJsonIfExists(FACTORY_PATHS.CommodityFactory) || [];
+  const storeList = readJsonIfExists(FACTORY_PATHS.StoreFactory) || [];
+  const valuableList = readJsonIfExists(FACTORY_PATHS.ValuableFactory) || [];
+
+  const itemList2 = readJsonIfExists(FACTORY_PATHS.ItemFactory) || [];
+  const sourceMaterialList = readJsonIfExists(FACTORY_PATHS.SourceMaterialFactory) || [];
+  const homeGoodsList = readJsonIfExists(FACTORY_PATHS.HomeGoodsFactory) || [];
+  const expItemList = readJsonIfExists(FACTORY_PATHS.ExpItemFactory) || [];
+  const fridgeItemList = readJsonIfExists(FACTORY_PATHS.FridgeItemFactory) || [];
+
+  const homeWeaponList = readJsonIfExists(FACTORY_PATHS.HomeWeaponFactory) || [];
+
   const listList = readJsonIfExists(FACTORY_PATHS.ListFactory) || [];
   const breakthroughList = readJsonIfExists(FACTORY_PATHS.BreakthroughFactory) || [];
   const growthList = readJsonIfExists(FACTORY_PATHS.GrowthFactory) || [];
@@ -312,6 +337,99 @@ function main() {
   const breakthroughById = buildById(breakthroughList);
   const growthById = buildById(growthList);
 
+  const commodityById = buildById(commodityList);
+  const storeById = buildById(storeList);
+  const valuableById = buildById(valuableList);
+
+  const itemIdIndex = new Map();
+  for (const r of itemList2) {
+    const id = safeNum(r?.id);
+    if (!id) continue;
+    itemIdIndex.set(id, { kind: "ItemFactory", rec: translateDeep(cfg, "ItemFactory", r) });
+  }
+
+  for (const r of sourceMaterialList) {
+    const id = safeNum(r?.id);
+    if (!id) continue;
+    itemIdIndex.set(id, { kind: "SourceMaterialFactory", rec: translateDeep(cfg, "SourceMaterialFactory", r) });
+  }
+
+  for (const r of homeGoodsList) {
+    const id = safeNum(r?.id);
+    if (!id) continue;
+    itemIdIndex.set(id, { kind: "HomeGoodsFactory", rec: translateDeep(cfg, "HomeGoodsFactory", r) });
+  }
+
+  for (const r of expItemList) {
+    const id = safeNum(r?.id);
+    if (!id) continue;
+    itemIdIndex.set(id, { kind: "ExpItemFactory", rec: translateDeep(cfg, "ExpItemFactory", r) });
+  }
+
+  for (const r of fridgeItemList) {
+    const id = safeNum(r?.id);
+    if (!id) continue;
+    itemIdIndex.set(id, { kind: "FridgeItemFactory", rec: translateDeep(cfg, "FridgeItemFactory", r) });
+  }
+
+
+  // ---------- Encyclopedia join indices (VM verify) ----------
+  const equipToCommodityIds = new Map();
+  for (const crec of commodityList) {
+    const cid = safeNum(crec?.id);
+    if (!cid) continue;
+
+    const giveList = Array.isArray(crec?.commodityItemList) ? crec.commodityItemList : [];
+    for (const gi of giveList) {
+      const gid = safeNum(gi?.id);
+      if (!gid) continue;
+
+      const arr = equipToCommodityIds.get(gid) || [];
+      arr.push(cid);
+      equipToCommodityIds.set(gid, arr);
+    }
+  }
+
+  for (const [k, arr] of equipToCommodityIds.entries()) {
+    equipToCommodityIds.set(k, Array.from(new Set(arr)));
+  }
+
+  const commodityToStoreIds = new Map();
+  for (const srec of storeList) {
+    const storeId = safeNum(srec?.id);
+    if (!storeId) continue;
+
+    const sl = Array.isArray(srec?.shopList) ? srec.shopList : [];
+    for (const it of sl) {
+      const refId = safeNum(it?.id);
+      if (!refId) continue;
+
+      if (commodityById.has(refId)) {
+        const arr = commodityToStoreIds.get(refId) || [];
+        arr.push(storeId);
+        commodityToStoreIds.set(refId, arr);
+        continue;
+      }
+
+      const lrec = listById.get(refId) || null;
+      if (lrec) {
+        const cl = Array.isArray(lrec?.commodityList) ? lrec.commodityList : [];
+        for (const ci of cl) {
+          const cid = safeNum(ci?.id);
+          if (!cid) continue;
+          if (!commodityById.has(cid)) continue;
+
+          const arr = commodityToStoreIds.get(cid) || [];
+          arr.push(storeId);
+          commodityToStoreIds.set(cid, arr);
+        }
+      }
+    }
+  }
+
+  for (const [k, arr] of commodityToStoreIds.entries()) {
+    commodityToStoreIds.set(k, Array.from(new Set(arr)));
+  }
   // BookFactory 필터(고정)
   const unitIdSet = pickBookIdSet(bookList, "角色图鉴", "unitList");
   const equipIdSet = pickBookIdSet(bookList, "角色装备图鉴", "equipmentList");
@@ -481,6 +599,56 @@ function main() {
     const growthId = safeNum(erecCN?.growthId);
     const growth = growthId ? translateDeep(cfg, "GrowthFactory", growthById.get(growthId) || null) : null;
 
+
+    // offers: equipId -> commodity -> cost(item) -> store(idCN)
+    const offerCommodityIds = equipToCommodityIds.get(eid) || [];
+    const offers = [];
+    for (const cid of offerCommodityIds) {
+      const crecCN = commodityById.get(cid) || null;
+      if (!crecCN) continue;
+
+      const crec = translateDeep(cfg, "CommodityFactory", crecCN);
+
+      const giveList = Array.isArray(crecCN?.commodityItemList) ? crecCN.commodityItemList : [];
+      const give = [];
+      for (const gi of giveList) {
+        const gid = safeNum(gi?.id);
+        const gnum = safeNum(gi?.num);
+        if (!gid) continue;
+
+        const itx = itemIdIndex.get(gid) || null;
+        give.push({ ...gi, item: itx ? itx.rec : null });
+      }
+
+      const moneyList = Array.isArray(crecCN?.moneyList) ? crecCN.moneyList : [];
+      const cost = [];
+      for (const mi of moneyList) {
+        const mid = safeNum(mi?.moneyID);
+        const mnum = safeNum(mi?.moneyNum);
+        if (!mid) continue;
+
+        const itx = itemIdIndex.get(mid) || null;
+        cost.push({ ...mi, item: itx ? itx.rec : null });
+      }
+
+      const storeIds = commodityToStoreIds.get(cid) || [];
+      const stores = [];
+      for (const sid of storeIds) {
+        const srecCN = storeById.get(sid) || null;
+        if (!srecCN) continue;
+
+        const srec = translateDeep(cfg, "StoreFactory", srecCN);
+        stores.push({ id: sid, idCN: srecCN?.idCN ?? "", storeName: srec?.storeName ?? null });
+      }
+
+      offers.push({
+        commodityId: cid,
+        commodity: crec,
+        give,
+        cost,
+        stores,
+      });
+    }
     equipVm[String(eid)] = {
       ...erec,
 
@@ -491,17 +659,133 @@ function main() {
       equipTag,
       campTag,
       growth,
+      offers,
+
 
       // cards/tags를 “별도 배열로 새로 만들기”는 지금 요청 범위 밖이라 생략
       // (원하면 다음 단계에서 SkillFactory.cardID도 같은 방식으로 “skill 안에 card” 붙이는 형태로 가능)
     };
   }
 
+
+  // ---------- Store VM (shopList join: commodity / valuable / list) ----------
+  const storeVm = {};
+  for (const srecCN of storeList) {
+    const sid = safeNum(srecCN?.id);
+    if (!sid) continue;
+
+    const srec = translateDeep(cfg, "StoreFactory", srecCN);
+    const sl = Array.isArray(srecCN?.shopList) ? srecCN.shopList : [];
+    const shopListInplace = [];
+
+    for (const it of sl) {
+      const refId = safeNum(it?.id);
+      if (!refId) continue;
+
+      if (commodityById.has(refId)) {
+        const crecCN = commodityById.get(refId) || null;
+        const crec = crecCN ? translateDeep(cfg, "CommodityFactory", crecCN) : null;
+
+        const giveList = Array.isArray(crecCN?.commodityItemList) ? crecCN.commodityItemList : [];
+        const give = [];
+        for (const gi of giveList) {
+          const gid = safeNum(gi?.id);
+          if (!gid) continue;
+          const itx = itemIdIndex.get(gid) || null;
+          give.push({ ...gi, item: itx ? itx.rec : null });
+        }
+
+        const moneyList = Array.isArray(crecCN?.moneyList) ? crecCN.moneyList : [];
+        const cost = [];
+        for (const mi of moneyList) {
+          const mid = safeNum(mi?.moneyID);
+          if (!mid) continue;
+          const itx = itemIdIndex.get(mid) || null;
+          cost.push({ ...mi, item: itx ? itx.rec : null });
+        }
+
+        shopListInplace.push({ ...it, kind: "commodity", commodity: crec, give, cost });
+        continue;
+      }
+
+      if (valuableById.has(refId)) {
+        const vrecCN = valuableById.get(refId) || null;
+        const vrec = vrecCN ? translateDeep(cfg, "ValuableFactory", vrecCN) : null;
+        shopListInplace.push({ ...it, kind: "valuable", valuable: vrec });
+        continue;
+      }
+
+      const lrecCN = listById.get(refId) || null;
+      if (lrecCN) {
+        const lrec = translateDeep(cfg, "ListFactory", lrecCN);
+        const cl = Array.isArray(lrecCN?.commodityList) ? lrecCN.commodityList : [];
+        const listItems = [];
+        for (const ci of cl) {
+          const cid = safeNum(ci?.id);
+          if (!cid) continue;
+
+          if (commodityById.has(cid)) {
+            const crecCN = commodityById.get(cid) || null;
+            const crec = crecCN ? translateDeep(cfg, "CommodityFactory", crecCN) : null;
+            listItems.push({ ...ci, kind: "commodity", commodity: crec });
+            continue;
+          }
+
+          if (valuableById.has(cid)) {
+            const vrecCN = valuableById.get(cid) || null;
+            const vrec = vrecCN ? translateDeep(cfg, "ValuableFactory", vrecCN) : null;
+            listItems.push({ ...ci, kind: "valuable", valuable: vrec });
+            continue;
+          }
+        }
+
+        shopListInplace.push({ ...it, kind: "list", list: lrec, listItems });
+      }
+    }
+
+    storeVm[String(sid)] = { ...srec, shopList: shopListInplace };
+  }
+
+  // ---------- HomeWeapon VM (TrainWeaponMakeUp + goldCost) ----------
+  const homeWeaponVm = {};
+  for (const hrecCN of homeWeaponList) {
+    const hid = safeNum(hrecCN?.id);
+    if (!hid) continue;
+
+    const hrec = translateDeep(cfg, "HomeWeaponFactory", hrecCN);
+    const makeUp = Array.isArray(hrecCN?.TrainWeaponMakeUp) ? hrecCN.TrainWeaponMakeUp : [];
+    const makeUpResolved = [];
+    for (const mi of makeUp) {
+      const mid = safeNum(mi?.id);
+      if (!mid) continue;
+      const itx = itemIdIndex.get(mid) || null;
+      makeUpResolved.push({ ...mi, item: itx ? itx.rec : null });
+    }
+
+    homeWeaponVm[String(hid)] = {
+      ...hrec,
+      TrainWeaponMakeUpResolved: makeUpResolved,
+      goldCost: hrecCN?.goldCost ?? 0,
+    };
+  }
+
+  // ---------- ItemIndex VM ----------
+  const itemIdIndexVm = {};
+  for (const [id, v] of itemIdIndex.entries()) {
+    itemIdIndexVm[String(id)] = v;
+  }
   writeJsonPretty(OUT_PATHS.UnitVM, unitVm);
   writeJsonPretty(OUT_PATHS.EquipVM, equipVm);
+  writeJsonPretty(OUT_PATHS.StoreVM, storeVm);
+  writeJsonPretty(OUT_PATHS.HomeWeaponVM, homeWeaponVm);
+  writeJsonPretty(OUT_PATHS.ItemIndexVM, itemIdIndexVm);
+
 
   console.log("[ok] wrote", path.relative(ROOT, OUT_PATHS.UnitVM));
   console.log("[ok] wrote", path.relative(ROOT, OUT_PATHS.EquipVM));
+  console.log("[ok] wrote", path.relative(ROOT, OUT_PATHS.StoreVM));
+  console.log("[ok] wrote", path.relative(ROOT, OUT_PATHS.HomeWeaponVM));
+  console.log("[ok] wrote", path.relative(ROOT, OUT_PATHS.ItemIndexVM));
   console.log("[info] units:", Object.keys(unitVm).length, "equips:", Object.keys(equipVm).length);
 }
 

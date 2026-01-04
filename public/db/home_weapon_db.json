@@ -1,0 +1,1292 @@
+{
+  "83100001": {
+    "id": 83100001,
+    "name": "hw_name_83100001",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/wurenji727.webp",
+    "tipsPath": "item/TrainWeapon/big/wurenji727.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100001",
+    "des": "hw_des_83100001",
+    "Getway": [
+      {
+        "DisplayName": "列车长执照等级20级",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100002": {
+    "id": 83100002,
+    "name": "hw_name_83100002",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/wurenji757.webp",
+    "tipsPath": "item/TrainWeapon/big/wurenji757.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100002",
+    "des": "hw_des_83100002",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔能源研究所-能源科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100003": {
+    "id": 83100003,
+    "name": "hw_name_83100003",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/wurenji787.webp",
+    "tipsPath": "item/TrainWeapon/big/wurenji787.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100003",
+    "des": "hw_des_83100003",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔战备工厂-战备科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100004": {
+    "id": 83100004,
+    "name": "hw_name_83100004",
+    "quality": "Orange",
+    "imagePath": "item/TrainWeapon/small/wurenji797.webp",
+    "tipsPath": "item/TrainWeapon/big/wurenji797.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100004",
+    "des": "hw_des_83100004",
+    "Getway": [
+      {
+        "DisplayName": "商城-无人机支援礼包",
+        "FromLevel": -1,
+        "UIName": "UI/Store/Store",
+        "Way3": "3|82100027",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100005": {
+    "id": 83100005,
+    "name": "hw_name_83100005",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/tianhuo.webp",
+    "tipsPath": "item/TrainWeapon/big/tianhuo.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100005",
+    "des": "hw_des_83100005",
+    "Getway": [
+      {
+        "DisplayName": "“澄明异闻录”活动",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100006": {
+    "id": 83100006,
+    "name": "hw_name_83100006",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/diaochawurenji313.webp",
+    "tipsPath": "item/TrainWeapon/big/diaochawurenji313.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100006",
+    "des": "hw_des_83100006",
+    "Getway": [
+      {
+        "DisplayName": "主线任务-荒原上的观测站",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100007": {
+    "id": 83100007,
+    "name": "hw_name_83100007",
+    "quality": "Orange",
+    "imagePath": "item/TrainWeapon/small/potianzuantou.webp",
+    "tipsPath": "item/TrainWeapon/big/potianzuantou.webp",
+    "type": null,
+    "powerLoad": 640,
+    "coreCondition": null,
+    "effect": "hw_effect_83100007",
+    "des": "hw_des_83100007",
+    "Getway": []
+  },
+  "83100008": {
+    "id": 83100008,
+    "name": "hw_name_83100008",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/diaochawurenji353.webp",
+    "tipsPath": "item/TrainWeapon/big/diaochawurenji353.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100008",
+    "des": "hw_des_83100008",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔能源研究所-能源科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100009": {
+    "id": 83100009,
+    "name": "hw_name_83100009",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/diaochawurenji373.webp",
+    "tipsPath": "item/TrainWeapon/big/diaochawurenji373.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100009",
+    "des": "hw_des_83100009",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔战备工厂-战备科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100010": {
+    "id": 83100010,
+    "name": "hw_name_83100010",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/hejinzhuangjiban.webp",
+    "tipsPath": "item/TrainWeapon/big/hejinzhuangjiban.webp",
+    "type": null,
+    "powerLoad": 300,
+    "coreCondition": null,
+    "effect": "hw_effect_83100010",
+    "des": "hw_des_83100010",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100011": {
+    "id": 83100011,
+    "name": "hw_name_83100011",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/yaluzhuangzhi.webp",
+    "tipsPath": "Item/TrainWeapon/big/yaluzhuangzhi.png",
+    "type": null,
+    "powerLoad": 280,
+    "coreCondition": null,
+    "effect": "hw_effect_83100011",
+    "des": "hw_des_83100011",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100012": {
+    "id": 83100012,
+    "name": "hw_name_83100012",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/disuzhiyuanguangdeng.webp",
+    "tipsPath": "item/TrainWeapon/big/disuzhiyuanguangdeng.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100012",
+    "des": "hw_des_83100012",
+    "Getway": [
+      {
+        "DisplayName": "铁盟哨站-铁盟军械库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100013": {
+    "id": 83100013,
+    "name": "hw_name_83100013",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/waifanglaba.webp",
+    "tipsPath": "item/TrainWeapon/big/waifanglaba.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100013",
+    "des": "hw_des_83100013",
+    "Getway": [
+      {
+        "DisplayName": "铁盟哨站-铁盟军械库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100014": {
+    "id": 83100014,
+    "name": "hw_name_83100014",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/xianrenzhangzhituceng.webp",
+    "tipsPath": "item/TrainWeapon/big/xianrenzhangzhituceng.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100014",
+    "des": "hw_des_83100014",
+    "Getway": [
+      {
+        "DisplayName": "淘金乐园-装备库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100015": {
+    "id": 83100015,
+    "name": "hw_name_83100015",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/tiepizhuangjia.webp",
+    "tipsPath": "item/TrainWeapon/big/tiepizhuangjia.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100015",
+    "des": "hw_des_83100015",
+    "Getway": [
+      {
+        "DisplayName": "淘金乐园-装备库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100019": {
+    "id": 83100019,
+    "name": "hw_name_83100019",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/xiemingpohuaichan.webp",
+    "tipsPath": "item/TrainWeapon/big/xiemingpohuaichan.webp",
+    "type": null,
+    "powerLoad": 300,
+    "coreCondition": null,
+    "effect": "hw_effect_83100019",
+    "des": "hw_des_83100019",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100020": {
+    "id": 83100020,
+    "name": "hw_name_83100020",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/gaoqiangdupohuaichan.webp",
+    "tipsPath": "item/TrainWeapon/big/gaoqiangdupohuaichan.webp",
+    "type": null,
+    "powerLoad": 250,
+    "coreCondition": null,
+    "effect": "hw_effect_83100020",
+    "des": "hw_des_83100020",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100021": {
+    "id": 83100021,
+    "name": "hw_name_83100021",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/fensuichongjinian.webp",
+    "tipsPath": "item/TrainWeapon/big/fensuichongjinian.webp",
+    "type": null,
+    "powerLoad": 336,
+    "coreCondition": null,
+    "effect": "hw_effect_83100021",
+    "des": "hw_des_83100021",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100022": {
+    "id": 83100022,
+    "name": "hw_name_83100022",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/fenjiechongjinina.webp",
+    "tipsPath": "item/TrainWeapon/big/fenjiechongjinina.webp",
+    "type": null,
+    "powerLoad": 448,
+    "coreCondition": null,
+    "effect": "hw_effect_83100022",
+    "des": "hw_des_83100022",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100023": {
+    "id": 83100023,
+    "name": "hw_name_83100023",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/kaidaojupan.webp",
+    "tipsPath": "item/TrainWeapon/big/kaidaojupan.webp",
+    "type": null,
+    "powerLoad": 360,
+    "coreCondition": null,
+    "effect": "hw_effect_83100023",
+    "des": "hw_des_83100023",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100024": {
+    "id": 83100024,
+    "name": "hw_name_83100024",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/hunezhuangjiao.webp",
+    "tipsPath": "item/TrainWeapon/big/hunezhuangjiao.webp",
+    "type": null,
+    "powerLoad": 480,
+    "coreCondition": null,
+    "effect": "hw_effect_83100024",
+    "des": "hw_des_83100024",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100025": {
+    "id": 83100025,
+    "name": "hw_name_83100025",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/jianxiaopohuaichan.webp",
+    "tipsPath": "item/TrainWeapon/big/jianxiaopohuaichan.webp",
+    "type": null,
+    "powerLoad": 400,
+    "coreCondition": null,
+    "effect": "hw_effect_83100025",
+    "des": "hw_des_83100025",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100026": {
+    "id": 83100026,
+    "name": "hw_name_83100026",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/jinggangzuantou.webp",
+    "tipsPath": "item/TrainWeapon/big/jinggangzuantou.webp",
+    "type": null,
+    "powerLoad": 360,
+    "coreCondition": null,
+    "effect": "hw_effect_83100026",
+    "des": "hw_des_83100026",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100028": {
+    "id": 83100028,
+    "name": "hw_name_83100028",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/rerongzuantou.webp",
+    "tipsPath": "item/TrainWeapon/big/rerongzuantou.webp",
+    "type": null,
+    "powerLoad": 480,
+    "coreCondition": null,
+    "effect": "hw_effect_83100028",
+    "des": "hw_des_83100028",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100029": {
+    "id": 83100029,
+    "name": "hw_name_83100029",
+    "quality": "Orange",
+    "imagePath": "item/TrainWeapon/small/jiguangzuantou.webp",
+    "tipsPath": "item/TrainWeapon/big/jiguangzuantou.webp",
+    "type": null,
+    "powerLoad": 600,
+    "coreCondition": null,
+    "effect": "hw_effect_83100029",
+    "des": "hw_des_83100029",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100030": {
+    "id": 83100030,
+    "name": "hw_name_83100030",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/gaoxingnenghuohuasai.webp",
+    "tipsPath": "item/TrainWeapon/big/gaoxingnenghuohuasai.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100030",
+    "des": "hw_des_83100030",
+    "Getway": [
+      {
+        "DisplayName": "启程签到第六日",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100031": {
+    "id": 83100031,
+    "name": "hw_name_83100031",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/danwanbao.webp",
+    "tipsPath": "item/TrainWeapon/big/danwanbao.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100031",
+    "des": "hw_des_83100031",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔能源研究所-建设进度奖励",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100032": {
+    "id": 83100032,
+    "name": "hw_name_83100032",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/baozhahuohuasai.webp",
+    "tipsPath": "item/TrainWeapon/big/baozhahuohuasai.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100032",
+    "des": "hw_des_83100032",
+    "Getway": [
+      {
+        "DisplayName": "铁盟哨站-铁盟军械库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100033": {
+    "id": 83100033,
+    "name": "hw_name_83100033",
+    "quality": "Orange",
+    "imagePath": "item/TrainWeapon/small/shandianfashengqi.webp",
+    "tipsPath": "item/TrainWeapon/big/shandianfashengqi.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100033",
+    "des": "hw_des_83100033",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔能源研究所-能源科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100034": {
+    "id": 83100034,
+    "name": "hw_name_83100034",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/biaochehezi.webp",
+    "tipsPath": "item/TrainWeapon/big/biaochehezi.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100034",
+    "des": "hw_des_83100034",
+    "Getway": [
+      {
+        "DisplayName": "云岫桥基地-云岫桥军械库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100035": {
+    "id": 83100035,
+    "name": "hw_name_83100035",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/xiulijiqiren919.webp",
+    "tipsPath": "item/TrainWeapon/big/xiulijiqiren919.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100035",
+    "des": "hw_des_83100035",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔战备工厂-建设进度奖励",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100037": {
+    "id": 83100037,
+    "name": "hw_name_83100037",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/gaoniulixianquan.webp",
+    "tipsPath": "item/TrainWeapon/big/gaoniulixianquan.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100037",
+    "des": "hw_des_83100037",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100038": {
+    "id": 83100038,
+    "name": "hw_name_83100038",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/tuijinhuojian.webp",
+    "tipsPath": "item/TrainWeapon/big/tuijinhuojian.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100038",
+    "des": "hw_des_83100038",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔发射中心-发射科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100042": {
+    "id": 83100042,
+    "name": "hw_name_83100042",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/yuluoshufuwen.webp",
+    "tipsPath": "item/TrainWeapon/big/yuluoshufuwen.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100042",
+    "des": "hw_des_83100042",
+    "Getway": [
+      {
+        "DisplayName": "“红茶战争”活动",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100043": {
+    "id": 83100043,
+    "name": "hw_name_83100043",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/jizoushufuwen.webp",
+    "tipsPath": "item/TrainWeapon/big/jizoushufuwen.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100043",
+    "des": "hw_des_83100043",
+    "Getway": [
+      {
+        "DisplayName": "“红茶战争”活动",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100044": {
+    "id": 83100044,
+    "name": "hw_name_83100044",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/huowuguajia.webp",
+    "tipsPath": "item/TrainWeapon/big/huowuguajia.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100044",
+    "des": "hw_des_83100044",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100045": {
+    "id": 83100045,
+    "name": "hw_name_83100045",
+    "quality": "Orange",
+    "imagePath": "item/TrainWeapon/small/yichangkongjianchanshengqi.webp",
+    "tipsPath": "item/TrainWeapon/big/yichangkongjianchanshengqi.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100045",
+    "des": "hw_des_83100045",
+    "Getway": []
+  },
+  "83100046": {
+    "id": 83100046,
+    "name": "hw_name_83100046",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/luotuowenzhang.webp",
+    "tipsPath": "item/TrainWeapon/big/luotuowenzhang.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100046",
+    "des": "hw_des_83100046",
+    "Getway": [
+      {
+        "DisplayName": "淘金乐园-装备库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100048": {
+    "id": 83100048,
+    "name": "hw_name_83100048",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/gaotawenzhang.webp",
+    "tipsPath": "item/TrainWeapon/big/gaotawenzhang.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100048",
+    "des": "hw_des_83100048",
+    "Getway": [
+      {
+        "DisplayName": "黑月游乐城-建设进度奖励",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100049": {
+    "id": 83100049,
+    "name": "hw_name_83100049",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/qulidadeng.webp",
+    "tipsPath": "item/TrainWeapon/big/qulidadeng.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100049",
+    "des": "hw_des_83100049",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔能源研究所-能源科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "铁盟哨站-建设进度奖励",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100050": {
+    "id": 83100050,
+    "name": "hw_name_83100050",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/xingtaidiaodeng.webp",
+    "tipsPath": "item/TrainWeapon/big/xingtaidiaodeng.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100050",
+    "des": "hw_des_83100050",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔战备工厂-战备科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100051": {
+    "id": 83100051,
+    "name": "hw_name_83100051",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/youxingyandeng.webp",
+    "tipsPath": "item/TrainWeapon/big/youxingyandeng.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100051",
+    "des": "hw_des_83100051",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔战备工厂-战备科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100053": {
+    "id": 83100053,
+    "name": "hw_name_83100053",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/432HZ.webp",
+    "tipsPath": "item/TrainWeapon/big/432HZ.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100053",
+    "des": "hw_des_83100053",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔战备工厂-战备科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100054": {
+    "id": 83100054,
+    "name": "hw_name_83100054",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/cishengbozhendangqi.webp",
+    "tipsPath": "item/TrainWeapon/big/cishengbozhendangqi.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100054",
+    "des": "hw_des_83100054",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔战备工厂-战备科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100055": {
+    "id": 83100055,
+    "name": "hw_name_83100055",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/xuannaoyaogun.webp",
+    "tipsPath": "item/TrainWeapon/big/xuannaoyaogun.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100055",
+    "des": "hw_des_83100055",
+    "Getway": []
+  },
+  "83100057": {
+    "id": 83100057,
+    "name": "hw_name_83100057",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/xingtaigongzhentuceng.webp",
+    "tipsPath": "item/TrainWeapon/big/xingtaigongzhentuceng.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100057",
+    "des": "hw_des_83100057",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔能源研究所-能源科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100059": {
+    "id": 83100059,
+    "name": "hw_name_83100059",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/danhuataituceng.webp",
+    "tipsPath": "item/TrainWeapon/big/danhuataituceng.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100059",
+    "des": "hw_des_83100059",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100061": {
+    "id": 83100061,
+    "name": "hw_name_83100061",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/UROtuzhuang.webp",
+    "tipsPath": "item/TrainWeapon/big/UROtuzhuang.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100061",
+    "des": "hw_des_83100061",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔发射中心-发射科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100062": {
+    "id": 83100062,
+    "name": "hw_name_83100062",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/guapiaodiaocang.webp",
+    "tipsPath": "item/TrainWeapon/big/guapiaodiaocang.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100062",
+    "des": "hw_des_83100062",
+    "Getway": [
+      {
+        "DisplayName": "整顿中心-兑换商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100063": {
+    "id": 83100063,
+    "name": "hw_name_83100063",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/junliezhuangjia.webp",
+    "tipsPath": "item/TrainWeapon/big/junliezhuangjia.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100063",
+    "des": "hw_des_83100063",
+    "Getway": [
+      {
+        "DisplayName": "曼德矿场-列车武器工厂",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100064": {
+    "id": 83100064,
+    "name": "hw_name_83100064",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/taocizhuangjia.webp",
+    "tipsPath": "item/TrainWeapon/big/taocizhuangjia.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100064",
+    "des": "hw_des_83100064",
+    "Getway": [
+      {
+        "DisplayName": "阿妮塔发射中心-发射科技中心",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100065": {
+    "id": 83100065,
+    "name": "hw_name_83100065",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/huashushengwuzhuangjia.webp",
+    "tipsPath": "item/TrainWeapon/big/huashushengwuzhuangjia.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100065",
+    "des": "hw_des_83100065",
+    "Getway": [
+      {
+        "DisplayName": "汇流塔-异想构建室",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100070": {
+    "id": 83100070,
+    "name": "hw_name_83100070",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/xingtaichangjiasuqi.webp",
+    "tipsPath": "item/TrainWeapon/big/xingtaichangjiasuqi.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100070",
+    "des": "hw_des_83100070",
+    "Getway": [
+      {
+        "DisplayName": "汇流塔-异想构建室",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100073": {
+    "id": 83100073,
+    "name": "hw_name_83100073",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/wozaowolu.webp",
+    "tipsPath": "item/TrainWeapon/big/wozaowolu.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100073",
+    "des": "hw_des_83100073",
+    "Getway": [
+      {
+        "DisplayName": "整顿中心-兑换商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100074": {
+    "id": 83100074,
+    "name": "hw_name_83100074",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/jianyutanzhaodeng.webp",
+    "tipsPath": "item/TrainWeapon/big/jianyutanzhaodeng.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100074",
+    "des": "hw_des_83100074",
+    "Getway": [
+      {
+        "DisplayName": "云岫桥基地-云岫桥军械库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100075": {
+    "id": 83100075,
+    "name": "hw_name_83100075",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/yunxiuqiaozhifajingdeng.webp",
+    "tipsPath": "item/TrainWeapon/big/yunxiuqiaozhifajingdeng.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100075",
+    "des": "hw_des_83100075",
+    "Getway": [
+      {
+        "DisplayName": "整顿中心-兑换商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100076": {
+    "id": 83100076,
+    "name": "hw_name_83100076",
+    "quality": "Golden",
+    "imagePath": "item/TrainWeapon/small/yunxiuqiaojingdi.webp",
+    "tipsPath": "item/TrainWeapon/big/yunxiuqiaojingdi.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100076",
+    "des": "hw_des_83100076",
+    "Getway": [
+      {
+        "DisplayName": "云岫桥基地-云岫桥军械库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100077": {
+    "id": 83100077,
+    "name": "hw_name_83100077",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/yunxiuqiaotuzhuang.webp",
+    "tipsPath": "item/TrainWeapon/big/yunxiuqiaotuzhuang.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100077",
+    "des": "hw_des_83100077",
+    "Getway": [
+      {
+        "DisplayName": "云岫桥基地-建设度奖励",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100078": {
+    "id": 83100078,
+    "name": "hw_name_83100078",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/fangbaozhuangjia.webp",
+    "tipsPath": "item/TrainWeapon/big/fangbaozhuangjia.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100078",
+    "des": "hw_des_83100078",
+    "Getway": [
+      {
+        "DisplayName": "云岫桥基地-云岫桥军械库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100081": {
+    "id": 83100081,
+    "name": "hw_name_83100081",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/dagangya.webp",
+    "tipsPath": "item/TrainWeapon/big/dagangya.webp",
+    "type": null,
+    "powerLoad": 320,
+    "coreCondition": null,
+    "effect": "hw_effect_83100081",
+    "des": "hw_des_83100081",
+    "Getway": [
+      {
+        "DisplayName": "汇流塔-建设进度奖励",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100082": {
+    "id": 83100082,
+    "name": "hw_name_83100082",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/baozhafanyingzhuangjiao.webp",
+    "tipsPath": "item/TrainWeapon/big/baozhafanyingzhuangjiao.webp",
+    "type": null,
+    "powerLoad": 500,
+    "coreCondition": null,
+    "effect": "hw_effect_83100082",
+    "des": "hw_des_83100082",
+    "Getway": []
+  },
+  "83100083": {
+    "id": 83100083,
+    "name": "hw_name_83100083",
+    "quality": "Purple",
+    "imagePath": "item/TrainWeapon/small/jinmiweiguang.webp",
+    "tipsPath": "item/TrainWeapon/big/jinmiweiguang.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100083",
+    "des": "hw_des_83100083",
+    "Getway": [
+      {
+        "DisplayName": "“叩响乐园之门”活动",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "83100087": {
+    "id": 83100087,
+    "name": "hw_name_83100087",
+    "quality": "Blue",
+    "imagePath": "item/TrainWeapon/small/A1.webp",
+    "tipsPath": "item/TrainWeapon/big/A1.webp",
+    "type": null,
+    "powerLoad": null,
+    "coreCondition": null,
+    "effect": "hw_effect_83100087",
+    "des": "hw_des_83100087",
+    "Getway": []
+  }
+}

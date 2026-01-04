@@ -14,14 +14,16 @@ import {
   FolderOpen,
   UsersRound,
   LayoutGrid,
+  BookOpen
 } from "lucide-react";
 import { StylizedTitle } from "./stylized-title";
-import { HelpModal } from "./ui/modal/HelpModal";
+import { HelpModal } from "./modal/HelpModal";
 import { useLanguage } from "../contexts/language-context";
 import { ScreenshotButton } from "./screenshot-button"; // 추가
 
 import type { Database } from "../types/index";
-import { DeckListModal } from "./ui/modal/DeckListModal";
+import { DeckListModal } from "./modal/DeckListModal";
+import { EncyclopediaModal } from "./modal/EncyclopediaModal";
 
 interface TopBarProps {
   onClear: () => void;
@@ -36,6 +38,7 @@ interface TopBarProps {
   data: Database;
   onApplyPresetFromCode?: (presetCode: string) => void;
   showToast: (message: string, type?: "success" | "error" | "info") => void;
+   getSkill?: (skillId: number) => any;
 }
 
 export function TopBar({
@@ -50,6 +53,7 @@ export function TopBar({
   data,
   onApplyPresetFromCode,
   showToast,
+  getSkill
 }: TopBarProps) {
   const {
     currentLanguage,
@@ -66,6 +70,7 @@ export function TopBar({
   const helpPopupRef = useRef<HTMLDivElement>(null);
 
   const [showDeckListModal, setShowDeckListModal] = useState(false);
+  const [showEncyclopediaModal, setShowEncyclopediaModal] = useState(false);
 
   // 언어 버튼 참조 추가
   const languageButtonRef = useRef<HTMLButtonElement>(null);
@@ -225,6 +230,20 @@ export function TopBar({
                 )}
               </div>
 
+              {/* Encyclopedia Button - 추가 */}
+              {/* <button
+                onClick={() => setShowEncyclopediaModal(true)}
+                className={`${buttonBaseClass} encyclopedia-button`}
+                aria-label={
+                  getTranslatedString("encyclopedia.title") || "Encyclopedia"
+                }
+                title={
+                  getTranslatedString("encyclopedia.title") || "Encyclopedia"
+                }
+              >
+                <BookOpen className={iconClass} />
+              </button> */}
+
               {/* Screenshot Button - 캡처 버튼으로 변경 */}
               <ScreenshotButton
                 targetRef={contentRef}
@@ -265,8 +284,12 @@ export function TopBar({
               <button
                 onClick={() => setShowDeckListModal(true)}
                 className={`${buttonBaseClass} decklist-button`}
-                aria-label={getTranslatedString("deck_list") || "Deck List"}
-                title={getTranslatedString("deck_list") || "Deck List"}
+                aria-label={
+                  getTranslatedString("deck_list_modal.title") || "Deck List"
+                }
+                title={
+                  getTranslatedString("deck_list_modal.title") || "Deck List"
+                }
               >
                 <LayoutGrid className={iconClass} />
               </button>
@@ -352,12 +375,16 @@ export function TopBar({
         getTranslatedString={getTranslatedString}
         onApplyPreset={onApplyPresetFromCode}
         onCopiedPresetCode={() => {
-          showToast(
-            getTranslatedString("preset_code_copied") ||
-              "코드가 복사되었습니다.",
-            "success"
-          );
+          showToast(getTranslatedString("export_success"), "success");
         }}
+      />
+
+      <EncyclopediaModal
+        isOpen={showEncyclopediaModal}
+        onClose={() => setShowEncyclopediaModal(false)}
+        data={data}
+        getTranslatedString={getTranslatedString}
+        getSkill={getSkill}
       />
     </>
   );

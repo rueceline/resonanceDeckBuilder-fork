@@ -3,7 +3,7 @@
 import { useState, useRef } from "react"
 import type { Character, Card, Equipment } from "../types"
 import { CharacterSlot } from "./character-slot"
-import { CharacterSearchModal } from "./ui/modal/CharacterSearchModal"
+import { CharacterSearchModal } from "./modal/CharacterSearchModal"
 
 interface CharacterWindowProps {
   selectedCharacters: number[]

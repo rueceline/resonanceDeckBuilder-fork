@@ -10,9 +10,9 @@ import { useToast } from "./toast-notification";
 import { useDeckBuilder } from "../hooks/deck-builder/index";
 import { useLanguage } from "../contexts/language-context";
 import { decodePresetFromUrlParam } from "../utils/presetCodec";
-import { SaveDeckModal } from "./ui/modal/SaveDeckModal"; // 추가
-import { LoadDeckModal } from "./ui/modal/LoadDeckModal"; // 추가
-import { Modal } from "./ui/modal/Modal";
+import { SaveDeckModal } from "./modal/SaveDeckModal"; // 추가
+import { LoadDeckModal } from "./modal/LoadDeckModal"; // 추가
+import { Modal } from "./modal/Modal";
 import {
   getCurrentDeckId,
   setCurrentDeckId,
@@ -718,6 +718,7 @@ export default function DeckBuilder({ urlDeckCode, data }: DeckBuilderProps) {
         data={data}
         onApplyPresetFromCode={applyPresetFromCode}
         showToast={showToast}
+        getSkill={getSkill}
       />
 
       {/* 컨테이너의 패딩을 조정하여 모바일에서 더 많은 공간을 확보합니다. */}
@@ -783,7 +784,7 @@ export default function DeckBuilder({ urlDeckCode, data }: DeckBuilderProps) {
           className="underline underline-offset-4 hover:opacity-80"
           onClick={() => setShowPatchNotes(true)}
         >
-          패치노트
+          Patch Notes
         </button>
 
         <span className="hidden sm:inline">·</span>
@@ -803,10 +804,7 @@ export default function DeckBuilder({ urlDeckCode, data }: DeckBuilderProps) {
       {/* 패치노트 모달 */}
       <Modal
         isOpen={showPatchNotes}
-        onClose={() => setShowPatchNotes(false)}
-        title={
-          <div className="text-base font-semibold text-white">패치노트</div>
-        }
+        onClose={() => setShowPatchNotes(false)}        
         closeOnOutsideClick={true}
         maxWidth="max-w-2xl"
         footer={

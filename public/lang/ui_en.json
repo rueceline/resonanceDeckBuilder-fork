@@ -439,8 +439,31 @@
   "character.identity": "Current Identity",
   "character.ability": "Promotion Ability",
   "character.Resume": "Background",
-  "character.Skills": "Skills"
+  "character.Skills": "Skills",
 
-
-  
+"deck_list_modal.title": "Deck list",
+  "deck_list_modal.fetch_failed": "Failed to load deck list.",
+  "deck_list_modal.no_saved": "No saved decks.",
+  "deck_list_modal.character_filter": "Character filter",
+  "deck_list_modal.add": "Add",
+  "deck_list_modal.exclude_label": "Exclude",
+  "deck_list_modal.reset": "Reset",
+  "deck_list_modal.save": "Save",
+  "deck_list_modal.load": "Load",
+  "deck_list_modal.include_label": "Include",
+  "deck_list_modal.none": "None",
+  "deck_list_modal.visible_decks": "Visible decks",
+  "deck_list_modal.select_include_characters": "Select included characters",
+  "deck_list_modal.select_exclude_characters": "Select excluded characters",
+  "deck_list_modal.selected": "Selected",
+  "deck_list_modal.clear_current_mode_only_tooltip": "Clear selection in current mode only (not saved)",
+  "deck_list_modal.clear_all": "Clear",
+  "deck_list_modal.search": "Search",
+  "deck_list_modal.apply_open_tooltip": "Apply deck (Open)",
+  "deck_list_modal.open_source_link_tooltip": "Open source link",
+  "deck_list_modal.party_name": "Party name",
+  "deck_list_modal.characters": "Characters",
+  "deck_list_modal.actions": "Actions",
+  "help.deck_list": "Open the deck list and apply presets.",
+  "exchange_materials": "Exchange Materials"
 }

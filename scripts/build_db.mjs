@@ -49,6 +49,8 @@ const OUT_DIR = path.join(ROOT, "public", "db");
 // - Equip: BookFactory.idCN === "角色装备图鉴" 의 equipmentList
 const BOOK_UNIT_IDCN = "角色图鉴";
 const BOOK_EQUIP_IDCN = "角色装备图鉴";
+const BOOK_SOURCE_IDCN = "素材图鉴";
+const BOOK_ARMAMENT_IDCN = "列车武装图鉴";
 
 // 검증 리포트 출력 여부
 const WRITE_REPORTS = false;
@@ -229,8 +231,14 @@ function buildIncludedIdSetsFromBook(bookFactory) {
   const unitBook = getBookListByIdCN(bookFactory, BOOK_UNIT_IDCN);
   const equipBook = getBookListByIdCN(bookFactory, BOOK_EQUIP_IDCN);
 
+  // 추가: 소재/열차무장 도감
+  const sourceBook = getBookListByIdCN(bookFactory, BOOK_SOURCE_IDCN);
+  const armamentBook = getBookListByIdCN(bookFactory, BOOK_ARMAMENT_IDCN);
+
   const unitIds = new Set();
   const equipIds = new Set();
+  const sourceIds = new Set();
+  const armamentIds = new Set();
 
   const unitList = Array.isArray(unitBook?.unitList) ? unitBook.unitList : [];
   for (const u of unitList) {
@@ -246,11 +254,33 @@ function buildIncludedIdSetsFromBook(bookFactory) {
     if (id !== null) equipIds.add(id);
   }
 
+  // 소재 도감: sourceList
+  const sourceList = Array.isArray(sourceBook?.sourceList)
+    ? sourceBook.sourceList
+    : [];
+  for (const s of sourceList) {
+    const id = safeNumber(s?.id);
+    if (id !== null) sourceIds.add(id);
+  }
+
+  // 열차무장 도감: armamentList
+  const armamentList = Array.isArray(armamentBook?.armamentList)
+    ? armamentBook.armamentList
+    : [];
+  for (const a of armamentList) {
+    const id = safeNumber(a?.id);
+    if (id !== null) armamentIds.add(id);
+  }
+
   return {
     unitIds,
     equipIds,
+    sourceIds,
+    armamentIds,
     unitBookId: unitBook?.id ?? null,
     equipBookId: equipBook?.id ?? null,
+    sourceBookId: sourceBook?.id ?? null,
+    armamentBookId: armamentBook?.id ?? null,
   };
 }
 
@@ -416,6 +446,20 @@ function buildEquipDb(ctx) {
     // 포함 기준: BookFactory(角色装备图鉴) 목록
     if (!includedEquipIds.has(id)) continue;
 
+    let type = null;
+
+    const attackSN = safeNumber(e?.attack_SN);
+    const hpSN = safeNumber(e?.healthPoint_SN);
+    const defSN = safeNumber(e?.defence_SN);
+
+    if (attackSN !== null && attackSN > 0) {
+      type = "weapon";
+    } else if (hpSN !== null && hpSN > 0) {
+      type = "accessory";
+    } else if (defSN !== null && defSN > 0) {
+      type = "armor";
+    }
+
     const getway = Array.isArray(e?.Getway) ? e.Getway : [];
     const getwayOut = getway.map((gw, idx) => {
       const o = { ...gw };
@@ -437,6 +481,7 @@ function buildEquipDb(ctx) {
     out[String(id)] = {
       id,
       name: tok("equip_name", id, [], "EquipmentFactory", "name", e?.name),
+      type,
       des: tok(
         "equip_des",
         id,
@@ -655,6 +700,176 @@ function buildHomeSkillDb(ctx) {
       desc: tok("home_skill_desc", id, [], "HomeSkillFactory", "desc", r?.desc),
       param: r?.param ?? null,
       homeSkillType: r?.homeSkillType ?? "",
+    };
+  }
+
+  return out;
+}
+
+function buildSourceMaterialDb(ctx) {
+  const { sourceMaterialList, tok, includedSourceIds } = ctx;
+  const out = {};
+
+  for (const r of Array.isArray(sourceMaterialList) ? sourceMaterialList : []) {
+    const id = safeNumber(r?.id);
+    if (!id) continue;
+
+    // 포함 기준: BookFactory(素材图鉴) 목록
+    if (!includedSourceIds.has(id)) continue;
+
+    out[String(id)] = {
+      id,
+      // UI에서 쓰는 핵심(요청한 것들 위주)
+      name: tok("sm_name", id, [], "SourceMaterialFactory", "name", r?.name),
+      quality: r?.quality ?? "",
+      iconPath: String(r?.iconPath ?? "").trim(),
+
+      // 상세(있으면 표시)
+      des: tok(
+        "sm_des",
+        id,
+        [],
+        "SourceMaterialFactory",
+        "des",
+        r?.des ?? r?.description
+      ),
+      effect: tok(
+        "sm_effect",
+        id,
+        [],
+        "SourceMaterialFactory",
+        "effect",
+        r?.effect
+      ),
+      Getway: Array.isArray(r?.Getway) ? r.Getway : [],
+      type: r?.type ?? null,
+    };
+  }
+
+  return out;
+}
+
+function buildItemDb(ctx) {
+  const { itemList, tok } = ctx;
+  const out = {};
+
+  for (const r of Array.isArray(itemList) ? itemList : []) {
+    const id = safeNumber(r?.id);
+    if (!id) continue;
+
+    out[String(id)] = {
+      id,
+      name: tok("item_name", id, [], "ItemFactory", "name", r?.name),
+      quality: r?.quality ?? "",
+      iconPath: String(r?.iconPath ?? "").trim(),
+
+      // 상세(있으면 표시)
+      des: tok(
+        "item_des",
+        id,
+        [],
+        "ItemFactory",
+        "des",
+        r?.des ?? r?.description
+      ),
+      effect: tok("item_effect", id, [], "ItemFactory", "effect", r?.effect),
+      Getway: Array.isArray(r?.Getway) ? r.Getway : [],
+      type: r?.type ?? null,
+    };
+  }
+
+  return out;
+}
+
+function buildHomeWeaponDb(ctx) {
+  const { homeWeaponList, tok, includedArmamentIds } = ctx;
+  const out = {};
+
+  for (const r of Array.isArray(homeWeaponList) ? homeWeaponList : []) {
+    const id = safeNumber(r?.id);
+    if (!id) continue;
+
+    // 포함 기준: BookFactory(列车武装图鉴) 목록
+    if (!includedArmamentIds.has(id)) continue;
+
+    out[String(id)] = {
+      id,
+      name: tok("hw_name", id, [], "HomeWeaponFactory", "name", r?.name),
+      quality: r?.quality ?? "",
+
+      // 이미지(프로젝트마다 필드명이 다를 수 있어서 둘 다 보존)
+      imagePath: String(r?.imagePath ?? "").trim(),
+      tipsPath: String(r?.tipsPath ?? "").trim(),
+
+      // 요청한 것들(있으면 표시)
+      type: r?.type ?? null,
+      powerLoad: r?.powerLoad ?? r?.power ?? null, // 전력 부하 추정 필드 (없으면 null)
+      coreCondition: r?.coreCondition ?? r?.coreNeed ?? null,
+      effect: tok(
+        "hw_effect",
+        id,
+        [],
+        "HomeWeaponFactory",
+        "effect",
+        r?.effect
+      ),
+      des: tok(
+        "hw_des",
+        id,
+        [],
+        "HomeWeaponFactory",
+        "des",
+        r?.des ?? r?.description
+      ),
+      Getway: Array.isArray(r?.Getway) ? r.Getway : [],
+    };
+  }
+
+  return out;
+}
+
+function buildCommodityDbSlim(ctx) {
+  const { commodityList, usedItemIds, itemDb, sourceMaterialDb, equipmentDb } =
+    ctx;
+
+  const out = {};
+
+  for (const [cid, c] of Object.entries(commodityList)) {
+    const resultList = Array.isArray(c.commodityItemList)
+      ? c.commodityItemList
+      : [];
+
+    // 결과물이 실제 쓰이는 경우만
+    if (!resultList.some((r) => usedItemIds.has(Number(r?.id)))) continue;
+
+    const moneyList = (Array.isArray(c.moneyList) ? c.moneyList : [])
+      .map((m) => {
+        const id = Number(m?.moneyID);
+        const num = Number(m?.moneyNum) || 0;
+        if (!id || !num) return null;
+
+        let nameKey = null;
+
+        if (itemDb?.[id]) {
+          nameKey = itemDb[id].name; // item_name_xxx
+        } else if (sourceMaterialDb?.[id]) {
+          nameKey = sourceMaterialDb[id].name; // sm_name_xxx
+        } else if (equipmentDb?.[id]) {
+          nameKey = equipmentDb[id].name; // equipment_name_xxx
+        }
+
+        return nameKey ? { id, num, nameKey } : null;
+      })
+      .filter(Boolean);
+
+    out[cid] = {
+      id: Number(cid),
+      commodityName: c.commodityName,
+      commodityItemList: resultList.map((r) => ({
+        id: Number(r.id),
+        num: Number(r.num) || 0,
+      })),
+      moneyList,
     };
   }
 
@@ -940,6 +1155,18 @@ function main() {
   const breakthroughList = loadFactoryList("BreakthroughFactory.json");
   const homeSkillList = loadFactoryList("HomeSkillFactory.json");
 
+  // ---------- Encyclopedia join sources (no city_db) ----------
+  const commodityList = loadFactoryList("CommodityFactory.json");
+  const storeList = loadFactoryList("StoreFactory.json");
+  const valuableList = loadFactoryList("ValuableFactory.json");
+  const listList = loadFactoryList("ListFactory.json");
+  const itemList2 = loadFactoryList("ItemFactory.json");
+  const sourceMaterialList = loadFactoryList("SourceMaterialFactory.json");
+  const homeGoodsList = loadFactoryList("HomeGoodsFactory.json");
+  const expItemList = loadFactoryList("ExpItemFactory.json");
+  const fridgeItemList = loadFactoryList("FridgeItemFactory.json");
+  const homeWeaponList = loadFactoryList("HomeWeaponFactory.json");
+
   // 1) DB 생성
   const charDb = buildCharDb({
     unitList,
@@ -947,10 +1174,28 @@ function main() {
     tok,
     includedUnitIds: includedSets.unitIds,
   });
+
   const equipDb = buildEquipDb({
     equipmentList,
     tok,
     includedEquipIds: includedSets.equipIds,
+  });
+
+  const itemDb = buildItemDb({
+    itemList: itemList2,
+    tok,
+  });
+
+  const sourceMaterialDb = buildSourceMaterialDb({
+    sourceMaterialList,
+    tok,
+    includedSourceIds: includedSets.sourceIds, // 素材图鉴
+  });
+
+  const homeWeaponDb = buildHomeWeaponDb({
+    homeWeaponList,
+    tok,
+    includedArmamentIds: includedSets.armamentIds, // 列车武装图鉴
   });
 
   const cardDb = buildCardDb({ cardList, tok });
@@ -984,7 +1229,61 @@ function main() {
   const charSkillMap = buildCharSkillMap(charDb, skillById, cardById);
   const itemSkillMap = buildItemSkillMap(equipDb, skillById);
 
-  // 3) lang 생성 (항상 덮어쓰기)
+  // 단일 이미지 경로 필드만 처리
+  applyImagePathResolveToDbField(charDb, "roleListResUrl", assetRootDirAbs);
+  applyImagePathResolveToDbField(charDb, "face", assetRootDirAbs);
+  applyImagePathResolveToDbField(equipDb, "tipsPath", assetRootDirAbs);
+  applyImagePathResolveToDbField(skillDb, "iconPath", assetRootDirAbs);
+  applyImagePathResolveToDbField(talentDb, "path", assetRootDirAbs);
+  applyImagePathResolveToDbField(breakDb, "path", assetRootDirAbs);
+  applyImagePathResolveToDbField(cardDb, "iconPath", assetRootDirAbs);
+
+  // 추가: 아이템/소재/열차무장
+  applyImagePathResolveToDbField(itemDb, "iconPath", assetRootDirAbs);
+  applyImagePathResolveToDbField(sourceMaterialDb, "iconPath", assetRootDirAbs);
+
+  // 열차무장은 프로젝트마다 imagePath/tipsPath 중 뭐 쓰는지 달라서 둘 다 처리(값 있는 것만 적용됨)
+  applyImagePathResolveToDbField(homeWeaponDb, "imagePath", assetRootDirAbs);
+  applyImagePathResolveToDbField(homeWeaponDb, "tipsPath", assetRootDirAbs);
+
+  // 4) write outputs
+  writeJson(path.join(OUT_DIR, "char_db.json"), charDb);
+  writeJson(path.join(OUT_DIR, "equip_db.json"), equipDb);
+  writeJson(path.join(OUT_DIR, "item_db.json"), itemDb);
+  writeJson(path.join(OUT_DIR, "source_material_db.json"), sourceMaterialDb);
+  writeJson(path.join(OUT_DIR, "home_weapon_db.json"), homeWeaponDb);
+  writeJson(path.join(OUT_DIR, "skill_db.json"), skillDb);
+  writeJson(path.join(OUT_DIR, "card_db.json"), cardDb);
+  writeJson(path.join(OUT_DIR, "tag_db.json"), tagDb);
+
+  writeJson(path.join(OUT_DIR, "tag_color_mapping.json"), tagColorMapping);
+  writeJson(path.join(OUT_DIR, "talent_db.json"), talentDb);
+  writeJson(path.join(OUT_DIR, "break_db.json"), breakDb);
+  writeJson(path.join(OUT_DIR, "home_skill_db.json"), homeSkillDb);
+
+  writeJson(path.join(OUT_DIR, "char_skill_map.json"), charSkillMap);
+  writeJson(path.join(OUT_DIR, "item_skill_map.json"), itemSkillMap);
+
+  // ---------- Encyclopedia join outputs (optimized) ----------
+  // commodity_db는 너무 크므로: 장비/아이템/소재/열차무장과 연관된 항목만 + 필요한 필드만 출력한다.
+
+  const usedItemIds = new Set();
+  for (const k of Object.keys(equipDb)) usedItemIds.add(safeNumber(k));
+  for (const k of Object.keys(itemDb)) usedItemIds.add(safeNumber(k));
+  for (const k of Object.keys(sourceMaterialDb)) usedItemIds.add(safeNumber(k));
+  for (const k of Object.keys(homeWeaponDb)) usedItemIds.add(safeNumber(k));
+
+  const commodityDb = buildCommodityDbSlim({
+    commodityList,
+    usedItemIds,
+    itemDb,
+    sourceMaterialDb,
+    equipDb,
+  });
+
+  writeJson(path.join(OUT_DIR, "commodity_db.json"), commodityDb);
+
+  // lang 생성 (항상 덮어쓰기)
   const cnObj = {};
   for (const [token, meta] of dict.entries()) {
     cnObj[token] = meta.cn;
@@ -1021,30 +1320,6 @@ function main() {
     const outPath = path.join(OUT_DIR, `lang_${t.code}.json`);
     writeLangJson(outPath, outObj);
   }
-
-  // 단일 이미지 경로 필드만 처리
-  applyImagePathResolveToDbField(charDb, "roleListResUrl", assetRootDirAbs);
-  applyImagePathResolveToDbField(charDb, "face", assetRootDirAbs);
-  applyImagePathResolveToDbField(equipDb, "tipsPath", assetRootDirAbs);
-  applyImagePathResolveToDbField(skillDb, "iconPath", assetRootDirAbs);
-  applyImagePathResolveToDbField(talentDb, "path", assetRootDirAbs);
-  applyImagePathResolveToDbField(breakDb, "path", assetRootDirAbs);
-  applyImagePathResolveToDbField(cardDb, "iconPath", assetRootDirAbs);
-
-  // 4) write outputs
-  writeJson(path.join(OUT_DIR, "char_db.json"), charDb);
-  writeJson(path.join(OUT_DIR, "equip_db.json"), equipDb);
-  writeJson(path.join(OUT_DIR, "skill_db.json"), skillDb);
-  writeJson(path.join(OUT_DIR, "card_db.json"), cardDb);
-  writeJson(path.join(OUT_DIR, "tag_db.json"), tagDb);
-
-  writeJson(path.join(OUT_DIR, "tag_color_mapping.json"), tagColorMapping);
-  writeJson(path.join(OUT_DIR, "talent_db.json"), talentDb);
-  writeJson(path.join(OUT_DIR, "break_db.json"), breakDb);
-  writeJson(path.join(OUT_DIR, "home_skill_db.json"), homeSkillDb);
-
-  writeJson(path.join(OUT_DIR, "char_skill_map.json"), charSkillMap);
-  writeJson(path.join(OUT_DIR, "item_skill_map.json"), itemSkillMap);
 
   console.log(
     "[ok] BookFactory unitIds =",

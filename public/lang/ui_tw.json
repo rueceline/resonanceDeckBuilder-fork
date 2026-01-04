@@ -438,7 +438,30 @@
   "character.identity": "目前身分",
   "character.ability": "晉升能力",
   "character.Resume": "經歷",
-  "character.Skills": "技能"
-
-
+  "character.Skills": "技能",
+  "deck_list_modal.title": "卡組列表",
+  "deck_list_modal.fetch_failed": "無法載入卡組清單。",
+  "deck_list_modal.no_saved": "沒有已儲存的卡組。",
+  "deck_list_modal.character_filter": "角色篩選",
+  "deck_list_modal.add": "新增",
+  "deck_list_modal.exclude_label": "排除",
+  "deck_list_modal.reset": "重置",
+  "deck_list_modal.save": "儲存",
+  "deck_list_modal.load": "載入",
+  "deck_list_modal.include_label": "包含",
+  "deck_list_modal.none": "無",
+  "deck_list_modal.visible_decks": "顯示卡組",
+  "deck_list_modal.select_include_characters": "選擇包含角色",
+  "deck_list_modal.select_exclude_characters": "選擇排除角色",
+  "deck_list_modal.selected": "已選擇",
+  "deck_list_modal.clear_current_mode_only_tooltip": "僅清除目前模式選擇（不儲存）",
+  "deck_list_modal.clear_all": "全部清除",
+  "deck_list_modal.search": "搜尋",
+  "deck_list_modal.apply_open_tooltip": "套用卡組（Open）",
+  "deck_list_modal.open_source_link_tooltip": "開啟原始連結",
+  "deck_list_modal.party_name": "隊伍名稱",
+  "deck_list_modal.characters": "角色",
+  "deck_list_modal.actions": "操作",
+  "help.deck_list": "開啟卡組列表並套用預設。",
+  "exchange_materials": "交換材料"
 }

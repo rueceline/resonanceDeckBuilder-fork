@@ -4,7 +4,7 @@ import type React from "react";
 import { useState, useEffect, useRef, useMemo } from "react";
 import type { Card, CardExtraInfo } from "../types";
 import { SkillCard } from "./skill-card";
-import { CardSettingsModal } from "./card-settings-modal";
+import { CardSettingsModal } from "./modal/card-settings-modal";
 import { TabbedInterface } from "./tabbed-interface";
 import { DeckStats } from "./deck-stats";
 import { formatColorText } from "../utils/format-text";
