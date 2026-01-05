@@ -469,5 +469,16 @@
   "deck_list_modal.characters": "キャラクター",
   "deck_list_modal.actions": "操作",
   "help.deck_list": "デッキ一覧を開いてプリセットを適用します。",
-  "exchange_materials": "交換素材"
+  "exchange_materials": "交換素材",
+    "encyclopedia.train_weapon_details": "列車武装詳細",
+  "encyclopedia.field.desc": "説明",
+  "encyclopedia.field.effects_growup": "成長効果",
+  "encyclopedia.field.core_need": "コア条件",
+  "encyclopedia.field.getway": "入手方法",
+    "encyclopedia.title": "図鑑",
+  "encyclopedia.tab.equipment": "装備",
+  "encyclopedia.tab.item": "アイテム",
+  "encyclopedia.tab.train_weapon": "列車武装",
+  "encyclopedia.search": "検索",
+  "encyclopedia.empty": "結果なし"
 }

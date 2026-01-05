@@ -210,7 +210,8 @@ export function useDataLoader() {
           });
 
           Object.keys(homeWeaponDb ?? {}).forEach((hid) => {
-            const w = homeWeaponDb[hid];
+            const w = homeWeaponDb[hid];            
+
             if (!w) return;
 
             if (w.imagePath) {

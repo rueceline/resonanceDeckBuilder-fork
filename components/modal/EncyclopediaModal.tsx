@@ -14,7 +14,7 @@ type TabKey = "equip" | "item" | "train";
 export interface EncyclopediaModalProps {
   isOpen: boolean;
   onClose: (e?: React.MouseEvent) => void;
-  getSkill?: (skillId: number) => any
+  getSkill?: (skillId: number) => any;
   data: Database;
   getTranslatedString: (key: string) => string;
 }
@@ -169,14 +169,32 @@ export function EncyclopediaModal({
     const q = searchTerm.trim().toLowerCase();
     const list = homeWeapons;
 
-    if (!q) return list;
+    const filtered = q
+      ? list.filter((r) => {
+          const nameKey =
+            safeString(r?.nameTok) || safeString(r?.name) || safeString(r?.id);
+          const name = getTranslatedString(nameKey);
+          return name.toLowerCase().includes(q);
+        })
+      : list;
 
-    return list.filter((r) => {
-      const nameKey =
-        safeString(r?.nameTok) || safeString(r?.name) || safeString(r?.id);
-      const name = getTranslatedString(nameKey);
-      return name.toLowerCase().includes(q);
+    const sorted = [...filtered].sort((a, b) => {
+      // 1차: 타입 ID (그룹)
+      const ta = Number(a?.typeWeapon?.id ?? Number.MAX_SAFE_INTEGER);
+      const tb = Number(b?.typeWeapon?.id ?? Number.MAX_SAFE_INTEGER);
+
+      if (ta !== tb) {
+        return ta - tb;
+      }
+
+      // 2차: 항목 id (오름차순)
+      const ia = Number(a?.id ?? Number.MAX_SAFE_INTEGER);
+      const ib = Number(b?.id ?? Number.MAX_SAFE_INTEGER);
+
+      return ia - ib;
     });
+
+    return sorted;
   }, [homeWeapons, searchTerm, getTranslatedString]);
 
   const selectedEquip = useMemo(() => {
@@ -247,15 +265,7 @@ export function EncyclopediaModal({
             >
               {getTranslatedString("encyclopedia.tab.equipment") || "장비"}
             </button>
-            <button
-              className={tabButtonClass(tab === "item")}
-              onClick={() => {
-                setTab("item");
-                setSearchTerm("");
-              }}
-            >
-              {getTranslatedString("encyclopedia.tab.item") || "아이템"}
-            </button>
+
             <button
               className={tabButtonClass(tab === "train")}
               onClick={() => {
@@ -266,6 +276,16 @@ export function EncyclopediaModal({
               {getTranslatedString("encyclopedia.tab.train_weapon") ||
                 "열차무장"}
             </button>
+
+            {/* <button
+              className={tabButtonClass(tab === "item")}
+              onClick={() => {
+                setTab("item");
+                setSearchTerm("");
+              }}
+            >
+              {getTranslatedString("encyclopedia.tab.item") || "아이템"}
+            </button> */}
           </div>
 
           <div className="mb-4">
@@ -278,7 +298,7 @@ export function EncyclopediaModal({
           </div>
 
           {tab === "equip" && (
-            <div className="grid grid-cols-4 gap-2 lg:grid-cols-6">
+            <div className="grid grid-cols-4 gap-2 lg:grid-cols-5">
               {filteredEquipments.length === 0 ? (
                 <div className="col-span-full text-center py-6 text-gray-400">
                   {getTranslatedString("encyclopedia.empty") || "결과 없음"}
@@ -339,8 +359,86 @@ export function EncyclopediaModal({
             </div>
           )}
 
+          {tab === "train" && (
+            <div className="grid grid-cols-4 gap-2 lg:grid-cols-5">
+              {filteredHomeWeapons.length === 0 ? (
+                <div className="col-span-full text-center py-6 text-gray-400">
+                  {getTranslatedString("encyclopedia.empty") || "결과 없음"}
+                </div>
+              ) : (
+                filteredHomeWeapons.map((r) => {
+                  const nameKey =
+                    safeString(r?.nameTok) ||
+                    safeString(r?.name) ||
+                    safeString(r?.id);
+                  const name = getTranslatedString(nameKey);
+
+                  const quality = safeString(r?.quality);
+                  const img =
+                    safeString(r?.imagePath) || safeString(r?.tipsPath);
+
+                  const weaponType =
+                    safeString(r?.mod) ||
+                    safeString(r?.weaponType) ||
+                    safeString(r?.typeWeapon);
+                  const powerLoad =
+                    r?.powerCost ??
+                    r?.energyCost ??
+                    r?.costPower ??
+                    r?.power ??
+                    null;
+                  const coreList = Array.isArray(r?.coreList) ? r.coreList : [];
+
+                  return (
+                    <div
+                      key={String(r?.id)}
+                      className="flex flex-col gap-1 relative"
+                    >
+                      <div
+                        className={[
+                          "w-full aspect-[4/3] rounded-lg overflow-hidden neon-border relative flex items-center justify-center",
+                          getQualityBgColor(quality),
+                        ].join(" ")}
+                      >
+                        {img ? (
+                          <img
+                            src={img || "/placeholder.svg"}
+                            alt={name}
+                            className="w-full h-full object-contain p-1"
+                            onError={(ev) => {
+                              ev.currentTarget.style.display = "none";
+                            }}
+                          />
+                        ) : (
+                          <span className="text-xs text-center">
+                            {name.substring(0, 2)}
+                          </span>
+                        )}
+
+                        <button
+                          className="absolute top-1 right-1 bg-black bg-opacity-60 rounded-full p-1 flex items-center justify-center z-10"
+                          onClick={(ev) => {
+                            ev.preventDefault();
+                            ev.stopPropagation();
+                            setShowTrainDetailsId(String(r?.id));
+                          }}
+                        >
+                          <Info className="w-6 h-6 text-white" />
+                        </button>
+                      </div>
+
+                      <div className="text-xs font-medium text-center truncate w-full neon-text max-w-full mt-1">
+                        {name}
+                      </div>
+                    </div>
+                  );
+                })
+              )}
+            </div>
+          )}
+
           {tab === "item" && (
-            <div className="grid grid-cols-3 gap-2 lg:grid-cols-5">
+            <div className="grid grid-cols-4 gap-2 lg:grid-cols-6">
               {filteredItems.length === 0 ? (
                 <div className="col-span-full text-center py-6 text-gray-400">
                   {getTranslatedString("encyclopedia.empty") || "결과 없음"}
@@ -414,100 +512,6 @@ export function EncyclopediaModal({
               )}
             </div>
           )}
-
-          {tab === "train" && (
-            <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
-              {filteredHomeWeapons.length === 0 ? (
-                <div className="col-span-full text-center py-6 text-gray-400">
-                  {getTranslatedString("encyclopedia.empty") || "결과 없음"}
-                </div>
-              ) : (
-                filteredHomeWeapons.map((r) => {
-                  const nameKey =
-                    safeString(r?.nameTok) ||
-                    safeString(r?.name) ||
-                    safeString(r?.id);
-                  const name = getTranslatedString(nameKey);
-
-                  const quality = safeString(r?.quality);
-                  const img =
-                    safeString(r?.imagePath) || safeString(r?.tipsPath);
-
-                  const weaponType =
-                    safeString(r?.mod) ||
-                    safeString(r?.weaponType) ||
-                    safeString(r?.typeWeapon);
-                  const powerLoad =
-                    r?.powerCost ??
-                    r?.energyCost ??
-                    r?.costPower ??
-                    r?.power ??
-                    null;
-                  const coreList = Array.isArray(r?.coreList) ? r.coreList : [];
-
-                  return (
-                    <div
-                      key={String(r?.id)}
-                      className="flex flex-col gap-1 relative"
-                    >
-                      <div
-                        className={[
-                          "w-full aspect-[4/3] rounded-lg overflow-hidden neon-border relative flex items-center justify-center",
-                          getQualityBgColor(quality),
-                        ].join(" ")}
-                      >
-                        {img ? (
-                          <img
-                            src={img || "/placeholder.svg"}
-                            alt={name}
-                            className="w-full h-full object-contain p-1"
-                            onError={(ev) => {
-                              ev.currentTarget.style.display = "none";
-                            }}
-                          />
-                        ) : (
-                          <span className="text-xs text-center">
-                            {name.substring(0, 2)}
-                          </span>
-                        )}
-
-                        <button
-                          className="absolute top-1 right-1 bg-black bg-opacity-60 rounded-full p-1 flex items-center justify-center z-10"
-                          onClick={(ev) => {
-                            ev.preventDefault();
-                            ev.stopPropagation();
-                            setShowTrainDetailsId(String(r?.id));
-                          }}
-                        >
-                          <Info className="w-6 h-6 text-white" />
-                        </button>
-                      </div>
-
-                      <div className="text-xs font-medium truncate neon-text">
-                        {name}
-                      </div>
-
-                      <div className="text-[11px] text-gray-400 leading-4">
-                        {weaponType ? weaponType : "type: -"}
-                        {powerLoad !== null
-                          ? ` · 부하 ${String(powerLoad)}`
-                          : ""}
-                      </div>
-
-                      <div className="text-[11px] text-gray-400 leading-4">
-                        코어 조건 {coreList.length > 0 ? coreList.length : 0}
-                      </div>
-                    </div>
-                  );
-                })
-              )}
-            </div>
-          )}
-
-          <div className="mt-4 text-xs text-gray-500">
-            상세에서 값이 비어 있으면 build_db.mjs가 해당 factory의 어떤
-            필드까지 싣는지/필드명이 무엇인지 확인해야 함.
-          </div>
         </div>
       </Modal>
 
@@ -519,7 +523,6 @@ export function EncyclopediaModal({
           getSkill={getSkill}
           getTranslatedString={getTranslatedString}
           commodityDb={(data as any)?.commodityDb}
-          sourceMaterialDb={data?.sourceMaterialDb}
         />
       ) : null}
 
@@ -542,6 +545,7 @@ export function EncyclopediaModal({
           weaponEntry={selectedTrain}
           data={data}
           getTranslatedString={getTranslatedString}
+          commodityDb={(data as any)?.commodityDb}
         />
       ) : null}
     </>

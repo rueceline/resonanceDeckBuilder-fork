@@ -465,5 +465,16 @@
   "deck_list_modal.characters": "Characters",
   "deck_list_modal.actions": "Actions",
   "help.deck_list": "Open the deck list and apply presets.",
-  "exchange_materials": "Exchange Materials"
+  "exchange_materials": "Exchange Materials",
+    "encyclopedia.train_weapon_details": "Train Armament Details",
+  "encyclopedia.field.desc": "Description",
+  "encyclopedia.field.effects_growup": "Growth Effects",
+  "encyclopedia.field.core_need": "Core Requirement",
+  "encyclopedia.field.getway": "How to Obtain",
+    "encyclopedia.title": "Encyclopedia",
+  "encyclopedia.tab.equipment": "Equipment",
+  "encyclopedia.tab.item": "Item",
+  "encyclopedia.tab.train_weapon": "Train Weapon",
+  "encyclopedia.search": "Search",
+  "encyclopedia.empty": "No results"
 }

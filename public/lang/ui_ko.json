@@ -463,5 +463,16 @@
   "deck_list_modal.selected": "선택",
   "deck_list_modal.clear_all": "전체 해제",
   "help.deck_list": "덱 목록을 열고 프리셋을 적용합니다.",
-  "exchange_materials": "교환 재료"
+  "exchange_materials": "교환 재료",
+    "encyclopedia.train_weapon_details": "열차무장 상세",
+  "encyclopedia.field.desc": "소개",
+  "encyclopedia.field.effects_growup": "성장 효과",
+  "encyclopedia.field.core_need": "코어 조건",
+  "encyclopedia.field.getway": "획득 경로",
+    "encyclopedia.title": "도감",
+  "encyclopedia.tab.equipment": "장비",
+  "encyclopedia.tab.item": "아이템",
+  "encyclopedia.tab.train_weapon": "열차무장",
+  "encyclopedia.search": "검색",
+  "encyclopedia.empty": "결과 없음"
 }

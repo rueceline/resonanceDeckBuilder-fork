@@ -12,7 +12,6 @@ interface EquipmentDetailsModalProps {
   getSkill?: (skillId: number) => any;
 
   commodityDb?: Record<number, any>;
-  sourceMaterialDb?: Record<number, any>;
 }
 
 export function EquipmentDetailsModal({
@@ -21,8 +20,7 @@ export function EquipmentDetailsModal({
   equipment,
   getTranslatedString,
   getSkill,
-  commodityDb,
-  sourceMaterialDb,
+  commodityDb,  
 }: EquipmentDetailsModalProps) {
   if (!equipment) {
     return null;

@@ -462,5 +462,16 @@
   "deck_list_modal.characters": "角色",
   "deck_list_modal.actions": "操作",
   "help.deck_list": "打开卡组列表并应用预设。",
-  "exchange_materials": "交换材料"
+  "exchange_materials": "交换材料",
+    "encyclopedia.train_weapon_details": "列车武装详情",
+  "encyclopedia.field.desc": "说明",
+  "encyclopedia.field.effects_growup": "成长效果",
+  "encyclopedia.field.core_need": "核心需求",
+  "encyclopedia.field.getway": "获取途径",
+    "encyclopedia.title": "图鉴",
+  "encyclopedia.tab.equipment": "装备",
+  "encyclopedia.tab.item": "道具",
+  "encyclopedia.tab.train_weapon": "列车武装",
+  "encyclopedia.search": "搜索",
+  "encyclopedia.empty": "无结果"
 }

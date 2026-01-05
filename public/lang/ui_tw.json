@@ -463,5 +463,16 @@
   "deck_list_modal.characters": "角色",
   "deck_list_modal.actions": "操作",
   "help.deck_list": "開啟卡組列表並套用預設。",
-  "exchange_materials": "交換材料"
+  "exchange_materials": "交換材料",
+    "encyclopedia.train_weapon_details": "列車武裝詳細",
+  "encyclopedia.field.desc": "說明",
+  "encyclopedia.field.effects_growup": "成長效果",
+  "encyclopedia.field.core_need": "核心需求",
+  "encyclopedia.field.getway": "獲取途徑",
+    "encyclopedia.title": "圖鑑",
+  "encyclopedia.tab.equipment": "裝備",
+  "encyclopedia.tab.item": "道具",
+  "encyclopedia.tab.train_weapon": "列車武裝",
+  "encyclopedia.search": "搜尋",
+  "encyclopedia.empty": "無結果"
 }

@@ -231,7 +231,7 @@ export function TopBar({
               </div>
 
               {/* Encyclopedia Button - 추가 */}
-              {/* <button
+              <button
                 onClick={() => setShowEncyclopediaModal(true)}
                 className={`${buttonBaseClass} encyclopedia-button`}
                 aria-label={
@@ -242,7 +242,7 @@ export function TopBar({
                 }
               >
                 <BookOpen className={iconClass} />
-              </button> */}
+              </button>
 
               {/* Screenshot Button - 캡처 버튼으로 변경 */}
               <ScreenshotButton

@@ -782,46 +782,264 @@ function buildItemDb(ctx) {
 }
 
 function buildHomeWeaponDb(ctx) {
-  const { homeWeaponList, tok, includedArmamentIds } = ctx;
+  const {
+    homeWeaponList,
+    tok,
+    includedArmamentIds,
+
+    tagById,
+    trainWeaponSkillById,
+    engineCoreById,
+  } = ctx;
+
+  function buildTagJoin(tagId) {
+    const id = safeNumber(tagId);
+    if (!id) return null;
+
+    const t = tagById?.get(id) || null;
+    if (!t) return { id, tagName: "" };
+
+    return {
+      id,
+      tagName: tok("tag_tagName", id, [], "TagFactory", "tagName", t?.tagName),
+    };
+  }
+
+  function buildEntryJoin(list, homeWeaponId, groupName) {
+    const src = Array.isArray(list) ? list : [];
+    const out = [];
+
+    for (let i = 0; i < src.length; i += 1) {
+      const sid = safeNumber(src[i]?.id);
+      if (!sid) continue;
+
+      const s = trainWeaponSkillById?.get(sid) || null;
+      if (!s) {
+        out.push({ id: sid });
+        continue;
+      }
+
+      out.push({
+        id: sid,
+        name: tok(
+          "tws_name",
+          sid,
+          [],
+          "TrainWeaponSkillFactory",
+          "name",
+          s?.name
+        ),
+        text: tok(
+          "tws_text",
+          sid,
+          [],
+          "TrainWeaponSkillFactory",
+          "text",
+          s?.text
+        ),
+
+        // 수치 필드들은 파일에 있는 그대로 보존(해석은 UI에서)
+        Constant: safeNumber(s?.Constant) ?? null,
+        randomConstant: safeNumber(s?.randomConstant) ?? null,
+        CommonNum: safeNumber(s?.CommonNum) ?? null,
+
+        aType: s?.aType ?? null,
+        aNumMin: safeNumber(s?.aNumMin) ?? null,
+        aNumMax: safeNumber(s?.aNumMax) ?? null,
+        aUpgradeRange: safeNumber(s?.aUpgradeRange) ?? null,
+        levelMax: safeNumber(s?.levelMax) ?? null,
+
+        aNumMinP: safeNumber(s?.aNumMinP) ?? null,
+        aNumMaxP: safeNumber(s?.aNumMaxP) ?? null,
+        aUpgradeRangeP: safeNumber(s?.aUpgradeRangeP) ?? null,
+
+        group: groupName,
+      });
+    }
+
+    return out;
+  }
+
+  function pickPowerLoad(entries) {
+    for (const e of entries) {
+      const sid = safeNumber(e?.id);
+      if (!sid) continue;
+
+      const s = trainWeaponSkillById?.get(sid) || null;
+      if (!s) continue;
+
+      if (String(s?.name ?? "") === "电力负荷") {
+        const v = safeNumber(s?.Constant);
+        if (v !== null) {
+          return { value: v };
+        }
+
+        if (
+          safeNumber(s?.aNumMin) !== null ||
+          safeNumber(s?.aNumMinP) !== null
+        ) {
+          return {
+            aNumMin: safeNumber(s?.aNumMin) ?? null,
+            aNumMax: safeNumber(s?.aNumMax) ?? null,
+            aNumMinP: safeNumber(s?.aNumMinP) ?? null,
+            aNumMaxP: safeNumber(s?.aNumMaxP) ?? null,
+          };
+        }
+      }
+    }
+
+    return null;
+  }
+
+  function pickSpeed(entries) {
+    for (const e of entries) {
+      const sid = safeNumber(e?.id);
+      if (!sid) continue;
+
+      const s = trainWeaponSkillById?.get(sid) || null;
+      if (!s) continue;
+
+      const n = String(s?.name ?? "");
+      if (n === "速度降低" || n === "速度提升") {
+        const v = safeNumber(s?.Constant);
+        if (v !== null) {
+          return { kind: n, value: v };
+        }
+
+        return {
+          kind: n,
+          aNumMin: safeNumber(s?.aNumMin) ?? null,
+          aNumMax: safeNumber(s?.aNumMax) ?? null,
+          aNumMinP: safeNumber(s?.aNumMinP) ?? null,
+          aNumMaxP: safeNumber(s?.aNumMaxP) ?? null,
+        };
+      }
+    }
+
+    return null;
+  }
+
+  function buildCoreList(coreList) {
+    const src = Array.isArray(coreList) ? coreList : [];
+    const out = [];
+
+    for (let i = 0; i < src.length; i += 1) {
+      const coreId = safeNumber(src[i]?.id);
+      if (!coreId) continue;
+
+      const level = safeNumber(src[i]?.level) ?? 0;
+      const coreRec = engineCoreById?.get(coreId) || null;
+
+      const nameCN = String(coreRec?.idCN ?? "").trim();
+      const nameKey = nameCN
+        ? tok("core_id", coreId, [], "EngineCoreFactory", "idCN", nameCN)
+        : null;
+
+      out.push({
+        id: coreId,
+        level,
+        name: nameKey,
+      });
+    }
+
+    return out;
+  }
+
+  function buildGetwayList(getway, homeWeaponId) {
+    const src = Array.isArray(getway) ? getway : [];
+    const out = [];
+
+    for (let i = 0; i < src.length; i += 1) {
+      const gw = src[i] || {};
+      const o = { ...gw };
+
+      if (typeof o?.DisplayName === "string" && o.DisplayName) {
+        o.DisplayName = tok(
+          "hw_Getway_DisplayName",
+          homeWeaponId,
+          [String(i), "DisplayName"],
+          "HomeWeaponFactory",
+          "DisplayName",
+          gw.DisplayName
+        );
+      }
+
+      if (typeof o?.UIName === "string" && o.UIName) {
+        o.UIName = tok(
+          "hw_Getway_UIName",
+          homeWeaponId,
+          [String(i), "UIName"],
+          "HomeWeaponFactory",
+          "UIName",
+          gw.UIName
+        );
+      }
+
+      out.push(o);
+    }
+
+    return out;
+  }
+
   const out = {};
 
   for (const r of Array.isArray(homeWeaponList) ? homeWeaponList : []) {
     const id = safeNumber(r?.id);
     if (!id) continue;
 
-    // 포함 기준: BookFactory(列车武装图鉴) 목록
     if (!includedArmamentIds.has(id)) continue;
+
+    const typeWeaponJoin = buildTagJoin(r?.typeWeapon);
+
+    const hitTags = Array.isArray(r?.hitEventType) ? r.hitEventType : [];
+    const hitEventType = [];
+    for (let i = 0; i < hitTags.length; i += 1) {
+      const j = buildTagJoin(hitTags[i]?.id);
+      if (j) hitEventType.push(j);
+    }
+
+    const normalEntryList = Array.isArray(r?.normalEntryList)
+      ? r.normalEntryList
+      : [];
+    const growUpEntryList = Array.isArray(r?.growUpEntryList)
+      ? r.growUpEntryList
+      : [];
+
+    const normalEntries = buildEntryJoin(normalEntryList, id, "normal");
+    const growUpEntries = buildEntryJoin(growUpEntryList, id, "growUp");
+    const allEntries = [...normalEntryList, ...growUpEntryList];
+
+    const powerLoad = pickPowerLoad(allEntries);
+    const speed = pickSpeed(allEntries);
+
+    const coreNeed = buildCoreList(r?.coreList);
+    const getwayOut = buildGetwayList(r?.Getway, id);
 
     out[String(id)] = {
       id,
-      name: tok("hw_name", id, [], "HomeWeaponFactory", "name", r?.name),
-      quality: r?.quality ?? "",
 
-      // 이미지(프로젝트마다 필드명이 다를 수 있어서 둘 다 보존)
-      imagePath: String(r?.imagePath ?? "").trim(),
+      name: tok("hw_name", id, [], "HomeWeaponFactory", "name", r?.name),
+      des: tok("hw_des", id, [], "HomeWeaponFactory", "des", r?.des),
+
+      quality: r?.quality ?? "",
       tipsPath: String(r?.tipsPath ?? "").trim(),
 
-      // 요청한 것들(있으면 표시)
-      type: r?.type ?? null,
-      powerLoad: r?.powerLoad ?? r?.power ?? null, // 전력 부하 추정 필드 (없으면 null)
-      coreCondition: r?.coreCondition ?? r?.coreNeed ?? null,
-      effect: tok(
-        "hw_effect",
-        id,
-        [],
-        "HomeWeaponFactory",
-        "effect",
-        r?.effect
-      ),
-      des: tok(
-        "hw_des",
-        id,
-        [],
-        "HomeWeaponFactory",
-        "des",
-        r?.des ?? r?.description
-      ),
-      Getway: Array.isArray(r?.Getway) ? r.Getway : [],
+      // 종류(조인 결과)
+      typeWeapon: typeWeaponJoin,
+
+      // 전력 부하 / 속도 (TrainWeaponSkillFactory 기반 추출)
+      powerLoad,
+      speed,
+
+      // 코어 조건(조인 + core_id_{coreId} 토큰 생성)
+      coreList: coreNeed,
+
+      // 무장 효과(전체 엔트리 조인 결과)
+      normalEntryList: normalEntries,
+      growUpEntryList: growUpEntries,
+
+      // 획득 경로(번역 매칭 토큰화)
+      Getway: getwayOut,
     };
   }
 
@@ -829,7 +1047,7 @@ function buildHomeWeaponDb(ctx) {
 }
 
 function buildCommodityDbSlim(ctx) {
-  const { commodityList, usedItemIds, itemDb, sourceMaterialDb, equipmentDb } =
+  const { commodityList, usedItemIds, itemDb, sourceMaterialDb, equipmentDb, homeWeaponDb } =
     ctx;
 
   const out = {};
@@ -851,11 +1069,13 @@ function buildCommodityDbSlim(ctx) {
         let nameKey = null;
 
         if (itemDb?.[id]) {
-          nameKey = itemDb[id].name; // item_name_xxx
+          nameKey = itemDb[id].name;
         } else if (sourceMaterialDb?.[id]) {
-          nameKey = sourceMaterialDb[id].name; // sm_name_xxx
+          nameKey = sourceMaterialDb[id].name;
         } else if (equipmentDb?.[id]) {
-          nameKey = equipmentDb[id].name; // equipment_name_xxx
+          nameKey = equipmentDb[id].name;
+        } else if (homeWeaponDb?.[id]) {
+          nameKey = homeWeaponDb[id].name; // 열차무장 조인 추가
         }
 
         return nameKey ? { id, num, nameKey } : null;
@@ -1166,6 +1386,8 @@ function main() {
   const expItemList = loadFactoryList("ExpItemFactory.json");
   const fridgeItemList = loadFactoryList("FridgeItemFactory.json");
   const homeWeaponList = loadFactoryList("HomeWeaponFactory.json");
+  const trainWeaponSkillList = loadFactoryList("TrainWeaponSkillFactory.json");
+  const engineCoreList = loadFactoryList("EngineCoreFactory.json");
 
   // 1) DB 생성
   const charDb = buildCharDb({
@@ -1192,10 +1414,18 @@ function main() {
     includedSourceIds: includedSets.sourceIds, // 素材图鉴
   });
 
+  // id -> rec
+  const tagById = buildIdMap(tagList);
+  const trainWeaponSkillById = buildIdMap(trainWeaponSkillList);
+  const engineCoreById = buildIdMap(engineCoreList);
+
   const homeWeaponDb = buildHomeWeaponDb({
     homeWeaponList,
     tok,
     includedArmamentIds: includedSets.armamentIds, // 列车武装图鉴
+    tagById,
+    trainWeaponSkillById,
+    engineCoreById,
   });
 
   const cardDb = buildCardDb({ cardList, tok });
@@ -1279,6 +1509,7 @@ function main() {
     itemDb,
     sourceMaterialDb,
     equipDb,
+    homeWeaponDb
   });
 
   writeJson(path.join(OUT_DIR, "commodity_db.json"), commodityDb);
