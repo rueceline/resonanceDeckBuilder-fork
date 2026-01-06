@@ -3395,7 +3395,7 @@
     "id": 12800427,
     "name": "talent_name_12800427",
     "desc": "talent_desc_12800427",
-    "path": "RolePlus/00Gift/Golden/KongYiMoLong.png",
+    "path": "RolePlus\\00Gift\\Golden\\KongYiMoLong",
     "awakeLv": 6,
     "skillIntensify": null
   },
@@ -4203,7 +4203,7 @@
     "id": 12800536,
     "name": "talent_name_12800536",
     "desc": "talent_desc_12800536",
-    "path": "RolePlus/00Gift/Square/shengji.png",
+    "path": "RolePlus\\00Gift\\Square\\shengji",
     "awakeLv": 4,
     "skillIntensify": 12302350
   },

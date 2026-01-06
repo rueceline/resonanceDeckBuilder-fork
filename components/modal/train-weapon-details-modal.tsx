@@ -251,46 +251,99 @@ export function TrainWeaponDetailsModal({
   const getwayList = Array.isArray(rec?.Getway) ? rec.Getway : [];
 
   // equipment-details-modal.tsx 방식: commodityDb 전체 스캔 조인
-  const exchangeMaterials = (() => {
-    if (!commodityDb) return [];
+  const materials = (() => {
+    const map = new Map<
+      number,
+      {
+        id: number;
+        nameKey: string;
+        tipsPath?: string;
+        craftNum: number;
+        exchangeNum: number;
+        source: "craft" | "exchange";
+      }
+    >();
 
-    const targetIdRaw = Number(rec?.id ?? weaponId);
-    if (!Number.isFinite(targetIdRaw)) return [];
+    // 1) 제작 재료 (TrainWeaponMakeUp)
+    const makeUpList = Array.isArray(rec?.TrainWeaponMakeUp)
+      ? rec.TrainWeaponMakeUp
+      : [];
 
-    const out: { nameKey: string; num: number }[] = [];
+    for (const m of makeUpList) {
+      const id = Number(m?.id) || 0;
+      const num = Number(m?.num) || 0;
+      const nameKey = String(m?.nameKey ?? "");
 
-    for (const commodity of Object.values(commodityDb)) {
-      if (!commodity) continue;
+      if (!id || !num || !nameKey) continue;
 
-      const resultList = Array.isArray(commodity.commodityItemList)
-        ? commodity.commodityItemList
-        : [];
-
-      const hit = resultList.some((it: any) => Number(it?.id) === targetIdRaw);
-      if (!hit) continue;
-
-      const moneyList = Array.isArray(commodity.moneyList)
-        ? commodity.moneyList
-        : [];
-
-      for (const m of moneyList) {
-        if (!m?.nameKey || !m?.num) continue;
-
-        out.push({
-          nameKey: m.nameKey,
-          num: Number(m.num),
+      const prev = map.get(id);
+      if (!prev) {
+        map.set(id, {
+          id,
+          nameKey,
+          tipsPath: m?.tipsPath ? String(m.tipsPath) : undefined,
+          craftNum: num,
+          exchangeNum: 0,
+          source: "craft",
         });
+      } else {
+        prev.craftNum += num;
+        prev.source = "craft"; // 제작 우선
+        prev.tipsPath = m?.tipsPath || prev.tipsPath;
       }
     }
 
-    const merged: Record<string, number> = {};
-    for (const it of out) {
-      merged[it.nameKey] = (merged[it.nameKey] || 0) + it.num;
+    // 2) 교환 재료 (commodityDb)
+    if (commodityDb) {
+      const targetId = Number(rec?.id);
+      for (const commodity of Object.values(commodityDb)) {
+        if (!commodity) continue;
+
+        const resultList = Array.isArray(commodity.commodityItemList)
+          ? commodity.commodityItemList
+          : [];
+
+        const hit = resultList.some((it: any) => Number(it?.id) === targetId);
+        if (!hit) continue;
+
+        const moneyList = Array.isArray(commodity.moneyList)
+          ? commodity.moneyList
+          : [];
+
+        for (const m of moneyList) {
+          const id = Number(m?.id) || 0;
+          const num = Number(m?.num) || 0;
+          const nameKey = String(m?.nameKey ?? "");
+
+          if (!id || !num || !nameKey) continue;
+
+          const prev = map.get(id);
+          if (!prev) {
+            map.set(id, {
+              id,
+              nameKey,
+              tipsPath: m?.tipsPath ? String(m.tipsPath) : undefined,
+              craftNum: 0,
+              exchangeNum: num,
+              source: "exchange",
+            });
+          } else {
+            // craft가 이미 있으면 exchange는 참고용 누적만
+            prev.exchangeNum += num;
+          }
+        }
+      }
     }
 
-    return Object.entries(merged).map(([nameKey, num]) => ({
-      nameKey,
-      num,
+    // 3) 최종 출력용 정리
+    return Array.from(map.values()).map((m) => ({
+      id: m.id,
+      nameKey: m.nameKey,
+      tipsPath: m.tipsPath,
+      num: m.source === "craft" ? m.craftNum : m.exchangeNum,
+      craftNum: m.craftNum,
+      exchangeNum: m.exchangeNum,
+      source: m.source,
     }));
   })();
 
@@ -436,7 +489,10 @@ export function TrainWeaponDetailsModal({
             if (!text && !name) return null;
 
             return (
-              <div key={`${String(e?.id ?? "")}-${idx}`} className="text-sm text-gray-300">
+              <div
+                key={`${String(e?.id ?? "")}-${idx}`}
+                className="text-sm text-gray-300"
+              >
                 {text ? (
                   <div
                     className="leading-relaxed"
@@ -476,16 +532,41 @@ export function TrainWeaponDetailsModal({
           })}
         </ul>
 
-        {exchangeMaterials.length > 0 && (
+        {materials.length > 0 && (
           <div className="mt-3">
             <div className="text-sm font-semibold text-gray-200">
-              {getTranslatedString("exchange_materials") || "Exchange Materials"}
+              {getTranslatedString("exchange_materials") || "재료"}
             </div>
 
             <ul className="mt-1 ml-4 list-disc list-inside space-y-0.5">
-              {exchangeMaterials.map((x) => (
-                <li key={x.nameKey} className="text-sm text-gray-300">
-                  {getTranslatedString(x.nameKey)} × {x.num}
+              {materials.map((x, i) => (
+                <li
+                  key={`${x.id}-${i}`}
+                  className="text-sm text-gray-300 flex items-center gap-2"
+                >
+                  <div className="w-16 h-16 rounded overflow-hidden neon-border flex items-center justify-center">
+                    {x.tipsPath ? (
+                      <img
+                        src={x.tipsPath}
+                        alt={getTranslatedString(x.nameKey)}
+                        className="w-full h-full object-contain"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <span className="text-[10px] text-center">
+                        {getTranslatedString(x.nameKey).substring(0, 2)}
+                      </span>
+                    )}
+                  </div>
+
+                  <span>
+                    {getTranslatedString(x.nameKey)} × {x.num}
+                    {x.craftNum > 0 && x.exchangeNum > 0 && (
+                      <span className="ml-2 text-xs text-gray-400">
+                        (제작 {x.craftNum}, 교환 {x.exchangeNum})
+                      </span>
+                    )}
+                  </span>
                 </li>
               ))}
             </ul>
@@ -540,10 +621,9 @@ export function TrainWeaponDetailsModal({
                   e.currentTarget.style.display = "none";
                   const textElement = document.createElement("span");
                   textElement.className = "text-xs text-center";
-                  textElement.textContent = getTranslatedString(nameKey).substring(
-                    0,
-                    2
-                  );
+                  textElement.textContent = getTranslatedString(
+                    nameKey
+                  ).substring(0, 2);
                   e.currentTarget.parentElement?.appendChild(textElement);
                 }}
               />

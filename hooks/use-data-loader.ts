@@ -38,9 +38,7 @@ export function useDataLoader() {
             equipmentsResponse,
             homeSkillsResponse,
             charSkillMapResponse,
-            itemSkillMapResponse,
-            itemsResponse,
-            sourceMaterialsResponse,
+            itemSkillMapResponse,            
             homeWeaponDbResponse,
             commodityDbResponse,
           ] = await Promise.all([
@@ -52,9 +50,7 @@ export function useDataLoader() {
             fetch("/api/db/equip_db.json"),
             fetch("/api/db/home_skill_db.json"),
             fetch("/api/db/char_skill_map.json"),
-            fetch("/api/db/item_skill_map.json"),
-            fetch("/api/db/item_db.json"),
-            fetch("/api/db/source_material_db.json"),
+            fetch("/api/db/item_skill_map.json"),            
             fetch("/api/db/home_weapon_db.json"),
             fetch("/api/db/commodity_db.json"),
           ]);
@@ -68,9 +64,7 @@ export function useDataLoader() {
             equipments,
             homeSkills,
             charSkillMap,
-            itemSkillMap,
-            items,
-            sourceMaterials,
+            itemSkillMap,            
             homeWeaponDb,
             commodityDb,
           ] = await Promise.all([
@@ -82,9 +76,7 @@ export function useDataLoader() {
             equipmentsResponse.json(),
             homeSkillsResponse.json(),
             charSkillMapResponse.json(),
-            itemSkillMapResponse.json(),
-            itemsResponse.json(),
-            sourceMaterialsResponse.json(),
+            itemSkillMapResponse.json(),            
             homeWeaponDbResponse.json(),
             commodityDbResponse.json(),
           ]);
@@ -189,39 +181,44 @@ export function useDataLoader() {
           Object.keys(breakthroughs).forEach((bid) => {
             const b = breakthroughs[bid];
             b.img_url = toAssetPath(b.path);
-          });
-
-          Object.keys(items ?? {}).forEach((iid) => {
-            const it = items[iid];
-            if (!it) return;
-
-            if (it.iconPath) {
-              it.iconPath = toAssetPath(it.iconPath);
-            }
-          });
-
-          Object.keys(sourceMaterials ?? {}).forEach((sid) => {
-            const m = sourceMaterials[sid];
-            if (!m) return;
-
-            if (m.iconPath) {
-              m.iconPath = toAssetPath(m.iconPath);
-            }
-          });
+          });          
 
           Object.keys(homeWeaponDb ?? {}).forEach((hid) => {
-            const w = homeWeaponDb[hid];            
-
+            const w = homeWeaponDb[hid];
             if (!w) return;
 
-            if (w.imagePath) {
-              w.imagePath = toAssetPath(w.imagePath);
-            }
-
+            // homeWeapon 자체 이미지
             if (w.tipsPath) {
               w.tipsPath = toAssetPath(w.tipsPath);
             }
-          });          
+
+            // TrainWeaponMakeUp 제작 재료 이미지
+            const makeUpList = Array.isArray(w.TrainWeaponMakeUp)
+              ? w.TrainWeaponMakeUp
+              : [];
+
+            for (const m of makeUpList) {
+              if (!m) continue;
+
+              if (m.tipsPath) {
+                m.tipsPath = toAssetPath(m.tipsPath);
+              }
+            }
+          });   
+
+          // commodity_db: 교환 재료 아이콘 경로 보정
+          Object.values(commodityDb ?? {}).forEach((c: any) => {
+            if (!c) return;
+
+            const moneyList = Array.isArray(c.moneyList) ? c.moneyList : [];
+            for (const m of moneyList) {
+              if (!m) continue;
+
+              if (m.tipsPath) {
+                m.tipsPath = toAssetPath(m.tipsPath);
+              }
+            }
+          });
 
           setData({
             characters,
@@ -234,9 +231,7 @@ export function useDataLoader() {
             equipmentTypes,
             homeSkills,
             charSkillMap,
-            itemSkillMap,
-            items,
-            sourceMaterials,
+            itemSkillMap,            
             homeWeaponDb,
             commodityDb,
           });

@@ -1219,7 +1219,7 @@
         "tagId": 12601403
       }
     ],
-    "iconPath": "EnemyPlus/card/wuran.png"
+    "iconPath": "EnemyPlus/card/wuran"
   },
   "10600043": {
     "id": 10600043,
@@ -3802,7 +3802,7 @@
         "tagId": 12601403
       }
     ],
-    "iconPath": "EnemyPlus/card/hua.png"
+    "iconPath": "EnemyPlus/card/hua"
   },
   "10600133": {
     "id": 10600133,
@@ -3830,7 +3830,7 @@
         "tagId": 12601890
       }
     ],
-    "iconPath": "EnemyPlus/card/wuran.png"
+    "iconPath": "EnemyPlus/card/wuran"
   },
   "10600134": {
     "id": 10600134,
@@ -3887,7 +3887,7 @@
         "tagId": 12601890
       }
     ],
-    "iconPath": "EnemyPlus/card/qinshi.png"
+    "iconPath": "EnemyPlus/card/qinshi"
   },
   "10600136": {
     "id": 10600136,
@@ -4056,7 +4056,7 @@
         "tagId": 12601890
       }
     ],
-    "iconPath": "EnemyPlus/card/ermingblack.png"
+    "iconPath": "EnemyPlus/card/ermingblack"
   },
   "10600142": {
     "id": 10600142,
@@ -5641,7 +5641,7 @@
         "tagId": 12601403
       }
     ],
-    "iconPath": "EnemyPlus/card/ermingblack.png"
+    "iconPath": "EnemyPlus/card/ermingblack"
   },
   "10600204": {
     "id": 10600204,
@@ -5777,7 +5777,7 @@
         "tagId": 12601403
       }
     ],
-    "iconPath": "EnemyPlus/card/chongzhi.png"
+    "iconPath": "EnemyPlus/card/chongzhi"
   },
   "10600211": {
     "id": 10600211,
@@ -5796,7 +5796,7 @@
         "tagId": 12601403
       }
     ],
-    "iconPath": "EnemyPlus/card/ermingblack.png"
+    "iconPath": "EnemyPlus/card/ermingblack"
   },
   "10600212": {
     "id": 10600212,
@@ -5818,7 +5818,7 @@
         "tagId": 12601403
       }
     ],
-    "iconPath": "EnemyPlus/card/ermingblack.png"
+    "iconPath": "EnemyPlus/card/ermingblack"
   },
   "10600213": {
     "id": 10600213,
@@ -5840,7 +5840,7 @@
         "tagId": 12601403
       }
     ],
-    "iconPath": "EnemyPlus/card/ermingblack.png"
+    "iconPath": "EnemyPlus/card/ermingblack"
   },
   "10600214": {
     "id": 10600214,
@@ -6013,7 +6013,7 @@
         "tagId": 12601403
       }
     ],
-    "iconPath": "EnemyPlus/card/xinmo.png"
+    "iconPath": "EnemyPlus/card/xinmo"
   },
   "10600223": {
     "id": 10600223,
@@ -11383,7 +11383,7 @@
         "tagId": 12601403
       }
     ],
-    "iconPath": "EnemyPlus/card/qinshi2.png"
+    "iconPath": "EnemyPlus/card/qinshi2"
   },
   "10600411": {
     "id": 10600411,
@@ -12284,7 +12284,7 @@
         "tagId": 12601654
       }
     ],
-    "iconPath": "EnemyPlus/card/zhigu.png"
+    "iconPath": "EnemyPlus/card/zhigu"
   },
   "10600441": {
     "id": 10600441,
@@ -12312,7 +12312,7 @@
         "tagId": 12601504
       }
     ],
-    "iconPath": "EnemyPlus/card/sisha.png"
+    "iconPath": "EnemyPlus/card/sisha"
   },
   "10600442": {
     "id": 10600442,
@@ -12973,7 +12973,7 @@
         "tagId": 12600073
       }
     ],
-    "iconPath": "EnemyPlus/card/xingfu.png"
+    "iconPath": "EnemyPlus/card/xingfu"
   },
   "10600460": {
     "id": 10600460,
@@ -14337,7 +14337,7 @@
         "tagId": 12601654
       }
     ],
-    "iconPath": "EnemyPlus/card/zhigu.png"
+    "iconPath": "EnemyPlus/card/zhigu"
   },
   "10600507": {
     "id": 10600507,
@@ -15091,6 +15091,6 @@
         "tagId": 12601951
       }
     ],
-    "iconPath": "EnemyPlus/card/Groove_yellow.png"
+    "iconPath": "EnemyPlus/card/Groove_yellow"
   }
 }

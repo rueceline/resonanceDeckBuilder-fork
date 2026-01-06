@@ -49144,7 +49144,7 @@
     "id": 12302563,
     "name": "skill_name_12302563",
     "mod": "随机属性技能",
-    "iconPath": "UI/CardTag/KuangBao.png",
+    "iconPath": "UI/CardTag/KuangBao",
     "isPercent": true,
     "description": "skill_description_12302563",
     "detailDescription": "skill_detailDescription_12302563",

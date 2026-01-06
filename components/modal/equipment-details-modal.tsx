@@ -20,7 +20,7 @@ export function EquipmentDetailsModal({
   equipment,
   getTranslatedString,
   getSkill,
-  commodityDb,  
+  commodityDb,
 }: EquipmentDetailsModalProps) {
   if (!equipment) {
     return null;
@@ -29,7 +29,12 @@ export function EquipmentDetailsModal({
   const exchangeMaterials = (() => {
     if (!commodityDb) return [];
 
-    const out: { nameKey: string; num: number }[] = [];
+    const out: {
+      id: number;
+      nameKey: string;
+      num: number;
+      tipsPath?: string;
+    }[] = [];
 
     for (const commodity of Object.values(commodityDb)) {
       if (!commodity) continue;
@@ -38,7 +43,6 @@ export function EquipmentDetailsModal({
         ? commodity.commodityItemList
         : [];
 
-      // 이 교환이 현재 장비를 결과물로 포함하는지 확인
       const hit = resultList.some(
         (it: any) => Number(it?.id) === Number(equipment.id)
       );
@@ -49,25 +53,39 @@ export function EquipmentDetailsModal({
         : [];
 
       for (const m of moneyList) {
-        if (!m?.nameKey || !m?.num) continue;
+        const id = Number(m?.id);
+        const num = Number(m?.num);
+
+        if (!id || !num || !m?.nameKey) continue;
 
         out.push({
-          nameKey: m.nameKey,
-          num: Number(m.num),
+          id,
+          nameKey: String(m.nameKey),
+          num,
+          tipsPath: m?.tipsPath ? String(m.tipsPath) : undefined,
         });
       }
     }
 
-    // 같은 nameKey 끼리 합치기
-    const merged: Record<string, number> = {};
+    // 같은 id 끼리 합치기 (아이콘/이름 유지)
+    const merged = new Map<
+      number,
+      { id: number; nameKey: string; num: number; tipsPath?: string }
+    >();
     for (const it of out) {
-      merged[it.nameKey] = (merged[it.nameKey] || 0) + it.num;
+      const prev = merged.get(it.id);
+      if (!prev) {
+        merged.set(it.id, { ...it });
+        continue;
+      }
+      merged.set(it.id, {
+        ...prev,
+        num: prev.num + it.num,
+        tipsPath: prev.tipsPath || it.tipsPath,
+      });
     }
 
-    return Object.entries(merged).map(([nameKey, num]) => ({
-      nameKey,
-      num,
-    }));
+    return Array.from(merged.values());
   })();
 
   // Function to get quality background color
@@ -214,8 +232,40 @@ export function EquipmentDetailsModal({
 
                 <ul className="mt-1 ml-4 list-disc list-inside space-y-0.5">
                   {exchangeMaterials.map((m, i) => (
-                    <li key={i} className="text-sm text-gray-300">
-                      {getTranslatedString(m.nameKey)} x {m.num}
+                    <li
+                      key={`${m.id}-${i}`}
+                      className="text-sm text-gray-300 flex items-center gap-2"
+                    >
+                      <div className="w-16 h-16 rounded overflow-hidden neon-border flex items-center justify-center">
+                        {m.tipsPath ? (
+                          <img
+                            src={m.tipsPath}
+                            alt={getTranslatedString(m.nameKey)}
+                            className="w-full h-full object-contain"
+                            loading="lazy"
+                            onError={(e) => {
+                              e.currentTarget.style.display = "none";
+                              const textElement =
+                                document.createElement("span");
+                              textElement.className = "text-[10px] text-center";
+                              textElement.textContent = getTranslatedString(
+                                m.nameKey
+                              ).substring(0, 2);
+                              e.currentTarget.parentElement?.appendChild(
+                                textElement
+                              );
+                            }}
+                          />
+                        ) : (
+                          <span className="text-[10px] text-center">
+                            {getTranslatedString(m.nameKey).substring(0, 2)}
+                          </span>
+                        )}
+                      </div>
+
+                      <span>
+                        {getTranslatedString(m.nameKey)} x {m.num}
+                      </span>
                     </li>
                   ))}
                 </ul>

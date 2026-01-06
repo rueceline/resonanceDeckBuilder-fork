@@ -40,6 +40,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100096,
@@ -163,6 +164,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100091,
@@ -303,6 +305,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100169,
@@ -443,6 +446,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100171,
@@ -600,6 +604,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100169,
@@ -723,6 +728,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100227,
@@ -846,6 +852,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100076,
@@ -1012,6 +1019,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100047,
@@ -1135,6 +1143,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100096,
@@ -1259,6 +1268,43 @@
         "id": 85300002,
         "level": 0,
         "name": "core_id_85300002"
+      }
+    ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11700180,
+        "num": 30,
+        "nameKey": "sm_name_11700180",
+        "tipsPath": "item/item/Big/jixie02.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700179,
+        "num": 80,
+        "nameKey": "sm_name_11700179",
+        "tipsPath": "item/item/Big/jixie01.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 20,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900088,
+        "num": 20,
+        "nameKey": "hg_name_82900088",
+        "tipsPath": "item/Goods/Big/tiekuangshi.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900086,
+        "num": 20,
+        "nameKey": "hg_name_82900086",
+        "tipsPath": "item/Goods/Big/huangtong.webp",
+        "factory": "HomeGoodsFactory"
       }
     ],
     "normalEntryList": [
@@ -1436,6 +1482,50 @@
         "id": 85300002,
         "level": 0,
         "name": "core_id_85300002"
+      }
+    ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400004,
+        "num": 200,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700147,
+        "num": 30,
+        "nameKey": "sm_name_11700147",
+        "tipsPath": "item/item/Big/shenmian02.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700172,
+        "num": 80,
+        "nameKey": "sm_name_11700172",
+        "tipsPath": "item/item/Big/haigu01.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 20,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900084,
+        "num": 20,
+        "nameKey": "hg_name_82900084",
+        "tipsPath": "item/Goods/Big/teshugangcai.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900009,
+        "num": 20,
+        "nameKey": "hg_name_82900009",
+        "tipsPath": "item/Goods/Big/qiankuangshi.webp",
+        "factory": "HomeGoodsFactory"
       }
     ],
     "normalEntryList": [
@@ -1629,6 +1719,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100059,
@@ -1735,6 +1826,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100075,
@@ -1841,6 +1933,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100050,
@@ -1953,6 +2046,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100066,
@@ -2077,6 +2171,57 @@
         "id": 85300002,
         "level": 0,
         "name": "core_id_85300002"
+      }
+    ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400236,
+        "num": 100,
+        "nameKey": "item_name_11400236",
+        "tipsPath": "item/item/Big/fumingjiangzhang2.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11400004,
+        "num": 500,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700175,
+        "num": 2,
+        "nameKey": "sm_name_11700175",
+        "tipsPath": "item/item/Big/haigu04.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700080,
+        "num": 2,
+        "nameKey": "sm_name_11700080",
+        "tipsPath": "item/item/Big/shenmian04.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700203,
+        "num": 20,
+        "nameKey": "sm_name_11700203",
+        "tipsPath": "item/item/Big/gulong02.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700149,
+        "num": 20,
+        "nameKey": "sm_name_11700149",
+        "tipsPath": "item/item/Big/zaoyin02.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 30,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
       }
     ],
     "normalEntryList": [
@@ -2273,6 +2418,57 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400236,
+        "num": 60,
+        "nameKey": "item_name_11400236",
+        "tipsPath": "item/item/Big/fumingjiangzhang2.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11400004,
+        "num": 300,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700185,
+        "num": 2,
+        "nameKey": "sm_name_11700185",
+        "tipsPath": "item/item/Big/jixie07.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700183,
+        "num": 20,
+        "nameKey": "sm_name_11700183",
+        "tipsPath": "item/item/Big/jixie05.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 20,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900162,
+        "num": 20,
+        "nameKey": "hg_name_82900162",
+        "tipsPath": "item/Goods/Big/jinggang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900181,
+        "num": 20,
+        "nameKey": "hg_name_82900181",
+        "tipsPath": "item/Goods/Big/taihejin.webp",
+        "factory": "HomeGoodsFactory"
+      }
+    ],
     "normalEntryList": [
       {
         "id": 85100059,
@@ -2448,6 +2644,50 @@
         "id": 85300002,
         "level": 0,
         "name": "core_id_85300002"
+      }
+    ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400004,
+        "num": 300,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700185,
+        "num": 3,
+        "nameKey": "sm_name_11700185",
+        "tipsPath": "item/item/Big/jixie07.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700079,
+        "num": 20,
+        "nameKey": "sm_name_11700079",
+        "tipsPath": "item/item/Big/shenmian03.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700183,
+        "num": 20,
+        "nameKey": "sm_name_11700183",
+        "tipsPath": "item/item/Big/jixie05.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 30,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900162,
+        "num": 30,
+        "nameKey": "hg_name_82900162",
+        "tipsPath": "item/Goods/Big/jinggang.webp",
+        "factory": "HomeGoodsFactory"
       }
     ],
     "normalEntryList": [
@@ -2644,6 +2884,50 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400004,
+        "num": 500,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700080,
+        "num": 3,
+        "nameKey": "sm_name_11700080",
+        "tipsPath": "item/item/Big/shenmian04.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700198,
+        "num": 3,
+        "nameKey": "sm_name_11700198",
+        "tipsPath": "item/item/Big/hune10.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700079,
+        "num": 30,
+        "nameKey": "sm_name_11700079",
+        "tipsPath": "item/item/Big/shenmian03.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700195,
+        "num": 30,
+        "nameKey": "sm_name_11700195",
+        "tipsPath": "item/item/Big/hune07.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 50,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      }
+    ],
     "normalEntryList": [
       {
         "id": 85100079,
@@ -2838,6 +3122,50 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400004,
+        "num": 200,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700002,
+        "num": 3,
+        "nameKey": "sm_name_11700002",
+        "tipsPath": "item/item/Big/jixie09.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700183,
+        "num": 20,
+        "nameKey": "sm_name_11700183",
+        "tipsPath": "item/item/Big/jixie05.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700180,
+        "num": 50,
+        "nameKey": "sm_name_11700180",
+        "tipsPath": "item/item/Big/jixie02.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 30,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900162,
+        "num": 30,
+        "nameKey": "hg_name_82900162",
+        "tipsPath": "item/Goods/Big/jinggang.webp",
+        "factory": "HomeGoodsFactory"
+      }
+    ],
     "normalEntryList": [
       {
         "id": 85100066,
@@ -3013,6 +3341,50 @@
         "id": 85300002,
         "level": 0,
         "name": "core_id_85300002"
+      }
+    ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400004,
+        "num": 300,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700199,
+        "num": 3,
+        "nameKey": "sm_name_11700199",
+        "tipsPath": "item/item/Big/hune11.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700175,
+        "num": 3,
+        "nameKey": "sm_name_11700175",
+        "tipsPath": "item/item/Big/haigu04.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700196,
+        "num": 30,
+        "nameKey": "sm_name_11700196",
+        "tipsPath": "item/item/Big/hune08.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700197,
+        "num": 30,
+        "nameKey": "sm_name_11700197",
+        "tipsPath": "item/item/Big/hune09.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 50,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
       }
     ],
     "normalEntryList": [
@@ -3209,6 +3581,57 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400236,
+        "num": 160,
+        "nameKey": "item_name_11400236",
+        "tipsPath": "item/item/Big/fumingjiangzhang2.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11400004,
+        "num": 800,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700205,
+        "num": 5,
+        "nameKey": "sm_name_11700205",
+        "tipsPath": "item/item/Big/gulong04.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700175,
+        "num": 5,
+        "nameKey": "sm_name_11700175",
+        "tipsPath": "item/item/Big/haigu04.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700194,
+        "num": 30,
+        "nameKey": "sm_name_11700194",
+        "tipsPath": "item/item/Big/hune06.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700174,
+        "num": 30,
+        "nameKey": "sm_name_11700174",
+        "tipsPath": "item/item/Big/haigu03.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 50,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      }
+    ],
     "normalEntryList": [
       {
         "id": 85100054,
@@ -3403,6 +3826,57 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400236,
+        "num": 100,
+        "nameKey": "item_name_11400236",
+        "tipsPath": "item/item/Big/fumingjiangzhang2.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11400004,
+        "num": 500,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700185,
+        "num": 2,
+        "nameKey": "sm_name_11700185",
+        "tipsPath": "item/item/Big/jixie07.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700186,
+        "num": 2,
+        "nameKey": "sm_name_11700186",
+        "tipsPath": "item/item/Big/jixie08.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700184,
+        "num": 20,
+        "nameKey": "sm_name_11700184",
+        "tipsPath": "item/item/Big/jixie06.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900162,
+        "num": 60,
+        "nameKey": "hg_name_82900162",
+        "tipsPath": "item/Goods/Big/jinggang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 30,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      }
+    ],
     "normalEntryList": [
       {
         "id": 85100096,
@@ -3578,6 +4052,57 @@
         "id": 85300002,
         "level": 0,
         "name": "core_id_85300002"
+      }
+    ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400236,
+        "num": 160,
+        "nameKey": "item_name_11400236",
+        "tipsPath": "item/item/Big/fumingjiangzhang2.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11400004,
+        "num": 800,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700171,
+        "num": 5,
+        "nameKey": "sm_name_11700171",
+        "tipsPath": "item/item/Big/baochong04.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700186,
+        "num": 3,
+        "nameKey": "sm_name_11700186",
+        "tipsPath": "item/item/Big/jixie08.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700182,
+        "num": 2,
+        "nameKey": "sm_name_11700182",
+        "tipsPath": "Item/item/Big/jixie04.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700164,
+        "num": 200,
+        "nameKey": "sm_name_11700164",
+        "tipsPath": "item/item/Big/baochong01.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 50,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
       }
     ],
     "normalEntryList": [
@@ -3774,6 +4299,57 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400236,
+        "num": 260,
+        "nameKey": "item_name_11400236",
+        "tipsPath": "item/item/Big/fumingjiangzhang2.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11400004,
+        "num": 1300,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 11700143,
+        "num": 3,
+        "nameKey": "sm_name_11700143",
+        "tipsPath": "item/item/Big/huashu03.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700188,
+        "num": 5,
+        "nameKey": "sm_name_11700188",
+        "tipsPath": "item/item/Big/dianqi02.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 11700186,
+        "num": 5,
+        "nameKey": "sm_name_11700186",
+        "tipsPath": "item/item/Big/jixie08.webp",
+        "factory": "SourceMaterialFactory"
+      },
+      {
+        "id": 82900163,
+        "num": 50,
+        "nameKey": "hg_name_82900163",
+        "tipsPath": "item/Goods/Big/huochengshi.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 80,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      }
+    ],
     "normalEntryList": [
       {
         "id": 85100209,
@@ -3965,6 +4541,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100059,
@@ -4054,6 +4631,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100052,
@@ -4160,6 +4738,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100079,
@@ -4266,6 +4845,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100092,
@@ -4355,6 +4935,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100093,
@@ -4478,6 +5059,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100091,
@@ -4565,6 +5147,36 @@
         "id": 85300002,
         "level": 0,
         "name": "core_id_85300002"
+      }
+    ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 82900091,
+        "num": 20,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900086,
+        "num": 20,
+        "nameKey": "hg_name_82900086",
+        "tipsPath": "item/Goods/Big/huangtong.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900162,
+        "num": 20,
+        "nameKey": "hg_name_82900162",
+        "tipsPath": "item/Goods/Big/jinggang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900045,
+        "num": 20,
+        "nameKey": "hg_name_82900045",
+        "tipsPath": "item/Goods/Big/qipeilingjian.webp",
+        "factory": "HomeGoodsFactory"
       }
     ],
     "normalEntryList": [
@@ -4662,6 +5274,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100179,
@@ -4768,6 +5381,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100091,
@@ -4897,6 +5511,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100189,
@@ -5009,6 +5624,36 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400004,
+        "num": 300,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 20,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900162,
+        "num": 20,
+        "nameKey": "hg_name_82900162",
+        "tipsPath": "item/Goods/Big/jinggang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900045,
+        "num": 20,
+        "nameKey": "hg_name_82900045",
+        "tipsPath": "item/Goods/Big/qipeilingjian.webp",
+        "factory": "HomeGoodsFactory"
+      }
+    ],
     "normalEntryList": [
       {
         "id": 85100162,
@@ -5115,6 +5760,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100259,
@@ -5213,6 +5859,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100080,
@@ -5319,6 +5966,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100091,
@@ -5442,6 +6090,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100063,
@@ -5555,6 +6204,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100077,
@@ -5678,6 +6328,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100169,
@@ -5801,6 +6452,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100096,
@@ -5924,6 +6576,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100063,
@@ -6047,6 +6700,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100032,
@@ -6162,6 +6816,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100077,
@@ -6272,6 +6927,29 @@
         "id": 85300002,
         "level": 0,
         "name": "core_id_85300002"
+      }
+    ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400004,
+        "num": 300,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 82900032,
+        "num": 30,
+        "nameKey": "hg_name_82900032",
+        "tipsPath": "item/Goods/Big/shimoxi.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900181,
+        "num": 60,
+        "nameKey": "hg_name_82900181",
+        "tipsPath": "item/Goods/Big/taihejin.webp",
+        "factory": "HomeGoodsFactory"
       }
     ],
     "normalEntryList": [
@@ -6397,6 +7075,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100091,
@@ -6509,6 +7188,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100032,
@@ -6653,6 +7333,36 @@
         "id": 85300002,
         "level": 0,
         "name": "core_id_85300002"
+      }
+    ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400004,
+        "num": 500,
+        "nameKey": "item_name_11400004",
+        "tipsPath": "item/item/Big/fumingjiangzhang.webp",
+        "factory": "ItemFactory"
+      },
+      {
+        "id": 82900091,
+        "num": 30,
+        "nameKey": "hg_name_82900091",
+        "tipsPath": "item/Goods/Big/mandegongjuxiang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900162,
+        "num": 60,
+        "nameKey": "hg_name_82900162",
+        "tipsPath": "item/Goods/Big/jinggang.webp",
+        "factory": "HomeGoodsFactory"
+      },
+      {
+        "id": 82900009,
+        "num": 60,
+        "nameKey": "hg_name_82900009",
+        "tipsPath": "item/Goods/Big/qiankuangshi.webp",
+        "factory": "HomeGoodsFactory"
       }
     ],
     "normalEntryList": [
@@ -6801,6 +7511,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100091,
@@ -6947,6 +7658,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100091,
@@ -7110,6 +7822,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100011,
@@ -7239,6 +7952,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100170,
@@ -7379,6 +8093,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100063,
@@ -7485,6 +8200,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100165,
@@ -7591,6 +8307,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100166,
@@ -7697,6 +8414,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100077,
@@ -7820,6 +8538,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100079,
@@ -7980,6 +8699,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100080,
@@ -8174,6 +8894,15 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [
+      {
+        "id": 11400005,
+        "num": 60,
+        "nameKey": "item_name_11400005",
+        "tipsPath": "item/item/Small/diamond.webp",
+        "factory": "ItemFactory"
+      }
+    ],
     "normalEntryList": [
       {
         "id": 85100058,
@@ -8323,6 +9052,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100076,
@@ -8446,6 +9176,7 @@
         "name": "core_id_85300002"
       }
     ],
+    "TrainWeaponMakeUp": [],
     "normalEntryList": [
       {
         "id": 85100227,

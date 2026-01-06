@@ -1574,7 +1574,7 @@
     "id": 12100273,
     "name": "break_name_12100273",
     "desc": "break_desc_12100273",
-    "path": "RolePlus/00Gift/Aegis_Box/ChongCi.png",
+    "path": "RolePlus\\00Gift\\Aegis_Box\\ChongCi",
     "attributeList": []
   },
   "12100274": {
@@ -1606,7 +1606,7 @@
     "id": 12100276,
     "name": "break_name_12100276",
     "desc": "break_desc_12100276",
-    "path": "RolePlus/00Gift/Aegis_Box/XiuFuZhuanJia.png",
+    "path": "RolePlus\\00Gift\\Aegis_Box\\XiuFuZhuanJia",
     "attributeList": []
   },
   "12100277": {
