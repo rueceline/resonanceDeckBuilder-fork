@@ -181,6 +181,7 @@
     "id": 10800027,
     "idCN": "卡牌数/墓地大于5",
     "mod": "卡牌数量满足条件",
+    "isInformalData": false,
     "progressMax": 1,
     "isIncludeDeck": false,
     "isIncludeHand": false,
@@ -1015,8 +1016,12 @@
       }
     ],
     "tagType": "Or",
-    "reverseTagList": [],
-    "reverseTagType": "And",
+    "reverseTagList": [
+      {
+        "tagId": 12600499
+      }
+    ],
+    "reverseTagType": "Or",
     "isContinue": false,
     "isTimeProg": true,
     "progAddNum": 5
@@ -1173,8 +1178,12 @@
       }
     ],
     "tagType": "Or",
-    "reverseTagList": [],
-    "reverseTagType": "And",
+    "reverseTagList": [
+      {
+        "tagId": 12601342
+      }
+    ],
+    "reverseTagType": "Or",
     "isContinue": false,
     "isTimeProg": true,
     "progAddNum": 5
@@ -1266,8 +1275,12 @@
       }
     ],
     "tagType": "Or",
-    "reverseTagList": [],
-    "reverseTagType": "And",
+    "reverseTagList": [
+      {
+        "tagId": 12601450
+      }
+    ],
+    "reverseTagType": "Or",
     "isContinue": false,
     "isTimeProg": true,
     "progAddNum": 5
@@ -1689,9 +1702,130 @@
     "tagList": [],
     "tagType": "And",
     "reverseTagList": [],
+    "reverseTagType": "Or",
+    "isContinue": false,
+    "isTimeProg": true,
+    "progAddNum": 5
+  },
+  {
+    "id": 10800119,
+    "idCN": "复合/拉妲-cd40机械爆炸物减6",
+    "mod": "使用指定Tag卡牌",
+    "isInformalData": false,
+    "progressMax": 38,
+    "tagList": [
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12600057
+      }
+    ],
+    "tagType": "Or",
+    "reverseTagList": [
+      {
+        "tagId": 12601975
+      }
+    ],
+    "reverseTagType": "Or",
+    "isContinue": false,
+    "isTimeProg": true,
+    "progAddNum": 6
+  },
+  {
+    "id": 10800120,
+    "idCN": "复合/卡塔斯·业火-cd35用卡减5",
+    "mod": "使用指定Tag卡牌",
+    "isInformalData": false,
+    "progressMax": 36,
+    "tagList": [],
+    "tagType": "And",
+    "reverseTagList": [
+      {
+        "tagId": 12601998
+      },
+      {
+        "tagId": 12601997
+      }
+    ],
+    "reverseTagType": "Or",
+    "isContinue": false,
+    "isTimeProg": true,
+    "progAddNum": 4
+  },
+  {
+    "id": 10800121,
+    "idCN": "复合/夏洛蒂-cd35用红黄橙减5",
+    "mod": "使用指定Tag卡牌",
+    "isInformalData": false,
+    "progressMax": 35,
+    "tagList": [
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12600146
+      },
+      {
+        "tagId": 12600111
+      }
+    ],
+    "tagType": "Or",
+    "reverseTagList": [
+      {
+        "tagId": 12602009
+      }
+    ],
+    "reverseTagType": "Or",
+    "isContinue": false,
+    "isTimeProg": true,
+    "progAddNum": 5
+  },
+  {
+    "id": 10800122,
+    "idCN": "复合/夏娜",
+    "mod": "使用指定Tag卡牌",
+    "isInformalData": false,
+    "progressMax": 35,
+    "tagList": [],
+    "tagType": "Or",
+    "reverseTagList": [
+      {
+        "tagId": 12602020
+      },
+      {
+        "tagId": 12602022
+      }
+    ],
     "reverseTagType": "And",
     "isContinue": false,
     "isTimeProg": true,
     "progAddNum": 5
+  },
+  {
+    "id": 10800123,
+    "idCN": "复合/露比-cd30用卡减5",
+    "mod": "使用指定Tag卡牌",
+    "isInformalData": false,
+    "progressMax": 30,
+    "tagList": [],
+    "tagType": "And",
+    "reverseTagList": [],
+    "reverseTagType": "And",
+    "isContinue": false,
+    "isTimeProg": true,
+    "progAddNum": 5
+  },
+  {
+    "id": 10800124,
+    "idCN": "复合/迪妮莎-cd39",
+    "mod": "累计入手卡牌数量",
+    "isInformalData": false,
+    "isTimeProg": true,
+    "progAddNum": 3,
+    "progressMax": 39,
+    "isOnlyDeck": true,
+    "tagList": [],
+    "tagType": "Or"
   }
 ]

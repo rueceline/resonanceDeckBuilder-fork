@@ -9725,8 +9725,8 @@
         "skillId": 12301989
       }
     ],
-    "tempdesc": "使处于【燎原】下的敌方，受到的最终伤害增加20%\\n每施加1层【燎原】，受到的最终伤害额外增加5%，上限6层",
-    "desc": "使处于<color=#FF6666>【燎原】</color>下的敌方，受到的最终伤害增加20%\\n每施加1层<color=#FF6666>【燎原】</color>，受到的最终伤害额外增加5%，上限6层",
+    "tempdesc": "使处于【燎原】下的敌方，受到的最终伤害增加20%\\n每施加1层【燎原】，受到的最终伤害额外增加5%，上限8层",
+    "desc": "使处于<color=#FF6666>【燎原】</color>下的敌方，受到的最终伤害增加20%\\n每施加1层<color=#FF6666>【燎原】</color>，受到的最终伤害额外增加5%，上限8层",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -9775,8 +9775,8 @@
         "skillId": 12301987
       }
     ],
-    "tempdesc": "每12秒触发1次，自身或【铁幕】受到伤害时，抽1张牌，优先蓝卡\\n每次使用蓝卡后，自身攻击力+2%，上限30%",
-    "desc": "每12秒触发1次，自身或【铁幕】受到伤害时，抽1张牌，优先蓝卡\\n每次使用蓝卡后，自身攻击力+2%，上限30%",
+    "tempdesc": "每12秒触发1次，自身或【铁幕】受到伤害时，抽1张牌，优先蓝卡\\n每次使用蓝卡后，我方全体攻击力+2%，上限50%",
+    "desc": "每12秒触发1次，自身或【铁幕】受到伤害时，抽1张牌，优先蓝卡\\n每次使用蓝卡后，我方全体攻击力+2%，上限50%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -9881,8 +9881,8 @@
         "skillId": 12302028
       }
     ],
-    "tempdesc": "使用【队长技】或得意技能牌时，自身攻击力和防御力+1%，上限50%",
-    "desc": "使用【队长技】或得意技能牌时，自身攻击力和防御力+1%，上限50%",
+    "tempdesc": "使用【队长技】或得意技能牌时，自身攻击力和防御力+2%，上限50%",
+    "desc": "使用【队长技】或得意技能牌时，自身攻击力和防御力+2%，上限50%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -9906,10 +9906,21 @@
         "skillId": 12302030
       }
     ],
-    "tempdesc": "若【黑色药剂】效果结束后，自身生命值大于50%，生成1张【黑色药剂】加入手牌，且能超出手牌上限，但献祭的生命值消耗增加1%\\n生命值低于10%时【无敌】5秒并回复自身50%生命值，同时从牌库和弃牌区将所有的自身技能牌加入手牌，限1次",
-    "desc": "若【黑色药剂】效果结束后，自身生命值大于50%，生成1张【黑色药剂】加入手牌，且能超出手牌上限，但献祭的生命值消耗增加1%\\n生命值低于10%时<color=#7AB2FF>【无敌】</color>5秒并回复自身50%生命值，同时从牌库和弃牌区将所有的自身技能牌加入手牌，限1次",
+    "tempdesc": "【黑色药剂】持续期间延长30秒，持续期间，每秒自身攻击力+3/防御力+3/生命值上限+3000\\n生命值低于10%时【无敌】5秒并回复自身全部生命值，同时从牌库和弃牌区将自身所有技能牌加入手牌，且能超出手牌上限，限1次",
+    "desc": "【黑色药剂】持续期间延长30秒，持续期间，每秒自身攻击力+3/防御力+3/生命值上限+3000\\n生命值低于10%时<color=#7AB2FF>【无敌】</color>5秒并回复自身全部生命值，同时从牌库和弃牌区将自身所有技能牌加入手牌，且能超出手牌上限，限1次",
     "skillChangeList": [],
-    "skillParamOffsetList": []
+    "skillParamOffsetList": [
+      {
+        "skillId": 12302003,
+        "tag": "T",
+        "value_SN": 18000000
+      },
+      {
+        "skillId": 12302003,
+        "tag": "C",
+        "value_SN": 300000
+      }
+    ]
   },
   {
     "id": 12100648,
@@ -10141,7 +10152,7 @@
   },
   {
     "id": 12100661,
-    "idCN": "05五星/罗洁尔_人/觉醒0",
+    "idCN": "05五星/罗洁尔·定格/觉醒0",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "",
@@ -10162,7 +10173,7 @@
   },
   {
     "id": 12100662,
-    "idCN": "05五星/罗洁尔_人/觉醒1-太初潮汐",
+    "idCN": "05五星/罗洁尔·定格/觉醒1-太初潮汐",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "太初潮汐",
@@ -10223,7 +10234,7 @@
   },
   {
     "id": 12100663,
-    "idCN": "05五星/罗洁尔_人/觉醒2-波导",
+    "idCN": "05五星/罗洁尔·定格/觉醒2-波导",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "波导",
@@ -10248,7 +10259,7 @@
   },
   {
     "id": 12100666,
-    "idCN": "05五星/罗洁尔_人/觉醒5-三合星",
+    "idCN": "05五星/罗洁尔·定格/觉醒5-三合星",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "三合星",
@@ -10585,7 +10596,7 @@
   },
   {
     "id": 12100687,
-    "idCN": "05五星/罗洁尔_天使/觉醒5-圣恩",
+    "idCN": "05五星/罗洁尔/觉醒5-圣恩",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "圣恩",
@@ -10610,7 +10621,7 @@
   },
   {
     "id": 12100689,
-    "idCN": "05五星/罗洁尔_天使/觉醒3-斗志",
+    "idCN": "05五星/罗洁尔/觉醒3-斗志",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "斗志",
@@ -10647,7 +10658,7 @@
   },
   {
     "id": 12100686,
-    "idCN": "05五星/罗洁尔_天使/觉醒2-圣裁",
+    "idCN": "05五星/罗洁尔/觉醒2-圣裁",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "圣裁",
@@ -10672,7 +10683,7 @@
   },
   {
     "id": 12100688,
-    "idCN": "05五星/罗洁尔_天使/觉醒4-新生",
+    "idCN": "05五星/罗洁尔/觉醒4-新生",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "新生",
@@ -10697,7 +10708,7 @@
   },
   {
     "id": 12100685,
-    "idCN": "05五星/罗洁尔_天使/觉醒1-灵感",
+    "idCN": "05五星/罗洁尔/觉醒1-灵感",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "灵感",
@@ -10722,7 +10733,7 @@
   },
   {
     "id": 12100690,
-    "idCN": "05五星/罗洁尔_天使/觉醒0",
+    "idCN": "05五星/罗洁尔/觉醒0",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "",
@@ -11044,7 +11055,7 @@
   },
   {
     "id": 12100708,
-    "idCN": "05五星/罗洁尔_人/新觉醒3-斗志",
+    "idCN": "05五星/罗洁尔·定格/新觉醒3-斗志",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "斗志",
@@ -11081,7 +11092,7 @@
   },
   {
     "id": 12100709,
-    "idCN": "05五星/罗洁尔_人/新觉醒4-星核",
+    "idCN": "05五星/罗洁尔·定格/新觉醒4-星核",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "星核",
@@ -13419,8 +13430,8 @@
         "skillId": 12302272
       }
     ],
-    "tempdesc": "使【卡巴内利之力】吸取生命值的我方攻击力和防御力+15，上限150",
-    "desc": "使【卡巴内利之力】吸取生命值的我方攻击力和防御力+15，上限150",
+    "tempdesc": "使【卡巴内利之力】吸取生命值的我方与自身攻击力和防御力+15，上限150",
+    "desc": "使【卡巴内利之力】吸取生命值的我方与自身攻击力和防御力+15，上限150",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -13444,8 +13455,8 @@
         "skillId": 12302273
       }
     ],
-    "tempdesc": "使【卡巴内利之力】吸取生命值的我方攻击力和防御力+15，上限150",
-    "desc": "使【卡巴内利之力】吸取生命值的我方攻击力和防御力+15，上限150",
+    "tempdesc": "使【卡巴内利之力】吸取生命值的我方与自身攻击力和防御力+15，上限150",
+    "desc": "使【卡巴内利之力】吸取生命值的我方与自身攻击力和防御力+15，上限150",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -14473,8 +14484,8 @@
         "skillId": 12302339
       }
     ],
-    "tempdesc": "【链爆雷】爆炸时，有50%概率伤害加倍\\n触发该效果时，有50%概率将【多重装药】触发的效果升级为【轰雷】/【炽地】/【冰封】",
-    "desc": "【链爆雷】爆炸时，有50%概率伤害加倍\\n触发该效果时，有50%概率将【多重装药】触发的效果升级为<color=#FFB800>【轰雷】</color>/<color=#FF6666>【炽地】</color>/<color=#7AB2FF>【冰封】</color>",
+    "tempdesc": "【链爆雷】爆炸时，有50%概率伤害加倍\\n触发该效果时，有50%概率将【多重装药】触发的效果升级为【轰雷】/【炽地】/【冰封】\\n触发装药升级效果时，有50%概率使【链爆雷】造成的伤害提高10%，上限150%",
+    "desc": "【链爆雷】爆炸时，有50%概率伤害加倍\\n触发该效果时，有50%概率将【多重装药】触发的效果升级为<color=#FFB800>【轰雷】</color>/<color=#FF6666>【炽地】</color>/<color=#7AB2FF>【冰封】</color>\\n触发装药升级效果时，有50%概率使【链爆雷】造成的伤害提高10%，上限150%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -14659,8 +14670,8 @@
         "skillId": 12302343
       }
     ],
-    "tempdesc": "我方场上每存在1个【机械单位】时，我方【机械单位】造成的最终伤害提高7%",
-    "desc": "我方场上每存在1个【机械单位】时，我方【机械单位】造成的最终伤害提高7%",
+    "tempdesc": "我方场上每存在1个【机械单位】时，我方【机械单位】造成的最终伤害提高10%，上限100%",
+    "desc": "我方场上每存在1个【机械单位】时，我方【机械单位】造成的最终伤害提高10%，上限100%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -16155,8 +16166,8 @@
         "skillId": 12303733
       }
     ],
-    "tempdesc": "开局时为我方队友叠加1层【凭依】层数\\n每使用3张【龙裔】的卡牌，获得1点费用\\n每抽到6张卡牌，使敌方场地触发【燎原】并有45%概率使自身【躁动】\\n弃牌区每增加9张牌，【烬灭】伤害提高20%，上限180%",
-    "desc": "开局时为我方队友叠加1层【凭依】层数\\n每使用3张【龙裔】的卡牌，获得1点费用\\n每抽到6张卡牌，使敌方场地触发<color=#FF6666>【燎原】</color>并有45%概率使自身<color=#FF6666>【躁动】</color>\\n弃牌区每增加9张牌，<color=#FF6666>【烬灭】</color>伤害提高20%，上限180%",
+    "tempdesc": "开局时为我方队友叠加1层【凭依】层数\\n每使用3张【龙裔】的卡牌，获得1点费用\\n每抽到6张卡牌，使敌方场地触发【燎原】并有45%概率使自身【躁动】\\n弃牌区每增加9张牌，【烬灭】伤害提高18%，上限360%",
+    "desc": "开局时为我方队友叠加1层【凭依】层数\\n每使用3张【龙裔】的卡牌，获得1点费用\\n每抽到6张卡牌，使敌方场地触发<color=#FF6666>【燎原】</color>并有45%概率使自身<color=#FF6666>【躁动】</color>\\n弃牌区每增加9张牌，<color=#FF6666>【烬灭】</color>伤害提高18%，上限360%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -16242,8 +16253,8 @@
         "skillId": 12303732
       }
     ],
-    "tempdesc": "每次我方造成【点燃】/【炽地】/【燎原】/【熔心】/ 【烬灭】时，自身攻击力+0.15%/+0.3%/+0.6%/+1.8%/+3.6%，上限99%",
-    "desc": "每次我方造成<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<color=#FF6666>【燎原】</color>/<color=#FF6666>【熔心】</color>/ <color=#FF6666>【烬灭】</color>时，自身攻击力+0.15%/+0.3%/+0.6%/+1.8%/+3.6%，上限99%",
+    "tempdesc": "每次我方造成【点燃】/【炽地】/【燎原】/【焚天】/【熔心】/ 【烬灭】时，自身攻击力+0.15%/+0.3%/+0.6%/+1.2%/+1.8%/+3.6%，上限99%",
+    "desc": "每次我方造成<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<color=#FF6666>【燎原】</color>/<color=#FF6666>【焚天】</color>/<color=#FF6666>【熔心】</color>/ <color=#FF6666>【烬灭】</color>时，自身攻击力+0.15%/+0.3%/+0.6%/+1.2%/+1.8%/+3.6%，上限99%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -18549,7 +18560,7 @@
       }
     ],
     "tempdesc": "费用上限+1，每使用1张红卡，获得0.3点费用\\n每次造成【斩裂】/【擘裂】/【迸裂】时，获得0.1点/0.2点/0.5点费用",
-    "desc": "费用上限+1，每使用1张红卡，获得0.3点费用\\n每次造成【斩裂】/【擘裂】/【迸裂】时，获得0.1点/0.2点/0.5点费用",
+    "desc": "费用上限+1，每使用1张红卡，获得0.3点费用\\n每次造成<color=#FF6666>【斩裂】</color>/<color=#FF6666>【擘裂】</color>/<color=#FF6666>【迸裂】</color>时，获得0.1点/0.2点/0.5点费用",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -18611,7 +18622,7 @@
       }
     ],
     "tempdesc": "我方每造成8次伤害类特殊效果，使敌方目标随机触发【迸裂】",
-    "desc": "我方每造成8次伤害类特殊效果，使敌方目标随机触发【迸裂】",
+    "desc": "我方每造成8次伤害类特殊效果，使敌方目标随机触发<color=#FF6666>【迸裂】</color>",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -18637,6 +18648,1034 @@
     ],
     "tempdesc": "每使用/回收1张卡牌，我方造成的物理/虚光伤害提高1%，上限60%",
     "desc": "每使用/回收1张卡牌，我方造成的物理/虚光伤害提高1%，上限60%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100051,
+    "idCN": "05五星/拉妲/觉醒4-协同打击",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "协同打击",
+    "path": "RolePlus\\00Gift\\Rada\\XieTongDaJi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700295,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304437
+      }
+    ],
+    "tempdesc": "使用【雷霆闪击】时，将手牌中1张带有【机械单位】/【爆炸物】词条的卡牌直接打出\\n【雷霆闪击】持续期间，我方全体【机械单位】/【爆炸物】造成的伤害提高50%",
+    "desc": "使用【雷霆闪击】时，将手牌中1张带有【机械单位】/【爆炸物】词条的卡牌直接打出\\n【雷霆闪击】持续期间，我方全体【机械单位】/【爆炸物】造成的伤害提高50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100058,
+    "idCN": "05五星/拉妲/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700295,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100059,
+    "idCN": "05五星/拉妲/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Box\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700295,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "desc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100063,
+    "idCN": "05五星/拉妲/觉醒2-决胜之志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "决胜之志",
+    "path": "RolePlus\\00Gift\\Rada\\JueShengZhiZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700295,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304438
+      }
+    ],
+    "tempdesc": "使自身【机械单位】攻击速度提升50%，弹药数+2\\n【铁翼】轰炸后，抽1张牌",
+    "desc": "使自身【机械单位】攻击速度提升50%，弹药数+2\\n【铁翼】轰炸后，抽1张牌",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100064,
+    "idCN": "05五星/拉妲/觉醒5-钢铁洪流",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "钢铁洪流",
+    "path": "RolePlus\\00Gift\\Rada\\GangTieHongLiu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700295,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304436
+      }
+    ],
+    "tempdesc": "使敌方全体受到的【机械单位】伤害增加50%",
+    "desc": "使敌方全体受到的【机械单位】伤害增加50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100068,
+    "idCN": "05五星/拉妲/觉醒1-昂扬战意",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "昂扬战意",
+    "path": "RolePlus\\00Gift\\Rada\\AngYangZhanYi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700295,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304435
+      }
+    ],
+    "tempdesc": "使用【队长技】时，我方全体攻击力+2%，上限50%",
+    "desc": "使用【队长技】时，我方全体攻击力+2%，上限50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100001,
+    "idCN": "05五星/卡塔斯·业火/觉醒1-泛音摇荡",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "泛音摇荡",
+    "path": "RolePlus\\00Gift\\KatasIgnis\\FanYinYaoDang",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700300,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304481
+      }
+    ],
+    "tempdesc": "每获得/消耗1个【狂热音符】，我方全体攻击力+1%，上限63%",
+    "desc": "每获得/消耗1个【狂热音符】，我方全体攻击力+1%，上限63%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100069,
+    "idCN": "05五星/卡塔斯·业火/觉醒5-俯冲轰炸",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "俯冲轰炸",
+    "path": "RolePlus\\00Gift\\KatasIgnis\\FuChongHongZha",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700300,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304482
+      }
+    ],
+    "tempdesc": "使处于燃烧状态下的敌方受到的爆音伤害增加50%",
+    "desc": "使处于燃烧状态下的敌方受到的爆音伤害增加50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100073,
+    "idCN": "05五星/卡塔斯·业火/觉醒2-摇滚之心",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "摇滚之心",
+    "path": "RolePlus\\00Gift\\KatasIgnis\\YaoGunZhiXin",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700300,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304475
+      }
+    ],
+    "tempdesc": "自身处于【狂暴】/【躁动】状态时，使自身攻击段数+1，可叠加\\n使同时处于【狂暴】/【躁动】状态的我方，攻击力和防御力+105",
+    "desc": "自身处于<color=#FF6666>【狂暴】</color>/<color=#FF6666>【躁动】</color>状态时，使自身攻击段数+1，可叠加\\n使同时处于<color=#FF6666>【狂暴】</color>/<color=#FF6666>【躁动】</color>状态的我方，攻击力和防御力+105",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100074,
+    "idCN": "05五星/卡塔斯·业火/觉醒4-爆烈刮弦",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "爆烈刮弦",
+    "path": "RolePlus\\00Gift\\KatasIgnis\\BaoLieGuaXian",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700300,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304480
+      }
+    ],
+    "tempdesc": "每获得1个【狂热音符】，造成1段爆音伤害\\n累计消耗的【狂热音符】越多，伤害越高",
+    "desc": "每获得1个【狂热音符】，造成1段爆音伤害\\n累计消耗的【狂热音符】越多，伤害越高",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100078,
+    "idCN": "05五星/卡塔斯·业火/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700300,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100079,
+    "idCN": "05五星/卡塔斯·业火/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Box\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700300,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "desc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100083,
+    "idCN": "05五星/夏洛蒂·澄心/觉醒2-无疑之信念",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "无疑之信念",
+    "path": "RolePlus\\00Gift\\CharlotteStillheart\\WuYiZhiXinNian",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700301,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304467
+      }
+    ],
+    "tempdesc": "每使用3张红卡，抽1张牌，同时吸收1点【辉光】",
+    "desc": "每使用3张红卡，抽1张牌，同时吸收1点【辉光】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100084,
+    "idCN": "05五星/夏洛蒂·澄心/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700301,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100089,
+    "idCN": "05五星/夏洛蒂·澄心/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Box\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700301,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "desc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100090,
+    "idCN": "05五星/夏洛蒂·澄心/觉醒4-无界之荣光",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "无界之荣光",
+    "path": "RolePlus\\00Gift\\CharlotteStillheart\\WuJieZhiRongGuang",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700301,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304466
+      }
+    ],
+    "tempdesc": "【孤月】的攻击段数/吸收的【辉光】点数+1\\n每吸收3点【辉光】，对敌方目标造成1次【迸裂】",
+    "desc": "【孤月】的攻击段数/吸收的【辉光】点数+1\\n每吸收3点【辉光】，对敌方目标造成1次<color=#FF6666>【迸裂】</color>",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100093,
+    "idCN": "05五星/夏洛蒂·澄心/觉醒5-无悔之决意",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "无悔之决意",
+    "path": "RolePlus\\00Gift\\CharlotteStillheart\\WuHuiZhiJueYi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700301,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304458
+      }
+    ],
+    "tempdesc": "每使用1张红卡，使敌方受到的伤害类特殊效果伤害增加1%，上限50%",
+    "desc": "每使用1张红卡，使敌方受到的伤害类特殊效果伤害增加1%，上限50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100094,
+    "idCN": "05五星/夏洛蒂·澄心/觉醒1-无断之重锋",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "无断之重锋",
+    "path": "RolePlus\\00Gift\\CharlotteStillheart\\WuDuanZhiZhongFeng",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700301,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304463
+      }
+    ],
+    "tempdesc": "每使用1张红卡，每吸收/释放1点【辉光】，攻击力+1%，上限99%",
+    "desc": "每使用1张红卡，每吸收/释放1点【辉光】，攻击力+1%，上限99%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100098,
+    "idCN": "05五星/夏娜/觉醒1-炎发灼眼的讨伐者",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "炎发灼眼的讨伐者",
+    "path": "RolePlus\\00Gift\\Shana\\YanFaZhuoYanDeTaoFaZhe",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700302,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304507
+      }
+    ],
+    "tempdesc": "每获得1点【存在之力】，自身攻击力+1%，上限99%",
+    "desc": "每获得1点【存在之力】，自身攻击力+1%，上限99%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100099,
+    "idCN": "05五星/夏娜/觉醒4-火焰之翼",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "火焰之翼",
+    "path": "RolePlus\\00Gift\\Shana\\HuoYanZhiYi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700302,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304501
+      }
+    ],
+    "tempdesc": "每获得60点【存在之力】，抽1张牌，优先自身技能牌",
+    "desc": "每获得60点【存在之力】，抽1张牌，优先自身技能牌",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100103,
+    "idCN": "05五星/夏娜/觉醒5-无何有境",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "无何有境",
+    "path": "RolePlus\\00Gift\\Shana\\WuHeYouJing",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700302,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304509
+      }
+    ],
+    "tempdesc": "【存在之力】越高，自身造成/受到的最终伤害越高/越低，上限60%",
+    "desc": "【存在之力】越高，自身造成/受到的最终伤害越高/越低，上限60%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100104,
+    "idCN": "05五星/夏娜/觉醒2-红莲之炎",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "红莲之炎",
+    "path": "RolePlus\\00Gift\\Shana\\HongLianZhiYan",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700302,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304508
+      }
+    ],
+    "tempdesc": "自身每次命中触发【点燃】，伤害类特殊效果除外\\n每次我方造成燃烧类特殊效果时，获得【存在之力】\\n燃烧效果越强，获得的【存在之力】越高",
+    "desc": "自身每次命中触发<color=#FF6666>【点燃】</color>，伤害类特殊效果除外\\n每次我方造成燃烧类特殊效果时，获得【存在之力】\\n燃烧效果越强，获得的【存在之力】越高",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100107,
+    "idCN": "05五星/夏娜/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Box\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700302,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "desc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100110,
+    "idCN": "05五星/夏娜/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700302,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100113,
+    "idCN": "05五星/露比/觉醒1-同步协议",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "同步协议",
+    "path": "RolePlus/00Gift/Ruby/TongBuXieYi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700303,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304577
+      }
+    ],
+    "tempdesc": "每为敌方目标叠加1层【锁定】，使敌方受到的【机械单位】伤害增加1%，上限50%",
+    "desc": "每为敌方目标叠加1层【锁定】，使敌方受到的【机械单位】伤害增加1%，上限50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100114,
+    "idCN": "05五星/露比/觉醒2-胜券在握",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "胜券在握",
+    "path": "RolePlus/00Gift/Ruby/ShengQuanZaiWo",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700303,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304576
+      }
+    ],
+    "tempdesc": "【锐锋】入手时，从牌库或弃牌区将所有自身技能牌加入手牌，且能超出手牌上限\\n同时立刻激活【队长技】",
+    "desc": "【锐锋】入手时，从牌库或弃牌区将所有自身技能牌加入手牌，且能超出手牌上限\\n同时立刻激活【队长技】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100118,
+    "idCN": "05五星/露比/觉醒5-机械兵团",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "机械兵团",
+    "path": "RolePlus/00Gift/Ruby/JiXieBingTuan",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700303,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304574
+      }
+    ],
+    "tempdesc": "每有1张带有【机械单位】词条的卡牌，我方【机械单位】伤害提高5%",
+    "desc": "每有1张带有【机械单位】词条的卡牌，我方【机械单位】伤害提高5%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100119,
+    "idCN": "05五星/露比/觉醒4-信标导引",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "信标导引",
+    "path": "RolePlus/00Gift/Ruby/XinBiaoDaoYin",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700303,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304570
+      }
+    ],
+    "tempdesc": "弃牌区每有1张【转子飞拳】，【超绝火箭飞拳】攻击段数+1",
+    "desc": "弃牌区每有1张【转子飞拳】，【超绝火箭飞拳】攻击段数+1",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100121,
+    "idCN": "05五星/露比/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Box\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700303,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "desc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100123,
+    "idCN": "05五星/露比/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700303,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100124,
+    "idCN": "05五星/迪妮莎/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700304,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100127,
+    "idCN": "05五星/迪妮莎/觉醒2-王牌机师",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "王牌机师",
+    "path": "RolePlus/00Gift/Teresa/WangPaiJiShi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700304,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304592
+      }
+    ],
+    "tempdesc": "使用自身技能牌后，抽1张牌",
+    "desc": "使用自身技能牌后，抽1张牌",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100128,
+    "idCN": "05五星/迪妮莎/觉醒4-处决",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "处决",
+    "path": "RolePlus/00Gift/Teresa/ChuJue",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700304,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304594
+      }
+    ],
+    "tempdesc": "每次我方造成【重伤】时，同时触发【擘裂】",
+    "desc": "每次我方造成<color=#FF6666>【重伤】</color>时，同时触发<color=#FF6666>【擘裂】</color>",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100142,
+    "idCN": "05五星/迪妮莎/觉醒1-杀意",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "杀意",
+    "path": "RolePlus/00Gift/Teresa/ShaYi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700304,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12304588
+      }
+    ],
+    "tempdesc": "每抽到1张卡牌，自身攻击力+1%，上限99%",
+    "desc": "每抽到1张卡牌，自身攻击力+1%，上限99%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100146,
+    "idCN": "05五星/迪妮莎/觉醒5-碾压",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "碾压",
+    "path": "RolePlus/00Gift/Teresa/NianYa",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700304,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12301921
+      }
+    ],
+    "tempdesc": "自身攻击力高于敌方防御力时，无视敌方50%防御力",
+    "desc": "自身攻击力高于敌方防御力时，无视敌方50%防御力",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100147,
+    "idCN": "05五星/迪妮莎/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Box\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700304,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "desc": "攻击力+150\\n防御力+150\\n生命值+15%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100149,
+    "idCN": "01敌方/黑月/亚莉奈/觉醒1-爱",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [
+      {
+        "skillId": 12304680
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100150,
+    "idCN": "01敌方/黑月/亚莉奈/觉醒2-相随",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [
+      {
+        "skillId": 12304681
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100153,
+    "idCN": "01敌方/黑月/亚莉奈/觉醒5-调酒师",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [
+      {
+        "skillId": 12304683
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100160,
+    "idCN": "01敌方/黑月/亚莉奈/觉醒4-黑色低语",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [
+      {
+        "skillId": 12304682
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
     "skillChangeList": [],
     "skillParamOffsetList": []
   }

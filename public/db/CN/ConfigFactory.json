@@ -145,6 +145,7 @@
     "itemBag": 1000,
     "materialBag": 1000,
     "furnitureBag": 3000,
+    "emailLimit": 200,
     "playerHeadList": [
       {
         "playerHeadPath": "UI\\Common\\PlayerHead\\A_01"
@@ -278,8 +279,8 @@
     "mainUIBannerArgs": "{\"shopId\":80307398}",
     "mainUIBannerStoreId": 40300086,
     "mainUIBannerValuableId": 82101609,
-    "mainUIBannerDrivingIsOpen": true,
-    "mainUIBannerStationIsOpen": true,
+    "mainUIBannerDrivingIsOpen": false,
+    "mainUIBannerStationIsOpen": false,
     "energyItemList": [
       {
         "id": 11400067
@@ -2129,6 +2130,26 @@
       },
       {
         "id": 82500075
+      },
+      {
+        "id": 82500084
+      },
+      {
+        "id": 82500086
+      }
+    ],
+    "BattlePassEXList": [
+      {
+        "id": 82500088
+      },
+      {
+        "id": 82500095
+      }
+    ],
+    "BattlePassExchange": true,
+    "businessIdList": [
+      {
+        "id": 82500082
       }
     ],
     "StageQuestConfig": [
@@ -2220,6 +2241,11 @@
         "num": 50
       },
       {
+        "id": 12602015,
+        "num": 50,
+        "replicateNum": 1
+      },
+      {
         "id": 12601818,
         "num": 50
       },
@@ -2229,7 +2255,13 @@
       },
       {
         "id": 12601949,
-        "num": 50
+        "num": 50,
+        "replicateNum": 1
+      },
+      {
+        "id": 12602029,
+        "num": 50,
+        "replicateNum": 1
       },
       {
         "id": 12601552,
@@ -2256,6 +2288,11 @@
         "num": 50
       },
       {
+        "id": 12602013,
+        "num": 50,
+        "replicateNum": 1
+      },
+      {
         "id": 12601825,
         "num": 50
       },
@@ -2265,11 +2302,22 @@
       },
       {
         "id": 12601959,
-        "num": 50
+        "num": 50,
+        "replicateNum": 1
+      },
+      {
+        "id": 12602030,
+        "num": 50,
+        "replicateNum": 1
       },
       {
         "id": 12601909,
         "num": 50
+      },
+      {
+        "id": 12601984,
+        "num": 50,
+        "replicateNum": 1
       },
       {
         "id": 12601928,
@@ -2281,7 +2329,28 @@
       },
       {
         "id": 12601952,
-        "num": 50
+        "num": 50,
+        "replicateNum": 1
+      },
+      {
+        "id": 12602014,
+        "num": 50,
+        "replicateNum": 1
+      },
+      {
+        "id": 12601985,
+        "num": 50,
+        "replicateNum": 1
+      },
+      {
+        "id": 12601989,
+        "num": 50,
+        "replicateNum": 1
+      },
+      {
+        "id": 12602023,
+        "num": 50,
+        "replicateNum": 1
       }
     ],
     "formationTipOpen": 15,
@@ -2336,6 +2405,22 @@
         "numMax": 80000,
         "numMin": 0,
         "type": "Percent"
+      },
+      {
+        "isUseMax": true,
+        "isUseMin": false,
+        "name": "GetDamageFinalDown",
+        "numMax": 8000,
+        "numMin": 0,
+        "type": "Number"
+      },
+      {
+        "isUseMax": true,
+        "isUseMin": false,
+        "name": "GetDamageDown",
+        "numMax": 8000,
+        "numMin": 0,
+        "type": "Number"
       }
     ],
     "isDotweenPause": false,
@@ -2376,10 +2461,10 @@
         "rangeSN": 2000000
       }
     ],
-    "battleInfoEnemyNAId": 90100001,
+    "battleInfoEnemyNAId": 90100023,
     "battleInfoEnemySAId": 90100003,
-    "battleInfoEnemyRAId": 90100014,
-    "battleInfoEnemyHAId": 90100005,
+    "battleInfoEnemyRAId": 90100025,
+    "battleInfoEnemyHAId": 90100026,
     "battleInfoEnemyImmuneId": 90100022,
     "battleInfoEnemyAbsorbId": 90100028,
     "battleInfoEnemyBAList": [
@@ -7607,27 +7692,27 @@
     "apRewardList": [
       {
         "ap": 100,
-        "id": 11400005,
-        "num": 60
+        "id": 11401012,
+        "num": 3
       },
       {
         "ap": 200,
-        "id": 11700078,
-        "num": 4
-      },
-      {
-        "ap": 300,
         "id": 11400001,
         "num": 100000
       },
       {
+        "ap": 300,
+        "id": 11400005,
+        "num": 60
+      },
+      {
         "ap": 400,
-        "id": 11400411,
-        "num": 1
+        "id": 11700078,
+        "num": 4
       },
       {
         "ap": 500,
-        "id": 11400045,
+        "id": 11400411,
         "num": 1
       },
       {
@@ -7958,556 +8043,10 @@
     "mod": "节假日配置",
     "isInformalData": false,
     "nameEN": "HolidayConfig",
-    "notes": "2025-12-31",
+    "notes": "2026-12-31",
     "holidayList": [
       {
-        "day": "2024-11-22"
-      },
-      {
-        "day": "2024-11-23"
-      },
-      {
-        "day": "2024-11-24"
-      },
-      {
-        "day": "2024-11-29"
-      },
-      {
-        "day": "2024-11-30"
-      },
-      {
-        "day": "2024-12-01"
-      },
-      {
-        "day": "2024-12-06"
-      },
-      {
-        "day": "2024-12-07"
-      },
-      {
-        "day": "2024-12-08"
-      },
-      {
-        "day": "2024-12-13"
-      },
-      {
-        "day": "2024-12-14"
-      },
-      {
-        "day": "2024-12-15"
-      },
-      {
-        "day": "2024-12-20"
-      },
-      {
-        "day": "2024-12-21"
-      },
-      {
-        "day": "2024-12-22"
-      },
-      {
-        "day": "2024-12-27"
-      },
-      {
-        "day": "2024-12-28"
-      },
-      {
-        "day": "2024-12-29"
-      },
-      {
-        "day": "2025-01-01"
-      },
-      {
-        "day": "2025-01-03"
-      },
-      {
-        "day": "2025-01-04"
-      },
-      {
-        "day": "2025-01-05"
-      },
-      {
-        "day": "2025-01-10"
-      },
-      {
-        "day": "2025-01-11"
-      },
-      {
-        "day": "2025-01-12"
-      },
-      {
-        "day": "2025-01-17"
-      },
-      {
-        "day": "2025-01-18"
-      },
-      {
-        "day": "2025-01-19"
-      },
-      {
-        "day": "2025-01-24"
-      },
-      {
-        "day": "2025-01-25"
-      },
-      {
-        "day": "2025-01-28"
-      },
-      {
-        "day": "2025-01-29"
-      },
-      {
-        "day": "2025-01-30"
-      },
-      {
-        "day": "2025-01-31"
-      },
-      {
-        "day": "2025-02-01"
-      },
-      {
-        "day": "2025-02-02"
-      },
-      {
-        "day": "2025-02-03"
-      },
-      {
-        "day": "2025-02-04"
-      },
-      {
-        "day": "2025-02-07"
-      },
-      {
-        "day": "2025-02-09"
-      },
-      {
-        "day": "2025-02-14"
-      },
-      {
-        "day": "2025-02-15"
-      },
-      {
-        "day": "2025-02-16"
-      },
-      {
-        "day": "2025-02-21"
-      },
-      {
-        "day": "2025-02-22"
-      },
-      {
-        "day": "2025-02-23"
-      },
-      {
-        "day": "2025-02-28"
-      },
-      {
-        "day": "2025-03-01"
-      },
-      {
-        "day": "2025-03-02"
-      },
-      {
-        "day": "2025-03-07"
-      },
-      {
-        "day": "2025-03-08"
-      },
-      {
-        "day": "2025-03-09"
-      },
-      {
-        "day": "2025-03-14"
-      },
-      {
-        "day": "2025-03-15"
-      },
-      {
-        "day": "2025-03-16"
-      },
-      {
-        "day": "2025-03-21"
-      },
-      {
-        "day": "2025-03-22"
-      },
-      {
-        "day": "2025-03-23"
-      },
-      {
-        "day": "2025-03-28"
-      },
-      {
-        "day": "2025-03-29"
-      },
-      {
-        "day": "2025-03-30"
-      },
-      {
-        "day": "2025-04-04"
-      },
-      {
-        "day": "2025-04-05"
-      },
-      {
-        "day": "2025-04-06"
-      },
-      {
-        "day": "2025-04-11"
-      },
-      {
-        "day": "2025-04-12"
-      },
-      {
-        "day": "2025-04-13"
-      },
-      {
-        "day": "2025-04-18"
-      },
-      {
-        "day": "2025-04-19"
-      },
-      {
-        "day": "2025-04-20"
-      },
-      {
-        "day": "2025-04-25"
-      },
-      {
-        "day": "2025-04-26"
-      },
-      {
-        "day": "2025-05-01"
-      },
-      {
-        "day": "2025-05-02"
-      },
-      {
-        "day": "2025-05-03"
-      },
-      {
-        "day": "2025-05-04"
-      },
-      {
-        "day": "2025-05-05"
-      },
-      {
-        "day": "2025-05-09"
-      },
-      {
-        "day": "2025-05-10"
-      },
-      {
-        "day": "2025-05-11"
-      },
-      {
-        "day": "2025-05-16"
-      },
-      {
-        "day": "2025-05-17"
-      },
-      {
-        "day": "2025-05-18"
-      },
-      {
-        "day": "2025-05-23"
-      },
-      {
-        "day": "2025-05-24"
-      },
-      {
-        "day": "2025-05-25"
-      },
-      {
-        "day": "2025-05-30"
-      },
-      {
-        "day": "2025-05-31"
-      },
-      {
-        "day": "2025-06-01"
-      },
-      {
-        "day": "2025-06-02"
-      },
-      {
-        "day": "2025-06-06"
-      },
-      {
-        "day": "2025-06-07"
-      },
-      {
-        "day": "2025-06-08"
-      },
-      {
-        "day": "2025-06-13"
-      },
-      {
-        "day": "2025-06-14"
-      },
-      {
-        "day": "2025-06-15"
-      },
-      {
-        "day": "2025-06-20"
-      },
-      {
-        "day": "2025-06-21"
-      },
-      {
-        "day": "2025-06-22"
-      },
-      {
-        "day": "2025-06-27"
-      },
-      {
-        "day": "2025-06-28"
-      },
-      {
-        "day": "2025-06-29"
-      },
-      {
-        "day": "2025-07-04"
-      },
-      {
-        "day": "2025-07-05"
-      },
-      {
-        "day": "2025-07-06"
-      },
-      {
-        "day": "2025-07-11"
-      },
-      {
-        "day": "2025-07-12"
-      },
-      {
-        "day": "2025-07-13"
-      },
-      {
-        "day": "2025-07-18"
-      },
-      {
-        "day": "2025-07-19"
-      },
-      {
-        "day": "2025-07-20"
-      },
-      {
-        "day": "2025-07-25"
-      },
-      {
-        "day": "2025-07-26"
-      },
-      {
-        "day": "2025-07-27"
-      },
-      {
-        "day": "2025-08-01"
-      },
-      {
-        "day": "2025-08-02"
-      },
-      {
-        "day": "2025-08-03"
-      },
-      {
-        "day": "2025-08-08"
-      },
-      {
-        "day": "2025-08-09"
-      },
-      {
-        "day": "2025-08-10"
-      },
-      {
-        "day": "2025-08-15"
-      },
-      {
-        "day": "2025-08-16"
-      },
-      {
-        "day": "2025-08-17"
-      },
-      {
-        "day": "2025-08-22"
-      },
-      {
-        "day": "2025-08-23"
-      },
-      {
-        "day": "2025-08-24"
-      },
-      {
-        "day": "2025-08-29"
-      },
-      {
-        "day": "2025-08-30"
-      },
-      {
-        "day": "2025-08-31"
-      },
-      {
-        "day": "2025-09-05"
-      },
-      {
-        "day": "2025-09-06"
-      },
-      {
-        "day": "2025-09-07"
-      },
-      {
-        "day": "2025-09-12"
-      },
-      {
-        "day": "2025-09-13"
-      },
-      {
-        "day": "2025-09-14"
-      },
-      {
-        "day": "2025-09-19"
-      },
-      {
-        "day": "2025-09-20"
-      },
-      {
-        "day": "2025-09-21"
-      },
-      {
-        "day": "2025-09-26"
-      },
-      {
-        "day": "2025-09-27"
-      },
-      {
-        "day": "2025-10-01"
-      },
-      {
-        "day": "2025-10-02"
-      },
-      {
-        "day": "2025-10-03"
-      },
-      {
-        "day": "2025-10-04"
-      },
-      {
-        "day": "2025-10-05"
-      },
-      {
-        "day": "2025-10-06"
-      },
-      {
-        "day": "2025-10-07"
-      },
-      {
-        "day": "2025-10-08"
-      },
-      {
-        "day": "2025-10-10"
-      },
-      {
-        "day": "2025-10-12"
-      },
-      {
-        "day": "2025-10-17"
-      },
-      {
-        "day": "2025-10-18"
-      },
-      {
-        "day": "2025-10-19"
-      },
-      {
-        "day": "2025-10-24"
-      },
-      {
-        "day": "2025-10-25"
-      },
-      {
-        "day": "2025-10-26"
-      },
-      {
-        "day": "2025-10-31"
-      },
-      {
-        "day": "2025-11-01"
-      },
-      {
-        "day": "2025-11-02"
-      },
-      {
-        "day": "2025-11-07"
-      },
-      {
-        "day": "2025-11-08"
-      },
-      {
-        "day": "2025-11-09"
-      },
-      {
-        "day": "2025-11-14"
-      },
-      {
-        "day": "2025-11-15"
-      },
-      {
-        "day": "2025-11-16"
-      },
-      {
-        "day": "2025-11-21"
-      },
-      {
-        "day": "2025-11-22"
-      },
-      {
-        "day": "2025-11-23"
-      },
-      {
-        "day": "2025-11-28"
-      },
-      {
-        "day": "2025-11-29"
-      },
-      {
-        "day": "2025-11-30"
-      },
-      {
-        "day": "2025-12-05"
-      },
-      {
-        "day": "2025-12-06"
-      },
-      {
-        "day": "2025-12-07"
-      },
-      {
-        "day": "2025-12-12"
-      },
-      {
-        "day": "2025-12-13"
-      },
-      {
-        "day": "2025-12-14"
-      },
-      {
-        "day": "2025-12-19"
-      },
-      {
-        "day": "2025-12-20"
-      },
-      {
-        "day": "2025-12-21"
-      },
-      {
-        "day": "2025-12-26"
-      },
-      {
-        "day": "2025-12-27"
-      },
-      {
-        "day": "2025-12-28"
+        "day": "2026-01-01"
       },
       {
         "day": "2026-01-02"
@@ -8567,10 +8106,19 @@
         "day": "2026-02-13"
       },
       {
-        "day": "2026-02-14"
+        "day": "2026-02-15"
       },
       {
-        "day": "2026-02-15"
+        "day": "2026-02-16"
+      },
+      {
+        "day": "2026-02-17"
+      },
+      {
+        "day": "2026-02-18"
+      },
+      {
+        "day": "2026-02-19"
       },
       {
         "day": "2026-02-20"
@@ -8582,10 +8130,10 @@
         "day": "2026-02-22"
       },
       {
-        "day": "2026-02-27"
+        "day": "2026-02-23"
       },
       {
-        "day": "2026-02-28"
+        "day": "2026-02-27"
       },
       {
         "day": "2026-03-01"
@@ -8636,6 +8184,9 @@
         "day": "2026-04-05"
       },
       {
+        "day": "2026-04-06"
+      },
+      {
         "day": "2026-04-10"
       },
       {
@@ -8672,10 +8223,13 @@
         "day": "2026-05-03"
       },
       {
-        "day": "2026-05-08"
+        "day": "2026-05-04"
       },
       {
-        "day": "2026-05-09"
+        "day": "2026-05-05"
+      },
+      {
+        "day": "2026-05-08"
       },
       {
         "day": "2026-05-10"
@@ -8849,9 +8403,6 @@
         "day": "2026-09-19"
       },
       {
-        "day": "2026-09-20"
-      },
-      {
         "day": "2026-09-25"
       },
       {
@@ -8859,6 +8410,9 @@
       },
       {
         "day": "2026-09-27"
+      },
+      {
+        "day": "2026-10-01"
       },
       {
         "day": "2026-10-02"
@@ -8870,10 +8424,16 @@
         "day": "2026-10-04"
       },
       {
-        "day": "2026-10-09"
+        "day": "2026-10-05"
       },
       {
-        "day": "2026-10-10"
+        "day": "2026-10-06"
+      },
+      {
+        "day": "2026-10-07"
+      },
+      {
+        "day": "2026-10-09"
       },
       {
         "day": "2026-10-11"
@@ -8976,6 +8536,36 @@
       },
       {
         "day": "2026-12-27"
+      },
+      {
+        "day": "2027-01-01"
+      },
+      {
+        "day": "2027-01-02"
+      },
+      {
+        "day": "2027-01-03"
+      },
+      {
+        "day": "2027-01-08"
+      },
+      {
+        "day": "2027-01-09"
+      },
+      {
+        "day": "2027-01-10"
+      },
+      {
+        "day": "2027-01-15"
+      },
+      {
+        "day": "2027-01-16"
+      },
+      {
+        "day": "2027-01-17"
+      },
+      {
+        "day": "2027-01-22"
       }
     ]
   },
@@ -9647,6 +9237,7 @@
         "num": 5000
       }
     ],
+    "stickerMax": 50,
     "HBPStoreList": [
       {
         "id": 40300019
@@ -10295,6 +9886,9 @@
       },
       {
         "tagId": 12601920
+      },
+      {
+        "tagId": 12602028
       }
     ],
     "enumJobList": [
@@ -11435,6 +11029,10 @@
         "value": "<color=#FF6666>【崩坏】</color>"
       },
       {
+        "key": "【焚天】",
+        "value": "<color=#FF6666>【焚天】</color>"
+      },
+      {
         "key": "【炽地】",
         "value": "<color=#FF6666>【炽地】</color>"
       },
@@ -11509,6 +11107,14 @@
       {
         "key": "【斩裂】",
         "value": "<color=#FF6666>【斩裂】</color>"
+      },
+      {
+        "key": "【迸裂】",
+        "value": "<color=#FF6666>【迸裂】</color>"
+      },
+      {
+        "key": "【擘裂】",
+        "value": "<color=#FF6666>【擘裂】</color>"
       },
       {
         "key": "【蚀灭】",
@@ -19868,6 +19474,166 @@
         "id": 80301824,
         "startTime": "2024-04-04"
       }
+    ],
+    "scanCostList": [
+      {
+        "id": 11401012,
+        "num": 1
+      }
+    ],
+    "scanDungeonCountList": [
+      {
+        "num": 1,
+        "weight": 80
+      },
+      {
+        "num": 2,
+        "weight": 20
+      }
+    ],
+    "scanPolluteCountList": [
+      {
+        "num": 1,
+        "weight": 70
+      },
+      {
+        "num": 2,
+        "weight": 20
+      },
+      {
+        "num": 3,
+        "weight": 10
+      }
+    ],
+    "scanResidentCountList": [
+      {
+        "num": 1,
+        "weight": 60
+      },
+      {
+        "num": 2,
+        "weight": 30
+      },
+      {
+        "num": 3,
+        "weight": 10
+      }
+    ],
+    "scanHiddenLv": 60,
+    "scanHiddenCountMax": 12,
+    "scanHiddenCountList": [
+      {
+        "num": 0,
+        "weight": 67
+      },
+      {
+        "num": 1,
+        "weight": 33
+      }
+    ],
+    "ClickHiddenEventPosList": [
+      {
+        "icon_x": 50,
+        "icon_y": -200
+      },
+      {
+        "icon_x": -150,
+        "icon_y": -150
+      },
+      {
+        "icon_x": -250,
+        "icon_y": -400
+      },
+      {
+        "icon_x": 0,
+        "icon_y": -450
+      },
+      {
+        "icon_x": 400,
+        "icon_y": -100
+      },
+      {
+        "icon_x": 500,
+        "icon_y": -250
+      },
+      {
+        "icon_x": 800,
+        "icon_y": -150
+      },
+      {
+        "icon_x": 1100,
+        "icon_y": 110
+      },
+      {
+        "icon_x": 1300,
+        "icon_y": -370
+      },
+      {
+        "icon_x": 1100,
+        "icon_y": -100
+      },
+      {
+        "icon_x": 340,
+        "icon_y": -540
+      },
+      {
+        "icon_x": 580,
+        "icon_y": -700
+      },
+      {
+        "icon_x": 300,
+        "icon_y": -700
+      },
+      {
+        "icon_x": 460,
+        "icon_y": -800
+      },
+      {
+        "icon_x": 940,
+        "icon_y": -630
+      },
+      {
+        "icon_x": 25,
+        "icon_y": 135
+      },
+      {
+        "icon_x": -560,
+        "icon_y": 110
+      },
+      {
+        "icon_x": -275,
+        "icon_y": -700
+      },
+      {
+        "icon_x": -25,
+        "icon_y": -800
+      },
+      {
+        "icon_x": -480,
+        "icon_y": -720
+      },
+      {
+        "icon_x": -400,
+        "icon_y": -400
+      },
+      {
+        "icon_x": -400,
+        "icon_y": -70
+      },
+      {
+        "icon_x": 500,
+        "icon_y": 270
+      },
+      {
+        "icon_x": -600,
+        "icon_y": -160
+      }
+    ],
+    "ClickHiddenEventList": [
+      {
+        "id": 82800500,
+        "weight": 1
+      }
     ]
   },
   {
@@ -19919,6 +19685,85 @@
       },
       {
         "path": "UI/Activity/ActivityTurntable/Images/Turntable_rarity_UR"
+      }
+    ],
+    "materialBattleIconPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/MaterialBattle_right_icon_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/MaterialBattle_right_icon_2"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/MaterialBattle_right_icon_3"
+      }
+    ],
+    "scanOffIconPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_2"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_3"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_4"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_5"
+      }
+    ],
+    "scanOnIconPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_2"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_3"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_4"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_5"
+      }
+    ],
+    "scanBtnIconPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_2"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_3"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_4"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_5"
+      }
+    ],
+    "scanOffRoundPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_3"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_4"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_5"
       }
     ]
   },
@@ -20899,6 +20744,18 @@
         "id": 11400941
       },
       {
+        "id": 11400953
+      },
+      {
+        "id": 11400966
+      },
+      {
+        "id": 11400978
+      },
+      {
+        "id": 11400973
+      },
+      {
         "id": 11400354
       },
       {
@@ -21014,6 +20871,9 @@
       },
       {
         "id": 11400618
+      },
+      {
+        "id": 11400951
       }
     ],
     "lCost": [
@@ -22321,6 +22181,19 @@
       }
     ],
     "extraWarehouse": 11400235,
+    "whsInitNum": 2,
+    "whsMaxNum": 5,
+    "whsExpandCost": 11400614,
+    "whsFriendLimit": 7,
+    "whsMinQTN": 1.1,
+    "whsMaxQTN": 1.4,
+    "whsDefaultQTN": 1.2,
+    "commissionRate": 0.02,
+    "whsLockTime": 180,
+    "whsRefreshCD": 10,
+    "whsRewardsMail": 80800426,
+    "whsLogDay": 7,
+    "whsLogNum": 10,
     "extraQuotation": 0.01,
     "quotationThresholdList": [
       {
@@ -23961,7 +23834,6 @@
         "isShow": true,
         "name": 80602403,
         "png": "UI/Activity/Tab/tab_sign",
-        "showUI": "",
         "sort": 0,
         "startTime": "2024-01-01 00:00:00",
         "tag": 12601070
@@ -24010,100 +23882,44 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-01-18 12:00:00",
-        "id": 86000238,
+        "endTime": "2026-04-15 12:00:00",
+        "id": 86000283,
         "isCompleteBottom": false,
         "isCountDown": false,
         "isShow": true,
-        "name": 80611951,
-        "png": "UI/Activity/ActivitySignIn/NewYear2026/tag",
-        "showUI": "",
+        "name": 80612169,
+        "png": "UI/Activity/Tab/tag_flame",
+        "showUI": "UI/Activity/Flame/FlameActivity",
         "sort": 0,
-        "startTime": "2025-12-31 12:00:00",
-        "tag": 12601103
+        "startTime": "2026-03-13 12:00:00",
+        "tag": 12602025
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-01-30 12:00:00",
-        "id": 86000139,
+        "endTime": "2026-04-16 12:00:00",
+        "id": 86000288,
         "isCompleteBottom": false,
         "isCountDown": false,
         "isShow": true,
-        "name": 80611928,
-        "png": "UI/Activity/Tab/tab_BulletTrain",
-        "showUI": "UI/Activity/BulletTrain/BulletTrainActivity",
-        "sort": 0,
-        "startTime": "2025-12-31 12:00:00",
-        "tag": 12601957
-      },
-      {
-        "countDownMax": 3,
-        "endTime": "2026-01-22 04:59:00",
-        "id": 86000184,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "isShow": true,
-        "name": 80611875,
-        "png": "UI/Activity/Tab/Tab_Turntable01",
+        "name": 80612183,
+        "png": "UI/Activity/Tab/Tab_Turntable03",
         "showUI": "UI/Activity/ActivityTurntable/ActivityTurntable",
         "sort": 0,
-        "startTime": "2025-12-24 05:00:00",
+        "startTime": "2026-03-18 12:00:00",
         "tag": 12601942
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-01-06 12:00:00",
-        "id": 86000215,
+        "endTime": "2026-04-01 12:00:00",
+        "id": 86000201,
         "isCompleteBottom": false,
         "isCountDown": false,
         "isShow": true,
-        "name": 80611878,
-        "png": "UI/Activity/Tab/tab_signBattleVostok",
-        "showUI": "UI/Activity/ActivitySignBattle/ActivitySignBattleLevelVostok",
+        "name": 80611854,
+        "png": "UI/Activity/Tab/tab_signBattleChenshuxian",
+        "showUI": "UI/Activity/ActivitySignBattle/ActivitySignBattleLevelChenshuxian",
         "sort": 0,
-        "startTime": "2025-12-16 12:00:00",
-        "tag": 12601908
-      },
-      {
-        "countDownMax": 3,
-        "endTime": "2026-01-13 12:00:00",
-        "id": 86000067,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "isShow": true,
-        "name": 80611408,
-        "png": "UI/Activity/Tab/tab_jiaohuang",
-        "showUI": "UI/Activity/IronSaga/IronSagaActivity",
-        "sort": 0,
-        "startTime": "2025-12-22 12:00:00",
-        "tag": 12601876
-      },
-      {
-        "countDownMax": 3,
-        "endTime": "2026-01-06 12:00:00",
-        "id": 86000112,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "isShow": false,
-        "name": 80611211,
-        "png": "",
-        "showUI": "",
-        "sort": 0,
-        "startTime": "2025-12-22 05:00:00",
-        "tag": 12601819
-      },
-      {
-        "countDownMax": 3,
-        "endTime": "2026-01-12 12:00:00",
-        "id": 86000171,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "isShow": true,
-        "name": 80611629,
-        "png": "UI/Activity/Tab/tab_signBattleAnethum",
-        "showUI": "UI/Activity/ActivitySignBattle/ActivitySignBattleLevelAnethum",
-        "sort": 0,
-        "startTime": "2025-12-22 12:00:00",
+        "startTime": "2026-03-23 12:00:00",
         "tag": 12601908
       },
       {
@@ -24122,17 +23938,45 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-01-30 12:00:00",
-        "id": 86000229,
+        "endTime": "2026-03-13 04:59:00",
+        "id": 86000051,
         "isCompleteBottom": false,
         "isCountDown": false,
-        "isShow": false,
-        "name": -1,
-        "png": "",
-        "showUI": "",
+        "isShow": true,
+        "name": 80610280,
+        "png": "UI/Activity/Tab/tab_witches",
+        "showUI": "UI/Witches/ActivityMain/WitchsActivityMain",
         "sort": 0,
-        "startTime": "2025-12-31 12:00:00",
-        "tag": 12601908
+        "startTime": "2026-02-11 12:00:00",
+        "tag": 12601669
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-02-28 04:59:00",
+        "id": 86000274,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80610439,
+        "png": "UI/Activity/Tab/tab_endlessBattle",
+        "showUI": "UI/Activity/ActivityEndlessBattle/ActivityEndlessBattle",
+        "sort": 0,
+        "startTime": "2026-02-12 05:00:00",
+        "tag": 12601701
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-04-15 12:00:00",
+        "id": 86000228,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80611358,
+        "png": "UI/Activity/Tab/tag_worldbossbsn",
+        "showUI": "UI/Activity/ActivityWorldBoss/ActivityWorldBoss",
+        "sort": 0,
+        "startTime": "2026-03-13 12:00:00",
+        "tag": 12601815
       },
       {
         "countDownMax": 3,
@@ -24150,20 +23994,6 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-01-16 04:59:59",
-        "id": 86000020,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "isShow": true,
-        "name": 80608741,
-        "png": "UI/Monopoly/UI/1/tag",
-        "showUI": "UI/Activity/ActivityMonopoly/MonopolyMain",
-        "sort": 0,
-        "startTime": "2025-12-10 00:00:00",
-        "tag": 12601422
-      },
-      {
-        "countDownMax": 3,
         "endTime": "2025-12-31 12:00:00",
         "id": 86000069,
         "isCompleteBottom": false,
@@ -24175,6 +24005,34 @@
         "sort": 0,
         "startTime": "2025-12-01 12:00:00",
         "tag": 12601727
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-02-06 12:00:00",
+        "id": 86000229,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": false,
+        "name": -1,
+        "png": "",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2025-12-31 12:00:02",
+        "tag": 12601908
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-04-15 12:00:00",
+        "id": 86000281,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": false,
+        "name": -1,
+        "png": "",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2026-03-13 12:00:00",
+        "tag": 12601908
       }
     ],
     "activityMainList": [
@@ -24209,13 +24067,27 @@
       {
         "countDownMax": 3,
         "endTime": "",
+        "id": 86000258,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80612061,
+        "png": "UI/Activity/Tab/tab_global",
+        "showUI": "UI/Activity/ActivityGlobalBattle/ActivityGlobalBattle",
+        "sort": 0,
+        "startTime": "",
+        "tag": 12601990
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "",
         "id": 86000005,
         "isCompleteBottom": false,
         "isCountDown": false,
         "isShow": true,
         "name": 80607258,
         "png": "UI/Activity/Tab/tab_battleBoss",
-        "showUI": "UI/Activity/ActivityBattleBoss/ActivityBattleBoss",
+        "showUI": "UI/Activity/ActivityBattleBoss/ActivityBattleBossNew",
         "sort": 0,
         "startTime": "2024-07-01 12:00:00",
         "tag": 12601209
@@ -24422,7 +24294,57 @@
       }
     ],
     "questList": [],
-    "dayRedPoint": 2
+    "dayRedPoint": 2,
+    "adMainList": [
+      {
+        "UIType": "Store",
+        "Way3": "{\"shopId\":80307398}",
+        "adpicture": "UI/MainUI/Advertisement/Pic/store",
+        "id": 82101609
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000001",
+        "adpicture": "UI/MainUI/Advertisement/Pic/BlackTea",
+        "id": 86000001
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000002",
+        "adpicture": "UI/MainUI/Advertisement/Pic/construction",
+        "id": 86000002
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000009",
+        "adpicture": "UI/MainUI/Advertisement/Pic/monster",
+        "id": 86000009
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000016",
+        "adpicture": "UI/MainUI/Advertisement/Pic/summer",
+        "id": 86000016
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000038",
+        "adpicture": "UI/MainUI/Advertisement/Pic/hotel",
+        "id": 86000038
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000037",
+        "adpicture": "UI/MainUI/Advertisement/Pic/randombattle",
+        "id": 86000037
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000093",
+        "adpicture": "UI/MainUI/Advertisement/Pic/trainbattle",
+        "id": 86000093
+      }
+    ]
   },
   {
     "id": 99900057,
@@ -24594,6 +24516,8 @@
     ],
     "autoFightLv": 30,
     "autoFightPath": "UI/MainUI/map_icon_driveSetup1",
+    "autoFightLvOffset": 5,
+    "autoFightTime": 120,
     "autoFightUnLock": [
       {
         "id": 11400004,
@@ -24675,6 +24599,14 @@
       {
         "id": 86300013,
         "startTime": "2026-01-01 12:00:01"
+      },
+      {
+        "id": 86300014,
+        "startTime": "2026-02-03 12:00:01"
+      },
+      {
+        "id": 86300015,
+        "startTime": "2026-03-13 12:00:01"
       }
     ]
   },
@@ -25153,6 +25085,26 @@
       {
         "ChapterList": 20603602,
         "questId": -1
+      },
+      {
+        "ChapterList": 20603621,
+        "questId": -1
+      },
+      {
+        "ChapterList": 20603666,
+        "questId": -1
+      },
+      {
+        "ChapterList": 20603673,
+        "questId": -1
+      },
+      {
+        "ChapterList": 20603735,
+        "questId": -1
+      },
+      {
+        "ChapterList": 20603752,
+        "questId": -1
       }
     ]
   },
@@ -25584,7 +25536,7 @@
   },
   {
     "id": 99900069,
-    "idCN": "委派/委派",
+    "idCN": "委派",
     "mod": "委派相关",
     "isInformalData": false,
     "nameEN": "EntrustConfig",
@@ -25646,7 +25598,7 @@
         "day": 3
       }
     ],
-    "battlePassCoefficient": 2,
+    "battlePassCoefficient": 1,
     "openBuildingList": [
       {
         "id": 84400008
@@ -26403,7 +26355,19 @@
     "stealRate": 1,
     "petReduceRate": 0.3,
     "petExScore": 10000,
-    "doReduceRate": 0.3
+    "doReduceRate": 0.3,
+    "cardList": [
+      {
+        "card": 80307477,
+        "id": 11400890,
+        "tag": "UI/CardCase/cardselect_normal"
+      },
+      {
+        "card": 80307478,
+        "id": 11400891,
+        "tag": "UI/CardCase/heluna/select"
+      }
+    ]
   },
   {
     "id": 99900073,
@@ -27564,6 +27528,9 @@
     "nameEN": "BannerConfig",
     "bannerList": [
       {
+        "id": 80500360
+      },
+      {
         "id": 80500302
       },
       {
@@ -27571,6 +27538,12 @@
       },
       {
         "id": 80500235
+      },
+      {
+        "id": 80500348
+      },
+      {
+        "id": 80500347
       },
       {
         "id": 80500327
@@ -27589,6 +27562,9 @@
       },
       {
         "id": 80500029
+      },
+      {
+        "id": 80500341
       },
       {
         "id": 80500314
@@ -27805,7 +27781,9 @@
         "weight": 1
       }
     ],
-    "choiceBuffval": 50
+    "choiceBuffval": 50,
+    "hitSoundCommon": 0.5,
+    "hitSoundCorpseTide": 0.3
   },
   {
     "id": 99900053,
@@ -30170,6 +30148,9 @@
     "isInformalData": false,
     "nameEN": "TradeUpgradeConfig",
     "levelLock": 20,
+    "NextLock": 10,
+    "BuffRate": 100000000,
+    "BuffFloor": 0.55,
     "distanceMag": 25,
     "levelMag": 1.2,
     "cityMag": 1.2,
@@ -30182,61 +30163,91 @@
     "quality": [
       {
         "left": 0,
+        "lock": 5000,
         "num": 1,
         "right": 500
       },
       {
         "left": 500,
+        "lock": 7500,
         "num": 2,
         "right": 1000
       },
       {
         "left": 1000,
+        "lock": 10000,
+        "num": 3,
+        "right": 1500
+      },
+      {
+        "left": 1500,
+        "lock": 15000,
         "num": 3,
         "right": 2000
       },
       {
         "left": 2000,
+        "lock": 20000,
+        "num": 4,
+        "right": 2500
+      },
+      {
+        "left": 2500,
+        "lock": 25000,
         "num": 4,
         "right": 3000
       },
       {
         "left": 3000,
+        "lock": 35000,
+        "num": 4,
+        "right": 3500
+      },
+      {
+        "left": 3500,
+        "lock": 50000,
         "num": 5,
         "right": 4000
       },
       {
         "left": 4000,
+        "lock": 75000,
         "num": 6,
         "right": 5000
       },
       {
         "left": 5000,
+        "lock": 100000,
         "num": 7,
         "right": 6000
       },
       {
         "left": 6000,
+        "lock": 150000,
         "num": 8,
         "right": 7000
       },
       {
         "left": 7000,
+        "lock": 200000,
         "num": 9,
         "right": 8000
       },
       {
         "left": 8000,
+        "lock": 300000,
         "num": 10,
         "right": 9000
       },
       {
         "left": 9000,
+        "lock": 400000,
         "num": 11,
         "right": 10000
       },
       {
         "left": 10000,
+        "lock": 500000,
         "num": 12,
         "right": 99999
       }
@@ -30250,6 +30261,100 @@
     "nameEN": "",
     "activeList": [],
     "activityTimeList": [
+      {
+        "countDownMax": 3,
+        "endTime": "2026-04-15 12:00:00",
+        "id": 86000282,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80612118,
+        "png": "UI/Activity/ActivitySignIn/fire2nd/tag",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2026-03-13 05:00:00",
+        "tag": 12601103
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-03-31 12:00:00",
+        "id": 86000228,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80611358,
+        "png": "UI/Activity/Tab/tag_worldbossbsn",
+        "showUI": "UI/Activity/ActivityWorldBoss/ActivityWorldBoss",
+        "sort": 0,
+        "startTime": "2026-02-28 12:00:00",
+        "tag": 12601815
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-03-18 23:59:00",
+        "id": 86000182,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80611358,
+        "png": "UI/Activity/Tab/tag_wordbossHKD",
+        "showUI": "UI/Activity/ActivityWorldBoss/ActivityWorldBoss",
+        "sort": 0,
+        "startTime": "2026-03-01 00:00:00",
+        "tag": 12601815
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-01-18 12:00:00",
+        "id": 86000238,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80611951,
+        "png": "UI/Activity/ActivitySignIn/NewYear2026/tag",
+        "sort": 0,
+        "startTime": "2025-12-31 12:00:00",
+        "tag": 12601103
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-03-06 12:00:00",
+        "id": 86000255,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "sort": 0,
+        "startTime": "2026-02-06 12:00:00",
+        "tag": 12601908
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-01-06 12:00:00",
+        "id": 86000215,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80611878,
+        "png": "UI/Activity/Tab/tab_signBattleVostok",
+        "showUI": "UI/Activity/ActivitySignBattle/ActivitySignBattleLevelVostok",
+        "sort": 0,
+        "startTime": "2025-12-16 12:00:00",
+        "tag": 12601908
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2025-12-31 12:00:00",
+        "id": 86000069,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80610669,
+        "png": "UI/Activity/Tab/tab_MonthlyCardCSXNew",
+        "showUI": "UI/Activity/ActivityMonthlyCard/ActivityMonthlyCard",
+        "sort": 0,
+        "startTime": "2025-12-01 12:00:00",
+        "tag": 12601727
+      },
       {
         "countDownMax": 3,
         "endTime": "2025-12-22 12:00:00",
@@ -30315,7 +30420,7 @@
         "isShow": true,
         "name": 80611929,
         "png": "UI/Activity/ActivityRecharge/04/tab",
-        "showUI": "UI/Activity/ActivityRecharge/ActivityRechargeMist",
+        "showUI": "UI/Activity/ActivityRecharge/ActivityRecharge04",
         "sort": 0,
         "startTime": "2025-10-31 05:00:00",
         "tag": 12601700
@@ -30343,7 +30448,6 @@
         "isShow": true,
         "name": 80611769,
         "png": "UI/Activity/ActivitySignIn/Mist/tag",
-        "showUI": "",
         "sort": 0,
         "startTime": "2025-10-31 05:00:00",
         "tag": 12601103
@@ -30427,7 +30531,6 @@
         "isShow": true,
         "name": 80611388,
         "png": "UI/Activity/ActivitySignIn/IronSaga/tag",
-        "showUI": "",
         "sort": 0,
         "startTime": "2025-08-15 05:00:00",
         "tag": 12601103
@@ -30496,8 +30599,6 @@
         "isCountDown": false,
         "isShow": false,
         "name": 80611211,
-        "png": "",
-        "showUI": "",
         "sort": 0,
         "startTime": "2025-08-15 05:00:00",
         "tag": 12601819
@@ -30518,7 +30619,6 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "",
         "id": 86000054,
         "isCompleteBottom": false,
         "isCountDown": true,
@@ -30581,7 +30681,6 @@
         "isShow": true,
         "name": 80611589,
         "png": "UI/Activity/ActivitySignIn/NationalDay2025/tag",
-        "showUI": "",
         "sort": 0,
         "startTime": "2025-09-30 05:00:00",
         "tag": 12601103
@@ -30649,9 +30748,6 @@
         "isCompleteBottom": false,
         "isCountDown": false,
         "isShow": false,
-        "name": -1,
-        "png": "",
-        "showUI": "",
         "sort": 0,
         "startTime": "2025-11-01 12:00:00",
         "tag": 12601908
@@ -30693,17 +30789,44 @@
         "isShow": false,
         "name": 80611513,
         "png": "UI/Activity/Tab/tab_signBattleChelsea",
-        "showUI": "",
         "sort": 0,
         "startTime": "2026-01-01 12:00:00",
         "tag": 12601908
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-03-13 05:00:00",
+        "id": 86000266,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80612083,
+        "png": "UI/Activity/Tab/Tab_Turntable02",
+        "showUI": "UI/Activity/ActivityTurntable/ActivityTurntable",
+        "sort": 0,
+        "startTime": "2026-02-08 05:00:00",
+        "tag": 12601942
       }
     ],
-    "activityMainList": [],
+    "activityMainList": [
+      {
+        "countDownMax": 3,
+        "id": 86000258,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80612061,
+        "png": "UI/Activity/Tab/tab_global",
+        "showUI": "UI/Activity/ActivityGlobalBattle/ActivityGlobalBattle",
+        "sort": 0,
+        "tag": 12601990
+      }
+    ],
     "activityPlotList": [],
     "activityOperateList": [],
     "questList": [],
-    "dayRedPoint": 2
+    "dayRedPoint": 2,
+    "adMainList": []
   },
   {
     "id": 99900235,
@@ -30813,6 +30936,315 @@
       {
         "id": 80308288,
         "level": 105
+      }
+    ]
+  },
+  {
+    "id": 99900227,
+    "idCN": "商业通行证经验表",
+    "mod": "经验值",
+    "isInformalData": false,
+    "nameEN": "BPassExpConfig",
+    "expList": [
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 0
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 200
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 300
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 400
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 500
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 600
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 700
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 800
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 900
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1000
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1200
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1300
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1400
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1500
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1600
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1700
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1800
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 1900
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 2000
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 2100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 2200
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 2400
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 2600
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 2800
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 3000
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 3200
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 3400
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 3600
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 3800
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 4000
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 4200
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 4500
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 4800
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 5100
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 5400
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 5700
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 6000
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 6300
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 6600
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 6900
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 7200
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 7600
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 8000
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 8400
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 8800
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 9200
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 9600
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 10000
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 10400
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 10800
+      },
+      {
+        "EnergyMax": 0,
+        "levelUpEnergy": 0,
+        "levelUpExp": 11200
       }
     ]
   }

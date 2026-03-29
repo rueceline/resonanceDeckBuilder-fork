@@ -256,8 +256,8 @@
       },
       {
         "id": 86400538,
-        "x": 143,
-        "y": 61
+        "x": 210,
+        "y": -100
       },
       {
         "id": 86400539,
@@ -266,8 +266,8 @@
       },
       {
         "id": 86400540,
-        "x": 143,
-        "y": 61
+        "x": 210,
+        "y": -100
       }
     ],
     "isShowRep": true,
@@ -3490,7 +3490,7 @@
         "y": 218
       }
     ],
-    "isShowRep": false,
+    "isShowRep": true,
     "isShowConstruct": false,
     "exitId": -1
   },
@@ -3619,12 +3619,7 @@
         "y": -167
       },
       {
-        "id": 86400517,
-        "x": 499,
-        "y": 226
-      },
-      {
-        "id": 86400518,
+        "id": 86400442,
         "x": 499,
         "y": 226
       },
@@ -15262,7 +15257,7 @@
         "y": 164
       }
     ],
-    "isShowRep": false,
+    "isShowRep": true,
     "isShowConstruct": false,
     "exitId": -1
   },
@@ -22085,5 +22080,189 @@
     "npcId": -1,
     "bgPath": "",
     "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400442,
+    "idCN": "03气泡/T13维蒂林场S0/01建筑/管理中心-贝尔法斯特常态",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "管理中心",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/Story/Belfast",
+    "nameIconPath": "UI/CityMap/citymap_icon_centre",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenUI",
+    "btnType": "BattleCenter",
+    "mId": -1,
+    "uiPath": "UI/HomeBattleCenter/HomeBattleCenter",
+    "buildingId": 84400279,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": 83700169,
+    "bgPath": "UI/Dialog/Back9/WDLC_Office",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400543,
+    "idCN": "01城市地图/武陵源",
+    "mod": "城市地图",
+    "isInformalData": false,
+    "bgList": [
+      {
+        "bgPath": "UI/Dialog/Back9/City_WDLC_1",
+        "changeTime": "05:30:00",
+        "effectListId": 86400056,
+        "sceneId": 80307800
+      },
+      {
+        "bgPath": "UI/Dialog/Back9/City_WDLC_2",
+        "changeTime": "10:00:00",
+        "effectListId": 86400056,
+        "sceneId": 80307800
+      },
+      {
+        "bgPath": "UI/Dialog/Back9/City_WDLC_3",
+        "changeTime": "14:30:00",
+        "effectListId": 86400056,
+        "sceneId": 80307800
+      },
+      {
+        "bgPath": "UI/Dialog/Back9/City_WDLC_4",
+        "changeTime": "17:30:00",
+        "effectListId": 86400051,
+        "sceneId": 80307800
+      },
+      {
+        "bgPath": "UI/Dialog/Back9/City_WDLC_5",
+        "changeTime": "19:30:00",
+        "effectListId": 86400051,
+        "sceneId": 80307800
+      }
+    ],
+    "offsetX": 0,
+    "offsetY": 0,
+    "bubbleList": [
+      {
+        "id": 86400496,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400498,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400510,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400511,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400515,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400519,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400520,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400516,
+        "x": -647,
+        "y": -167
+      },
+      {
+        "id": 86400442,
+        "x": 499,
+        "y": 226
+      },
+      {
+        "id": 86400514,
+        "x": 173,
+        "y": -299
+      },
+      {
+        "id": 86400521,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400522,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400523,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400524,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400525,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400526,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400527,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400528,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400529,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400530,
+        "x": 200,
+        "y": 200
+      },
+      {
+        "id": 86400531,
+        "x": 200,
+        "y": 200
+      }
+    ],
+    "isShowRep": true,
+    "isShowConstruct": true,
+    "exitId": -1
   }
 ]

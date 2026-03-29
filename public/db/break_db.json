@@ -1,4 +1,11 @@
 {
+  "12100001": {
+    "id": 12100001,
+    "name": "break_name_12100001",
+    "desc": "break_desc_12100001",
+    "path": "roleplus/00gift/katasignis/FanYinYaoDang.webp",
+    "attributeList": []
+  },
   "12100002": {
     "id": 12100002,
     "name": "",
@@ -392,6 +399,13 @@
     "path": "",
     "attributeList": []
   },
+  "12100051": {
+    "id": 12100051,
+    "name": "break_name_12100051",
+    "desc": "break_desc_12100051",
+    "path": "roleplus/00gift/rada/XieTongDaJi.webp",
+    "attributeList": []
+  },
   "12100052": {
     "id": 12100052,
     "name": "break_name_12100052",
@@ -434,6 +448,36 @@
     "path": "roleplus/00gift/katas/ReXue.webp",
     "attributeList": []
   },
+  "12100058": {
+    "id": 12100058,
+    "name": "",
+    "desc": "",
+    "path": "",
+    "attributeList": []
+  },
+  "12100059": {
+    "id": 12100059,
+    "name": "break_name_12100059",
+    "desc": "break_desc_12100059",
+    "path": "roleplus/00gift/box/DouZhi.webp",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ]
+  },
   "12100060": {
     "id": 12100060,
     "name": "break_name_12100060",
@@ -453,6 +497,20 @@
     "name": "break_name_12100062",
     "desc": "break_desc_12100062",
     "path": "roleplus/00gift/tara/QiangYuan.webp",
+    "attributeList": []
+  },
+  "12100063": {
+    "id": 12100063,
+    "name": "break_name_12100063",
+    "desc": "break_desc_12100063",
+    "path": "roleplus/00gift/rada/JueShengZhiZhi.webp",
+    "attributeList": []
+  },
+  "12100064": {
+    "id": 12100064,
+    "name": "break_name_12100064",
+    "desc": "break_desc_12100064",
+    "path": "roleplus/00gift/rada/GangTieHongLiu.webp",
     "attributeList": []
   },
   "12100065": {
@@ -476,6 +534,20 @@
     "path": "roleplus/00gift/solum/LianHuanQiangDa.webp",
     "attributeList": []
   },
+  "12100068": {
+    "id": 12100068,
+    "name": "break_name_12100068",
+    "desc": "break_desc_12100068",
+    "path": "roleplus/00gift/rada/AngYangZhanYi.webp",
+    "attributeList": []
+  },
+  "12100069": {
+    "id": 12100069,
+    "name": "break_name_12100069",
+    "desc": "break_desc_12100069",
+    "path": "roleplus/00gift/katasignis/FuChongHongZha.webp",
+    "attributeList": []
+  },
   "12100070": {
     "id": 12100070,
     "name": "break_name_12100070",
@@ -495,6 +567,20 @@
     "name": "break_name_12100072",
     "desc": "break_desc_12100072",
     "path": "roleplus/00gift/mahr/NiaoQi.webp",
+    "attributeList": []
+  },
+  "12100073": {
+    "id": 12100073,
+    "name": "break_name_12100073",
+    "desc": "break_desc_12100073",
+    "path": "roleplus/00gift/katasignis/YaoGunZhiXin.webp",
+    "attributeList": []
+  },
+  "12100074": {
+    "id": 12100074,
+    "name": "break_name_12100074",
+    "desc": "break_desc_12100074",
+    "path": "roleplus/00gift/katasignis/BaoLieGuaXian.webp",
     "attributeList": []
   },
   "12100075": {
@@ -518,6 +604,36 @@
     "path": "roleplus/00gift/cecil/YiLuanHouDiao.webp",
     "attributeList": []
   },
+  "12100078": {
+    "id": 12100078,
+    "name": "",
+    "desc": "",
+    "path": "",
+    "attributeList": []
+  },
+  "12100079": {
+    "id": 12100079,
+    "name": "break_name_12100079",
+    "desc": "break_desc_12100079",
+    "path": "roleplus/00gift/box/DouZhi.webp",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ]
+  },
   "12100080": {
     "id": 12100080,
     "name": "break_name_12100080",
@@ -537,6 +653,20 @@
     "name": "break_name_12100082",
     "desc": "break_desc_12100082",
     "path": "roleplus/00gift/priming/GaoBaoZhuangYao.webp",
+    "attributeList": []
+  },
+  "12100083": {
+    "id": 12100083,
+    "name": "break_name_12100083",
+    "desc": "break_desc_12100083",
+    "path": "roleplus/00gift/charlottestillheart/WuYiZhiXinNian.webp",
+    "attributeList": []
+  },
+  "12100084": {
+    "id": 12100084,
+    "name": "",
+    "desc": "",
+    "path": "",
     "attributeList": []
   },
   "12100085": {
@@ -567,6 +697,36 @@
     "path": "roleplus/00gift/achiwa/WoZhi.webp",
     "attributeList": []
   },
+  "12100089": {
+    "id": 12100089,
+    "name": "break_name_12100089",
+    "desc": "break_desc_12100089",
+    "path": "roleplus/00gift/box/DouZhi.webp",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ]
+  },
+  "12100090": {
+    "id": 12100090,
+    "name": "break_name_12100090",
+    "desc": "break_desc_12100090",
+    "path": "roleplus/00gift/charlottestillheart/WuJieZhiRongGuang.webp",
+    "attributeList": []
+  },
   "12100091": {
     "id": 12100091,
     "name": "break_name_12100091",
@@ -579,6 +739,20 @@
     "name": "break_name_12100092",
     "desc": "break_desc_12100092",
     "path": "roleplus/00gift/cynthia/GaoTanXingJian.webp",
+    "attributeList": []
+  },
+  "12100093": {
+    "id": 12100093,
+    "name": "break_name_12100093",
+    "desc": "break_desc_12100093",
+    "path": "roleplus/00gift/charlottestillheart/WuHuiZhiJueYi.webp",
+    "attributeList": []
+  },
+  "12100094": {
+    "id": 12100094,
+    "name": "break_name_12100094",
+    "desc": "break_desc_12100094",
+    "path": "roleplus/00gift/charlottestillheart/WuDuanZhiZhongFeng.webp",
     "attributeList": []
   },
   "12100095": {
@@ -602,6 +776,20 @@
     "path": "roleplus/00gift/charlotte/YouRenYouYu.webp",
     "attributeList": []
   },
+  "12100098": {
+    "id": 12100098,
+    "name": "break_name_12100098",
+    "desc": "break_desc_12100098",
+    "path": "roleplus/00gift/shana/YanFaZhuoYanDeTaoFaZhe.webp",
+    "attributeList": []
+  },
+  "12100099": {
+    "id": 12100099,
+    "name": "break_name_12100099",
+    "desc": "break_desc_12100099",
+    "path": "roleplus/00gift/shana/HuoYanZhiYi.webp",
+    "attributeList": []
+  },
   "12100100": {
     "id": 12100100,
     "name": "break_name_12100100",
@@ -623,6 +811,20 @@
     "path": "roleplus/00gift/aoba/MingYun.webp",
     "attributeList": []
   },
+  "12100103": {
+    "id": 12100103,
+    "name": "break_name_12100103",
+    "desc": "break_desc_12100103",
+    "path": "roleplus/00gift/shana/WuHeYouJing.webp",
+    "attributeList": []
+  },
+  "12100104": {
+    "id": 12100104,
+    "name": "break_name_12100104",
+    "desc": "break_desc_12100104",
+    "path": "roleplus/00gift/shana/HongLianZhiYan.webp",
+    "attributeList": []
+  },
   "12100105": {
     "id": 12100105,
     "name": "break_name_12100105",
@@ -637,6 +839,29 @@
     "path": "",
     "attributeList": []
   },
+  "12100107": {
+    "id": 12100107,
+    "name": "break_name_12100107",
+    "desc": "break_desc_12100107",
+    "path": "roleplus/00gift/box/DouZhi.webp",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ]
+  },
   "12100108": {
     "id": 12100108,
     "name": "",
@@ -646,6 +871,13 @@
   },
   "12100109": {
     "id": 12100109,
+    "name": "",
+    "desc": "",
+    "path": "",
+    "attributeList": []
+  },
+  "12100110": {
+    "id": 12100110,
     "name": "",
     "desc": "",
     "path": "",
@@ -663,6 +895,20 @@
     "name": "break_name_12100112",
     "desc": "break_desc_12100112",
     "path": "roleplus/00gift/conor/KaiZhanShiKe.webp",
+    "attributeList": []
+  },
+  "12100113": {
+    "id": 12100113,
+    "name": "break_name_12100113",
+    "desc": "break_desc_12100113",
+    "path": "roleplus/00gift/ruby/TongBuXieYi.webp",
+    "attributeList": []
+  },
+  "12100114": {
+    "id": 12100114,
+    "name": "break_name_12100114",
+    "desc": "break_desc_12100114",
+    "path": "roleplus/00gift/ruby/ShengQuanZaiWo.webp",
     "attributeList": []
   },
   "12100115": {
@@ -686,6 +932,20 @@
     "path": "roleplus/00gift/shizuru/FuJiaDanCang.webp",
     "attributeList": []
   },
+  "12100118": {
+    "id": 12100118,
+    "name": "break_name_12100118",
+    "desc": "break_desc_12100118",
+    "path": "roleplus/00gift/ruby/JiXieBingTuan.webp",
+    "attributeList": []
+  },
+  "12100119": {
+    "id": 12100119,
+    "name": "break_name_12100119",
+    "desc": "break_desc_12100119",
+    "path": "roleplus/00gift/ruby/XinBiaoDaoYin.webp",
+    "attributeList": []
+  },
   "12100120": {
     "id": 12100120,
     "name": "break_name_12100120",
@@ -693,8 +953,45 @@
     "path": "roleplus/00gift/julian/YouQing.webp",
     "attributeList": []
   },
+  "12100121": {
+    "id": 12100121,
+    "name": "break_name_12100121",
+    "desc": "break_desc_12100121",
+    "path": "roleplus/00gift/box/DouZhi.webp",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ]
+  },
   "12100122": {
     "id": 12100122,
+    "name": "",
+    "desc": "",
+    "path": "",
+    "attributeList": []
+  },
+  "12100123": {
+    "id": 12100123,
+    "name": "",
+    "desc": "",
+    "path": "",
+    "attributeList": []
+  },
+  "12100124": {
+    "id": 12100124,
     "name": "",
     "desc": "",
     "path": "",
@@ -712,6 +1009,20 @@
     "name": "",
     "desc": "",
     "path": "",
+    "attributeList": []
+  },
+  "12100127": {
+    "id": 12100127,
+    "name": "break_name_12100127",
+    "desc": "break_desc_12100127",
+    "path": "RolePlus/00Gift/Teresa/WangPaiJiShi",
+    "attributeList": []
+  },
+  "12100128": {
+    "id": 12100128,
+    "name": "break_name_12100128",
+    "desc": "break_desc_12100128",
+    "path": "RolePlus/00Gift/Teresa/ChuJue",
     "attributeList": []
   },
   "12100129": {
@@ -805,6 +1116,13 @@
     "path": "roleplus/00gift/wensheng/XuanHua.webp",
     "attributeList": []
   },
+  "12100142": {
+    "id": 12100142,
+    "name": "break_name_12100142",
+    "desc": "break_desc_12100142",
+    "path": "RolePlus/00Gift/Teresa/ShaYi",
+    "attributeList": []
+  },
   "12100143": {
     "id": 12100143,
     "name": "",
@@ -826,11 +1144,55 @@
     "path": "roleplus/00gift/lissandra/DieXue.webp",
     "attributeList": []
   },
+  "12100146": {
+    "id": 12100146,
+    "name": "break_name_12100146",
+    "desc": "break_desc_12100146",
+    "path": "RolePlus/00Gift/Teresa/NianYa",
+    "attributeList": []
+  },
+  "12100147": {
+    "id": 12100147,
+    "name": "break_name_12100147",
+    "desc": "break_desc_12100147",
+    "path": "roleplus/00gift/box/DouZhi.webp",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1500
+      }
+    ]
+  },
   "12100148": {
     "id": 12100148,
     "name": "break_name_12100148",
     "desc": "break_desc_12100148",
     "path": "roleplus/00gift/lissandra/XueJi.webp",
+    "attributeList": []
+  },
+  "12100149": {
+    "id": 12100149,
+    "name": "",
+    "desc": "",
+    "path": "",
+    "attributeList": []
+  },
+  "12100150": {
+    "id": 12100150,
+    "name": "",
+    "desc": "",
+    "path": "",
     "attributeList": []
   },
   "12100151": {
@@ -842,6 +1204,13 @@
   },
   "12100152": {
     "id": 12100152,
+    "name": "",
+    "desc": "",
+    "path": "",
+    "attributeList": []
+  },
+  "12100153": {
+    "id": 12100153,
     "name": "",
     "desc": "",
     "path": "",
@@ -877,6 +1246,13 @@
   },
   "12100159": {
     "id": 12100159,
+    "name": "",
+    "desc": "",
+    "path": "",
+    "attributeList": []
+  },
+  "12100160": {
+    "id": 12100160,
     "name": "",
     "desc": "",
     "path": "",

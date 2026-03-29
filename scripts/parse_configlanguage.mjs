@@ -22,13 +22,13 @@ import path from "path";
 
 const LANG_CONFIGS = {
   KR: {
-    inputDir: "C:/Program Files (x86)/Resonance/레조넌스_Data/Patch/Translate",
+    inputDir: "D:/Resonance/レゾナンス：無限号列車_Data/Patch/Translate",
   },
   JP: {
-    inputDir: "C:/Resonance/雷索纳斯_Data/Patch/Translate",
+    inputDir: "D:/Resonance/レゾナンス：無限号列車_Data/Patch/Translate",
   },
   EN: {
-    inputDir: "C:/Resonance/雷索纳斯_Data/Patch/Translate",
+    inputDir: "D:/Resonance/レゾナンス：無限号列車_Data/Patch/Translate",
   },
 };
 

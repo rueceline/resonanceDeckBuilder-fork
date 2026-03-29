@@ -784,6 +784,18 @@
       {
         "id": 40201763,
         "weight": 2
+      },
+      {
+        "id": 40201746,
+        "weight": 21
+      },
+      {
+        "id": 40201747,
+        "weight": 13
+      },
+      {
+        "id": 40201748,
+        "weight": 8
       }
     ],
     "storeType": "Random",
@@ -1325,6 +1337,18 @@
       {
         "id": 40201763,
         "weight": 2
+      },
+      {
+        "id": 40201746,
+        "weight": 21
+      },
+      {
+        "id": 40201747,
+        "weight": 13
+      },
+      {
+        "id": 40201748,
+        "weight": 8
       }
     ],
     "storeType": "Random",
@@ -1866,6 +1890,18 @@
       {
         "id": 40201763,
         "weight": 2
+      },
+      {
+        "id": 40201746,
+        "weight": 21
+      },
+      {
+        "id": 40201747,
+        "weight": 13
+      },
+      {
+        "id": 40201748,
+        "weight": 8
       }
     ],
     "storeType": "Random",
@@ -2407,6 +2443,18 @@
       {
         "id": 40201763,
         "weight": 2
+      },
+      {
+        "id": 40201746,
+        "weight": 21
+      },
+      {
+        "id": 40201747,
+        "weight": 13
+      },
+      {
+        "id": 40201748,
+        "weight": 8
       }
     ],
     "storeType": "Random",
@@ -2948,6 +2996,18 @@
       {
         "id": 40201763,
         "weight": 2
+      },
+      {
+        "id": 40201746,
+        "weight": 21
+      },
+      {
+        "id": 40201747,
+        "weight": 13
+      },
+      {
+        "id": 40201748,
+        "weight": 8
       }
     ],
     "storeType": "Random",
@@ -6419,6 +6479,18 @@
       {
         "id": 40201763,
         "weight": 2
+      },
+      {
+        "id": 40201746,
+        "weight": 21
+      },
+      {
+        "id": 40201747,
+        "weight": 13
+      },
+      {
+        "id": 40201748,
+        "weight": 8
       }
     ],
     "storeType": "Random",
@@ -7022,6 +7094,10 @@
       },
       {
         "id": 40200613,
+        "weight": 1
+      },
+      {
+        "id": 40201745,
         "weight": 1
       },
       {
@@ -11061,6 +11137,50 @@
     "pngNotSelect": "UI/Home/HomeStore/chuang_notselect",
     "shopList": [
       {
+        "id": 40201750,
+        "weight": 1
+      },
+      {
+        "id": 40201753,
+        "weight": 1
+      },
+      {
+        "id": 40201752,
+        "weight": 1
+      },
+      {
+        "id": 40201751,
+        "weight": 1
+      },
+      {
+        "id": 40201738,
+        "weight": 1
+      },
+      {
+        "id": 40201739,
+        "weight": 1
+      },
+      {
+        "id": 40201737,
+        "weight": 1
+      },
+      {
+        "id": 40201710,
+        "weight": 1
+      },
+      {
+        "id": 40201709,
+        "weight": 1
+      },
+      {
+        "id": 40201711,
+        "weight": 1
+      },
+      {
+        "id": 40201699,
+        "weight": 1
+      },
+      {
         "id": 40201615,
         "weight": 1
       },
@@ -11952,6 +12072,18 @@
       {
         "id": 40201763,
         "weight": 2
+      },
+      {
+        "id": 40201746,
+        "weight": 21
+      },
+      {
+        "id": 40201747,
+        "weight": 13
+      },
+      {
+        "id": 40201748,
+        "weight": 8
       }
     ],
     "storeType": "Random",
@@ -13665,6 +13797,10 @@
       {
         "id": 40201647,
         "weight": 1
+      },
+      {
+        "id": 40201744,
+        "weight": 1
       }
     ],
     "storeType": "Regular",
@@ -14135,6 +14271,18 @@
         "weight": 1
       },
       {
+        "id": 40201616,
+        "weight": 1
+      },
+      {
+        "id": 40201624,
+        "weight": 1
+      },
+      {
+        "id": 40201682,
+        "weight": 1
+      },
+      {
         "id": 40201641,
         "weight": 1
       },
@@ -14188,18 +14336,6 @@
       },
       {
         "id": 40201632,
-        "weight": 1
-      },
-      {
-        "id": 40201616,
-        "weight": 1
-      },
-      {
-        "id": 40201624,
-        "weight": 1
-      },
-      {
-        "id": 40201682,
         "weight": 1
       }
     ],
@@ -14501,6 +14637,404 @@
       {
         "click": "Tips",
         "id": 11400942
+      },
+      {
+        "click": "Tips",
+        "id": 11400001
+      }
+    ]
+  },
+  {
+    "id": 40300191,
+    "idCN": "09活动商店/曼杜斯骑士谭：烈焰篇",
+    "mod": "活动商店",
+    "isInformalData": false,
+    "storeName": "",
+    "unlockConditions": false,
+    "conditions": -1,
+    "pngSelect": "",
+    "pngNotSelect": "",
+    "shopList": [
+      {
+        "id": 40201726,
+        "weight": 1
+      },
+      {
+        "id": 40201740,
+        "weight": 1
+      },
+      {
+        "id": 40201732,
+        "weight": 1
+      },
+      {
+        "id": 40201724,
+        "weight": 1
+      },
+      {
+        "id": 40201723,
+        "weight": 1
+      },
+      {
+        "id": 40201731,
+        "weight": 1
+      },
+      {
+        "id": 40201718,
+        "weight": 1
+      },
+      {
+        "id": 40201722,
+        "weight": 1
+      },
+      {
+        "id": 40201730,
+        "weight": 1
+      },
+      {
+        "id": 40201733,
+        "weight": 1
+      },
+      {
+        "id": 40201713,
+        "weight": 1
+      },
+      {
+        "id": 40201727,
+        "weight": 1
+      },
+      {
+        "id": 40201719,
+        "weight": 1
+      },
+      {
+        "id": 40201736,
+        "weight": 1
+      },
+      {
+        "id": 40201717,
+        "weight": 1
+      },
+      {
+        "id": 40201716,
+        "weight": 1
+      },
+      {
+        "id": 40201721,
+        "weight": 1
+      },
+      {
+        "id": 40201734,
+        "weight": 1
+      },
+      {
+        "id": 40201729,
+        "weight": 1
+      },
+      {
+        "id": 40201715,
+        "weight": 1
+      },
+      {
+        "id": 40201720,
+        "weight": 1
+      },
+      {
+        "id": 40201725,
+        "weight": 1
+      },
+      {
+        "id": 40201735,
+        "weight": 1
+      },
+      {
+        "id": 40201728,
+        "weight": 1
+      },
+      {
+        "id": 40201712,
+        "weight": 1
+      },
+      {
+        "id": 40201714,
+        "weight": 1
+      }
+    ],
+    "storeType": "Regular",
+    "showUI": "Group_DiamondStore",
+    "activityId": 86000253,
+    "capacityType": [],
+    "refreshType": "Daily",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "currencyShow": [
+      {
+        "click": "Tips",
+        "id": 11400962
+      },
+      {
+        "click": "Tips",
+        "id": 11400001
+      }
+    ]
+  },
+  {
+    "id": 40300140,
+    "idCN": "99其他/购买万象福匙",
+    "mod": "商店",
+    "isInformalData": false,
+    "storeName": "",
+    "unlockConditions": false,
+    "conditions": -1,
+    "maxShopNum": 10,
+    "autoRefresh": true,
+    "refreshTimeList": [
+      {
+        "refreshTime": "00:00:00"
+      }
+    ],
+    "moneyList": [
+      {
+        "moneyID": 11400005,
+        "moneyNum": 50
+      }
+    ],
+    "freeRefreshNum": 1,
+    "pngSelect": "",
+    "pngNotSelect": "",
+    "shopList": [
+      {
+        "id": 40201741,
+        "weight": 100
+      }
+    ],
+    "storeType": "Regular",
+    "TextLockId": -1,
+    "showUI": "Group_DiamondStore",
+    "commodityFixedList": [],
+    "isRecordTimes": false,
+    "rewardList": [],
+    "isStationRefresh": false,
+    "capacityType": [],
+    "refreshType": "Daily",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "currencyShow": []
+  },
+  {
+    "id": 40300088,
+    "idCN": "14悖论之茧/06兑换商店",
+    "mod": "商店",
+    "isInformalData": false,
+    "storeName": "悖论之茧兑换商店",
+    "unlockConditions": false,
+    "conditions": -1,
+    "maxShopNum": 20,
+    "autoRefresh": false,
+    "refreshTimeList": [],
+    "moneyList": [],
+    "freeRefreshNum": 0,
+    "pngSelect": "UI/Home/HomeStore/chuang_select",
+    "pngNotSelect": "UI/Home/HomeStore/chuang_notselect",
+    "shopList": [
+      {
+        "id": 40201742,
+        "weight": 1
+      },
+      {
+        "id": 40201743,
+        "weight": 1
+      },
+      {
+        "id": 40201410,
+        "weight": 1
+      },
+      {
+        "id": 40201411,
+        "weight": 1
+      },
+      {
+        "id": 40201415,
+        "weight": 1
+      },
+      {
+        "id": 40201416,
+        "weight": 1
+      },
+      {
+        "id": 40201414,
+        "weight": 1
+      },
+      {
+        "id": 40201412,
+        "weight": 1
+      },
+      {
+        "id": 40201413,
+        "weight": 1
+      }
+    ],
+    "storeType": "Regular",
+    "TextLockId": -1,
+    "showUI": "Group_V",
+    "commodityFixedList": [],
+    "isRecordTimes": false,
+    "rewardList": [],
+    "isStationRefresh": false,
+    "capacityType": [],
+    "refreshType": "Monthly",
+    "isTime": false,
+    "startTime": "2023-04-01 00:00:00",
+    "endTime": "2099-01-01 23:59:59",
+    "currencyShow": [
+      {
+        "click": "Tips",
+        "id": 11400672
+      }
+    ]
+  },
+  {
+    "id": 40300151,
+    "idCN": "09活动商店/火雾战士、降临！",
+    "mod": "活动商店",
+    "isInformalData": false,
+    "storeName": "",
+    "unlockConditions": false,
+    "conditions": -1,
+    "pngSelect": "",
+    "pngNotSelect": "",
+    "shopList": [
+      {
+        "id": 40201910,
+        "weight": 1
+      },
+      {
+        "id": 40201916,
+        "weight": 1
+      },
+      {
+        "id": 40201919,
+        "weight": 1
+      },
+      {
+        "id": 40201913,
+        "weight": 1
+      },
+      {
+        "id": 40201761,
+        "weight": 1
+      },
+      {
+        "id": 40201799,
+        "weight": 1
+      },
+      {
+        "id": 40201796,
+        "weight": 1
+      },
+      {
+        "id": 40201836,
+        "weight": 1
+      },
+      {
+        "id": 40201917,
+        "weight": 1
+      },
+      {
+        "id": 40201918,
+        "weight": 1
+      },
+      {
+        "id": 40201758,
+        "weight": 1
+      },
+      {
+        "id": 40201785,
+        "weight": 1
+      },
+      {
+        "id": 40201895,
+        "weight": 1
+      },
+      {
+        "id": 40201770,
+        "weight": 1
+      },
+      {
+        "id": 40201907,
+        "weight": 1
+      },
+      {
+        "id": 40201848,
+        "weight": 1
+      },
+      {
+        "id": 40201912,
+        "weight": 1
+      },
+      {
+        "id": 40201880,
+        "weight": 1
+      },
+      {
+        "id": 40201838,
+        "weight": 1
+      },
+      {
+        "id": 40201762,
+        "weight": 1
+      },
+      {
+        "id": 40201914,
+        "weight": 1
+      },
+      {
+        "id": 40201909,
+        "weight": 1
+      },
+      {
+        "id": 40201787,
+        "weight": 1
+      },
+      {
+        "id": 40201760,
+        "weight": 1
+      },
+      {
+        "id": 40201911,
+        "weight": 1
+      },
+      {
+        "id": 40201908,
+        "weight": 1
+      },
+      {
+        "id": 40201903,
+        "weight": 1
+      },
+      {
+        "id": 40201759,
+        "weight": 1
+      },
+      {
+        "id": 40201915,
+        "weight": 1
+      }
+    ],
+    "storeType": "Regular",
+    "showUI": "Group_DiamondStore",
+    "activityId": 86000283,
+    "capacityType": [],
+    "refreshType": "Daily",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "currencyShow": [
+      {
+        "click": "Tips",
+        "id": 11400974
       },
       {
         "click": "Tips",

@@ -2643,7 +2643,7 @@
     ],
     "tk_SN": null,
     "hp_SN": 66000000,
-    "def_SN": 630000,
+    "def_SN": 710000,
     "atk_SN": 870000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
@@ -9385,6 +9385,119 @@
       }
     ]
   },
+  "10001220": {
+    "id": 10001220,
+    "name": "char_name_10001220",
+    "roleListResUrl": "roleplus/katasignis/Half.webp",
+    "face": "roleplus/katasignis/Face.webp",
+    "quality": "FiveStar",
+    "sideId": 12600026,
+    "passiveSkillList": [
+      {
+        "skillId": 12304477
+      }
+    ],
+    "skillList": [
+      {
+        "num": 3,
+        "skillId": 12304446
+      },
+      {
+        "num": 1,
+        "skillId": 12304447
+      },
+      {
+        "num": 1,
+        "skillId": 12304448
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 86000000,
+    "def_SN": 880000,
+    "atk_SN": 880000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12800488
+      },
+      {
+        "talentId": 12800505
+      },
+      {
+        "talentId": 12800501
+      },
+      {
+        "talentId": 12800460
+      },
+      {
+        "talentId": 12800465
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100078
+      },
+      {
+        "breakthroughId": 12100001
+      },
+      {
+        "breakthroughId": 12100073
+      },
+      {
+        "breakthroughId": 12100079
+      },
+      {
+        "breakthroughId": 12100074
+      },
+      {
+        "breakthroughId": 12100069
+      }
+    ],
+    "line": 1,
+    "subLine": 450,
+    "identity": "char_identity_10001220",
+    "ability": "char_ability_10001220",
+    "gender": "char_gender_10001220",
+    "birthday": "char_birthday_10001220",
+    "height": "158cm",
+    "birthplace": "char_birthplace_10001220",
+    "getCharacter": "char_getCharacter_10001220",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001220_0_des"
+      }
+    ],
+    "controllerId": 10300680,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900273,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900275,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900274,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
+  },
   "10001222": {
     "id": 10001222,
     "name": "char_name_10001222",
@@ -9493,6 +9606,337 @@
       },
       {
         "id": 83900009,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
+  },
+  "10001246": {
+    "id": 10001246,
+    "name": "char_name_10001246",
+    "roleListResUrl": "roleplus/rada/Half.webp",
+    "face": "roleplus/rada/Face.webp",
+    "quality": "FiveStar",
+    "sideId": 12600027,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 3,
+        "skillId": 12304423
+      },
+      {
+        "num": 1,
+        "skillId": 12304424
+      },
+      {
+        "num": 1,
+        "skillId": 12304425
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 84000000,
+    "def_SN": 800000,
+    "atk_SN": 840000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12800445
+      },
+      {
+        "talentId": 12800450
+      },
+      {
+        "talentId": 12800395
+      },
+      {
+        "talentId": 12800453
+      },
+      {
+        "talentId": 12800358
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100058
+      },
+      {
+        "breakthroughId": 12100068
+      },
+      {
+        "breakthroughId": 12100063
+      },
+      {
+        "breakthroughId": 12100059
+      },
+      {
+        "breakthroughId": 12100051
+      },
+      {
+        "breakthroughId": 12100064
+      }
+    ],
+    "line": 3,
+    "subLine": 145,
+    "identity": "char_identity_10001246",
+    "ability": "char_ability_10001246",
+    "gender": "char_gender_10001246",
+    "birthday": "char_birthday_10001246",
+    "height": "175cm",
+    "birthplace": "char_birthplace_10001246",
+    "getCharacter": "char_getCharacter_10001246",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001246_0_des"
+      }
+    ],
+    "controllerId": 10300671,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900270,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900272,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900271,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
+  },
+  "10001266": {
+    "id": 10001266,
+    "name": "char_name_10001266",
+    "roleListResUrl": "roleplus/charlottestillheart/Half.webp",
+    "face": "roleplus/charlottestillheart/Face.webp",
+    "quality": "FiveStar",
+    "sideId": 12600026,
+    "passiveSkillList": [
+      {
+        "skillId": 12304517
+      }
+    ],
+    "skillList": [
+      {
+        "num": 3,
+        "skillId": 12304459
+      },
+      {
+        "num": 1,
+        "skillId": 12304464
+      },
+      {
+        "num": 1,
+        "skillId": 12304465
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 89000000,
+    "def_SN": 850000,
+    "atk_SN": 870000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12800681
+      },
+      {
+        "talentId": 12800607
+      },
+      {
+        "talentId": 12800680
+      },
+      {
+        "talentId": 12800642
+      },
+      {
+        "talentId": 12800612
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100084
+      },
+      {
+        "breakthroughId": 12100094
+      },
+      {
+        "breakthroughId": 12100083
+      },
+      {
+        "breakthroughId": 12100089
+      },
+      {
+        "breakthroughId": 12100090
+      },
+      {
+        "breakthroughId": 12100093
+      }
+    ],
+    "line": 1,
+    "subLine": 215,
+    "identity": "char_identity_10001266",
+    "ability": "char_ability_10001266",
+    "gender": "char_gender_10001266",
+    "birthday": "char_birthday_10001266",
+    "height": "165cm",
+    "birthplace": "char_birthplace_10001266",
+    "getCharacter": "char_getCharacter_10001266",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001266_0_des"
+      }
+    ],
+    "controllerId": 10300681,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900276,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900278,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900277,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
+  },
+  "10001271": {
+    "id": 10001271,
+    "name": "char_name_10001271",
+    "roleListResUrl": "roleplus/shana/Half.webp",
+    "face": "roleplus/shana/Face.webp",
+    "quality": "FiveStar",
+    "sideId": 12602028,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12304503
+      },
+      {
+        "num": 2,
+        "skillId": 12304502
+      },
+      {
+        "num": 1,
+        "skillId": 12304504
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 85000000,
+    "def_SN": 800000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12800686
+      },
+      {
+        "talentId": 12800683
+      },
+      {
+        "talentId": 12800682
+      },
+      {
+        "talentId": 12800684
+      },
+      {
+        "talentId": 12800685
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100110
+      },
+      {
+        "breakthroughId": 12100098
+      },
+      {
+        "breakthroughId": 12100104
+      },
+      {
+        "breakthroughId": 12100107
+      },
+      {
+        "breakthroughId": 12100099
+      },
+      {
+        "breakthroughId": 12100103
+      }
+    ],
+    "line": 1,
+    "subLine": 380,
+    "identity": "char_identity_10001271",
+    "ability": "char_ability_10001271",
+    "gender": "char_gender_10001271",
+    "birthday": "char_birthday_10001271",
+    "height": "141cm",
+    "birthplace": "char_birthplace_10001271",
+    "getCharacter": "char_getCharacter_10001271",
+    "ResumeList": [
+      {
+        "des": "char_resume_des_10001271_0_des"
+      }
+    ],
+    "controllerId": 10300684,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900030,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900279,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900050,
         "nextIndex": 4294967295,
         "resonanceLv": 5
       }

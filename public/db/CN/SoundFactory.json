@@ -69081,7 +69081,7 @@
   },
   {
     "id": 30005759,
-    "idCN": "我方技能/05星/罗洁尔_人/普攻发射",
+    "idCN": "我方技能/05星/罗洁尔·定格/普攻发射",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Ally_Raziel_Human_Attack_Fire",
@@ -69103,7 +69103,7 @@
   },
   {
     "id": 30006152,
-    "idCN": "我方技能/05星/罗洁尔_人/普攻命中01",
+    "idCN": "我方技能/05星/罗洁尔·定格/普攻命中01",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Ally_Raziel_Human_Attack_Hit01",
@@ -69114,7 +69114,7 @@
   },
   {
     "id": 30006153,
-    "idCN": "我方技能/05星/罗洁尔_人/普攻命中02",
+    "idCN": "我方技能/05星/罗洁尔·定格/普攻命中02",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Ally_Raziel_Human_Attack_Hit02",
@@ -69125,7 +69125,7 @@
   },
   {
     "id": 30006154,
-    "idCN": "我方技能/05星/罗洁尔_人/普攻命中03",
+    "idCN": "我方技能/05星/罗洁尔·定格/普攻命中03",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Ally_Raziel_Human_Attack_Hit03",
@@ -69136,7 +69136,7 @@
   },
   {
     "id": 30006155,
-    "idCN": "我方技能/05星/罗洁尔_人/A释放",
+    "idCN": "我方技能/05星/罗洁尔·定格/A释放",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Ally_Raziel_Human_A_Cast",
@@ -69147,7 +69147,7 @@
   },
   {
     "id": 30006157,
-    "idCN": "我方技能/05星/罗洁尔_人/A命中02电磁",
+    "idCN": "我方技能/05星/罗洁尔·定格/A命中02电磁",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Ally_Raziel_Human_A_Hit02",
@@ -69158,7 +69158,7 @@
   },
   {
     "id": 30006156,
-    "idCN": "我方技能/05星/罗洁尔_人/A命中01微波",
+    "idCN": "我方技能/05星/罗洁尔·定格/A命中01微波",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Ally_Raziel_Human_A_Hit01",
@@ -69169,7 +69169,7 @@
   },
   {
     "id": 30006158,
-    "idCN": "我方技能/05星/罗洁尔_人/A命中03中微子",
+    "idCN": "我方技能/05星/罗洁尔·定格/A命中03中微子",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Ally_Raziel_Human_A_Hit03",
@@ -69180,7 +69180,7 @@
   },
   {
     "id": 30006159,
-    "idCN": "我方技能/05星/罗洁尔_人/B释放",
+    "idCN": "我方技能/05星/罗洁尔·定格/B释放",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Ally_Raziel_Human_B_Cast",
@@ -69279,7 +69279,7 @@
   },
   {
     "id": 30006169,
-    "idCN": "我方技能/05星/罗洁尔_人/S释放",
+    "idCN": "我方技能/05星/罗洁尔·定格/S释放",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Human/Focus_Raziel_Human_S_Cast",
@@ -69290,7 +69290,7 @@
   },
   {
     "id": 30006170,
-    "idCN": "我方技能/05星/罗洁尔_人/普攻命中随机",
+    "idCN": "我方技能/05星/罗洁尔·定格/普攻命中随机",
     "mod": "随机音效",
     "isInformalData": false,
     "isBindAction": false,
@@ -71540,7 +71540,7 @@
   },
   {
     "id": 30006421,
-    "idCN": "我方技能/05星/罗洁尔_天使/A攻击01",
+    "idCN": "我方技能/05星/罗洁尔/A攻击01",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Ally_Raziel_Angel_A_Fire01",
@@ -71551,7 +71551,7 @@
   },
   {
     "id": 30006422,
-    "idCN": "我方技能/05星/罗洁尔_天使/A攻击02",
+    "idCN": "我方技能/05星/罗洁尔/A攻击02",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Ally_Raziel_Angel_A_Fire02",
@@ -71562,7 +71562,7 @@
   },
   {
     "id": 30006423,
-    "idCN": "我方技能/05星/罗洁尔_天使/A攻击03",
+    "idCN": "我方技能/05星/罗洁尔/A攻击03",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Ally_Raziel_Angel_A_Fire03",
@@ -71573,7 +71573,7 @@
   },
   {
     "id": 30006424,
-    "idCN": "我方技能/05星/罗洁尔_天使/A攻击04",
+    "idCN": "我方技能/05星/罗洁尔/A攻击04",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Ally_Raziel_Angel_A_Fire04",
@@ -71584,7 +71584,7 @@
   },
   {
     "id": 30006425,
-    "idCN": "我方技能/05星/罗洁尔_天使/普攻01",
+    "idCN": "我方技能/05星/罗洁尔/普攻01",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Ally_Raziel_Angel_Attack_Fire01",
@@ -71595,7 +71595,7 @@
   },
   {
     "id": 30006426,
-    "idCN": "我方技能/05星/罗洁尔_天使/普攻02",
+    "idCN": "我方技能/05星/罗洁尔/普攻02",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Ally_Raziel_Angel_Attack_Fire02",
@@ -71606,7 +71606,7 @@
   },
   {
     "id": 30006427,
-    "idCN": "我方技能/05星/罗洁尔_天使/普攻03",
+    "idCN": "我方技能/05星/罗洁尔/普攻03",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Ally_Raziel_Angel_Attack_Fire03",
@@ -71617,7 +71617,7 @@
   },
   {
     "id": 30006428,
-    "idCN": "我方技能/05星/罗洁尔_天使/B攻击",
+    "idCN": "我方技能/05星/罗洁尔/B攻击",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Ally_Raziel_Angel_B_Fire",
@@ -71628,7 +71628,7 @@
   },
   {
     "id": 30006429,
-    "idCN": "我方技能/05星/罗洁尔_天使/S攻击",
+    "idCN": "我方技能/05星/罗洁尔/S攻击",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Focus_Raziel_Angel_S_Fire",
@@ -72270,7 +72270,7 @@
   },
   {
     "id": 30006493,
-    "idCN": "我方技能/05星/罗洁尔_天使/A攻击",
+    "idCN": "我方技能/05星/罗洁尔/A攻击",
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Raziel_Angel/Ally_Raziel_Angel_A_Fire",
@@ -80211,10 +80211,10 @@
     "isBindAction": false,
     "list": [
       {
-        "sound": 30005160
+        "sound": 30007178
       },
       {
-        "sound": 30005161
+        "sound": 30007179
       }
     ]
   },
@@ -80565,6 +80565,2081 @@
     "mod": "基础音效",
     "isInformalData": false,
     "resUrl": "Sound/01Role/Olivien/Ally_Olivien_bot01_Attack",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007226,
+    "idCN": "语音/原版/Rada/必杀_随机列表",
+    "mod": "随机音效",
+    "isInformalData": false,
+    "isBindAction": false,
+    "list": [
+      {
+        "sound": 30007227
+      },
+      {
+        "sound": 30007228
+      }
+    ]
+  },
+  {
+    "id": 30007227,
+    "idCN": "语音/原版/Rada/必杀1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Skill_004",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007228,
+    "idCN": "语音/原版/Rada/必杀2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Skill_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007229,
+    "idCN": "语音/原版/Rada/抽卡获得",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007230,
+    "idCN": "语音/原版/Rada/更换看板",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007231,
+    "idCN": "我方技能/05星/蒂丝塔尔/普攻发射",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Tistar/Ally_Tistar_Attack_01_Fire",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007232,
+    "idCN": "我方技能/05星/蒂丝塔尔/普攻命中",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Tistar/Ally_Tistar_Attack_01_Hit",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007233,
+    "idCN": "我方技能/05星/蒂丝塔尔/S释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Tistar/Ally_Tistar_Focus_S_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007234,
+    "idCN": "我方技能/05星/蒂丝塔尔/B释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Tistar/Ally_Tistar_Skill_B_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007235,
+    "idCN": "我方技能/05星/蒂丝塔尔/A释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Tistar/Ally_Tistar_Skill_A_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007236,
+    "idCN": "我方技能/05星/蒂丝塔尔/C释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Tistar/Ally_Tistar_Skill_C_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007237,
+    "idCN": "我方技能/05星/蒂丝塔尔/擘裂受击01",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Tistar/Common_Hit_Rend01",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007238,
+    "idCN": "我方技能/05星/蒂丝塔尔/擘裂受击02",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Tistar/Common_Hit_Rend02",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007239,
+    "idCN": "我方技能/05星/蒂丝塔尔/擘裂受击03",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Tistar/Common_Hit_Rend03",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007240,
+    "idCN": "我方技能/05星/蒂丝塔尔/擘裂受击随机",
+    "mod": "随机音效",
+    "isInformalData": false,
+    "isBindAction": false,
+    "list": [
+      {
+        "sound": 30007237
+      },
+      {
+        "sound": 30007238
+      },
+      {
+        "sound": 30007239
+      }
+    ]
+  },
+  {
+    "id": 30007199,
+    "idCN": "语音/原版/Rada/MVP",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Skill_008",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007200,
+    "idCN": "语音/原版/Rada/战败1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Skill_006",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007207,
+    "idCN": "语音/原版/Rada/战败2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Skill_007",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007202,
+    "idCN": "语音/原版/Rada/前进1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Skill_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007210,
+    "idCN": "语音/原版/Rada/前进2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Skill_003",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007212,
+    "idCN": "语音/原版/Rada/出击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Skill_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007241,
+    "idCN": "语音/原版/Rada/默契1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_003",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007244,
+    "idCN": "语音/原版/Rada/默契10",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_012",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007246,
+    "idCN": "语音/原版/Rada/默契11",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_013",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007248,
+    "idCN": "语音/原版/Rada/默契13",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_015",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007250,
+    "idCN": "语音/原版/Rada/默契14",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_016",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007243,
+    "idCN": "语音/原版/Rada/默契16",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_018",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007256,
+    "idCN": "语音/原版/Rada/默契18",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_020",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007257,
+    "idCN": "语音/原版/Rada/默契2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_004",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007249,
+    "idCN": "语音/原版/Rada/默契3",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007251,
+    "idCN": "语音/原版/Rada/默契4",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_006",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007245,
+    "idCN": "语音/原版/Rada/默契7",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_009",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007255,
+    "idCN": "语音/原版/Rada/默契9",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Rada/Voice_Rada_Other_011",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007259,
+    "idCN": "语音/原版/KatasIgnis/必杀随机",
+    "mod": "随机音效",
+    "isInformalData": false,
+    "isBindAction": false,
+    "list": [
+      {
+        "sound": 30007260
+      },
+      {
+        "sound": 30007261
+      }
+    ]
+  },
+  {
+    "id": 30007260,
+    "idCN": "语音/原版/KatasIgnis/必杀1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Skill_004",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007261,
+    "idCN": "语音/原版/KatasIgnis/必杀2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Skill_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007262,
+    "idCN": "语音/原版/KatasIgnis/抽卡获得",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007263,
+    "idCN": "语音/原版/KatasIgnis/更换看板",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007266,
+    "idCN": "语音/原版/Charlotte_jk/必杀随机",
+    "mod": "随机音效",
+    "isInformalData": false,
+    "isBindAction": false,
+    "list": [
+      {
+        "sound": 30007275
+      },
+      {
+        "sound": 30007281
+      }
+    ]
+  },
+  {
+    "id": 30007242,
+    "idCN": "语音/原版/KatasIgnis/MVP",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Skill_008",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007247,
+    "idCN": "语音/原版/KatasIgnis/战败1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Skill_006",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007252,
+    "idCN": "语音/原版/KatasIgnis/战败2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Skill_007",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007253,
+    "idCN": "语音/原版/KatasIgnis/前进1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Skill_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007254,
+    "idCN": "语音/原版/KatasIgnis/前进2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Skill_003",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007258,
+    "idCN": "语音/原版/KatasIgnis/出击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Skill_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007269,
+    "idCN": "语音/原版/KatasIgnis/默契1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_003",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007271,
+    "idCN": "语音/原版/KatasIgnis/默契11",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_013",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007272,
+    "idCN": "语音/原版/KatasIgnis/默契12",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_014",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007273,
+    "idCN": "语音/原版/KatasIgnis/默契13",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_015",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007274,
+    "idCN": "语音/原版/KatasIgnis/默契14",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_016",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007276,
+    "idCN": "语音/原版/KatasIgnis/默契16",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_018",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007278,
+    "idCN": "语音/原版/KatasIgnis/默契18",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_020",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007279,
+    "idCN": "语音/原版/KatasIgnis/默契2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_004",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007280,
+    "idCN": "语音/原版/KatasIgnis/默契3",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007282,
+    "idCN": "语音/原版/KatasIgnis/默契5",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_007",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007284,
+    "idCN": "语音/原版/KatasIgnis/默契7",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_009",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007285,
+    "idCN": "语音/原版/KatasIgnis/默契8",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Katas_Ignis/Voice_Katas_Ignis_Other_010",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007287,
+    "idCN": "我方技能/05星/卡塔斯·业火/B",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/KatasIgnis/Ally_KatasIgnis_Skill_B_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 360
+  },
+  {
+    "id": 30007288,
+    "idCN": "语音/原版/Shana/必杀随机",
+    "mod": "随机音效",
+    "isInformalData": false,
+    "isBindAction": false,
+    "list": [
+      {
+        "sound": 30007291
+      },
+      {
+        "sound": 30007292
+      }
+    ]
+  },
+  {
+    "id": 30007289,
+    "idCN": "语音/原版/Shana/更换看板",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007290,
+    "idCN": "语音/原版/Shana/抽卡获得",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007291,
+    "idCN": "语音/原版/Shana/必杀1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Skill_004",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007292,
+    "idCN": "语音/原版/Shana/必杀2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Skill_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007270,
+    "idCN": "语音/原版/Charlotte_jk/MVP",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Skill_008",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007275,
+    "idCN": "语音/原版/Charlotte_jk/必杀1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Skill_004",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007281,
+    "idCN": "语音/原版/Charlotte_jk/必杀2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Skill_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007283,
+    "idCN": "语音/原版/Charlotte_jk/战败1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Skill_006",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007277,
+    "idCN": "语音/原版/Charlotte_jk/战败2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Skill_007",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007286,
+    "idCN": "语音/原版/Charlotte_jk/前进1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Skill_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007293,
+    "idCN": "语音/原版/Charlotte_jk/前进2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Skill_003",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007294,
+    "idCN": "语音/原版/Charlotte_jk/出击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Skill_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007295,
+    "idCN": "语音/原版/Charlotte_jk/抽卡获得",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007296,
+    "idCN": "语音/原版/Charlotte_jk/更换看板",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007298,
+    "idCN": "语音/原版/Charlotte_jk/默契10",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_012",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007301,
+    "idCN": "语音/原版/Charlotte_jk/默契13",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_015",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007303,
+    "idCN": "语音/原版/Charlotte_jk/默契15",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_017",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007304,
+    "idCN": "语音/原版/Charlotte_jk/默契16",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_018",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007306,
+    "idCN": "语音/原版/Charlotte_jk/默契18",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_020",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007307,
+    "idCN": "语音/原版/Charlotte_jk/默契2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_004",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007308,
+    "idCN": "语音/原版/Charlotte_jk/默契3",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007309,
+    "idCN": "语音/原版/Charlotte_jk/默契4",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_006",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007310,
+    "idCN": "语音/原版/Charlotte_jk/默契5",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_007",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007312,
+    "idCN": "语音/原版/Charlotte_jk/默契7",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_009",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007313,
+    "idCN": "语音/原版/Charlotte_jk/默契8",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_010",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007314,
+    "idCN": "语音/原版/Charlotte_jk/默契9",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Charlotte_jk/Voice_Charlotte_jk_Other_011",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007315,
+    "idCN": "我方技能/05星/夏洛蒂·澄心/C释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/CharlotteStillheart/Ally_CharlotteStillheart_Focus_C_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007316,
+    "idCN": "我方技能/05星/夏洛蒂·澄心/S释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/CharlotteStillheart/Ally_CharlotteStillheart_Focus_S_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007317,
+    "idCN": "我方技能/05星/夏洛蒂·澄心/B释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/CharlotteStillheart/Ally_CharlotteStillheart_Skill_B_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007264,
+    "idCN": "语音/原版/Ruby/抽卡获得",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007265,
+    "idCN": "语音/原版/Ruby/更换看板",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007267,
+    "idCN": "语音/原版/Ruby/必杀随机",
+    "mod": "随机音效",
+    "isInformalData": false,
+    "isBindAction": false,
+    "list": [
+      {
+        "sound": 30007268
+      },
+      {
+        "sound": 30007335
+      }
+    ]
+  },
+  {
+    "id": 30007297,
+    "idCN": "语音/原版/Shana/MVP",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Skill_008",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007299,
+    "idCN": "语音/原版/Shana/战败1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Skill_006",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007300,
+    "idCN": "语音/原版/Shana/战败2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Skill_007",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007302,
+    "idCN": "语音/原版/Shana/前进1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Skill_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007305,
+    "idCN": "语音/原版/Shana/前进2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Skill_003",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007311,
+    "idCN": "语音/原版/Shana/出击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Skill_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007320,
+    "idCN": "语音/原版/Shana/默契12",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_014",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007321,
+    "idCN": "语音/原版/Shana/默契13",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_015",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007323,
+    "idCN": "语音/原版/Shana/默契15",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_017",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007325,
+    "idCN": "语音/原版/Shana/默契17",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_019",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007326,
+    "idCN": "语音/原版/Shana/默契18",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_020",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007327,
+    "idCN": "语音/原版/Shana/默契2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_004",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007328,
+    "idCN": "语音/原版/Shana/默契3",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007329,
+    "idCN": "语音/原版/Shana/默契4",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_006",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007330,
+    "idCN": "语音/原版/Shana/默契5",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_007",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007332,
+    "idCN": "语音/原版/Shana/默契7",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_009",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007333,
+    "idCN": "语音/原版/Shana/默契8",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_010",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007334,
+    "idCN": "语音/原版/Shana/默契9",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Shana/Voice_Shana_Other_011",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007331,
+    "idCN": "语音/原版/Ruby/MVP",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Skill_008",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007268,
+    "idCN": "语音/原版/Ruby/必杀1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Skill_004",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007335,
+    "idCN": "语音/原版/Ruby/必杀2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Skill_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007336,
+    "idCN": "语音/原版/Ruby/战败1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Skill_006",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007337,
+    "idCN": "语音/原版/Ruby/战败2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Skill_007",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007338,
+    "idCN": "语音/原版/Ruby/前进1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Skill_002",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007339,
+    "idCN": "语音/原版/Ruby/前进2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Skill_003",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007340,
+    "idCN": "语音/原版/Ruby/出击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Skill_001",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007341,
+    "idCN": "语音/原版/Ruby/默契1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_003",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007343,
+    "idCN": "语音/原版/Ruby/默契11",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_013",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007346,
+    "idCN": "语音/原版/Ruby/默契14",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_016",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007347,
+    "idCN": "语音/原版/Ruby/默契15",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_017",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007348,
+    "idCN": "语音/原版/Ruby/默契16",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_018",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007349,
+    "idCN": "语音/原版/Ruby/默契17",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_019",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007352,
+    "idCN": "语音/原版/Ruby/默契3",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_005",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007353,
+    "idCN": "语音/原版/Ruby/默契4",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_006",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007354,
+    "idCN": "语音/原版/Ruby/默契5",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_007",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007356,
+    "idCN": "语音/原版/Ruby/默契7",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_009",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007357,
+    "idCN": "语音/原版/Ruby/默契8",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_010",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007358,
+    "idCN": "语音/原版/Ruby/默契9",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Ruby/Voice_Ruby_Other_011",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007359,
+    "idCN": "我方技能/05星/夏娜/普攻1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Attack_01",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007360,
+    "idCN": "我方技能/05星/夏娜/普攻2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Attack_02",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007361,
+    "idCN": "我方技能/05星/夏娜/S-0攻击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Focus_S-0_Attack",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007362,
+    "idCN": "我方技能/05星/夏娜/S-1攻击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Focus_S-1_Attack",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007363,
+    "idCN": "我方技能/05星/夏娜/A释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Skill_A_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007364,
+    "idCN": "我方技能/05星/夏娜/B-0释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Skill_B-0_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007365,
+    "idCN": "我方技能/05星/夏娜/B-1释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Skill_B-1_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007366,
+    "idCN": "我方技能/05星/夏娜/C召唤物出现",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Skill_C_Bot_show",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007367,
+    "idCN": "我方技能/05星/夏娜/C召唤物攻击01",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Skill_C_Bot_Skill_01_FIre_01",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007368,
+    "idCN": "我方技能/05星/夏娜/C召唤物攻击02",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Skill_C_Bot_Skill_01_Fire_02",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007369,
+    "idCN": "我方技能/05星/夏娜/C召唤物攻击03",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Skill_C_Bot_Skill_01_Fire_03",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007370,
+    "idCN": "我方技能/05星/夏娜/天赋2攻击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Shana/Ally_Shana_Skill_gift02_Attack",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007371,
+    "idCN": "我方技能/05星/夏娜/C召唤物攻击随机",
+    "mod": "随机音效",
+    "isInformalData": false,
+    "isBindAction": false,
+    "list": [
+      {
+        "sound": 30007367
+      },
+      {
+        "sound": 30007368
+      },
+      {
+        "sound": 30007369
+      }
+    ]
+  },
+  {
+    "id": 30007372,
+    "idCN": "BGM/城市/萃境学园",
+    "mod": "BGM",
+    "isInformalData": false,
+    "isBindAction": false,
+    "introUrl": "",
+    "resUrl": "Sound/BGM/TC3/BGM_Menu_Dioptase",
+    "time": 60,
+    "unlock": "",
+    "name": "Dioptase"
+  },
+  {
+    "id": 30007373,
+    "idCN": "BGM/城市/武林",
+    "mod": "BGM",
+    "isInformalData": false,
+    "isBindAction": false,
+    "introUrl": "",
+    "resUrl": "Sound/BGM/TC3/BGM_Menu_Upon_the_Ripples",
+    "time": 60,
+    "unlock": "",
+    "name": "Upon the Ripples"
+  },
+  {
+    "id": 30007374,
+    "idCN": "BGM/剧情用/TC歌曲人声-灯火-夏娜",
+    "mod": "BGM",
+    "isInformalData": false,
+    "isBindAction": false,
+    "introUrl": "",
+    "resUrl": "Sound/BGM/TC3/BGM_Menu_Tomoshibi",
+    "time": 60,
+    "unlock": "",
+    "name": "Tomoshibi"
+  },
+  {
+    "id": 30007375,
+    "idCN": "BGM/剧情用/TC歌曲人声-下一刻相逢",
+    "mod": "BGM",
+    "isInformalData": false,
+    "isBindAction": false,
+    "introUrl": "",
+    "resUrl": "Sound/BGM/TC3/BGM_Menu_Meet_in_the_next_moment",
+    "time": 60,
+    "unlock": "",
+    "name": "下一刻相逢"
+  },
+  {
+    "id": 30007376,
+    "idCN": "BGM/剧情用/TC歌曲人声-简色印记",
+    "mod": "BGM",
+    "isInformalData": false,
+    "isBindAction": false,
+    "introUrl": "",
+    "resUrl": "Sound/BGM/TC3/BGM_Menu_Sketched_Sign",
+    "time": 60,
+    "unlock": "",
+    "name": "Sketched Sign"
+  },
+  {
+    "id": 30007377,
+    "idCN": "BGM/剧情用/TC中国风日常",
+    "mod": "BGM",
+    "isInformalData": false,
+    "isBindAction": false,
+    "introUrl": "",
+    "resUrl": "Sound/BGM/TC3/BGM_Menu_Hushed_Moments",
+    "time": 60,
+    "unlock": "",
+    "name": "Hushed Moments"
+  },
+  {
+    "id": 30007378,
+    "idCN": "我方技能/05星/露比/普攻发射",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Attack_Fire",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007379,
+    "idCN": "我方技能/05星/露比/普攻命中01",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Attack_Hit_01",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 0
+  },
+  {
+    "id": 30007380,
+    "idCN": "我方技能/05星/露比/普攻命中02",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Attack_Hit_02",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 0
+  },
+  {
+    "id": 30007381,
+    "idCN": "我方技能/05星/露比/普攻命中03",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Attack_Hit_03",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 0
+  },
+  {
+    "id": 30007382,
+    "idCN": "我方技能/05星/露比/普攻命中随机",
+    "mod": "随机音效",
+    "isInformalData": false,
+    "isBindAction": false,
+    "list": [
+      {
+        "sound": 30007379
+      },
+      {
+        "sound": 30007380
+      },
+      {
+        "sound": 30007381
+      }
+    ]
+  },
+  {
+    "id": 30007383,
+    "idCN": "我方技能/05星/露比/技能S释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Focus_S_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007384,
+    "idCN": "我方技能/05星/露比/技能A发射",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Skill_A_Fire",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007385,
+    "idCN": "我方技能/05星/露比/技能A受击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Skill_A_Hit",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007386,
+    "idCN": "我方技能/05星/露比/技能B发射",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Skill_B_Fire",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007387,
+    "idCN": "我方技能/05星/露比/技能B受击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Skill_B_Hit",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007388,
+    "idCN": "我方技能/05星/露比/技能C释放",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Skill_C_Cast",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007389,
+    "idCN": "我方技能/05星/露比/技能C发射",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Skill_C_Fire",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007390,
+    "idCN": "我方技能/05星/露比/技能C受击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/01Role/Ruby/Ally_Ruby_Skill_C_Hit",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007391,
+    "idCN": "语音/原版/Teresa/默契10",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi38",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007392,
+    "idCN": "语音/原版/Teresa/默契11",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi31",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007393,
+    "idCN": "语音/原版/Teresa/默契12",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi19",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007394,
+    "idCN": "语音/原版/Teresa/默契2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi26",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007395,
+    "idCN": "语音/原版/Teresa/默契3",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi30",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007396,
+    "idCN": "语音/原版/Teresa/默契4",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi21",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007397,
+    "idCN": "语音/原版/Teresa/MVP",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi43",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007398,
+    "idCN": "语音/原版/Teresa/必杀1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi1",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007399,
+    "idCN": "语音/原版/Teresa/默契5",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi27",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007400,
+    "idCN": "语音/原版/Teresa/默契6",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi29",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007401,
+    "idCN": "语音/原版/Teresa/默契7",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi32",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007402,
+    "idCN": "语音/原版/Teresa/默契8",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi37",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007403,
+    "idCN": "语音/原版/Teresa/默契9",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi34",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007404,
+    "idCN": "语音/原版/Teresa/必杀2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi2",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007405,
+    "idCN": "语音/原版/Teresa/战败1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi8",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007406,
+    "idCN": "语音/原版/Teresa/战败2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi9",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007407,
+    "idCN": "语音/原版/Teresa/前进1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi4",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007408,
+    "idCN": "语音/原版/Teresa/必杀随机",
+    "mod": "随机音效",
+    "isInformalData": false,
+    "isBindAction": false,
+    "list": [
+      {
+        "sound": 30007398
+      },
+      {
+        "sound": 30007404
+      }
+    ]
+  },
+  {
+    "id": 30007409,
+    "idCN": "语音/原版/Teresa/前进2",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi5",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007410,
+    "idCN": "语音/原版/Teresa/出击",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi10",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007411,
+    "idCN": "语音/原版/Teresa/抽卡获得",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi17",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007412,
+    "idCN": "语音/原版/Teresa/更换看板",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi15",
+    "startTime": 0,
+    "endTime": 0,
+    "isBindAction": false,
+    "intervalFrame": 1
+  },
+  {
+    "id": 30007413,
+    "idCN": "语音/原版/Teresa/默契1",
+    "mod": "基础音效",
+    "isInformalData": false,
+    "resUrl": "Sound/CV_Japanese/Slokai/siluokayi25",
     "startTime": 0,
     "endTime": 0,
     "isBindAction": false,

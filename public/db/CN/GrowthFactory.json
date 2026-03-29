@@ -217,7 +217,7 @@
     "mod": "基础成长",
     "isInformalData": false,
     "gHp_SN": 6600000,
-    "gDef_SN": 63000,
+    "gDef_SN": 71000,
     "gAtk_SN": 87000
   },
   {
@@ -3279,11 +3279,11 @@
   },
   {
     "id": 12000324,
-    "idCN": "02装备/测试",
+    "idCN": "02装备/测试/血量成长",
     "mod": "基础成长",
     "isInformalData": false,
-    "gHp_SN": 0,
-    "gDef_SN": 10000,
+    "gHp_SN": 5500000,
+    "gDef_SN": 0,
     "gAtk_SN": 0
   },
   {
@@ -5899,7 +5899,7 @@
     "mod": "基础成长",
     "isInformalData": false,
     "gHp_SN": 26400000,
-    "gDef_SN": 63000,
+    "gDef_SN": 71000,
     "gAtk_SN": 87000
   },
   {
@@ -5944,7 +5944,7 @@
     "mod": "基础成长",
     "isInformalData": false,
     "gHp_SN": 132000000,
-    "gDef_SN": 63000,
+    "gDef_SN": 71000,
     "gAtk_SN": 87000
   },
   {
@@ -6876,7 +6876,7 @@
   },
   {
     "id": 12000457,
-    "idCN": "00原版/05五星/罗洁尔_人",
+    "idCN": "00原版/05五星/罗洁尔·定格",
     "mod": "基础成长",
     "isInformalData": false,
     "gHp_SN": 6800000,
@@ -7065,7 +7065,7 @@
   },
   {
     "id": 12000477,
-    "idCN": "00原版/05五星/罗洁尔_天使",
+    "idCN": "00原版/05五星/罗洁尔",
     "mod": "基础成长",
     "isInformalData": false,
     "gHp_SN": 8800000,
@@ -7187,7 +7187,7 @@
     "isInformalData": false,
     "gHp_SN": 0,
     "gDef_SN": 0,
-    "gAtk_SN": 50000
+    "gAtk_SN": 55000
   },
   {
     "id": 12000492,
@@ -7195,7 +7195,7 @@
     "mod": "基础成长",
     "isInformalData": false,
     "gHp_SN": 0,
-    "gDef_SN": 45000,
+    "gDef_SN": 55000,
     "gAtk_SN": 0
   },
   {
@@ -9513,5 +9513,122 @@
     "gHp_SN": 0,
     "gDef_SN": 30000,
     "gAtk_SN": 0
+  },
+  {
+    "id": 12000589,
+    "idCN": "00原版/05五星/拉妲",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 8400000,
+    "gDef_SN": 80000,
+    "gAtk_SN": 84000
+  },
+  {
+    "id": 12000590,
+    "idCN": "02装备/测试/防御成长",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 55000,
+    "gAtk_SN": 0
+  },
+  {
+    "id": 12000591,
+    "idCN": "02装备/测试/攻击成长",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 55000
+  },
+  {
+    "id": 12000592,
+    "idCN": "02装备/测试/无成长",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 0
+  },
+  {
+    "id": 12000593,
+    "idCN": "00原版/05五星/卡塔斯·业火",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 8600000,
+    "gDef_SN": 88000,
+    "gAtk_SN": 88000
+  },
+  {
+    "id": 12000594,
+    "idCN": "00原版/05五星/夏洛蒂·澄心",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 8900000,
+    "gDef_SN": 85000,
+    "gAtk_SN": 87000
+  },
+  {
+    "id": 12000595,
+    "idCN": "03敌方/98未知/不死鸟",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 880000000,
+    "gDef_SN": 88000,
+    "gAtk_SN": 88000
+  },
+  {
+    "id": 12000596,
+    "idCN": "02装备/帝国装备/白夜·真辉",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 63000
+  },
+  {
+    "id": 12000597,
+    "idCN": "02装备/学会装备/独乐琶音",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 0,
+    "gDef_SN": 0,
+    "gAtk_SN": 63000
+  },
+  {
+    "id": 12000598,
+    "idCN": "00原版/05五星/夏娜",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 8500000,
+    "gDef_SN": 80000,
+    "gAtk_SN": 90000
+  },
+  {
+    "id": 12000599,
+    "idCN": "00原版/05五星/露比",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 7000000,
+    "gDef_SN": 76000,
+    "gAtk_SN": 82000
+  },
+  {
+    "id": 12000600,
+    "idCN": "00原版/05五星/迪妮莎",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 7200000,
+    "gDef_SN": 80000,
+    "gAtk_SN": 90000
+  },
+  {
+    "id": 12000601,
+    "idCN": "03敌方/00角色/黑月/亚莉奈",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 88000000,
+    "gDef_SN": 88000,
+    "gAtk_SN": 80000
   }
 ]

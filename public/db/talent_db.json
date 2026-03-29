@@ -2855,6 +2855,14 @@
     "awakeLv": 3,
     "skillIntensify": 12302496
   },
+  "12800358": {
+    "id": 12800358,
+    "name": "talent_name_12800358",
+    "desc": "talent_desc_12800358",
+    "path": "roleplus/00gift/rada/TieYiJunShi.webp",
+    "awakeLv": 6,
+    "skillIntensify": -1
+  },
   "12800359": {
     "id": 12800359,
     "name": "talent_name_12800359",
@@ -3142,6 +3150,14 @@
     "path": "",
     "awakeLv": 3,
     "skillIntensify": null
+  },
+  "12800395": {
+    "id": 12800395,
+    "name": "talent_name_12800395",
+    "desc": "talent_desc_12800395",
+    "path": "roleplus/00gift/box/ShengJi.webp",
+    "awakeLv": 4,
+    "skillIntensify": 12304427
   },
   "12800396": {
     "id": 12800396,
@@ -3535,6 +3551,14 @@
     "awakeLv": 3,
     "skillIntensify": null
   },
+  "12800445": {
+    "id": 12800445,
+    "name": "talent_name_12800445",
+    "desc": "talent_desc_12800445",
+    "path": "roleplus/00gift/rada/DanMuYanHu.webp",
+    "awakeLv": 2,
+    "skillIntensify": 12302626
+  },
   "12800446": {
     "id": 12800446,
     "name": "talent_name_12800446",
@@ -3567,6 +3591,14 @@
     "awakeLv": 3,
     "skillIntensify": null
   },
+  "12800450": {
+    "id": 12800450,
+    "name": "talent_name_12800450",
+    "desc": "talent_desc_12800450",
+    "path": "roleplus/00gift/rada/HuoLiJiaoZhun.webp",
+    "awakeLv": 3,
+    "skillIntensify": 12304426
+  },
   "12800451": {
     "id": 12800451,
     "name": "talent_name_12800451",
@@ -3582,6 +3614,14 @@
     "path": "",
     "awakeLv": 6,
     "skillIntensify": null
+  },
+  "12800453": {
+    "id": 12800453,
+    "name": "talent_name_12800453",
+    "desc": "talent_desc_12800453",
+    "path": "roleplus/00gift/rada/ZhanChangDiaoDu.webp",
+    "awakeLv": 5,
+    "skillIntensify": 12304428
   },
   "12800454": {
     "id": 12800454,
@@ -3631,6 +3671,14 @@
     "awakeLv": 3,
     "skillIntensify": null
   },
+  "12800460": {
+    "id": 12800460,
+    "name": "talent_name_12800460",
+    "desc": "talent_desc_12800460",
+    "path": "roleplus/00gift/katasignis/ReLiSaoXian.webp",
+    "awakeLv": 5,
+    "skillIntensify": 12304451
+  },
   "12800461": {
     "id": 12800461,
     "name": "talent_name_12800461",
@@ -3662,6 +3710,14 @@
     "path": "",
     "awakeLv": 3,
     "skillIntensify": null
+  },
+  "12800465": {
+    "id": 12800465,
+    "name": "talent_name_12800465",
+    "desc": "talent_desc_12800465",
+    "path": "roleplus/00gift/katasignis/ZhongLiChang.webp",
+    "awakeLv": 6,
+    "skillIntensify": -1
   },
   "12800466": {
     "id": 12800466,
@@ -3839,6 +3895,14 @@
     "awakeLv": 3,
     "skillIntensify": null
   },
+  "12800488": {
+    "id": 12800488,
+    "name": "talent_name_12800488",
+    "desc": "talent_desc_12800488",
+    "path": "roleplus/00gift/katasignis/KuangXianDuanZou.webp",
+    "awakeLv": 2,
+    "skillIntensify": 12302621
+  },
   "12800489": {
     "id": 12800489,
     "name": "talent_name_12800489",
@@ -3935,6 +3999,14 @@
     "awakeLv": 3,
     "skillIntensify": -1
   },
+  "12800501": {
+    "id": 12800501,
+    "name": "talent_name_12800501",
+    "desc": "talent_desc_12800501",
+    "path": "roleplus/00gift/box/ShengJi.webp",
+    "awakeLv": 4,
+    "skillIntensify": 12304450
+  },
   "12800502": {
     "id": 12800502,
     "name": "talent_name_12800502",
@@ -3958,6 +4030,14 @@
     "path": "roleplus/00gift/dustin/QingMing.webp",
     "awakeLv": 3,
     "skillIntensify": -1
+  },
+  "12800505": {
+    "id": 12800505,
+    "name": "talent_name_12800505",
+    "desc": "talent_desc_12800505",
+    "path": "roleplus/00gift/katasignis/PiLiGouHua.webp",
+    "awakeLv": 3,
+    "skillIntensify": 12304449
   },
   "12800506": {
     "id": 12800506,
@@ -4767,6 +4847,14 @@
     "awakeLv": 3,
     "skillIntensify": -1
   },
+  "12800607": {
+    "id": 12800607,
+    "name": "talent_name_12800607",
+    "desc": "talent_desc_12800607",
+    "path": "roleplus/00gift/charlottestillheart/BuYuZhiZhongYi.webp",
+    "awakeLv": 3,
+    "skillIntensify": 12304469
+  },
   "12800608": {
     "id": 12800608,
     "name": "talent_name_12800608",
@@ -4797,6 +4885,14 @@
     "desc": "talent_desc_12800611",
     "path": "",
     "awakeLv": 3,
+    "skillIntensify": -1
+  },
+  "12800612": {
+    "id": 12800612,
+    "name": "talent_name_12800612",
+    "desc": "talent_desc_12800612",
+    "path": "roleplus/00gift/charlottestillheart/BuHuanZhiGuYong.webp",
+    "awakeLv": 6,
     "skillIntensify": -1
   },
   "12800613": {
@@ -5030,6 +5126,14 @@
     "path": "roleplus/00gift/ushana/NuXiang.webp",
     "awakeLv": 2,
     "skillIntensify": -1
+  },
+  "12800642": {
+    "id": 12800642,
+    "name": "talent_name_12800642",
+    "desc": "talent_desc_12800642",
+    "path": "roleplus/00gift/charlottestillheart/BuHuoZhiDongJian.webp",
+    "awakeLv": 5,
+    "skillIntensify": 12304471
   },
   "12800643": {
     "id": 12800643,
@@ -5325,6 +5429,174 @@
     "desc": "talent_desc_12800679",
     "path": "",
     "awakeLv": 5,
+    "skillIntensify": -1
+  },
+  "12800680": {
+    "id": 12800680,
+    "name": "talent_name_12800680",
+    "desc": "talent_desc_12800680",
+    "path": "roleplus/00gift/box/ShengJi.webp",
+    "awakeLv": 4,
+    "skillIntensify": 12304470
+  },
+  "12800681": {
+    "id": 12800681,
+    "name": "talent_name_12800681",
+    "desc": "talent_desc_12800681",
+    "path": "roleplus/00gift/charlottestillheart/BuXiuZhiJingJin.webp",
+    "awakeLv": 2,
+    "skillIntensify": 12302621
+  },
+  "12800682": {
+    "id": 12800682,
+    "name": "talent_name_12800682",
+    "desc": "talent_desc_12800682",
+    "path": "roleplus/00gift/box/ShengJi.webp",
+    "awakeLv": 4,
+    "skillIntensify": 12304512
+  },
+  "12800683": {
+    "id": 12800683,
+    "name": "talent_name_12800683",
+    "desc": "talent_desc_12800683",
+    "path": "roleplus/00gift/shana/ZiZaiShi.webp",
+    "awakeLv": 3,
+    "skillIntensify": 12304510
+  },
+  "12800684": {
+    "id": 12800684,
+    "name": "talent_name_12800684",
+    "desc": "talent_desc_12800684",
+    "path": "roleplus/00gift/shana/ZhiDianZheNa.webp",
+    "awakeLv": 5,
+    "skillIntensify": 12304511
+  },
+  "12800685": {
+    "id": 12800685,
+    "name": "talent_name_12800685",
+    "desc": "talent_desc_12800685",
+    "path": "roleplus/00gift/shana/TianFa.webp",
+    "awakeLv": 6,
+    "skillIntensify": -1
+  },
+  "12800686": {
+    "id": 12800686,
+    "name": "talent_name_12800686",
+    "desc": "talent_desc_12800686",
+    "path": "roleplus/00gift/shana/HuoWuZhanShi.webp",
+    "awakeLv": 2,
+    "skillIntensify": 12302625
+  },
+  "12800687": {
+    "id": 12800687,
+    "name": "talent_name_12800687",
+    "desc": "talent_desc_12800687",
+    "path": "roleplus/00gift/ruby/RuiFengleYing.webp",
+    "awakeLv": 2,
+    "skillIntensify": 12302349
+  },
+  "12800688": {
+    "id": 12800688,
+    "name": "talent_name_12800688",
+    "desc": "talent_desc_12800688",
+    "path": "roleplus/00gift/ruby/JiXieShi.webp",
+    "awakeLv": 5,
+    "skillIntensify": 12304583
+  },
+  "12800689": {
+    "id": 12800689,
+    "name": "talent_name_12800689",
+    "desc": "talent_desc_12800689",
+    "path": "roleplus/00gift/box/ShengJi.webp",
+    "awakeLv": 4,
+    "skillIntensify": 12304582
+  },
+  "12800690": {
+    "id": 12800690,
+    "name": "talent_name_12800690",
+    "desc": "talent_desc_12800690",
+    "path": "roleplus/00gift/ruby/QuanShiXiangYing.webp",
+    "awakeLv": 6,
+    "skillIntensify": -1
+  },
+  "12800691": {
+    "id": 12800691,
+    "name": "talent_name_12800691",
+    "desc": "talent_desc_12800691",
+    "path": "roleplus/00gift/ruby/ZhuanZiZengYa.webp",
+    "awakeLv": 3,
+    "skillIntensify": 12304581
+  },
+  "12800692": {
+    "id": 12800692,
+    "name": "talent_name_12800692",
+    "desc": "talent_desc_12800692",
+    "path": "RolePlus/00Gift/Teresa/ZhiNian",
+    "awakeLv": 5,
+    "skillIntensify": 12304599
+  },
+  "12800693": {
+    "id": 12800693,
+    "name": "talent_name_12800693",
+    "desc": "talent_desc_12800693",
+    "path": "roleplus/00gift/box/ShengJi.webp",
+    "awakeLv": 4,
+    "skillIntensify": 12304598
+  },
+  "12800694": {
+    "id": 12800694,
+    "name": "talent_name_12800694",
+    "desc": "talent_desc_12800694",
+    "path": "RolePlus/00Gift/Teresa/JuJiShou",
+    "awakeLv": 3,
+    "skillIntensify": 12304600
+  },
+  "12800695": {
+    "id": 12800695,
+    "name": "talent_name_12800695",
+    "desc": "talent_desc_12800695",
+    "path": "roleplus/00gift/fenia/LingXi.webp",
+    "awakeLv": 2,
+    "skillIntensify": 12302625
+  },
+  "12800696": {
+    "id": 12800696,
+    "name": "talent_name_12800696",
+    "desc": "talent_desc_12800696",
+    "path": "RolePlus/00Gift/Teresa/WangPaiShaShou",
+    "awakeLv": 6,
+    "skillIntensify": -1
+  },
+  "12800697": {
+    "id": 12800697,
+    "name": "talent_name_12800697",
+    "desc": "talent_desc_12800697",
+    "path": "",
+    "awakeLv": 2,
+    "skillIntensify": -1
+  },
+  "12800698": {
+    "id": 12800698,
+    "name": "talent_name_12800698",
+    "desc": "talent_desc_12800698",
+    "path": "",
+    "awakeLv": 3,
+    "skillIntensify": -1
+  },
+  "12800699": {
+    "id": 12800699,
+    "name": "talent_name_12800699",
+    "desc": "talent_desc_12800699",
+    "path": "",
+    "awakeLv": 5,
+    "skillIntensify": -1
+  },
+  "12800700": {
+    "id": 12800700,
+    "name": "talent_name_12800700",
+    "desc": "talent_desc_12800700",
+    "path": "",
+    "awakeLv": 6,
     "skillIntensify": -1
   }
 }

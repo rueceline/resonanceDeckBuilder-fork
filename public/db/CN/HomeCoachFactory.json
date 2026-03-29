@@ -185,6 +185,21 @@
         "skinshow": "UI/TrainSkinFriend/Tistar"
       },
       {
+        "id": 70500380,
+        "num": 2,
+        "skinshow": "UI/TrainSkinFriend/ktsyh"
+      },
+      {
+        "id": 70500386,
+        "num": 2,
+        "skinshow": "UI/TrainSkinFriend/xldcx"
+      },
+      {
+        "id": 70500392,
+        "num": 2,
+        "skinshow": "UI/TrainSkinFriend/ShanaSkin"
+      },
+      {
         "id": 70500298,
         "num": 2,
         "skinshow": "UI/TrainSkinFriend/yikala"
@@ -218,6 +233,16 @@
         "id": 70500269,
         "num": 2,
         "skinshow": "UI/TrainSkinFriend/majila"
+      },
+      {
+        "id": 70500298,
+        "num": 2,
+        "skinshow": "UI/TrainSkinFriend/yikala"
+      },
+      {
+        "id": 70500393,
+        "num": 2,
+        "skinshow": "UI/TrainSkinFriend/Shana"
       },
       {
         "id": 70500076,
@@ -421,7 +446,8 @@
       },
       {
         "id": 70500084,
-        "num": 2
+        "num": 2,
+        "skinshow": ""
       },
       {
         "id": 70500091,
@@ -521,6 +547,21 @@
         "skinshow": ""
       },
       {
+        "id": 70500383,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500389,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500401,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
         "id": 70500109,
         "num": 3,
         "skinshow": ""
@@ -552,6 +593,11 @@
       },
       {
         "id": 70500313,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500396,
         "num": 2,
         "skinshow": ""
       },
@@ -767,7 +813,8 @@
       },
       {
         "id": 70500082,
-        "num": 2
+        "num": 2,
+        "skinshow": ""
       },
       {
         "id": 70500089,
@@ -868,6 +915,21 @@
         "skinshow": ""
       },
       {
+        "id": 70500381,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500387,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500399,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
         "id": 70500107,
         "num": 3,
         "skinshow": ""
@@ -899,6 +961,11 @@
       },
       {
         "id": 70500311,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500394,
         "num": 2,
         "skinshow": ""
       },
@@ -1099,7 +1166,8 @@
       },
       {
         "id": 70500082,
-        "num": 2
+        "num": 2,
+        "skinshow": ""
       },
       {
         "id": 70500089,
@@ -1200,6 +1268,21 @@
         "skinshow": ""
       },
       {
+        "id": 70500381,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500387,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500399,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
         "id": 70500107,
         "num": 3,
         "skinshow": ""
@@ -1231,6 +1314,11 @@
       },
       {
         "id": 70500311,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500394,
         "num": 2,
         "skinshow": ""
       },
@@ -1441,7 +1529,8 @@
       },
       {
         "id": 70500083,
-        "num": 2
+        "num": 2,
+        "skinshow": ""
       },
       {
         "id": 70500090,
@@ -1541,6 +1630,21 @@
         "skinshow": ""
       },
       {
+        "id": 70500382,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500388,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500400,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
         "id": 70500108,
         "num": 3,
         "skinshow": ""
@@ -1572,6 +1676,11 @@
       },
       {
         "id": 70500312,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500395,
         "num": 2,
         "skinshow": ""
       },
@@ -1772,7 +1881,8 @@
       },
       {
         "id": 70500083,
-        "num": 2
+        "num": 2,
+        "skinshow": ""
       },
       {
         "id": 70500090,
@@ -1872,6 +1982,21 @@
         "skinshow": ""
       },
       {
+        "id": 70500382,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500388,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500400,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
         "id": 70500108,
         "num": 3,
         "skinshow": ""
@@ -1903,6 +2028,11 @@
       },
       {
         "id": 70500312,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500395,
         "num": 2,
         "skinshow": ""
       },
@@ -2197,7 +2327,8 @@
       },
       {
         "id": 70500085,
-        "num": 2
+        "num": 2,
+        "skinshow": ""
       },
       {
         "id": 70500092,
@@ -2297,6 +2428,21 @@
         "skinshow": ""
       },
       {
+        "id": 70500384,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500390,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500402,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
         "id": 70500207,
         "num": 2,
         "skinshow": ""
@@ -2308,6 +2454,11 @@
       },
       {
         "id": 70500314,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500397,
         "num": 2,
         "skinshow": ""
       },
@@ -2453,7 +2604,8 @@
       },
       {
         "id": 70500084,
-        "num": 2
+        "num": 2,
+        "skinshow": ""
       },
       {
         "id": 70500091,
@@ -2553,6 +2705,21 @@
         "skinshow": ""
       },
       {
+        "id": 70500383,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500389,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500401,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
         "id": 70500109,
         "num": 3,
         "skinshow": ""
@@ -2584,6 +2751,11 @@
       },
       {
         "id": 70500313,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500396,
         "num": 2,
         "skinshow": ""
       },
@@ -2789,7 +2961,8 @@
       },
       {
         "id": 70500084,
-        "num": 2
+        "num": 2,
+        "skinshow": ""
       },
       {
         "id": 70500091,
@@ -2889,6 +3062,21 @@
         "skinshow": ""
       },
       {
+        "id": 70500383,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500389,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500401,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
         "id": 70500109,
         "num": 3,
         "skinshow": ""
@@ -2920,6 +3108,11 @@
       },
       {
         "id": 70500313,
+        "num": 2,
+        "skinshow": ""
+      },
+      {
+        "id": 70500396,
         "num": 2,
         "skinshow": ""
       },

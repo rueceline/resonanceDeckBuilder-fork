@@ -919,5 +919,85 @@
     "overlayTimeType": "Reset",
     "overlayType": "UseNew",
     "isAddValue": false
+  },
+  {
+    "id": 13000113,
+    "idCN": "特殊/拉妲/觉醒2增伤覆盖",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
+  },
+  {
+    "id": 13000114,
+    "idCN": "特殊/拉妲/共振5增伤覆盖",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
+  },
+  {
+    "id": 13000115,
+    "idCN": "特殊/装备/白夜·真辉",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
+  },
+  {
+    "id": 13000116,
+    "idCN": "特殊/装备/独乐琶音",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
+  },
+  {
+    "id": 13000117,
+    "idCN": "特殊/夏洛蒂·澄心/共振1",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
+  },
+  {
+    "id": 13000118,
+    "idCN": "特殊/夏洛蒂·澄心/觉醒5增伤",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
+  },
+  {
+    "id": 13000119,
+    "idCN": "特殊/活动/咕卡易伤覆盖",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
+  },
+  {
+    "id": 13000120,
+    "idCN": "特殊/深渊/40期/增伤减伤覆盖",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
+  },
+  {
+    "id": 13000121,
+    "idCN": "特殊/夏娜/觉醒5增减伤覆盖",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
+  },
+  {
+    "id": 13000122,
+    "idCN": "特殊/露比/觉醒5增伤覆盖",
+    "mod": "覆盖",
+    "overlayTimeType": "Reset",
+    "overlayType": "UseNew",
+    "isAddValue": false
   }
 ]

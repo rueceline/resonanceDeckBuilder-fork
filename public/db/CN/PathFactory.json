@@ -11,7 +11,7 @@
     "idCN": "视频/登录界面",
     "mod": "默认",
     "isInformalData": false,
-    "filePath": "Video/Chapter3/video_08"
+    "filePath": "Video/CV_Japanese/EP7/PV_Shana"
   },
   {
     "id": 88300003,
@@ -1951,5 +1951,103 @@
     "mod": "图片",
     "isInformalData": false,
     "filePath": "UI\\Activity\\MistSequence\\Store\\store_logo"
+  },
+  {
+    "id": 88300305,
+    "idCN": "活动/限时累充/曙光酬礼-标题",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/ActivityRecharge/04/title"
+  },
+  {
+    "id": 88300306,
+    "idCN": "活动/赚钱秘籍/金币本图",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/MoneyMakingGuide/Img/Img_Level"
+  },
+  {
+    "id": 88300307,
+    "idCN": "活动/世界boss/攻坚战果",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/ActivityWorldBoss/Images_new/WorldBoss_level_reward_btn2"
+  },
+  {
+    "id": 88300298,
+    "idCN": "活动/卡塔斯周年/主界面/logo",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI\\Activity\\IronSaga\\IronSagaActivity/logo"
+  },
+  {
+    "id": 88300299,
+    "idCN": "活动/卡塔斯周年/商店/logo",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/Fire/Store/logo"
+  },
+  {
+    "id": 88300300,
+    "idCN": "活动/卡塔斯周年/任务/logo",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI\\Activity\\IronSaga\\Mission/Title"
+  },
+  {
+    "id": 88300301,
+    "idCN": "活动/曙光号爆破事件/任务/logo",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/BulletTrain/Mission/mission_logo"
+  },
+  {
+    "id": 88300302,
+    "idCN": "活动/曙光号爆破事件/主界面/logo",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/BulletTrain/Main/logo"
+  },
+  {
+    "id": 88300303,
+    "idCN": "活动/曙光号爆破事件/商店/logo",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/BulletTrain/Store/store_logo"
+  },
+  {
+    "id": 88300308,
+    "idCN": "活动/夏娜联动/主界面/logo",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/Flame/activity/logo"
+  },
+  {
+    "id": 88300309,
+    "idCN": "活动/夏娜联动/任务/logo",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/BulletTrain/Mission/mission_logo"
+  },
+  {
+    "id": 88300311,
+    "idCN": "活动/虚演刻录/虚演刻录",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/ActivityBattleBoss/Images/ActivityBattleBoss_tower_title"
+  },
+  {
+    "id": 88300312,
+    "idCN": "活动/虚演刻录/深度演算",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/ActivityBattleBoss/Images/ActivityBattleBoss_depth_title"
+  },
+  {
+    "id": 88300313,
+    "idCN": "活动/虚演刻录/奇点演算",
+    "mod": "图片",
+    "isInformalData": false,
+    "filePath": "UI/Activity/ActivityBattleBoss/Images/ActivityBattleBoss_ingularity_title"
   }
 ]

@@ -2255,8 +2255,8 @@
     "path": "RolePlus\\00Gift\\Dorothy\\JingXi",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "使用【莱格爆爆】后，有30%概率从牌库或弃牌区将1张【Bingo!】加入手牌，且费用变为0",
-    "desc": "使用【莱格爆爆】后，有30%概率从牌库或弃牌区将1张【Bingo!】加入手牌，且费用变为0",
+    "tempdesc": "【莱格爆爆】进入弃牌区时，获得1点费用，同时有30%概率从牌库或弃牌区将1张【Bingo!】加入手牌，且费用变为0",
+    "desc": "【莱格爆爆】进入弃牌区时，获得1点费用，同时有30%概率从牌库或弃牌区将1张【Bingo!】加入手牌，且费用变为0",
     "awakeLv": 3,
     "skillList": [
       {
@@ -12818,7 +12818,7 @@
   },
   {
     "id": 12800144,
-    "idCN": "00原版/05五星/罗洁尔_人/共振1-耀星",
+    "idCN": "00原版/05五星/罗洁尔·定格/共振1-耀星",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Raziel_Human\\YaoXing",
@@ -12851,7 +12851,7 @@
   },
   {
     "id": 12800148,
-    "idCN": "00原版/05五星/罗洁尔_人/共振2-负源汲取",
+    "idCN": "00原版/05五星/罗洁尔·定格/共振2-负源汲取",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Raziel_Human\\FuYuanJiQu",
@@ -12888,7 +12888,7 @@
   },
   {
     "id": 12800152,
-    "idCN": "00原版/05五星/罗洁尔_人/共振4-变星",
+    "idCN": "00原版/05五星/罗洁尔·定格/共振4-变星",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Raziel_Human\\BianXing",
@@ -12926,7 +12926,7 @@
   },
   {
     "id": 12800156,
-    "idCN": "00原版/05五星/罗洁尔_人/共振5-脉冲星",
+    "idCN": "00原版/05五星/罗洁尔·定格/共振5-脉冲星",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Raziel_Human\\MaiChongXing",
@@ -13284,7 +13284,7 @@
   },
   {
     "id": 12800283,
-    "idCN": "00原版/05五星/罗洁尔_天使/共振4-殉道",
+    "idCN": "00原版/05五星/罗洁尔/共振4-殉道",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Raziel_Angel\\XunDao",
@@ -13321,7 +13321,7 @@
   },
   {
     "id": 12800306,
-    "idCN": "00原版/05五星/罗洁尔_天使/共振5-神律",
+    "idCN": "00原版/05五星/罗洁尔/共振5-神律",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Raziel_Angel\\ShenLv",
@@ -13354,7 +13354,7 @@
   },
   {
     "id": 12800311,
-    "idCN": "00原版/05五星/罗洁尔_天使/共振2-警言",
+    "idCN": "00原版/05五星/罗洁尔/共振2-警言",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Raziel_Angel\\JingYan",
@@ -13394,7 +13394,7 @@
   },
   {
     "id": 12800329,
-    "idCN": "00原版/05五星/罗洁尔_天使/共振1-福音",
+    "idCN": "00原版/05五星/罗洁尔/共振1-福音",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Raziel_Angel\\FuYin",
@@ -15360,7 +15360,7 @@
   },
   {
     "id": 12800544,
-    "idCN": "00原版/05五星/罗洁尔_人/共振3-生机",
+    "idCN": "00原版/05五星/罗洁尔·定格/共振3-生机",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Box\\ShengJi",
@@ -15395,7 +15395,7 @@
   },
   {
     "id": 12800545,
-    "idCN": "00原版/05五星/罗洁尔_天使/共振3-生机",
+    "idCN": "00原版/05五星/罗洁尔/共振3-生机",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Box\\ShengJi",
@@ -17872,8 +17872,8 @@
     "path": "RolePlus/00Gift/Ikara/BuXiZhiLin",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "我方【点燃】/【炽地】/【燎原】/【熔心】/【烬灭】伤害提高30%",
-    "desc": "我方<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<color=#FF6666>【燎原】</color>/<color=#FF6666>【熔心】</color>/<color=#FF6666>【烬灭】</color>伤害提高30%",
+    "tempdesc": "我方【点燃】/【炽地】/【燎原】/【焚天】/【熔心】/【烬灭】伤害提高36%",
+    "desc": "我方<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<color=#FF6666>【燎原】</color>/<color=#FF6666>【焚天】</color>/<color=#FF6666>【熔心】</color>/<color=#FF6666>【烬灭】</color>伤害提高36%",
     "awakeLv": 5,
     "skillList": [
       {
@@ -20283,5 +20283,1138 @@
         "id": 80305922
       }
     ]
+  },
+  {
+    "id": 12800358,
+    "idCN": "00原版/05五星/拉妲/共振5-铁翼军势",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Rada\\TieYiJunShi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【压制哨戒炮】增强为：\\n设置1架【自动机炮】，对敌方目标进行扫射，持续5秒\\n5秒后，【自动机炮】引导【铁翼】对地面投射【燧石导弹】进行轰炸，对敌方全体造成3段伤害，同时每段伤害有50%概率触发【燎原】\\n【自动机炮】为【机械单位】\\n【铁翼】为【机械单位】\\n【燧石导弹】为【爆炸物】",
+    "desc": "【压制哨戒炮】增强为：\\n设置1架【自动机炮】，对敌方目标进行扫射，持续5秒\\n5秒后，【自动机炮】引导【铁翼】对地面投射【燧石导弹】进行轰炸，对敌方全体造成3段伤害，同时每段伤害有50%概率触发<color=#FF6666>【燎原】</color>\\n【自动机炮】为【机械单位】\\n【铁翼】为【机械单位】\\n【燧石导弹】为【爆炸物】",
+    "awakeLv": 6,
+    "skillList": [],
+    "skillChangeList": [
+      {
+        "newSkillId": 12304439,
+        "oldSkillId": 12304423
+      }
+    ],
+    "skillParamOffsetList": [],
+    "name": "铁翼军势",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305995
+      },
+      {
+        "id": 80305996
+      },
+      {
+        "id": 80305997
+      }
+    ]
+  },
+  {
+    "id": 12800395,
+    "idCN": "00原版/05五星/拉妲/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12304427,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305989
+      },
+      {
+        "id": 80305990
+      },
+      {
+        "id": 80305991
+      }
+    ]
+  },
+  {
+    "id": 12800445,
+    "idCN": "00原版/05五星/拉妲/共振1-弹幕掩护",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Rada\\DanMuYanHu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "场上每存在1架【压制哨戒炮】/【雷兽】，使敌方全体造成的最终伤害降低7%，上限35%",
+    "desc": "场上每存在1架【压制哨戒炮】/【雷兽】，使敌方全体造成的最终伤害降低7%，上限35%",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304431
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "弹幕掩护",
+    "skillIntensify": 12302626,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305983
+      },
+      {
+        "id": 80305984
+      },
+      {
+        "id": 80305985
+      }
+    ]
+  },
+  {
+    "id": 12800450,
+    "idCN": "00原版/05五星/拉妲/共振2-火力校准",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Rada\\HuoLiJiaoZhun",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【压制哨戒炮】后，【雷兽】造成的伤害提高10%，上限150%",
+    "desc": "使用【压制哨戒炮】后，【雷兽】造成的伤害提高10%，上限150%",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304432
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "火力校准",
+    "skillIntensify": 12304426,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305986
+      },
+      {
+        "id": 80305987
+      },
+      {
+        "id": 80305988
+      }
+    ]
+  },
+  {
+    "id": 12800453,
+    "idCN": "00原版/05五星/拉妲/共振4-战场调度",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Rada\\ZhanChangDiaoDu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "带有【机械单位】词条的卡牌进入弃牌区时，有25%概率获得1点费用，同时使下1张【压制哨戒炮】持续时间延长2秒",
+    "desc": "带有【机械单位】词条的卡牌进入弃牌区时，有25%概率获得1点费用，同时使下1张【压制哨戒炮】持续时间延长2秒",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304433
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "战场调度",
+    "skillIntensify": 12304428,
+    "skillActiveUpgrade": [
+      {
+        "id": 12304425
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305992
+      },
+      {
+        "id": 80305993
+      },
+      {
+        "id": 80305994
+      }
+    ]
+  },
+  {
+    "id": 12800460,
+    "idCN": "00原版/05五星/卡塔斯·业火/共振4-热力扫弦",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\KatasIgnis\\ReLiSaoXian",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "自身处于【狂暴】/【躁动】状态时，自身每次命中触发【点燃】，伤害类特殊效果除外",
+    "desc": "自身处于<color=#FF6666>【狂暴】</color>/<color=#FF6666>【躁动】</color>状态时，自身每次命中触发<color=#FF6666>【点燃】</color>，伤害类特殊效果除外",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304476
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "热力扫弦",
+    "skillIntensify": 12304451,
+    "skillActiveUpgrade": [
+      {
+        "id": 12304448
+      },
+      {
+        "id": 12304452
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305917
+      },
+      {
+        "id": 80305918
+      },
+      {
+        "id": 80305919
+      }
+    ]
+  },
+  {
+    "id": 12800465,
+    "idCN": "00原版/05五星/卡塔斯·业火/共振5-重力场",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\KatasIgnis\\ZhongLiChang",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每轮牌库将【独乐连奏】置顶\\n【独乐连奏】持续期间，【震音连击】/【无想琶音·圣羽燎奏】攻击段数+1，同时使敌方全体攻击力和防御力下降21%",
+    "desc": "每轮牌库将【独乐连奏】置顶\\n【独乐连奏】持续期间，【震音连击】/【无想琶音·圣羽燎奏】攻击段数+1，同时使敌方全体攻击力和防御力下降21%",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12304479
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "重力场",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305920
+      },
+      {
+        "id": 80305921
+      },
+      {
+        "id": 80305922
+      }
+    ]
+  },
+  {
+    "id": 12800488,
+    "idCN": "00原版/05五星/卡塔斯·业火/共振1-狂弦断奏",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\KatasIgnis\\KuangXianDuanZou",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每获得/消耗1个【狂热音符】，回复生命值最低的1名我方3%生命值\\n濒死时消耗最多21个【狂热音符】，每个【狂热音符】使自身【无敌】1秒，限1次",
+    "desc": "每获得/消耗1个【狂热音符】，回复生命值最低的1名我方3%生命值\\n濒死时消耗最多21个【狂热音符】，每个【狂热音符】使自身<color=#7AB2FF>【无敌】</color>1秒，限1次",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304474
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "狂弦断奏",
+    "skillIntensify": 12302621,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305544
+      },
+      {
+        "id": 80305909
+      },
+      {
+        "id": 80305910
+      }
+    ]
+  },
+  {
+    "id": 12800501,
+    "idCN": "00原版/05五星/卡塔斯·业火/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12304450,
+    "skillActiveUpgrade": [
+      {
+        "id": 12304447
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305914
+      },
+      {
+        "id": 80305915
+      },
+      {
+        "id": 80305916
+      }
+    ]
+  },
+  {
+    "id": 12800505,
+    "idCN": "00原版/05五星/卡塔斯·业火/共振2-霹雳勾滑",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\KatasIgnis\\PiLiGouHua",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每获得5个【狂热音符】，抽1张牌",
+    "desc": "每获得5个【狂热音符】，抽1张牌",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304478
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "霹雳勾滑",
+    "skillIntensify": 12304449,
+    "skillActiveUpgrade": [
+      {
+        "id": 12304446
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305911
+      },
+      {
+        "id": 80305912
+      },
+      {
+        "id": 80305913
+      }
+    ]
+  },
+  {
+    "id": 12800607,
+    "idCN": "00原版/05五星/夏洛蒂·澄心/共振2-不渝之忠义",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\CharlotteStillheart\\BuYuZhiZhongYi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "将【迸裂】/【擘裂】造成伤害的1%回复自身生命值\\n每吸收1点【辉光】，回复生命值最低的1名我方，自身等级越高，回复量越高，且能超出生命值上限",
+    "desc": "将<color=#FF6666>【迸裂】</color>/<color=#FF6666>【擘裂】</color>造成伤害的1%回复自身生命值\\n每吸收1点【辉光】，回复生命值最低的1名我方，自身等级越高，回复量越高，且能超出生命值上限",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304462
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "不渝之忠义",
+    "skillIntensify": 12304469,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305911
+      },
+      {
+        "id": 80305912
+      },
+      {
+        "id": 80305913
+      }
+    ]
+  },
+  {
+    "id": 12800612,
+    "idCN": "00原版/05五星/夏洛蒂·澄心/共振5-不还之孤勇",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\CharlotteStillheart\\BuHuanZhiGuYong",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每使用6张5费及以上红卡，生成1张【无毁之一击】加入手牌，且能超出手牌上限",
+    "desc": "每使用6张5费及以上红卡，生成1张【无毁之一击】加入手牌，且能超出手牌上限",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12304468
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "不还之孤勇",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305920
+      },
+      {
+        "id": 80305921
+      },
+      {
+        "id": 80305922
+      }
+    ]
+  },
+  {
+    "id": 12800642,
+    "idCN": "00原版/05五星/夏洛蒂·澄心/共振4-不惑之洞见",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\CharlotteStillheart\\BuHuoZhiDongJian",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每吸收1点【辉光】，获得0.5点费用",
+    "desc": "每吸收1点【辉光】，获得0.5点费用",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304461
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "不惑之洞见",
+    "skillIntensify": 12304471,
+    "skillActiveUpgrade": [
+      {
+        "id": 12304465
+      },
+      {
+        "id": 12304472
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305917
+      },
+      {
+        "id": 80305918
+      },
+      {
+        "id": 80305919
+      }
+    ]
+  },
+  {
+    "id": 12800680,
+    "idCN": "00原版/05五星/夏洛蒂·澄心/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12304470,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305914
+      },
+      {
+        "id": 80305915
+      },
+      {
+        "id": 80305916
+      }
+    ]
+  },
+  {
+    "id": 12800681,
+    "idCN": "00原版/05五星/夏洛蒂·澄心/共振1-不休之精进",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\CharlotteStillheart\\BuXiuZhiJingJin",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "牌库中每有1张红卡，自身造成的最终伤害增加2.5%，上限50%",
+    "desc": "牌库中每有1张红卡，自身造成的最终伤害增加2.5%，上限50%",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304460
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "不休之精进",
+    "skillIntensify": 12302621,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305544
+      },
+      {
+        "id": 80305909
+      },
+      {
+        "id": 80305910
+      }
+    ]
+  },
+  {
+    "id": 12800682,
+    "idCN": "00原版/05五星/夏娜/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12304512,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305974
+      },
+      {
+        "id": 80305975
+      },
+      {
+        "id": 80305976
+      }
+    ]
+  },
+  {
+    "id": 12800683,
+    "idCN": "00原版/05五星/夏娜/共振2-自在师",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Shana\\ZiZaiShi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【存在之力】大于50点时，自身卡牌所需费用-1\\n【存在之力】大于100点时，使用【飞焰】/【封绝】/【审判】后追加使用【真红】\\n【存在之力】大于200点时，【红莲之大太刀】转化为【断罪】",
+    "desc": "【存在之力】大于50点时，自身卡牌所需费用-1\\n【存在之力】大于100点时，使用【飞焰】/【封绝】/【审判】后追加使用【真红】\\n【存在之力】大于200点时，【红莲之大太刀】转化为【断罪】",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304500
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "自在师",
+    "skillIntensify": 12304510,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305971
+      },
+      {
+        "id": 80305972
+      },
+      {
+        "id": 80305973
+      }
+    ]
+  },
+  {
+    "id": 12800684,
+    "idCN": "00原版/05五星/夏娜/共振4-贽殿遮那",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Shana\\ZhiDianZheNa",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "自身每次命中同时触发【斩裂】，伤害类特殊效果除外\\n同时自身造成的【斩裂】伤害加倍",
+    "desc": "自身每次命中同时触发<color=#FF6666>【斩裂】</color>，伤害类特殊效果除外\\n同时自身造成的<color=#FF6666>【斩裂】</color>伤害加倍",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304505
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "贽殿遮那",
+    "skillIntensify": 12304511,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305977
+      },
+      {
+        "id": 80305978
+      },
+      {
+        "id": 80305979
+      }
+    ]
+  },
+  {
+    "id": 12800685,
+    "idCN": "00原版/05五星/夏娜/共振5-天罚",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Shana\\TianFa",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【存在之力】大于300点时，生成1张【天破壤碎】加入手牌，且能超出手牌上限\\n濒死时【无敌】5秒，同时直接使用【天破壤碎】\\n以上2个效果，只能触发1次",
+    "desc": "【存在之力】大于300点时，生成1张【天破壤碎】加入手牌，且能超出手牌上限\\n濒死时<color=#7AB2FF>【无敌】</color>5秒，同时直接使用【天破壤碎】\\n以上2个效果，只能触发1次",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12304506
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "天罚",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305980
+      },
+      {
+        "id": 80305981
+      },
+      {
+        "id": 80305982
+      }
+    ]
+  },
+  {
+    "id": 12800686,
+    "idCN": "00原版/05五星/夏娜/共振1-火雾战士",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Shana\\HuoWuZhanShi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每次使用自身技能牌时，获得【存在之力】\\n效果越强，获得的【存在之力】越高\\n每获得30点【存在之力】获得1点费用",
+    "desc": "每次使用自身技能牌时，获得【存在之力】\\n效果越强，获得的【存在之力】越高\\n每获得30点【存在之力】获得1点费用",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304499
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "火雾战士",
+    "skillIntensify": 12302625,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305968
+      },
+      {
+        "id": 80305969
+      },
+      {
+        "id": 80305970
+      }
+    ]
+  },
+  {
+    "id": 12800687,
+    "idCN": "00原版/05五星/露比/共振1-锐锋掠影",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Ruby/RuiFengleYing",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每次牌库抽光触发洗牌时，生成1张【锐锋】加入手牌",
+    "desc": "每次牌库抽光触发洗牌时，生成1张【锐锋】加入手牌",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304580
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "锐锋掠影",
+    "skillIntensify": 12302349,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305764
+      },
+      {
+        "id": 80305763
+      },
+      {
+        "id": 80305762
+      }
+    ]
+  },
+  {
+    "id": 12800688,
+    "idCN": "00原版/05五星/露比/共振4-机械师",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Ruby/JiXieShi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【超电弹弓飞拳·试作型】后，从牌库或弃牌区将所有的【转子飞拳】加入手牌\\n每加入1张，自身攻击力+1%，上限30%",
+    "desc": "使用【超电弹弓飞拳·试作型】后，从牌库或弃牌区将所有的【转子飞拳】加入手牌\\n每加入1张，自身攻击力+1%，上限30%",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304572
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "机械师",
+    "skillIntensify": 12304583,
+    "skillActiveUpgrade": [
+      {
+        "id": 12304578
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305773
+      },
+      {
+        "id": 80305772
+      },
+      {
+        "id": 80305771
+      }
+    ]
+  },
+  {
+    "id": 12800689,
+    "idCN": "00原版/05五星/露比/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12304582,
+    "skillActiveUpgrade": [
+      {
+        "id": 12304575
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305770
+      },
+      {
+        "id": 80305769
+      },
+      {
+        "id": 80305768
+      }
+    ]
+  },
+  {
+    "id": 12800690,
+    "idCN": "00原版/05五星/露比/共振5-全时响应",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Ruby/QuanShiXiangYing",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【转子飞拳】入手时，直接打出\\n每打出3张【转子飞拳】，抽1张牌",
+    "desc": "【转子飞拳】入手时，直接打出\\n每打出3张【转子飞拳】，抽1张牌",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12304573
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "回甘百味",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305774
+      },
+      {
+        "id": 80305775
+      },
+      {
+        "id": 80305776
+      }
+    ]
+  },
+  {
+    "id": 12800691,
+    "idCN": "00原版/05五星/露比/共振2-转子增压",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Ruby/ZhuanZiZengYa",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "当前每有3点费用，【转子飞拳】攻击段数+1",
+    "desc": "当前每有3点费用，【转子飞拳】攻击段数+1",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304579
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "转子增压",
+    "skillIntensify": 12304581,
+    "skillActiveUpgrade": [
+      {
+        "id": 12304571
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305767
+      },
+      {
+        "id": 80305766
+      },
+      {
+        "id": 80305765
+      }
+    ]
+  },
+  {
+    "id": 12800692,
+    "idCN": "00原版/05五星/迪妮莎/共振4-执念",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Teresa/ZhiNian",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "自身免疫所有受到的负面效果",
+    "desc": "自身免疫所有受到的负面效果",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304591
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "执念",
+    "skillIntensify": 12304599,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305977
+      },
+      {
+        "id": 80305978
+      },
+      {
+        "id": 80305979
+      }
+    ]
+  },
+  {
+    "id": 12800693,
+    "idCN": "00原版/05五星/迪妮莎/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12304598,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305974
+      },
+      {
+        "id": 80305975
+      },
+      {
+        "id": 80305976
+      }
+    ]
+  },
+  {
+    "id": 12800694,
+    "idCN": "00原版/05五星/迪妮莎/共振2-狙击手",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Teresa/JuJiShou",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "自身每次命中有5%概率触发【重伤】，伤害类特殊效果除外",
+    "desc": "自身每次命中有5%概率触发<color=#FF6666>【重伤】</color>，伤害类特殊效果除外",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304589
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "狙击手",
+    "skillIntensify": 12304600,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305971
+      },
+      {
+        "id": 80305972
+      },
+      {
+        "id": 80305973
+      }
+    ]
+  },
+  {
+    "id": 12800695,
+    "idCN": "00原版/05五星/迪妮莎/共振1-灵犀",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Fenia\\LingXi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每轮牌库【连锁EMP】置顶",
+    "desc": "每轮牌库【连锁EMP】置顶",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304586
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "灵犀",
+    "skillIntensify": 12302625,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305968
+      },
+      {
+        "id": 80305969
+      },
+      {
+        "id": 80305970
+      }
+    ]
+  },
+  {
+    "id": 12800696,
+    "idCN": "00原版/05五星/迪妮莎/共振5-王牌杀手",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Teresa/WangPaiShaShou",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "自身造成的最终伤害提高10%，每有1张手牌，额外提高5%",
+    "desc": "自身造成的最终伤害提高10%，每有1张手牌，额外提高5%",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12304593
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "王牌杀手",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305980
+      },
+      {
+        "id": 80305981
+      },
+      {
+        "id": 80305982
+      }
+    ]
+  },
+  {
+    "id": 12800697,
+    "idCN": "01敌方/黑月/亚莉奈/共振1-樱桃炸弹",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304684
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800698,
+    "idCN": "01敌方/黑月/亚莉奈/共振2-牵绊",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304685
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800699,
+    "idCN": "01敌方/黑月/亚莉奈/共振4-红汁",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304686
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800700,
+    "idCN": "01敌方/黑月/亚莉奈/共振5-燃情朗姆",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12304687
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
   }
 ]

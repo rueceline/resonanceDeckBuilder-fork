@@ -402,5 +402,49 @@
     "coverPath": "",
     "width": 1920,
     "height": 1080
+  },
+  {
+    "id": 82400036,
+    "idCN": "章节视频/活动/曙光号爆破事件",
+    "mod": "基础视频",
+    "isInformalData": false,
+    "name": "",
+    "videoPath": "Video\\Chapter4\\video_EV6",
+    "coverPath": "",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "id": 82400039,
+    "idCN": "章节视频/角色试用/拉妲",
+    "mod": "基础视频",
+    "isInformalData": false,
+    "name": "",
+    "videoPath": "Video\\Chapter3\\video_TE7",
+    "coverPath": "",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "id": 82400040,
+    "idCN": "章节视频/活动/曼杜斯骑士谭",
+    "mod": "基础视频",
+    "isInformalData": false,
+    "name": "",
+    "videoPath": "Video/Chapter4/video_CE7",
+    "coverPath": "",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "id": 82400041,
+    "idCN": "章节视频/角色试用/夏洛蒂SP",
+    "mod": "基础视频",
+    "isInformalData": false,
+    "name": "",
+    "videoPath": "Video\\Chapter4\\video_TE8",
+    "coverPath": "",
+    "width": 1920,
+    "height": 1080
   }
 ]

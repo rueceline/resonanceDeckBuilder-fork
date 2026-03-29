@@ -3236,6 +3236,50 @@
       }
     ]
   },
+  "11800099": {
+    "id": 11800099,
+    "name": "equip_name_11800099",
+    "type": "armor",
+    "des": "equip_des_11800099",
+    "tipsPath": "item/weapon/zapai/big/31_500.webp",
+    "equipTagId": 12600161,
+    "quality": "Purple",
+    "skillList": [
+      {
+        "skillId": 12304392
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800099_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800099_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800099_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800099_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
   "11800102": {
     "id": 11800102,
     "name": "equip_name_11800102",
@@ -3619,6 +3663,182 @@
       },
       {
         "DisplayName": "equip_Getway_11800107_6_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800108": {
+    "id": 11800108,
+    "name": "equip_name_11800108",
+    "type": "weapon",
+    "des": "equip_des_11800108",
+    "tipsPath": "item/weapon/tiemeng/big/27_500.webp",
+    "equipTagId": 12600155,
+    "quality": "Purple",
+    "skillList": [
+      {
+        "skillId": 12304393
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800108_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800108_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800108_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800108_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800108_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800108_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800108_6_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800109": {
+    "id": 11800109,
+    "name": "equip_name_11800109",
+    "type": "armor",
+    "des": "equip_des_11800109",
+    "tipsPath": "item/weapon/tiemeng/big/32_500.webp",
+    "equipTagId": 12600161,
+    "quality": "Blue",
+    "skillList": [
+      {
+        "skillId": 12304394
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800109_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800109_1_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800109_2_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800109_3_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800109_4_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800109_5_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip_Getway_11800109_6_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800113": {
+    "id": 11800113,
+    "name": "equip_name_11800113",
+    "type": "weapon",
+    "des": "equip_des_11800113",
+    "tipsPath": "item/weapon/xuehui/big/35.webp",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12304484
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800113_0_DisplayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800114": {
+    "id": 11800114,
+    "name": "equip_name_11800114",
+    "type": "weapon",
+    "des": "equip_des_11800114",
+    "tipsPath": "item/weapon/diguo/big/36.webp",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12304483
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip_Getway_11800114_0_DisplayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",

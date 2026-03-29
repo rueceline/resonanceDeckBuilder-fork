@@ -20912,7 +20912,7 @@
   },
   {
     "id": 10300507,
-    "idCN": "我方/05五星/罗洁尔_人",
+    "idCN": "我方/05五星/罗洁尔·定格",
     "mod": "卡牌AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -21354,7 +21354,7 @@
   },
   {
     "id": 10300508,
-    "idCN": "我方/50召唤物/罗洁尔_人/昂宿七_01",
+    "idCN": "我方/50召唤物/罗洁尔·定格/昂宿七_01",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -21382,7 +21382,7 @@
   },
   {
     "id": 10300520,
-    "idCN": "我方/50召唤物/罗洁尔_人/昂宿七_03",
+    "idCN": "我方/50召唤物/罗洁尔·定格/昂宿七_03",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -21404,13 +21404,14 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   },
   {
     "id": 10300519,
-    "idCN": "我方/50召唤物/罗洁尔_人/昂宿七_02",
+    "idCN": "我方/50召唤物/罗洁尔·定格/昂宿七_02",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -22292,7 +22293,7 @@
   },
   {
     "id": 10300539,
-    "idCN": "我方/05五星/罗洁尔_天使",
+    "idCN": "我方/05五星/罗洁尔",
     "mod": "卡牌AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -22326,7 +22327,7 @@
   },
   {
     "id": 10300540,
-    "idCN": "我方/50召唤物/罗洁尔_天使/真理之眼",
+    "idCN": "我方/50召唤物/罗洁尔/真理之眼",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -28217,6 +28218,807 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300671,
+    "idCN": "我方/05五星/拉妲",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104817
+      },
+      {
+        "actionID": 10104843
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300672,
+    "idCN": "我方/50召唤物/拉妲/bot03铁翼攻击机",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104837
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104840,
+        "activeFrame": 1,
+        "activeTime": 1,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104842
+      }
+    ],
+    "skillLoopDelayFrame": 99999,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300673,
+    "idCN": "我方/50召唤物/拉妲/bot02雷兽",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104836
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104835,
+        "activeFrame": 1,
+        "activeTime": 1,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104831
+      }
+    ],
+    "skillLoopDelayFrame": 59,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300674,
+    "idCN": "我方/50召唤物/拉妲/bot01自动机炮",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104829
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104845,
+        "activeFrame": 1,
+        "activeTime": 1,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104826
+      }
+    ],
+    "skillLoopDelayFrame": 59,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300676,
+    "idCN": "我方/50召唤物/拉妲/bot01自动机炮加速",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104829
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104848,
+        "activeFrame": 1,
+        "activeTime": 1,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104826
+      }
+    ],
+    "skillLoopDelayFrame": 39,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300678,
+    "idCN": "我方/50召唤物/拉妲/bot02雷兽加速",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104836
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104849,
+        "activeFrame": 1,
+        "activeTime": 1,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104831
+      }
+    ],
+    "skillLoopDelayFrame": 39,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300679,
+    "idCN": "我方/50召唤物/拉妲/bot03铁翼攻击机加速加子弹",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104837
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104846,
+        "activeFrame": 1,
+        "activeTime": 1,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104842
+      }
+    ],
+    "skillLoopDelayFrame": 99999,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300680,
+    "idCN": "我方/05五星/卡塔斯·业火",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104852
+      },
+      {
+        "actionID": 10104899
+      },
+      {
+        "actionID": 10104863
+      },
+      {
+        "actionID": 10104901
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 480,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300681,
+    "idCN": "我方/05五星/夏洛蒂·澄心",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104875
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300682,
+    "idCN": "敌方/98未知/不死鸟-阶段1",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104878
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104885,
+        "activeFrame": 241,
+        "activeTime": 4,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104887,
+        "activeFrame": 361,
+        "activeTime": 6,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104885,
+        "activeFrame": 601,
+        "activeTime": 10,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104881
+      }
+    ],
+    "skillLoopDelayFrame": 300,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104888
+      }
+    ],
+    "energyRestorePerFrameSN": 555,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300683,
+    "idCN": "敌方/98未知/不死鸟-阶段2",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104889
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104897,
+        "activeFrame": 241,
+        "activeTime": 4,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104897,
+        "activeFrame": 481,
+        "activeTime": 8,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104896,
+        "activeFrame": 721,
+        "activeTime": 12,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 240,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104895
+      }
+    ],
+    "energyRestorePerFrameSN": 555,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300684,
+    "idCN": "我方/05五星/夏娜",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104919
+      },
+      {
+        "actionID": 10104925
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 720,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300675,
+    "idCN": "我方/50召唤物/夏娜/亚拉斯特尔",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104931
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10104929
+      }
+    ],
+    "skillLoopDelayFrame": 720,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300677,
+    "idCN": "我方/99录制用/夏娜",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104919
+      },
+      {
+        "actionID": 10104925
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104914,
+        "activeFrame": 121,
+        "activeTime": 2,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104916,
+        "activeFrame": 361,
+        "activeTime": 6,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104922,
+        "activeFrame": 1201,
+        "activeTime": 20,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104924,
+        "activeFrame": 1561,
+        "activeTime": 26,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104923,
+        "activeFrame": 2161,
+        "activeTime": 36,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104921,
+        "activeFrame": 2521,
+        "activeTime": 42,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 720,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300685,
+    "idCN": "我方/05五星/露比",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104939
+      },
+      {
+        "actionID": 10104944
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 240,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300686,
+    "idCN": "我方/50召唤物/露比/锐锋",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104945
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104950
+      }
+    ],
+    "skillLoopDelayFrame": 4294967295,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300687,
+    "idCN": "我方/05五星/迪妮莎",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104963
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300688,
+    "idCN": "我方/50召唤物/迪妮莎/S·E·E·D·S",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104970
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104971
+      }
+    ],
+    "skillLoopDelayFrame": 4294967295,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300689,
+    "idCN": "我方/50召唤物/迪妮莎/浮游狙击枪",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104967
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104964
+      }
+    ],
+    "skillLoopDelayFrame": 4294967295,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300690,
+    "idCN": "敌方/000角色/黑月/亚莉奈",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0,
+    "effectOffsetY": 0,
+    "actionList": [
+      {
+        "actionID": 10104982
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104989,
+        "activeFrame": 361,
+        "activeTime": 6,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104987,
+        "activeFrame": 721,
+        "activeTime": 12,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104989,
+        "activeFrame": 1081,
+        "activeTime": 18,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104987,
+        "activeFrame": 1441,
+        "activeTime": 24,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104983,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 521,
     "energyBarColor": "#FFB200",
     "isSkillDelay": false,
     "minDelay": 120,

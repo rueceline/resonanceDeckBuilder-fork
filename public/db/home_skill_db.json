@@ -1881,5 +1881,89 @@
     "desc": "home_skill_desc_83900269",
     "param": -0.005,
     "homeSkillType": "TaxCuts"
+  },
+  "83900270": {
+    "id": 83900270,
+    "name": "home_skill_name_83900270",
+    "desc": "home_skill_desc_83900270",
+    "param": 0.2,
+    "homeSkillType": "AddSpecQty"
+  },
+  "83900271": {
+    "id": 83900271,
+    "name": "home_skill_name_83900271",
+    "desc": "home_skill_desc_83900271",
+    "param": 0.1,
+    "homeSkillType": "AddSpecQty"
+  },
+  "83900272": {
+    "id": 83900272,
+    "name": "home_skill_name_83900272",
+    "desc": "home_skill_desc_83900272",
+    "param": 0.03,
+    "homeSkillType": "AddEntrustReward"
+  },
+  "83900273": {
+    "id": 83900273,
+    "name": "home_skill_name_83900273",
+    "desc": "home_skill_desc_83900273",
+    "param": 8,
+    "homeSkillType": "AddEnergyMax"
+  },
+  "83900274": {
+    "id": 83900274,
+    "name": "home_skill_name_83900274",
+    "desc": "home_skill_desc_83900274",
+    "param": 8,
+    "homeSkillType": "AddEnergyMax"
+  },
+  "83900275": {
+    "id": 83900275,
+    "name": "home_skill_name_83900275",
+    "desc": "home_skill_desc_83900275",
+    "param": 0.2,
+    "homeSkillType": "AddTypeQty"
+  },
+  "83900276": {
+    "id": 83900276,
+    "name": "home_skill_name_83900276",
+    "desc": "home_skill_desc_83900276",
+    "param": 8,
+    "homeSkillType": "AddEnergyMax"
+  },
+  "83900277": {
+    "id": 83900277,
+    "name": "home_skill_name_83900277",
+    "desc": "home_skill_desc_83900277",
+    "param": 8,
+    "homeSkillType": "AddEnergyMax"
+  },
+  "83900278": {
+    "id": 83900278,
+    "name": "home_skill_name_83900278",
+    "desc": "home_skill_desc_83900278",
+    "param": 0.03,
+    "homeSkillType": "AddEntrustReward"
+  },
+  "83900279": {
+    "id": 83900279,
+    "name": "home_skill_name_83900279",
+    "desc": "home_skill_desc_83900279",
+    "param": 5,
+    "homeSkillType": "RiseSpaceLimited"
+  },
+  "83900280": {
+    "id": 83900280,
+    "name": "home_skill_name_83900280",
+    "desc": "home_skill_desc_83900280",
+    "param": 1,
+    "homeSkillType": "AddQtyNum"
+  },
+  "83900281": {
+    "id": 83900281,
+    "name": "home_skill_name_83900281",
+    "desc": "home_skill_desc_83900281",
+    "param": 0.1,
+    "homeSkillType": "AddTypeQty"
   }
 }

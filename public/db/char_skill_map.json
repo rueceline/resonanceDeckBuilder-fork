@@ -960,6 +960,17 @@
     ],
     "notFromCharacters": []
   },
+  "10001220": {
+    "skills": [
+      12304446,
+      12304447,
+      12304448
+    ],
+    "relatedSkills": [
+      12304452
+    ],
+    "notFromCharacters": []
+  },
   "10001222": {
     "skills": [
       12304373,
@@ -968,6 +979,42 @@
     ],
     "relatedSkills": [
       12304379
+    ],
+    "notFromCharacters": []
+  },
+  "10001246": {
+    "skills": [
+      12304423,
+      12304424,
+      12304425
+    ],
+    "relatedSkills": [
+      12304439
+    ],
+    "notFromCharacters": []
+  },
+  "10001266": {
+    "skills": [
+      12304459,
+      12304464,
+      12304465
+    ],
+    "relatedSkills": [
+      12304472
+    ],
+    "notFromCharacters": []
+  },
+  "10001271": {
+    "skills": [
+      12304503,
+      12304502,
+      12304504
+    ],
+    "relatedSkills": [
+      12304513,
+      12304516,
+      12304515,
+      12304514
     ],
     "notFromCharacters": []
   }

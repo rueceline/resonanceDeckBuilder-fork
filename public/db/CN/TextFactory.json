@@ -2718,14 +2718,14 @@
   },
   {
     "id": 80600470,
-    "idCN": "装备/是否需要覆盖该预设",
+    "idCN": "装备/预设/是否需要覆盖该预设",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "是否需要覆盖该预设"
   },
   {
     "id": 80600471,
-    "idCN": "装备/是否需要清空该预设",
+    "idCN": "装备/预设/是否需要清空该预设",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "是否需要清空该预设"
@@ -2865,7 +2865,7 @@
   },
   {
     "id": 80600501,
-    "idCN": "装备/词缀数量",
+    "idCN": "装备/词缀/词缀数量",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "词缀数量 %s/%s"
@@ -3158,7 +3158,7 @@
   },
   {
     "id": 80600524,
-    "idCN": "装备/强化栏为空",
+    "idCN": "装备/强化/强化栏为空",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "强化栏为空"
@@ -3301,7 +3301,7 @@
   },
   {
     "id": 80600532,
-    "idCN": "装备/是否应用该预设",
+    "idCN": "装备/预设/是否应用该预设",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "是否应用该预设？"
@@ -4145,14 +4145,14 @@
   },
   {
     "id": 80600576,
-    "idCN": "装备/剩余可替换次数",
+    "idCN": "装备/词缀/剩余可替换次数x02",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "（剩余可替换次数  <color='#FFB800'>%s </color>）"
   },
   {
     "id": 80600577,
-    "idCN": "装备/剩余可替换次数：",
+    "idCN": "装备/词缀/剩余可替换次数x01",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "剩余可替换次数：%s"
@@ -4166,14 +4166,14 @@
   },
   {
     "id": 80600578,
-    "idCN": "装备/剩余词缀数量：",
+    "idCN": "装备/词缀/剩余词缀数量x",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "剩余词缀数量：<color='#FFB800'>%s </color>"
   },
   {
     "id": 80600584,
-    "idCN": "装备/强化栏已满",
+    "idCN": "装备/强化/强化栏已满",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "强化栏已满"
@@ -5989,7 +5989,7 @@
   },
   {
     "id": 80600677,
-    "idCN": "装备/不可替换1",
+    "idCN": "装备/词缀/词缀未达上限无法替换",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "词缀未达上限，无法替换词缀"
@@ -7414,14 +7414,14 @@
   },
   {
     "id": 80600770,
-    "idCN": "装备/新词缀获得",
+    "idCN": "装备/词缀/增加x条新词缀",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "<color='#FFB800'>增加%s条新词缀</color>"
   },
   {
     "id": 80600771,
-    "idCN": "装备/新替换词缀获得",
+    "idCN": "装备/词缀/增加x条替换词缀",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "<color='#FFB800'>增加%s条替换词缀</color>"
@@ -12132,7 +12132,7 @@
   },
   {
     "id": 80601043,
-    "idCN": "装备/剩余x条",
+    "idCN": "装备/词缀/替换词缀数量加x",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "替换词缀数量+%s"
@@ -18223,21 +18223,21 @@
   },
   {
     "id": 80601579,
-    "idCN": "装备/固定词条不可替换",
+    "idCN": "装备/词缀/固定词缀不可替换",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "固定词缀不可替换"
   },
   {
     "id": 80601578,
-    "idCN": "装备/替换词条二次确认",
+    "idCN": "装备/词缀/是否确认替换该词缀",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "是否确认替换该词缀？"
   },
   {
     "id": 80601577,
-    "idCN": "装备/词条道具使用二次确认",
+    "idCN": "装备/词缀/词条道具使用二次确认",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "是否确认使用该道具获得1条新的替换词缀？"
@@ -19269,7 +19269,7 @@
   },
   {
     "id": 80601652,
-    "idCN": "装备/存在替换词缀",
+    "idCN": "装备/词缀/已存在无法使用道具",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "已存在替换词缀，无法使用词缀道具。"
@@ -19467,7 +19467,7 @@
   },
   {
     "id": 80601666,
-    "idCN": "装备/是否删除词缀",
+    "idCN": "装备/词缀/是否确认需要删除该替换词缀",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "是否确认需要删除该替换词缀？"
@@ -22344,21 +22344,21 @@
   },
   {
     "id": 80601841,
-    "idCN": "装备/词缀提示文本1",
+    "idCN": "装备/词缀/词缀数量Tips",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "<b>词缀数量</b>\r\n1 武器和护甲词缀上限为4条，挂件上限\r\n为6条。"
   },
   {
     "id": 80601842,
-    "idCN": "装备/词缀提示文本2",
+    "idCN": "装备/词缀/词缀获得Tips",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "<b>词缀获得</b>\r\n1 装备每升10级可以获得一条新的词缀。\r\n2 使用词缀道具也可以获得新的词缀。"
   },
   {
     "id": 80601843,
-    "idCN": "装备/替换提示文本1",
+    "idCN": "装备/词缀/替换词缀Tips",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "<b>替换词缀</b>\r\n1 当装备词缀数量达到上限时，新获得\r\n词缀全部转化为替换词缀。\r\n2 替换词缀可以替换装备上除固定词缀\r\n以外的随机词缀。\r\n3 装备上不能存在两条同类型的词缀，\r\n即同类型的词缀只能替换同类型。"
@@ -22407,7 +22407,7 @@
   },
   {
     "id": 80601847,
-    "idCN": "装备/替换提示文本2",
+    "idCN": "装备/词缀/词缀替换次数Tips",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "<b>词缀替换次数</b>\r\n1 每件装备可替换次数有限，可替换次\r\n数归0后，将不能再进行词缀替换。"
@@ -23463,7 +23463,7 @@
   },
   {
     "id": 80601953,
-    "idCN": "装备/只能替换同类型词缀",
+    "idCN": "装备/词缀/只能替换同类型词缀",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "只能替换同类型词缀"
@@ -69319,63 +69319,63 @@
   },
   {
     "id": 80607452,
-    "idCN": "装备/SSR及以下装备",
+    "idCN": "装备/升级消耗/SSR及以下装备",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "SSR及以下装备"
   },
   {
     "id": 80607453,
-    "idCN": "装备/SR及以下装备",
+    "idCN": "装备/升级消耗/SR及以下装备",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "SR及以下装备"
   },
   {
     "id": 80607454,
-    "idCN": "装备/R及以下装备",
+    "idCN": "装备/升级消耗/R及以下装备",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "R及以下装备"
   },
   {
     "id": 80607455,
-    "idCN": "装备/SSR及以下经验道具",
+    "idCN": "装备/升级消耗/SSR及以下经验道具",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "SSR及以下经验道具"
   },
   {
     "id": 80607456,
-    "idCN": "装备/SR及以下经验道具",
+    "idCN": "装备/升级消耗/SR及以下经验道具",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "SR及以下经验道具"
   },
   {
     "id": 80607457,
-    "idCN": "装备/R及以下经验道具",
+    "idCN": "装备/升级消耗/R及以下经验道具",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "R及以下经验道具"
   },
   {
     "id": 80607458,
-    "idCN": "装备/攻击力",
+    "idCN": "装备/属性/攻击力",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "攻击力"
   },
   {
     "id": 80607459,
-    "idCN": "装备/生命值",
+    "idCN": "装备/属性/生命值",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "生命值"
   },
   {
     "id": 80607460,
-    "idCN": "装备/防御力",
+    "idCN": "装备/属性/防御力",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "防御力"
@@ -69977,7 +69977,7 @@
   },
   {
     "id": 80607548,
-    "idCN": "装备/武器",
+    "idCN": "装备/类型/武器",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "武器"
@@ -69991,14 +69991,14 @@
   },
   {
     "id": 80607549,
-    "idCN": "装备/护甲",
+    "idCN": "装备/类型/护甲",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "护甲"
   },
   {
     "id": 80607550,
-    "idCN": "装备/挂件",
+    "idCN": "装备/类型/挂件",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "挂件"
@@ -70187,7 +70187,7 @@
   },
   {
     "id": 80607577,
-    "idCN": "装备/使用",
+    "idCN": "装备/词缀/刷新词缀",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "刷新词缀"
@@ -70981,8 +70981,8 @@
         "replaceType": "None"
       }
     ],
-    "preAnimName": "happy",
-    "animName": "happy_idle",
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
     "isLoop": true,
     "isReplace": false,
     "replaceType": "PlayerName",
@@ -71004,8 +71004,8 @@
         "replaceType": "None"
       }
     ],
-    "preAnimName": "happy",
-    "animName": "happy_idle",
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
     "isLoop": true,
     "isReplace": false,
     "replaceType": "PlayerName",
@@ -71027,8 +71027,8 @@
         "replaceType": "None"
       }
     ],
-    "preAnimName": "happy",
-    "animName": "happy_idle",
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
     "isLoop": true,
     "isReplace": false,
     "replaceType": "PlayerName",
@@ -71050,8 +71050,8 @@
         "replaceType": "None"
       }
     ],
-    "preAnimName": "happy",
-    "animName": "happy_idle",
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
     "isLoop": true,
     "isReplace": false,
     "replaceType": "PlayerName",
@@ -71073,8 +71073,8 @@
         "replaceType": "None"
       }
     ],
-    "preAnimName": "happy",
-    "animName": "happy_idle",
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
     "isLoop": true,
     "isReplace": false,
     "replaceType": "PlayerName",
@@ -71096,8 +71096,8 @@
         "replaceType": "None"
       }
     ],
-    "preAnimName": "happy",
-    "animName": "happy_idle",
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
     "isLoop": true,
     "isReplace": false,
     "replaceType": "PlayerName",
@@ -71234,8 +71234,8 @@
         "replaceType": "None"
       }
     ],
-    "preAnimName": "sad",
-    "animName": "sad_idle",
+    "preAnimName": "serious",
+    "animName": "serious_idle",
     "isLoop": true,
     "isReplace": false,
     "replaceType": "PlayerName",
@@ -72392,7 +72392,7 @@
     "idCN": "深渊/深度演算关闭",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "【深度演算】处于关闭状态"
+    "text": "处于关闭状态"
   },
   {
     "id": 80607794,
@@ -82176,7 +82176,7 @@
   },
   {
     "id": 80608661,
-    "idCN": "装备/强化等级已达上限",
+    "idCN": "装备/强化/强化等级已达上限",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "强化等级已达上限"
@@ -101400,13 +101400,6 @@
     "text": "前往铁安协同终端提升等级"
   },
   {
-    "id": 4294867299,
-    "idCN": "2预制体/MainUI/车站/维蒂林场",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "维蒂林场"
-  },
-  {
     "id": 80611136,
     "idCN": "快捷挑战/完成全部驱逐",
     "mod": "UI文本",
@@ -107976,7 +107969,7 @@
     "idCN": "交易品升级/可升级金额不足",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "可升级资金不足，无法升级"
+    "text": "可投资资金额度不足，无法升级"
   },
   {
     "id": 80611751,
@@ -108403,7 +108396,7 @@
     "idCN": "帮助/交易所帮助/交易品升级",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "1、列车长可以消耗铁盟币进行“交易品投资”，来提升指定交易品在当前城市的进货和库存量，从而提升贸易效益。 \\n\\n\r2、“交易品投资”时，同时可获得该城市的声望值。\\n\\n\r3、交易品投资初始等级为0级，当前投资上限等级20级。\\n\\n\r4、交易品每次可投资的铁盟币上限受该城市的声望影响，投资额度可以通过进出城市刷新重置。\\n\\n\r5、交易品的升级效果仅在进行过“交易品投资”的城市里生效。\\n\\n"
+    "text": "1、列车长可以消耗铁盟币进行“交易品投资”，来提升指定交易品在当前城市的进货和库存量，从而提升贸易效益。 \\n\\n\r2、“交易品投资”时，同时可获得该城市的声望值。\\n\\n\r3、交易品投资初始等级为0级，当前投资上限等级20级。\\n\\n\r4、交易品每次可投资的铁盟币上限受该城市的声望影响，投资额度可以通过进出城市刷新重置。\\n\\n\r5、交易品的升级效果仅在进行过“交易品投资”的城市里生效。\\n\\n\r6、每个站点的“交易品投资”将分为多部分开放，在第一部分交易品投资等级均达到10级后将开启第二部分，其他以此类推。\\n\\n\r7、列车长需要达到对应城市的特定声望要求后才能对交易品进行投资。不满足条件时，点击对应的交易品投资按钮，会显示所需声望条件。\\n\\n\r8、每累计在“交易品投资”中消耗1亿铁盟币，列车长在所有城市中的所有交易品进货量均会提升1%。"
   },
   {
     "id": 80611854,
@@ -109311,5 +109304,2055 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "本场触发【迸裂】/【擘裂】次数："
+  },
+  {
+    "id": 80611963,
+    "idCN": "交易品升级/下级解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需要将交易品【%s】升级到Lv %d"
+  },
+  {
+    "id": 80611964,
+    "idCN": "交易品升级/所需声望不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "升级所需声望不足，请列车长提升当前城市声望到%d"
+  },
+  {
+    "id": 80611965,
+    "idCN": "委派/委派队伍空闲",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "委派队伍空闲"
+  },
+  {
+    "id": 80611966,
+    "idCN": "委派/委派奖励可收取",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "委派奖励可收取"
+  },
+  {
+    "id": 80611967,
+    "idCN": "委派/派遣队伍达到上限",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "重新派遣队伍超出可派遣队伍数量上限"
+  },
+  {
+    "id": 80611970,
+    "idCN": "家园/垃圾站/自动回收",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "自动回收"
+  },
+  {
+    "id": 80611971,
+    "idCN": "家园/垃圾站/手动回收",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "手动回收"
+  },
+  {
+    "id": 80611972,
+    "idCN": "家园/垃圾站/回收方式",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "回收方式"
+  },
+  {
+    "id": 80611968,
+    "idCN": "装备/属性/基础属性",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "基础属性"
+  },
+  {
+    "id": 80611969,
+    "idCN": "装备/词缀/固定词缀",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "固定词缀"
+  },
+  {
+    "id": 80611981,
+    "idCN": "升级/等级上限突破",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "等级上限突破"
+  },
+  {
+    "id": 80611978,
+    "idCN": "商店/前往支付",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往支付"
+  },
+  {
+    "id": 80611977,
+    "idCN": "制造订单/其他",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "其他"
+  },
+  {
+    "id": 80611976,
+    "idCN": "制造订单/涂料制品",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "涂料制品"
+  },
+  {
+    "id": 80611975,
+    "idCN": "制造订单/衣服制品",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "衣服制品"
+  },
+  {
+    "id": 80611974,
+    "idCN": "制造订单/筛选",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "筛选订单"
+  },
+  {
+    "id": 80611973,
+    "idCN": "制造订单/全部",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "全部"
+  },
+  {
+    "id": 80611953,
+    "idCN": "轮盘战斗/虚演奖励提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需要100%通关才能获取虚演奖励"
+  },
+  {
+    "id": 80611949,
+    "idCN": "轮盘战斗/暂未开放",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "暂未开放"
+  },
+  {
+    "id": 80611983,
+    "idCN": "活动/全域整备/构析勘探",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "构析勘探"
+  },
+  {
+    "id": 80611979,
+    "idCN": "营收排行/营收报告",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "营收报告"
+  },
+  {
+    "id": 80611980,
+    "idCN": "营收排行/排行榜",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "排行榜"
+  },
+  {
+    "id": 80611982,
+    "idCN": "营收排行/一键领取",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "一键领取"
+  },
+  {
+    "id": 80611984,
+    "idCN": "交易品升级/当前增益",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前增益"
+  },
+  {
+    "id": 80611985,
+    "idCN": "交易品升级/当前",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前"
+  },
+  {
+    "id": 80611986,
+    "idCN": "交易品升级/全交易所进货量提升",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "全交易所进货量提升"
+  },
+  {
+    "id": 80611987,
+    "idCN": "交易品升级/再投资",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "再投资"
+  },
+  {
+    "id": 80611988,
+    "idCN": "交易品升级/提升至",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "提升至"
+  },
+  {
+    "id": 80611989,
+    "idCN": "营收排行/当月累计营收额",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当期累计营收额"
+  },
+  {
+    "id": 80611990,
+    "idCN": "营收排行/升级还需赚",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "升级还需赚"
+  },
+  {
+    "id": 80611991,
+    "idCN": "营收排行/升级版",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "升级版"
+  },
+  {
+    "id": 80611992,
+    "idCN": "营收排行/标准版",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "标准版"
+  },
+  {
+    "id": 80611993,
+    "idCN": "营收排行/领取",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "领取"
+  },
+  {
+    "id": 80611994,
+    "idCN": "营收排行/购买升级版",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "购买升级版"
+  },
+  {
+    "id": 80611995,
+    "idCN": "签到挑战/行动进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "行动进度"
+  },
+  {
+    "id": 80611996,
+    "idCN": "签到挑战/等待行动",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "等待行动"
+  },
+  {
+    "id": 80611997,
+    "idCN": "签到挑战/开始行动",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开始行动"
+  },
+  {
+    "id": 80611998,
+    "idCN": "签到挑战/重新行动",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "重新行动"
+  },
+  {
+    "id": 80611999,
+    "idCN": "签到挑战/行动结束",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "行动结束"
+  },
+  {
+    "id": 80612000,
+    "idCN": "签到挑战/完成行动领取",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "所有行动结束可获得"
+  },
+  {
+    "id": 80612001,
+    "idCN": "签到挑战/利刃出鞘",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "利刃出鞘"
+  },
+  {
+    "id": 80612002,
+    "idCN": "00通用/可获得",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可获得"
+  },
+  {
+    "id": 80612012,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/购入/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "不用找零和递收据，反而有点不习惯呢。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612013,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/交谈/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "卡塔斯在店里的表现堪称我的前辈，有时候她应对顾客的方法比蒂丝还要厉害！我从她身上学到了许多。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": true,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612014,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/交谈/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "其实，之前因为担心做的工作不够充分，我也提出要带着武器在店里兼职安保工作……结果当然也是被奥莉薇恩小姐否决了！",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612015,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/交谈/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "之前听说是校园主题，我就提议说应该装饰成学校食堂或者小卖部的风格，结果却被奥莉薇恩小姐否决了……似乎和现实中的校园太接近了会产生奇怪的观感呢。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612016,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/货币不足/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "看来您恰巧没带足够的兑换物来。……这种羽毛会烫手吗？如果您有什么不适的话，请务必让我替您拿着。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612017,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/交谈/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "无论如何，希望事情顺利解决，不要有更多的人受伤才好……为了这个目标，我会做一切能做的努力。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612018,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/浏览商品/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "请您随意挑选~买东西就要买自己喜欢的才好。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612019,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/购入/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "欢迎下次光临~",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612020,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/售罄/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "不好意思，这件货物已经……作为补偿，为您准备一杯饮品吧？",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612021,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/购入/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "感谢您的光临！",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612022,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/交谈/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "故乡的事——啊，在这里说不太方便吧？那么等到以后有机会了，我愿意同您详细说明。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612023,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/浏览商品/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "您希望参考我的意见吗？那我觉得本次的货物品质都相当良好！",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612024,
+    "idCN": "00NPC对话/活动/二周年夏洛蒂/进入界面/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "欢迎光临新月咖啡厅！目前正在举行校园主题活动，请问这位同学有什么需要？——呵呵，这样的接待怎么样呢，列车长？",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": true,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612025,
+    "idCN": "活动/二周年卡塔斯/主界面/炽烈乐章",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "炽烈乐章"
+  },
+  {
+    "id": 80612026,
+    "idCN": "活动/二周年卡塔斯/关卡/掀开新页",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "掀开新页"
+  },
+  {
+    "id": 80612027,
+    "idCN": "活动/二周年卡塔斯/关卡/撰写进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "撰写进度"
+  },
+  {
+    "id": 80612028,
+    "idCN": "活动/二周年卡塔斯/关卡/需解锁前置关卡",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需解锁前置关卡"
+  },
+  {
+    "id": 80612031,
+    "idCN": "活动/二周年卡塔斯/主界面/跳转",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往淘金乐园"
+  },
+  {
+    "id": 80612032,
+    "idCN": "活动/二周年卡塔斯/主界面/骑士守则",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "骑士守则"
+  },
+  {
+    "id": 80612033,
+    "idCN": "活动/二周年卡塔斯/主界面/活动结束",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动结束"
+  },
+  {
+    "id": 80612034,
+    "idCN": "活动/二周年卡塔斯/主界面/传颂史诗",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "传颂史诗"
+  },
+  {
+    "id": 80612035,
+    "idCN": "活动/二周年卡塔斯/主界面/关闭倒计时",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "关闭倒计时"
+  },
+  {
+    "id": 80612036,
+    "idCN": "活动/二周年卡塔斯/主界面/关卡解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成<color=#16D397>[叩响门扉]</color>后解锁"
+  },
+  {
+    "id": 80612037,
+    "idCN": "活动/二周年卡塔斯/主界面/关闭倒计时(时间)",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d<color=#F5F4B3>天</color>%d<color=#F5F4B3>小时</color>"
+  },
+  {
+    "id": 80612038,
+    "idCN": "活动/二周年卡塔斯/主界面/关闭倒计时(分钟)",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d<color=#F5F4B3>小时</color>%d<color=#F5F4B3>分钟</color>"
+  },
+  {
+    "id": 80612039,
+    "idCN": "活动/二周年卡塔斯/主界面/奖励预览",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "奖励预览"
+  },
+  {
+    "id": 80612040,
+    "idCN": "活动/二周年卡塔斯/任务限制",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成主线“%s”解锁"
+  },
+  {
+    "id": 80612041,
+    "idCN": "活动/二周年卡塔斯/主界面/完成度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成度"
+  },
+  {
+    "id": 80612044,
+    "idCN": "活动/二周年卡塔斯/主界面/标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "曼杜斯骑士谭：烈焰篇"
+  },
+  {
+    "id": 80612045,
+    "idCN": "活动/二周年卡塔斯/主界面/新月咖啡厅",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "新月咖啡厅"
+  },
+  {
+    "id": 80612046,
+    "idCN": "签到挑战/撰写进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "撰写进度"
+  },
+  {
+    "id": 80612047,
+    "idCN": "签到挑战/待启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "待启"
+  },
+  {
+    "id": 80612048,
+    "idCN": "签到挑战/撰写新篇",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "撰写新篇"
+  },
+  {
+    "id": 80612049,
+    "idCN": "签到挑战/重温旧章",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "重温旧章"
+  },
+  {
+    "id": 80612050,
+    "idCN": "签到挑战/落定",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "落定"
+  },
+  {
+    "id": 80612051,
+    "idCN": "签到挑战/待写",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "待写"
+  },
+  {
+    "id": 80612052,
+    "idCN": "签到挑战/明日开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "明日开启"
+  },
+  {
+    "id": 80612053,
+    "idCN": "签到挑战/开始撰写",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开始撰写"
+  },
+  {
+    "id": 80612058,
+    "idCN": "活动/全域整备/全域整备",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "全域整备"
+  },
+  {
+    "id": 80612059,
+    "idCN": "活动/全域整备/查看奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "查看本周奖励"
+  },
+  {
+    "id": 80612060,
+    "idCN": "活动/全域整备/本周进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本周进度"
+  },
+  {
+    "id": 80612054,
+    "idCN": "装备/重复装备/生效唯一提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "编队中多名角色装备同名UR装备时，仅生效一件"
+  },
+  {
+    "id": 80612055,
+    "idCN": "装备/重复装备/启用",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "启用"
+  },
+  {
+    "id": 80612056,
+    "idCN": "装备/重复装备/未生效",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未生效"
+  },
+  {
+    "id": 80612057,
+    "idCN": "装备/重复装备/更换装备",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "更换装备"
+  },
+  {
+    "id": 80612029,
+    "idCN": "活动/二周年卡塔斯/主界面/澄心之剑",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "澄心之剑"
+  },
+  {
+    "id": 80612061,
+    "idCN": "活动总览/页签名/全域整备",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "全域整备"
+  },
+  {
+    "id": 80612062,
+    "idCN": "活动/全域整备/行动汇总描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "齐集多种行动，满足物资需求\\n由此收集日常所需装备、材料等物资"
+  },
+  {
+    "id": 80612063,
+    "idCN": "活动/全域整备/构析勘探描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "探测环线污染，分析形态异常\\n由此可直接开始挑战混响浮标与异构厄枝"
+  },
+  {
+    "id": 80612064,
+    "idCN": "00NPC对话/活动/全域整备拉妲/进入界面/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "感谢你前来支援全域整备行动，列车长。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612068,
+    "idCN": "00NPC对话/活动/全域整备拉妲/交谈/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "为了防止出现前线物资不足这类问题，做好整备行动也是后方的本职……",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612069,
+    "idCN": "00NPC对话/活动/全域整备拉妲/交谈/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "自动终端这种东西还真方便，总比在订单上写来划去要好得多了。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612070,
+    "idCN": "00NPC对话/活动/全域整备拉妲/交谈/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "下班后有安排吗？没有的话和我们一起吃顿饭如何？还有你认识的那几个年轻人也在。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612067,
+    "idCN": "00NPC对话/活动/全域整备拉妲/交谈/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "对我来说，能担任这项工作的管理者和参与者是重大的责任。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612066,
+    "idCN": "00NPC对话/活动/全域整备拉妲/交谈/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "吃饱喝足才能做好工作吧？饿了的话和我说。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612065,
+    "idCN": "00NPC对话/活动/全域整备拉妲/进入界面/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "事不宜迟，开始工作吧。我期待你的表现。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612071,
+    "idCN": "活动/全域整备/天时",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d<size=24>天</size>%d<size=24>小时</size>"
+  },
+  {
+    "id": 80612072,
+    "idCN": "活动/全域整备/时",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d<size=24>小时</size>"
+  },
+  {
+    "id": 80612073,
+    "idCN": "活动/全域整备/分钟",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d<size=24>分钟</size>"
+  },
+  {
+    "id": 80612074,
+    "idCN": "活动/全域整备/凭证置换",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "凭证置换"
+  },
+  {
+    "id": 80612075,
+    "idCN": "活动/全域整备/剩余时间天时",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d天%d小时"
+  },
+  {
+    "id": 80612076,
+    "idCN": "活动/全域整备/剩余时间时",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d小时"
+  },
+  {
+    "id": 80612077,
+    "idCN": "活动/全域整备/剩余时间分钟",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d分钟"
+  },
+  {
+    "id": 80612030,
+    "idCN": "帮助/活动帮助/二周年卡塔斯/帮助标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "曼杜斯骑士谭：烈焰篇"
+  },
+  {
+    "id": 80612042,
+    "idCN": "帮助/活动帮助/二周年卡塔斯/活动说明页签",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动导览"
+  },
+  {
+    "id": 80612043,
+    "idCN": "帮助/活动帮助/二周年卡塔斯/活动说明",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "内容概况\r\\n\r火啊，你带来温暖，也降下惩罚，你让宁静消融，也将黑夜烧却。火光之中，何人叙述新的骑士篇章——\r\\n\r一、完成活动剧情\r\\n\r矛盾随火星在城市之间悄悄扩散，沉睡的故事即将醒来。而在熟悉的咖啡厅内，伴随劲爆乐声，一片白色的羽毛静静飘落……\r\\n\r\\n\r二、全新战斗关卡开放 享受全新挑战\r\\n\r活动期间，“曼杜斯骑士谭：烈焰篇”中将开放8个“炽烈乐章”剧情关卡。另外，还将开放8个“传颂史诗”高难周回关卡，列车长们可重复挑战，获取丰厚奖励。\r\\n\r\\n\r三、攻克关卡，获取奖励\r\\n\r参与“曼杜斯骑士谭：烈焰篇”活动的列车长可以通过攻略战斗关卡获得“不死鸟尾羽”，并凭借“不死鸟尾羽”在\"新月咖啡厅\"中换取限定抽卡券、限定UR、限定头像、拉普拉斯协议、银枝、进货采买书、自观测胶卷等多种奖励。\r\\n\r\\n\r四、完成活动成就，获取丰富奖励\r\\n\r本次“曼杜斯骑士谭：烈焰篇”活动中设置了活动任务系统“重要事项”。只要在活动期间达成任务条件，即可领取不死鸟尾羽、自观测胶卷、仙人掌能量棒棒糖、纪念卡包·曼杜斯骑士谭：烈焰篇等奖励。\r\r\r\r※“纪念卡包·曼杜斯骑士谭：烈焰篇”目前仅能在“曼杜斯骑士谭：烈焰篇”活动中获取。卡包内含7张全新设计的卡牌，完成全部阶段奖励以及成就后即可集齐。卡牌在未来版本中会有全新用途，请列车长多多期待。"
+  },
+  {
+    "id": 80612078,
+    "idCN": "装备/重复装备/装备未生效",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "装备未生效"
+  },
+  {
+    "id": 80612080,
+    "idCN": "活动总览/页签名/曼杜斯骑士谭：烈焰篇",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "曼杜斯骑士谭：烈焰篇"
+  },
+  {
+    "id": 80612081,
+    "idCN": "活动总览/页签名/新春暖阳签到",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "新春暖阳签到"
+  },
+  {
+    "id": 80612079,
+    "idCN": "活动/二周年卡塔斯/关卡任务前置",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需完成<color=#FFD05F>【剧情】火焰不熄</color>后开启"
+  },
+  {
+    "id": 80612010,
+    "idCN": "发动机/点燃计数/名称",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": ""
+  },
+  {
+    "id": 80612004,
+    "idCN": "发动机/点燃计数/英文名称",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": ""
+  },
+  {
+    "id": 80612009,
+    "idCN": "发动机/点燃计数/挑战记录",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前最高单场点燃次数：%d"
+  },
+  {
+    "id": 80612003,
+    "idCN": "发动机/点燃计数/本次记录",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本场点燃次数：%d"
+  },
+  {
+    "id": 80612011,
+    "idCN": "发动机/点燃计数/升级信息",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "- 在%s挑战中触发<color=#FFB800>【点燃】</color>%d次"
+  },
+  {
+    "id": 80612005,
+    "idCN": "发动机/点燃计数/MVP角色",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "点燃%d次"
+  },
+  {
+    "id": 80612006,
+    "idCN": "发动机/点燃计数/名称-战斗内",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "点燃记录"
+  },
+  {
+    "id": 80612007,
+    "idCN": "发动机/点燃计数/本次记录-战斗内",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本场点燃次数："
+  },
+  {
+    "id": 80612008,
+    "idCN": "发动机/点燃计数/奖励描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": ""
+  },
+  {
+    "id": 80612082,
+    "idCN": "活动/二周年卡塔斯/主界面/下半章解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "下半章解锁"
+  },
+  {
+    "id": 80612083,
+    "idCN": "活动总览/页签名/共启鸿运",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "共启鸿运"
+  },
+  {
+    "id": 80612084,
+    "idCN": "装备/重复装备/当前角色未装备UR武器",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前角色未装备UR武器"
+  },
+  {
+    "id": 80612085,
+    "idCN": "装备/重复装备/当前角色未装备UR护甲",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前角色未装备UR护甲"
+  },
+  {
+    "id": 80612086,
+    "idCN": "装备/重复装备/当前角色未装备UR挂件",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前角色未装备UR挂件"
+  },
+  {
+    "id": 80612087,
+    "idCN": "2预制体/MainUI/车站/维蒂林场",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "维蒂林场"
+  },
+  {
+    "id": 80612088,
+    "idCN": "活动/林间呓语/主页/完成度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成度"
+  },
+  {
+    "id": 80612089,
+    "idCN": "快捷挑战/城市声望5级后解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "城市声望5级后解锁"
+  },
+  {
+    "id": 80612091,
+    "idCN": "活动/全域整备/未选中事件",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "请选择讨伐目标"
+  },
+  {
+    "id": 80612090,
+    "idCN": "装备/同名UR装备冲突",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "同名UR装备冲突"
+  },
+  {
+    "id": 80612092,
+    "idCN": "活动/全域整备/扫描剩余时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "自动勘测剩余"
+  },
+  {
+    "id": 80612093,
+    "idCN": "活动/全域整备/数据缓冲时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "勘测数据生成中"
+  },
+  {
+    "id": 80612094,
+    "idCN": "签到挑战/准备加训",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "准备加训"
+  },
+  {
+    "id": 80612095,
+    "idCN": "签到挑战/开始加训",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开始加训"
+  },
+  {
+    "id": 80612096,
+    "idCN": "签到挑战/再次加训",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "再次加训"
+  },
+  {
+    "id": 80612097,
+    "idCN": "签到挑战/加训结束",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "加训结束"
+  },
+  {
+    "id": 80612098,
+    "idCN": "签到挑战/加训进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "加训进度"
+  },
+  {
+    "id": 80612102,
+    "idCN": "活动/全域整备/全域勘测",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "全域勘测"
+  },
+  {
+    "id": 80612103,
+    "idCN": "活动/全域整备/勘测成功",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "勘测成功"
+  },
+  {
+    "id": 80612099,
+    "idCN": "装备/装备突破/主属性提高",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "主属性提高<color=#FFB800>+%s</color>"
+  },
+  {
+    "id": 80612100,
+    "idCN": "装备/装备突破/随机词缀数量上限加",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "随机词缀数量上限<color=#FFB800>+%s</color>"
+  },
+  {
+    "id": 80612101,
+    "idCN": "装备/装备突破/固定词缀强化",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "固定词缀强化"
+  },
+  {
+    "id": 80612104,
+    "idCN": "活动/全域整备/勘测道具不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "勘测信标不足，是否前往赴命商店购买？"
+  },
+  {
+    "id": 80612105,
+    "idCN": "活动/全域整备/自动勘测成功",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "自动勘测完成"
+  },
+  {
+    "id": 80612106,
+    "idCN": "活动/全域整备/等待勘测完成",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "请等待自动勘测数据生成"
+  },
+  {
+    "id": 80612107,
+    "idCN": "2预制体/TransportLevelTip/TransportLevelTip/文案10",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往清洁"
+  },
+  {
+    "id": 80612115,
+    "idCN": "营收排行/通行证未开放",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "通行证未开放"
+  },
+  {
+    "id": 80612114,
+    "idCN": "00NPC对话/休息区/海角城/特殊道具/特殊道具1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "人家最近得到消息，<color=#b45e01>海角城</color>的黑月商店可能会出现<color=#b45e01>专属装备泛变装置</color>……请列车长到了那里以后和人家联络吧，说不定，人家能为您找到特别的惊喜哦？",
+    "soundList": [],
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612113,
+    "idCN": "00NPC对话/休息区/岚心城/特殊道具/特殊道具1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "妾身最近听闻，<color=#b45e01>岚心城</color>的黑月商店或许会出现<color=#b45e01>专属装备泛变装置</color>……请列车长到了那里以后来拜访妾身，届时，妾身或能为您提供一点小小助力？",
+    "soundList": [],
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612112,
+    "idCN": "00NPC对话/休息区/修格里城/特殊道具/特殊道具1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "人家最近得到消息，<color=#b45e01>修格里城</color>的黑月商店可能会出现<color=#b45e01>专属装备泛变装置</color>……请列车长到了那里以后和人家联络吧，说不定，人家能为您找到特别的惊喜哦？",
+    "soundList": [],
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612111,
+    "idCN": "00NPC对话/休息区/曼德矿场/特殊道具/特殊道具1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "人家最近得到消息，<color=#b45e01>曼德矿场</color>的黑月商店可能会出现<color=#b45e01>专属装备泛变装置</color>……请列车长到了那里以后和人家联络吧，说不定，人家能为您找到特别的惊喜哦？",
+    "soundList": [],
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612110,
+    "idCN": "00NPC对话/休息区/贡露城/特殊道具/特殊道具1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "人家最近得到消息，<color=#b45e01>贡露城</color>的黑月商店可能会出现<color=#b45e01>专属装备泛变装置</color>……请列车长到了那里以后和人家联络吧，说不定，人家能为您找到特别的惊喜哦？",
+    "soundList": [],
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612109,
+    "idCN": "00NPC对话/休息区/澄明数据中心/特殊道具/特殊道具1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "人家最近得到消息，<color=#b45e01>澄明数据中心</color>的黑月商店可能会出现<color=#b45e01>专属装备泛变装置</color>……请列车长到了那里以后和人家联络吧，说不定，人家能为您找到特别的惊喜哦？",
+    "soundList": [],
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612108,
+    "idCN": "00NPC对话/休息区/7号自由港/特殊道具/特殊道具1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "人家最近得到消息，<color=#b45e01>7号自由港</color>的黑月商店可能会出现<color=#b45e01>专属装备泛变装置</color>……请列车长到了那里以后和人家联络吧，说不定，人家能为您找到特别的惊喜哦？",
+    "soundList": [],
+    "preAnimName": "laugh",
+    "animName": "laugh_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612117,
+    "idCN": "2预制体/MainUI/车站/武林源",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "武林源"
+  },
+  {
+    "id": 80612116,
+    "idCN": "家园/声望",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "声望"
+  },
+  {
+    "id": 80612123,
+    "idCN": "帮助/活动帮助/夏娜联动/帮助标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "火雾战士、降临！"
+  },
+  {
+    "id": 80612124,
+    "idCN": "帮助/活动帮助/夏娜联动/活动说明页签",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动导览"
+  },
+  {
+    "id": 80612125,
+    "idCN": "帮助/活动帮助/夏娜联动/活动说明",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "内容概况\r\\n\r无限的时间停止了鼓动，人类无声地燃烧了起来。无人察觉世界的歪曲——此即为一切的开始。\r\\n\r一、全新战斗关卡开放 享受全新挑战\r\\n\r活动期间，“火雾战士、降临！”中将开放8个“红莲之火”战斗关卡。另外，还将开放8个“苍穹之炎”高难周回关卡，列车长们可重复挑战，获取丰厚奖励。\\n本次活动无活动剧情。\r\\n\r\\n\r二、攻克关卡，获取奖励\r\\n\r参与“火雾战士、降临！”活动的列车长可以通过攻略战斗关卡获得“蜜瓜包兑换券”，并凭借“蜜瓜包兑换券”在\"小食自贩机\"中换取限定抽卡券、限定主题痛车方案、限定头像、拉普拉斯协议、银枝、进货采买书、自观测胶卷等多种奖励。\r\\n\r\\n\r三、完成活动成就，获取丰富奖励\r\\n\r本次“火雾战士、降临！”活动中设置了活动任务系统“火雾的试炼”。只要在活动期间达成任务条件，即可领取蜜瓜包兑换券、自观测胶卷、仙人掌能量棒棒糖、纪念卡包·火雾战士、降临！等奖励。\r\r\r\r※“纪念卡包·火雾战士、降临！”目前仅能在“火雾战士、降临！”活动中获取。卡包内含7张全新设计的卡牌，完成全部阶段奖励以及成就后即可集齐。卡牌在未来版本中会有全新用途，请列车长多多期待。"
+  },
+  {
+    "id": 80612118,
+    "idCN": "活动总览/页签名/火雾战士降临签到",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "火雾战士降临签到"
+  },
+  {
+    "id": 80612126,
+    "idCN": "00NPC对话/活动/朱迪/购入/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎嘎嘎嘎！（叼着一个有绿色√的牌子。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612127,
+    "idCN": "00NPC对话/活动/朱迪/售罄/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎嘎嘎，嘎嘎嘎！（叼着一个有红色×的牌子。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612128,
+    "idCN": "00NPC对话/活动/朱迪/货币不足/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎嘎~嘎嘎~嘎~（叼着很多个有红色×的牌子。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612129,
+    "idCN": "00NPC对话/活动/朱迪/浏览商品/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎——（点头）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612130,
+    "idCN": "00NPC对话/活动/朱迪/浏览商品/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎？（歪头）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612131,
+    "idCN": "00NPC对话/活动/朱迪/交谈/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "（没有说话，只是在撕扯吞咽新到货的蜜瓜包。看起来很喜欢吃。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612132,
+    "idCN": "00NPC对话/活动/朱迪/购入/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎~（叼着一个有绿色√的牌子。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612133,
+    "idCN": "00NPC对话/活动/朱迪/购入/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎嘎，嘎嘎！（叼着一个有绿色√的牌子。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612134,
+    "idCN": "00NPC对话/活动/朱迪/交谈/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎——嘎！（似乎心情愉快，用翅膀扑扇着指向了牌子背面的涂鸦，上面有一个红色长发女孩。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612135,
+    "idCN": "00NPC对话/活动/朱迪/进入界面/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎！（激烈的翅膀扑扇声）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612136,
+    "idCN": "00NPC对话/活动/朱迪/交谈/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "咚咚咚咚咚咚咚！（用力啄地板，可能是在模仿架子鼓。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612137,
+    "idCN": "00NPC对话/活动/朱迪/交谈/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎嘎……嘎嘎嘎嘎……（似乎心情低落，略有歉意，但要表达什么完全看不出来。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612138,
+    "idCN": "00NPC对话/活动/朱迪/交谈/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嘎嘎！嘎嘎嘎阿邦邦邦邦邦嘎！（可能是在模仿吉他叫。）",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80612139,
+    "idCN": "活动/夏娜联动/关卡/需解锁前置关卡",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需解锁前置关卡"
+  },
+  {
+    "id": 80612140,
+    "idCN": "活动/夏娜联动/主界面/红莲之火",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "红莲之火"
+  },
+  {
+    "id": 80612141,
+    "idCN": "活动/夏娜联动/关卡/掀开新页",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "掀开新页"
+  },
+  {
+    "id": 80612142,
+    "idCN": "活动/夏娜联动/关卡/撰写进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "讨伐进度"
+  },
+  {
+    "id": 80612143,
+    "idCN": "活动/夏娜联动/主界面/跳转",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往淘金乐园"
+  },
+  {
+    "id": 80612145,
+    "idCN": "活动/夏娜联动/主界面/火雾的试炼",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "火雾的试炼"
+  },
+  {
+    "id": 80612146,
+    "idCN": "活动/夏娜联动/主界面/活动结束",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动结束"
+  },
+  {
+    "id": 80612147,
+    "idCN": "活动/夏娜联动/主界面/关闭倒计时",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "关闭倒计时"
+  },
+  {
+    "id": 80612148,
+    "idCN": "活动/夏娜联动/主界面/关卡解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成<color=#16D397>[叩响门扉]</color>后解锁"
+  },
+  {
+    "id": 80612149,
+    "idCN": "活动/夏娜联动/主界面/下半章解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "下半章解锁"
+  },
+  {
+    "id": 80612150,
+    "idCN": "活动/夏娜联动/任务限制",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成主线“%s”解锁"
+  },
+  {
+    "id": 80612151,
+    "idCN": "活动/夏娜联动/主界面/完成度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成度"
+  },
+  {
+    "id": 80612153,
+    "idCN": "活动/夏娜联动/主界面/奖励预览",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "奖励预览"
+  },
+  {
+    "id": 80612154,
+    "idCN": "活动/夏娜联动/主界面/关闭倒计时(分钟)",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d<color=#F5F4B3>小时</color>%d<color=#F5F4B3>分钟</color>"
+  },
+  {
+    "id": 80612155,
+    "idCN": "活动/夏娜联动/主界面/关闭倒计时(时间)",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d<color=#F5F4B3>天</color>%d<color=#F5F4B3>小时</color>"
+  },
+  {
+    "id": 80612156,
+    "idCN": "活动/夏娜联动/主界面/小食自贩机",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "小食自贩机"
+  },
+  {
+    "id": 80612157,
+    "idCN": "活动/夏娜联动/主界面/苍穹之炎",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "苍穹之炎"
+  },
+  {
+    "id": 80612158,
+    "idCN": "活动/夏娜联动/关卡任务前置",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需完成<color=#FFD05F>【剧情】火焰不熄</color>后开启"
+  },
+  {
+    "id": 80612159,
+    "idCN": "活动/夏娜联动/商店标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "小食自贩机"
+  },
+  {
+    "id": 80612160,
+    "idCN": "活动/夏娜联动/任务标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "火雾的试炼"
+  },
+  {
+    "id": 80612162,
+    "idCN": "活动/夏娜联动/难度推荐",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "LV%d"
+  },
+  {
+    "id": 80612163,
+    "idCN": "活动/夏娜联动/敌方等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "敌方等级"
+  },
+  {
+    "id": 80612161,
+    "idCN": "交易所/投资/声望等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "声望达到<color=#FFB800>%d</color>解锁"
+  },
+  {
+    "id": 80612169,
+    "idCN": "活动总览/页签名/火雾战士、降临！",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "火雾战士、降临！"
+  },
+  {
+    "id": 80612168,
+    "idCN": "签到挑战/讨伐完成",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "讨伐完成"
+  },
+  {
+    "id": 80612167,
+    "idCN": "签到挑战/再次讨伐",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "再次讨伐"
+  },
+  {
+    "id": 80612166,
+    "idCN": "签到挑战/开始讨伐",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开始讨伐"
+  },
+  {
+    "id": 80612165,
+    "idCN": "签到挑战/等待讨伐",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "等待讨伐"
+  },
+  {
+    "id": 80612164,
+    "idCN": "签到挑战/讨伐进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "讨伐进度"
+  },
+  {
+    "id": 80612122,
+    "idCN": "主界面/乱序根须",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "乱序根须"
+  },
+  {
+    "id": 80612121,
+    "idCN": "主界面/异构厄枝",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "异构厄枝"
+  },
+  {
+    "id": 80612120,
+    "idCN": "活动/全域整备/未设置讨伐目标",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "请先选择需要讨伐的目标"
+  },
+  {
+    "id": 80612119,
+    "idCN": "活动/全域整备/无法自动讨伐",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前没有符合条件的讨伐目标"
+  },
+  {
+    "id": 80612179,
+    "idCN": "活动/全域整备/x天",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "天"
+  },
+  {
+    "id": 80612180,
+    "idCN": "活动/全域整备/x小时",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "小时"
+  },
+  {
+    "id": 80612181,
+    "idCN": "活动/全域整备/x分钟",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "分钟"
+  },
+  {
+    "id": 80612170,
+    "idCN": "发动机/存在之力计数/名称",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": ""
+  },
+  {
+    "id": 80612172,
+    "idCN": "发动机/存在之力计数/英文名称",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": ""
+  },
+  {
+    "id": 80612171,
+    "idCN": "发动机/存在之力计数/奖励描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": ""
+  },
+  {
+    "id": 80612173,
+    "idCN": "发动机/存在之力计数/名称-战斗内",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "【存在之力】层数记录"
+  },
+  {
+    "id": 80612174,
+    "idCN": "发动机/存在之力计数/MVP角色",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得【存在之力】%d层"
+  },
+  {
+    "id": 80612175,
+    "idCN": "发动机/存在之力计数/本次记录",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本场获取【存在之力】层数：%d"
+  },
+  {
+    "id": 80612176,
+    "idCN": "发动机/存在之力计数/升级信息",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "- 在%s挑战中获得【存在之力】%d层"
+  },
+  {
+    "id": 80612177,
+    "idCN": "发动机/存在之力计数/挑战记录",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前最高单场获得【存在之力】层数：%d"
+  },
+  {
+    "id": 80612178,
+    "idCN": "发动机/存在之力计数/本次记录-战斗内",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本场获得【存在之力】层数："
+  },
+  {
+    "id": 80612182,
+    "idCN": "交易所/货物声望解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本城声望达到<color=#FFB800>%d</color>解锁"
+  },
+  {
+    "id": 80612144,
+    "idCN": "1预制体/CharacterInfo/ChangePosterGirl/文案15",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "+"
+  },
+  {
+    "id": 80612183,
+    "idCN": "活动总览/页签名/适口性验证",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "适口性验证"
+  },
+  {
+    "id": 80612184,
+    "idCN": "装备/装备突破/数量已满足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已满足突破所需的同名装备与道具数量"
+  },
+  {
+    "id": 80612185,
+    "idCN": "装备/装备突破/数量不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "同名装备与道具数量不足，无法突破"
+  },
+  {
+    "id": 80612186,
+    "idCN": "装备/装备突破/金币不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "金币不足，无法突破"
+  },
+  {
+    "id": 80612188,
+    "idCN": "装备/装备突破/最大等级上限",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "最大等级上限"
+  },
+  {
+    "id": 80612187,
+    "idCN": "装备/装备突破/等级不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未满足突破所需等级要求，无法突破"
+  },
+  {
+    "id": 80612189,
+    "idCN": "装备/装备突破/突破成功",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "突破成功"
+  },
+  {
+    "id": 80612190,
+    "idCN": "装备/装备突破/主属性提升文本",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%s+%s >> %s + <color=#FFB800>+%s</color>"
+  },
+  {
+    "id": 80612152,
+    "idCN": "主界面/0预制体/城市发展度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "城市发展度"
   }
 ]
